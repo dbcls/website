@@ -7,7 +7,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_fig-2_180523.png)
 
-#### RefExの特徴
+### RefExの特徴
 
 ##### 正常組織・細胞等の遺伝子発現状況を ひと目で
 
@@ -25,7 +25,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 
 * RefExが提供するすべてのデータは、クリエイティブ·コモンズライセンスのもとで、オープンデータとして自由にダウンロードおよび再利用することができます。検索結果一覧や詳細情報ページのデータはいずれもダウンロードすることが可能で、研究者自身のデータと参照することも、それらを使った再解析も自由に行うことができます。また、外部の研究データレポジトリ「figshare」にも全てのデータがDOI付きで公開されています [(https://doi.org/10.6084/m9.figshare.c.3812815)](https://doi.org/10.6084/m9.figshare.c.3812815)。 さらに、ソフトウェア開発プロジェクトのための共有ウェブサービス「GitHub」上にも、公開データの再解析に用いたプログラムやドキュメントを整理しており、RefExで提供する再解析データについてある一定の評価品質および再現性を担保しています [(https://github.com/dbcls/RefEx)](https://github.com/dbcls/RefEx)。RefExは生命科学データの共有および再利用の活用例のひとつであり、データ駆動型研究のためのデータセット、ウェブツールとしてだれでも自由に使うことができます。
 
-#### 利用例
+### 利用例
 
 * 正常組織や細胞株における遺伝子発現データを調べる｡
 * 測定手法による遺伝子発現量の違いを比較する｡
@@ -34,11 +34,11 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 ![fig-3'](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_fig-3_180523.png)
 
 
-#### 今後の開発予定
+### 今後の開発予定
 
 * 今後は、世界各地で進められている遺伝子発現に関する大規模研究プロジェクト（FANTOM、GTExなど）を中心に、高精度かつ広範囲な遺伝子発現データを収集し、統合することによって、より有用性の高い参照データを作成する予定です。また、それらの参照データを簡単に検索したり、発現データ同士を詳細に比較したりすることを可能にする直感的なウェブインターフェースの開発を進めています。
 
-#### 参考文献
+### 参考文献
 
 * Hiromasa Ono, Osamu Ogasawara, Kosaku Okubo, Hidemasa Bono
     **RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes**
