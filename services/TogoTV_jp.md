@@ -4,7 +4,7 @@
 データベースやウェブツールの使い方を動画で配信するサービスです。提供している動画は1400本を超えています。(2018年5月末現在)(http://togotv.dbcls.jp/)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-1_180523.png)  
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-2_180523.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-2_180523.png)
 
 ### 統合TVの特徴
 
