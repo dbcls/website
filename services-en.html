@@ -1,0 +1,109 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en" data-page-type="services">
+
+<head>
+  <title>Services ｜ DBCLS</title>
+  <meta charset="UTF-8">
+  <link href="style/default.css" rel="stylesheet">
+  <link href="style/github-markdown.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+  </script>
+  <script src="script/marked.min.js">
+  </script>
+  <script src="script/ofi.min.js">
+  </script>
+  <style>
+    .papers_citing_table td a {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  {% include header_en.html %}
+  <div class="content__wrapper">
+    <div id="subWrap">
+      <div class="sub__navigation sticky service__side-bar">
+        <h2 class="page-title">Services</h2>
+        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+          <li class="sub__navigation-title outline-list-category__title active">
+            <a href="">Services</a>
+            <ul>
+              <li class="tag_panel ">
+                <span class="tag_panel-category-title">Category</span>
+                <div class="tag_panel_header controls">
+                  <button type="button" class="tag_element term control" data-filter="all">
+                    All
+                  </button>
+                  <button type="button" class="tag_element omics control" data-toggle=".omics">
+                    Omics tools
+                  </button>
+                  <button type="button" class="tag_element text-mining control" data-toggle=".text-mining">
+                    Text mining
+                  </button>
+                  <button type="button" class="tag_element contents control" data-toggle=".contents">
+                    Contents
+                  </button>
+                  <button type="button" class="tag_element semantic control" data-toggle=".semantic">
+                    Semantic web
+                  </button>
+                </div>
+              </li>
+              <li class="tag_panel">
+                <span class="tag_panel-category-title">User</span>
+                <div class="tag_panel_header controls">
+                  <button type="button" class="tag_element all control" data-filter="all">
+                    All
+                  </button>
+                  <button type="button" class="tag_element biologist control" data-toggle=".biologist">
+                    Database user
+                  </button>
+                  <button type="button" class="tag_element application control" data-toggle=".application">
+                    Database
+                    <br>
+                    <span class="category-double-col">application developer</span>
+                  </button>
+                  <button type="button" class="tag_element data-scientist control" data-toggle=".data-scientist">
+                    Data scientist
+                  </button>
+                  <button type="button" class="tag_element provider control" data-toggle=".provider">
+                    Data provider
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="sub__navigation-title outline-list-category__title">
+            <a href="references-en.html">Papers Citing our services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main__contents main__contents__services">
+      <div class="main__content-title__wrapper">
+        <h3 class="main__content-title">Services</h3>
+      </div>
+      <div class="main__contents-servece">
+        <!--h3 class="main__content-title content-title__services">コンテンツ</h3-->
+        <div class="section-wrapper">
+          <div class="service__wrapper wrapper-type-box" id="service_list"></div>
+          <div id="loader-bg">
+            <div id="loader">
+              <p>Now Loading...</p>
+            </div>
+          </div>
+          <table class="papers_citing_table" id="table">
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>{% include footer_en.html %}
+  <script src="script/mixitup.min.js"></script>
+
+  <script src="script/default-min.js"></script>
+</body>
+
+</html>

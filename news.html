@@ -1,0 +1,91 @@
+---
+layout: default
+title: ニュース一覧
+data-type: news
+---
+{% include header.html %}
+<div class="content__wrapper">
+  <div>
+    <div class="sub__navigation sticky">
+      <h2 class="page-title">News</h2>
+      <div class="outline-list-category">
+        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+          <li class="sub__navigation-title outline-list-category__title active"><a href="/dbcls-test/news.html">ニュース一覧</a></li>
+          <li class="tag_panel">
+            <span class="tag_panel-category-title">年</span>
+            <div class="tag_panel_header controls">
+              <button type="button" class="tag_element term control" data-filter="all">
+                全期間
+              </button>
+              <button type="button" class="tag_element term control" data-filter=".category_year-2018">
+                2018
+              </button>
+              <button type="button" class="tag_element term control" data-filter=".category_year-2017">
+                2017
+              </button>
+              <button type="button" class="tag_element term control" data-filter=".category_year-2016">
+                2016
+              </button>
+            </div>
+          </li>
+          <li class="tag_panel">
+            <span class="tag_panel-category-title">タグ</span>
+            <div class="tag_panel_header controls">
+              <button type="button" class="tag_element tag-all control" data-filter="all">
+                すべて
+              </button>
+              <button type="button" class="tag_element tag-service control" data-toggle=".service">
+                サービス
+              </button>
+              <button type="button" class="tag_element tag-publishment control" data-toggle=".publishment">
+                広報
+              </button>
+              <button type="button" class="tag_element tag-event control" data-toggle=".event">
+                イベント
+              </button>
+              <button type="button" class="tag_element tag-invite control" data-toggle=".invite">
+                募集
+              </button>
+              <button type="button" class="tag_element tag-other control" data-toggle=".other">
+                その他
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main__contents">
+    <div class="main__content-title__wrapper">
+      <h3 class="main__content-title">ニュース一覧</h3>
+    </div>
+    <ul class="news__individual-wrapper">
+      {% for post in site.categories.ja %} {% assign tags = post.tags | append: " " %}
+      <li class='post__individual mix {{ tags }} category_year-{{post.date | date: "%Y"}}'>
+        <div class="post__date">
+          {{post.date | date: '%Y. %m. %d'}}
+        </div>
+        <div class="post__main post__main-news">
+          <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign beginning = post.content | slice: 0, 150 | strip_html%}
+          <p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
+          <div class="post__sub-info">
+            <div class="post-tags">
+              {% include post_meta.html %}
+            </div>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<script>
+var containerEl = document.querySelector('.news__individual-wrapper');
+
+var mixer = mixitup(containerEl, {
+  controls: {
+    toggleLogic: 'or'
+  }
+});
+</script>
+{% include footer.html %}

@@ -1,0 +1,16 @@
+
+@font-face {
+	font-family: 'GothamPro-Light';
+	src: url('../fonts/GothamPro-Light.eot?') format('eot'), 
+	     url('../fonts/GothamPro-Light.otf')  format('opentype'),
+	     url('../fonts/GothamPro-Light.woff') format('woff'), 
+	     url('../fonts/GothamPro-Light.ttf')  format('truetype'),
+	     url('../fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
+
+	font-family: 'GothamPro-Bold';
+	src: url('../fonts/GothamPro-Bold.eot?') format('eot'), 
+	     url('../fonts/GothamPro-Bold.otf')  format('opentype'),
+	     url('../fonts/GothamPro-Bold.woff') format('woff'), 
+	     url('../fonts/GothamPro-Bold.ttf')  format('truetype'),
+	     url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');	     
+}

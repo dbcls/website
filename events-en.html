@@ -1,0 +1,71 @@
+---
+---
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://dbcls.rois.ac.jp/member -->
+<html lang="en" data-page-type="events">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Event ｜ DBCLS</title>
+  <link rel="stylesheet" href="style/default.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <style type="text/css">
+  .pc-side-nav-fixed {
+    width: 18%;
+    position: fixed;
+  }
+  </style>
+</head>
+
+<body>
+  {% include header_en.html %}
+  <div class="content__wrapper">
+    <div id="subWrap">
+      <div class="sub__navigation sticky">
+        <h2 class="page-title">Events</h2>
+        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+          <li class="sub__navigation-title outline-list-category__title active">Events</li>
+        </ul>
+      </div>
+    </div>
+    <main id="main">
+      <div class="main__contents" id="main__contents">
+        <div id="main__contents-event">
+          <div class="main__content-title__wrapper">
+            <h3 class="main__content-title">Events</h3>
+          </div>
+          <div class="main__contents-event">
+            <ul class="news__individual-wrapper">
+              {% for post in site.categories.en limit:10 %} {% if post.tags contains 'event' %}
+              <li class='post__individual'>
+                <div class="post__date">
+                  {{post.date | date: '%Y. %m. %d'}}
+                </div>
+                <div class="post__main post__main-top">
+                  <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign beginning = post.content | slice: 0, 150 | strip_html%}
+                  <p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
+                  <div class="post__sub-info">
+                    <div class="post-tags">
+                      {% include post_meta.html %}
+                    </div>
+                  </div>
+                </div>
+              </li>
+              {% endif %} {% endfor %}
+            </ul>
+            <a href="news-en.html" class="more_btn page_btn jump_to_event">more</a>
+          </div>
+        </div>
+        <div id="main__contents-public">
+          <div class="section-wrapper">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  {% include footer_en.html %}
+  <script src="script/default-min.js"></script>
+</body>
+</html>

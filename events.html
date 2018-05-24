@@ -1,0 +1,75 @@
+---
+---
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://dbcls.rois.ac.jp/member -->
+<html lang="ja" data-page-type="events">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>イベント ｜ DBCLS</title>
+  <link rel="stylesheet" href="style/default.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <style type="text/css">
+  .pc-side-nav-fixed {
+    width: 18%;
+    position: fixed;
+  }
+  </style>
+</head>
+
+<body>
+  {% include header.html %}
+  <div class="content__wrapper">
+    <div id="subWrap">
+      <div class="sub__navigation sticky">
+        <h2 class="page-title">Event</h2>
+        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+          <li class="sub__navigation-title outline-list-category__title active">開催イベント一覧</li>
+        </ul>
+      </div>
+    </div>
+    <main id="main">
+      <div class="main__contents" id="main__contents">
+        <div id="main__contents-event">
+          <div class="main__content-title__wrapper">
+            <h3 class="main__content-title">開催イベント一覧</h3>
+          </div>
+          <div class="main__contents-event">
+            <ul class="news__individual-wrapper">
+              {% for post in site.categories.ja limit:10 %}
+                {% if post.tags contains 'event' %}
+                  <li class='post__individual'>
+                    <div class="post__date">
+                      {{post.date | date: '%Y. %m. %d'}}
+                    </div>
+                    <div class="post__main post__main-top">
+                      <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
+                      {% assign beginning = post.content | slice: 0, 150 | strip_html%}
+                      <p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
+                      <div class="post__sub-info">
+                        <div class="post-tags">
+                          {% include post_meta.html %}
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <a href="news.html" class="more_btn page_btn jump_to_event">more</a>
+          </div>
+        </div>
+        <div id="main__contents-public">
+          <p class="public__description">DBCLSでは、国内外の生命科学研究者を対象とした様々なイベントを開催しているほか、学会や研究会での広報活動も行っています。その内容は、データベース構築者向けの技術勉強会から、実験研究者向けのデータベース講習会まで、多岐にわたります。</p>
+          <div class="section-wrapper">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  {% include footer.html %}
+<script src="script/default-min.js"></script>
+</body>
+</html>
