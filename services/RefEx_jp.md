@@ -3,9 +3,9 @@
 
 RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。 (http://refex.dbcls.jp/)  
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_fig-1_180523.png)  
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-1_180523.png)  
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_fig-2_180523.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-2_180523.png)
 
 ### RefExの特徴
 
@@ -31,7 +31,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 * 測定手法による遺伝子発現量の違いを比較する｡
 * 組織特異的に発現する遺伝子をワンタッチで検索可能｡
 * 遺伝子発現解析などで見出された不詳な遺伝子群の機能および関係性を調べる｡
-![fig-3'](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_fig-3_180523.png)
+![fig-3'](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-3_180523.png)
 
 
 ### 今後の開発予定
