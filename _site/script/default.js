@@ -464,8 +464,9 @@ var initialize = {
       }
     }, false)
 
-    //デフォルトは英語版README表示
+    //README表示
     $(document).on('click', '.more_btn', function() {
+      $('html,body').scrollTop(0);
       var service_name = $(this).parent().siblings('.name').html()
       service_name = service_name.replace(' ', '_')
       displayRepos(service_name)
@@ -856,7 +857,9 @@ script.addEventListener('load', function() {
     $('.lang-en span').on('click', function() {
       if (path.match(/\/ja\/\d+\/\d+\/\d+\//)) {
         window.location.href = path.replace('/ja/', '/en/')
-      } else {
+      } else if (path.match(/services.html#/)) {
+        console.log('サービス詳細ページ！')
+      }else {
         var link = pageType + '-en.html'
         window.location.href = link
       }

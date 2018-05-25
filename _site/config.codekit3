@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -4778,7 +4785,7 @@
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
-		"oAP": "\/_site\/img\/service_assets\/新着論文レビュー.png",
+		"oAP": "\/_site\/img\/service_assets\/新着論文レビュー.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4800,7 +4807,7 @@
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
-		"oAP": "\/_site\/img\/service_assets\/領域融合レビュー.png",
+		"oAP": "\/_site\/img\/service_assets\/領域融合レビュー.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
