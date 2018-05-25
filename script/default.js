@@ -1,10 +1,10 @@
 var script = document.createElement('script')
 var script_sticky = document.createElement('script')
 var tags = {
-  'publishment': '広報',
-  'service': 'サービス',
-  'event': 'イベント',
-  'invite': '募集',
+  'public_relations': '広報',
+  'services': 'サービス',
+  'events': 'イベント',
+  'registration': '募集',
   'other': 'その他'
 }
 
@@ -853,6 +853,7 @@ script.addEventListener('load', function() {
     //header言語切り替え
     var url = window.location;
     var path = url.href;
+
 
     $('.lang-en span').on('click', function() {
       if (path.match(/\/ja\/\d+\/\d+\/\d+\//)) {
