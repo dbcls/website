@@ -479,7 +479,7 @@ var initialize = {
       function getData() {
         return $.ajax({
           type: 'GET',
-          url: './services/' + repos_name + '_jp.md'
+          url: './services/' + repos_name + '_ja.md'
         })
       }
       var arranged_data = ''
