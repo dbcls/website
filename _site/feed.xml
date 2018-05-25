@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>統合データベース講習会：AJACS越後（2018年6月26-27日）の参加者募集中です</title>
+        
+          <description>&lt;p&gt;新潟大学理学部マルチメディア教室 にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。
+現在参加者募集中です。 (申込締切：2018年6月18日(月)まで)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 May 2018 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/ja/2018/05/25/post1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ja/2018/05/25/post1.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>統合TVのYouTubeにおける動画再生回数が100万回を突破しました</title>
         
           <description>&lt;p&gt;&lt;a href=&quot;http://togotv.dbcls.jp/ja/&quot;&gt;統合TV&lt;/a&gt;は、生命科学分野の有用なデータベース(DB)やツールの使い方を動画で紹介するウェブサイトです。&lt;/p&gt;
@@ -159,24 +175,6 @@
         <link>
         http://localhost:4000/ja/2018/02/23/post2.html</link>
         <guid isPermaLink="true">http://localhost:4000/ja/2018/02/23/post2.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>データのLOD化を加速させる 「JSON2LD Mapper」 が LODチャレンジ 2017 アイデア部門で優秀賞を受賞しました</title>
-        
-          <description>&lt;p&gt;当センターの山本泰智特任准教授が国立遺伝学研究所の藤澤貴智特任研究員と構想したアプリケーション開発案、&lt;a href=&quot;http://idea.linkdata.org/idea/idea1s2473i&quot;&gt;JSON2LD Mapper&lt;/a&gt;がこの度、&lt;a href=&quot;http://2017.lodc.jp/&quot;&gt;LODチャレンジ&lt;/a&gt;アイデア部門において優秀賞を受賞しました。LODチャレンジは、オープンデータを “つなげる” ことによる新しい価値の創造を目指して、アイデア部門やアプリケーション部門など、5部門において作品を募集し、優れた作品を表彰する毎年開催されているコンテストで、今年で7回目になります。&lt;/p&gt;
-
-&lt;p&gt;このたび受賞したJSON2LD Mapperを利用することで、多くのウェブアプリケーションが利用しているJSON形式のデータをJSON-LD形式、すなわちRDFに効率よく変換しやすくなります。その結果、RDFデータに馴染みのないウェブアプリケーション開発者のセマンティックウェブ関連開発への参入を促すことに繋がり、より多くのデータのRDF化を加速させることが期待できます。&lt;/p&gt;
-
-&lt;p&gt;DBCLSは、生命科学分野におけるデータベース利用環境の向上を目指して様々なアプリケーション開発を進めております。今般受賞しましたJSON2LD Mapperの構想につきましても速やかに実現すべく開発に着手していく計画です。&lt;/p&gt;
-</description>
-        
-        <pubDate>Fri, 23 Feb 2018 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ja/2018/02/23/post1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ja/2018/02/23/post1.html</guid>
       </item>
       
     
