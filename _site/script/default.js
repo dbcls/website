@@ -125,7 +125,7 @@ var initialize = {
     tags_key.map(function(data) {
       $('a[tag="' + data + '"]').before('<img src="/website/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
-
+    marked($('.markdown-body').html())
     //タグ名を日本語に変換
     if (path.indexOf("ja") >= 0) {
       $('.tag_name').each(function() {

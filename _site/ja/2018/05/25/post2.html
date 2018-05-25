@@ -1,3 +1,4 @@
+--- ---
 <!DOCTYPE html>
 <html lang="en" data-page-type="post">
 
@@ -5,7 +6,11 @@
   <meta charset="UTF-8">
   <title>国内版バイオハッカソン BH18.7 参加者募集および参加登録開始のご案内 | DBCLS</title>
   <link rel="stylesheet" href="../../../../style/default.css">
+  <link href="../../../../style/github-markdown.css" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="My Site RSS" href="/feed.xml" />
+  <script src="../../../../script/marked.min.js"></script>
+  <script src="../../../../script/ofi.min.js">
+  </script>
 </head>
 
 <body>
@@ -110,7 +115,7 @@
 
         </div>
       </div>
-      <div class="post__main-text">
+      <div class="post__main-text markdown-body">
         <p>2018年7月16日から7月20日にかけて、徳島にて国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会として、第9回 国内版バイオハッカソン BH18.7 を開催いたします。<a href="http://wiki.lifesciencedb.jp/mw/BH18.7">国内版バイオハッカソン BH18.7</a><br />
 <br /></p>
 
@@ -152,11 +157,11 @@
 <ul>
   <li>BH18.7 参加登録フォーム → https://tinyurl.com/bh18-7-regist</li>
   <li>6/30 〆切予定<br />
-<br />
-    <h1 id="開催趣旨">開催趣旨</h1>
-    <p><a href="http://dbcls.rois.ac.jp/">DBCLS</a> では、ライフサイエンスのデータベース統合についての技術開発を支援・最新技術の情報共有・実務者間での交流を促進するため、これまで10回の<a href="http://biohackathon.org/">国際版 BioHackathon</a> と8回の国内版バイオハッカソン <a href="/mw/BH10.10" title="BH10.10">BH10.10</a>, <a href="/mw/BH11.11" title="BH11.11">BH11.11</a>, <a href="/mw/BH12.12" title="BH12.12">BH12.12</a>, <a href="/mw/BH13.13" title="BH13.13">BH13.13</a>, <a href="/mw/BH14.14" title="BH14.14">BH14.14</a>, <a href="/mw/BH15.15" title="BH15.15">BH15.15</a>, <a href="/mw/BH16.12" title="BH16.12">BH16.12</a>, <a href="/mw/BH17.11" title="BH17.11">BH17.11</a>を開催してまいりました。<a href="http://biosciencedbc.jp/">NBDC</a> の <a href="http://biosciencedbc.jp/tec-dev-prog/funding-program">統合化推進プログラム</a>に参画されている各機関においても様々なデータベースを構築してきて頂いています。その成果の一部は、<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon">SPARQLthon</a> などを通じてセマンティック・ウェブに対応した RDF 形式によって統合され、<a href="http://integbio.jp/rdf/">NBDC RDF Portal</a> からリリースされています。また、海外においても UniProt や BioModels, BioSamples, ChEMBL, Expression Atlas, Reactome などの各種データベースが <a href="http://www.ebi.ac.uk/rdf/">EBI RDF Platform</a> から、Ensembl も <a href="http://www.ensembl.info/blog/2015/12/08/ensembl-83-has-been-released/">リリース83</a> から RDF でのデータ提供が行われており、NCBI からも <a href="http://pubchem.ncbi.nlm.nih.gov/rdf/">PubChem</a> などの RDF が提供されるようになってきています。これらの RDF データは既存のものに比べて分野横断的な統合が容易になっていますが、今後より多くのデータを統合し、アプリケーション開発などによってその活用を推進していくためには、さらなる情報共有と技術開発を継続する必要があると考えられます。</p>
-  </li>
+<br /></li>
 </ul>
+
+<h1 id="開催趣旨">開催趣旨</h1>
+<p><a href="http://dbcls.rois.ac.jp/">DBCLS</a> では、ライフサイエンスのデータベース統合についての技術開発を支援・最新技術の情報共有・実務者間での交流を促進するため、これまで10回の<a href="http://biohackathon.org/">国際版 BioHackathon</a> と8回の国内版バイオハッカソン <a href="/mw/BH10.10" title="BH10.10">BH10.10</a>, <a href="/mw/BH11.11" title="BH11.11">BH11.11</a>, <a href="/mw/BH12.12" title="BH12.12">BH12.12</a>, <a href="/mw/BH13.13" title="BH13.13">BH13.13</a>, <a href="/mw/BH14.14" title="BH14.14">BH14.14</a>, <a href="/mw/BH15.15" title="BH15.15">BH15.15</a>, <a href="/mw/BH16.12" title="BH16.12">BH16.12</a>, <a href="/mw/BH17.11" title="BH17.11">BH17.11</a>を開催してまいりました。<a href="http://biosciencedbc.jp/">NBDC</a> の <a href="http://biosciencedbc.jp/tec-dev-prog/funding-program">統合化推進プログラム</a>に参画されている各機関においても様々なデータベースを構築してきて頂いています。その成果の一部は、<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon">SPARQLthon</a> などを通じてセマンティック・ウェブに対応した RDF 形式によって統合され、<a href="http://integbio.jp/rdf/">NBDC RDF Portal</a> からリリースされています。また、海外においても UniProt や BioModels, BioSamples, ChEMBL, Expression Atlas, Reactome などの各種データベースが <a href="http://www.ebi.ac.uk/rdf/">EBI RDF Platform</a> から、Ensembl も <a href="http://www.ensembl.info/blog/2015/12/08/ensembl-83-has-been-released/">リリース83</a> から RDF でのデータ提供が行われており、NCBI からも <a href="http://pubchem.ncbi.nlm.nih.gov/rdf/">PubChem</a> などの RDF が提供されるようになってきています。これらの RDF データは既存のものに比べて分野横断的な統合が容易になっていますが、今後より多くのデータを統合し、アプリケーション開発などによってその活用を推進していくためには、さらなる情報共有と技術開発を継続する必要があると考えられます。</p>
 
 <p>一方、バイオインフォマティクスにおけるデータベースの利活用は目的も手法も多岐にわたります。このため、国内版バイオハッカソンのテーマについては上記に挙げられた DBCLS や NBDC の統合化推進プログラムで進められているセマンティック・ウェブによるデータベース統合に限らず、国内の生命情報学系の研究者間で共にディスカッションやソフトウェア開発が促進できるものであれば全て国内版バイオハッカソンのスコープに入ると考えられます。また、民間の方からもぜひ、公共データの社内での活用や情報統合の課題、産学連携で開発・利用できそうな研究課題やソフトウェア技術など、バイオ寄りからインフォ寄りまで議論・開発のネタを自由に持ち込んで頂ければと思います。</p>
 
