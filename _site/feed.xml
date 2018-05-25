@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>国内版バイオハッカソン BH18.7 参加者募集および参加登録開始のご案内</title>
+        
+          <description>&lt;p&gt;2018年7月16日から7月20日にかけて、徳島にて国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会として、第9回 国内版バイオハッカソン BH18.7 を開催いたします。&lt;a href=&quot;http://wiki.lifesciencedb.jp/mw/BH18.7&quot;&gt;国内版バイオハッカソン BH18.7&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 May 2018 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/ja/2018/05/25/post2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ja/2018/05/25/post2.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>統合データベース講習会：AJACS越後（2018年6月26-27日）の参加者募集中です</title>
         
           <description>&lt;h1 id=&quot;title&quot;&gt;title&lt;/h1&gt;
@@ -158,22 +174,6 @@
         <link>
         http://localhost:4000/ja/2018/02/26/post1.html</link>
         <guid isPermaLink="true">http://localhost:4000/ja/2018/02/26/post1.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>LODデータの活用を促進するツール 「SPARQList」 が LODチャレンジ 2017 基盤技術部門で優秀賞を受賞しました</title>
-        
-          <description>&lt;p&gt;当センターの片山 俊明 特任助教 および 川島 秀一 特任助教 が開発する、&lt;a href=&quot;http://idea.linkdata.org/idea/idea1s2461i&quot;&gt;SPARQList&lt;/a&gt;がこの度、&lt;a href=&quot;http://2017.lodc.jp/&quot;&gt;LODチャレンジ&lt;/a&gt;基盤技術部門において優秀賞を受賞しました。LODチャレンジは、オープンデータを “つなげる” ことによる新しい価値の創造を目指して、アイデア部門やアプリケーション部門など、5部門において作品を募集し、優れた作品を表彰する毎年開催されているコンテストで、今年で7回目になります。&lt;/p&gt;
-
-&lt;p&gt;SPARQLエンドポイントは柔軟な検索機能を提供できる便利な仕組みですが、複雑なクエリをパラメータを変えて繰り返し利用したり、ウェブアプリケーションに組み込んで利用する場合には、REST APIになっていると使いやすくなります。SPARQListは、様々なSPARQLクエリをシンプルなREST APIとして提供すると同時に、ドキュメントの自動生成やパラメータ変更や実行のインターフェース生成も行える強力なツールです。LODチャレンジでは、SPARQListの着眼点と、LOD公開者と活用者のどちらにも有用なツールである点を評価していただきました。&lt;/p&gt;
-</description>
-        
-        <pubDate>Fri, 23 Feb 2018 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ja/2018/02/23/post2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ja/2018/02/23/post2.html</guid>
       </item>
       
     

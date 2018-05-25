@@ -2181,6 +2181,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_posts\/ja\/2018-05-25-post2.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/ja\/2018-05-25-post2.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_site\/about-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5521,6 +5539,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/ja\/2018\/05\/25\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/ja\/2018\/05\/25\/post2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/ja\/2018\/05\/25\/post2.html",
 		"oF": 0
 		},
 	"\/_site\/logotype-en.html": {
