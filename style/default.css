@@ -975,7 +975,7 @@ table.matrix {
     align-self: self-end; }
     .wrapper-type-box .article__section.contener-type-box {
       position: relative;
-      height: 335px;
+      height: 360px;
       width: 262px;
       border: solid 0.25px #cccccc; }
       .wrapper-type-box .article__section.contener-type-box .repos_image {
@@ -999,7 +999,7 @@ table.matrix {
           justify-content: center;
           align-items: center;
           position: absolute;
-          bottom: -76px;
+          bottom: -101px;
           left: 50%;
           transform: translateX(-50%); }
           .wrapper-type-box .article__section.contener-type-box .repos_name .btn-box .access_btn {
@@ -1011,7 +1011,7 @@ table.matrix {
         .wrapper-type-box .article__section.contener-type-box .repos_name .keyword {
           font-size: 12px;
           border-bottom: dashed 0.5px #cccccc;
-          height: 78px;
+          height: 88px;
           margin-bottom: 6px; }
         .wrapper-type-box .article__section.contener-type-box .repos_name .service_category {
           font-size: 12px;
