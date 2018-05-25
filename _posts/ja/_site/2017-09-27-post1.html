@@ -1,0 +1,63 @@
+<h1 id="pubcasefinder-とは"><strong>PubCaseFinder とは</strong></h1>
+<h2 id="pubcasefinderは希少疾患の診断を支援するために作成された検索サービスです"><strong>PubCaseFinderは希少疾患の診断を支援するために作成された検索サービスです。</strong></h2>
+<p>患者の症状と関連性の高い希少疾患や症例報告を効率よく検索できます。
+( <a href="https://pubcasefinder.dbcls.jp">https://pubcasefinder.dbcls.jp</a>)<br />
+<br /></p>
+<h2 id="利用例">利用例</h2>
+<ul>
+  <li>遺伝学的検索の結果から、疾患候補を数十から数百に絞り込んだ後に、その中から患者の症状と関連性の高い疾患を検索する。</li>
+  <li>未診断患者と症状が類似し、変異が共通する症例報告を検索し、新しい疾患原因変異の同定に役立てる。</li>
+  <li>教科書などでは報告されてない症状が希少疾患患者で見つかった場合に、症例報告で同様の症状が報告されてないかを検索し、診断の参考にする。<br />
+<br />
+<img src="/news_assets/Pubcasefinder_Fig1.png" alt="PubCaseFinderのトップページ" class="news-assets-appearance" /><!-- =600x412-->
+図1. PubCaseFinderのトップページ<br />
+<br />
+    <h1 id="pubcasefinderの特徴"><strong>PubCaseFinderの特徴</strong></h1>
+    <h2 id="患者の症状と関連性の高い希少疾患を素早く検索"><strong>患者の症状と関連性の高い希少疾患を素早く検索</strong></h2>
+    <p>希少疾患はおよそ6,000から7,000存在すると言われ、診断率の向上および早期の診断が課題になっています。例えば、希少疾患患者の半数は生涯診断がつかないことが報告されています[※1]。そこで近年では、エキソーム解析などの次世代シーケンサーを用いた遺伝学的検査が実施され、診断率が向上していますが、検査結果の解釈は容易ではありません。特に、疾患候補を数十から数百に絞り込んだ後に、それら疾患において患者と同様の症状が報告されているかを、OMIM[※2]やOrphanet[※3]などのデータベース、または文献を元に調べる必要があり、多くの手間を必要とします。<br />
+<br />
+そこで我々は、PubMed[※4]に収録されている100万件以上の症例報告から希少疾患に関連する症状を集め、希少疾患と症状の関係をデータベース化しました。PubCaseFinderを利用すれば、数十から数百に絞り込まれた疾患候補の中で、患者の症状と関連性の高い疾患を素早く検索することができます。
+<br />
+<br /></p>
+  </li>
+  <li>※1 Sawyer, S. L., et al. “Utility of whole‐exome sequencing for those near the end of the diagnostic odyssey: time to address gaps in care.” Clinical genetics 89.3 (2016): 275-284.</li>
+  <li>※2 <a href="https://www.omim.org">https://www.omim.org</a></li>
+  <li>※3 <a href="http://www.orpha.net">http://www.orpha.net</a></li>
+  <li>※4 <a href="https://www.ncbi.nlm.nih.gov/pubmed">https://www.ncbi.nlm.nih.gov/pubmed</a><br />
+<br />
+<img src="/news_assets/Pubcasefinder_Fig2.png" alt="類似希少疾患検索結果" class="news-assets-appearance" /><!-- =600x412-->
+図2. 類似希少疾患検索結果<br />
+<br />
+    <h2 id="症例報告を効率よく検索"><strong>症例報告を効率よく検索</strong></h2>
+    <p>希少疾患の中で、疾患の原因となる変異が明らかになっているのはおよそ半数です[※5]。原因となる変異が明らかではない疾患は、遺伝学的検査を実施しても診断が難しいため、診断率の向上には疾患原因となる変異の同定が非常に重要です。新規の疾患原因変異を同定するためには、同じ変異があり、かつ症状が類似する複数の症例を集める必要がありますが、希少疾患は患者数が少なく、類似する症例を集めるのは困難を伴います。<br />
+<br />
+そこで我々は100万件以上の症例報告の中から、希少疾患に関連する症例報告を約30万件抽出し、PubCaseFinderの検索対象としました。各症例報告に含まれる症状、遺伝子名、変異情報などを利用して、患者の症状や変異と関連例の高い症例報告を効率よく検索することができます。<br />
+また、本機能はREST APIとしても提供されていますが、同APIは症例交換のための世界的ネットワークであるMatchmaker Exchange[※6]に採用され、症例交換プラットフォームであるPhenomeCentral[※7]およびPatient Archive[※8]で利用されています。<br />
+<br />
+<br /></p>
+  </li>
+  <li>※5 Chong, Jessica X., et al. “The genetic basis of Mendelian phenotypes: discoveries, challenges, and opportunities.” The American Journal of Human Genetics 97.2 (2015): 199-215.</li>
+  <li>※6 <a href="http://www.matchmakerexchange.org">http://www.matchmakerexchange.org</a></li>
+  <li>※7 <a href="https://phenomecentral.org">https://phenomecentral.org</a></li>
+  <li>※8 <a href="http://patientarchive.org">http://patientarchive.org</a><br />
+<br />
+<img src="/news_assets/Pubcasefinder_Fig3.png" alt="類似症例報告検索結果" class="news-assets-appearance" /><!-- =600x412-->
+図3. 類似症例報告検索結果<br />
+<br />
+    <h2 id="希少疾患と症状の関係をわかりやすく"><strong>希少疾患と症状の関係をわかりやすく</strong></h2>
+    <p>症例報告は、稀な症状や薬の副作用を素早く報告するのに有効な手段です。特に希少疾患において、教科書にはまとめられてない新規の症状を見つけるのに有効です[※9]。しかし、大量の文献の中から、各希少疾患と関連性の高い新規の症状を見つけるのは容易ではありません。<br />
+<br />
+そこでPubCaseFinderでは、症例報告や他のリソースを元に関連付けた各希少疾患に対する症状の一覧を表示し、また関連付けられた希少疾患と症状を含むセンテンスの一覧を表示する機能を提供しています。<br />
+<br /></p>
+  </li>
+  <li>※9 Carey JC. ”The importance of case reports in advancing scientific knowledge of rare diseases.” Adv Exp Med Biol 686 (2010): 77-86.</li>
+</ul>
+
+<p><img src="/news_assets/Pubcasefinder_Fig4.png" alt="希少疾患名と症状を含むセンテンスの可視化" class="news-assets-appearance" /><!-- =600x412-->
+図4. 希少疾患名と症状を含むセンテンスの可視化<br />
+<br /></p>
+<h1 id="今後の開発予定"><strong>今後の開発予定</strong></h1>
+<ul>
+  <li>日本語で症状を入力出来るように検索サービスの日本語対応を行います。</li>
+  <li>利用者のフィードバックなどを参考にしながら機能拡張、新規機能の追加を検討します。</li>
+</ul>
