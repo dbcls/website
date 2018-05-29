@@ -442,8 +442,8 @@ var initialize = {
           $("#service_list").append(element);
           var containerEl = document.querySelector('.service__wrapper');
           var mixer = mixitup(containerEl, {
-            controls: {
-              toggleLogic: 'or'
+            multifilter: {
+              enable: true
             }
           });
         }

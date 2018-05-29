@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style/default.css">
   <link rel="alternate" type="application/rss+xml" title="My Site RSS" href="/feed.xml" />
   <script src="script/mixitup.min.js"></script>
+  <script src="script/mixitup-multifilter.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
@@ -96,43 +97,43 @@
 					<li class="sub__navigation-title outline-list-category__title active"><a href="/website/news-en.html">News</a></li>
 					<li class="tag_panel">
 						<span class="tag_panel-category-title">Year</span>
-						<div class="tag_panel_header controls">
-							<button type="button" class="tag_element term control" data-filter="all">
+						<fieldset data-filter-group class="tag_panel_header controls" style="border: none">
+							<button type="button" class="tag_element term control" data-filter=".mix">
 								All
 							</button>
-							<button type="button" class="tag_element term control" data-filter=".category_year-2018">
+							<button type="button" class="tag_element term control" data-toggle=".category_year-2018">
 								2018
 							</button>
-							<button type="button" class="tag_element term control" data-filter=".category_year-2017">
+							<button type="button" class="tag_element term control" data-toggle=".category_year-2017">
 								2017
 							</button>
-							<button type="button" class="tag_element term control" data-filter=".category_year-2016">
+							<button type="button" class="tag_element term control" data-toggle=".category_year-2016">
 								2016
 							</button>									
-						</div>
+						</fieldset>
 					</li>
 					<li class="tag_panel">
 						<span class="tag_panel-category-title">Tags</span>
-						<div class="tag_panel_header controls">
-								<button type="button" class="tag_element tag-all control" data-filter="all">
+						<fieldset data-filter-group class="tag_panel_header controls" style="border: none">
+								<button type="button" class="tag_element tag-all control" data-filter=".mix">
 									All
 								</button>
-								<button type="button" class="tag_element tag-service control" data-toggle=".service">
+								<button type="button" class="tag_element tag-service control" data-toggle=".services">
 									Service
 								</button>
-								<button type="button" class="tag_element tag-publishment control" data-toggle=".publishment">
+								<button type="button" class="tag_element tag-publishment control" data-toggle=".public_relations">
 									Publishment
 								</button>
-								<button type="button" class="tag_element tag-event control" data-toggle=".event">
+								<button type="button" class="tag_element tag-event control" data-toggle=".events">
 									Event
 								</button>
-								<button type="button" class="tag_element tag-invite control" data-toggle=".invite">
+								<button type="button" class="tag_element tag-invite control" data-toggle=".registration">
 									Invitation
 								</button>
 								<button type="button" class="tag_element tag-other control" data-toggle=".other">
 									Other
 								</button>
-						</div>
+						</fieldset>
 					</li>
 				</ul>
 			</div>
@@ -1149,8 +1150,8 @@ We DBCLS (Database Center for Life Science) will…</p>
   var containerEl = document.querySelector('.news__individual-wrapper');
 
   var mixer = mixitup(containerEl, {
-    controls: {
-      toggleLogic: 'and'
+    multifilter: {
+      enable: true
     }
   });    
 </script>
