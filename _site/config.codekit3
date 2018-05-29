@@ -7043,16 +7043,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/style\/github-markdown.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/style\/github-markdown-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/style\/gotham-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -11191,6 +11181,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/style\/github-markdown-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style\/github-markdown-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/style\/github-markdown.css": {
 		"aP": 1,
