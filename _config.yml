@@ -5,6 +5,7 @@ baseurl: '/website'
 imageurl: '/website/img/'
 BASE_PATH : /my-first-prose
 paginate: 5
+future: true
 prose:
   siteurl: 'http://USERNAME.github.io/my-first-prose/'
   media: 'media'
