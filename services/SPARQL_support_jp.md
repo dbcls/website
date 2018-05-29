@@ -11,14 +11,14 @@
 
 #### 補完の例
 * "Ctrl+Space" または "Tab" キーでインデント、変数名、PREFIX などを補完 
-      <pre>
+```
 e.g.)	
 ?h|             -->   ?hoge
 r|              -->   rdf:|
 F|              -->   FILTER (|)
 PREFIX obo:|    -->   PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;|
 &lt;id&gt;|           -->   &lt;http://identifiers.org/&gt;
-</pre>
+```
 
 #### 詳細
 * http://sparql-support.dbcls.jp/sparql-support_j.html
