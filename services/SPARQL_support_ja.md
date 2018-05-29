@@ -10,7 +10,7 @@
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQL_support_fig-1.png)
 
 #### 補完の例
-* "Ctrl+Space" または "Tab" キーでインデント、変数名、PREFIX などを補完 
+* "Ctrl+Space" または "Tab" キーで補完 
 ```
 ?h|             -->   ?hoge
 r|              -->   rdf:|
