@@ -3,7 +3,8 @@
 
 直観的GUIとマウス操作で生命科学系データベースに対するSPARQLクエリ記述を補助するシステムです．(http://sparqlbuilder.org/)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder01_20180530.png)  
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder01_20180530.png)
+
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder02_20180530.png)  
 
 ### SPARQL Builderの特徴
@@ -34,7 +35,6 @@
 
 * 対象データセットを増やしていきます。また、ウェブ以外からの利用方法(アプリケーション組み込みなど)についても対応していきます。
 
-
 ### 参考文献
 
-* 
+* Atsuko Yamaguchi, Kouji Kozaki, Kai Lenz, Yasunori Yamamoto, Hiroshi Masuya and Norio Kobayashi, Semantic Data Acquisition by Traversing Class-Class Relationships over the Linked Open Data, 5th Joint International Semantic Technology (JIST2016) Conference, LNCS 10055, 136-151
