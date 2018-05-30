@@ -1,6 +1,6 @@
 # SPANG
 ### SPANGとは
-SPANGは、UNIXコマンドライン環境で利用可能なSPARQLクライアントです。
+UNIXコマンドライン環境で利用可能なSPARQLクライアントです。
 
 ### SPANGの特徴
 * 簡単なSPARQLクエリを生成できます。
