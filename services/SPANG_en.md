@@ -2,6 +2,11 @@
 ### What is SPANG?
 SPANG is a command-line SPARQL client supporting query generation for distributed RDF databases.
 
+### Features of SPANG
+* Generates simple SPARQL queries
+* Calls SPARQL libraries on the Web
+* Enables combinatorial execution of multiple queries
+
 ### Usage
 * Using SPARQL shortcuts
 ```
