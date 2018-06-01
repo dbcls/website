@@ -4349,7 +4349,7 @@
 		},
 	"\/_site\/img\/service_assets\/colil.png": {
 		"ft": 32768,
-		"iS": 3960,
+		"iS": 9898,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/colil.png",
 		"oF": 0,
@@ -4459,7 +4459,7 @@
 		},
 	"\/_site\/img\/service_assets\/inmexes.png": {
 		"ft": 32768,
-		"iS": 8846,
+		"iS": 25361,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/inmexes.png",
 		"oF": 0,
@@ -4606,7 +4606,7 @@
 		},
 	"\/_site\/img\/service_assets\/RefEx.png": {
 		"ft": 32768,
-		"iS": 5193,
+		"iS": 13287,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/RefEx.png",
 		"oF": 0,
@@ -4814,7 +4814,7 @@
 		},
 	"\/_site\/img\/service_assets\/統合TV.png": {
 		"ft": 32768,
-		"iS": 5361,
+		"iS": 17290,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/統合TV.png",
 		"oF": 0,
@@ -6241,6 +6241,26 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/_site\/script\/default-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/script\/default.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/_site\/script\/marked.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -6398,6 +6418,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_site\/services\/AOE_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/services\/Colil_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/Colil_ja.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -7028,6 +7066,24 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/_site\/services\/inMeXes_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/inMeXes_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/_site\/services\/LeadingAuthors_en.md": {
 		"cB": 0,
@@ -9449,7 +9505,7 @@
 		},
 	"\/img\/_site\/service_assets\/colil.png": {
 		"ft": 32768,
-		"iS": 3960,
+		"iS": 9898,
 		"oA": 0,
 		"oAP": "\/img\/_site\/service_assets\/colil.png",
 		"oF": 0,
@@ -9559,7 +9615,7 @@
 		},
 	"\/img\/_site\/service_assets\/inmexes.png": {
 		"ft": 32768,
-		"iS": 8846,
+		"iS": 26836,
 		"oA": 0,
 		"oAP": "\/img\/_site\/service_assets\/inmexes.png",
 		"oF": 0,
@@ -11030,7 +11086,7 @@
 		},
 	"\/img\/service_assets\/colil.png": {
 		"ft": 32768,
-		"iS": 53657,
+		"iS": 9898,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/colil.png",
 		"oF": 0,
@@ -11140,7 +11196,7 @@
 		},
 	"\/img\/service_assets\/inmexes.png": {
 		"ft": 32768,
-		"iS": 12536,
+		"iS": 25361,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/inmexes.png",
 		"oF": 0,
@@ -11287,7 +11343,7 @@
 		},
 	"\/img\/service_assets\/RefEx.png": {
 		"ft": 32768,
-		"iS": 7766,
+		"iS": 13287,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/RefEx.png",
 		"oF": 0,
@@ -11495,7 +11551,7 @@
 		},
 	"\/img\/service_assets\/統合TV.png": {
 		"ft": 32768,
-		"iS": 4881,
+		"iS": 17290,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/統合TV.png",
 		"oF": 0,
@@ -12540,6 +12596,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/services\/Colil_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/Colil_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/services\/CRISPRdirect_en.md": {
 		"cB": 0,
 		"cS": 0,
@@ -13162,6 +13236,24 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/services\/inMeXes_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/inMeXes_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/services\/LeadingAuthors_en.md": {
 		"cB": 0,
