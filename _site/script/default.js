@@ -66,7 +66,6 @@ var initialize = {
   },
   'news': function() {
     var prepage = ''
-    console.log(document.referrer)
     prepage = document.referrer
     prepage = prepage.match(".+/(.+?)([\?#;].*)?$")[1]
     if (prepage === 'events.html' || prepage === 'events-en.html') {
@@ -193,7 +192,6 @@ var initialize = {
           indivisual_service = indivisual_service.filter(data => {
             return data[1] !== 'Original'
           })
-          console.log(indivisual_service)
           var nameslength = indivisual_service.length;
 
           element +=
@@ -558,7 +556,6 @@ var initialize = {
 
         var elements = ''
         for (var i = 0; i < events_array.length; i++) {
-          console.log(events_array[i][event_img_order])
           elements += '<article class="article__section event__section-ja">' +
             '<img src="/website/img/event_assets/' + events_array[i][event_img_order] + '">' +
             '<div class="article__section__inner">' +
@@ -606,7 +603,6 @@ var initialize = {
       $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E7%A0%94%E7%A9%B6%E8%80%85ID?key=AIzaSyBOc8Fp2aPvhzz06oAur5Rzz7cDp6RZFwo'),
       $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyBOc8Fp2aPvhzz06oAur5Rzz7cDp6RZFwo')
     ).done(function(data, data_services) {
-      console.log(data)
       var element = "";
       var element_collaborators = ""
       var listSubNav = "";
@@ -631,7 +627,6 @@ var initialize = {
       var non_publish_order = getOrder('いずれのIDも掲載しない')
 
       for (var j = 1; j < data.values.length; j++) {
-        console.log(data.values[j][position_order])
         if (data.values[j][position_order] === '客員教授' || data.values[j][position_order] === '客員准教授') {
           listSubNav_collaborators += '<li><a href="#' + data.values[j][name_ja_order] + '">' + data.values[j][name_ja_order] + '</a></li>';
         } else {
@@ -847,20 +842,23 @@ script.addEventListener('load', function() {
     initialize[pageType]()
     console.log(pageType)
 
-    var abour_children = [
-      'history',
-      'faq',
-      'policy',
-      'logotype'
-    ]
+    var page_map = {
+      'history': 'about',
+      'faq': 'about',
+      'policy': 'about',
+      'logotype': 'about',
+      'publications': 'research',
+      'references': 'services'
+    }
 
+    var children_pages = Object.keys(page_map)
     var current_class_name = ''
-    abour_children.map(child => {
+    children_pages.map(child => {
       if (child === pageType) {
-        pageType = 'about'
+        pageType = page_map[pageType]
       }
     })
-    
+
     current_class_name = '.' + pageType
     $('.header__nav__contents' + current_class_name).find('a').css('border-bottom', '2px solid white')
 
@@ -876,9 +874,7 @@ script.addEventListener('load', function() {
     $('.lang-en span').on('click', function() {
       if (path.match(/\/ja\/\d+\/\d+\/\d+\//)) {
         window.location.href = path.replace('/ja/', '/en/')
-      } else if (path.match(/services.html#/)) {
-        console.log('サービス詳細ページ！')
-      } else {
+      } else if (path.match(/services.html#/)) {} else {
         var link = pageType + '-en.html'
         window.location.href = link
       }
