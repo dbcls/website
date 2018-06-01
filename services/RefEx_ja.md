@@ -1,5 +1,5 @@
 # RefEx
-### RefExとはほげ
+### RefExとは
 
 RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。 (http://refex.dbcls.jp/)  
 
