@@ -513,6 +513,9 @@ var initialize = {
         dataType: "json"
       }).done(function(data) {
         var services_array = data.values
+        var services_array_Y = services_array.filter((services_array) => {
+          return (services_array[0] === "Y");
+        })
 
         function getOrder(target) {
           var order = 0
@@ -523,36 +526,36 @@ var initialize = {
           }
           return order
         }
-
         var service_name_order = getOrder('サービス名称')
         var core_service_name_order = getOrder('コアサービス名')
 
         function checkCore(name) {
           var coreName = ''
           var sameTypeServices = []
-          for (var i = 0; i < services_array.length; i++) {
-            var service = services_array[i][service_name_order]
-            var core_service = services_array[i][core_service_name_order]
+          for (var i = 0; i < services_array_Y.length; i++) {
+            var service = services_array_Y[i][service_name_order]
+            var core_service = services_array_Y[i][core_service_name_order]
+            name = name.replace('_', ' ')
             if (service === name) {
-              coreName = services_array[i][core_service_name_order]
+              coreName = services_array_Y[i][core_service_name_order]
             }
           }
-          for (var i = 0; i < services_array.length; i++) {
-            var service = services_array[i][service_name_order]
-            var core_service = services_array[i][core_service_name_order]
+          for (var i = 0; i < services_array_Y.length; i++) {
+            var service = services_array_Y[i][service_name_order]
+            var core_service = services_array_Y[i][core_service_name_order]
             if (core_service === coreName) {
-              sameTypeServices.push(services_array[i][service_name_order])
+              sameTypeServices.push(services_array_Y[i][service_name_order])
             }
           }
-
           return sameTypeServices
         }
         var clicked_service = repos_name.replace('_ja', '')
         clicked_service = clicked_service.replace('_en', '')
         var md_array = checkCore(clicked_service)
         var md_array_modified = []
-        md_array.forEach(function(data){
-          if(repos_name.slice(-3) === '_ja') {
+        md_array.forEach(function(data) {
+          data = data.replace(' ', '_')
+          if (repos_name.slice(-3) === '_ja') {
             data = data + '_ja'
           } else if (repos_name.slice(-3) === '_en') {
             data = data + '_en'
@@ -565,7 +568,7 @@ var initialize = {
           display_description(data)
         })
 
-        function display_description (repos_name) {
+        function display_description(repos_name) {
           $.ajax({
             type: 'get',
             url: './services/' + repos_name + '.md'
