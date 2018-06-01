@@ -152,7 +152,11 @@ var initialize = {
       }, 1000);
     });
   },
-  'history': function() {},
+  'history': function() {
+    var table_height = $('.table-history').height()
+    $('.history__vertival-line').css('height', table_height)
+    $('.history__vertival-dotted').css('top', table_height + 12)
+  },
   'funding': function() {},
   'faq': function() {},
   'policy': function() {},
@@ -840,10 +844,24 @@ var initialize = {
 script.addEventListener('load', function() {
   $(function() {
     var pageType = document.getElementsByTagName('html')[0].dataset.pageType;
-    console.log(pageType)
     initialize[pageType]()
+    console.log(pageType)
 
-    var current_class_name = '.' + pageType
+    var abour_children = [
+      'history',
+      'faq',
+      'policy',
+      'logotype'
+    ]
+
+    var current_class_name = ''
+    abour_children.map(child => {
+      if (child === pageType) {
+        pageType = 'about'
+      }
+    })
+    
+    current_class_name = '.' + pageType
     $('.header__nav__contents' + current_class_name).find('a').css('border-bottom', '2px solid white')
 
     //sticky IE対応
@@ -860,7 +878,7 @@ script.addEventListener('load', function() {
         window.location.href = path.replace('/ja/', '/en/')
       } else if (path.match(/services.html#/)) {
         console.log('サービス詳細ページ！')
-      }else {
+      } else {
         var link = pageType + '-en.html'
         window.location.href = link
       }
