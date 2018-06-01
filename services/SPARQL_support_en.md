@@ -7,7 +7,7 @@ SPARQL support is an addon of the [CodeMirror](https://codemirror.net/) to suppo
 * Available multiple queries management.
 * Available in any textarea by using UserScript manager.
 
-![Fig-1](./images/SPARQL_support_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQL_support_fig-1.png)
 
 #### Example of auto-completion
 * Complement with the "Ctrl+Space" or "Tab" key. 
