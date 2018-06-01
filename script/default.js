@@ -552,7 +552,11 @@ var initialize = {
         var md_array = checkCore(clicked_service)
         var md_array_modified = []
         md_array.forEach(function(data){
-          data = data + '_ja'
+          if(repos_name.slice(-3) === '_ja') {
+            data = data + '_ja'
+          } else if (repos_name.slice(-3) === '_en') {
+            data = data + '_en'
+          }
           md_array_modified.push(data)
         })
         $('.service__wrapper').empty()
