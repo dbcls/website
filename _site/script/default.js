@@ -446,8 +446,12 @@ var initialize = {
           var mixer = mixitup(containerEl, {
             multifilter: {
               enable: true
+            },
+            debug: {
+              enable: true
             }
           });
+          console.log(mixer)
         }
       })
     }
@@ -458,6 +462,16 @@ var initialize = {
       if (location.hash === '') {
         $('.facet_section').toggleClass('off')
         $('.service__wrapper').empty()
+        var containerEl = document.querySelector('.service__wrapper');
+        var mixer = mixitup(containerEl, {
+          multifilter: {
+            enable: true
+          },
+          debug: {
+            enable: true
+          }
+        });
+        mixer.destroy()
         servicesFrontDisplay()
       } else {
         var service__title = location.hash.slice(1)
