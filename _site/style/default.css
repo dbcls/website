@@ -817,12 +817,10 @@ footer {
     left: 46px;
     z-index: -1; }
     .history__wrapper .history__vertival.history__vertival-line {
-      height: 731px;
       top: 10px;
       border-left: 2px solid #004098; }
     .history__wrapper .history__vertival.history__vertival-dotted {
-      height: 213px;
-      top: 541px;
+      height: 10px;
       border-left: 2px dotted #004098; }
   .history__wrapper .table-history tr:nth-of-type(1) td {
     padding-top: 0; }

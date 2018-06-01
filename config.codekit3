@@ -3438,9 +3438,20 @@
 		},
 	"\/_site\/img\/direction_map.png": {
 		"ft": 32768,
-		"iS": 62805,
+		"iS": 62656,
 		"oA": 0,
 		"oAP": "\/_site\/img\/direction_map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/direction_map_en.png": {
+		"ft": 32768,
+		"iS": 55900,
+		"oA": 0,
+		"oAP": "\/_site\/img\/direction_map_en.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6230,26 +6241,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/_site\/script\/default-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/script\/default-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/_site\/script\/default.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/script\/default-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/_site\/script\/marked.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7042,6 +7033,26 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_site\/style\/github-markdown-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/style\/github-markdown-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/style\/github-markdown.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/style\/github-markdown-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/style\/gotham-min.css": {
 		"aP": 1,
@@ -8136,6 +8147,17 @@
 		"iS": 194096,
 		"oA": 0,
 		"oAP": "\/img\/direction_map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/direction_map_en.png": {
+		"ft": 32768,
+		"iS": 55900,
+		"oA": 0,
+		"oAP": "\/img\/direction_map_en.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
