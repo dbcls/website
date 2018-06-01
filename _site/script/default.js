@@ -279,7 +279,8 @@ var initialize = {
     // var repos_array = [];
     var tags_array
     if (location.hash === '') {} else {
-      var service_title = location.hash.slice(1)
+      $('.facet_section').css('display', 'none')
+      var service__title = location.hash.slice(1)
       displayRepos(service__title)
     }
 
@@ -315,6 +316,11 @@ var initialize = {
             return order
           }
 
+          var service_name_order = getOrder('other', 'サービス名称')
+          var core_service_name_order = getOrder('other', 'コアサービス名')
+          var keyword_ja_order = getOrder('other', 'explanation_ja')
+          var keyword_en_order = getOrder('other', 'explanation_en')
+          var url_order = getOrder('other', 'URL')
           var omics_order = getOrder('category', 'Omics tools/データ解析ツール')
           var text_mining_order = getOrder('category', 'Text mining/文献知識抽出')
           var contents_order = getOrder('category', 'Contents/コンテンツ')
@@ -415,27 +421,27 @@ var initialize = {
             if (file_name === 'services.html') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
-                '<p class="name">' + symbolYList[i][3] + '</p>' +
-                '<div class="keyword">' + symbolYList[i][5] + '</div>' +
+                '<p class="name name_ja">' + symbolYList[i][service_name_order] + '</p>' +
+                '<div class="keyword">' + symbolYList[i][keyword_ja_order] + '</div>' +
                 addTagLine(tagArray, 'ja') +
                 '<div class="btn-box">' +
                 '<a class="page_btn more_btn">' + '詳細' + '</a>' +
-                '<a href="' + symbolYList[i][4] + '" class="page_btn access_btn" target="_blank">アクセス</a>' +
+                '<a href="' + symbolYList[i][url_order] + '" class="page_btn access_btn" target="_blank">アクセス</a>' +
                 '</div></div>' +
                 '<div id="repos_image0" class="repos_image">' +
-                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '.png" alt="' + symbolYList[i][2] + '" class="object-fit-img img_services"></div>'
+                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '.png" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>'
             } else if (file_name === 'services-en.html') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
-                '<p class="name">' + symbolYList[i][3] + '</p>' +
-                '<div class="keyword">' + symbolYList[i][6] + '</div>' +
+                '<p class="name name_en">' + symbolYList[i][service_name_order] + '</p>' +
+                '<div class="keyword">' + symbolYList[i][keyword_en_order] + '</div>' +
                 addTagLine(tagArray, 'en') +
                 '<div class="btn-box">' +
                 '<a class="page_btn more_btn">' + 'more' + '</a>' +
-                '<a href="' + symbolYList[i][4] + '" class="page_btn access_btn" target="_blank">Access</a>' +
+                '<a href="' + symbolYList[i][url_order] + '" class="page_btn access_btn" target="_blank">Access</a>' +
                 '</div></div>' +
                 '<div id="repos_image0" class="repos_image">' +
-                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '.png" alt="' + symbolYList[i][2] + '" class="object-fit-img img_services"></div>'
+                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '.png" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>'
             }
 
             element += '</article>'
@@ -451,11 +457,130 @@ var initialize = {
               enable: true
             }
           });
-          console.log(mixer)
+
+          //リポジトリ個別ページ
+          function displayRepos(repos_name) {
+            location.hash = repos_name
+            var md_data = ''
+
+            function getData() {
+              return $.ajax({
+                type: 'GET',
+                url: './services/' + repos_name + '.md'
+              })
+            }
+            var arranged_data = ''
+            getData().done(function(result) {
+              arranged_data = marked(result)
+              $('.service__wrapper').empty()
+              var markdown_body = $('.service__wrapper').append($('<div/>').attr({
+                'class': 'markdown-body'
+              }).html(arranged_data))
+            }).fail(function(result) {
+              $('.service__wrapper').empty()
+              var markdown_body = $('.service__wrapper').append($('<div/>').attr({
+                'class': 'markdown-body'
+              }).html('<p>データを取得できませんでした</p>'))
+            })
+          }
+
+          //README表示
+          $(document).on('click', '.more_btn', function() {
+            $('html,body').scrollTop(0);
+            var service_name = $(this).parent().siblings('.name').html()
+            var judge_language = $(this).parent().siblings('.name').attr('class')
+            if (judge_language.match(/name_ja/)) {
+              service_name += '_ja'
+            } else if (judge_language.match(/name_en/)) {
+              service_name += '_en'
+            }
+            service_name = service_name.replace(' ', '_')
+            displayRepos(service_name)
+          })
         }
       })
     }
     servicesFrontDisplay();
+
+    //リポジトリ個別ページ
+    function displayRepos(repos_name) {
+      location.hash = repos_name
+      var md_data = ''
+      var hoge = []
+      $.ajax({
+        type: 'get',
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyBOc8Fp2aPvhzz06oAur5Rzz7cDp6RZFwo",
+        dataType: "json"
+      }).done(function(data) {
+        var services_array = data.values
+
+        function getOrder(target) {
+          var order = 0
+          for (var i = 0; i < services_array.length; i++) {
+            if (services_array[0][i] === target) {
+              order = i
+            }
+          }
+          return order
+        }
+
+        var service_name_order = getOrder('サービス名称')
+        var core_service_name_order = getOrder('コアサービス名')
+
+        function checkCore(name) {
+          var coreName = ''
+          var sameTypeServices = []
+          for (var i = 0; i < services_array.length; i++) {
+            var service = services_array[i][service_name_order]
+            var core_service = services_array[i][core_service_name_order]
+            if (service === name) {
+              coreName = services_array[i][core_service_name_order]
+            }
+          }
+          for (var i = 0; i < services_array.length; i++) {
+            var service = services_array[i][service_name_order]
+            var core_service = services_array[i][core_service_name_order]
+            if (core_service === coreName) {
+              sameTypeServices.push(services_array[i][service_name_order])
+            }
+          }
+
+          return sameTypeServices
+        }
+        var clicked_service = repos_name.replace('_ja', '')
+        clicked_service = clicked_service.replace('_en', '')
+        var md_array = checkCore(clicked_service)
+        var md_array_modified = []
+        md_array.forEach(function(data){
+          data = data + '_ja'
+          md_array_modified.push(data)
+        })
+        $('.service__wrapper').empty()
+
+        md_array_modified.map(data => {
+          display_description(data)
+        })
+
+        function display_description (repos_name) {
+          $.ajax({
+            type: 'get',
+            url: './services/' + repos_name + '.md'
+          }).done(function(result) {
+            var arranged_data = ''
+            arranged_data = marked(result)
+            var markdown_body = $('.service__wrapper').append($('<div/>').attr({
+              'class': 'markdown-body'
+            }).html(arranged_data))
+          }).fail(function(result) {
+            var markdown_body = $('.service__wrapper').append($('<div/>').attr({
+              'class': 'markdown-body'
+            }).html('<p>データを取得できませんでした</p>'))
+          })
+        }
+
+
+      })
+    }
 
     //ハッシュ値が変わった時の画面遷移
     window.addEventListener('hashchange', function() {
@@ -479,40 +604,6 @@ var initialize = {
         displayRepos(service__title)
       }
     }, false)
-
-    //README表示
-    $(document).on('click', '.more_btn', function() {
-      $('html,body').scrollTop(0);
-      var service_name = $(this).parent().siblings('.name').html()
-      service_name = service_name.replace(' ', '_')
-      displayRepos(service_name)
-    })
-
-    //リポジトリ個別ページ
-    function displayRepos(repos_name) {
-      location.hash = repos_name
-      var md_data = ''
-
-      function getData() {
-        return $.ajax({
-          type: 'GET',
-          url: './services/' + repos_name + '_ja.md'
-        })
-      }
-      var arranged_data = ''
-      getData().done(function(result) {
-        arranged_data = marked(result)
-        $('.service__wrapper').empty()
-        var markdown_body = $('.service__wrapper').append($('<div/>').attr({
-          'class': 'markdown-body'
-        }).html(arranged_data))
-      }).fail(function(result) {
-        $('.service__wrapper').empty()
-        var markdown_body = $('.service__wrapper').append($('<div/>').attr({
-          'class': 'markdown-body'
-        }).html('<p>データを取得できませんでした</p>'))
-      })
-    }
   },
   'events': function() {
     $('.news__individual-wrapper').css('display', 'block')
@@ -884,11 +975,15 @@ script.addEventListener('load', function() {
     var url = window.location;
     var path = url.href;
 
-
     $('.lang-en span').on('click', function() {
       if (path.match(/\/ja\/\d+\/\d+\/\d+\//)) {
         window.location.href = path.replace('/ja/', '/en/')
-      } else if (path.match(/services.html#/)) {} else {
+      } else if (url.href.match(/services\.html#/)) {
+        var link = url.href + '_en'
+        var link = link.replace('_ja', '')
+        var link = link.replace('services.html', 'services-en.html')
+        window.location.href = link
+      } else {
         var link = pageType + '-en.html'
         window.location.href = link
       }
@@ -897,6 +992,11 @@ script.addEventListener('load', function() {
     $('.lang-ja span').on('click', function() {
       if (path.match(/\/en\/\d+\/\d+\/\d+\//)) {
         window.location.href = path.replace('/en/', '/ja/')
+      } else if (url.href.match(/services-en\.html#/)) {
+        var link = url.href + '_ja'
+        var link = link.replace('_en', '')
+        var link = link.replace('services-en.html', 'services.html')
+        window.location.href = link
       } else {
         var link = pageType + '.html'
         window.location.href = link

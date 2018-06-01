@@ -3393,16 +3393,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/about_en.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/about_en.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/_site\/img\/accessmap_en.png": {
 		"ft": 32768,
 		"iS": 32907,
@@ -6381,6 +6371,24 @@
 		"oA": 0,
 		"oAP": "\/_site\/services\/A4チラシtemplate（例AOE1711）.pptx",
 		"oF": 0
+		},
+	"\/_site\/services\/Allie_en.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/Allie_en.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/_site\/services\/Allie_ja.md": {
 		"cB": 0,
@@ -10183,16 +10191,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/about_en.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/about_en.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/accessmap_en.png": {
 		"ft": 32768,
 		"iS": 32907,
@@ -13671,6 +13669,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/services\/_site\/UmakaYummy_en.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/_site\/UmakaYummy_en.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/services\/_site\/UmakaYummy_ja.md": {
 		"cB": 0,
 		"cS": 0,
@@ -13695,6 +13711,24 @@
 		"oA": 0,
 		"oAP": "\/services\/A4チラシtemplate（例AOE1711）.pptx",
 		"oF": 0
+		},
+	"\/services\/Allie_en.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/Allie_en.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/services\/Allie_ja.md": {
 		"cB": 0,
