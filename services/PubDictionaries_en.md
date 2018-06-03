@@ -10,8 +10,6 @@
 <img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-1_180603.png">
 </p>
 
-![Fig-1]()
-
 ### How to use PubDictionaries
 * Anyone can upload a dictionary of his/her own, in the TSV (tab-separated values) format.
 * Once a dictionary is uploaded, it can be immediately used for **text annotation**, through a **REST API**.
