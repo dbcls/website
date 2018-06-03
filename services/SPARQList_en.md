@@ -12,6 +12,8 @@ $ docker run dbcls/sparqlist
 
 See [GitHub](https://github.com/dbcls/sparqlist) for the instruction of local installation and configurable options.
 
+## Screenshots
+
 ### List of APIs
 
 ![Fig-1](images/SPARQList_fig-1.png)
