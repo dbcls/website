@@ -13,5 +13,5 @@
 * Anyone can upload a dictionary of his/her own, in the TSV (tab-separated values) format.
 * Once a dictionary is uploaded, it can be immediately used for **text annotation**, through a **REST API**.
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png)
 {: style="text-align:center"}
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png)
