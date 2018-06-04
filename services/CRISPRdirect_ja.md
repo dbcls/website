@@ -24,10 +24,10 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ### 関連プロジェクト
 
-* 高速配列検索GGGenome (http://GGGenome.dbcls.jp/)  
+* 高速配列検索GGGenome (https://GGGenome.dbcls.jp/)  
   ゲノム等の塩基配列を高速に検索できるウェブサーバ
 
-* 統合遺伝子検索GGRNA (http://GGRNA.dbcls.jp/)  
+* 統合遺伝子検索GGRNA (https://GGRNA.dbcls.jp/)  
   遺伝子をGoogleのように検索できるウェブサーバ
 
 * siDirect (http://siDirect.RNAi.jp/)  
