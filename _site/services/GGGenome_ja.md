@@ -28,6 +28,21 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 * `format` : `html`,`txt`,`csv`,`bed`,`gff`,`json` (省略時は`html`)
 * `download` : 検索結果をファイルとしてダウンロード (`txt`,`csv`,`bed`,`gff`,`json`のみ)
 
+**例1：** https://GGGenome.dbcls.jp/hg38/1/TTCATTGACAACATT
+
+* ヒトゲノム `hg38` に対して
+* `1` 塩基のミスマッチまたは挿入欠失まで許容して
+* `TTCATTGACAACATT` を検索し
+* `html` (省略時のデフォルト) で結果を返す
+
+**例2：** https://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
+
+* RefSeq complete RNA `refseq` の最新版に対して
+* ミスマッチや挿入欠失を許容せず (省略時のデフォルト)
+* 検索方向を `+` 方向に限定し
+* `TTCATTGACAACATT` を検索し
+* タブ区切りテキスト `txt` で結果を返す
+
 ### 関連プロジェクト
 
 * 統合遺伝子検索GGRNA (https://GGRNA.dbcls.jp/)  

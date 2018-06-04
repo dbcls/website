@@ -1,8 +1,8 @@
 # BodyParts3D/Anatomography
 * BodyParts3D is an anatomical dictionary where terms are defined by 3D morphology of referents.   
 (http://lifesciencedb.jp/bp3d/?lng=en)
-![サンプル1](http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/BP3D11.png)  
-![サンプル2](http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/BP3D2.png)  
+![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_bp3d_fig-1_180604.png)  
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_bp3d_fig-2_180604.png)  
 
 #### Reference
 
