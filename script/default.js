@@ -494,7 +494,7 @@ var initialize = {
             } else if (judge_language.match(/name_en/)) {
               service_name += '_en'
             }
-            service_name = service_name.replace(' ', '_')
+            service_name = service_name.replace(/ /g , '_')
             displayRepos(service_name)
           })
         }
@@ -535,7 +535,7 @@ var initialize = {
           for (var i = 0; i < services_array_Y.length; i++) {
             var service = services_array_Y[i][service_name_order]
             var core_service = services_array_Y[i][core_service_name_order]
-            name = name.replace('_', ' ')
+            name = name.replace(/_/g, ' ')
             if (service === name) {
               coreName = services_array_Y[i][core_service_name_order]
             }
@@ -554,7 +554,7 @@ var initialize = {
         var md_array = checkCore(clicked_service)
         var md_array_modified = []
         md_array.forEach(function(data) {
-          data = data.replace(' ', '_')
+          data = data.replace(/ /g, '_')
           if (repos_name.slice(-3) === '_ja') {
             data = data + '_ja'
           } else if (repos_name.slice(-3) === '_en') {
@@ -1009,6 +1009,6 @@ script.addEventListener('load', function() {
     //sticky IE対応
     var elements = document.querySelectorAll('.sticky');
     Stickyfill.add(elements);
-    
+
   })
 })
