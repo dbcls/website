@@ -12,10 +12,10 @@ http://togostanza.org/
 
 ### ウェブサイト
 
-![Fig-1](images/TogoStanza_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoStanza_fig-1.png)
 
 ### ショーケース
 
-![Fig-2](images/TogoStanza_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoStanza_fig-2.png)
 
 
