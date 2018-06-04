@@ -974,10 +974,6 @@ script.addEventListener('load', function() {
     current_class_name = '.' + pageType
     $('.header__nav__contents' + current_class_name).find('a').css('border-bottom', '2px solid white')
 
-    //sticky IE対応
-    var elements = document.querySelectorAll('.sticky');
-    Stickyfill.add(elements);
-
     //header言語切り替え
     var url = window.location;
     var path = url.href;
@@ -1009,5 +1005,10 @@ script.addEventListener('load', function() {
         window.location.href = link
       }
     })
+
+    //sticky IE対応
+    var elements = document.querySelectorAll('.sticky');
+    Stickyfill.add(elements);
+    
   })
 })

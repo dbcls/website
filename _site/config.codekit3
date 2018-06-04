@@ -6290,26 +6290,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/_site\/script\/default-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/script\/default-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/_site\/script\/default.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/script\/default-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/_site\/script\/marked.min.js": {
 		"ft": 64,
 		"ma": 0,
