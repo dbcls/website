@@ -555,6 +555,7 @@ var initialize = {
         var md_array_modified = []
         md_array.forEach(function(data) {
           data = data.replace(/ /g, '_')
+          data = data.replace(/\//g, '_')
           if (repos_name.slice(-3) === '_ja') {
             data = data + '_ja'
           } else if (repos_name.slice(-3) === '_en') {
