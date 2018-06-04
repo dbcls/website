@@ -3741,11 +3741,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/logotypes\/about_logotype.svg": {
+	"\/_site\/img\/logotypes\/about-logotype.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/_site\/img\/logotypes\/about_logotype.svg",
+		"oAP": "\/_site\/img\/logotypes\/about-logotype.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -4882,6 +4882,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/img\/service_assets\/AOE_new.png": {
+		"ft": 32768,
+		"iS": 45065,
+		"oA": 0,
+		"oAP": "\/_site\/img\/service_assets\/AOE_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/img\/service_assets\/BodyParts3D\/Anatomography.png": {
 		"ft": 32768,
 		"iS": 14281,
@@ -4920,6 +4931,17 @@
 		"iS": 5956,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/CRISPRdirect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/service_assets\/CRISPRdirect_new.png": {
+		"ft": 32768,
+		"iS": 30092,
+		"oA": 0,
+		"oAP": "\/_site\/img\/service_assets\/CRISPRdirect_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5003,11 +5025,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/img\/service_assets\/GGGenome_new.png": {
+		"ft": 32768,
+		"iS": 208744,
+		"oA": 0,
+		"oAP": "\/_site\/img\/service_assets\/GGGenome_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/img\/service_assets\/GGRNA.png": {
 		"ft": 32768,
 		"iS": 15554,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/GGRNA.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/service_assets\/GGRNA_new.png": {
+		"ft": 32768,
+		"iS": 107303,
+		"oA": 0,
+		"oAP": "\/_site\/img\/service_assets\/GGRNA_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5359,7 +5403,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -5381,7 +5425,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -7651,7 +7695,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubAnnotation_fig-1_180604.png": {
 		"ft": 32768,
-		"iS": 96943,
+		"iS": 504544,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubAnnotation_fig-1_180604.png",
 		"oF": 0,
@@ -8199,6 +8243,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_site\/services\/LODQA_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/LODQA_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_site\/services\/LSD_RDF_Data_Portal_en.md": {
 		"cB": 0,
 		"cS": 0,
@@ -8289,6 +8351,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_site\/services\/PubAnnotation_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/PubAnnotation_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_site\/services\/PubCaseFinder_en.md": {
 		"cB": 0,
 		"cS": 0,
@@ -8335,6 +8415,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_site\/services\/PubDictionaries_en.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/services\/PubDictionaries_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/PubDictionaries_ja.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -10023,6 +10121,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/_site\/DBCLS Data Core.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/_site\/DBCLS Data Core.ai",
+		"oF": 0
+		},
 	"\/img\/_site\/ddbj.png": {
 		"ft": 32768,
 		"iS": 6805,
@@ -10380,6 +10485,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/_site\/logotypes\/logo_c.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/_site\/logotypes\/logo_c.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/_site\/logotypes\/logo_c.svg_.zip": {
 		"cB": 0,
@@ -11168,6 +11283,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/_site\/service_assets\/AOE_new.png": {
+		"ft": 32768,
+		"iS": 45065,
+		"oA": 0,
+		"oAP": "\/img\/_site\/service_assets\/AOE_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/_site\/service_assets\/BodyParts3D\/Anatomography.png": {
 		"ft": 32768,
 		"iS": 14281,
@@ -11206,6 +11332,17 @@
 		"iS": 5956,
 		"oA": 0,
 		"oAP": "\/img\/_site\/service_assets\/CRISPRdirect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/_site\/service_assets\/CRISPRdirect_new.png": {
+		"ft": 32768,
+		"iS": 30092,
+		"oA": 0,
+		"oAP": "\/img\/_site\/service_assets\/CRISPRdirect_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -11289,11 +11426,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/_site\/service_assets\/GGGenome_new.png": {
+		"ft": 32768,
+		"iS": 208744,
+		"oA": 0,
+		"oAP": "\/img\/_site\/service_assets\/GGGenome_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/_site\/service_assets\/GGRNA.png": {
 		"ft": 32768,
 		"iS": 15554,
 		"oA": 0,
 		"oAP": "\/img\/_site\/service_assets\/GGRNA.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/_site\/service_assets\/GGRNA_new.png": {
+		"ft": 32768,
+		"iS": 107303,
+		"oA": 0,
+		"oAP": "\/img\/_site\/service_assets\/GGRNA_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -11645,7 +11804,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
+	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -11667,7 +11826,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
+	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -13315,6 +13474,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/service_assets\/AOE_new.png": {
+		"ft": 32768,
+		"iS": 45065,
+		"oA": 0,
+		"oAP": "\/img\/service_assets\/AOE_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/service_assets\/BodyParts3D\/Anatomography.png": {
 		"ft": 32768,
 		"iS": 14281,
@@ -13353,6 +13523,17 @@
 		"iS": 29563,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/CRISPRdirect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/service_assets\/CRISPRdirect_new.png": {
+		"ft": 32768,
+		"iS": 30092,
+		"oA": 0,
+		"oAP": "\/img\/service_assets\/CRISPRdirect_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13436,11 +13617,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/service_assets\/GGGenome_new.png": {
+		"ft": 32768,
+		"iS": 208744,
+		"oA": 0,
+		"oAP": "\/img\/service_assets\/GGGenome_new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/service_assets\/GGRNA.png": {
 		"ft": 32768,
 		"iS": 15651,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/GGRNA.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/service_assets\/GGRNA_new.png": {
+		"ft": 32768,
+		"iS": 107303,
+		"oA": 0,
+		"oAP": "\/img\/service_assets\/GGRNA_new.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13792,7 +13995,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/新着論文レビュー.png": {
+	"\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -13814,7 +14017,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/領域融合レビュー.png": {
+	"\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -16615,7 +16818,7 @@
 		},
 	"\/services\/images\/DBCLSservices_PubAnnotation_fig-1_180604.png": {
 		"ft": 32768,
-		"iS": 96943,
+		"iS": 504544,
 		"oA": 0,
 		"oAP": "\/services\/images\/DBCLSservices_PubAnnotation_fig-1_180604.png",
 		"oF": 0,
@@ -17163,6 +17366,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/services\/LODQA_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/LODQA_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/services\/LSD_RDF_Data_Portal_en.md": {
 		"cB": 0,
 		"cS": 0,
@@ -17253,6 +17474,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/services\/PubAnnotation_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/PubAnnotation_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/services\/PubCaseFinder_en.md": {
 		"cB": 0,
 		"cS": 0,
@@ -17299,6 +17538,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/services\/PubDictionaries_en.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/services\/PubDictionaries_ja.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/PubDictionaries_ja.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
