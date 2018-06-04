@@ -956,6 +956,7 @@ script.addEventListener('load', function() {
     console.log(pageType)
 
     var page_map = {
+      'about': 'about',
       'history': 'about',
       'faq': 'about',
       'policy': 'about',
@@ -964,15 +965,16 @@ script.addEventListener('load', function() {
       'references': 'services'
     }
 
+    var parent_type = ''
     var children_pages = Object.keys(page_map)
     var current_class_name = ''
     children_pages.map(child => {
       if (child === pageType) {
-        pageType = page_map[pageType]
+        parent_type = page_map[pageType]
       }
     })
 
-    current_class_name = '.' + pageType
+    current_class_name = '.' + parent_type
     $('.header__nav__contents' + current_class_name).find('a').css('border-bottom', '2px solid white')
 
     //header言語切り替え
