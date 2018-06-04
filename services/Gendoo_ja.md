@@ -4,23 +4,24 @@
 
 ( http://gendoo.dbcls.jp/ )
 
-![サンプル1](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　![サンプル2](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-2_180525.png)
+![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services//images/DBCLSServices_Gendoo_fig-2_180525.png)
 
 #### Gendooの特徴
 
 * 遺伝子や疾患を関連するキーワードでプロファイリング
 
-* 				遺伝子や疾患についての論文を網羅的に収集。そこからキーワードを抽出しスコアリングすることで、遺伝子や疾患の特徴プロファイリングを行っています。
+* 遺伝子や疾患についての論文を網羅的に収集。そこからキーワードを抽出しスコアリングすることで、遺伝子や疾患の特徴プロファイリングを行っています。
 
 * Gene Ontology ではカバーしていない疾患、臓器などの用語をカバー
 
-* 				遺伝子の生物学的な特徴づけや解釈にはGene Ontology (GO) が一般的ですが、これは分子・細胞レベルの特徴語だけでした。Gendooを用いると、GOではわからない、疾患や臓器の観点からも特徴づけが行えます。
+* 遺伝子の生物学的な特徴づけや解釈にはGene Ontology (GO) が一般的ですが、これは分子・細胞レベルの特徴語だけでした。Gendooを用いると、GOではわからない、疾患や臓器の観点からも特徴づけが行えます。
 
-* 				例：APP (amyloid beta precursor protein) → アルツハイマー病（疾患）、脳（臓器）
+* 例：APP (amyloid beta precursor protein) → アルツハイマー病（疾患）、脳（臓器）
 
 * 疾患もキーワードでプロファイリングしたことで特徴の比較が可能に
 
-* 				たとえば、疾患のデータベースであるOMIM（Online Mendelian Inheritance in Man）は、疾患の態様が文章で書いてあるので、簡単に特徴の比較ができませんでした。Gendooを用いると、疾患どうし、遺伝子と疾患の特徴比較が簡単に行えます。（図は1型/2型糖尿病の例）
+* たとえば、疾患のデータベースであるOMIM（Online Mendelian Inheritance in Man）は、疾患の態様が文章で書いてあるので、簡単に特徴の比較ができませんでした。Gendooを用いると、疾患どうし、遺伝子と疾患の特徴比較が簡単に行えます。（図は1型/2型糖尿病の例）
 
 
 #### 利用例
