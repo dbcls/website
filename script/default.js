@@ -961,7 +961,9 @@ script.addEventListener('load', function() {
       'faq': 'about',
       'policy': 'about',
       'logotype': 'about',
+      'research': 'research',
       'publications': 'research',
+      'services': 'services',
       'references': 'services'
     }
 
