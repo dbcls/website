@@ -23,6 +23,20 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
+	"\/_includes\/footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/footer.html",
+		"oF": 0
+		},
+	"\/_includes\/footer_en.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/footer_en.html",
+		"oF": 0
+		},
 	"\/_includes\/header.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3846,11 +3860,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_cmyk.ai_.zip": {
+	"\/_site\/img\/logotypes\/logo_all_cmyk.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai_.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_cmyk.ai_\/logo_cmyk.ai": {
@@ -3881,11 +3895,11 @@
 		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai_\/logo_ja_cmyk.ai",
 		"oF": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_m.ai_.zip": {
+	"\/_site\/img\/logotypes\/logo_all_m.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_m.ai_.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_m.ai.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.ai_\/logo_en_full_m.ai": {
@@ -4014,11 +4028,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_rgb.ai_.zip": {
+	"\/_site\/img\/logotypes\/logo_all_rgb.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_rgb.ai_.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_rgb.ai.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_rgb.ai_\/logo_en_full_rgb.ai": {
@@ -5505,7 +5519,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -5527,7 +5541,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -11906,7 +11920,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
+	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -11928,7 +11942,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
+	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -12445,13 +12459,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logotypes\/about-logotype.svg.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/about-logotype.svg.zip",
-		"oF": 0
-		},
 	"\/img\/logotypes\/logo_all_c.png.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -12550,11 +12557,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logotypes\/logo_all_cmyk.ai_.zip": {
+	"\/img\/logotypes\/logo_all_cmyk.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai_.zip",
+		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_cmyk.ai_\/logo_cmyk.ai": {
@@ -12585,11 +12592,11 @@
 		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai_\/logo_ja_cmyk.ai",
 		"oF": 0
 		},
-	"\/img\/logotypes\/logo_all_m.ai_.zip": {
+	"\/img\/logotypes\/logo_all_m.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_m.ai_.zip",
+		"oAP": "\/img\/logotypes\/logo_all_m.ai.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_m.ai_\/logo_en_full_m.ai": {
@@ -12718,11 +12725,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logotypes\/logo_all_rgb.ai_.zip": {
+	"\/img\/logotypes\/logo_all_rgb.ai.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_rgb.ai_.zip",
+		"oAP": "\/img\/logotypes\/logo_all_rgb.ai.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_rgb.ai_\/logo_en_full_rgb.ai": {
@@ -14220,7 +14227,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/新着論文レビュー.png": {
+	"\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -14242,7 +14249,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/領域融合レビュー.png": {
+	"\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -14382,6 +14389,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/logotype-en.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/logotype-en.html",
 		"oF": 0
 		},
 	"\/logotype.html": {
