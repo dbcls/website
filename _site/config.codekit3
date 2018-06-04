@@ -3436,6 +3436,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/img\/DBCLS Data Core.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/img\/DBCLS Data Core.ai",
+		"oF": 0
+		},
 	"\/_site\/img\/ddbj.png": {
 		"ft": 32768,
 		"iS": 6805,
@@ -11516,6 +11523,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/DBCLS Data Core.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/DBCLS Data Core.ai",
+		"oF": 0
 		},
 	"\/img\/ddbj.png": {
 		"ft": 32768,
