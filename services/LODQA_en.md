@@ -1,10 +1,15 @@
 # LODQA
+
 ### About LODQA
 * LODQA is an acronym for **Linked Open Data Questin Answering**.
-* It is an interface to enable search over LOD using **natural language queries**.
-* It is a **highly adaptable** system to any RDF dataset.
-* Current implementation features a comprehensive search algorithm which shows a **high recall** while it is **slow**.
+* It is an interface to enable a search over LOD using **natural language queries**.
 
+### Features of LODQA
+* It is a **highly adaptable** system to any RDF dataset.
+  * A configuration for a specific dataset can be freely registered.
+* Current implementation features a comprehensive search algorithm which shows a **high recall**, while it is **slow**.
+
+### Screenshot
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LODQA_fig-1_180604.png)
 
 ### Citation
