@@ -957,6 +957,7 @@ script.addEventListener('load', function() {
 
     var page_map = {
       'index': 'index',
+      'post': 'index',
       'news': 'index',
       'about': 'about',
       'history': 'about',
