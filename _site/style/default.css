@@ -644,6 +644,8 @@ footer {
     margin-top: 25px; }
   .section-wrapper .markdown-body {
     width: 782px; }
+    .section-wrapper .markdown-body:not(:nth-of-type(1)) {
+      margin-top: 100px; }
   .section-wrapper .article__section {
     width: 385.5px;
     background-color: #E8EDED;
