@@ -4,7 +4,7 @@
 (http://qa.lifesciencedb.jp/)  
 
 ![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-1_180604.png)  
-![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-1_180604.png)
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-2_180604.png)
 
 #### 質問と回答はどなたでも投稿することができます。
 
