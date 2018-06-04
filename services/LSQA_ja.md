@@ -3,8 +3,7 @@
 ライフサイエンス研究にまつわる疑問や質問、それらへの回答を共有するウェブサイトです。  
 (http://qa.lifesciencedb.jp/)  
 
-![qa1](http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/qa1.png)  
-![qa2](http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/qa2.png)
+![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-1_180604.png)  
 
 #### 質問と回答はどなたでも投稿することができます。
 
@@ -17,6 +16,7 @@
 5.  [NBDC](http://biosciencedbc.jp/)のサービスについて
 6.  [PDBj](http://pdbj.org/)のサービスについて
 * 対象ユーザーは、ライフサイエンス研究に携わっている人を想定しています。
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-2_180604.png)
 
 #### 設立の経緯
 
