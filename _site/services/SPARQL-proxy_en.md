@@ -23,11 +23,11 @@ See [GitHub](https://github.com/dbcls/sparql-proxy) for the instruction of local
 
 ### SPARQL execution interface
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQ-proxy_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQ-proxy_fig-1.png)
 
 ### SPARQL-proxy administration interface
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQ-proxy_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQ-proxy_fig-2.png)
 
 
 

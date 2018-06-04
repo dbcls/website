@@ -4,7 +4,7 @@
 
 ( http://gendoo.dbcls.jp/ )
 
-![サンプル1](https://github.com/dbcls/website/raw/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　![サンプル2](https://github.com/dbcls/website/raw/master/services/images/DBCLSServices_Gendoo_fig-2_180525.png)
+![サンプル1](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　![サンプル2](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-2_180525.png)
 
 #### Gendooの特徴
 

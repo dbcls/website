@@ -4,9 +4,9 @@
 
 AOE (All Of gene Expression) is an index of public gene expression database.
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_en_fig-1_180524.png)  
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_AOE_en_fig-1_180524.png)  
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_en_fig-2_180524.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_AOE_en_fig-2_180524.png)
 
 ### Feature of AOE (All Of gene Expresssion)
 
@@ -21,9 +21,9 @@ AOE (All Of gene Expression) is an index of public gene expression database.
 * In the data ranking by methods By selecting **Illumina**, data from Illumina sequencers can be retrieved.
 * Quick access to orginal data from the table with selected entries.
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_en_fig-3_180524.png)  
+![Fig-3](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_AOE_en_fig-3_180524.png)  
 
-![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_en_fig-4_180524.png)
+![Fig-4](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_AOE_en_fig-4_180524.png)
 
 
 ### Next step

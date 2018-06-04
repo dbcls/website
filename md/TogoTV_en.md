@@ -3,9 +3,9 @@
 
 TogoTV (‘Togo’ means ‘integration’ in Japanese; pronunciation symbol is [toɯgoɯ]) that is one of the services in the [Database Center for Life Science (DBCLS)](http://dbcls.rois.ac.jp/en/) in Japan is a portal site of tutorial and lecture videos about bioinformatics resources. Although the [original TogoTV site](http://togotv.dbcls.jp/ja/) is mostly written in Japanese, there is the English interface for international users. The site contains our original videos. All contents provided by us are distributed under [the Creative Commons  Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/deed) license and also provided on [a YouTube channel](https://www.youtube.com/user/togotv). We plan to expand our own English contents so as to enable our service to be used all over the world. (http://togotv.dbcls.jp/en/)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-1_180523.jpg)  
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTV_fig-1_180523.jpg)  
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-2_180523.jpg)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTV_fig-2_180523.jpg)
 
 ### Examples of tutorial videos in TogoTV
 

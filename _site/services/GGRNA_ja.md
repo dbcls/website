@@ -6,7 +6,7 @@
 塩基配列やアミノ酸配列から高速に遺伝子を検索することもできます。  
 GGRNA： https://GGRNA.dbcls.jp/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGRNA.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_GGRNA.png)
 
 ### GGRNAの特徴
 

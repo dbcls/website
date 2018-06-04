@@ -9,7 +9,7 @@
 * 言い換えますと、データベースエントリとそれの自然言語の表現の間のマッピングテーブルとも言えます。
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-1_180603.png">
+<img src="https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_PubDictionaries_fig-1_180603.png">
 </p>
 
 ### 使い方
@@ -18,5 +18,5 @@
 * 提供された辞書を使ってすぐテキストをアノテーションするのが出来ます。
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png">
+<img src="https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png">
 </p>

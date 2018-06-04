@@ -9,7 +9,7 @@ var tags = {
 }
 
 script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js')
-script_sticky.setAttribute('src', '/website/script/stickyfill.min.js')
+script_sticky.setAttribute('src', '/script/stickyfill.min.js')
 document.head.appendChild(script)
 document.head.appendChild(script_sticky)
 var initialize = {
@@ -20,7 +20,7 @@ var initialize = {
     var file_name = path.pop();
     var tags_key = Object.keys(tags)
     tags_key.map(function(data) {
-      $('a[tag="' + data + '"]').before('<img src="/website/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
+      $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
     //タグ名を日本語に変換
     if (file_name === 'index.html') {
@@ -84,7 +84,7 @@ var initialize = {
     var file_name = path.pop();
     var tags_key = Object.keys(tags)
     tags_key.map(function(data) {
-      $('a[tag="' + data + '"]').before('<img src="/website/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
+      $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
     //タグ名を日本語に変換
     if (file_name === 'news.html') {
@@ -122,7 +122,7 @@ var initialize = {
     var file_name = path.pop();
     var tags_key = Object.keys(tags)
     tags_key.map(function(data) {
-      $('a[tag="' + data + '"]').before('<img src="/website/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
+      $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
     marked($('.markdown-body').html())
     //タグ名を日本語に変換
@@ -620,7 +620,7 @@ var initialize = {
     var file_name = path.pop();
     var tags_key = Object.keys(tags)
     tags_key.map(function(data) {
-      $('a[tag="' + data + '"]').before('<img src="/website/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
+      $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
     //タグ名を日本語に変換
     if (file_name === 'events.html') {
@@ -670,7 +670,7 @@ var initialize = {
         var elements = ''
         for (var i = 0; i < events_array.length; i++) {
           elements += '<article class="article__section event__section-ja">' +
-            // '<img src="/website/img/event_assets/' + events_array[i][event_img_order] + '">' +
+            // '<img src="/img/event_assets/' + events_array[i][event_img_order] + '">' +
             '<div class="article__section__inner">' +
             '<h4>' + events_array[i][service_name_order] + '</h4>' +
             '<p>' + events_array[i][explanation_order] + '</p>' +

@@ -2227,6 +2227,13 @@
 		"oAP": "\/_site\/access.html",
 		"oF": 0
 		},
+	"\/_site\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/CNAME",
+		"oF": 0
+		},
 	"\/_site\/common-header-footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5519,7 +5526,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -5541,7 +5548,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -9224,6 +9231,13 @@
 		"oAP": "\/access.html",
 		"oF": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/common-header-footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -11920,7 +11934,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
+	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -11942,7 +11956,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
+	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -14227,7 +14241,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/新着論文レビュー.png": {
+	"\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -14249,7 +14263,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/領域融合レビュー.png": {
+	"\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,

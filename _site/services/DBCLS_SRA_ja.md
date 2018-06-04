@@ -4,7 +4,7 @@
 
 ( http://sra.dbcls.jp/ )
 
-![サンプル1](https://github.com/dbcls/website/raw/master/services/images/DBCLSServices_SRA_fig-1_180528.png)　![サンプル2](https://github.com/dbcls/website/raw/master/services/images/DBCLSServices_SRA_fig-2_180528.png)
+![サンプル1](https://github.com/dbcls/raw/master/services/images/DBCLSServices_SRA_fig-1_180528.png)　![サンプル2](https://github.com/dbcls/raw/master/services/images/DBCLSServices_SRA_fig-2_180528.png)
 
 #### DBCLS SRAの特徴
 

@@ -10,14 +10,14 @@ http://togogenome.org/
 
 ### ファセット検索
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-1.png)
 
 ### 遺伝子レポート
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-2.png)
 
 ### 環境レポート
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-3.png)
 
 

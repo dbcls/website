@@ -3,7 +3,7 @@
 GGRNA is a Google-like search engine for genes and transcripts archived in NCBI RefSeq.  
 GGRNA web server: https://GGRNA.dbcls.jp/en/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGRNA.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_GGRNA.png)
 
 ### References
 

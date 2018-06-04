@@ -26,9 +26,9 @@ http://togodb.org/
 
 ### トップ画面
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/TogoDB_fig-1.png)
 
 ### エントリ表示例
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/TogoDB_fig-2.png)
 

@@ -5,7 +5,7 @@
 入力した塩基配列に対してCRISPR-Cas9システムのガイドRNAを設計することができるツールです。  
 CRISPRdirect： https://crispr.dbcls.jp/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_CRISPRdirect.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_CRISPRdirect.png)
 
 ### CRISPRdirectの特徴
 

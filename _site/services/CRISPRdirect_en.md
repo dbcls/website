@@ -3,7 +3,7 @@
 CRISPRdirect is a web server for designing CRISPR-Cas9 guide RNA with reduced off-target sites.  
 CRISPRdirect web server: https://crispr.dbcls.jp/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_CRISPRdirect.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_CRISPRdirect.png)
 
 ### References
 

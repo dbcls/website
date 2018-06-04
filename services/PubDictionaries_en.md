@@ -7,7 +7,7 @@
 * A **dictionary** is a collection of pairs of labels (natural languagae expressions) and identifiers, where a **label** may be a name of an entity, and an **identifier** may be a database id.
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-1_180603.png">
+<img src="https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_PubDictionaries_fig-1_180603.png">
 </p>
 
 ### How to use PubDictionaries
@@ -15,5 +15,5 @@
 * Once a dictionary is uploaded, it can be immediately used for **text annotation**, through a **REST API**.
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png">
+<img src="https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png">
 </p>

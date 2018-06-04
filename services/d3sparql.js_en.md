@@ -11,10 +11,10 @@ JavaScript natually fits for querying a SPARQL endpoint which provides a REST se
 
 ### d3sparl.js demo site
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/d3sparql.js_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/d3sparql.js_fig-1.png)
 
 ### force graph demo
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/d3sparql.js_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/d3sparql.js_fig-2.png)
 
 
