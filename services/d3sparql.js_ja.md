@@ -11,9 +11,9 @@ d3spraq.js は SPARQL クエリを Ajax (XMLHttpRequest) で実行し、その�
 
 ### d3sparl.js デモサイト
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/d3sparql.js_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/d3sparql.js_fig-1.png)
 
 ### force graph 可視化デモ
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/d3sparql.js_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/d3sparql.js_fig-2.png)
 

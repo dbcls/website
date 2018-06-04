@@ -10,10 +10,10 @@ http://togostanza.org/
 
 ### Web site
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/TogoStanza_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoStanza_fig-1.png)
 
 ### Showcase
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/TogoStanza_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoStanza_fig-2.png)
 
 

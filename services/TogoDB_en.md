@@ -26,10 +26,10 @@ http://togodb.org/
 
 ### TogoDB website
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/TogoDB_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-1.png)
 
 ### Entry view
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/TogoDB_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-2.png)
 
 

@@ -3,8 +3,8 @@
 
 データベースやウェブツールの使い方を動画で配信するサービスです。提供している動画は1400本を超えています。(2018年5月末現在)(http://togotv.dbcls.jp/)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTV_fig-1_180523.jpg)  
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTV_fig-2_180523.jpg)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-1_180523.jpg)  
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-2_180523.jpg)
 
 ### 統合TVの特徴
 
@@ -48,7 +48,7 @@
 
 * 「[Togo picture gallery](http://g86.dbcls.jp/togopic)」で公開されていた誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました｡
 * [NBDC 生命科学系データベースアーカイブ](http://dbarchive.biosciencedbc.jp/)に収載されている「[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)」で提供されている真正細菌から動植物を含む200種類以上の生物種のアイコン(イラスト)についても､同時に閲覧､利用できるようになりました｡  
-![Fig-3](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTV_fig-3_180523.jpg)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_fig-3_180523.jpg)
 
 
 ### 利用例

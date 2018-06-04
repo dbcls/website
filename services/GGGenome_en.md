@@ -3,7 +3,7 @@
 GGGenome is an ultrafast search engine for DNA sequences.  
 GGGenome web server: https://GGGenome.dbcls.jp/en/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_GGGenome.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGGenome.png)
 
 ### REST API
 

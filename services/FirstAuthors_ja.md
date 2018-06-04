@@ -4,7 +4,7 @@
 トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について、論文の著者自身の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、いち早く公開するサービスです。  
 ( http://first.lifesciencedb.jp/ )
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_FirstAuthors_fig-1_180525.png)　![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_FirstAuthors_fig-2_180525.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-1_180525.png)　![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-2_180525.png)
 
 ### ライフサイエンス 新着論文レビューの特徴
 

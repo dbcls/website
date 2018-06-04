@@ -11,7 +11,7 @@
   * 高いrecallを保ちながら速度を早くしていく方向で開発を続けてます。
 
 ### スクリーンショット
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_LODQA_fig-1_180604.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LODQA_fig-1_180604.png)
 
 ### 参考文献
 

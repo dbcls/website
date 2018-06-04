@@ -4,7 +4,7 @@
 生命科学において注目される分野・学問領域における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、無料で公開するサービスです。  
 ( http://leading.lifesciencedb.jp/ )
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_LeadingAuthors_fig-1_180525.png)　![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_LeadingAuthors_fig-2_180525.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-1_180525.png)　![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-2_180525.png)
 
 ### ライフサイエンス 領域融合レビューの特徴
 

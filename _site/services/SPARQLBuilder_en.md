@@ -3,9 +3,9 @@
 
 A support system in writing SPARQL queries for life science databases with an intuitive GUI. (http://sparqlbuilder.org/)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/sparqlbuilder01_20180530.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder01_20180530.png)
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/sparqlbuilder02_20180530.png)  
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder02_20180530.png)  
 
 ### Features of SPARQL Builder
 

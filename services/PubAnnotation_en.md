@@ -6,4 +6,4 @@
 ### Features
 * It is particularly specialized for literature of life sciences, e.g., PubMed articles.
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_PubAnnotation_fig-1_180604.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubAnnotation_fig-1_180604.png)

@@ -16,19 +16,19 @@ $ docker run dbcls/sparqlist
 
 ### API のリスト
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQList_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-1.png)
 
 ### API の実行画面
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQList_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-2.png)
 
 ### Markdown による API のソース表示
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQList_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-3.png)
 
 ### Markdown 編集画面
 
-![Fig-4](https://raw.githubusercontent.com/dbcls/master/services/images/SPARQList_fig-4.png)
+![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-4.png)
 
 
 

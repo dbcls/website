@@ -10,14 +10,14 @@ http://togogenome.org/
 
 ### Faceted serach
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-1.png)
 
 ### Gene report
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-2.png)
 
 ### Environmet report
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/master/services/images/TogoGenome_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-3.png)
 
 

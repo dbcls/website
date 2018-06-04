@@ -4,8 +4,8 @@
 誰でもウエブ上でカスタム解剖図を作成し交換できるサービスです。作成した図は、論文に用いるなど自由に公開することが可能です。  
 ( http://lifesciencedb.jp/bp3d/ )
 
-![fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_bp3d_fig-1_180604.png)
-![fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_bp3d_fig-2_180604.png)
+![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_bp3d_fig-1_180604.png)
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_bp3d_fig-2_180604.png)
 
 #### BodyParts3D/Anatomographyの特徴
 

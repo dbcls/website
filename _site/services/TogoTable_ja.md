@@ -3,7 +3,7 @@
 
 TogoTable は、excel などの表形式データに記載されているバイオデータベースのID番号やアクセッション番号からアノテーション情報をネットワーク経由で取得し、元の表形式データに追加するウェブアプリケーションです。 (http://togotable.dbcls.jp/)  
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTable_fig-1_180530.png)  
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTable_fig-1_180530.png)  
 
 ### TogoTable の特徴
 
@@ -24,7 +24,7 @@ TogoTable は、excel などの表形式データに記載されているバイ�
 7. 「merge」ボタンをクリックすると、表の右側に指定したアノテーション項目が追加されます。
 8. 「Output tsv」ボタンをクリックして、取得した結果をダウンロードします。
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_TogoTable_fig-2_180530.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTable_fig-2_180530.png)
 
 ### 利用例
 

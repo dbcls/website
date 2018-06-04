@@ -10,7 +10,7 @@
 * Current implementation features a comprehensive search algorithm which shows a **high recall**, while it is **slow**.
 
 ### Screenshot
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSservices_LODQA_fig-1_180604.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LODQA_fig-1_180604.png)
 
 ### Citation
 

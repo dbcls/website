@@ -5,7 +5,7 @@
 ゲノムや転写産物等の塩基配列を高速に検索するツールです。  
 GGGenome： https://GGGenome.dbcls.jp/
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/master/services/images/DBCLSServices_GGGenome.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGGenome.png)
 
 ### GGGenomeの特徴
 
