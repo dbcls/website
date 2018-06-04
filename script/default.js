@@ -956,6 +956,7 @@ script.addEventListener('load', function() {
     console.log(pageType)
 
     var page_map = {
+      'index': 'index',
       'about': 'about',
       'history': 'about',
       'faq': 'about',
@@ -964,7 +965,11 @@ script.addEventListener('load', function() {
       'research': 'research',
       'publications': 'research',
       'services': 'services',
-      'references': 'services'
+      'references': 'services',
+      'events': 'events',
+      'members': 'members',
+      'access': 'access',
+      'contact': 'contact'
     }
 
     var parent_type = ''
