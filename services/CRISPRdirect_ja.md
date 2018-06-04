@@ -9,6 +9,8 @@
 * 目的以外の部位で誤ってゲノム編集が起こる「オフターゲット効果」の少ないガイドRNAを効率よく設計できます。
 * 主要なモデル生物に加え、ゲノム配列が公表されている200以上の生物種に対応しています。
 
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_CRISPRdirect.png)
+
 ### 使い方
 
 * 任意の塩基配列、アクセッション番号、またはゲノムの座標を入力して [design] ボタンをクリック。
