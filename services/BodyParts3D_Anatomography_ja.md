@@ -1,4 +1,4 @@
-#BodyParts3D
+# BodyParts3D/Anatomography
 ### BodyParts3D/Anatomographyとは
 
 誰でもウエブ上でカスタム解剖図を作成し交換できるサービスです。作成した図は、論文に用いるなど自由に公開することが可能です。  
