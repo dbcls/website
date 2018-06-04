@@ -6517,6 +6517,26 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/_site\/script\/default-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/script\/default.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/_site\/script\/marked.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7291,6 +7311,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/services\/images\/DBCLSservices_LODQA_en_fig-1_180604.png": {
+		"ft": 32768,
+		"iS": 411739,
+		"oA": 0,
+		"oAP": "\/_site\/services\/images\/DBCLSservices_LODQA_en_fig-1_180604.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/services\/images\/DBCLSservices_LODQA_fig-1_180604.png": {
+		"ft": 32768,
+		"iS": 249728,
+		"oA": 0,
+		"oAP": "\/_site\/services\/images\/DBCLSservices_LODQA_fig-1_180604.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/services\/images\/DBCLSservices_LSQA_fig-1_180604.png": {
 		"ft": 32768,
 		"iS": 218171,
@@ -7837,6 +7879,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_site\/services\/LeadingAuthors_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/services\/LODQA_en.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/services\/LODQA_en.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -15921,6 +15981,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/services\/images\/DBCLSservices_LODQA_en_fig-1_180604.png": {
+		"ft": 32768,
+		"iS": 411739,
+		"oA": 0,
+		"oAP": "\/services\/images\/DBCLSservices_LODQA_en_fig-1_180604.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/services\/images\/DBCLSservices_LODQA_fig-1_180604.png": {
+		"ft": 32768,
+		"iS": 249728,
+		"oA": 0,
+		"oAP": "\/services\/images\/DBCLSservices_LODQA_fig-1_180604.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/services\/images\/DBCLSservices_LSQA_fig-1_180604.png": {
 		"ft": 32768,
 		"iS": 218171,
@@ -16467,6 +16549,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/services\/LeadingAuthors_ja.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/services\/LODQA_en.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/services\/LODQA_en.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
