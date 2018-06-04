@@ -38,8 +38,8 @@
           </div>
           <div class="main__contents-event">
             <ul class="news__individual-wrapper">
-              {% for post in site.categories.ja limit:15 %}
-                {% if post.tags contains 'event' %}
+              {% for post in site.categories.ja limit:17 %}
+                {% if post.tags contains 'events' %}
                   <li class='post__individual'>
                     <div class="post__date">
                       {{post.date | date: '%Y. %m. %d'}}

@@ -669,7 +669,7 @@ var initialize = {
         var elements = ''
         for (var i = 0; i < events_array.length; i++) {
           elements += '<article class="article__section event__section-ja">' +
-            '<img src="/website/img/event_assets/' + events_array[i][event_img_order] + '">' +
+            // '<img src="/website/img/event_assets/' + events_array[i][event_img_order] + '">' +
             '<div class="article__section__inner">' +
             '<h4>' + events_array[i][service_name_order] + '</h4>' +
             '<p>' + events_array[i][explanation_order] + '</p>' +
