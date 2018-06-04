@@ -23,11 +23,11 @@ $ docker run -p 8080:3000 -e SPARQL_BACKEND=http://example.com/sparql dbcls/spar
 
 ### SPARQL 実行画面
 
-![Fig-1](images/SPARQ-proxy_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQ-proxy_fig-1.png)
 
 ### SPARQL-proxy 管理画面
 
-![Fig-2](images/SPARQ-proxy_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQ-proxy_fig-2.png)
 
 
 
