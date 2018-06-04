@@ -26,6 +26,6 @@ http://togows.org/
 
 ## Screenshot
 
-![Fig-1](images/TogoWS_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoWS_fig-1.png)
 
 

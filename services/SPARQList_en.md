@@ -16,18 +16,18 @@ See [GitHub](https://github.com/dbcls/sparqlist) for the instruction of local in
 
 ### List of APIs
 
-![Fig-1](images/SPARQList_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-1.png)
 
 ### Execution of the API
 
-![Fig-2](images/SPARQList_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-2.png)
 
 ### Markdown source code of the API
 
-![Fig-3](images/SPARQList_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-3.png)
 
 ### Online Markdown editor
 
-![Fig-4](images/SPARQList_fig-4.png)
+![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQList_fig-4.png)
 
 
