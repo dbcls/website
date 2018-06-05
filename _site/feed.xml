@@ -8,6 +8,31 @@
     
       
       <item>
+        <title>DBCLSウェブサイトをリニューアルしました。</title>
+        
+          <description>&lt;p&gt;当センターのウェブサイトを本日2018年6月5日にリニューアル公開しました。&lt;br /&gt;
+&lt;br /&gt;
+このリニューアルに伴う、主な変更点は下記のとおりです。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;掲載文章、図等の整理・更新&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dbcls.rois.ac.jp/logotype.html&quot;&gt;ロゴの一部修正&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;ttp://dbcls.rois.ac.jp/logotype.html&quot;&gt;DBCLS・BioHackathonリボン&lt;/a&gt;の掲載&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dbcls.rois.ac.jp/services.html&quot;&gt;サービス一覧&lt;/a&gt;の整理・更新&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dbcls.rois.ac.jp/publications.html&quot;&gt;発表論文一覧&lt;/a&gt;の作成・掲載&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dbcls.rois.ac.jp/references.html&quot;&gt;引用文献一覧&lt;/a&gt;の作成・掲載&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 05 Jun 2018 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/ja/2018/06/05/post1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ja/2018/06/05/post1.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>国内版バイオハッカソン BH18.7 参加者募集および参加登録開始のご案内</title>
         
           <description>&lt;p&gt;2018年7月16日から7月20日にかけて、徳島にて国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会として、第9回 国内版バイオハッカソン BH18.7 を開催いたします。&lt;a href=&quot;http://wiki.lifesciencedb.jp/mw/BH18.7&quot;&gt;国内版バイオハッカソン BH18.7&lt;/a&gt;&lt;br /&gt;
@@ -157,24 +182,6 @@
         <link>
         http://localhost:4000/ja/2018/02/27/post1.html</link>
         <guid isPermaLink="true">http://localhost:4000/ja/2018/02/27/post1.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>サービス一時停止のお知らせ ＜2018年3月9日(金) 17:00 〜 2018年3月12日(月) 9:00＞</title>
-        
-          <description>&lt;p&gt;DBCLSが管理しているサーバのシステムメンテナンスの影響により、&lt;/p&gt;
-
-&lt;p&gt;2018年 3月9日(金) 17:00 ～ 2018年 3月12日(月) 9:00 (最長)&lt;/p&gt;
-
-&lt;p&gt;の間、一部サービスがご利用いただけません。ご不便をおかけしますが、ご理解の程どうぞよろしくお願いいたします。&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 26 Feb 2018 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ja/2018/02/26/post1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ja/2018/02/26/post1.html</guid>
       </item>
       
     
