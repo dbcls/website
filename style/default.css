@@ -190,8 +190,7 @@ body {
     .content__wrapper .sub__navigation.service__side-bar {
       height: 90vh; }
   .content__wrapper .main__contents {
-    padding-top: 160px;
-    width: 782px; }
+    padding-top: 160px; }
     .content__wrapper .main__contents .main__content-title__wrapper {
       border-bottom: 1px solid #9E9E9E;
       margin-bottom: 25px;
@@ -206,6 +205,8 @@ body {
         line-height: 24px; }
         .content__wrapper .main__contents .main__content-title__wrapper .main__content-title.post__title-individual {
           color: #333333; }
+    .content__wrapper .main__contents .main__contents-servece {
+      width: 786px; }
 
 .post__date {
   font-size: 14px;

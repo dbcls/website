@@ -7,7 +7,7 @@
 		"uuidString": "BD604D29-1755-4D68-B466-3CFE9ED99C10"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -733,6 +733,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_posts\/en\/2018-03-26-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/en\/2018-06-05-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/en\/2018-06-05-post1.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2199,6 +2217,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_posts\/ja\/2018-06-05-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/ja\/2018-06-05-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_site\/about-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3193,6 +3229,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/en\/2018\/03\/26\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/en\/2018\/06\/05\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/en\/2018\/06\/05\/post1.html",
 		"oF": 0
 		},
 	"\/_site\/events-en.html": {
@@ -5638,6 +5681,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/img\/top_assets\/website_top_NIG_raw_01.JPG": {
+		"ft": 16384,
+		"iS": 4073955,
+		"oA": 0,
+		"oAP": "\/_site\/img\/top_assets\/website_top_NIG_raw_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/top_assets\/website_top_NIG_raw_02.JPG": {
+		"ft": 16384,
+		"iS": 4325108,
+		"oA": 0,
+		"oAP": "\/_site\/img\/top_assets\/website_top_NIG_raw_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/top_assets\/website_top_NIG_raw_03.JPG": {
+		"ft": 16384,
+		"iS": 4612733,
+		"oA": 0,
+		"oAP": "\/_site\/img\/top_assets\/website_top_NIG_raw_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/index-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6217,6 +6290,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/ja\/2018\/05\/25\/post2.html",
+		"oF": 0
+		},
+	"\/_site\/ja\/2018\/06\/05\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/ja\/2018\/06\/05\/post1.html",
 		"oF": 0
 		},
 	"\/_site\/logotype-en.html": {
@@ -9032,35 +9112,12 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/style\/default.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/style\/default-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/style\/default.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/style\/default.css.map",
 		"oF": 0
-		},
-	"\/_site\/style\/default.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/style\/default.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/_site\/style\/font-awesome.css": {
 		"aP": 1,
@@ -14277,6 +14334,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/top_assets\/website_top_NIG_raw_01.JPG": {
+		"ft": 16384,
+		"iS": 4073955,
+		"oA": 0,
+		"oAP": "\/img\/top_assets\/website_top_NIG_raw_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/top_assets\/website_top_NIG_raw_02.JPG": {
+		"ft": 16384,
+		"iS": 4325108,
+		"oA": 0,
+		"oAP": "\/img\/top_assets\/website_top_NIG_raw_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/top_assets\/website_top_NIG_raw_03.JPG": {
+		"ft": 16384,
+		"iS": 4612733,
+		"oA": 0,
+		"oAP": "\/img\/top_assets\/website_top_NIG_raw_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18349,7 +18436,6 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
