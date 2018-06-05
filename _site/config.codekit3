@@ -7,7 +7,7 @@
 		"uuidString": "BD604D29-1755-4D68-B466-3CFE9ED99C10"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -3410,27 +3410,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/accessmap_en.png": {
-		"ft": 32768,
-		"iS": 32907,
-		"oA": 0,
-		"oAP": "\/_site\/img\/accessmap_en.png",
+	"\/_site\/img\/accessmap_en.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/accessmap_en.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/_site\/img\/accessmap_ja.png": {
-		"ft": 32768,
-		"iS": 31731,
-		"oA": 0,
-		"oAP": "\/_site\/img\/accessmap_ja.png",
+	"\/_site\/img\/accessmap_ja.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/accessmap_ja.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/img\/by.svg": {
 		"ft": 2097152,
@@ -12040,27 +12038,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/accessmap_en.png": {
-		"ft": 32768,
-		"iS": 32907,
-		"oA": 0,
-		"oAP": "\/img\/accessmap_en.png",
+	"\/img\/accessmap_en.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/accessmap_en.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/img\/accessmap_ja.png": {
-		"ft": 32768,
-		"iS": 31731,
-		"oA": 0,
-		"oAP": "\/img\/accessmap_ja.png",
+	"\/img\/accessmap_ja.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/accessmap_ja.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/by.svg": {
 		"ft": 2097152,
@@ -18353,6 +18349,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

@@ -1255,8 +1255,8 @@ table.matrix {
         color: #004098; }
 
 .accessmap {
-  width: 720px;
-  padding: 10px 0; }
+  width: 600px;
+  margin: 22px auto; }
 
 table.terminal-info {
   width: 720px;
