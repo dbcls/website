@@ -887,21 +887,39 @@ var initialize = {
       var member = []
       for (var i = 2; i < data_services.length; i++) {
         member.push(data_services[i][7])
+        member.push(data_services[i][8])
+        member.push(data_services[i][9])
       }
-      member = _.rest(member, 2)
       member = _.uniq(member)
       member = _.compact(member)
       var charge = {}
       // for(key in member){
       //   charge[key] = member[key]
       // }
+
       member.map(function(data) {
-        for (var i = 2; i < data_services.length; i++) {
+        for (var i = 0; i < data_services.length; i++) {
           if (data === data_services[i][7]) {
             charge[data] += data_services[i][3] + ','
           }
         }
       })
+
+      member.map(function(data) {
+        for (var i = 0; i < data_services.length; i++) {
+          if (data === data_services[i][8]) {
+            charge[data] += data_services[i][3] + ','
+          }
+        }
+      })
+      member.map(function(data) {
+        for (var i = 0; i < data_services.length; i++) {
+          if (data === data_services[i][9]) {
+            charge[data] += data_services[i][3] + ','
+          }
+        }
+      })
+
       $('.name_ja').each(function() {
         var name = $(this).text()
         name = name.split(' ')

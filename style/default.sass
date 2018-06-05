@@ -314,56 +314,66 @@ body
 			background-color: rgba(255, 255, 255, 0)
 			&:focus
 				outline: none
-		// &:after
-		// 	font-family: fontawesome
-		// 	content: '\f002'
-		// 	position: absolute
-		// 	top: 3px
-		// 	right: 8px
-		// 	pointer-events: none
-		// 	color: $header-color
-		// 	opacity: 0.8
 #header__nav__search-inner
-	.gsc-control-cse
-		background-color: transparent !important
-		border: none !important
-		padding: 0
-		//width: 217px
-		width: 195px
-		.gsc-search-box
-			margin-bottom: 0
-			.gsc-input
-				padding-right: 0
-				.gsc-input-box 
-					border-radius: 12px
-					height: 22px
-					.gsib_a
-						height: 22px
-						padding: 0 8px 0
-						input
-							margin: 0
-							height: 22px
-							background: none !important
-							font-size: 13px
-							text-indent: 53px
-							&::placeholder
-								color: transparent
+	.search_section-text
+		border-radius: 12px
+		border: none
+		height: 22px
+		text-indent: 9px
+		&:focus
+			outline: 0
+	.search_section-submit
+		height: 22px
+		position: absolute
+		top: 4px
+		right: 7px
+		opacity: 0
+	.fa-search
+		position: absolute
+		top: 3px
+		right: 8px
+		color: $header-color
+		pointer-events: none
+	// .gsc-control-cse
+	// 	background-color: transparent !important
+	// 	border: none !important
+	// 	padding: 0
+	// 	//width: 217px
+	// 	width: 195px
+	// 	.gsc-search-box
+	// 		margin-bottom: 0
+	// 		.gsc-input
+	// 			padding-right: 0
+	// 			.gsc-input-box 
+	// 				border-radius: 12px
+	// 				height: 22px
+	// 				.gsib_a
+	// 					height: 22px
+	// 					padding: 0 8px 0
+	// 					input
+	// 						margin: 0
+	// 						height: 22px
+	// 						background: none !important
+	// 						font-size: 13px
+	// 						text-indent: 53px
+	// 						&::placeholder
+	// 							color: transparent
 
-					.gsib_b
-						display: none
-			.gsc-search-button
-				margin: 0
-				padding: 0
-				border-color: transparent
-				background-color: transparent
-				background-image: none
-				position: absolute
-				top: 2px
-				right: 3px
-				svg
-					fill: $main-color
-				&:focus
-					outline: 0
+	// 				.gsib_b
+	// 					display: none
+	// 		.gsc-search-button
+	// 			margin: 0
+	// 			padding: 0
+	// 			border-color: transparent
+	// 			background-color: transparent
+	// 			background-image: none
+	// 			position: absolute
+	// 			top: 2px
+	// 			right: 3px
+	// 			svg
+	// 				fill: $main-color
+	// 			&:focus
+	// 				outline: 0
 
 /* footer */
 footer

@@ -341,44 +341,27 @@ body {
       .header__nav .header__nav__search .search__submit:focus {
         outline: none; }
 
-#header__nav__search-inner .gsc-control-cse {
-  background-color: transparent !important;
-  border: none !important;
-  padding: 0;
-  width: 195px; }
-  #header__nav__search-inner .gsc-control-cse .gsc-search-box {
-    margin-bottom: 0; }
-    #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input {
-      padding-right: 0; }
-      #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input .gsc-input-box {
-        border-radius: 12px;
-        height: 22px; }
-        #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input .gsc-input-box .gsib_a {
-          height: 22px;
-          padding: 0 8px 0; }
-          #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input .gsc-input-box .gsib_a input {
-            margin: 0;
-            height: 22px;
-            background: none !important;
-            font-size: 13px;
-            text-indent: 53px; }
-            #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input .gsc-input-box .gsib_a input::placeholder {
-              color: transparent; }
-        #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-input .gsc-input-box .gsib_b {
-          display: none; }
-    #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-search-button {
-      margin: 0;
-      padding: 0;
-      border-color: transparent;
-      background-color: transparent;
-      background-image: none;
-      position: absolute;
-      top: 2px;
-      right: 3px; }
-      #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-search-button svg {
-        fill: #004098; }
-      #header__nav__search-inner .gsc-control-cse .gsc-search-box .gsc-search-button:focus {
-        outline: 0; }
+#header__nav__search-inner .search_section-text {
+  border-radius: 12px;
+  border: none;
+  height: 22px;
+  text-indent: 9px; }
+  #header__nav__search-inner .search_section-text:focus {
+    outline: 0; }
+
+#header__nav__search-inner .search_section-submit {
+  height: 22px;
+  position: absolute;
+  top: 4px;
+  right: 7px;
+  opacity: 0; }
+
+#header__nav__search-inner .fa-search {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  color: #004098;
+  pointer-events: none; }
 
 /* footer */
 footer {
