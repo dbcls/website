@@ -2854,7 +2854,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/common-header-footer\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/common-header-footer\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -2876,7 +2876,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/common-header-footer\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/common-header-footer\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -3514,7 +3514,7 @@
 		},
 	"\/_site\/img\/direction_map_en.png": {
 		"ft": 32768,
-		"iS": 55991,
+		"iS": 55900,
 		"oA": 0,
 		"oAP": "\/_site\/img\/direction_map_en.png",
 		"oF": 0,
@@ -5055,7 +5055,7 @@
 		},
 	"\/_site\/img\/service_assets\/colil.png": {
 		"ft": 32768,
-		"iS": 5894,
+		"iS": 9898,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/colil.png",
 		"oF": 0,
@@ -5198,7 +5198,7 @@
 		},
 	"\/_site\/img\/service_assets\/inmexes.png": {
 		"ft": 32768,
-		"iS": 16937,
+		"iS": 25361,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/inmexes.png",
 		"oF": 0,
@@ -5540,7 +5540,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -5553,7 +5553,7 @@
 		},
 	"\/_site\/img\/service_assets\/統合TV.png": {
 		"ft": 32768,
-		"iS": 6114,
+		"iS": 17290,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/統合TV.png",
 		"oF": 0,
@@ -5562,7 +5562,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -7017,6 +7017,26 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/_site\/script\/default-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/script\/default.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/script\/default-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/_site\/script\/marked.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7584,7 +7604,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-1_180524.png": {
 		"ft": 32768,
-		"iS": 71077,
+		"iS": 256579,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-1_180524.png",
 		"oF": 0,
@@ -7595,7 +7615,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-2_180524.png": {
 		"ft": 32768,
-		"iS": 104039,
+		"iS": 402765,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-2_180524.png",
 		"oF": 0,
@@ -7606,7 +7626,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-3_180524.png": {
 		"ft": 32768,
-		"iS": 106414,
+		"iS": 407641,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-3_180524.png",
 		"oF": 0,
@@ -7617,7 +7637,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-4_180524.png": {
 		"ft": 32768,
-		"iS": 212649,
+		"iS": 589049,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-4_180524.png",
 		"oF": 0,
@@ -7628,7 +7648,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-1_180524.png": {
 		"ft": 32768,
-		"iS": 84400,
+		"iS": 307274,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-1_180524.png",
 		"oF": 0,
@@ -7639,7 +7659,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-2_180524.png": {
 		"ft": 32768,
-		"iS": 118221,
+		"iS": 442657,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-2_180524.png",
 		"oF": 0,
@@ -7650,7 +7670,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-3_180524.png": {
 		"ft": 32768,
-		"iS": 119210,
+		"iS": 454748,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-3_180524.png",
 		"oF": 0,
@@ -7661,7 +7681,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-4_180524.png": {
 		"ft": 32768,
-		"iS": 211548,
+		"iS": 586112,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-4_180524.png",
 		"oF": 0,
@@ -7705,7 +7725,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 251420,
+		"iS": 867510,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-1_180525.png",
 		"oF": 0,
@@ -7716,7 +7736,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 300726,
+		"iS": 977730,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-2_180525.png",
 		"oF": 0,
@@ -7727,7 +7747,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_Gendoo_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 12097,
+		"iS": 12200,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_Gendoo_fig-1_180525.png",
 		"oF": 0,
@@ -7738,7 +7758,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_Gendoo_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 24785,
+		"iS": 24803,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_Gendoo_fig-2_180525.png",
 		"oF": 0,
@@ -7771,7 +7791,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 229660,
+		"iS": 895372,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-1_180525.png",
 		"oF": 0,
@@ -7782,7 +7802,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 213988,
+		"iS": 776574,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-2_180525.png",
 		"oF": 0,
@@ -7848,7 +7868,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-1_180530.png": {
 		"ft": 32768,
-		"iS": 70845,
+		"iS": 282762,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-1_180530.png",
 		"oF": 0,
@@ -7859,7 +7879,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-2_180530.png": {
 		"ft": 32768,
-		"iS": 137113,
+		"iS": 466571,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-2_180530.png",
 		"oF": 0,
@@ -7870,7 +7890,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-3_180530.png": {
 		"ft": 32768,
-		"iS": 118825,
+		"iS": 431796,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-3_180530.png",
 		"oF": 0,
@@ -7881,7 +7901,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-4_180530.png": {
 		"ft": 32768,
-		"iS": 139678,
+		"iS": 442208,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-4_180530.png",
 		"oF": 0,
@@ -8000,7 +8020,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_SRA_fig-1_180528.png": {
 		"ft": 32768,
-		"iS": 29707,
+		"iS": 30175,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_SRA_fig-1_180528.png",
 		"oF": 0,
@@ -8011,7 +8031,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_SRA_fig-2_180528.png": {
 		"ft": 32768,
-		"iS": 24172,
+		"iS": 24695,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_SRA_fig-2_180528.png",
 		"oF": 0,
@@ -8022,7 +8042,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_TogoTable_fig-1_180530.png": {
 		"ft": 32768,
-		"iS": 30103,
+		"iS": 113091,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_TogoTable_fig-1_180530.png",
 		"oF": 0,
@@ -8033,7 +8053,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_TogoTable_fig-2_180530.png": {
 		"ft": 32768,
-		"iS": 71960,
+		"iS": 252098,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_TogoTable_fig-2_180530.png",
 		"oF": 0,
@@ -8132,7 +8152,7 @@
 		},
 	"\/_site\/services\/images\/SPARQL_support_fig-1.png": {
 		"ft": 32768,
-		"iS": 65694,
+		"iS": 247886,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/SPARQL_support_fig-1.png",
 		"oF": 0,
@@ -8143,7 +8163,7 @@
 		},
 	"\/_site\/services\/images\/sparqlbuilder01_20180530.png": {
 		"ft": 32768,
-		"iS": 30618,
+		"iS": 55624,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/sparqlbuilder01_20180530.png",
 		"oF": 0,
@@ -8154,7 +8174,7 @@
 		},
 	"\/_site\/services\/images\/sparqlbuilder02_20180530.png": {
 		"ft": 32768,
-		"iS": 24584,
+		"iS": 46012,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/sparqlbuilder02_20180530.png",
 		"oF": 0,
@@ -9092,12 +9112,35 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_site\/style\/default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/style\/default-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/style\/default.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/style\/default.css.map",
 		"oF": 0
+		},
+	"\/_site\/style\/default.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/style\/default.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/_site\/style\/font-awesome.css": {
 		"aP": 1,
@@ -9829,7 +9872,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/common-header-footer\/img\/service_assets\/新着論文レビュー.png": {
+	"\/common-header-footer\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -9851,7 +9894,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/common-header-footer\/img\/service_assets\/領域融合レビュー.png": {
+	"\/common-header-footer\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -11903,7 +11946,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
+	"\/img\/_site\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -11925,7 +11968,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
+	"\/img\/_site\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -14173,7 +14216,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/新着論文レビュー.png": {
+	"\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
@@ -14195,7 +14238,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/領域融合レビュー.png": {
+	"\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
