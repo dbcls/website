@@ -912,7 +912,6 @@ var initialize = {
           }
         }
       })
-      console.log(member)
       member.map(function(data) {
         for (var i = 0; i < data_services.length; i++) {
           if (data === data_services[i][9]) {

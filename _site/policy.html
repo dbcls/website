@@ -58,7 +58,14 @@
       </li>
       <li class='header__nav__search'>
         <div id='header__nav__search-inner'>
-          <script>
+          <form id="cse-search-box" action="http://google.com/cse">
+            <input type="hidden" name="cx" value="016433857417905697255:vomnfncutdk" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" size="31" class="search_section-text"/>
+            <input type="submit" name="sa" value="" class="search_section-submit"/>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </form>
+          <!-- <script>
             (function () {
               var cx = '016433857417905697255:vomnfncutdk';
               var gcse = document.createElement('script');
@@ -68,7 +75,7 @@
               var s = document.getElementsByTagName('script')[0];
               s.parentNode.insertBefore(gcse, s);
             })();
-          </script>
+          </script> -->
           <gcse:search></gcse:search>
         </div>
         <!--        <input class='search__wrapper' type="text">
