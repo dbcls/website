@@ -880,6 +880,10 @@ var initialize = {
 
       //担当サービスの実装
       data_services = data_services[0].values
+      data_services = data_services.filter(data => {
+        return data[0] === "Y"
+      })
+
       var member = []
       for (var i = 2; i < data_services.length; i++) {
         member.push(data_services[i][7])
