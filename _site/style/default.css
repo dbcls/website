@@ -190,7 +190,8 @@ body {
     .content__wrapper .sub__navigation.service__side-bar {
       height: 90vh; }
   .content__wrapper .main__contents {
-    padding-top: 160px; }
+    padding-top: 160px;
+    width: 786px; }
     .content__wrapper .main__contents .main__content-title__wrapper {
       border-bottom: 1px solid #9E9E9E;
       margin-bottom: 25px;
