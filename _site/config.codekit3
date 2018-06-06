@@ -3503,7 +3503,7 @@
 		},
 	"\/_site\/img\/direction_map.png": {
 		"ft": 32768,
-		"iS": 62656,
+		"iS": 60422,
 		"oA": 0,
 		"oAP": "\/_site\/img\/direction_map.png",
 		"oF": 0,
@@ -3514,7 +3514,7 @@
 		},
 	"\/_site\/img\/direction_map_en.png": {
 		"ft": 32768,
-		"iS": 55900,
+		"iS": 55991,
 		"oA": 0,
 		"oAP": "\/_site\/img\/direction_map_en.png",
 		"oF": 0,
@@ -3787,17 +3787,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/logotypes\/about-logotype.png": {
-		"ft": 32768,
-		"iS": 15561,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/about-logotype.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/_site\/img\/logotypes\/about-logotype.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3807,57 +3796,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/_site\/img\/logotypes\/logo_all_c.png.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_c.png.zip",
-		"oF": 0
-		},
-	"\/_site\/img\/logotypes\/logo_all_c.png\/logo_c.png": {
-		"ft": 32768,
-		"iS": 12121,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_c.png\/logo_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/img\/logotypes\/logo_all_c.png\/logo_en_c.png": {
-		"ft": 32768,
-		"iS": 21864,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_c.png\/logo_en_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/img\/logotypes\/logo_all_c.png\/logo_en_full_c.png": {
-		"ft": 32768,
-		"iS": 43332,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_c.png\/logo_en_full_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/img\/logotypes\/logo_all_c.png\/logo_ja_c.png": {
-		"ft": 32768,
-		"iS": 44657,
-		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_c.png\/logo_ja_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/_site\/img\/logotypes\/logo_all_c.svg.zip": {
 		"cB": 0,
@@ -3906,11 +3844,62 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_cmyk.ai.zip": {
+	"\/_site\/img\/logotypes\/logo_all_c_png.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_c_png.zip",
+		"oF": 0
+		},
+	"\/_site\/img\/logotypes\/logo_all_c_png\/logo_c.png": {
+		"ft": 32768,
+		"iS": 11202,
+		"oA": 0,
+		"oAP": "\/_site\/img\/logotypes\/logo_all_c_png\/logo_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/logotypes\/logo_all_c_png\/logo_en_c.png": {
+		"ft": 32768,
+		"iS": 20373,
+		"oA": 0,
+		"oAP": "\/_site\/img\/logotypes\/logo_all_c_png\/logo_en_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/logotypes\/logo_all_c_png\/logo_en_full_c.png": {
+		"ft": 32768,
+		"iS": 41160,
+		"oA": 0,
+		"oAP": "\/_site\/img\/logotypes\/logo_all_c_png\/logo_en_full_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/logotypes\/logo_all_c_png\/logo_ja_c.png": {
+		"ft": 32768,
+		"iS": 42812,
+		"oA": 0,
+		"oAP": "\/_site\/img\/logotypes\/logo_all_c_png\/logo_ja_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/logotypes\/logo_all_cmyk.ai_.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai_.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_cmyk.ai_\/logo_cmyk.ai": {
@@ -3941,11 +3930,11 @@
 		"oAP": "\/_site\/img\/logotypes\/logo_all_cmyk.ai_\/logo_ja_cmyk.ai",
 		"oF": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_m.ai.zip": {
+	"\/_site\/img\/logotypes\/logo_all_m.ai_.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_m.ai.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_m.ai_.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.ai_\/logo_en_full_m.ai": {
@@ -3985,7 +3974,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.png\/logo_en_full_m.png": {
 		"ft": 32768,
-		"iS": 41829,
+		"iS": 40393,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_all_m.png\/logo_en_full_m.png",
 		"oF": 0,
@@ -3996,7 +3985,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.png\/logo_en_m.png": {
 		"ft": 32768,
-		"iS": 20934,
+		"iS": 19821,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_all_m.png\/logo_en_m.png",
 		"oF": 0,
@@ -4007,7 +3996,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.png\/logo_ja_m.png": {
 		"ft": 32768,
-		"iS": 43935,
+		"iS": 42016,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_all_m.png\/logo_ja_m.png",
 		"oF": 0,
@@ -4018,7 +4007,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_all_m.png\/logo_m.png": {
 		"ft": 32768,
-		"iS": 11416,
+		"iS": 10456,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_all_m.png\/logo_m.png",
 		"oF": 0,
@@ -4074,11 +4063,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/logotypes\/logo_all_rgb.ai.zip": {
+	"\/_site\/img\/logotypes\/logo_all_rgb.ai_.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logotypes\/logo_all_rgb.ai.zip",
+		"oAP": "\/_site\/img\/logotypes\/logo_all_rgb.ai_.zip",
 		"oF": 0
 		},
 	"\/_site\/img\/logotypes\/logo_all_rgb.ai_\/logo_en_full_rgb.ai": {
@@ -4111,7 +4100,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_c.png": {
 		"ft": 32768,
-		"iS": 12121,
+		"iS": 11202,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_c.png",
 		"oF": 0,
@@ -4146,7 +4135,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_en_c.png": {
 		"ft": 32768,
-		"iS": 21864,
+		"iS": 20373,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_en_c.png",
 		"oF": 0,
@@ -4181,7 +4170,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_en_full_c.png": {
 		"ft": 32768,
-		"iS": 43332,
+		"iS": 41160,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_en_full_c.png",
 		"oF": 0,
@@ -4223,7 +4212,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_en_full_m.png": {
 		"ft": 32768,
-		"iS": 41829,
+		"iS": 40393,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_en_full_m.png",
 		"oF": 0,
@@ -4265,7 +4254,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_en_m.png": {
 		"ft": 32768,
-		"iS": 20934,
+		"iS": 19821,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_en_m.png",
 		"oF": 0,
@@ -4300,7 +4289,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_ja_c.png": {
 		"ft": 32768,
-		"iS": 44657,
+		"iS": 42812,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_ja_c.png",
 		"oF": 0,
@@ -4342,7 +4331,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_ja_m.png": {
 		"ft": 32768,
-		"iS": 43935,
+		"iS": 42016,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_ja_m.png",
 		"oF": 0,
@@ -4384,7 +4373,7 @@
 		},
 	"\/_site\/img\/logotypes\/logo_m.png": {
 		"ft": 32768,
-		"iS": 11416,
+		"iS": 10456,
 		"oA": 0,
 		"oAP": "\/_site\/img\/logotypes\/logo_m.png",
 		"oF": 0,
@@ -5055,7 +5044,7 @@
 		},
 	"\/_site\/img\/service_assets\/colil.png": {
 		"ft": 32768,
-		"iS": 9898,
+		"iS": 5894,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/colil.png",
 		"oF": 0,
@@ -5198,7 +5187,7 @@
 		},
 	"\/_site\/img\/service_assets\/inmexes.png": {
 		"ft": 32768,
-		"iS": 25361,
+		"iS": 16937,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/inmexes.png",
 		"oF": 0,
@@ -5553,7 +5542,7 @@
 		},
 	"\/_site\/img\/service_assets\/統合TV.png": {
 		"ft": 32768,
-		"iS": 17290,
+		"iS": 6114,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/統合TV.png",
 		"oF": 0,
@@ -7604,7 +7593,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-1_180524.png": {
 		"ft": 32768,
-		"iS": 256579,
+		"iS": 71077,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-1_180524.png",
 		"oF": 0,
@@ -7615,7 +7604,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-2_180524.png": {
 		"ft": 32768,
-		"iS": 402765,
+		"iS": 104039,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-2_180524.png",
 		"oF": 0,
@@ -7626,7 +7615,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-3_180524.png": {
 		"ft": 32768,
-		"iS": 407641,
+		"iS": 106414,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-3_180524.png",
 		"oF": 0,
@@ -7637,7 +7626,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_en_fig-4_180524.png": {
 		"ft": 32768,
-		"iS": 589049,
+		"iS": 212649,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_en_fig-4_180524.png",
 		"oF": 0,
@@ -7648,7 +7637,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-1_180524.png": {
 		"ft": 32768,
-		"iS": 307274,
+		"iS": 84400,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-1_180524.png",
 		"oF": 0,
@@ -7659,7 +7648,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-2_180524.png": {
 		"ft": 32768,
-		"iS": 442657,
+		"iS": 118221,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-2_180524.png",
 		"oF": 0,
@@ -7670,7 +7659,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-3_180524.png": {
 		"ft": 32768,
-		"iS": 454748,
+		"iS": 119210,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-3_180524.png",
 		"oF": 0,
@@ -7681,7 +7670,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-4_180524.png": {
 		"ft": 32768,
-		"iS": 586112,
+		"iS": 211548,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_AOE_jp_fig-4_180524.png",
 		"oF": 0,
@@ -7725,7 +7714,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 867510,
+		"iS": 251420,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-1_180525.png",
 		"oF": 0,
@@ -7736,7 +7725,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 977730,
+		"iS": 300726,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_FirstAuthors_fig-2_180525.png",
 		"oF": 0,
@@ -7747,7 +7736,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_Gendoo_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 12200,
+		"iS": 12097,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_Gendoo_fig-1_180525.png",
 		"oF": 0,
@@ -7758,7 +7747,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_Gendoo_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 24803,
+		"iS": 24785,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_Gendoo_fig-2_180525.png",
 		"oF": 0,
@@ -7791,7 +7780,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-1_180525.png": {
 		"ft": 32768,
-		"iS": 895372,
+		"iS": 229660,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-1_180525.png",
 		"oF": 0,
@@ -7802,7 +7791,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-2_180525.png": {
 		"ft": 32768,
-		"iS": 776574,
+		"iS": 213988,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_LeadingAuthors_fig-2_180525.png",
 		"oF": 0,
@@ -7868,7 +7857,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-1_180530.png": {
 		"ft": 32768,
-		"iS": 282762,
+		"iS": 70845,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-1_180530.png",
 		"oF": 0,
@@ -7879,7 +7868,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-2_180530.png": {
 		"ft": 32768,
-		"iS": 466571,
+		"iS": 137113,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-2_180530.png",
 		"oF": 0,
@@ -7890,7 +7879,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-3_180530.png": {
 		"ft": 32768,
-		"iS": 431796,
+		"iS": 118825,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-3_180530.png",
 		"oF": 0,
@@ -7901,7 +7890,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-4_180530.png": {
 		"ft": 32768,
-		"iS": 442208,
+		"iS": 139678,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_PubCaseFinder_jp_fig-4_180530.png",
 		"oF": 0,
@@ -8020,7 +8009,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_SRA_fig-1_180528.png": {
 		"ft": 32768,
-		"iS": 30175,
+		"iS": 29707,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_SRA_fig-1_180528.png",
 		"oF": 0,
@@ -8031,7 +8020,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSServices_SRA_fig-2_180528.png": {
 		"ft": 32768,
-		"iS": 24695,
+		"iS": 24172,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSServices_SRA_fig-2_180528.png",
 		"oF": 0,
@@ -8042,7 +8031,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_TogoTable_fig-1_180530.png": {
 		"ft": 32768,
-		"iS": 113091,
+		"iS": 30103,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_TogoTable_fig-1_180530.png",
 		"oF": 0,
@@ -8053,7 +8042,7 @@
 		},
 	"\/_site\/services\/images\/DBCLSservices_TogoTable_fig-2_180530.png": {
 		"ft": 32768,
-		"iS": 252098,
+		"iS": 71960,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/DBCLSservices_TogoTable_fig-2_180530.png",
 		"oF": 0,
@@ -8152,7 +8141,7 @@
 		},
 	"\/_site\/services\/images\/SPARQL_support_fig-1.png": {
 		"ft": 32768,
-		"iS": 247886,
+		"iS": 65694,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/SPARQL_support_fig-1.png",
 		"oF": 0,
@@ -8163,7 +8152,7 @@
 		},
 	"\/_site\/services\/images\/sparqlbuilder01_20180530.png": {
 		"ft": 32768,
-		"iS": 55624,
+		"iS": 30618,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/sparqlbuilder01_20180530.png",
 		"oF": 0,
@@ -8174,7 +8163,7 @@
 		},
 	"\/_site\/services\/images\/sparqlbuilder02_20180530.png": {
 		"ft": 32768,
-		"iS": 46012,
+		"iS": 24584,
 		"oA": 0,
 		"oAP": "\/_site\/services\/images\/sparqlbuilder02_20180530.png",
 		"oF": 0,
@@ -12452,17 +12441,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logotypes\/about-logotype.png": {
-		"ft": 32768,
-		"iS": 15561,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/about-logotype.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/logotypes\/about-logotype.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -12472,57 +12450,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/logotypes\/logo_all_c.png.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_c.png.zip",
-		"oF": 0
-		},
-	"\/img\/logotypes\/logo_all_c.png\/logo_c.png": {
-		"ft": 32768,
-		"iS": 12121,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_c.png\/logo_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logotypes\/logo_all_c.png\/logo_en_c.png": {
-		"ft": 32768,
-		"iS": 21864,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_c.png\/logo_en_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logotypes\/logo_all_c.png\/logo_en_full_c.png": {
-		"ft": 32768,
-		"iS": 43332,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_c.png\/logo_en_full_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logotypes\/logo_all_c.png\/logo_ja_c.png": {
-		"ft": 32768,
-		"iS": 44657,
-		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_c.png\/logo_ja_c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/img\/logotypes\/logo_all_c.svg.zip": {
 		"cB": 0,
@@ -12571,11 +12498,62 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logotypes\/logo_all_cmyk.ai.zip": {
+	"\/img\/logotypes\/logo_all_c_png.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai.zip",
+		"oAP": "\/img\/logotypes\/logo_all_c_png.zip",
+		"oF": 0
+		},
+	"\/img\/logotypes\/logo_all_c_png\/logo_c.png": {
+		"ft": 32768,
+		"iS": 11202,
+		"oA": 0,
+		"oAP": "\/img\/logotypes\/logo_all_c_png\/logo_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logotypes\/logo_all_c_png\/logo_en_c.png": {
+		"ft": 32768,
+		"iS": 20373,
+		"oA": 0,
+		"oAP": "\/img\/logotypes\/logo_all_c_png\/logo_en_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logotypes\/logo_all_c_png\/logo_en_full_c.png": {
+		"ft": 32768,
+		"iS": 41160,
+		"oA": 0,
+		"oAP": "\/img\/logotypes\/logo_all_c_png\/logo_en_full_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logotypes\/logo_all_c_png\/logo_ja_c.png": {
+		"ft": 32768,
+		"iS": 42812,
+		"oA": 0,
+		"oAP": "\/img\/logotypes\/logo_all_c_png\/logo_ja_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logotypes\/logo_all_cmyk.ai_.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai_.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_cmyk.ai_\/logo_cmyk.ai": {
@@ -12606,11 +12584,11 @@
 		"oAP": "\/img\/logotypes\/logo_all_cmyk.ai_\/logo_ja_cmyk.ai",
 		"oF": 0
 		},
-	"\/img\/logotypes\/logo_all_m.ai.zip": {
+	"\/img\/logotypes\/logo_all_m.ai_.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_m.ai.zip",
+		"oAP": "\/img\/logotypes\/logo_all_m.ai_.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_m.ai_\/logo_en_full_m.ai": {
@@ -12739,11 +12717,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logotypes\/logo_all_rgb.ai.zip": {
+	"\/img\/logotypes\/logo_all_rgb.ai_.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/logotypes\/logo_all_rgb.ai.zip",
+		"oAP": "\/img\/logotypes\/logo_all_rgb.ai_.zip",
 		"oF": 0
 		},
 	"\/img\/logotypes\/logo_all_rgb.ai_\/logo_en_full_rgb.ai": {
