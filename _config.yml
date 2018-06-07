@@ -6,6 +6,8 @@ imageurl: '/img/'
 BASE_PATH : /my-first-prose
 paginate: 5
 future: true
+plugins:
+  - jekyll-redirect-from
 prose:
   siteurl: 'http://USERNAME.github.io/my-first-prose/'
   media: 'media'
