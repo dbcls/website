@@ -441,7 +441,7 @@ var initialize = {
                 '<a href="' + symbolYList[i][url_order] + '" class="page_btn access_btn" target="_blank">Access</a>' +
                 '</div></div>' +
                 '<div id="repos_image0" class="repos_image">' +
-                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '.png" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>'
+                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>'
             }
 
             element += '</article>'
