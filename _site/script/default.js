@@ -743,6 +743,7 @@ var initialize = {
       var googleScholar_order = getOrder('Google Scholar')
       var github_order = getOrder('github')
       var mail_order = getOrder('mail')
+      var website_order = getOrder('Website')
       var non_publish_order = getOrder('いずれのIDも掲載しない')
 
       for (var j = 1; j < data.values.length; j++) {
@@ -803,11 +804,13 @@ var initialize = {
           var googleScholar = data.values[i][googleScholar_order]
           var github = data.values[i][github_order]
           var mail = data.values[i][mail_order]
+          var website = data.values[i][website_order]
           var non_publish = data.values[i][non_publish_order]
           var link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
             judgeExist(orcid, 'btn-orcid', 'ORCID') +
-            judgeExist(googleScholar, 'btn-gs', 'Google Scholar')
+            judgeExist(googleScholar, 'btn-gs', 'Google Scholar') +
+            judgeExist(website, 'btn-web', 'Website')
           if (non_publish === 'Yes') {
             link_section = judgeExist(mail, 'btn-mail', 'Mail')
           }
@@ -849,12 +852,15 @@ var initialize = {
           var googleScholar = data.values[i][googleScholar_order]
           var github = data.values[i][github_order]
           var mail = data.values[i][mail_order]
+          var website = data.values[i][website_order]
           var non_publish = data.values[i][non_publish_order]
           var link_section = ''
           link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
             judgeExist(orcid, 'btn-orcid', 'ORCID') +
-            judgeExist(googleScholar, 'btn-gs', 'Google Scholar')
+            judgeExist(googleScholar, 'btn-gs', 'Google Scholar') +
+            judgeExist(website, 'btn-web', 'Website')
+
           if (non_publish === 'Yes') {
             link_section = judgeExist(mail, 'btn-mail', 'Mail')
           }
