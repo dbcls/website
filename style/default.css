@@ -981,6 +981,9 @@ table.matrix {
         border-left: solid 1px #ccc;
         border-right: solid 1px #ccc;
         background-color: #fff; }
+        .wrapper-type-box .article__section.contener-type-box .repos_image img {
+          width: 180px;
+          height: 84px; }
       .wrapper-type-box .article__section.contener-type-box .repos_name {
         position: absolute;
         left: 0;
