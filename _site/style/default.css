@@ -342,6 +342,9 @@ body {
       .header__nav .header__nav__search .search__submit:focus {
         outline: none; }
 
+#header__nav__search-inner #cse-search-box {
+  margin: 0; }
+
 #header__nav__search-inner .search_section-text {
   border-radius: 12px;
   border: none;
