@@ -2,7 +2,7 @@
 
 ### LODQAとは
 * LODQAは**Linked Open Data Questin Answering**の訳語です。
-* 自然言語を使ってRDFデータの検索ができるようにするウェブサービスです。
+* 自然言語を使ってRDFデータの検索ができるようにするウェブサービスです。  
 http://lodqa.org
 
 ### LODQAの特徴
