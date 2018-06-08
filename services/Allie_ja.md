@@ -23,7 +23,7 @@ PubMed（米国立医学図書館が開発・維持している生物医学文�
 引き続き日本語訳の充実および月一度の定期更新を行います。
 
 ### 関連するサービス
-* Allie RDF
+## Allie RDF
 AllieのデータにSPARQLを用いてアクセスするためのサービスです。  
 http://data.allie.dbcls.jp/
 
