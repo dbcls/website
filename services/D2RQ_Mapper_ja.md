@@ -1,7 +1,8 @@
 # D2RQ Mapper
 ### D2RQ Mapperとは
 関係データベース（RDB）を簡単にセマンティックウェブに対応させられるウェブアプリケーションです。
-D2RQ Mapperを利用することで、現在利用中のMySQLなどのRDBのデータを効率良くRDF化できます。
+D2RQ Mapperを利用することで、現在利用中のMySQLなどのRDBのデータを効率良くRDF化できます。  
+http://d2rq.dbcls.jp/
 
 ### D2RQ Mapperの特徴
 

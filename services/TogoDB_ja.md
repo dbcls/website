@@ -1,6 +1,7 @@
 # TogoDB
 
-TogoDB は表形式の研究データから、容易に公開可能なデータベースを構築するサービスです。
+TogoDB は表形式の研究データから、容易に公開可能なデータベースを構築するサービスです。  
+http://togodb.org/  
 
 * CSV/TSV の表データをファイルや URL からインポート可能
 * 簡単な設定ですぐに公開データベースが完成
@@ -18,10 +19,6 @@ TogoDB は表形式の研究データから、容易に公開可能なデータ�
 * 研究論文のサプリメント置き場
 * 共同研究者とのデータ共有・公開
 
-## URL
-
-http://togodb.org/
-
 ## スクリーンショット
 
 ### トップ画面
@@ -31,4 +28,3 @@ http://togodb.org/
 ### エントリ表示例
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-2.png)
-

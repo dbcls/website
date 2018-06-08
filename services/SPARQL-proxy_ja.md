@@ -1,6 +1,7 @@
 # SPARQL-proxy
 
-SPARQL-proxy は SPARQL エンドポイントに対して下記のような機能をもたせるプロキシーサーバです。
+SPARQL-proxy は SPARQL エンドポイントに対して下記のような機能をもたせるプロキシーサーバです。  
+https://github.com/dbcls/sparql-proxy  
 
 * SPARQL クエリの安全性検証（更新系のクエリを除外）
 * 同時に大量の SPARQL リクエストがあった場合のジョブ管理
@@ -28,6 +29,3 @@ $ docker run -p 8080:3000 -e SPARQL_BACKEND=http://example.com/sparql dbcls/spar
 ### SPARQL-proxy 管理画面
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQL-proxy_fig-2.png)
-
-
-

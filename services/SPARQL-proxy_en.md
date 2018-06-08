@@ -1,5 +1,5 @@
 # SPARQL-proxy
-
+https://github.com/dbcls/sparql-proxy
 SPARQL-proxy is a portable Web application that works as a proxy server for any SPARQL endpoint providing the following functionalities:
 
 * validation of the safety of query statements (omit SPARQL Update queries)
@@ -28,6 +28,3 @@ See [GitHub](https://github.com/dbcls/sparql-proxy) for the instruction of local
 ### SPARQL-proxy administration interface
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQ-proxy_fig-2.png)
-
-
-
