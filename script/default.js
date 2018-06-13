@@ -871,7 +871,7 @@ var initialize = {
               '<ul><li class="position">' + position + '</li>' +
               '<li class="repos_name"><span class="name_ja">' + name_ja + '</span><span class="name_en">' + name_en + '</span></li>' +
               '<li class="keyword">' + keyword_en + '</li>' +
-              '<li class="PIC">Charge：<div class="member-list__services"></div></li>' +
+              '<li class="PIC">Responsible for：<div class="member-list__services"></div></li>' +
               '<li class="links"><div class="btn-box">' +
               link_section +
               '</div></li></ul></div>';
@@ -881,7 +881,7 @@ var initialize = {
               '<ul><li class="position">' + position + '</li>' +
               '<li class="repos_name"><span class="name_ja">' + name_ja + '</span><span class="name_en">' + name_en + '</span></li>' +
               '<li class="keyword">' + keyword_en + '</li>' +
-              '<li class="PIC">Charge：<div class="member-list__services"></div></li>' +
+              '<li class="PIC">Responsible for：<div class="member-list__services"></div></li>' +
               '<li class="links"><div class="btn-box">' +
               link_section +
               '</div></li></ul></div>';
