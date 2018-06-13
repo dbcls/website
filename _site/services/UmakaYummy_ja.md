@@ -1,7 +1,8 @@
 # Umaka-Yummy Data
 ### Umaka-Yummy Dataとは
 
-SPARQLエンドポイントの利用のしやすさを測り、コミュニティでのRDFデータ利用に関する情報共有を促します。
+SPARQLエンドポイントの利用のしやすさを測り、コミュニティでのRDFデータ利用に関する情報共有を促します。  
+http://yummydata.org/
 
 ### Umaka-Yummy Dataの特徴
 

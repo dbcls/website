@@ -1,11 +1,12 @@
 # TogoDB
-
-TogoDB is a database hosting service which provides following features
+TogoDB (http://togodb.org) is a database hosting service which provides following features
 
 * Import CSV/TSV table data from file or URL
 * Instantly publish your data as a database with a simple configuration
 * Provides advanced search function including regexp
 * Configurable RDF genration and integrated SPARQL endpoint
+  
+
 
 ## Unique features
 
@@ -18,10 +19,6 @@ TogoDB is a database hosting service which provides following features
 * Publish supplement materials of a manuscript as a database
 * Data sharing with research collaborators
 
-## URL
-
-http://togodb.org/
-
 ## Screenshots
 
 ### TogoDB website
@@ -31,5 +28,3 @@ http://togodb.org/
 ### Entry view
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoDB_fig-2.png)
-
-

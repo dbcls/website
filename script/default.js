@@ -736,7 +736,8 @@ var initialize = {
       var name_ja_order = getOrder('name ja')
       var name_en_order = getOrder('name en')
       var image_order = getOrder('画像')
-      var position_order = getOrder('position')
+      var position_ja_order = getOrder('position_ja')
+      var position_en_order = getOrder('position_en')
       var keyword_order = getOrder('keyword')
       var keyword_en_order = getOrder('keyword-en')
       var orcid_order = getOrder('ORCID')
@@ -747,14 +748,14 @@ var initialize = {
       var non_publish_order = getOrder('いずれのIDも掲載しない')
 
       for (var j = 1; j < data.values.length; j++) {
-        if (data.values[j][position_order] === '客員教授' || data.values[j][position_order] === '客員准教授') {
+        if (data.values[j][position_ja_order] === '客員教授' || data.values[j][position_ja_order] === '客員准教授') {
           listSubNav_collaborators += '<li><a href="#' + data.values[j][name_ja_order] + '">' + data.values[j][name_ja_order] + '</a></li>';
         } else {
           listSubNav += '<li><a href="#' + data.values[j][name_ja_order] + '">' + data.values[j][name_ja_order] + '</a></li>';
         }
       }
       for (var j = 1; j < data.values.length; j++) {
-        if (data.values[j][position_order] === '客員教授' || data.values[j][position_order] === '客員准教授') {
+        if (data.values[j][position_ja_order] === '客員教授' || data.values[j][position_ja_order] === '客員准教授') {
           listSubNav_collaborators_en += '<li><a href="#' + data.values[j][name_en_order] + '">' + data.values[j][name_en_order] + '</a></li>';
         } else {
           listSubNav_en += '<li><a href="#' + data.values[j][name_en_order] + '">' + data.values[j][name_en_order] + '</a></li>';
@@ -796,7 +797,7 @@ var initialize = {
           var name_ja = data.values[i][name_ja_order]
           var name_en = data.values[i][name_en_order]
           var image = data.values[i][image_order]
-          var position = data.values[i][position_order]
+          var position = data.values[i][position_ja_order]
           //var position_en = data.values[i][]
           var keyword = data.values[i][keyword_order]
           //var keyword_en = data.values[i][]
@@ -844,7 +845,7 @@ var initialize = {
           var name_ja = data.values[i][name_ja_order]
           var name_en = data.values[i][name_en_order]
           var image = data.values[i][image_order]
-          var position = data.values[i][position_order]
+          var position = data.values[i][position_en_order]
           //var position_en = data.values[i][]
           var keyword = data.values[i][keyword_order]
           var keyword_en = data.values[i][keyword_en_order]

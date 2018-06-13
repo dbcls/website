@@ -1,7 +1,8 @@
 # Umaka-Yummy Data
 ### What is Umaka-Yummy Data?
 
-Umaka-Yummy Data monitors SPARQL endpoints in the Life Scinece domain and publishes the obtained data to facilitate knowledge sharing between database consumers and providers.
+Umaka-Yummy Data monitors SPARQL endpoints in the Life Scinece domain and publishes the obtained data to facilitate knowledge sharing between database consumers and providers.  
+http://yummydata.org/
 
 ### Feature of Umaka-Yummy Data
 

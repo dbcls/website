@@ -1,7 +1,8 @@
 # PubAnnotation
 ### About PubAnnotation
 * PubAnnotation is a public repository of text annotation.
-* It provides various ways to access annotations collected on it.
+* It provides various ways to access annotations collected on it.  
+http://pubannotation.org/
 
 ### Features
 * It is particularly specialized for literature of life sciences, e.g., PubMed articles.

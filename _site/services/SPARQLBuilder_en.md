@@ -1,7 +1,7 @@
 # SPARQL Builder
 ### What is SPARQL Builder?
 
-A support system in writing SPARQL queries for life science databases with an intuitive GUI. (http://sparqlbuilder.org/)
+A support system in writing SPARQL queries for life science databases with an intuitive GUI.   (http://sparqlbuilder.org/)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder01_20180530.png)
 
@@ -27,7 +27,7 @@ A support system in writing SPARQL queries for life science databases with an in
 
 ### Usage
 
-* Select classes start class and end class from the two lists. 
+* Select classes start class and end class from the two lists.
 * After a list of paths between start class and end class is shown, select one path and click it.
 * A SPARQL query is constructed and shown in the text area.
 

@@ -2,7 +2,8 @@
 
 ### About LODQA
 * LODQA is an acronym for **Linked Open Data Questin Answering**.
-* It is an interface to enable a search over LOD using **natural language queries**.
+* It is an interface to enable a search over LOD using **natural language queries**.  
+http://lodqa.org
 
 ### Features of LODQA
 * It is a **highly adaptable** system to any RDF dataset.

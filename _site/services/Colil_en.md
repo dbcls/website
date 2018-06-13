@@ -1,6 +1,7 @@
 # Colil
 ### What is Colil?
-A search service for citation contexts of a cited paper along with its relevant ones. 
+A search service for citation contexts of a cited paper along with its relevant ones.   
+http://colil.dbcls.jp/
 
 ### Feature of Colil
 

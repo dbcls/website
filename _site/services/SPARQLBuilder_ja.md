@@ -1,7 +1,8 @@
 # SPARQL Builder
 ### SPARQL Builderとは
 
-直観的GUIとマウス操作で生命科学系データベースに対するSPARQLクエリ記述を補助するシステムです．(http://sparqlbuilder.org/)
+直観的GUIとマウス操作で生命科学系データベースに対するSPARQLクエリ記述を補助するシステムです．  
+(http://sparqlbuilder.org/)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/sparqlbuilder01_20180530.png)
 
