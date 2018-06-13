@@ -500,7 +500,7 @@ var initialize = {
             } else if (judge_language.match(/name_en/)) {
               service_name += '_en'
             }
-            service_name = service_name.replace(/ /g , '_')
+            service_name = service_name.replace(/ /g, '_')
             displayRepos(service_name)
           })
         }
@@ -949,6 +949,15 @@ var initialize = {
           $(charge_tag).remove()
         }
       })
+    })
+
+    $(document).on('click', '#memberList li a', function() {
+      setTimeout(function() {
+        var offset = $(window).scrollTop()
+        var windowHeight = $(window).height()
+        var offsetPlus = offset - windowHeight * .4
+        $(window).scrollTop(offsetPlus)
+      }, 0)
     })
   },
   'access': function() {
