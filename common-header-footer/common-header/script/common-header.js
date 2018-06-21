@@ -6,4 +6,5 @@ setTimeout(function(){
   $('body').prepend('<header>')
   $('header').addClass('dbcls-common-header')
   $('header').load('common-header.html')
+  $('body').css('padding-top', '24px')
 }, 100)
