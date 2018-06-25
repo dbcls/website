@@ -322,8 +322,8 @@ var initialize = {
             return order
           }
 
-          var service_name_order = getOrder('other', 'サービス名称')
-          var core_service_name_order = getOrder('other', 'コアサービス名')
+          var service_name_order = getOrder('other', 'services_name_en')
+          var core_service_name_order = getOrder('other', 'services_name_ja')
           var keyword_ja_order = getOrder('other', 'explanation_ja')
           var keyword_en_order = getOrder('other', 'explanation_en')
           var url_order = getOrder('other', 'URL')
@@ -427,7 +427,7 @@ var initialize = {
             if (file_name === 'services.html') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
-                '<p class="name name_ja">' + symbolYList[i][service_name_order] + '</p>' +
+                '<p class="name name_ja" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][core_service_name_order] + '</p>' +
                 '<div class="keyword">' + symbolYList[i][keyword_ja_order] + '</div>' +
                 addTagLine(tagArray, 'ja') +
                 '<div class="btn-box">' +
@@ -439,7 +439,7 @@ var initialize = {
             } else if (file_name === 'services-en.html') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
-                '<p class="name name_en">' + symbolYList[i][service_name_order] + '</p>' +
+                '<p class="name name_en" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][service_name_order] + '</p>' +
                 '<div class="keyword">' + symbolYList[i][keyword_en_order] + '</div>' +
                 addTagLine(tagArray, 'en') +
                 '<div class="btn-box">' +
@@ -493,7 +493,7 @@ var initialize = {
           //README表示
           $(document).on('click', '.more_btn', function() {
             $('html,body').scrollTop(0);
-            var service_name = $(this).parent().siblings('.name').html()
+            var service_name = $(this).parent().siblings('.name').attr('id')
             var judge_language = $(this).parent().siblings('.name').attr('class')
             if (judge_language.match(/name_ja/)) {
               service_name += '_ja'
@@ -532,8 +532,8 @@ var initialize = {
           }
           return order
         }
-        var service_name_order = getOrder('サービス名称')
-        var core_service_name_order = getOrder('コアサービス名')
+        var service_name_order = getOrder('services_name_en')
+        var core_service_name_order = getOrder('services_name_ja')
 
         function checkCore(name) {
           var coreName = ''
@@ -655,7 +655,7 @@ var initialize = {
           return order
         }
         var event_active_order = getOrder('Event掲載')
-        var service_name_order = getOrder('サービス名称')
+        var service_name_order = getOrder('services_name_en')
         var explanation_ja_order = getOrder('explanation_ja')
         var explanation_en_order = getOrder('explanation_en')
         var event_img_order = getOrder('画像')
