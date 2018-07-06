@@ -865,7 +865,7 @@ var initialize = {
           if (non_publish === 'Yes') {
             link_section = judgeExist(mail, 'btn-mail', 'Mail')
           }
-          if (position === '客員教授' || position === '客員准教授') {
+          if (position === 'Guest Professor' || position === 'Guest Associate Professor') {
             element_collaborators += '<div class="content__member" id="' + name_en + '">' +
               '<div class="repos_image">' + '<img src="./img/member/' + image + '" alt="' + name_en + '" class="img_member"></div>' +
               '<ul><li class="position">' + position + '</li>' +

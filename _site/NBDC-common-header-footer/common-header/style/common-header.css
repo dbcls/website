@@ -35,9 +35,6 @@ td, th {
   padding: 0;
   text-align: left; }
 
-header, footer {
-  font-family: 'Muli', sans-serif !important; }
-
 /* dbcls-common-header */
 .dbcls-common-header {
   z-index: 9999;
