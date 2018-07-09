@@ -7,6 +7,8 @@
     http://localhost:4000</link>
     
       
+    
+      
         
         <item>
           <title>A paper “Suppression of mitochondrial oxygen metabolism mediated by the transcription factor HIF-1 alleviates propofol-induced cell toxicity” was published in Scientific Reports.</title>
@@ -120,31 +122,6 @@ The SharedIt URL by Springer Nature to provide the read-only full text access is
           <link>
           http://localhost:4000/en/2018/03/22/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/en/2018/03/22/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>A paper “YummyData: providing high-quality open life science data” was published in Database.</title>
-          
-            <description>&lt;p&gt;A paper “YummyData: providing high-quality open life science data” was published in Database.
-Dr. Yasunori Yamamoto and Dr. Atsuko Yamaguchi in DBCLS and Dr. Andrea Splendiani in Novartis Institutes for Biomedical Research contributed to this work.
-The open-access full paper can be found online at:
-&lt;a href=&quot;https://academic.oup.com/database/article/doi/10.1093/database/bay022/4925801&quot;&gt;https://doi.org/10.1093/database/bay022&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Database, Volume 2018, 1 January 2018, bay022
-doi: 10.1093/database/bay022&lt;/p&gt;
-
-&lt;p&gt;More RDF databases are freely available on the Internet through SPARQL endpoints in life sciences. In this situation, researchers have difficulty in finding designated ones which have needed data with higher reliability. They proposed and introduced a knowledge sharing place where database providers and users can communicate with each other, so that life science databases can be more usable than ever.
-This work was firstly discussed in the Biohackathon and has been continued through international collaborations.&lt;/p&gt;
-</description>
-          
-          <pubDate>Wed, 14 Mar 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2018/03/14/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2018/03/14/post1.html</guid>
         </item>
         
       

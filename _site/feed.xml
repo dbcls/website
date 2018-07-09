@@ -9,6 +9,27 @@
       
         
         <item>
+          <title>サイトポリシー改訂のお知らせ</title>
+          
+            <description>&lt;p&gt;2018年7月20日付でサイトポリシーを改訂しますので、お知らせいたします。
+改訂箇所は以下をご覧ください。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dbcls/website/raw/master/PDF/180706.pdf&quot;&gt;改訂する項目の新旧対照表(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+          
+          <pubDate>Fri, 06 Jul 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/07/06/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/06/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>転写因子HIF-1によるミトコンドリアの酸素代謝の抑制がプロポフォールによって引き起こされる細胞毒性を緩和することを示した論文が Scientific Reports 誌に掲載されました</title>
           
             <description>&lt;p&gt;当センターの坊農 秀雅 特任准教授が参加する、&lt;a href=&quot;http://www.kmu.ac.jp/&quot;&gt;関西医科大学&lt;/a&gt; &lt;a href=&quot;http://blog.hypoxia.jp/who-i-am&quot;&gt;廣田 喜一&lt;/a&gt; 学長特命教授を中心とした研究グループによる論文 “Suppression of mitochondrial oxygen metabolism mediated by the transcription factor HIF-1 alleviates propofol-induced cell toxicity” が Scientific Reports誌に掲載されました。&lt;br /&gt;
@@ -186,26 +207,6 @@
           <link>
           http://localhost:4000/ja/2018/04/02/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/04/02/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>新しいがん細胞初代培養系を用いて大腸がんの3次元構造破壊が悪性表現型を促進することを示した論文が Oncotarget誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの坊農 秀雅 特任准教授と小野 浩雅 特任助教が参加する、&lt;a href=&quot;http://www.mc.pref.osaka.jp/&quot;&gt;大阪国際がんセンター&lt;/a&gt; &lt;a href=&quot;http://www.mc.pref.osaka.jp/en/department/biochem/member_md.html&quot;&gt;井上 正宏&lt;/a&gt; 部長を中心とした研究グループによる論文 “Promotion of malignant phenotype after disruption of the three-dimensional structure of cultured spheroids from colorectal cancer” が Oncotarget誌に掲載されました。&lt;br /&gt;
-論文はオープンアクセスで、下記URLからご覧いただけます。&lt;br /&gt;
-&lt;a href=&quot;https://doi.org/10.18632/oncotarget.24641&quot;&gt;https://doi.org/10.18632/oncotarget.24641&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-純度の高い患者がん組織由来がん細胞塊を高効率に得る新たな培養法(Cancer Tissue-Originated Spheroid(CTOS)法)を用いて、大腸がん由来の培養スフェロイドでその三次元構造が破壊されることによって悪性表現型が促進することを示した論文です。DBCLSは、公共データベースから大腸がんのマイクロアレイデータおよびそれに付随した予後に関するメタデータを収集・解析した上で、研究チームが見出した大腸がん由来培養スフェロイドの3次元構造破壊後で高発現する遺伝子リストをもとに階層的クラスタリングや生存率解析等の比較解析を行い、効率的な標的遺伝子の絞込みに貢献しています。&lt;/p&gt;
-</description>
-          
-          <pubDate>Mon, 26 Mar 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/03/26/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/03/26/post1.html</guid>
         </item>
         
       
