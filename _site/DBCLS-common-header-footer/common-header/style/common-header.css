@@ -17,9 +17,6 @@ button, input, select, textarea {
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
-  box-sizing: inherit; }
-
 img, embed, iframe, object, audio, video {
   height: auto;
   max-width: 100%; }
@@ -62,11 +59,11 @@ header, footer {
         list-style: none;
         color: #fff;
         font-size: 12px;
-        font-weight: 600; }
+        font-weight: 500; }
         .dbcls-common-header nav.gnav ul li a {
           text-decoration: none;
           color: white;
-          font-weight: 600;
+          font-weight: 500;
           font-size: 12px; }
           .dbcls-common-header nav.gnav ul li a img.dbcls-logo {
             width: 55px;

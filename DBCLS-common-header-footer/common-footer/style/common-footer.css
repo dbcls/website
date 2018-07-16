@@ -17,9 +17,6 @@ button, input, select, textarea {
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
-  box-sizing: inherit; }
-
 img, embed, iframe, object, audio, video {
   height: auto;
   max-width: 100%; }

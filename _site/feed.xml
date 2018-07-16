@@ -9,12 +9,30 @@
       
         
         <item>
+          <title>統合データベース講習会AJACSa5柏 開催のお知らせ</title>
+          
+            <description>&lt;p&gt;ライフサイエンス統合データベースセンター(DBCLS)では、科学技術振興機構(JST) バイオサイエンスデータベースセンター(NBDC)が主催している初心者向けの統合データベース講習会AJACSを補完する形で、中上級者向けにAJACSadvanced講習会を実施しています。  &lt;br /&gt;
+今回、非モデル生物における転写配列アッセンブリデータベース(Transcriptome Shotgun Assembly: TSA)を利用し、転写単位ごとの遺伝子発現を定量化する方法を学ぶハンズオン講習会を以下の日程にて行います。詳細は以下をご覧ください。&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 13 Jul 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/07/13/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/13/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>サイトポリシー改訂のお知らせ</title>
           
             <description>&lt;p&gt;2018年7月20日付でサイトポリシーを改訂しますので、お知らせいたします。
 改訂箇所は以下をご覧ください。&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dbcls/website/raw/master/PDF/180706.pdf&quot;&gt;改訂する項目の新旧対照表(PDF)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dbcls.rois.ac.jp/PDF/180706.pdf&quot;&gt;改訂する項目の新旧対照表(PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -190,23 +208,6 @@
           <link>
           http://localhost:4000/ja/2018/05/25/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/05/25/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合TVのYouTubeにおける動画再生回数が100万回を突破しました</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;http://togotv.dbcls.jp/ja/&quot;&gt;統合TV&lt;/a&gt;は、生命科学分野の有用なデータベース(DB)やツールの使い方を動画で紹介するウェブサイトです。&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Mon, 02 Apr 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/04/02/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/04/02/post1.html</guid>
         </item>
         
       
