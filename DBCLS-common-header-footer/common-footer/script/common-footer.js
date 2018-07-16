@@ -8,7 +8,7 @@ setTimeout(function(){
   var current_lang = $('html').attr('lang')
   if(current_lang === 'ja') {
 	$('footer').load('common-footer.html')
-  } else if (current_lang === 'en') {
+  } else {
 	$('footer').load('common-footer-en.html')
   }
 }, 100)
