@@ -16,6 +16,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -830,6 +837,60 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_posts\/en\/2018-06-14-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/en\/2018-06-26-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/en\/2018-06-26-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/en\/2018-07-06-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/en\/2018-07-06-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/en\/2018-07-13-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/en\/2018-07-13-post1.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2386,6 +2447,67 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_posts\/ja\/2018-06-26-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/ja\/2018-06-26-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/ja\/2018-07-06-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/ja\/2018-07-06-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/ja\/2018-07-13-post1.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_posts\/ja\/2018-07-13-post1.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/.htaccess",
+		"oF": 0
+		},
 	"\/_site\/about-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2421,136 +2543,6 @@
 		"oAP": "\/_site\/CNAME",
 		"oF": 0
 		},
-	"\/_site\/common-header-footer\/common-footer\/common-footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/common-footer.html",
-		"oF": 0
-		},
-	"\/_site\/common-header-footer\/common-footer\/img\/by.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/img\/by.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/common-header-footer\/common-footer\/img\/logo_dbcls.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/img\/logo_dbcls.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/common-header-footer\/common-footer\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/_site\/common-header-footer\/common-footer\/script\/common-footer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/script\/common-footer-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/_site\/common-header-footer\/common-footer\/style\/common-footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-footer\/style\/common-footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/common-header-footer\/common-header\/common-header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-header\/common-header.html",
-		"oF": 0
-		},
-	"\/_site\/common-header-footer\/common-header\/img\/icon_more.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/common-header-footer\/common-header\/img\/icon_more.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/common-header-footer\/common-header\/img\/logo-short-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/common-header-footer\/common-header\/img\/logo-short-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/common-header-footer\/common-header\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_site\/common-header-footer\/common-header\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/_site\/common-header-footer\/common-header\/script\/common-header.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-header\/script\/common-header-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/_site\/common-header-footer\/common-header\/style\/common-header.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/common-header-footer\/common-header\/style\/common-header-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/completion-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2579,47 +2571,160 @@
 		"oAP": "\/_site\/contact.html",
 		"oF": 0
 		},
-	"\/_site\/dbcls-header\/header.html": {
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/common-footer-en.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/dbcls-header\/header.html",
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/common-footer-en.html",
 		"oF": 0
 		},
-	"\/_site\/dbcls-header\/header_en.html": {
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/common-footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/dbcls-header\/header_en.html",
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/common-footer.html",
 		"oF": 0
 		},
-	"\/_site\/dbcls-header\/img\/logo_dbcls_white.svg": {
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/img\/by.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/_site\/dbcls-header\/img\/logo_dbcls_white.svg",
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/img\/by.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/dbcls-header\/style\/font-awesome.css": {
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/img\/logo_dbcls.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/img\/logo_dbcls.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/script\/common-footer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/script\/common-footer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/script\/common-footer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/script\/common-footer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/style\/common-footer-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_site\/dbcls-header\/style\/font-awesome-min.css",
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/style\/common-footer-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/_site\/dbcls-header\/style\/header.css": {
+	"\/_site\/DBCLS-common-header-footer\/common-footer\/style\/common-footer.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_site\/dbcls-header\/style\/header-min.css",
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-footer\/style\/common-footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/common-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/common-header.html",
+		"oF": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/img\/icon_more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/img\/icon_more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/img\/logo-short-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/img\/logo-short-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/script\/common-header.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/script\/common-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/DBCLS-common-header-footer\/common-header\/style\/common-header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/DBCLS-common-header-footer\/common-header\/style\/common-header-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -2910,6 +3015,27 @@
 		"oAP": "\/_site\/en\/2018\/06\/14\/post1.html",
 		"oF": 0
 		},
+	"\/_site\/en\/2018\/06\/26\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/en\/2018\/06\/26\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/en\/2018\/07\/06\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/en\/2018\/07\/06\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/en\/2018\/07\/13\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/en\/2018\/07\/13\/post1.html",
+		"oF": 0
+		},
 	"\/_site\/events-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3073,13 +3199,6 @@
 		"oAP": "\/_site\/fonts\/GothamPro-Light.woff",
 		"oF": 0
 		},
-	"\/_site\/google65f62ee720a585cc.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/google65f62ee720a585cc.html",
-		"oF": 0
-		},
 	"\/_site\/history-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3093,17 +3212,6 @@
 		"oA": 0,
 		"oAP": "\/_site\/history.html",
 		"oF": 0
-		},
-	"\/_site\/img\/about.png": {
-		"ft": 32768,
-		"iS": 38745,
-		"oA": 0,
-		"oAP": "\/_site\/img\/about.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/_site\/img\/about.svg": {
 		"ft": 2097152,
@@ -3154,13 +3262,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/_site\/img\/DBCLS Data Core.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/img\/DBCLS Data Core.ai",
-		"oF": 0
 		},
 	"\/_site\/img\/ddbj.png": {
 		"ft": 32768,
@@ -4856,17 +4957,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/Galaxy1.png": {
-		"ft": 32768,
-		"iS": 46127,
-		"oA": 0,
-		"oAP": "\/_site\/img\/service_assets\/Galaxy1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/_site\/img\/service_assets\/gendoo.png": {
 		"ft": 32768,
 		"iS": 5568,
@@ -5326,22 +5416,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
+	"\/_site\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
 		"oAP": "\/_site\/img\/service_assets\/新着論文レビュー.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/img\/service_assets\/統合TV.png": {
-		"ft": 32768,
-		"iS": 6114,
-		"oA": 0,
-		"oAP": "\/_site\/img\/service_assets\/統合TV.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5368,7 +5447,7 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
+	"\/_site\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -5392,7 +5471,7 @@
 		},
 	"\/_site\/img\/top_assets\/main0.jpg": {
 		"ft": 16384,
-		"iS": 1231778,
+		"iS": 526229,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main0.jpg",
@@ -5403,7 +5482,7 @@
 		},
 	"\/_site\/img\/top_assets\/main1.jpg": {
 		"ft": 16384,
-		"iS": 8364378,
+		"iS": 696114,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main1.jpg",
@@ -5412,9 +5491,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/img\/top_assets\/main2.jpg": {
+		"ft": 16384,
+		"iS": 1007389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_site\/img\/top_assets\/main2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/img\/top_assets\/main3.jpg": {
 		"ft": 16384,
-		"iS": 1178091,
+		"iS": 403292,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main3.jpg",
@@ -5425,7 +5515,7 @@
 		},
 	"\/_site\/img\/top_assets\/main4.jpg": {
 		"ft": 16384,
-		"iS": 1249848,
+		"iS": 512715,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main4.jpg",
@@ -5436,7 +5526,7 @@
 		},
 	"\/_site\/img\/top_assets\/main5.jpg": {
 		"ft": 16384,
-		"iS": 3625743,
+		"iS": 594854,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main5.jpg",
@@ -5447,7 +5537,7 @@
 		},
 	"\/_site\/img\/top_assets\/main6.jpg": {
 		"ft": 16384,
-		"iS": 3698724,
+		"iS": 393026,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/img\/top_assets\/main6.jpg",
@@ -6512,6 +6602,27 @@
 		"oAP": "\/_site\/ja\/2018\/06\/14\/post1.html",
 		"oF": 0
 		},
+	"\/_site\/ja\/2018\/06\/26\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/ja\/2018\/06\/26\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/ja\/2018\/07\/06\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/ja\/2018\/07\/06\/post1.html",
+		"oF": 0
+		},
+	"\/_site\/ja\/2018\/07\/13\/post1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/ja\/2018\/07\/13\/post1.html",
+		"oF": 0
+		},
 	"\/_site\/logotype-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -7146,6 +7257,148 @@
 		"oAP": "\/_site\/members.html",
 		"oF": 0
 		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/common-footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/common-footer.html",
+		"oF": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/img\/by.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/img\/by.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/img\/logo_nbdc.png": {
+		"ft": 32768,
+		"iS": 54741,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/img\/logo_nbdc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/script\/common-footer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/script\/common-footer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/NBDC-common-header-footer\/common-footer\/style\/common-footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-footer\/style\/common-footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/common-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/common-header.html",
+		"oF": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/img\/B900BD0D7E7E48CB.png": {
+		"ft": 32768,
+		"iS": 7983,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/img\/B900BD0D7E7E48CB.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/img\/icon_more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/img\/icon_more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/img\/logo-short-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/img\/logo-short-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/script\/common-header.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/script\/common-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/_site\/NBDC-common-header-footer\/common-header\/style\/common-header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/NBDC-common-header-footer\/common-header\/style\/common-header-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/news-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -7165,6 +7418,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/news_event.html",
+		"oF": 0
+		},
+	"\/_site\/PDF\/180706.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/PDF\/180706.pdf",
 		"oF": 0
 		},
 	"\/_site\/policy-en.html": {
@@ -9477,13 +9737,6 @@
 		"oAP": "\/_site\/tags-en.html",
 		"oF": 0
 		},
-	"\/_site\/tags.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/tags.html",
-		"oF": 0
-		},
 	"\/about-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -9519,136 +9772,6 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
-	"\/common-header-footer\/common-footer\/common-footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-footer\/common-footer.html",
-		"oF": 0
-		},
-	"\/common-header-footer\/common-footer\/img\/by.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/common-header-footer\/common-footer\/img\/by.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/common-header-footer\/common-footer\/img\/logo_dbcls.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/common-header-footer\/common-footer\/img\/logo_dbcls.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/common-header-footer\/common-footer\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/common-header-footer\/common-footer\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/common-header-footer\/common-footer\/script\/common-footer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-footer\/script\/common-footer-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/common-header-footer\/common-footer\/style\/common-footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-footer\/style\/common-footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/common-header-footer\/common-header\/common-header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-header\/common-header.html",
-		"oF": 0
-		},
-	"\/common-header-footer\/common-header\/img\/icon_more.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/common-header-footer\/common-header\/img\/icon_more.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/common-header-footer\/common-header\/img\/logo-short-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/common-header-footer\/common-header\/img\/logo-short-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/common-header-footer\/common-header\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/common-header-footer\/common-header\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/common-header-footer\/common-header\/script\/common-header.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-header\/script\/common-header-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/common-header-footer\/common-header\/style\/common-header.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/common-header-footer\/common-header\/style\/common-header-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/completion-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -9677,47 +9800,140 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
-	"\/dbcls-header\/header.html": {
+	"\/DBCLS-common-header-footer\/common-footer\/common-footer-en.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dbcls-header\/header.html",
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/common-footer-en.html",
 		"oF": 0
 		},
-	"\/dbcls-header\/header_en.html": {
+	"\/DBCLS-common-header-footer\/common-footer\/common-footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dbcls-header\/header_en.html",
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/common-footer.html",
 		"oF": 0
 		},
-	"\/dbcls-header\/img\/logo_dbcls_white.svg": {
+	"\/DBCLS-common-header-footer\/common-footer\/img\/by.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dbcls-header\/img\/logo_dbcls_white.svg",
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/img\/by.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dbcls-header\/style\/font-awesome.css": {
+	"\/DBCLS-common-header-footer\/common-footer\/img\/logo_dbcls.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/img\/logo_dbcls.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/DBCLS-common-header-footer\/common-footer\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/DBCLS-common-header-footer\/common-footer\/script\/common-footer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/script\/common-footer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/DBCLS-common-header-footer\/common-footer\/style\/common-footer.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dbcls-header\/style\/font-awesome-min.css",
+		"oAP": "\/DBCLS-common-header-footer\/common-footer\/style\/common-footer-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dbcls-header\/style\/header.css": {
+	"\/DBCLS-common-header-footer\/common-header\/common-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/common-header.html",
+		"oF": 0
+		},
+	"\/DBCLS-common-header-footer\/common-header\/img\/icon_more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/img\/icon_more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/DBCLS-common-header-footer\/common-header\/img\/logo-short-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/img\/logo-short-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/DBCLS-common-header-footer\/common-header\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/DBCLS-common-header-footer\/common-header\/script\/common-header.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/script\/common-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/DBCLS-common-header-footer\/common-header\/style\/common-header.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dbcls-header\/style\/header-min.css",
+		"oAP": "\/DBCLS-common-header-footer\/common-header\/style\/common-header-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -9898,13 +10114,6 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/google65f62ee720a585cc.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/google65f62ee720a585cc.html",
-		"oF": 0
-		},
 	"\/history-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -9949,17 +10158,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/about.png": {
-		"ft": 32768,
-		"iS": 38745,
-		"oA": 0,
-		"oAP": "\/img\/about.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/img\/about.svg": {
 		"ft": 2097152,
@@ -10010,13 +10208,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/DBCLS Data Core.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/DBCLS Data Core.ai",
-		"oF": 0
 		},
 	"\/img\/ddbj.png": {
 		"ft": 32768,
@@ -10650,7 +10841,7 @@
 		},
 	"\/img\/logotypes\/logo_c.png": {
 		"ft": 32768,
-		"iS": 12121,
+		"iS": 5751,
 		"oA": 0,
 		"oAP": "\/img\/logotypes\/logo_c.png",
 		"oF": 0,
@@ -11723,17 +11914,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/Galaxy1.png": {
-		"ft": 32768,
-		"iS": 46127,
-		"oA": 0,
-		"oAP": "\/img\/service_assets\/Galaxy1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/service_assets\/gendoo.png": {
 		"ft": 32768,
 		"iS": 7210,
@@ -12193,22 +12373,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/service_assets\/新着論文レビュー.png": {
+	"\/img\/service_assets\/新着論文レビュー.png": {
 		"ft": 32768,
 		"iS": 6136,
 		"oA": 0,
 		"oAP": "\/img\/service_assets\/新着論文レビュー.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/service_assets\/統合TV.png": {
-		"ft": 32768,
-		"iS": 6114,
-		"oA": 0,
-		"oAP": "\/img\/service_assets\/統合TV.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -12235,7 +12404,7 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/service_assets\/領域融合レビュー.png": {
+	"\/img\/service_assets\/領域融合レビュー.png": {
 		"ft": 32768,
 		"iS": 6287,
 		"oA": 0,
@@ -12255,17 +12424,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/img\/top_assets\/_main0.jpg": {
-		"ft": 16384,
-		"iS": 107618,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/top_assets\/_main0.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/img\/top_assets\/_main1.jpg": {
@@ -12373,6 +12531,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/top_assets\/main1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/top_assets\/main2.jpg": {
+		"ft": 16384,
+		"iS": 1007389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/top_assets\/main2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13510,6 +13679,148 @@
 		"oAP": "\/members.html",
 		"oF": 0
 		},
+	"\/NBDC-common-header-footer\/common-footer\/common-footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/common-footer.html",
+		"oF": 0
+		},
+	"\/NBDC-common-header-footer\/common-footer\/img\/by.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/img\/by.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/NBDC-common-header-footer\/common-footer\/img\/logo_nbdc.png": {
+		"ft": 32768,
+		"iS": 54741,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/img\/logo_nbdc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/NBDC-common-header-footer\/common-footer\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/NBDC-common-header-footer\/common-footer\/script\/common-footer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/script\/common-footer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/NBDC-common-header-footer\/common-footer\/style\/common-footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-footer\/style\/common-footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/NBDC-common-header-footer\/common-header\/common-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/common-header.html",
+		"oF": 0
+		},
+	"\/NBDC-common-header-footer\/common-header\/img\/B900BD0D7E7E48CB.png": {
+		"ft": 32768,
+		"iS": 7983,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/img\/B900BD0D7E7E48CB.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/NBDC-common-header-footer\/common-header\/img\/icon_more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/img\/icon_more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/NBDC-common-header-footer\/common-header\/img\/logo-short-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/img\/logo-short-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/NBDC-common-header-footer\/common-header\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/NBDC-common-header-footer\/common-header\/script\/common-header.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/script\/common-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/NBDC-common-header-footer\/common-header\/style\/common-header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/NBDC-common-header-footer\/common-header\/style\/common-header-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/news-en.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -13529,6 +13840,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/news_event.html",
+		"oF": 0
+		},
+	"\/PDF\/180706.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/PDF\/180706.pdf",
 		"oF": 0
 		},
 	"\/policy-en.html": {
@@ -16929,13 +17247,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/tags-en.html",
-		"oF": 0
-		},
-	"\/tags.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/tags.html",
 		"oF": 0
 		}
 	},
