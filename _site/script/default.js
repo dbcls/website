@@ -20,6 +20,7 @@ document.head.appendChild(script_sticky)
 document.head.appendChild(link_favicon)
 var initialize = {
   'index': function() {
+    console.log($('html').attr('lang'))
     $('.news__individual-wrapper').css('display', 'block')
     var url = window.location;
     var path = url.href.split('/');

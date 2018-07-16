@@ -5,5 +5,10 @@ document.head.appendChild(script)
 setTimeout(function(){
   $('body').append('<footer>')
   $('footer').attr('id', 'dbcls-common-footer')
-  $('footer').load('common-footer.html')
+  var current_lang = $('html').attr('lang')
+  if(current_lang === 'ja') {
+	$('footer').load('common-footer.html')
+  } else if (current_lang === 'en') {
+	$('footer').load('common-footer-en.html')
+  }
 }, 100)
