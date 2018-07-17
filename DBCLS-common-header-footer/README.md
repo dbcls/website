@@ -1,7 +1,7 @@
-# ここはDBCLS共通ヘッダ・フッタの部品置き場です
+# ここはDBCLS用共通ヘッダ・フッタの部品置き場です
 - DBCLSの提供するサービスに適用します。
 - 基本的には、ヘッダ・フッタの両方を適用するのが望ましいです。
   - ヘッダ・フッタは、[common\-header\-and\-footer](https://github.com/dbcls/website/tree/master/DBCLS-common-header-footer/common-header-and-footer)
-  - とはいえ、デザインその他の都合により難しい場合はその限りではありません。
-  - ヘッダのみの場合は[common\-header](https://github.com/dbcls/website/tree/master/DBCLS-common-header-footer/common-header)
-  - フッタのみの場合は、[common\-footer](https://github.com/dbcls/website/tree/master/DBCLS-common-header-footer/common-footer)
+    - とはいえ、デザインその他の都合により難しい場合はその限りではありません。
+      - ヘッダのみの場合は[common\-header](https://github.com/dbcls/website/tree/master/DBCLS-common-header-footer/common-header)
+      - フッタのみの場合は、[common\-footer](https://github.com/dbcls/website/tree/master/DBCLS-common-header-footer/common-footer)
