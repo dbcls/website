@@ -23,7 +23,7 @@
 2. 各ファイルは、必要に応じて適切なディレクトリに設置する。
   - `script`、`style`、`img`の各ファイルは、各サービスのサーバ上のjs、css、imgファイルが置かれているディレクトリにそれぞれ設置する。
 
-3.  各サービスのhtmlの`<head>`タグの中に下記コードを記載する
+3.  各サービスのhtmlの`<head>`タグ内に下記コードを記載する。
   - `<link rel="stylesheet" href="style/common-header-and-footer.css">`
     - - `2.`でcssファイルの設置場所を変更した場合は、上記コードに記述する`href`のパスを適宜変更する。
   - `<script type="text/javascript" src="script/common-header-and-footer.js"></script>`
