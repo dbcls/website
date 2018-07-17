@@ -21,7 +21,7 @@
       - common-header-and-footer.css
         - ヘッダ・フッタ表示用css
 2. 各ファイルは、必要に応じて適切なディレクトリに設置する。
-  - `script`、`style`、`img`の各ファイルは、各サービスのサーバ上のjs、css、画像ファイルが置かれているディレクトリに設置する。
+  - `script`、`style`、`img`の各ファイルは、各サービスのサーバ上のjs、css、画像ファイルが置かれているディレクトリにそれぞれ設置する。
 
 3.  各サービスのhtmlの`<head>`タグの中に下記コードを記載する
   - `<link rel="stylesheet" href="style/common-header-and-footer.css">`
