@@ -12,7 +12,7 @@
       - フッタ用CC-BY用アイコン画像
     - logo-short-2.svg
       - ヘッダ用NBDCロゴ画像
-    - logo_dbcls.svg
+    - logo_nbdc.svg
       - フッタ用NBDCロゴ画像
   - script
       - common-header-and-footer.js
