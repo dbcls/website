@@ -4,10 +4,15 @@
 	
 	$j = window.jQuery.noConflict(true);
 
-	setTimeout(function () {
-	$j('body').prepend('<header>')
-	$j('header').addClass('dbcls-common-header')
-	$j('header').load('common-header.html')
-	$j('body').css('padding-top', '24px')
+	setTimeout(function(){
+		$j('body').prepend('<header>')
+		$j('header').addClass('nbdc-common-header')
+		$j('header').load('common-header.html')
+		$j('body').css('padding-top', '24px')
+
+		$j('body').append('<footer>')
+		$j('footer').attr('id', 'nbdc-common-footer')
+		$j('footer').load('common-footer.html')
+
 	}, 100)
 })();

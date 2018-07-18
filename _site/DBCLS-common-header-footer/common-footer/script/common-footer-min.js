@@ -1,1 +1,0 @@
-"use strict";var script=document.createElement("script");script.setAttribute("src","https://code.jquery.com/jquery-3.2.1.min.js"),document.head.appendChild(script),setTimeout(function(){$("body").append("<footer>"),$("footer").attr("id","dbcls-common-footer"),"ja"===$("html").attr("lang")?$("footer").load("common-footer.html"):$("footer").load("common-footer-en.html")},100);

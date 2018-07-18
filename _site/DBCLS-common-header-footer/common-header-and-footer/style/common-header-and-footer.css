@@ -3,6 +3,142 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
+.dbcls-common-header html,
+.dbcls-common-header body,
+.dbcls-common-header p,
+.dbcls-common-header ol,
+.dbcls-common-header ul,
+.dbcls-common-header li,
+.dbcls-common-header dl,
+.dbcls-common-header dt,
+.dbcls-common-header dd,
+.dbcls-common-header blockquote,
+.dbcls-common-header figure,
+.dbcls-common-header fieldset,
+.dbcls-common-header legend,
+.dbcls-common-header textarea,
+.dbcls-common-header pre,
+.dbcls-common-header iframe,
+.dbcls-common-header hr,
+.dbcls-common-header h1,
+.dbcls-common-header h2,
+.dbcls-common-header h3,
+.dbcls-common-header h4,
+.dbcls-common-header h5,
+.dbcls-common-header h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.dbcls-common-header h1,
+.dbcls-common-header h2,
+.dbcls-common-header h3,
+.dbcls-common-header h4,
+.dbcls-common-header h5,
+.dbcls-common-header h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.dbcls-common-header ul {
+  list-style: none;
+}
+
+.dbcls-common-header button,
+.dbcls-common-header input,
+.dbcls-common-header select,
+.dbcls-common-header textarea {
+  margin: 0;
+}
+
+.dbcls-common-header html {
+  box-sizing: border-box;
+}
+
+.dbcls-common-header img,
+.dbcls-common-header embed,
+.dbcls-common-header iframe,
+.dbcls-common-header object,
+.dbcls-common-header audio,
+.dbcls-common-header video {
+  height: auto;
+  max-width: 100%;
+}
+
+.dbcls-common-header iframe {
+  border: 0;
+}
+
+.dbcls-common-header table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.dbcls-common-header td,
+.dbcls-common-header th {
+  padding: 0;
+  text-align: left;
+}
+
+.dbcls-common-header header,
+.dbcls-common-header footer {
+  font-family: 'Muli', sans-serif !important;
+}
+
+
+/* dbcls-common-header */
+
+.dbcls-common-header {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  background: linear-gradient(#004098, #1B2244);
+}
+
+.dbcls-common-header nav.gnav {
+  width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dbcls-common-header nav.gnav ul {
+  width: 400px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dbcls-common-header nav.gnav ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dbcls-common-header nav.gnav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.dbcls-common-header nav.gnav ul li a img.dbcls-logo {
+  width: 55px;
+  height: auto;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+
+/* default */
+
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+
 footer#dbcls-common-footer html,
 footer#dbcls-common-footer body,
 footer#dbcls-common-footer p,
