@@ -18,6 +18,42 @@ link_favicon.setAttribute('href', '/img/favicon.png')
 document.head.appendChild(script)
 document.head.appendChild(script_sticky)
 document.head.appendChild(link_favicon)
+
+var setData = data => {
+  var feedArray = data.feed.entry
+  feedArray = feedArray.map(data => data.gs$cell)
+
+  //行、列の長さ
+  var colLength = feedArray.map(data => data.col)
+  colLength = Math.max.apply(null, colLength)
+  var rowLength = feedArray.map(data => data.row)
+  rowLength = Math.max.apply(null, rowLength)
+  var services_array = []
+
+  //配列にpushするための整形
+  feedArray = feedArray.map(data => {
+    data.row = Number(data.row) - 1
+    data.col = Number(data.col) - 1
+    return data
+  })
+  var child_array = []
+  var temp_array = []
+
+  for (let i = 0; i < rowLength; i++) {
+    temp_array.push([])
+    for (let j = 0; j < colLength; j++) {
+      temp_array[i].push('')
+    }   
+  }
+
+  for (let i = 0; i < feedArray.length; i++) {
+    let current_cell = feedArray[i]
+    temp_array[current_cell.row][current_cell.col] = current_cell.$t
+  }
+
+  return temp_array
+}
+
 var initialize = {
   'index': function() {
     console.log($('html').attr('lang'))
@@ -293,12 +329,11 @@ var initialize = {
 
     function servicesFrontDisplay() {
       $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8",
+        url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
         dataType: "json",
         async: true,
         success: function(data) {
-
-          var elementArray = data.values;
+          var elementArray = setData(data);
           //column1に"Y"のあるrowをとってくる
           var symbolYList = elementArray.filter((YList) => {
             return (YList[0] === "Y");
@@ -513,10 +548,9 @@ var initialize = {
     function displayRepos(repos_name) {
       location.hash = repos_name
       var md_data = ''
-      var hoge = []
       $.ajax({
         type: 'get',
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8",
+        url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
         dataType: "json"
       }).done(function(data) {
         var services_array = data.values
@@ -640,7 +674,7 @@ var initialize = {
     }
 
     $.ajax({
-      url: "https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8",
+      url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
       dataType: "json",
       async: true,
       success: function(data) {
@@ -721,7 +755,7 @@ var initialize = {
   'members': function() {
     $.when(
       $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E7%A0%94%E7%A9%B6%E8%80%85ID?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8'),
-      $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%A6%A7?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8')
+      $.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json')
     ).done(function(data, data_services) {
       var element = "";
       var element_collaborators = ""
