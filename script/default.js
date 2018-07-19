@@ -207,11 +207,11 @@ var initialize = {
   'publications': function() {},
   'references': function() {
     $.ajax({
-      url: "https://sheets.googleapis.com/v4/spreadsheets/1JGvXRqvu5A5IhaYfz40yTblNP7bZZL6GaPGaZl7knHM/values/references?key=AIzaSyCKBRLAEd_o7WAeBN5m0NZZ1Eusco7VtHw",
+      url: "https://spreadsheets.google.com/feeds/cells/1JGvXRqvu5A5IhaYfz40yTblNP7bZZL6GaPGaZl7knHM/od6/public/values?alt=json",
       dataType: "json",
       async: true,
       success: function(data) {
-        var elementArray = data.values;
+        var elementArray = setData(data)
         var elementArray_service = []
         for (var i = 0; i < elementArray.length; i++) {
           elementArray_service.push(elementArray[i][0])
@@ -678,7 +678,7 @@ var initialize = {
       dataType: "json",
       async: true,
       success: function(data) {
-        var events_array = data.values
+        var events_array = setData(data)
 
         function getOrder(target) {
           var order = 0
@@ -754,7 +754,7 @@ var initialize = {
   },
   'members': function() {
     $.when(
-      $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/values/%E7%A0%94%E7%A9%B6%E8%80%85ID?key=AIzaSyDgYjOxvnKkIWkCdvBJWsADdpx3SG8QkV8'),
+      $.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/2/public/values?alt=json'),
       $.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json')
     ).done(function(data, data_services) {
       var element = "";
@@ -764,6 +764,7 @@ var initialize = {
       var listSubNav_collaborators = ""
       var listSubNav_collaborators_en = ""
       data = data[0]
+      data = setData(data)
       //file名の取得
       var url = window.location;
       var path = url.href.split('/');
@@ -782,18 +783,18 @@ var initialize = {
       var website_order = getOrder('Website')
       var non_publish_order = getOrder('いずれのIDも掲載しない')
 
-      for (var j = 1; j < data.values.length; j++) {
-        if (data.values[j][position_ja_order] === '客員教授' || data.values[j][position_ja_order] === '客員准教授') {
-          listSubNav_collaborators += '<li><a href="#' + data.values[j][name_ja_order] + '">' + data.values[j][name_ja_order] + '</a></li>';
+      for (var j = 1; j < data.length; j++) {
+        if (data[j][position_ja_order] === '客員教授' || data[j][position_ja_order] === '客員准教授') {
+          listSubNav_collaborators += '<li><a href="#' + data[j][name_ja_order] + '">' + data[j][name_ja_order] + '</a></li>';
         } else {
-          listSubNav += '<li><a href="#' + data.values[j][name_ja_order] + '">' + data.values[j][name_ja_order] + '</a></li>';
+          listSubNav += '<li><a href="#' + data[j][name_ja_order] + '">' + data[j][name_ja_order] + '</a></li>';
         }
       }
-      for (var j = 1; j < data.values.length; j++) {
-        if (data.values[j][position_ja_order] === '客員教授' || data.values[j][position_ja_order] === '客員准教授') {
-          listSubNav_collaborators_en += '<li><a href="#' + data.values[j][name_en_order] + '">' + data.values[j][name_en_order] + '</a></li>';
+      for (var j = 1; j < data.length; j++) {
+        if (data[j][position_ja_order] === '客員教授' || data[j][position_ja_order] === '客員准教授') {
+          listSubNav_collaborators_en += '<li><a href="#' + data[j][name_en_order] + '">' + data[j][name_en_order] + '</a></li>';
         } else {
-          listSubNav_en += '<li><a href="#' + data.values[j][name_en_order] + '">' + data.values[j][name_en_order] + '</a></li>';
+          listSubNav_en += '<li><a href="#' + data[j][name_en_order] + '">' + data[j][name_en_order] + '</a></li>';
         }
       }
 
@@ -816,8 +817,8 @@ var initialize = {
 
       function getOrder(target) {
         var order = 0
-        for (var i = 1; i < data.values.length; i++) {
-          if (data.values[0][i] === target) {
+        for (var i = 1; i < data.length; i++) {
+          if (data[0][i] === target) {
             order = i
           }
         }
@@ -828,20 +829,20 @@ var initialize = {
         $("#memberList").append(listSubNav);
         $("#memberList-collaborators").append(listSubNav_collaborators)
 
-        for (var i = 1; i < data.values.length; i++) {
-          var name_ja = data.values[i][name_ja_order]
-          var name_en = data.values[i][name_en_order]
-          var image = data.values[i][image_order]
-          var position = data.values[i][position_ja_order]
-          //var position_en = data.values[i][]
-          var keyword = data.values[i][keyword_order]
-          //var keyword_en = data.values[i][]
-          var orcid = data.values[i][orcid_order]
-          var googleScholar = data.values[i][googleScholar_order]
-          var github = data.values[i][github_order]
-          var mail = data.values[i][mail_order]
-          var website = data.values[i][website_order]
-          var non_publish = data.values[i][non_publish_order]
+        for (var i = 1; i < data.length; i++) {
+          var name_ja = data[i][name_ja_order]
+          var name_en = data[i][name_en_order]
+          var image = data[i][image_order]
+          var position = data[i][position_ja_order]
+          //var position_en = data[i][]
+          var keyword = data[i][keyword_order]
+          //var keyword_en = data[i][]
+          var orcid = data[i][orcid_order]
+          var googleScholar = data[i][googleScholar_order]
+          var github = data[i][github_order]
+          var mail = data[i][mail_order]
+          var website = data[i][website_order]
+          var non_publish = data[i][non_publish_order]
           var link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
             judgeExist(orcid, 'btn-orcid', 'ORCID') +
@@ -876,20 +877,20 @@ var initialize = {
         $("#memberList").append(listSubNav_en);
         $("#memberList-collaborators").append(listSubNav_collaborators_en)
 
-        for (var i = 1; i < data.values.length; i++) {
-          var name_ja = data.values[i][name_ja_order]
-          var name_en = data.values[i][name_en_order]
-          var image = data.values[i][image_order]
-          var position = data.values[i][position_en_order]
-          //var position_en = data.values[i][]
-          var keyword = data.values[i][keyword_order]
-          var keyword_en = data.values[i][keyword_en_order]
-          var orcid = data.values[i][orcid_order]
-          var googleScholar = data.values[i][googleScholar_order]
-          var github = data.values[i][github_order]
-          var mail = data.values[i][mail_order]
-          var website = data.values[i][website_order]
-          var non_publish = data.values[i][non_publish_order]
+        for (var i = 1; i < data.length; i++) {
+          var name_ja = data[i][name_ja_order]
+          var name_en = data[i][name_en_order]
+          var image = data[i][image_order]
+          var position = data[i][position_en_order]
+          //var position_en = data[i][]
+          var keyword = data[i][keyword_order]
+          var keyword_en = data[i][keyword_en_order]
+          var orcid = data[i][orcid_order]
+          var googleScholar = data[i][googleScholar_order]
+          var github = data[i][github_order]
+          var mail = data[i][mail_order]
+          var website = data[i][website_order]
+          var non_publish = data[i][non_publish_order]
           var link_section = ''
           link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
@@ -927,7 +928,9 @@ var initialize = {
       $("#member-list-collaborators").append(element_collaborators);
 
       //担当サービスの実装
-      data_services = data_services[0].values
+
+      data_services = data_services[0]
+      data_services = setData(data_services)
       data_services = data_services.filter(data => {
         return data[0] === "Y"
       })
