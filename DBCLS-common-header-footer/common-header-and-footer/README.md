@@ -36,7 +36,8 @@
 
 ## ヘッダのロゴ・メニュー表示位置を左詰めに調整する方法
   - cssファイルの`.dbcls-common-header nav.gnav`の記述を下記のように変更する。
-`
+　
+```
 .dbcls-common-header nav.gnav {
 /*  width: 1024px;
   margin: 0 auto; */
@@ -44,4 +45,6 @@
   align-items: center;
   justify-content: space-between;
 }
-`
+```
+
+
