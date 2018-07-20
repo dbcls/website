@@ -154,21 +154,6 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
-  .pc_menu {
-    display: none;
-  }
-
-  .dbcls-common-header nav.gnav {
-    width: 100vw;
-  }
-
-  .dbcls-common-header .hamburger {
-    display: block;
-  }
-}
-
-
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
 footer#dbcls-common-footer html,
@@ -373,4 +358,22 @@ footer#dbcls-common-footer a:hover {
   height: 16px;
   display: block;
   background: url(../img/by.svg) no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+  .pc_menu {
+    display: none;
+  }
+
+  .dbcls-common-header nav.gnav {
+    width: 100vw;
+  }
+
+  .dbcls-common-header .hamburger {
+    display: block;
+  }
+
+  footer#dbcls-common-footer .footer__common .footer__wrapper {
+    width: 100vw;
+  }
 }
