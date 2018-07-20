@@ -9,5 +9,10 @@
 	$j('header').addClass('dbcls-common-header')
 	$j('header').load('common-header.html')
 	$j('body').css('padding-top', '24px')
+
+	$j(document).on('click', '.hamburger', function() {
+		$j('.sp_nav').slideToggle();
+	})
+
 	}, 100)
 })();

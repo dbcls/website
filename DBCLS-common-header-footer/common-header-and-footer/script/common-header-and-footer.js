@@ -19,5 +19,9 @@
 	$j('footer').load('common-footer-en.html')
 	}
 
+	$j(document).on('click', '.hamburger', function() {
+		$j('.sp_nav').slideToggle();
+	})
+
 	}, 100)
 })();
