@@ -29,7 +29,7 @@
   - `<link rel="stylesheet" href="style/common-header-and-footer.css">`
     - `2.`でcssファイルの設置場所を変更した場合は、上記コードに記述する`href`のパスを適宜変更する。
   - `<script type="text/javascript" src="script/common-header-and-footer.js"></script>`
-    -　`2.`でjsファイルの設置場所を変更した場合は、上記コードに記述する`src`のパスを適宜変更する。
+    - `2.`でjsファイルの設置場所を変更した場合は、上記コードに記述する`src`のパスを適宜変更する。
 
 ## 日本語版、英語版の切り替え
   - 共通ヘッダはhtmlタグ内のlang属性を読み込み、それに応じて言語を切り替えることができる。言語切り替えが機能しない場合は、サービスの各ページのhtmlに下記のようにlang属性を記述する。
