@@ -20,3 +20,17 @@
     - - `2.`でcssファイルの設置場所を変更した場合は、上記コードに記述する`href`のパスを適宜変更する。
   - `<script type="text/javascript" src="script/common-header.js"></script>`
     - - `2.`でjsファイルの設置場所を変更した場合は、上記コードに記述する`src`のパスを適宜変更する。
+
+## ヘッダのロゴ・メニュー表示位置を左詰めに調整する方法
+  - cssファイルの`.dbcls-common-header nav.gnav`の記述を下記のように変更する。
+　
+```
+.dbcls-common-header nav.gnav {
+/*  width: 1024px;
+  margin: 0 auto; */
+  margin-left: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+```
+
