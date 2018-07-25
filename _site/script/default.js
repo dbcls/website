@@ -56,7 +56,7 @@ var setData = data => {
 
 var initialize = {
   'index': function() {
-    console.log($('html').attr('lang'))
+    var lang = $('html').attr('lang')
     $('.news__individual-wrapper').css('display', 'block')
     var url = window.location;
     var path = url.href.split('/');
@@ -65,8 +65,10 @@ var initialize = {
     tags_key.map(function(data) {
       $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
+
+
     //タグ名を日本語に変換
-    if (file_name === 'index.html') {
+    if (lang === 'ja') {
       $('.tag_name').each(function() {
         var tag_en = $(this).text()
         tag_en = $.trim(tag_en)
@@ -460,7 +462,8 @@ var initialize = {
               }
               return categoryTag
             }
-            if (file_name === 'services.html') {
+            var lang = $('html').attr('lang')
+            if (lang === 'ja') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
                 '<p class="name name_ja" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][core_service_name_order] + '</p>' +
@@ -472,7 +475,7 @@ var initialize = {
                 '</div></div>' +
                 '<div id="repos_image0" class="repos_image">' +
                 '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>'
-            } else if (file_name === 'services-en.html') {
+            } else if (lang === 'en') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
                 '<p class="name name_en" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][service_name_order] + '</p>' +
@@ -664,7 +667,8 @@ var initialize = {
       $('a[tag="' + data + '"]').before('<img src="/img/icon_tag_' + data + '.svg" class="news__tag-icon" alt="" >')
     })
     //タグ名を日本語に変換
-    if (file_name === 'events.html') {
+    var lang = $('html').attr('lang')
+    if (lang === 'ja') {
       $('.tag_name').each(function() {
         var tag_en = $(this).text()
         tag_en = $.trim(tag_en)
@@ -702,9 +706,9 @@ var initialize = {
         var events_array = events_array.filter(data => {
           return data[event_active_order] === 'Y'
         })
-        if (file_name === 'events.html') {
+        if (lang === 'ja') {
           explanation_order = explanation_ja_order
-        } else if (file_name === 'events-en.html') {
+        } else if (lang === 'en') {
           explanation_order = explanation_en_order
         }
 
@@ -757,6 +761,7 @@ var initialize = {
       $.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/2/public/values?alt=json'),
       $.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json')
     ).done(function(data, data_services) {
+      var lang = $('html').attr('lang')
       var element = "";
       var element_collaborators = ""
       var listSubNav = "";
@@ -825,7 +830,7 @@ var initialize = {
         return order
       }
 
-      if (file_name === 'members.html') {
+      if (lang === 'ja') {
         $("#memberList").append(listSubNav);
         $("#memberList-collaborators").append(listSubNav_collaborators)
 
@@ -873,7 +878,7 @@ var initialize = {
               '</div></li></ul></div>';
           }
         }
-      } else if (file_name === 'members-en.html') {
+      } else if (lang === 'en') {
         $("#memberList").append(listSubNav_en);
         $("#memberList-collaborators").append(listSubNav_collaborators_en)
 
