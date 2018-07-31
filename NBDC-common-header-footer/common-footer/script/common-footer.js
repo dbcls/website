@@ -7,5 +7,10 @@
 	setTimeout(function(){
 		$j('body').append('<footer>')
 		$j('footer').attr('id', 'nbdc-common-footer')
-		$j('footer').load('common-footer.html')
+		var current_lang = $j('html').attr('lang')
+		if (current_lang === 'ja') {
+			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer.html')
+		} else {
+			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer-en.html')
+		}
 }, 100)})();

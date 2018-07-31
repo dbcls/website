@@ -7,12 +7,17 @@
 	setTimeout(function(){
 		$j('body').prepend('<header>')
 		$j('header').addClass('nbdc-common-header')
-		$j('header').load('common-header.html')
+		$j('header').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-header.html')
 		$j('body').css('padding-top', '24px')
 
 		$j('body').append('<footer>')
 		$j('footer').attr('id', 'nbdc-common-footer')
-		$j('footer').load('common-footer.html')
+		var current_lang = $j('html').attr('lang')
+		if (current_lang === 'ja') {
+			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-footer.html')
+		} else {
+			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-footer-en.html')
+		}
 
 	}, 100)
 })();
