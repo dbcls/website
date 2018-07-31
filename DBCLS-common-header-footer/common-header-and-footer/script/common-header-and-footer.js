@@ -7,16 +7,16 @@
 	setTimeout(function () {
 	$j('body').prepend('<header>')
 	$j('header').addClass('dbcls-common-header')
-	$j('header').load('common-header.html')
+	$j('header').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-header.html')
 	$j('body').css('padding-top', '24px')
 
 	$j('body').append('<footer>')
 	$j('footer').attr('id', 'dbcls-common-footer')
 	var current_lang = $j('html').attr('lang')
 	if (current_lang === 'ja') {
-	$j('footer').load('common-footer.html')
+	$j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer.html')
 	} else {
-	$j('footer').load('common-footer-en.html')
+	$j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer-en.html')
 	}
 
 	$j(document).on('click', '.hamburger', function() {
