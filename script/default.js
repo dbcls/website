@@ -1038,7 +1038,7 @@ var initialize = {
 
 script.addEventListener('load', function() {
   $(function() {
-    var pageType = document.getElementsByTagName('html')[0].dataset.pageType;
+    var pageType = $('html').attr('data-page-type')
     initialize[pageType]()
     console.log(pageType)
 
