@@ -25,7 +25,7 @@
 }
 ```
 
-##　このディレクトリ内のファイル一覧
+## このディレクトリ内のファイル一覧
   - common-header.html
     - ヘッダ表示用のHTMLファイル(日・英共通)
   - common-footer.html
