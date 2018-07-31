@@ -624,7 +624,8 @@ footer {
 .section-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-direction: column; }
   .section-wrapper.member_staff {
     margin-bottom: 123px; }
   .section-wrapper.research_explanation {
