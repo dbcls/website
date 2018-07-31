@@ -9,9 +9,9 @@
 	  $j('footer').attr('id', 'dbcls-common-footer')
 	  var current_lang = $j('html').attr('lang')
 	  if (current_lang === 'ja') {
-	    $j('footer').load('common-footer.html')
+	    $j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/common-footer.html')
 	  } else {
-	    $j('footer').load('common-footer-en.html')
+	    $j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/common-footer-en.html')
 	  }
 	}, 100)
 })();
