@@ -83,7 +83,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 24px;
   background: linear-gradient(#004098, #1B2244);
 }
@@ -91,11 +91,17 @@
 .nbdc-common-header nav.gnav {
   width: 1024px;
   margin: 0 auto;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.nbdc-common-header nav.gnav ul {
+.nbdc-common-header .sp_nav {
+  background-color: #004098;
+  display: none;
+}
+
+.nbdc-common-header nav.gnav .pc_nav{
   width: 400px;
   height: 24px;
   display: flex;
@@ -103,28 +109,40 @@
   justify-content: space-between;
 }
 
-.nbdc-common-header nav.gnav ul li {
+.nbdc-common-header nav.gnav .pc_nav li,
+.nbdc-common-header .sp_nav li {
   list-style: none;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
 }
 
-.nbdc-common-header nav.gnav ul li a {
+.nbdc-common-header .sp_nav li {
+  line-height: 2.6em;
+  text-align: center;
+  border-bottom: .5px solid rgba(254, 254, 254, .5);
+}
+
+.nbdc-common-header nav.gnav .pc_nav li a,
+.nbdc-common-header .sp_nav li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   font-size: 12px;
 }
 
-.nbdc-common-header nav.gnav ul li a img.nbdc-logo {
+.nbdc-common-header nav.gnav .pc_nav li a img.nbdc-logo {
   width: 55px;
   height: auto;
   padding-top: 4px;
   padding-left: 5px;
 }
 
-/* default */
+.nbdc-common-header .hamburger {
+  width: 13px;
+  margin-right: 10px;
+  display: none;
+}
 
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
@@ -287,9 +305,38 @@ footer#nbdc-common-footer a:hover {
   justify-content: center;
 }
 
-.footer__lisence p:before {
-  content: "";
-  width: 81px;
-  height: 16px;
-  display: block;
+@media screen and (max-width: 480px) {
+  .pc_menu {
+    display: none;
+  }
+
+  .nbdc-common-header nav.gnav {
+    width: 100vw;
+  }
+
+  .nbdc-common-header .hamburger {
+    display: block;
+  }
+
+  footer#nbdc-common-footer .footer__common .footer__wrapper {
+    width: 100vw;
+  }
+
+  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__info {
+    flex-direction: column;
+  }
+
+  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
+    margin-left: 0px;
+  }
+
+  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer#nbdc-common-footer .footer__common .footer__lisence {
+    text-align: center;
+  }
+
 }

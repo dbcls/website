@@ -9,5 +9,17 @@
 	  $j('header').addClass('nbdc-common-header')
 	  $j('header').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header/common-header.html')
 	  $j('body').css('padding-top', '24px')
+
+		$j(document).on('click', '.hamburger', function() {
+			$j('.sp_nav').slideToggle();
+		})
+
+		$j(window).resize(function(){
+			var window_size = $j(window).width()
+			if(window_size < 480) {
+				$j('.sp_nav').css('display', 'none')
+			}
+		})
+	  
 	}, 100)
 })();
