@@ -7,6 +7,9 @@
     - モバイル対応用
     - <head>タグ内の<title>タグより、上に記載する。
 
+2. 各サービスのhtmlの`<body>`タグ内の最初に下記コードを記載する。
+`<header style="z-index:9999;position:fixed;top:0;left:0;width:100%;height:24px;background:linear-gradient(#004098, #1B2244);"></header>`
+
 ## 日本語版、英語版の切り替え
   - 共通ヘッダはhtmlタグ内のlang属性を読み込み、それに応じて言語を切り替えることができる。言語切り替えが機能しない場合は、サービスの各ページのhtmlに下記のようにlang属性を記述する。
     - 日本語の場合： `<html lang="ja">`

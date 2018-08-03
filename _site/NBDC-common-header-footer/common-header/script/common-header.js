@@ -5,7 +5,6 @@
 	$j = window.jQuery.noConflict(true);
 
 	setTimeout(function(){
-	  $j('body').prepend('<header>')
 	  $j('header').addClass('nbdc-common-header')
 	  $j('header').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header/common-header.html')
 	  $j('body').css('padding-top', '24px')
