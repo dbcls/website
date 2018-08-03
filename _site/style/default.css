@@ -1104,31 +1104,36 @@ table.matrix {
             position: absolute;
             top: 1px;
             left: 0;
-            width: 13px; }
+            width: 13px;
+            height: 13px; }
           .wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-github:before {
             content: url(../img/icon_git.svg);
             position: absolute;
             top: -1px;
             left: 0;
-            width: 13px; }
+            width: 13px;
+            height: 15px; }
           .wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-orcid:before {
             content: url(../img/icon_id.svg);
             position: absolute;
             top: 0px;
             left: 0;
-            width: 13px; }
+            width: 13px;
+            height: 14px; }
           .wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-gs:before {
             content: url(../img/icon_gs.svg);
             position: absolute;
             top: 0px;
             left: 0;
-            width: 13px; }
+            width: 13px;
+            height: 13px; }
           .wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-web:before {
             content: url(../img/icon_web.svg);
             position: absolute;
             top: 0px;
             left: 0;
-            width: 12px; }
+            width: 12px;
+            height: 15px; }
 
 #loader-bg {
   display: none;
