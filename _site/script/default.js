@@ -43,7 +43,7 @@ var setData = data => {
     temp_array.push([])
     for (let j = 0; j < colLength; j++) {
       temp_array[i].push('')
-    }   
+    }
   }
 
   for (let i = 0; i < feedArray.length; i++) {
@@ -52,6 +52,23 @@ var setData = data => {
   }
 
   return temp_array
+}
+
+/* ------------------------------
+ Loading イメージ表示関数
+ 引数： msg 画面に表示する文言
+ ------------------------------ */
+function dispLoading(msg) {
+  // 引数なし（メッセージなし）を許容
+  $(".main__contents").append("<div id='loading'><img src='/img/loading.gif' /></div>");
+  
+}
+
+/* ------------------------------
+ Loading イメージ削除関数
+ ------------------------------ */
+function removeLoading() {
+  $("#loading").remove();
 }
 
 var initialize = {
@@ -208,11 +225,16 @@ var initialize = {
   'research': function() {},
   'publications': function() {},
   'references': function() {
+    // 処理前に Loading 画像を表示
+    dispLoading("処理中...");
+
     $.ajax({
       url: "https://spreadsheets.google.com/feeds/cells/1JGvXRqvu5A5IhaYfz40yTblNP7bZZL6GaPGaZl7knHM/od6/public/values?alt=json",
       dataType: "json",
       async: true,
       success: function(data) {
+        // Lading 画像を消す
+        removeLoading();
         var elementArray = setData(data)
         var elementArray_service = []
         for (var i = 0; i < elementArray.length; i++) {
