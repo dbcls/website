@@ -2,15 +2,17 @@
 1. 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script"></script>`
 
-  ライセンスのバージョンが4.0でない場合は以下をお使いください。(デフォルトは4.0になっています)
-  <2.1>
+### 上記設定のデフォルトのライセンス表記はCC-BY-4.0になっています。ライセンスのバージョンがそれ以外の場合は以下をお使いください。
+
+#### CC-BY-2.1-JP
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>`
 
-  <SA 2.1>
+#### CC-BY-SA-2.1-JP
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="sa_2.1"></script>`
 
-<ライセンス表記なし>
+#### ライセンス表記なし
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="none"></script>`
+
 
 ## 日本語版、英語版の切り替え
   - 共通ヘッダはhtmlタグ内のlang属性を読み込み、それに応じて言語を切り替えることができる。言語切り替えが機能しない場合は、サービスの各ページのhtmlに下記のようにlang属性を記述する。
