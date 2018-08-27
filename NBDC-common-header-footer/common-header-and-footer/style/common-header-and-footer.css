@@ -294,6 +294,12 @@
   justify-content: center;
 }
 
+.footer__lisence p {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
   .pc_menu {
     display: none;
