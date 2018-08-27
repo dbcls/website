@@ -4,13 +4,35 @@
 	
 	$j = window.jQuery.noConflict(true);
 
-	setTimeout(function(){
-		$j('body').append('<footer>')
-		$j('footer').attr('id', 'nbdc-common-footer')
-		var current_lang = $j('html').attr('lang')
-		if (current_lang === 'ja') {
-			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer.html')
-		} else {
-			$j('footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer-en.html')
-		}
-}, 100)})();
+	setTimeout(function() {
+		var link = document.createElement('link')
+		var meta = document.createElement('meta')
+
+		link.setAttribute('rel', 'stylesheet')
+		link.setAttribute('href', 'https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/style/common-footer.css')
+		meta.setAttribute('name', 'viewport')
+		meta.setAttribute('content', 'width=device-width,initial-scale=1')
+
+		document.head.appendChild(link)
+		document.head.appendChild(meta)
+
+		$j('body').append('<div id="nbdc-common-footer">')
+	  var current_lang = $j('html').attr('lang')
+	  if (current_lang === 'ja') {
+	    $j('#nbdc-common-footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer.html')
+	  } else {
+	    $j('#nbdc-common-footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/common-footer-en.html')
+	  }
+	}, 10)
+
+	// setTimeout(function() {
+	// 	var data_type = $j('#common-footer__script').attr('data-page-type')
+	// 	if(data_type === '2.1') {
+	// 		$j('div.footer__lisence').html('<p> &copy; 2014 NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 International license (CC-BY 2.1)</a></p>')
+	// 	} else if (data_type === 'sa_2.1'){
+	// 		$j('div.footer__lisence').html('<p> &copy; 2014 NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>')
+	// 	} else if (data_type === 'none') {
+	// 		$j('div.footer__lisence').empty()
+	// 	}
+	// }, 100)
+})();

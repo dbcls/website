@@ -79,78 +79,78 @@
 
 /* nbdc-common-footer */
 
-footer#nbdc-common-footer {
+#nbdc-common-footer {
   padding: 0;
 }
 
-footer#nbdc-common-footer .footer__common {
+#nbdc-common-footer .footer__common {
   padding-bottom: 20px;
   background-color: #f9f8f5;
   width: 100%;
   color: #444;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper {
+#nbdc-common-footer .footer__common .footer__wrapper {
   padding-top: 30px;
   padding-bottom: 32px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
   display: -wekit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
   margin-left: 130px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
   width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
   text-align: center;
   margin-top: 11px;
   margin-bottom: 20px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
   font-size: 12px;
   line-height: 1.5em;
   text-align: center;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
   width: 357px;
   margin-left: 75px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address p{
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address p{
   font-size: 10px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address .footer__address-bottom{
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address .footer__address-bottom{
   margin-top: 8px;
 }
 
 
-footer#nbdc-common-footer a {
+#nbdc-common-footer a {
   text-decoration: none;
   color: #444;
 }
 
-footer#nbdc-common-footer a:hover {
+#nbdc-common-footer a:hover {
   color: #004098;
   border-bottom: solid 1px #004098;
 }

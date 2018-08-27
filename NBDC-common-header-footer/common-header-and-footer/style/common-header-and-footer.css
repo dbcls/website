@@ -2,75 +2,75 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
-.nbdc-common-header html,
-.nbdc-common-header body,
-.nbdc-common-header p,
-.nbdc-common-header ol,
-.nbdc-common-header ul,
-.nbdc-common-header li,
-.nbdc-common-header dl,
-.nbdc-common-header dt,
-.nbdc-common-header dd,
-.nbdc-common-header blockquote,
-.nbdc-common-header figure,
-.nbdc-common-header fieldset,
-.nbdc-common-header legend,
-.nbdc-common-header textarea,
-.nbdc-common-header pre,
-.nbdc-common-header iframe,
-.nbdc-common-header hr,
-.nbdc-common-header h1,
-.nbdc-common-header h2,
-.nbdc-common-header h3,
-.nbdc-common-header h4,
-.nbdc-common-header h5,
-.nbdc-common-header h6 {
+#nbdc-common-header html,
+#nbdc-common-header body,
+#nbdc-common-header p,
+#nbdc-common-header ol,
+#nbdc-common-header ul,
+#nbdc-common-header li,
+#nbdc-common-header dl,
+#nbdc-common-header dt,
+#nbdc-common-header dd,
+#nbdc-common-header blockquote,
+#nbdc-common-header figure,
+#nbdc-common-header fieldset,
+#nbdc-common-header legend,
+#nbdc-common-header textarea,
+#nbdc-common-header pre,
+#nbdc-common-header iframe,
+#nbdc-common-header hr,
+#nbdc-common-header h1,
+#nbdc-common-header h2,
+#nbdc-common-header h3,
+#nbdc-common-header h4,
+#nbdc-common-header h5,
+#nbdc-common-header h6 {
   margin: 0;
   padding: 0;
 }
 
-.nbdc-common-header h1,
-.nbdc-common-header h2,
-.nbdc-common-header h3,
-.nbdc-common-header h4,
-.nbdc-common-header h5,
-.nbdc-common-header h6 {
+#nbdc-common-header h1,
+#nbdc-common-header h2,
+#nbdc-common-header h3,
+#nbdc-common-header h4,
+#nbdc-common-header h5,
+#nbdc-common-header h6 {
   font-size: 100%;
   font-weight: normal;
 }
 
-.nbdc-common-header ul {
+#nbdc-common-header ul {
   list-style: none;
 }
 
-.nbdc-common-header button,
-.nbdc-common-header input,
-.nbdc-common-header select,
-.nbdc-common-header textarea {
+#nbdc-common-header button,
+#nbdc-common-header input,
+#nbdc-common-header select,
+#nbdc-common-header textarea {
   margin: 0;
 }
 
-.nbdc-common-header html {
+#nbdc-common-header html {
   box-sizing: border-box;
 }
 
-.nbdc-common-header img,
-.nbdc-common-header embed,
-.nbdc-common-header iframe,
-.nbdc-common-header object,
-.nbdc-common-header audio,
-.nbdc-common-header video {
+#nbdc-common-header img,
+#nbdc-common-header embed,
+#nbdc-common-header iframe,
+#nbdc-common-header object,
+#nbdc-common-header audio,
+#nbdc-common-header video {
   height: auto;
   max-width: 100%;
 }
 
-.nbdc-common-header table {
+#nbdc-common-header table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.nbdc-common-header td,
-.nbdc-common-header th {
+#nbdc-common-header td,
+#nbdc-common-header th {
   padding: 0;
   text-align: left;
 }
@@ -78,7 +78,7 @@
 
 /* nbdc-common-header */
 
-.nbdc-common-header nav.gnav {
+#nbdc-common-header nav.gnav {
   width: 1024px;
   margin: 0 auto;
   display: flex;
@@ -86,12 +86,12 @@
   justify-content: space-between;
 }
 
-.nbdc-common-header .sp_nav {
+#nbdc-common-header .sp_nav {
   background-color: #004098;
   display: none;
 }
 
-.nbdc-common-header nav.gnav .pc_nav{
+#nbdc-common-header nav.gnav .pc_nav{
   width: 400px;
   height: 24px;
   display: flex;
@@ -99,36 +99,36 @@
   justify-content: space-between;
 }
 
-.nbdc-common-header nav.gnav .pc_nav li,
-.nbdc-common-header .sp_nav li {
+#nbdc-common-header nav.gnav .pc_nav li,
+#nbdc-common-header .sp_nav li {
   list-style: none;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
 }
 
-.nbdc-common-header .sp_nav li {
+#nbdc-common-header .sp_nav li {
   line-height: 2.6em;
   text-align: center;
   border-bottom: .5px solid rgba(254, 254, 254, .5);
 }
 
-.nbdc-common-header nav.gnav .pc_nav li a,
-.nbdc-common-header .sp_nav li a {
+#nbdc-common-header nav.gnav .pc_nav li a,
+#nbdc-common-header .sp_nav li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   font-size: 12px;
 }
 
-.nbdc-common-header nav.gnav .pc_nav li a img.nbdc-logo {
+#nbdc-common-header nav.gnav .pc_nav li a img.nbdc-logo {
   width: 55px;
   height: auto;
   padding-top: 4px;
   padding-left: 5px;
 }
 
-.nbdc-common-header .hamburger {
+#nbdc-common-header .hamburger {
   width: 13px;
   margin-right: 10px;
   display: none;
@@ -213,78 +213,78 @@
 
 /* nbdc-common-footer */
 
-footer#nbdc-common-footer {
+#nbdc-common-footer {
   padding: 0;
 }
 
-footer#nbdc-common-footer .footer__common {
+#nbdc-common-footer .footer__common {
   padding-bottom: 20px;
   background-color: #f9f8f5;
   width: 100%;
   color: #444;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper {
+#nbdc-common-footer .footer__common .footer__wrapper {
   padding-top: 30px;
   padding-bottom: 32px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
   display: -wekit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
   margin-left: 130px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
   width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
   text-align: center;
   margin-top: 11px;
   margin-bottom: 20px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
   font-size: 12px;
   line-height: 1.5em;
   text-align: center;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
   width: 357px;
   margin-left: 75px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address p{
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address p{
   font-size: 10px;
 }
 
-footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address .footer__address-bottom{
+#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address .footer__address-bottom{
   margin-top: 8px;
 }
 
 
-footer#nbdc-common-footer a {
+#nbdc-common-footer a {
   text-decoration: none;
   color: #444;
 }
 
-footer#nbdc-common-footer a:hover {
+#nbdc-common-footer a:hover {
   color: #004098;
   border-bottom: solid 1px #004098;
 }
@@ -300,32 +300,32 @@ footer#nbdc-common-footer a:hover {
     display: none;
   }
 
-  .nbdc-common-header nav.gnav {
+  #nbdc-common-header nav.gnav {
     width: 100vw;
   }
 
-  .nbdc-common-header .hamburger {
+  #nbdc-common-header .hamburger {
     display: block;
   }
 
-  footer#nbdc-common-footer .footer__common .footer__wrapper {
+  #nbdc-common-footer .footer__common .footer__wrapper {
     width: 100vw;
   }
 
-  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__info {
+  #nbdc-common-footer .footer__common .footer__wrapper .footer__info {
     flex-direction: column;
   }
 
-  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
+  #nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
     margin-left: 0px;
   }
 
-  footer#nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
+  #nbdc-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
     margin-left: 0;
     text-align: center;
   }
 
-  footer#nbdc-common-footer .footer__common .footer__lisence {
+  #nbdc-common-footer .footer__common .footer__lisence {
     text-align: center;
   }
 

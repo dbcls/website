@@ -2,75 +2,75 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
-.nbdc-common-header html,
-.nbdc-common-header body,
-.nbdc-common-header p,
-.nbdc-common-header ol,
-.nbdc-common-header ul,
-.nbdc-common-header li,
-.nbdc-common-header dl,
-.nbdc-common-header dt,
-.nbdc-common-header dd,
-.nbdc-common-header blockquote,
-.nbdc-common-header figure,
-.nbdc-common-header fieldset,
-.nbdc-common-header legend,
-.nbdc-common-header textarea,
-.nbdc-common-header pre,
-.nbdc-common-header iframe,
-.nbdc-common-header hr,
-.nbdc-common-header h1,
-.nbdc-common-header h2,
-.nbdc-common-header h3,
-.nbdc-common-header h4,
-.nbdc-common-header h5,
-.nbdc-common-header h6 {
+#nbdc-common-header html,
+#nbdc-common-header body,
+#nbdc-common-header p,
+#nbdc-common-header ol,
+#nbdc-common-header ul,
+#nbdc-common-header li,
+#nbdc-common-header dl,
+#nbdc-common-header dt,
+#nbdc-common-header dd,
+#nbdc-common-header blockquote,
+#nbdc-common-header figure,
+#nbdc-common-header fieldset,
+#nbdc-common-header legend,
+#nbdc-common-header textarea,
+#nbdc-common-header pre,
+#nbdc-common-header iframe,
+#nbdc-common-header hr,
+#nbdc-common-header h1,
+#nbdc-common-header h2,
+#nbdc-common-header h3,
+#nbdc-common-header h4,
+#nbdc-common-header h5,
+#nbdc-common-header h6 {
   margin: 0;
   padding: 0;
 }
 
-.nbdc-common-header h1,
-.nbdc-common-header h2,
-.nbdc-common-header h3,
-.nbdc-common-header h4,
-.nbdc-common-header h5,
-.nbdc-common-header h6 {
+#nbdc-common-header h1,
+#nbdc-common-header h2,
+#nbdc-common-header h3,
+#nbdc-common-header h4,
+#nbdc-common-header h5,
+#nbdc-common-header h6 {
   font-size: 100%;
   font-weight: normal;
 }
 
-.nbdc-common-header ul {
+#nbdc-common-header ul {
   list-style: none;
 }
 
-.nbdc-common-header button,
-.nbdc-common-header input,
-.nbdc-common-header select,
-.nbdc-common-header textarea {
+#nbdc-common-header button,
+#nbdc-common-header input,
+#nbdc-common-header select,
+#nbdc-common-header textarea {
   margin: 0;
 }
 
-.nbdc-common-header html {
+#nbdc-common-header html {
   box-sizing: border-box;
 }
 
-.nbdc-common-header img,
-.nbdc-common-header embed,
-.nbdc-common-header iframe,
-.nbdc-common-header object,
-.nbdc-common-header audio,
-.nbdc-common-header video {
+#nbdc-common-header img,
+#nbdc-common-header embed,
+#nbdc-common-header iframe,
+#nbdc-common-header object,
+#nbdc-common-header audio,
+#nbdc-common-header video {
   height: auto;
   max-width: 100%;
 }
 
-.nbdc-common-header table {
+#nbdc-common-header table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.nbdc-common-header td,
-.nbdc-common-header th {
+#nbdc-common-header td,
+#nbdc-common-header th {
   padding: 0;
   text-align: left;
 }
@@ -78,7 +78,7 @@
 
 /* nbdc-common-header */
 
-.nbdc-common-header nav.gnav {
+#nbdc-common-header nav.gnav {
   width: 1024px;
   margin: 0 auto;
   display: flex;
@@ -86,12 +86,12 @@
   justify-content: space-between;
 }
 
-.nbdc-common-header .sp_nav {
+#nbdc-common-header .sp_nav {
   background-color: #004098;
   display: none;
 }
 
-.nbdc-common-header nav.gnav .pc_nav{
+#nbdc-common-header nav.gnav .pc_nav{
   width: 400px;
   height: 24px;
   display: flex;
@@ -99,36 +99,36 @@
   justify-content: space-between;
 }
 
-.nbdc-common-header nav.gnav .pc_nav li,
-.nbdc-common-header .sp_nav li {
+#nbdc-common-header nav.gnav .pc_nav li,
+#nbdc-common-header .sp_nav li {
   list-style: none;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
 }
 
-.nbdc-common-header .sp_nav li {
+#nbdc-common-header .sp_nav li {
   line-height: 2.6em;
   text-align: center;
   border-bottom: .5px solid rgba(254, 254, 254, .5);
 }
 
-.nbdc-common-header nav.gnav .pc_nav li a,
-.nbdc-common-header .sp_nav li a {
+#nbdc-common-header nav.gnav .pc_nav li a,
+#nbdc-common-header .sp_nav li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   font-size: 12px;
 }
 
-.nbdc-common-header nav.gnav .pc_nav li a img.nbdc-logo {
+#nbdc-common-header nav.gnav .pc_nav li a img.nbdc-logo {
   width: 55px;
   height: auto;
   padding-top: 4px;
   padding-left: 5px;
 }
 
-.nbdc-common-header .hamburger {
+#nbdc-common-header .hamburger {
   width: 13px;
   margin-right: 10px;
   display: none;
@@ -139,11 +139,11 @@
     display: none;
   }
 
-  .nbdc-common-header nav.gnav {
+  #nbdc-common-header nav.gnav {
     width: 100vw;
   }
 
-  .nbdc-common-header .hamburger {
+  #nbdc-common-header .hamburger {
     display: block;
   }
 
