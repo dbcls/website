@@ -161,9 +161,7 @@
   justify-content: center;
 }
 
-.footer__lisence p:before {
-  content: "";
-  width: 81px;
-  height: 16px;
-  display: block;
+.footer__lisence {
+  display: flex;
+  justify-content: center;
 }
