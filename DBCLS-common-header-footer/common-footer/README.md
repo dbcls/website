@@ -1,16 +1,16 @@
 # DBCLS用共通フッタの導入方法
 1. 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script"></script>`
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" id="common-footer__script"></script>`
 
   ライセンスのバージョンが4.0でない場合は以下をお使いください。(デフォルトは4.0になっています)
   <2.1>
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="2.1"></script>`
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" id="common-footer__script" data-page-type="2.1"></script>`
 
   <SA 2.1>
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="sa_2.1"></script>`
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" id="common-footer__script" data-page-type="sa_2.1"></script>`
 
 <ライセンス表記なし>
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="none"></script>`
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" id="common-footer__script" data-page-type="none"></script>`
 
 
 ## 日本語版、英語版の切り替え
