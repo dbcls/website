@@ -57,13 +57,13 @@
 		var data_type = $j('#common-header-and-footer__script').attr('data-page-type')
 		if(data_type === '2.1') {
 			$j('div.footer__lisence').html('<p> &copy; 2018 NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 International license (CC-BY 2.1)</a></p>')
-			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right="5px"/>')
+			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right: 5px;"/>')
 		} else if (data_type === 'sa_2.1'){
 			$j('div.footer__lisence').html('<p> &copy; 2018 NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>')
-			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right="5px"/>')
+			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right: 5px;"/>')
 		} else if (data_type === '4.0'){
 			$j('div.footer__lisence').html('<p> &copy; 2018 NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution 4.0 International license (CC-BY 4.0)</a></p>')
-			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right="5px"/>')
+			$j('div.footer__lisence').prepend('<img src="https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-footer/img/by.svg" style="width: 81px; height: 16px; margin-right: 5px;"/>')
 		}  else if (data_type === 'none') {
 			$j('div.footer__lisence').empty()
 		}
