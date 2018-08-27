@@ -2,7 +2,7 @@
 1. 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script"></script>`
 
-### 上記設定のデフォルトのライセンス表記はCC-BY-4.0になっています。ライセンスのバージョンがそれ以外の場合は以下をお使いください。
+#### 上記設定のデフォルトのライセンス表記はCC-BY-4.0になっています。ライセンスのバージョンがそれ以外の場合は以下をお使いください。
 
 #### CC-BY-2.1-JP
   - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>`
