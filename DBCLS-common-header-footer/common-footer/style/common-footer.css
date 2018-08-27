@@ -3,75 +3,75 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
-footer#dbcls-common-footer html,
-footer#dbcls-common-footer body,
-footer#dbcls-common-footer p,
-footer#dbcls-common-footer ol,
-footer#dbcls-common-footer ul,
-footer#dbcls-common-footer li,
-footer#dbcls-common-footer dl,
-footer#dbcls-common-footer dt,
-footer#dbcls-common-footer dd,
-footer#dbcls-common-footer blockquote,
-footer#dbcls-common-footer figure,
-footer#dbcls-common-footer fieldset,
-footer#dbcls-common-footer legend,
-footer#dbcls-common-footer textarea,
-footer#dbcls-common-footer pre,
-footer#dbcls-common-footer iframe,
-footer#dbcls-common-footer hr,
-footer#dbcls-common-footer h1,
-footer#dbcls-common-footer h2,
-footer#dbcls-common-footer h3,
-footer#dbcls-common-footer h4,
-footer#dbcls-common-footer h5,
-footer#dbcls-common-footer h6 {
+#dbcls-common-footer html,
+#dbcls-common-footer body,
+#dbcls-common-footer p,
+#dbcls-common-footer ol,
+#dbcls-common-footer ul,
+#dbcls-common-footer li,
+#dbcls-common-footer dl,
+#dbcls-common-footer dt,
+#dbcls-common-footer dd,
+#dbcls-common-footer blockquote,
+#dbcls-common-footer figure,
+#dbcls-common-footer fieldset,
+#dbcls-common-footer legend,
+#dbcls-common-footer textarea,
+#dbcls-common-footer pre,
+#dbcls-common-footer iframe,
+#dbcls-common-footer hr,
+#dbcls-common-footer h1,
+#dbcls-common-footer h2,
+#dbcls-common-footer h3,
+#dbcls-common-footer h4,
+#dbcls-common-footer h5,
+#dbcls-common-footer h6 {
   margin: 0;
   padding: 0;
 }
 
-footer#dbcls-common-footer h1,
-footer#dbcls-common-footer h2,
-footer#dbcls-common-footer h3,
-footer#dbcls-common-footer h4,
-footer#dbcls-common-footer h5,
-footer#dbcls-common-footer h6 {
+#dbcls-common-footer h1,
+#dbcls-common-footer h2,
+#dbcls-common-footer h3,
+#dbcls-common-footer h4,
+#dbcls-common-footer h5,
+#dbcls-common-footer h6 {
   font-size: 100%;
   font-weight: normal;
 }
 
-footer#dbcls-common-footer ul {
+#dbcls-common-footer ul {
   list-style: none;
 }
 
-footer#dbcls-common-footer button,
-footer#dbcls-common-footer input,
-footer#dbcls-common-footer select,
-footer#dbcls-common-footer textarea {
+#dbcls-common-footer button,
+#dbcls-common-footer input,
+#dbcls-common-footer select,
+#dbcls-common-footer textarea {
   margin: 0;
 }
 
-footer#dbcls-common-footer html {
+#dbcls-common-footer html {
   box-sizing: border-box;
 }
 
-footer#dbcls-common-footer img,
-footer#dbcls-common-footer embed,
-footer#dbcls-common-footer iframe,
-footer#dbcls-common-footer object,
-footer#dbcls-common-footer audio,
-footer#dbcls-common-footer video {
+#dbcls-common-footer img,
+#dbcls-common-footer embed,
+#dbcls-common-footer iframe,
+#dbcls-common-footer object,
+#dbcls-common-footer audio,
+#dbcls-common-footer video {
   height: auto;
   max-width: 100%;
 }
 
-footer#dbcls-common-footer table {
+#dbcls-common-footer table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-footer#dbcls-common-footer td,
-footer#dbcls-common-footer th {
+#dbcls-common-footer td,
+#dbcls-common-footer th {
   padding: 0;
   text-align: left;
 }
@@ -84,29 +84,29 @@ footer {
 
 /* dbcls-common-footer */
 
-footer#dbcls-common-footer {
+#dbcls-common-footer {
   padding: 0;
 }
 
-footer#dbcls-common-footer .footer__common {
+#dbcls-common-footer .footer__common {
   padding-bottom: 20px;
   background-color: #f9f8f5;
   width: 100%;
   color: #444;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper {
+#dbcls-common-footer .footer__common .footer__wrapper {
   padding-top: 30px;
   padding-bottom: 18px;
   width: 800px;
   margin: 0 auto;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-ja {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-ja {
   padding-right: 65px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info {
   display: -wekit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,54 +117,54 @@ footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__co
   justify-content: space-between;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism {
   padding-top: 9px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__logo {
   width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text {
   text-align: center;
   margin-top: 11px;
   margin-bottom: 20px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-sub {
   font-size: 12px;
   line-height: 1.5em;
   text-align: center;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__organism .footer__organism-text .footer__organism-main {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address {
   margin-top: 15px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-ja .footer__address {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-ja .footer__address {
   width: 357px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-en .footer__address {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-en .footer__address {
   width: 400px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address div.footer-title {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address div.footer-title {
   font-weight: 800;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list {
   list-style: none;
   display: -wekit-box;
   display: -ms-flexbox;
@@ -174,21 +174,21 @@ footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__co
   justify-content: space-between;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li {
   font-size: 12px;
   line-height: 1.5em;
 }
 
-footer#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li p {
+#dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li p {
   line-height: 1.5em;
 }
 
-footer#dbcls-common-footer a {
+#dbcls-common-footer a {
   text-decoration: none;
   color: #444;
 }
 
-footer#dbcls-common-footer a:hover {
+#dbcls-common-footer a:hover {
   color: #004098;
   border-bottom: solid 1px #004098;
 }

@@ -1,11 +1,17 @@
 # DBCLS用共通フッタの導入方法
+1. 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script"></script>`
 
-1. 各サービスのhtmlの`<head>`タグの最後に下記コードを記載する。
-  - `<link rel="stylesheet" href="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/style/common-footer.css">`
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js"></script>`
-  - `<meta name="viewport" content="width=device-width,initial-scale=1">`
-    - モバイル対応用
-    - <head>タグ内の<title>タグより、上に記載する。
+  ライセンスのバージョンが4.0でない場合は以下をお使いください。(デフォルトは4.0になっています)
+  <2.1>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="2.1"></script>`
+
+  <SA 2.1>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="sa_2.1"></script>`
+
+<ライセンス表記なし>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-footer/script/common-footer.js" style="display: block" id="common-footer__script" data-page-type="none"></script>`
+
 
 ## 日本語版、英語版の切り替え
   - 共通ヘッダはhtmlタグ内のlang属性を読み込み、それに応じて言語を切り替えることができる。言語切り替えが機能しない場合は、サービスの各ページのhtmlに下記のようにlang属性を記述する。

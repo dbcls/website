@@ -1,16 +1,16 @@
 # DBCLS用共通ヘッダ+フッタの導入方法
+1. 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script"></script>`
 
-1. 各サービスのhtmlの`<head>`タグの最後に下記コードを記載する。
-  - `<link rel="stylesheet" href="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/style/common-header-and-footer.css">`
-  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"></script>`
-  - `<meta name="viewport" content="width=device-width,initial-scale=1">`
-    - モバイル対応用
-    - <head>タグ内の<title>タグより、上に記載する。
+  ライセンスのバージョンが4.0でない場合は以下をお使いください。(デフォルトは4.0になっています)
+  <2.1>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="2.1"></script>`
 
-2. 各サービスのhtmlの`<body>`タグを`<body style="padding-top: 24px;">`に書き換える
+  <SA 2.1>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="sa_2.1"></script>`
 
-3. 各サービスのhtmlの`<body>`タグ内の最初に下記コードを記載する。
-`<header style="z-index:9999;position:fixed;top:0;left:0;width:100%;height:24px;background:linear-gradient(#004098, #1B2244);"></header>`
+<ライセンス表記なし>
+  - `<script type="text/javascript" src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js" style="display: block" id="common-header-and-footer__script" data-page-type="none"></script>`
 
 ## 日本語版、英語版の切り替え
   - 共通ヘッダはhtmlタグ内のlang属性を読み込み、それに応じて言語を切り替えることができる。言語切り替えが機能しない場合は、サービスの各ページのhtmlに下記のようにlang属性を記述する。

@@ -5,28 +5,62 @@
 	$j = window.jQuery.noConflict(true);
 
 	setTimeout(function () {
-	$j('header').addClass('dbcls-common-header')
-	$j('header').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-header.html')
-	$j('body').css('padding-top', '24px')
+  	$j('body').css('padding-top', '24px')
 
-	$j('body').append('<footer>')
-	$j('footer').attr('id', 'dbcls-common-footer')
-	var current_lang = $j('html').attr('lang')
-	if (current_lang === 'ja') {
-	$j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer.html')
-	} else {
-	$j('footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer-en.html')
-	}
+  	var link = document.createElement('link')
+  	var meta = document.createElement('meta')
 
-	$j(document).on('click', '.hamburger', function() {
-		$j('.sp_nav').slideToggle();
-	})
+  	link.setAttribute('rel', 'stylesheet')
+  	link.setAttribute('href', 'https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/style/common-header-and-footer.css')
+  	meta.setAttribute('name', 'viewport')
+  	meta.setAttribute('content', 'width=device-width,initial-scale=1')
 
-	$j(window).resize(function(){
-		var window_size = $j(window).width()
-		if(window_size < 480) {
-			$j('.sp_nav').css('display', 'none')
+  	document.head.appendChild(link)
+  	document.head.appendChild(meta)
+
+  	var header = document.createElement('div')
+  	$j(header).css({
+  		'z-index': 10000,
+  		'position': 'fixed',
+  		'top': 0,
+  		'left': 0,
+  		'width': '100%',
+  		'height': '24px',
+  		'background': 'linear-gradient(#004098, #1B2244)'
+  	})
+
+    $j(header).attr('id', 'dbcls-common-header')
+    $j(header).load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-header.html')
+		document.body.prepend(header)
+
+		$j('body').append('<div id="dbcls-common-footer">')
+		var current_lang = $j('html').attr('lang')
+		if (current_lang === 'ja') {
+		$j('#dbcls-common-footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer.html')
+		} else {
+		$j('#dbcls-common-footer').load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-footer-en.html')
 		}
-	})
-	}, 0)
+
+		$j(document).on('click', '.hamburger', function() {
+			$j('.sp_nav').slideToggle();
+		})
+
+		$j(window).resize(function(){
+			var window_size = $j(window).width()
+			if(window_size < 480) {
+				$j('.sp_nav').css('display', 'none')
+			}
+		})
+	}, 10)
+
+	setTimeout(function() {
+		var data_type = $j('#common-header-and-footer__script').attr('data-page-type')
+		if(data_type === '2.1') {
+			$j('div.footer__lisence').html('<p> &copy; 2018 DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 Japan license (CC-BY 2.1 JP)</a></p>')
+		} else if (data_type === 'sa_2.1'){
+			$j('div.footer__lisence').html('<p> &copy; 2014 DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>')
+		} else if (data_type === 'none') {
+			$j('div.footer__lisence').empty()
+		}
+	}, 100)
 })();
