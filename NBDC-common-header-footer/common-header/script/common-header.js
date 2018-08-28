@@ -30,7 +30,7 @@
   	})
     $j(header).attr('id', 'nbdc-common-header')
     $j(header).load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header/common-header.html')
-	document.body.prepend(header)
+		$j('body').prepend(header)
 
     $j(document).on('click', '.hamburger', function() {
       $j('.sp_nav').slideToggle();

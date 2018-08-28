@@ -30,7 +30,7 @@
   	})
     $j(header).attr('id', 'dbcls-common-header')
     $j(header).load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header/common-header.html')
-	document.body.prepend(header)
+		$j('body').prepend(header)
 
     $j(document).on('click', '.hamburger', function() {
       $j('.sp_nav').slideToggle();

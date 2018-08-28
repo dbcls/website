@@ -31,7 +31,7 @@
 
     $j(header).attr('id', 'dbcls-common-header')
     $j(header).load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/common-header.html')
-		document.body.prepend(header)
+		$j('body').prepend(header)
 
 		$j('body').append('<div id="dbcls-common-footer">')
 		var current_lang = $j('html').attr('lang')
