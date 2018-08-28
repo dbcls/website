@@ -31,7 +31,7 @@
 
     $j(header).attr('id', 'nbdc-common-header')
     $j(header).load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-header.html')
-		document.body.prepend(header)
+		$j('body').prepend(header)
 
 		$j('body').append('<div id="nbdc-common-footer">')
 		var current_lang = $j('html').attr('lang')
