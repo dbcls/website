@@ -298,7 +298,7 @@ footer {
 }
 
 #dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info-en .footer__address {
-  width: 400px;
+  width: 430px;
 }
 
 #dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address div.footer-title {
@@ -320,6 +320,7 @@ footer {
 #dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li {
   font-size: 12px;
   line-height: 1.5em;
+  width: 210px;
 }
 
 #dbcls-common-footer .footer__common .footer__wrapper .footer__wrapper__contents .footer__info .footer__address ul.address__list li p {
