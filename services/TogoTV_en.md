@@ -1,7 +1,7 @@
 # TogoTV
 ### About TogoTV
 
-TogoTV (‘Togo’ means ‘integration’ in Japanese; pronunciation symbol is [toɯgoɯ]) that is one of the services in the [Database Center for Life Science (DBCLS)](http://dbcls.rois.ac.jp/en/) in Japan is a portal site of tutorial and lecture videos about bioinformatics resources. Although the [original TogoTV site](http://togotv.dbcls.jp/ja/) is mostly written in Japanese, there is the English interface for international users. The site contains our original videos. All contents provided by us are distributed under [the Creative Commons  Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/deed) license and also provided on [a YouTube channel](https://www.youtube.com/user/togotv). We plan to expand our own English contents so as to enable our service to be used all over the world. (http://togotv.dbcls.jp/en/)
+TogoTV (‘Togo’ means ‘integration’ in Japanese; pronunciation symbol is [toɯgoɯ]) that is one of the services in the [Database Center for Life Science (DBCLS)](http://dbcls.rois.ac.jp/en/) in Japan is a portal site of tutorial and lecture videos about bioinformatics resources. Although the [original TogoTV site](http://togotv.dbcls.jp/ja/) is mostly written in Japanese, there is the English interface for international users. The site contains our original videos. All contents provided by us are distributed under [the Creative Commons  Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/deed) license and also provided on [a YouTube channel](https://www.youtube.com/user/togotv). We plan to expand our own English contents so as to enable our service to be used all over the world. (https://togotv.dbcls.jp/en/)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_en_fig-1_180523.png)  
 
@@ -11,20 +11,20 @@ TogoTV (‘Togo’ means ‘integration’ in Japanese; pronunciation symbol is 
 
 ##### How to use a service developed in DBCLS
 
-* [How to use RefEx: Reference Expression Dataset](http://togotv.dbcls.jp/en/20160425.html)
-* [GGRNA: search engine for genes and transcripts](http://togotv.dbcls.jp/en/20120215.html)
-* [GGGenome: a fast and simple DNA sequence search engine](http://togotv.dbcls.jp/en/20150514.html)
-* [CRISPRdirect: designing CRISPR/Cas guide RNA sequence](http://togotv.dbcls.jp/en/20140413.html)
-* [How to use inMeXes - An Incremental PubMed Expression Search 2018](http://togotv.dbcls.jp/en/20180328.html)
+* [How to use RefEx: Reference Expression Dataset](https://togotv.dbcls.jp/en/20160425.html)
+* [GGRNA: search engine for genes and transcripts](https://togotv.dbcls.jp/en/20120215.html)
+* [GGGenome: a fast and simple DNA sequence search engine](https://togotv.dbcls.jp/en/20150514.html)
+* [CRISPRdirect: designing CRISPR/Cas guide RNA sequence](https://togotv.dbcls.jp/en/20140413.html)
+* [How to use inMeXes - An Incremental PubMed Expression Search 2018](https://togotv.dbcls.jp/en/20180328.html)
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_en_fig-2_180523.png)
 
 ##### How to use useful tools all over the world
 
-* [Functional Annotation of Sequences using Blast2GO](http://togotv.dbcls.jp/en/20160204.html)
-* [Creating a pedigree chart using f-tree](http://togotv.dbcls.jp/en/20160217.html)
-* [Tutorial movies for TargetMine ~ List search, QueryBuilder~](http://togotv.dbcls.jp/en/20150313.html)
-* [Collecting amino acid sequences and building a phylogenetic tree on the aLeaves and MAFFT servers](http://togotv.dbcls.jp/en/20140305.html)
+* [Functional Annotation of Sequences using Blast2GO](https://togotv.dbcls.jp/en/20160204.html)
+* [Creating a pedigree chart using f-tree](https://togotv.dbcls.jp/en/20160217.html)
+* [Tutorial movies for TargetMine ~ List search, QueryBuilder~](https://togotv.dbcls.jp/en/20150313.html)
+* [Collecting amino acid sequences and building a phylogenetic tree on the aLeaves and MAFFT servers](https://togotv.dbcls.jp/en/20140305.html)
 
 ##### Lecture videos of symposiums and workshops
 
