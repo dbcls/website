@@ -1,7 +1,7 @@
 # RefEx
 ### About RefEx
 
-* **RefEx (Reference Expression dataset; http://refex.dbcls.jp) is a web tool for browsing reference gene expression, which provides access to curated data from several other public databases, with expression levels in forty tissues measured by four well-established gene-expression quantification technologies.** The web interface allows users to browse the expression profiles by the gene name, various types of IDs, chromosomal regions in genetic maps, gene family based on InterPro, gene expression patterns, or biological categories based on Gene Ontology, and to compare expression profiles by different methods at a glance.
+* **RefEx (Reference Expression dataset; https://refex.dbcls.jp) is a web tool for browsing reference gene expression, which provides access to curated data from several other public databases, with expression levels in forty tissues measured by four well-established gene-expression quantification technologies.** The web interface allows users to browse the expression profiles by the gene name, various types of IDs, chromosomal regions in genetic maps, gene family based on InterPro, gene expression patterns, or biological categories based on Gene Ontology, and to compare expression profiles by different methods at a glance.
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_en_fig-1_180523.png)  
 

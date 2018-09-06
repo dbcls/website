@@ -1,7 +1,7 @@
 # 統合TV
 ### 統合TVとは
 
-データベースやウェブツールの使い方を動画で配信するサービスです。提供している動画は1400本を超えています。(2018年5月末現在)(http://togotv.dbcls.jp/)
+データベースやウェブツールの使い方を動画で配信するサービスです。提供している動画は1400本を超えています。(2018年5月末現在)(https://togotv.dbcls.jp/)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_jp_fig-1_180523.png)  
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_jp_fig-2_180523.png)
@@ -46,7 +46,7 @@
 
 #### 生命科学分野のイラストが閲覧できるようになりました
 
-* 「[Togo picture gallery](http://g86.dbcls.jp/togopic)」で公開されていた誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました｡
+* 「[Togo picture gallery](https://togotv.dbcls.jp/pics.html)」で公開されていた誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました｡
 * [NBDC 生命科学系データベースアーカイブ](http://dbarchive.biosciencedbc.jp/)に収載されている「[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)」で提供されている真正細菌から動植物を含む200種類以上の生物種のアイコン(イラスト)についても､同時に閲覧､利用できるようになりました｡  
 ![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoTV_jp_fig-3_180523.png)
 
