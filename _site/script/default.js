@@ -538,13 +538,12 @@ var initialize = {
       var service_name = $(this).parent().siblings('.name').attr('id')
       var judge_language = $(this).parent().siblings('.name').attr('class')
       service_name = service_name.replace(/ /g, '_')
-      displayRepos(service_name) //犯人
+      location.hash = service_name
     })
 
     //リポジトリ個別ページ
     function displayRepos(repos_name) {
       $('html,body').scrollTop(0);
-      location.hash = repos_name
       var md_data = ''
       $.ajax({
         type: 'get',
