@@ -3,7 +3,7 @@
 Gendoo provides keywords including diseases, drugs and biological phenomena related to genes and diseases of interests.
 ( http://gendoo.dbcls.jp/ )
 
-![Sample 1](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　![Sample 2](https://github.com/dbcls/raw/master/services/images/DBCLSServices_Gendoo_fig-2_180525.png)
+![Sample 1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_Gendoo_fig-1_180525.png)　![Sample 2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_Gendoo_fig-2_180525.png)
 
 
 
