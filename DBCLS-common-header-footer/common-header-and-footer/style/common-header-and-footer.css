@@ -364,6 +364,12 @@ footer {
     display: block;
   }
 
+  #dbcls-common-footer .footer__common {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+  }
+
   #dbcls-common-footer .footer__common .footer__wrapper {
     width: 100vw;
   }

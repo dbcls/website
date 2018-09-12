@@ -207,3 +207,11 @@ footer {
   display: block;
   background: url(../img/by.svg) no-repeat;
 }
+
+@media screen and (max-width: 480px) {
+  #dbcls-common-footer .footer__common {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+  }
+}
