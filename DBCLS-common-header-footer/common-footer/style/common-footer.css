@@ -210,8 +210,12 @@ footer {
 
 @media screen and (max-width: 480px) {
   #dbcls-common-footer .footer__common {
-    width: 100vw;
+    width: 100%;
     position: fixed;
     bottom: 0;
+  }
+
+  #dbcls-common-footer .footer__common:before {
+    margin-top: 404px;
   }
 }
