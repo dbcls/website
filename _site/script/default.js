@@ -129,7 +129,11 @@ var initialize = {
   'news': function() {
     var prepage = ''
     prepage = document.referrer
-    prepage = prepage.match(".+/(.+?)([\?#;].*)?$")[1]
+    if(prepage === ""){
+      prepage = 'direct'
+    } else {
+      prepage = prepage.match(".+/(.+?)([\?#;].*)?$")[1]
+    }
     if (prepage === 'events.html' || prepage === 'events-en.html') {
       setTimeout(function() {
         $('.tag-event').trigger('click')
@@ -166,17 +170,6 @@ var initialize = {
       tag_className = tag_className.replace(/"/g, '')
       $(this).addClass(tag_className)
     })
-
-    // var result  = tag_className.replace(/\[\"(.+?)\"\]/, '/1')
-    // console.log(result)
-
-    // tag_className.replace(/["(/w)"]/, '/1')
-
-    // var mixer = mixitup(containerEl, {
-    //   multifilter: {
-    //     enable: true // enable the multifilter extension for the mixer
-    //   }
-    // });
   },
   'post': function() {
     var url = window.location;
