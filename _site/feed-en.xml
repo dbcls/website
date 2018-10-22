@@ -9,6 +9,59 @@
       
         
         <item>
+          <title>The 11th NBDC/DBCLS BioHackathon registration opened</title>
+          
+            <description>&lt;p&gt;&lt;strong&gt;BioHackathon 2018&lt;/strong&gt;: &lt;a href=&quot;http://2018.biohackathon.org/&quot;&gt;http://2018.biohackathon.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OVERVIEW&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The 11th &lt;a href=&quot;https://biosciencedbc.jp/en/&quot;&gt;NBDC&lt;/a&gt;/&lt;a href=&quot;https://dbcls.rois.ac.jp/index-en.html&quot;&gt;DBCLS&lt;/a&gt; BioHackathon will be held from 9th through 15th December 2018, in Matsue, Shimane, Japan. We expect to welcome &lt;a href=&quot;https://en.wikipedia.org/wiki/Yukihiro_Matsumoto&quot;&gt;Matz&lt;/a&gt;, the &lt;a href=&quot;https://www.ruby-lang.org/&quot;&gt;Ruby&lt;/a&gt;’s father, on 11th (Tue) evening!&lt;br /&gt;
+&lt;br /&gt;
+The NBDC/DBCLS BioHackathon series have been contributing for integration and utilization of life sciences and biomedical databases (&lt;a href=&quot;http://www.biohackathon.org/&quot;&gt;read more about the past hackathons …&lt;/a&gt;). In this year, in addition to our continuous efforts on promoting the development for standardization and interoperability of life sciences / biomedical databases and their applications in data science, we are particularly interested in developing application cases of those tools to following subject areas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Medical application&lt;/li&gt;
+  &lt;li&gt;Useful substance production&lt;/li&gt;
+  &lt;li&gt;Breeding&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+          
+          <pubDate>Fri, 19 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2018/10/19/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2018/10/19/post1.html</guid>
+        </item>
+        
+      
+    
+      
+    
+      
+        
+        <item>
+          <title>A paper &quot;The jPOST environment: an integrated proteomics data repository and database&quot; was published in Nucleic Acids Research Database Issue.</title>
+          
+            <description>&lt;p&gt;A paper “The jPOST environment: an integrated proteomics data repository and database” was published in Nucleic Acids Research Database Issue.  &lt;br /&gt;
+Dr. Yuki Moriya, Dr. Shin Kawano, and Prof. Susumu Goto in DBCL contributed to this work.  &lt;br /&gt;
+The full paper can be found online at:
+&lt;a href=&quot;https://doi.org/10.1093/nar/gky899&quot;&gt;https://doi.org/10.1093/nar/gky899&lt;/a&gt;  &lt;br /&gt;
+  &lt;br /&gt;
+Yuki Moriya, Shin Kawano, Shujiro Okuda, Yu Watanabe, Masaki Matsumoto, Tomoyo Takami, Daiki Kobayashi, Yoshinori Yamanouchi, Norie Araki, Akiyasu C. Yoshizawa, Tsuyoshi Tabata, Mio Iwasaki, Naoyuki Sugiyama, Satoshi Tanaka, Susumu Goto, and Yasushi Ishihama, The jPOST environment: an integrated proteomics data repository and database, Nucleic Acids Research Database Issue, https://doi.org/10.1093/nar/gky899&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 11 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2018/10/11/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2018/10/11/post1.html</guid>
+        </item>
+        
+      
+    
+      
+    
+      
+        
+        <item>
           <title>A paper “PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases” was published in The American Journal of Human Genetics.</title>
           
             <description>&lt;p&gt;A paper “PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases” was published in The American Journal of Human Genetics.
@@ -26,30 +79,6 @@ Toyofumi Fujiwara, Dr. Yasunori Yamamoto, and Dr. Jin-Dong Kim in DBCLS, Dr. Ori
     
       
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        
-        <item>
-          <title>A paper “Suppression of mitochondrial oxygen metabolism mediated by the transcription factor HIF-1 alleviates propofol-induced cell toxicity” was published in Scientific Reports.</title>
-          
-            <description>&lt;p&gt;A paper “Suppression of mitochondrial oxygen metabolism mediated by the transcription factor HIF-1 alleviates propofol-induced cell toxicity” was published in Scientific Reports.
-Dr. Hidemasa Bono from DBCLS have contributed to this work in the transcriptome data analysis of renal Cell-derived RCC4 cells and the functional interpretation of analyzed data.&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Tue, 26 Jun 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2018/06/26/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2018/06/26/post1.html</guid>
-        </item>
-        
       
     
       

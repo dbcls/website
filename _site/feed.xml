@@ -9,6 +9,97 @@
       
         
         <item>
+          <title>国際開発者会議 BioHackathon 2018 参加登録受付中</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;https://biosciencedbc.jp/&quot;&gt;JST バイオサイエンスデータベースセンター (NBDC)&lt;/a&gt; と&lt;a href=&quot;http://dbcls.rois.ac.jp&quot;&gt;ライフサイエンス統合データベースセンター (DBCLS)&lt;/a&gt; が主催する &lt;a href=&quot;http://www.biohackathon.org/&quot;&gt;BioHackathon&lt;/a&gt;   は、生命科学分野のデータベース統合のための技術基盤を確立することを目的に、世界中から研究開発者が集まり、合宿形式で情報交換と技術開発を行う国際会議です。
+本年は、松江市にて&lt;a href=&quot;http://2018.biohackathon.org/&quot;&gt;第11回 国際開発者会議 BioHackathon 2018&lt;/a&gt;を開催します。&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;The 11th NBDC/DBCLS BioHackathon&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://2018.biohackathon.org/&quot;&gt;http://2018.biohackathon.org/&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+日程:&lt;br /&gt;
+2018年12月9日 (日) 公開シンポジウム @ &lt;a href=&quot;https://www.ichibata.co.jp/hotel/&quot;&gt;ホテル一畑&lt;/a&gt;（島根県松江市）&lt;br /&gt;
+2018年12月10日 (月) 〜 15日 (土) ハッカソン @ &lt;a href=&quot;https://www.ichibata.co.jp/hotel/&quot;&gt;ホテル一畑&lt;/a&gt;（島根県松江市） &lt;br /&gt;
+&lt;br /&gt;
+NBDC/DBCLS はこれまで、BioHackathon の開催によって日本国内の研究者と海外の研究者がコラボレーションする場を提供してきました。配列解析を始めとするバイオインフォマティクスの解析技術から、データ形式の標準化やデータベース連携のための技術開発、文献データの利用技術、高度な質問応答システムなど、これまでに BioHackathon によって生まれた成果は多岐に渡ります。 &lt;br /&gt;
+これまでに参加されたことのない方も、是非この機会にご参加ください。シンポジウムだけの参加も歓迎します。&lt;br /&gt;
+&lt;br /&gt;
+シンポジウム、ハッカソン共に参加費は無料です。ハッカソンの交通費や食費・宿泊費については自費となります。参加を希望される方は、下のページから参加登録をお願いいたします。参加登録の締切は 11/11 となっています。&lt;br /&gt;
+&lt;a href=&quot;http://2018.biohackathon.org/registration&quot;&gt;http://2018.biohackathon.org/registration&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+その他、不明な点があれば 2018-admin@biohackathon.org までお知らせください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 19 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/19/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/19/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>第3回RDF講習会(2018年11月1日)を開催します。</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;http://biosciencedbc.jp/&quot;&gt;NBDC&lt;/a&gt;とライフサイエンス統合データベースセンター（DBCLS）では、多種多様な生命科学データベースを統合して利活用するための技術開発や環境整備に取り組んでおり、そのためにRDFを含むセマンティックウェブ技術の応用を推進しています。その一環として、これまで、フルRDF形式で実装したゲノムデータベース&lt;a href=&quot;http://togogenome.org/&quot;&gt;TogoGenome&lt;/a&gt;や日本人ゲノム多様性統合データベース&lt;a href=&quot;https://togovar.biosciencedbc.jp/&quot;&gt;TogoVar&lt;/a&gt;、アプリケーション開発フレームワーク&lt;a href=&quot;http://www.togostanza.org/&quot;&gt;TogoStanza&lt;/a&gt;、日本で開発されたRDFデータのリポジトリ&lt;a href=&quot;https://integbio.jp/rdf/&quot;&gt;NBDC RDFポータル&lt;/a&gt;等を公開してきました。&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Thu, 18 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/18/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/18/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>プロテオームデータ統合環境 jPOST に関する論文が Nucleic Acids Research 誌データベース特集号に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの守屋勇樹特任助教、河野信特任准教授、五斗進教授が参加する研究グループによる論文、「The jPOST environment: an integrated proteomics data repository and database」がNucleic Acids Research誌データベース特集号に掲載されました。論文は下記URLからご覧いただけます。
+&lt;a href=&quot;https://doi.org/10.1093/nar/gky899&quot;&gt;https://doi.org/10.1093/nar/gky899&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+jPOSTプロジェクト（Japan ProteOme Standard Repository / Database、&lt;a href=&quot;https://jpostdb.org/&quot;&gt;https://jpostdb.org/&lt;/a&gt;) では、日本内外に散在している種々の質量分析に基づくプロテオームデータを統合し、統一された信頼基準で結果を解釈するために、（１）質量分析計から出力される生データを含む、プロテオームデータを投稿・蓄積するためのリポジトリ、（２）生データを再解析するための標準化されたワークフロー、（３）再解析後の高品質なプロテオームデータを蓄積・可視化するデータベースの３つを開発してきました。プロテオミクスデータリポジトリ、&lt;a href=&quot;https://repository.jpostdb.org/&quot;&gt;jPOSTrepo&lt;/a&gt;は2016年に公開され、 当初想定していたアジア・オセアニア地域だけでなく、世界各地から質量分析に基づくプロテオミクスデータが登録され続けています。 今回、jPOSTrepoで公開された生データから、統一したプロトコルを用いて再解析した高品質なプロテオームデータを公開するための、新しいプロテオミクスデータベースjPOSTdbを開発しました。 これまでのプロテオームデータベースはヒトに焦点を当てたものが主でしたが、jPOSTdbでは他の脊椎動物やバクテリアなどの生物種にも対応し、リン酸化部位を始めとした様々な翻訳後修飾情報を収録し、柔軟な検索インターフェースや可視化ツールと共にも提供しています。またjPOSTdbでは、プロテオミクスデータセットを比較するための基本的な統計解析ツールも提供しています。&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Yuki Moriya, Shin Kawano, Shujiro Okuda, Yu Watanabe, Masaki Matsumoto, Tomoyo Takami, Daiki Kobayashi, Yoshinori Yamanouchi, Norie Araki, Akiyasu C. Yoshizawa, Tsuyoshi Tabata, Mio Iwasaki, Naoyuki Sugiyama, Satoshi Tanaka, Susumu Goto, and Yasushi Ishihama, The jPOST environment: an integrated proteomics data repository and database, Nucleic Acids Research Database Issue, &lt;a href=&quot;https://doi.org/10.1093/nar/gky899&quot;&gt;https://doi.org/10.1093/nar/gky899&lt;/a&gt;&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 11 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/11/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/11/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>統合データベース講習会：AJACS蝦夷4（2018年11月9日）の参加者募集中です</title>
+          
+            <description>&lt;p&gt;札幌医科大学 にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
+現在参加者募集中です。 (申込締切：2018年10月31日(水)まで)&lt;br /&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Tue, 02 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/02/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/02/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>医療者向け希少疾患診断支援システム PubCaseFinder に関する論文が The American Journal of Human Genetics 誌に掲載されました</title>
           
             <description>&lt;p&gt;当センターの藤原豊史特任研究員、山本泰智特任准教授、金進東特任准教授、The Hospital for Sick Childrenに勤務するOrion Buske氏、そして東京大学の高木利久教授による論文、「PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases」がThe American Journal of Human Genetics誌に掲載されました。論文は下記URLからご覧いただけます。
@@ -111,93 +202,6 @@
           <link>
           http://localhost:4000/ja/2018/07/06/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/07/06/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>転写因子HIF-1によるミトコンドリアの酸素代謝の抑制がプロポフォールによって引き起こされる細胞毒性を緩和することを示した論文が Scientific Reports 誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの坊農 秀雅 特任准教授が参加する、&lt;a href=&quot;http://www.kmu.ac.jp/&quot;&gt;関西医科大学&lt;/a&gt; &lt;a href=&quot;http://blog.hypoxia.jp/who-i-am&quot;&gt;廣田 喜一&lt;/a&gt; 学長特命教授を中心とした研究グループによる論文 “Suppression of mitochondrial oxygen metabolism mediated by the transcription factor HIF-1 alleviates propofol-induced cell toxicity” が Scientific Reports誌に掲載されました。&lt;br /&gt;
-論文はオープンアクセスで、下記URLからご覧いただけます。&lt;br /&gt;
-&lt;a href=&quot;https://doi.org/10.1038/s41598-018-27220-8&quot;&gt;https://doi.org/10.1038/s41598-018-27220-8&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-低酸素誘導性因子1(hypoxia-inducible factor 1)を遺伝子操作や薬剤投与により活性化させると、麻酔および集中治療領域で広く用いられている全身麻酔・鎮痛用剤プロポフォールによる細胞死を低減できることを発見した論文です。DBCLSは、網羅的な遺伝子発現データ解析とそれらの可視化といったドライ解析において貢献しています。詳細は&lt;a href=&quot;http://www.kmu.ac.jp/news/laaes70000002bx2-att/laaes70000002bxq.pdf&quot;&gt;関西医科大学のプレス発表&lt;/a&gt;をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Tue, 26 Jun 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/06/26/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/06/26/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>トーゴーの日シンポジウム2018 ポスター発表参加者募集</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;http://biosciencedbc.jp/&quot;&gt;バイオサイエンスデータベースセンター(NBDC)&lt;/a&gt;では、毎年10月5日を「トーゴーの日」とし、ライフサイエンス分野のデータベース統合にまつわる問題をともに考え、議論を深めるシンポジウムを開催しています。
-&lt;br /&gt;
-2018年度は、データベースの高度な利用法として複数のデータベースを連携させる活用法や活用事例の紹介を医学に関連する生命科学データベースを中心に行うほか、データの共有と活用に関する話題として、個人情報保護に配慮したデータ共有の考え方や先端IT技術の動向等についての講演を予定しています。また、国内の生命科学分野のデータベース関係者のポスター発表や、ワークショップを予定しており、当該分野におけるデータベースの開発・運用・利活用について活発な情報交換や議論が行われる場となることを期待して、2018年10月5日（金）に「&lt;a href=&quot;https://events.biosciencedbc.jp/sympo/togo2018&quot;&gt;トーゴーの日シンポジウム2018　〜バイオデータベース：つないで使う〜&lt;/a&gt;」を開催いたします。
-&lt;br /&gt;
-本シンポジウムをより実りあるものにするため、生命科学分野のデータベースを様々な形で研究に利活用しているユーザの方々、生命科学分野に限らずデータベースの開発や運用に携わる方々にご発表いただき、シンポジウム参加者とデータベースについて幅広く議論していただければと考え、ポスター発表参加者を下記募集要領のとおり広く募集いたします。特に、ユーザから活用例をご紹介いただくことは、データベースの利活用を促進し、また、今後のデータベースの開発・運用にとっても大変参考になると考えます。多くの方からの応募をお待ちしています。
-&lt;br /&gt;
-&lt;strong&gt;ご発表いただきたい内容例&lt;/strong&gt;
-&lt;br /&gt;
-1次データベースの構築・運用&lt;br /&gt;
-複数のデータベース組み合わせ等の2次データベースの構築・運用&lt;br /&gt;
-データベースを利用したツール開発(解析、可視化等)&lt;br /&gt;
-データベース利用による研究の効率化&lt;br /&gt;
-&lt;br /&gt;
-【募集要項】&lt;br /&gt;
-&lt;a href=&quot;https://events.biosciencedbc.jp/sympo/togo2018/poster&quot;&gt;https://events.biosciencedbc.jp/sympo/togo2018/poster&lt;/a&gt;
-(申込締切:2018年7月20日(金)12時まで)&lt;br /&gt;
-&lt;br /&gt;
-みなさまのご参加をお待ちしています。&lt;/p&gt;
-</description>
-          
-          <pubDate>Thu, 14 Jun 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/06/14/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/06/14/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>データサイエンス共同利用基盤施設 データサイエンス推進室特任研究員 (DBCLS勤務)募集 (〆7/10(火)17時)</title>
-          
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2306/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Mon, 11 Jun 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/06/11/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/06/11/post2.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合データベース講習会：AJACS筑波4（2018年7月10日）の参加者募集中です</title>
-          
-            <description>&lt;p&gt;物質・材料研究機構 千現地区研究本館1階第2会議室 にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。
-現在参加者募集中です。 (申込締切：2018年7月2日(月)まで)&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Mon, 11 Jun 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/06/11/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/06/11/post1.html</guid>
         </item>
         
       
