@@ -69,7 +69,7 @@ data-type: news
 						</div>
 						<div class="post__main post__main-news">
 							<a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
-							{% assign beginning =  post.content | slice: 0, 150 | strip_html%}
+							{% assign beginning =  post.content | slice: 0, 300 | strip_html%}
 							<p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
 							<div class="post__sub-info">
 							  <div class="post-tags">
