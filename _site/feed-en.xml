@@ -7,6 +7,55 @@
     http://localhost:4000</link>
     
       
+    
+      
+        
+        <item>
+          <title>A paper &quot;ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data&quot; was published in EMBO Reports.</title>
+          
+            <description>&lt;p&gt;A paper “ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data” was published in EMBO Reports. DBCLS’s project researcher Tazro Ohta has been contributing to this project.
+&lt;br /&gt;
+&lt;br /&gt;
+ChIP-Atlas &lt;a href=&quot;https://chip-atlas.org&quot;&gt;https://chip-atlas.org&lt;/a&gt; is a database to provide ChIP-Seq/DNase-Seq data retrieved from Sequence Read Archive. The research group retrieved data from the archive and re-analyzed, then developed a web application system that users can view data on genome browser, find target genes and colocalized partners of transcription factors. Users also can submit their lists of genes or regions of genome to perform enrichment analysis using transcription factor binding sites. The paper also showed that the group found the transcription factors regulating tissue specific gene expression activities by using ChIP-Atlas. The system will be one of the valuable resources of transcription regulation data available to all the researchers.
+&lt;br /&gt;
+&lt;br /&gt;
+Shinya Oki, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Reports &lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2018/11/09/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2018/11/09/post2.html</guid>
+        </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+        <item>
+          <title>DBCLS server maintenance, 16-18 Nov 2018</title>
+          
+            <description>&lt;p&gt;Due to the system maintenance, our servicess will be temporarily unavailable. We are sorry for the inconvenience.&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 26 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2018/10/26/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2018/10/26/post1.html</guid>
+        </item>
+        
+      
+    
+      
         
         <item>
           <title>The 11th NBDC/DBCLS BioHackathon registration opened</title>
@@ -55,36 +104,6 @@ Yuki Moriya, Shin Kawano, Shujiro Okuda, Yu Watanabe, Masaki Matsumoto, Tomoyo T
           <guid isPermaLink="true">http://localhost:4000/en/2018/10/11/post1.html</guid>
         </item>
         
-      
-    
-      
-    
-      
-        
-        <item>
-          <title>A paper “PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases” was published in The American Journal of Human Genetics.</title>
-          
-            <description>&lt;p&gt;A paper “PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases” was published in The American Journal of Human Genetics.
-Toyofumi Fujiwara, Dr. Yasunori Yamamoto, and Dr. Jin-Dong Kim in DBCLS, Dr. Orion Buske in The Hospital for Sick Children, and Prof. Toshihisa Takagi in Tokyo University contributed to this work.&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Fri, 31 Aug 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2018/08/31/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2018/08/31/post1.html</guid>
-        </item>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
   </channel>

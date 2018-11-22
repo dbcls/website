@@ -9,6 +9,138 @@
       
         
         <item>
+          <title>第41回日本分子生物学会年会にブース出展をします</title>
+          
+            <description>&lt;p&gt;11月28-30日に横浜で開催される&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/index.html&quot;&gt;第41回分子生物学会&lt;/a&gt;の
+&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/japanese/special/special_2.pdf&quot;&gt;BioDBコーナー&lt;/a&gt;においてブースを出展します。DBCLSの研究員が「データ解析よろず相談」を受け付けます。&lt;br /&gt;
+&lt;br /&gt;
+データベースの使い方、バイオインフォマティクスのツールの使い方についてのご相談をお待ちしております。&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 22 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/22/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/22/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>公共の ChIP-Seq/DNase-Seq を用いた解析を行う ChIP-Atlas に関する論文が EMBO Reports 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの大田達郎研究員が参加する研究グループによる論文、「ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data」が  EMBO Reports 誌に掲載されました。論文は下記URLからご覧いただけます。
+&lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+ChIP-Atlas &lt;a href=&quot;https://chip-atlas.org&quot;&gt;https://chip-atlas.org&lt;/a&gt; は、大規模シーケンスデータのための公共データベースである Sequence Read Archive から ChIP-Seq, DNase-Seq のデータを取得し、共通の解析パイプラインで再解析したデータを集積したデータベースです。集積した再解析データを用いて、利用者はゲノムブラウザでのデータ可視化、転写因子が制御する遺伝子、共局在する転写因子の解析や、ユーザーのデータを利用したエンリッチメント解析を行うことができます。今回、ChIP-Atlas を用いた解析によって、組織特異的に発現する遺伝子を制御する転写因子の発見に繋がることを論文で示しました。ChIP-Atlas のデータは継続的に更新されており、今後さらに様々な研究で有用なデータリソース・解析アプリケーションとして活用されることが期待されます。
+&lt;br /&gt;
+&lt;br /&gt;
+Shinya Oki, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Reports &lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/09/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/09/post2.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>「希少疾患インフォマティクス：情報保護・情報共有・社会実装」研究集会（2019年2月16-17日@東京市ヶ谷）の参加者募集中です</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;https://misshie.github.io/rdinfo2019/&quot;&gt;「希少疾患インフォマティクス：情報保護・情報共有・社会実装」研究集会(rdinfo2019)&lt;/a&gt;が、2019年2月16-17日に科学技術振興機構（JST）東京本部別館（K’s 五番町）k-1、k-2会議室にて、長崎大学の三嶋博之助教（代表研究者）と当センターの藤原豊史特任研究員（DS施設受け入れ教員）との&lt;a href=&quot;https://ds.rois.ac.jp/article/2018rois-ds-joint_result/&quot;&gt;共同研究集会&lt;/a&gt;という形で開催されます。&lt;br /&gt;
+&lt;br /&gt;
+現在、&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSftihqZi-4z6ewvzowWg4Ohvu7xEpdnZe-TD7FcVrQ7l49CGQ/viewform&quot;&gt;参加者募集中&lt;/a&gt;です。（申込締切：2019年1月31日(木)まで）&lt;br /&gt;
+&lt;br /&gt;
+本研究集会では、希少・難治性疾患に関する情報保護・情報共有・社会実装の観点から、国内外のシステム・データベースについて最新情報、活用事例、問題点などを幅広く共有した上で、ゲノム医療の可能性についてさまざまな立場から議論し、希少・難治性疾患のゲノム医療実現にむけてのとりくむべき課題の明確化をめざします。&lt;br /&gt;
+&lt;br /&gt;
+プログラムの詳細ならびにお申し込みは &lt;a href=&quot;https://misshie.github.io/rdinfo2019/&quot;&gt;rdinfo2019&lt;/a&gt; のページをご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/09/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/09/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>データサイエンス共同利用基盤施設 ライフサイエンス統合データベースセンター 特任研究員 募集 (〆11/30(金)17時)</title>
+          
+            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2728/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 08 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/08/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/08/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>統合データベース講習会：AJACS名古屋2（2018年12月5日）の参加者募集中です</title>
+          
+            <description>&lt;p&gt;愛知県がんセンター にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
+現在参加者募集中です。 (申込締切：2018年11月27日(水)まで)&lt;br /&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Wed, 07 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/07/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/07/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>統合TVの掲載動画数が1,500本を突破しました</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;https://togotv.dbcls.jp/ja/&quot;&gt;統合TV&lt;/a&gt;は、生命科学分野の有用なデータベース(DB)やツールの使い方を動画で紹介するウェブサイトです。&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Mon, 29 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/29/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/29/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>サービス一時停止のお知らせ ＜2018年11月16日(金) 20:00 〜 2018年11月18日(日) 18:00＞</title>
+          
+            <description>&lt;p&gt;DBCLSが管理しているサーバのシステムメンテナンスの影響により、&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 26 Oct 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/10/26/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/26/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>国際開発者会議 BioHackathon 2018 参加登録受付中</title>
           
             <description>&lt;p&gt;&lt;a href=&quot;https://biosciencedbc.jp/&quot;&gt;JST バイオサイエンスデータベースセンター (NBDC)&lt;/a&gt; と&lt;a href=&quot;http://dbcls.rois.ac.jp&quot;&gt;ライフサイエンス統合データベースセンター (DBCLS)&lt;/a&gt; が主催する &lt;a href=&quot;http://www.biohackathon.org/&quot;&gt;BioHackathon&lt;/a&gt;   は、生命科学分野のデータベース統合のための技術基盤を確立することを目的に、世界中から研究開発者が集まり、合宿形式で情報交換と技術開発を行う国際会議です。
@@ -75,133 +207,6 @@ Yuki Moriya, Shin Kawano, Shujiro Okuda, Yu Watanabe, Masaki Matsumoto, Tomoyo T
           <link>
           http://localhost:4000/ja/2018/10/11/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/10/11/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合データベース講習会：AJACS蝦夷4（2018年11月9日）の参加者募集中です</title>
-          
-            <description>&lt;p&gt;札幌医科大学 にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
-現在参加者募集中です。 (申込締切：2018年10月31日(水)まで)&lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Tue, 02 Oct 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/10/02/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/02/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>医療者向け希少疾患診断支援システム PubCaseFinder に関する論文が The American Journal of Human Genetics 誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの藤原豊史特任研究員、山本泰智特任准教授、金進東特任准教授、The Hospital for Sick Childrenに勤務するOrion Buske氏、そして東京大学の高木利久教授による論文、「PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases」がThe American Journal of Human Genetics誌に掲載されました。論文は下記URLからご覧いただけます。
-&lt;a href=&quot;https://doi.org/10.1016/j.ajhg.2018.08.003&quot;&gt;https://doi.org/10.1016/j.ajhg.2018.08.003&lt;/a&gt;  &lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Fri, 31 Aug 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/08/31/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/08/31/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合データベース講習会：AJACS番町1（2018年8月29日）の参加者募集中です</title>
-          
-            <description>&lt;p&gt;科学技術振興機構（JST）東京本部（東京都千代田区四番町5-3サイエンスプラザ）B1大会議室 にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
-現在参加者募集中です。 (申込締切：2018年8月21日(火)まで)&lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Thu, 26 Jul 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/07/26/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/26/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>「領域融合レビュー」サイトリニューアルのお知らせ</title>
-          
-            <description>&lt;p&gt;「&lt;a href=&quot;http://leading.lifesciencedb.jp/&quot;&gt;領域融合レビュー&lt;/a&gt;」は、生命科学分野における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを公開するサービスです。&lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Tue, 24 Jul 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/07/24/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/24/post2.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>新着論文レビューおよび領域融合レビューがNBDC生命科学系データベースアーカイブに追加されました</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;http://first.lifesciencedb.jp/about&quot;&gt;新着論文レビュー&lt;/a&gt;は、日本人を著者とする生命科学分野の論文について、論文の著者自身の執筆による日本語のレビューを公開するサービスです。また、&lt;a href=&quot;http://leading.lifesciencedb.jp/&quot;&gt;領域融合レビュー&lt;/a&gt;は、生命科学分野における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを公開するサービスです。&lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Tue, 24 Jul 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/07/24/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/24/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合データベース講習会AJACSa5柏 開催のお知らせ</title>
-          
-            <description>&lt;p&gt;ライフサイエンス統合データベースセンター(DBCLS)では、科学技術振興機構(JST) バイオサイエンスデータベースセンター(NBDC)が主催している初心者向けの統合データベース講習会AJACSを補完する形で、中上級者向けにAJACSadvanced講習会を実施しています。  &lt;br /&gt;
-今回、非モデル生物における転写配列アッセンブリデータベース(Transcriptome Shotgun Assembly: TSA)を利用し、転写単位ごとの遺伝子発現を定量化する方法を学ぶハンズオン講習会を以下の日程にて行います。詳細は以下をご覧ください。&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Fri, 13 Jul 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/07/13/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/13/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>サイトポリシー改訂のお知らせ</title>
-          
-            <description>&lt;p&gt;2018年7月20日付でサイトポリシーを改訂しますので、お知らせいたします。
-改訂箇所は以下をご覧ください。&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dbcls.rois.ac.jp/PDF/180706.pdf&quot;&gt;改訂する項目の新旧対照表(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-          
-          <pubDate>Fri, 06 Jul 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/07/06/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/07/06/post1.html</guid>
         </item>
         
       
