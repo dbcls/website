@@ -35,7 +35,7 @@
 
 		$j('body').append('<div id="nbdc-common-footer">')
 		var current_lang = $j('html').attr('lang')
-		if (current_lang === 'ja') {
+		if (current_lang.match(/ja/)) {
 		$j('#nbdc-common-footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-footer.html')
 		} else {
 		$j('#nbdc-common-footer').load('https://dbcls.rois.ac.jp/NBDC-common-header-footer/common-header-and-footer/common-footer-en.html')

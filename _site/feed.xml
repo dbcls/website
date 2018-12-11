@@ -9,6 +9,39 @@
       
         
         <item>
+          <title>「新着論文レビュー」新規レビュー公開終了のお知らせ</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;http://first.lifesciencedb.jp/&quot;&gt;新着論文レビュー&lt;/a&gt;は、11月30日をもって新規のレビューの公開を終了いたしました。なお、すでに公開されているレビューについては、今後とも公開を継続します。&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 30 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/30/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/30/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>日本分子生物学会（11月28-30日@横浜）にてDBCLS研究員がオーガナイザーを務めるイベントについて</title>
+          
+            <description>&lt;p&gt;&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/index.html&quot;&gt;第41回日本分子生物学会年会&lt;/a&gt;では当センターの研究員がオーガナイザーを務めるイベントが以下の通り開催されます。&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Thu, 22 Nov 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/11/22/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/22/post2.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>第41回日本分子生物学会年会にブース出展をします</title>
           
             <description>&lt;p&gt;11月28-30日に横浜で開催される&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/index.html&quot;&gt;第41回分子生物学会&lt;/a&gt;の
@@ -167,46 +200,6 @@ NBDC/DBCLS はこれまで、BioHackathon の開催によって日本国内の�
           <link>
           http://localhost:4000/ja/2018/10/19/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/10/19/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>第3回RDF講習会(2018年11月1日)を開催します。</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;http://biosciencedbc.jp/&quot;&gt;NBDC&lt;/a&gt;とライフサイエンス統合データベースセンター（DBCLS）では、多種多様な生命科学データベースを統合して利活用するための技術開発や環境整備に取り組んでおり、そのためにRDFを含むセマンティックウェブ技術の応用を推進しています。その一環として、これまで、フルRDF形式で実装したゲノムデータベース&lt;a href=&quot;http://togogenome.org/&quot;&gt;TogoGenome&lt;/a&gt;や日本人ゲノム多様性統合データベース&lt;a href=&quot;https://togovar.biosciencedbc.jp/&quot;&gt;TogoVar&lt;/a&gt;、アプリケーション開発フレームワーク&lt;a href=&quot;http://www.togostanza.org/&quot;&gt;TogoStanza&lt;/a&gt;、日本で開発されたRDFデータのリポジトリ&lt;a href=&quot;https://integbio.jp/rdf/&quot;&gt;NBDC RDFポータル&lt;/a&gt;等を公開してきました。&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Thu, 18 Oct 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/10/18/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/18/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>プロテオームデータ統合環境 jPOST に関する論文が Nucleic Acids Research 誌データベース特集号に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの守屋勇樹特任助教、河野信特任准教授、五斗進教授が参加する研究グループによる論文、「The jPOST environment: an integrated proteomics data repository and database」がNucleic Acids Research誌データベース特集号に掲載されました。論文は下記URLからご覧いただけます。
-&lt;a href=&quot;https://doi.org/10.1093/nar/gky899&quot;&gt;https://doi.org/10.1093/nar/gky899&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-jPOSTプロジェクト（Japan ProteOme Standard Repository / Database、&lt;a href=&quot;https://jpostdb.org/&quot;&gt;https://jpostdb.org/&lt;/a&gt;) では、日本内外に散在している種々の質量分析に基づくプロテオームデータを統合し、統一された信頼基準で結果を解釈するために、（１）質量分析計から出力される生データを含む、プロテオームデータを投稿・蓄積するためのリポジトリ、（２）生データを再解析するための標準化されたワークフロー、（３）再解析後の高品質なプロテオームデータを蓄積・可視化するデータベースの３つを開発してきました。プロテオミクスデータリポジトリ、&lt;a href=&quot;https://repository.jpostdb.org/&quot;&gt;jPOSTrepo&lt;/a&gt;は2016年に公開され、 当初想定していたアジア・オセアニア地域だけでなく、世界各地から質量分析に基づくプロテオミクスデータが登録され続けています。 今回、jPOSTrepoで公開された生データから、統一したプロトコルを用いて再解析した高品質なプロテオームデータを公開するための、新しいプロテオミクスデータベースjPOSTdbを開発しました。 これまでのプロテオームデータベースはヒトに焦点を当てたものが主でしたが、jPOSTdbでは他の脊椎動物やバクテリアなどの生物種にも対応し、リン酸化部位を始めとした様々な翻訳後修飾情報を収録し、柔軟な検索インターフェースや可視化ツールと共にも提供しています。またjPOSTdbでは、プロテオミクスデータセットを比較するための基本的な統計解析ツールも提供しています。&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-Yuki Moriya, Shin Kawano, Shujiro Okuda, Yu Watanabe, Masaki Matsumoto, Tomoyo Takami, Daiki Kobayashi, Yoshinori Yamanouchi, Norie Araki, Akiyasu C. Yoshizawa, Tsuyoshi Tabata, Mio Iwasaki, Naoyuki Sugiyama, Satoshi Tanaka, Susumu Goto, and Yasushi Ishihama, The jPOST environment: an integrated proteomics data repository and database, Nucleic Acids Research Database Issue, &lt;a href=&quot;https://doi.org/10.1093/nar/gky899&quot;&gt;https://doi.org/10.1093/nar/gky899&lt;/a&gt;&lt;/p&gt;
-</description>
-          
-          <pubDate>Thu, 11 Oct 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/10/11/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/11/post1.html</guid>
         </item>
         
       
