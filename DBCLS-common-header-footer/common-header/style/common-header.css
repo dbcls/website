@@ -1,5 +1,5 @@
 /* default */
-
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800");
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
@@ -80,8 +80,8 @@
   text-align: left;
 }
 
-#dbcls-common-header header,
-#dbcls-common-header footer {
+#dbcls-common-header,
+#dbcls-common-footer {
   font-family: 'Muli', sans-serif !important;
 }
 
@@ -129,6 +129,7 @@
   color: white;
   font-weight: 500;
   font-size: 12px;
+  font-family: 'Muli', sans-serif !important;
 }
 
 #dbcls-common-header nav.gnav .pc_nav li a img.dbcls-logo {

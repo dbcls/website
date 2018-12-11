@@ -1,5 +1,5 @@
 /* default */
-
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800");
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 
@@ -76,8 +76,8 @@
   text-align: left;
 }
 
-header,
-footer {
+#dbcls-common-header,
+#dbcls-common-footer {
   font-family: 'Muli', sans-serif !important;
 }
 
