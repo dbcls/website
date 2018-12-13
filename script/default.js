@@ -780,14 +780,14 @@ var initialize = {
       var non_publish_order = getOrder('いずれのIDも掲載しない')
 
       for (var j = 1; j < data.length; j++) {
-        if (data[j][position_ja_order] === '客員教授' || data[j][position_ja_order] === '客員准教授') {
+        if (data[j][position_ja_order].match(/客員/) || data[j][position_ja_order].match(/外来/)) {
           listSubNav_collaborators += '<li><a href="#' + data[j][name_ja_order] + '">' + data[j][name_ja_order] + '</a></li>';
         } else {
           listSubNav += '<li><a href="#' + data[j][name_ja_order] + '">' + data[j][name_ja_order] + '</a></li>';
         }
       }
       for (var j = 1; j < data.length; j++) {
-        if (data[j][position_ja_order] === '客員教授' || data[j][position_ja_order] === '客員准教授') {
+        if (data[j][position_ja_order].match(/客員/) || data[j][position_ja_order].match(/外来/)) {
           listSubNav_collaborators_en += '<li><a href="#' + data[j][name_en_order] + '">' + data[j][name_en_order] + '</a></li>';
         } else {
           listSubNav_en += '<li><a href="#' + data[j][name_en_order] + '">' + data[j][name_en_order] + '</a></li>';
@@ -847,7 +847,7 @@ var initialize = {
           if (non_publish === 'Yes') {
             link_section = judgeExist(mail, 'btn-mail', 'Mail')
           }
-          if (position === '客員教授' || position === '客員准教授') {
+          if (position.match(/客員/) || position.match(/外来/)) {
             element_collaborators += '<div class="content__member" id="' + name_ja + '">' +
               '<div class="repos_image">' + '<img src="./img/member/' + image + '" alt="' + name_ja + '" class="img_member"></div>' +
               '<ul><li class="position">' + position + '</li>' +
@@ -897,7 +897,7 @@ var initialize = {
           if (non_publish === 'Yes') {
             link_section = judgeExist(mail, 'btn-mail', 'Mail')
           }
-          if (position === 'Guest Professor' || position === 'Guest Associate Professor') {
+          if (position.match(/Guest/) || position.match(/Visiting/)) {
             element_collaborators += '<div class="content__member" id="' + name_en + '">' +
               '<div class="repos_image">' + '<img src="./img/member/' + image + '" alt="' + name_en + '" class="img_member"></div>' +
               '<ul><li class="position">' + position + '</li>' +
