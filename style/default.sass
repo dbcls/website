@@ -1290,27 +1290,41 @@ table.matrix
 		font-size: 14px
 		line-height: 1.8
 		color: $text-color
+	.access_plane_title
+		font-weight: bold
+		&:before
+	    content: ' '
+	    width: 14px
+	    height: 14px
+	    display: inline-block
+	    background-image: url(../img/icon_plane.svg)
+	    background-position: 0
+	    background-size: 14px 14px
+	    margin-right: 3px
 	&.display
 		//display: inline-block
 		.sub__content-title
 			font-size: 15px
-		.access-subnav__info
-			display: table
-			font-size: 12px
-			&:before
-				content: "・"
-				display: table-cell
-				padding-right: 4px
-		.access-subnav__transition
-			margin-top: -5px
-			&.padding
-				padding-top: 5px
-			a 
-				color: $main-color
-				&:hover
-					line-height: 1
-					border-bottom: solid 1px $main-color
+			.access-subnav__info
+				display: table
+				font-size: 12px
+				&:before
+					content: "・"
+					display: table-cell
+					padding-right: 4px
+			.access-subnav__transition
+				margin-top: -5px
+				&.padding
+					padding-top: 5px
+				a 
 					color: $main-color
+					&:hover
+						line-height: 1
+						border-bottom: solid 1px $main-color
+						color: $main-color
+		.access_haneda
+			margin-bottom: 50px
+			margin-top: 20px
 
 .accessmap
 	width: 600px
@@ -1348,6 +1362,8 @@ table.terminal-info
 			&.left-border
 				border-left: dashed 0.5px #ddd
 				//padding-left: 5px//10px
+				&.last
+					border-right: solid 0.25px #ddd
 			a
 				vertical-align: middle
 				color: $main-color
@@ -1379,6 +1395,9 @@ table.terminal-info
 			text-align: center
 	&.fly
 		margin-bottom: 20px
+		thead
+			th
+				width: 210px
 		td
 			text-align: center
 			padding: 0 6px

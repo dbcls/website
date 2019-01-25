@@ -9,6 +9,155 @@
       
         
         <item>
+          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター特任研究員募集（〆2/15（金）17時）</title>
+          
+            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2915/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/01/23/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/23/post2.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター学術支援技術専門員募集（〆2/15（金）17時）</title>
+          
+            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2917/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/01/23/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/23/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>NBDC RDF portal に関する論文が Database 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの川島秀一特任助教、片山俊明特任助教が参加する研究グループによる論文、「NBDC RDF portal: 」が Database 誌に掲載されました。論文は下記URLからご覧いただけます。
+&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+近年、生命科学データベースで、RDF形式で提供されるものが増えつつあります。RDF形式のデータベースでは、複数のデータベースを容易に統合して利用することができるため、今後ますます重要性が増すと考えられているビッグデータからの知識抽出を促進することが期待できます。&lt;a href=&quot;https://biosciencedbc.jp&quot;&gt;NBDC&lt;/a&gt;および&lt;a href=&quot;https://dbcls.rois.ac.jp/&quot;&gt;DBCLS&lt;/a&gt; でも、セマンティック・ウェブ技術を応用したデータベース開発や、その利用環境の整備に取り組んでいます。その一環として、国内の研究グループにより開発された生命科学のRDFデータを収集し、利用するためのポータルサイトである、&lt;a href=&quot;https://integbio.jp/rdf/&quot;&gt;NBDC RDF portal&lt;/a&gt;を、2017年より運用してきました。2019年1月現在、NBDC RDF portalには、様々な分野に渡る21のRDFデータセット（合計450億トリプル）が格納されており、RDFファイルのダウンロードサービスや、SPARQLエンドポイントの提供を行っています。本サービスに格納されたRDFデータは、寄託されたRDFデータをそのまま収録したものではなく、すべて、DBCLSが編集してきた&lt;a href=&quot;https://github.com/dbcls/rdfizing-db-guidelines&quot;&gt;ガイドライン&lt;/a&gt;に準拠しているかどうかという観点からレビューを行い、必要に応じて開発者に修正等の対応を行ってもらったものになります。そのため、独立して開発されたRDFデータ間において、一定の意味的な統合が実現されており、また海外で開発されている主要なRDFデータとの統合的な利用も可能となっていることが、本サービスが提供するデータの特徴になります。
+&lt;br /&gt;
+&lt;br /&gt;
+Shuichi Kawashima, Toshiaki Katayama, Hideki Hatanaka, Tatsuya Kushida, and Toshihisa Takagi, NBDC RDF portal: a comprehensive repository for semantic data in life sciences, Database (Oxford). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;.&lt;/p&gt;
+</description>
+          
+          <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/01/21/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/21/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>セマンティック・ウェブによるゲノムデータベース TogoGenome と分散可視化フレームワーク TogoStanza に関する論文が Database 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの片山俊明特任助教、川島秀一特任助教、岡本忍特任准教授、守屋勇樹特任助教、千葉啓和特任助教、内藤雄樹特任助教が参加する研究グループによる論文、「TogoGenome/TogoStanza: modularized Semantic Web genome database」が Database 誌に掲載されました。論文は下記URLからご覧いただけます。
+&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://dbcls.rois.ac.jp/&quot;&gt;DBCLS&lt;/a&gt; ではセマンティック・ウェブ技術によるデータベース統合を推進してきています。&lt;a href=&quot;http://togogenome.org/&quot;&gt;TogoGenome&lt;/a&gt; はその有効性を実証するために 2012 年より開発を続けてきた、ゲノム・遺伝子・表現型・環境・病原性などの多様な情報を RDF とオントロジーを利用して統合したゲノムデータベースです。TogoGenome では、ゲノムの決まった真核生物から原核生物まで約1万生物種を収録しており、その RDF データ量は 68 億トリプルにのぼります。セマンティック・ウェブの採用によって、複数のオントロジーを組み合わせたファセット検索や、比較ゲノムなどのユニークな機能が提供されています。また、遺伝子などのレポートページを構成する各要素は、あわせて開発した TogoStanza フレームワークを用いてモジュール化されており、他のデータベースでも自由に組み合わせて再利用することができるようになっています。TogoGenome/TogoStanza では、リアルタイムに SPARQL 検索を行って結果を表示しており、従来のゲノムデータベースと遜色ないパフォーマンス、セマンティック・ウェブならではの機能性、多様なデータへの拡張性、データベース構成要素の再利用性を実現しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chiba, Yuki Naito, Takatomo Fujisawa, Hiroshi Mori, and Toshihisa Takagi, TogoGenome/TogoStanza: modularized Semantic Web genome database, Database (Oxford), 2019, 1–11.&lt;br /&gt;
+&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 18 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/01/18/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/18/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター有期雇用職員募集（〆2/15（金）17時）</title>
+          
+            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2789/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/01/09/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/09/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター学術支援専門員募集（〆1/31（木）17時）</title>
+          
+            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2788/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 27 Dec 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/12/27/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/27/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>All-in-one合同講習会2018／統合データベース講習会：AJACS番町2(2019年1月28日)の参加者募集中です</title>
+          
+            <description>&lt;p&gt;JST東京本部別館（東京都千代田区） にてAll-in-one合同講習会2018／統合データベース講習会：AJACS番町2が開催されます。&lt;br /&gt;
+現在参加者募集中です。 (申込締切：2019年1月23日(水)まで)&lt;br /&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Wed, 26 Dec 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/12/26/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/26/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>サービス一時停止のお知らせ ＜2019年1月12日(土) 7:00 〜 2019年1月13日(日) 18:00＞</title>
+          
+            <description>&lt;p&gt;DBCLSが管理しているサーバのシステムメンテナンスの影響により、&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Tue, 25 Dec 2018 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2018/12/25/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/25/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
           <title>データのLOD化を加速させる 「JSON2LD Mapper」 が LODチャレンジ 2018 でプログレス賞を受賞しました</title>
           
             <description>&lt;p&gt;当センターの山本泰智特任准教授が国立遺伝学研究所の藤澤貴智特任研究員と構想したアプリケーション開発案、&lt;a href=&quot;http://idea.linkdata.org/idea/idea1s2719i&quot;&gt;JSON2LD Mapper&lt;/a&gt;がこの度、&lt;a href=&quot;http://2018.lodc.jp/&quot;&gt;LODチャレンジ 2018&lt;/a&gt;でプログレス賞を受賞しました。LODチャレンジは、オープンデータを “つなげる” ことによる新しい価値の創造を目指して、アイデア部門やアプリケーション部門など、5部門において作品を募集し、優れた作品を表彰する毎年開催されているコンテストで、今年で8回目です。&lt;/p&gt;
@@ -36,154 +185,6 @@
           <link>
           http://localhost:4000/ja/2018/12/20/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/ja/2018/12/20/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>「新着論文レビュー」新規レビュー公開終了のお知らせ</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;http://first.lifesciencedb.jp/&quot;&gt;新着論文レビュー&lt;/a&gt;は、11月30日をもって新規のレビューの公開を終了いたしました。なお、すでに公開されているレビューについては、今後とも公開を継続します。&lt;/p&gt;
-</description>
-          
-          <pubDate>Fri, 30 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/30/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/30/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>日本分子生物学会（11月28-30日@横浜）にてDBCLS研究員がオーガナイザーを務めるイベントについて</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/index.html&quot;&gt;第41回日本分子生物学会年会&lt;/a&gt;では当センターの研究員がオーガナイザーを務めるイベントが以下の通り開催されます。&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Thu, 22 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/22/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/22/post2.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>第41回日本分子生物学会年会にブース出展をします</title>
-          
-            <description>&lt;p&gt;11月28-30日に横浜で開催される&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/index.html&quot;&gt;第41回分子生物学会&lt;/a&gt;の
-&lt;a href=&quot;https://www2.aeplan.co.jp/mbsj2018/japanese/special/special_2.pdf&quot;&gt;BioDBコーナー&lt;/a&gt;においてブースを出展します。DBCLSの研究員が「データ解析よろず相談」を受け付けます。&lt;br /&gt;
-&lt;br /&gt;
-データベースの使い方、バイオインフォマティクスのツールの使い方についてのご相談をお待ちしております。&lt;/p&gt;
-</description>
-          
-          <pubDate>Thu, 22 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/22/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/22/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>公共の ChIP-Seq/DNase-Seq を用いた解析を行う ChIP-Atlas に関する論文が EMBO Reports 誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの大田達郎研究員が参加する研究グループによる論文、「ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data」が  EMBO Reports 誌に掲載されました。論文は下記URLからご覧いただけます。
-&lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-ChIP-Atlas &lt;a href=&quot;https://chip-atlas.org&quot;&gt;https://chip-atlas.org&lt;/a&gt; は、大規模シーケンスデータのための公共データベースである Sequence Read Archive から ChIP-Seq, DNase-Seq のデータを取得し、共通の解析パイプラインで再解析したデータを集積したデータベースです。集積した再解析データを用いて、利用者はゲノムブラウザでのデータ可視化、転写因子が制御する遺伝子、共局在する転写因子の解析や、ユーザーのデータを利用したエンリッチメント解析を行うことができます。今回、ChIP-Atlas を用いた解析によって、組織特異的に発現する遺伝子を制御する転写因子の発見に繋がることを論文で示しました。ChIP-Atlas のデータは継続的に更新されており、今後さらに様々な研究で有用なデータリソース・解析アプリケーションとして活用されることが期待されます。
-&lt;br /&gt;
-&lt;br /&gt;
-Shinya Oki, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Reports &lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;&lt;/p&gt;
-</description>
-          
-          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/09/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/09/post2.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>「希少疾患インフォマティクス：情報保護・情報共有・社会実装」研究集会（2019年2月16-17日@東京市ヶ谷）の参加者募集中です</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;https://misshie.github.io/rdinfo2019/&quot;&gt;「希少疾患インフォマティクス：情報保護・情報共有・社会実装」研究集会(rdinfo2019)&lt;/a&gt;が、2019年2月16-17日に科学技術振興機構（JST）東京本部別館（K’s 五番町）k-1、k-2会議室にて、長崎大学の三嶋博之助教（代表研究者）と当センターの藤原豊史特任研究員（DS施設受け入れ教員）との&lt;a href=&quot;https://ds.rois.ac.jp/article/2018rois-ds-joint_result/&quot;&gt;共同研究集会&lt;/a&gt;という形で開催されます。&lt;br /&gt;
-&lt;br /&gt;
-現在、&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSftihqZi-4z6ewvzowWg4Ohvu7xEpdnZe-TD7FcVrQ7l49CGQ/viewform&quot;&gt;参加者募集中&lt;/a&gt;です。（申込締切：2019年1月31日(木)まで）&lt;br /&gt;
-&lt;br /&gt;
-本研究集会では、希少・難治性疾患に関する情報保護・情報共有・社会実装の観点から、国内外のシステム・データベースについて最新情報、活用事例、問題点などを幅広く共有した上で、ゲノム医療の可能性についてさまざまな立場から議論し、希少・難治性疾患のゲノム医療実現にむけてのとりくむべき課題の明確化をめざします。&lt;br /&gt;
-&lt;br /&gt;
-プログラムの詳細ならびにお申し込みは &lt;a href=&quot;https://misshie.github.io/rdinfo2019/&quot;&gt;rdinfo2019&lt;/a&gt; のページをご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/09/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/09/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>データサイエンス共同利用基盤施設 ライフサイエンス統合データベースセンター 特任研究員 募集 (〆11/30(金)17時)</title>
-          
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2728/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Thu, 08 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/08/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/08/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合データベース講習会：AJACS名古屋2（2018年12月5日）の参加者募集中です</title>
-          
-            <description>&lt;p&gt;愛知県がんセンター にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
-現在参加者募集中です。 (申込締切：2018年11月27日(水)まで)&lt;br /&gt;&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Wed, 07 Nov 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/11/07/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/11/07/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>統合TVの掲載動画数が1,500本を突破しました</title>
-          
-            <description>&lt;p&gt;&lt;a href=&quot;https://togotv.dbcls.jp/ja/&quot;&gt;統合TV&lt;/a&gt;は、生命科学分野の有用なデータベース(DB)やツールの使い方を動画で紹介するウェブサイトです。&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Mon, 29 Oct 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/10/29/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/10/29/post1.html</guid>
         </item>
         
       

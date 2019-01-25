@@ -11,6 +11,55 @@
       
     
       
+        
+        <item>
+          <title>A paper &quot;NBDC RDF portal: a comprehensive repository for semantic data in life sciences&quot; was published in the Database journal.</title>
+          
+            <description>&lt;p&gt;A paper “NBDC RDF portal: a comprehensive repository for semantic data in life sciences” was published in the Database journal.&lt;br /&gt;
+Project Assistant Professors Shuichi Kawashima, Toshiaki Katayama in DBCLS contributed to this work.&lt;br /&gt;
+The full paper can be found online at: &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+Shuichi Kawashima, Toshiaki Katayama, Hideki Hatanaka, Tatsuya Kushida, and Toshihisa Takagi, NBDC RDF portal: a comprehensive repository for semantic data in life sciences, Database (Oxford). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;.&lt;/p&gt;
+</description>
+          
+          <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/01/21/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/01/21/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>A paper &quot;TogoGenome/TogoStanza: modularized Semantic Web genome database&quot; was published in the Database journal.</title>
+          
+            <description>&lt;p&gt;A paper “TogoGenome/TogoStanza: modularized Semantic Web genome database” was published in the Database journal.
+&lt;br /&gt;
+Project Associate Professor Shinobu Okamoto and Project Assistant Professors Toshiaki Katayama, Shuichi Kawashima, Yuki Moriya, Hirokazu Chiba and Yuki Naito in DBCLS contributed to this work.
+&lt;br /&gt;
+The full paper can be found online at: &lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+TogoGenome is a genome database that is purely based on the Semantic Web technology, which enables the integration of heterogeneous data and flexible semantic searches. All the information is stored as Resource Description Framework (RDF) data, and the reporting web pages are generated on the fly using SPARQL Protocol and RDF Query Language (SPARQL) queries. TogoGenome provides a semantic-faceted search system by gene functional annotation, taxonomy, phenotypes and environment based on the relevant ontologies. TogoGenome also serves as an interface to conduct semantic comparative genomics by which a user can observe pan-organism or organism-specific genes based on the functional aspect of gene annotations and the combinations of organisms from different taxa. The TogoGenome database exhibits a modularized structure, and each module in the report pages is separately served as TogoStanza, which is a generic framework for rendering an information block as IFRAME/Web Components, which can, unlike several other monolithic databases, also be reused to construct other databases.
+&lt;br /&gt;
+&lt;br /&gt;
+Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chiba, Yuki Naito, Takatomo Fujisawa, Hiroshi Mori, and Toshihisa Takagi, TogoGenome/TogoStanza: modularized Semantic Web genome database, Database (Oxford), 2019, 1–11. &lt;br /&gt;
+&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;&lt;/p&gt;
+</description>
+          
+          <pubDate>Fri, 18 Jan 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/01/18/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/01/18/post1.html</guid>
+        </item>
+        
+      
+    
+      
     
       
     
@@ -19,27 +68,18 @@
       
         
         <item>
-          <title>A paper &quot;ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data&quot; was published in EMBO Reports.</title>
+          <title>DBCLS server maintenance, 12-13 Jan 2019</title>
           
-            <description>&lt;p&gt;A paper “ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data” was published in EMBO Reports. DBCLS’s project researcher Tazro Ohta has been contributing to this project.
-&lt;br /&gt;
-&lt;br /&gt;
-ChIP-Atlas &lt;a href=&quot;https://chip-atlas.org&quot;&gt;https://chip-atlas.org&lt;/a&gt; is a database to provide ChIP-Seq/DNase-Seq data retrieved from Sequence Read Archive. The research group retrieved data from the archive and re-analyzed, then developed a web application system that users can view data on genome browser, find target genes and colocalized partners of transcription factors. Users also can submit their lists of genes or regions of genome to perform enrichment analysis using transcription factor binding sites. The paper also showed that the group found the transcription factors regulating tissue specific gene expression activities by using ChIP-Atlas. The system will be one of the valuable resources of transcription regulation data available to all the researchers.
-&lt;br /&gt;
-&lt;br /&gt;
-Shinya Oki, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Reports &lt;a href=&quot;https://doi.org/10.15252/embr.201846255&quot;&gt;https://doi.org/10.15252/embr.201846255 &lt;/a&gt;&lt;/p&gt;
+            <description>&lt;p&gt;Due to the system maintenance, our services will be temporarily unavailable. We are sorry for the inconvenience.&lt;/p&gt;
+
 </description>
           
-          <pubDate>Fri, 09 Nov 2018 00:00:00 +0900</pubDate>
+          <pubDate>Tue, 25 Dec 2018 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/en/2018/11/09/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2018/11/09/post2.html</guid>
+          http://localhost:4000/en/2018/12/25/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2018/12/25/post1.html</guid>
         </item>
         
-      
-    
-      
-    
       
     
       
