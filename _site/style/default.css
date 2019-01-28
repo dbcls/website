@@ -1295,6 +1295,8 @@ table.terminal-info {
       text-aline: left;
       padding-right: 22px;
       padding-left: 14px; }
+    table.terminal-info tbody .table_cell_double_line {
+      line-height: 1.5; }
     table.terminal-info tbody td, table.terminal-info tbody td > p {
       line-height: 2.9;
       font-weight: 600;
