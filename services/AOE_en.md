@@ -29,4 +29,4 @@ http://aoe.dbcls.jp/
 
 ### Next step
 
-* In collaboration with [DNA Data Bank of Japan(DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html)'s [Genomic Expression Archive(DOR)](https://www.ddbj.nig.ac.jp/gea/index-e.html), we are going to add useful information from meta-analysis of archived data.
+* In collaboration with [DNA Data Bank of Japan(DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html)'s [Genomic Expression Archive(GEA)](https://www.ddbj.nig.ac.jp/gea/index-e.html), we are going to add useful information from meta-analysis of archived data.
