@@ -3,7 +3,7 @@
 ## What is AOE (All Of gene Expression)?
 
 AOE (All Of gene Expression) is an index of public gene expression database.  
-http://aoe.dbcls.jp/
+http://aoe.dbcls.jp/en
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_en_fig-1_180524.png)  
 
@@ -29,4 +29,4 @@ http://aoe.dbcls.jp/
 
 ### Next step
 
-* In collaboration with [DNA Data Bank of Japan(DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html)'s [DDBJ Omics Archive(DOR)](https://www.ddbj.nig.ac.jp/dor/index-e.html), we are going to add useful information from meta-analysis of archived data.
+* In collaboration with [DNA Data Bank of Japan(DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html)'s [Genomic Expression Archive(GEA)](https://www.ddbj.nig.ac.jp/gea/index-e.html), we are going to add useful information from meta-analysis of archived data.

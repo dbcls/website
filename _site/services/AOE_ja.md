@@ -32,7 +32,7 @@ http://aoe.dbcls.jp/
 
 ### 今後の開発予定
 
-* [DNA Data Bank of Japan(DDBJ)](http://www.ddbj.nig.ac.jp/index-j.html) の[DDBJ Omics Archive(DOR)](https://www.ddbj.nig.ac.jp/dor/)との協力・連携体制を強化し、公共遺伝子発現データのメタ解析結果を盛り込んでいく予定です。
+* [DNA Data Bank of Japan(DDBJ)](https://www.ddbj.nig.ac.jp/index.html) の[DDBJ Genomic Expression Archive(GEA)](https://www.ddbj.nig.ac.jp/gea/index.html)との協力・連携体制を強化し、公共遺伝子発現データのメタ解析結果を盛り込んでいく予定です。
 
 ### 参考文献
 統合TV 「AOEを使って遺伝子発現データベースの統計を見ながら検索する」[DOI: 10.7875/togotv.2014.096](http://doi.org/10.7875/togotv.2014.096)
