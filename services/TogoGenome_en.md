@@ -16,7 +16,7 @@ http://togogenome.org/
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-2.png)
 
-### Environmet report
+### Environment report
 
 ![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-3.png)
 
