@@ -8,7 +8,7 @@ http://togogenome.org/
 
 ## Screenshots
 
-### Faceted serach
+### Faceted search
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoGenome_fig-1.png)
 
