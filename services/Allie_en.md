@@ -1,7 +1,7 @@
 # Allie
 ### What is Allie?
 A search service for abbreviations and long forms utilized in Lifesciences.  
-(http://allie.dbcls.jp/)
+(https://allie.dbcls.jp/en)
 
 ### Feature of Allie
 
@@ -25,7 +25,7 @@ Adding more Japanese translations and to keep monthly update.
 ### Related services
 ## Allie-RDF
 A Web-API to access Allie RDF data using SPARQL.  
-http://data.allie.dbcls.jp/
+https://data.allie.dbcls.jp/index_en.html
 
 ### References
 

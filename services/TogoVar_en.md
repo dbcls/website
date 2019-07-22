@@ -16,7 +16,7 @@ https://togovar.biosciencedbc.jp/
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-1.png)
 
-### Faceted serach
+### Faceted search
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-2.png)
 
