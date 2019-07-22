@@ -1,0 +1,200 @@
+/* default
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800")
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css
+
+#dbcls-common-header
+  html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6
+    margin: 0
+    padding: 0
+  h1, h2, h3, h4, h5, h6
+    font-size: 100%
+    font-weight: normal
+  ul
+    list-style: none
+  button, input, select, textarea
+    margin: 0
+  html
+    box-sizing: border-box
+  img, embed, iframe, object, audio, video
+    height: auto
+    max-width: 100%
+  iframe
+    border: 0
+  table
+    border-collapse: collapse
+    border-spacing: 0
+  td, th
+    padding: 0
+    text-align: left
+  font-family: 'Muli', sans-serif !important
+
+#dbcls-common-footer
+  font-family: 'Muli', sans-serif !important
+
+/* dbcls-common-header
+
+#dbcls-common-header
+  nav.gnav
+    width: 1024px
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+  .sp_nav
+    background-color: #004098
+    display: none
+  nav.gnav .pc_nav
+    width: 400px
+    height: 24px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    li
+      list-style: none
+      color: #fff
+      font-size: 12px
+      font-weight: 500
+  .sp_nav li
+    list-style: none
+    color: #fff
+    font-size: 12px
+    font-weight: 500
+    line-height: 2.6em
+    text-align: center
+    border-bottom: 0.5px solid rgba(254, 254, 254, 0.5)
+  nav.gnav .pc_nav li a, .sp_nav li a
+    text-decoration: none
+    color: white
+    font-weight: 500
+    font-size: 12px
+  nav.gnav .pc_nav li a img.dbcls-logo
+    width: 55px
+    height: auto
+    padding-top: 4px
+    padding-left: 5px
+  .hamburger
+    width: 13px
+    margin-right: 10px
+    display: none
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css
+
+#dbcls-common-footer
+  html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6
+    margin: 0
+    padding: 0
+  h1, h2, h3, h4, h5, h6
+    font-size: 100%
+    font-weight: normal
+  ul
+    list-style: none
+  button, input, select, textarea
+    margin: 0
+  html
+    box-sizing: border-box
+  img, embed, iframe, object, audio, video
+    height: auto
+    max-width: 100%
+  table
+    border-collapse: collapse
+    border-spacing: 0
+  td, th
+    padding: 0
+    text-align: left
+
+header, footer
+  font-family: 'Muli', sans-serif !important
+
+/* dbcls-common-footer
+
+#dbcls-common-footer
+  padding: 0
+  .footer__common
+    padding-bottom: 20px
+    background-color: #f9f8f5
+    width: 100%
+    color: #444
+    .footer__wrapper
+      padding-top: 30px
+      padding-bottom: 18px
+      width: 800px
+      margin: 0 auto
+      .footer__wrapper__contents
+        .footer__info-ja
+          padding-right: 65px
+        .footer__info
+          display: flex
+          flex-wrap: wrap
+          justify-content: space-between
+          .footer__organism
+            padding-top: 9px
+            .footer__logo
+              width: 150px
+              height: auto
+              display: block
+              margin: 0 auto
+            .footer__organism-text
+              text-align: center
+              margin-top: 11px
+              margin-bottom: 20px
+              .footer__organism-sub
+                font-size: 12px
+                line-height: 1.5em
+                text-align: center
+              .footer__organism-main
+                font-size: 15px
+                font-weight: 700
+                letter-spacing: -0.5px
+          .footer__address
+            margin-top: 15px
+        .footer__info-ja .footer__address
+          width: 357px
+        .footer__info-en .footer__address
+          width: 430px
+        .footer__info .footer__address
+          div.footer-title
+            font-weight: 800
+            font-size: 14px
+            margin-bottom: 10px
+          ul.address__list
+            list-style: none
+            display: flex
+            justify-content: space-between
+            li
+              font-size: 12px
+              line-height: 1.5em
+              width: 210px
+              p
+                line-height: 1.5em
+  a
+    text-decoration: none
+    color: #444
+    &:hover
+      color: #004098
+      border-bottom: solid 1px #004098
+
+.footer__lisence p
+  font-size: 10px
+  display: flex
+  justify-content: center
+  &:before
+    content: ""
+    width: 81px
+    height: 16px
+    display: block
+    background: url(../img/by.svg) no-repeat
+
+@media screen and (max-width: 480px)
+  .pc_menu
+    display: none
+  #dbcls-common-header
+    nav.gnav
+      width: 100vw
+    .hamburger
+      display: block
+  #dbcls-common-footer .footer__common
+    .footer__wrapper
+      width: 100vw
+    margin: 0px -250%
+    padding: 0 250% 20px
