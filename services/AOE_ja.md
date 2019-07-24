@@ -2,8 +2,8 @@
 
 ## AOE (All Of gene Expression)とは
 
-AOE (All Of gene Expression)は、公共遺伝子発現データベースの目次です。  
-http://aoe.dbcls.jp/
+AOE (All Of gene Expression)は、EBI ArrayExpress + NCBI Gene Expression Omnibus (GEO) + DDBJ Genomic Expression Archive (GEA)に収蔵されている遺伝子発現データを実験手法や生物種などで分類・整理した「目次」であり、それらを快適に検索できるツールです。 
+https://aoe.dbcls.jp/
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_AOE_jp_fig-1_180524.png)  
 
