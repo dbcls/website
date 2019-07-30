@@ -7,11 +7,14 @@
   setTimeout(function() {
   	$j('body').css('padding-top', '24px')
 
+    var dataset = document.getElementById('common-header__script').dataset;
+
   	var link = document.createElement('link')
   	var meta = document.createElement('meta')
 
   	link.setAttribute('rel', 'stylesheet')
-  	link.setAttribute('href', 'https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header/style/common-header.css')
+    //link.setAttribute('href', 'https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header/style/common-header.css')
+    link.setAttribute('href', './common-header/style/common-header.css')
   	meta.setAttribute('name', 'viewport')
   	meta.setAttribute('content', 'width=device-width,initial-scale=1')
 
@@ -19,17 +22,34 @@
   	document.head.appendChild(meta)
 
   	var header = document.createElement('div')
-  	$j(header).css({
-  		'z-index': 10000,
-  		'position': 'fixed',
-  		'top': 0,
-  		'left': 0,
-  		'width': '100%',
-  		'height': '24px',
-  		'background': 'linear-gradient(#004098, #1B2244)'
-  	})
-    $j(header).attr('id', 'dbcls-common-header')
-    $j(header).load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header/common-header.html')
+    var background = dataset.color === 'mono' ? 'linear-gradient(#444, #333)' : 'linear-gradient(#1a54a5, #263167)'
+  	$j(header)
+      .css({
+    		'z-index': 10000,
+    		'position': 'fixed',
+    		'top': 0,
+    		'left': 0,
+    		'width': '100%',
+    		'height': '24px',
+    		'background': background
+    	})
+      .attr('id', 'dbcls-common-header')
+      .load('https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header/common-header.html', function() {
+        var $gnav = $j('nav.gnav', header)
+        if (dataset.width) {
+          switch (true) {
+            case dataset.width === 'auto':
+            $gnav.css('width', 'auto')
+            break
+            case !isNaN(parseInt(dataset.width)):
+            $gnav.css('width', parseInt(dataset.width))
+            break
+          }
+        }
+      })
+    if (dataset.color === 'mono') {
+      $j(header).addClass('monochrome')
+    }
 		$j('body').prepend(header)
 
     $j(document).on('click', '.hamburger', function() {

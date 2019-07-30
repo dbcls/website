@@ -1,36 +1,8 @@
-/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css
 
 #dbcls-common-footer
-  html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6
-    margin: 0
-    padding: 0
-  h1, h2, h3, h4, h5, h6
-    font-size: 100%
-    font-weight: normal
-  ul
-    list-style: none
-  button, input, select, textarea
-    margin: 0
-  html
-    box-sizing: border-box
-  img, embed, iframe, object, audio, video
-    height: auto
-    max-width: 100%
-  table
-    border-collapse: collapse
-    border-spacing: 0
-  td, th
-    padding: 0
-    text-align: left
-
-header, footer
+  @import "../../common/minireset"
   font-family: 'Muli', sans-serif !important
-
-/* dbcls-common-footer
-
-#dbcls-common-footer
   padding: 0
-  font-family: 'Muli', sans-serif !important
   .footer__common
     padding-bottom: 20px
     background-color: #f9f8f5
@@ -94,17 +66,48 @@ header, footer
     &:hover
       color: #004098
       border-bottom: solid 1px #004098
+  .footer__lisence
+    text-align: center
+    > *
+      display: inline-block
+    svg
+      vertical-align: middle
+      margin-right: .5em
+    p
+      font-size: 10px
+  &.--simple
+    .footer__common
+      padding-bottom: 0
+      background-color: white
+      text-align: center
+      .footer__wrapper
+        font-size: 12px
+        line-height: 18px
+        width: auto
+        padding: 2px 0
+        > *
+          display: inline-block
+          margin: 0 .75em
+        > .footer__logo
+          font-weight: bold
+          &:before
+            content: ""
+            display: inline-block
+            width: 12px
+            height: 24px
+            background: url(../img/logo_only-mark.svg) no-repeat 0 0
+            position: relative
+            top: -2px
+            margin-right: 4px
+            vertical-align: middle
+        > ul
+          > li
+            display: inline-block
+            + li
+              padding-left: .5em
+            > a
+              text-decoration: underline
 
-.footer__lisence p
-  font-size: 10px
-  display: flex
-  justify-content: center
-  &:before
-    content: ""
-    width: 81px
-    height: 16px
-    display: block
-    background: url(../img/by.svg) no-repeat
 
 @media screen and (max-width: 480px)
   #dbcls-common-footer .footer__common
