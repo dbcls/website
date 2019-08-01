@@ -7,6 +7,87 @@
     http://localhost:4000</link>
     
       
+    
+      
+    
+      
+        
+        <item>
+          <title>The June 2019 issue of Genomics &amp; Informatics was published as a special issue on the 5th Biomedical Linked Annotation Hackathon (BLAH5).</title>
+          
+            <description>&lt;p&gt;The June 2019 issue of Genomics &amp;amp; Informatics was published as a special issue on the 5th Biomedical Linked Annotation Hackathon (BLAH5).&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://genominfo.org/current/index.php?vol=17&amp;amp;no=2&quot;&gt;Genomics &amp;amp; Informatics, Volume 17, Issue 2, June 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+          
+          <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/07/01/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/07/01/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>The 12th NBDC/DBCLS BioHackathon registration opened</title>
+          
+            <description>&lt;h2 id=&quot;biohackathon-2019&quot;&gt;BioHackathon 2019&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://2019.biohackathon.org/&quot;&gt;http://2019.biohackathon.org/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Tue, 25 Jun 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/06/25/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/06/25/post2.html</guid>
+        </item>
+        
+      
+    
+      
+    
+      
+        
+        <item>
+          <title>A paper “Split4Blank: Maintaining consistency while improving efficiency of loading RDF data with blank nodes” was published in PLOS ONE.</title>
+          
+            <description>&lt;p&gt;A paper “Split4Blank: Maintaining consistency while improving efficiency of loading RDF data with blank nodes” was published in PLOS ONE. Dr. Atsuko Yamaguchi and Yasunori Yamamoto from DBCLS have contributed to this work.&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Thu, 13 Jun 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/06/13/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/06/13/post1.html</guid>
+        </item>
+        
+      
+    
+      
+    
+      
+        
+        <item>
+          <title>A paper “Accumulating computational resource usage of genomic data analysis workflow to optimize cloud computing instance selection” was published in GigaScience.</title>
+          
+            <description>&lt;p&gt;A paper “Accumulating computational resource usage of genomic data analysis workflow to optimize cloud computing instance selection” was published in GigaScience.
+Dr. Tazro Ohta from DBCLS have contributed to the work by development of the system and the RNA-Seq workflow comparison analysis using the system.&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Tue, 14 May 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/en/2019/05/14/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/en/2019/05/14/post1.html</guid>
+        </item>
+        
+      
+    
+      
         
         <item>
           <title>A paper “Cancerous phenotypes associated with hypoxia-inducible factors are not influenced by the volatile anesthetic isoflurane in renal cell carcinoma” was published in PLOS ONE.</title>
@@ -20,98 +101,6 @@ Dr. Hidemasa Bono from DBCLS have contributed to this work in the sequence analy
           <link>
           http://localhost:4000/en/2019/04/16/post1.html</link>
           <guid isPermaLink="true">http://localhost:4000/en/2019/04/16/post1.html</guid>
-        </item>
-        
-      
-    
-      
-    
-      
-        
-        <item>
-          <title>A paper “Comparative analysis of seven types of superoxide dismutases for their ability to respond to oxidative stress in Bombyx mori” was published in Scientific Reports.</title>
-          
-            <description>&lt;p&gt;A paper “Comparative analysis of seven types of superoxide dismutases for their ability to respond to oxidative stress in Bombyx mori” was published in Scientific Reports.
-Dr. Hidemasa Bono and Dr. Takeru Nakazato from DBCLS have contributed to this work in the sequence analysis of transcriptome data.&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Tue, 19 Feb 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2019/02/19/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2019/02/19/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>DBCLS server maintenance, 22-24 Feb 2019</title>
-          
-            <description>&lt;p&gt;Due to the system maintenance, our services will be temporarily unavailable. We are sorry for the inconvenience.&lt;/p&gt;
-
-</description>
-          
-          <pubDate>Thu, 07 Feb 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2019/02/07/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2019/02/07/post1.html</guid>
-        </item>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        
-        <item>
-          <title>A paper &quot;NBDC RDF portal: a comprehensive repository for semantic data in life sciences&quot; was published in the Database journal.</title>
-          
-            <description>&lt;p&gt;A paper “NBDC RDF portal: a comprehensive repository for semantic data in life sciences” was published in the Database journal.&lt;br /&gt;
-Project Assistant Professors Shuichi Kawashima, Toshiaki Katayama in DBCLS contributed to this work.&lt;br /&gt;
-The full paper can be found online at: &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;
-Shuichi Kawashima, Toshiaki Katayama, Hideki Hatanaka, Tatsuya Kushida, and Toshihisa Takagi, NBDC RDF portal: a comprehensive repository for semantic data in life sciences, Database (Oxford). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;.&lt;/p&gt;
-</description>
-          
-          <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2019/01/21/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2019/01/21/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>A paper &quot;TogoGenome/TogoStanza: modularized Semantic Web genome database&quot; was published in the Database journal.</title>
-          
-            <description>&lt;p&gt;A paper “TogoGenome/TogoStanza: modularized Semantic Web genome database” was published in the Database journal.
-&lt;br /&gt;
-Project Associate Professor Shinobu Okamoto and Project Assistant Professors Toshiaki Katayama, Shuichi Kawashima, Yuki Moriya, Hirokazu Chiba and Yuki Naito in DBCLS contributed to this work.
-&lt;br /&gt;
-The full paper can be found online at: &lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-TogoGenome is a genome database that is purely based on the Semantic Web technology, which enables the integration of heterogeneous data and flexible semantic searches. All the information is stored as Resource Description Framework (RDF) data, and the reporting web pages are generated on the fly using SPARQL Protocol and RDF Query Language (SPARQL) queries. TogoGenome provides a semantic-faceted search system by gene functional annotation, taxonomy, phenotypes and environment based on the relevant ontologies. TogoGenome also serves as an interface to conduct semantic comparative genomics by which a user can observe pan-organism or organism-specific genes based on the functional aspect of gene annotations and the combinations of organisms from different taxa. The TogoGenome database exhibits a modularized structure, and each module in the report pages is separately served as TogoStanza, which is a generic framework for rendering an information block as IFRAME/Web Components, which can, unlike several other monolithic databases, also be reused to construct other databases.
-&lt;br /&gt;
-&lt;br /&gt;
-Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chiba, Yuki Naito, Takatomo Fujisawa, Hiroshi Mori, and Toshihisa Takagi, TogoGenome/TogoStanza: modularized Semantic Web genome database, Database (Oxford), 2019, 1–11. &lt;br /&gt;
-&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;&lt;/p&gt;
-</description>
-          
-          <pubDate>Fri, 18 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/en/2019/01/18/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/en/2019/01/18/post1.html</guid>
         </item>
         
       

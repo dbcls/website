@@ -15,7 +15,7 @@ A support system in writing SPARQL queries for life science databases with an in
 
 #### Visualization of paths of class-class relationships computed by the system.
 
-* The system computes paths o class-class relationships with properties automatically using information obtained by SPARQL endpoints.
+* The system computes paths of class-class relationships with properties automatically using information obtained by SPARQL endpoints.
 
 #### Direct connection to SPARQL endpoints using a generated query.
 
