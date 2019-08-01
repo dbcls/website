@@ -9,81 +9,17 @@
       
         
         <item>
-          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター特任研究員募集（〆2/15（金）17時）</title>
+          <title>統合データベース講習会：AJACS宮崎2（2019年8月28日）の参加者募集中です</title>
           
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2915/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2019/01/23/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/23/post2.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター学術支援技術専門員募集（〆2/15（金）17時）</title>
-          
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2917/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2019/01/23/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/23/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>NBDC RDF portal に関する論文が Database 誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの川島秀一特任助教、片山俊明特任助教が参加する研究グループによる論文、「NBDC RDF portal: 」が Database 誌に掲載されました。論文は下記URLからご覧いただけます。
-&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-近年、生命科学データベースで、RDF形式で提供されるものが増えつつあります。RDF形式のデータベースでは、複数のデータベースを容易に統合して利用することができるため、今後ますます重要性が増すと考えられているビッグデータからの知識抽出を促進することが期待できます。&lt;a href=&quot;https://biosciencedbc.jp&quot;&gt;NBDC&lt;/a&gt;および&lt;a href=&quot;https://dbcls.rois.ac.jp/&quot;&gt;DBCLS&lt;/a&gt; でも、セマンティック・ウェブ技術を応用したデータベース開発や、その利用環境の整備に取り組んでいます。その一環として、国内の研究グループにより開発された生命科学のRDFデータを収集し、利用するためのポータルサイトである、&lt;a href=&quot;https://integbio.jp/rdf/&quot;&gt;NBDC RDF portal&lt;/a&gt;を、2017年より運用してきました。2019年1月現在、NBDC RDF portalには、様々な分野に渡る21のRDFデータセット（合計450億トリプル）が格納されており、RDFファイルのダウンロードサービスや、SPARQLエンドポイントの提供を行っています。本サービスに格納されたRDFデータは、寄託されたRDFデータをそのまま収録したものではなく、すべて、DBCLSが編集してきた&lt;a href=&quot;https://github.com/dbcls/rdfizing-db-guidelines&quot;&gt;ガイドライン&lt;/a&gt;に準拠しているかどうかという観点からレビューを行い、必要に応じて開発者に修正等の対応を行ってもらったものになります。そのため、独立して開発されたRDFデータ間において、一定の意味的な統合が実現されており、また海外で開発されている主要なRDFデータとの統合的な利用も可能となっていることが、本サービスが提供するデータの特徴になります。
-&lt;br /&gt;
-&lt;br /&gt;
-Shuichi Kawashima, Toshiaki Katayama, Hideki Hatanaka, Tatsuya Kushida, and Toshihisa Takagi, NBDC RDF portal: a comprehensive repository for semantic data in life sciences, Database (Oxford). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/30576482&quot;&gt;PubMed&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.1093/database/bay123&quot;&gt;DOI&lt;/a&gt;.&lt;/p&gt;
-</description>
-          
-          <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2019/01/21/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/21/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>セマンティック・ウェブによるゲノムデータベース TogoGenome と分散可視化フレームワーク TogoStanza に関する論文が Database 誌に掲載されました</title>
-          
-            <description>&lt;p&gt;当センターの片山俊明特任助教、川島秀一特任助教、岡本忍特任准教授、守屋勇樹特任助教、千葉啓和特任助教、内藤雄樹特任助教が参加する研究グループによる論文、「TogoGenome/TogoStanza: modularized Semantic Web genome database」が Database 誌に掲載されました。論文は下記URLからご覧いただけます。
-&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;https://dbcls.rois.ac.jp/&quot;&gt;DBCLS&lt;/a&gt; ではセマンティック・ウェブ技術によるデータベース統合を推進してきています。&lt;a href=&quot;http://togogenome.org/&quot;&gt;TogoGenome&lt;/a&gt; はその有効性を実証するために 2012 年より開発を続けてきた、ゲノム・遺伝子・表現型・環境・病原性などの多様な情報を RDF とオントロジーを利用して統合したゲノムデータベースです。TogoGenome では、ゲノムの決まった真核生物から原核生物まで約1万生物種を収録しており、その RDF データ量は 68 億トリプルにのぼります。セマンティック・ウェブの採用によって、複数のオントロジーを組み合わせたファセット検索や、比較ゲノムなどのユニークな機能が提供されています。また、遺伝子などのレポートページを構成する各要素は、あわせて開発した TogoStanza フレームワークを用いてモジュール化されており、他のデータベースでも自由に組み合わせて再利用することができるようになっています。TogoGenome/TogoStanza では、リアルタイムに SPARQL 検索を行って結果を表示しており、従来のゲノムデータベースと遜色ないパフォーマンス、セマンティック・ウェブならではの機能性、多様なデータへの拡張性、データベース構成要素の再利用性を実現しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chiba, Yuki Naito, Takatomo Fujisawa, Hiroshi Mori, and Toshihisa Takagi, TogoGenome/TogoStanza: modularized Semantic Web genome database, Database (Oxford), 2019, 1–11.&lt;br /&gt;
-&lt;a href=&quot;https://doi.org/10.1093/database/bay132&quot;&gt;https://doi.org/10.1093/database/bay132&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323299/&quot;&gt;PubMed&lt;/a&gt;&lt;/p&gt;
+            <description>&lt;p&gt;宮崎大学　木花キャンパス　情報基盤センター にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
+現在参加者募集中です。 (申込締切：2019年8月21日(水)12時まで)&lt;br /&gt;&lt;/p&gt;
 
 </description>
           
-          <pubDate>Fri, 18 Jan 2019 00:00:00 +0900</pubDate>
+          <pubDate>Wed, 17 Jul 2019 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/ja/2019/01/18/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/18/post1.html</guid>
+          http://localhost:4000/ja/2019/07/17/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/07/17/post1.html</guid>
         </item>
         
       
@@ -91,49 +27,17 @@ Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chi
       
         
         <item>
-          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター有期雇用職員募集（〆2/15（金）17時）</title>
+          <title>統合データベース講習会：AJACS番町3（2019年8月7日）の参加者募集中です</title>
           
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2789/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2019/01/09/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2019/01/09/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>データサイエンス共同利用基盤施設ライフサイエンス統合データベースセンター学術支援専門員募集（〆1/31（木）17時）</title>
-          
-            <description>&lt;p&gt;詳細については、&lt;a href=&quot;https://ds.rois.ac.jp/post-2788/&quot;&gt;【リンク先】&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</description>
-          
-          <pubDate>Thu, 27 Dec 2018 00:00:00 +0900</pubDate>
-          <link>
-          http://localhost:4000/ja/2018/12/27/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/27/post1.html</guid>
-        </item>
-        
-      
-    
-      
-        
-        <item>
-          <title>All-in-one合同講習会2018／統合データベース講習会：AJACS番町2(2019年1月28日)の参加者募集中です</title>
-          
-            <description>&lt;p&gt;JST東京本部別館（東京都千代田区） にてAll-in-one合同講習会2018／統合データベース講習会：AJACS番町2が開催されます。&lt;br /&gt;
-現在参加者募集中です。 (申込締切：2019年1月23日(水)まで)&lt;br /&gt;&lt;/p&gt;
+            <description>&lt;p&gt;科学技術振興機構　東京本部別館　1階ホール にてバイオサイエンスデータベースセンター (NBDC) 主催､DBCLS共催による統合データベース講習会が開催されます。&lt;br /&gt;
+現在参加者募集中です。 (申込締切：2019年7月31日(水)12時まで)&lt;br /&gt;&lt;/p&gt;
 
 </description>
           
-          <pubDate>Wed, 26 Dec 2018 00:00:00 +0900</pubDate>
+          <pubDate>Tue, 02 Jul 2019 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/ja/2018/12/26/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/26/post1.html</guid>
+          http://localhost:4000/ja/2019/07/02/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/07/02/post1.html</guid>
         </item>
         
       
@@ -141,16 +45,19 @@ Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chi
       
         
         <item>
-          <title>サービス一時停止のお知らせ ＜2019年1月12日(土) 7:00 〜 2019年1月13日(日) 18:00＞</title>
+          <title>Genomics &amp; Informatics誌の2019年6月号が第5回Biomedical Linked Annotation Hackathon (BLAH5)の特集号として出版されました。</title>
           
-            <description>&lt;p&gt;DBCLSが管理しているサーバのシステムメンテナンスの影響により、&lt;/p&gt;
+            <description>&lt;p&gt;Genomics &amp;amp; Informatics誌の2019年6月号が第5回Biomedical Linked Annotation Hackathon (BLAH5)の特集号として出版されました。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://genominfo.org/current/index.php?vol=17&amp;amp;no=2&quot;&gt;Genomics &amp;amp; Informatics, Volume 17, Issue 2, June 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
           
-          <pubDate>Tue, 25 Dec 2018 00:00:00 +0900</pubDate>
+          <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/ja/2018/12/25/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/25/post1.html</guid>
+          http://localhost:4000/ja/2019/07/01/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/07/01/post1.html</guid>
         </item>
         
       
@@ -158,16 +65,18 @@ Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chi
       
         
         <item>
-          <title>データのLOD化を加速させる 「JSON2LD Mapper」 が LODチャレンジ 2018 でプログレス賞を受賞しました</title>
+          <title>国際開発者会議 BioHackathon 2019 参加登録受付中</title>
           
-            <description>&lt;p&gt;当センターの山本泰智特任准教授が国立遺伝学研究所の藤澤貴智特任研究員と構想したアプリケーション開発案、&lt;a href=&quot;http://idea.linkdata.org/idea/idea1s2719i&quot;&gt;JSON2LD Mapper&lt;/a&gt;がこの度、&lt;a href=&quot;http://2018.lodc.jp/&quot;&gt;LODチャレンジ 2018&lt;/a&gt;でプログレス賞を受賞しました。LODチャレンジは、オープンデータを “つなげる” ことによる新しい価値の創造を目指して、アイデア部門やアプリケーション部門など、5部門において作品を募集し、優れた作品を表彰する毎年開催されているコンテストで、今年で8回目です。&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a href=&quot;https://biosciencedbc.jp/&quot;&gt;JST バイオサイエンスデータベースセンター (NBDC)&lt;/a&gt; と&lt;a href=&quot;https://dbcls.rois.ac.jp&quot;&gt;ライフサイエンス統合データベースセンター (DBCLS)&lt;/a&gt; が主催する &lt;a href=&quot;http://www.biohackathon.org/&quot;&gt;BioHackathon&lt;/a&gt;   は、生命科学分野のデータベース統合のための技術基盤を確立することを目的に、世界中から研究開発者が集まり、合宿形式で情報交換と技術開発を行う国際会議です。
+本年は、福岡市にて&lt;a href=&quot;http://2019.biohackathon.org/&quot;&gt;第12回 国際開発者会議 NBDC/DBCLS BioHackathon 2019&lt;/a&gt;を開催します。&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 </description>
           
-          <pubDate>Thu, 20 Dec 2018 00:00:00 +0900</pubDate>
+          <pubDate>Tue, 25 Jun 2019 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/ja/2018/12/20/post2.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/20/post2.html</guid>
+          http://localhost:4000/ja/2019/06/25/post2.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/06/25/post2.html</guid>
         </item>
         
       
@@ -175,16 +84,124 @@ Toshiaki Katayama, Shuichi Kawashima, Shinobu Okamoto, Yuki Moriya, Hirokazu Chi
       
         
         <item>
-          <title>クライアントと SPARQL エンドポイントの間で動作するミドルウェア 「SPARQL-proxy」 が LODチャレンジ 2018 基盤技術部門で優秀賞を受賞しました</title>
+          <title>統合データベース講習会AJACSa6河内 開催のお知らせ</title>
           
-            <description>&lt;p&gt;当センターの片山 俊明 特任助教 および 川島 秀一 特任助教 が開発する、&lt;a href=&quot;http://idea.linkdata.org/idea/idea1s2699i&quot;&gt;SPARQL-proxy&lt;/a&gt;がこの度、&lt;a href=&quot;http://2018.lodc.jp/&quot;&gt;LODチャレンジ 2018&lt;/a&gt;基盤技術部門において優秀賞を受賞しました。LODチャレンジは、オープンデータを “つなげる” ことによる新しい価値の創造を目指して、アイデア部門やアプリケーション部門など、5部門において作品を募集し、優れた作品を表彰する毎年開催されているコンテストで、今年で8回目です。&lt;/p&gt;
+            <description>&lt;p&gt;ライフサイエンス統合データベースセンター(DBCLS)では、科学技術振興機構(JST) バイオサイエンスデータベースセンター(NBDC)が主催している初心者向けの統合データベース講習会AJACSを補完する形で、中上級者向けにAJACSadvanced講習会を実施しています。 今回、関西医科大学(大阪府枚方市）を会場として、RNA-seqで得られる遺伝子発現データを定量化する方法を学ぶハンズオン講習会を以下の要領で開催いたします。&lt;/p&gt;
 
 </description>
           
-          <pubDate>Thu, 20 Dec 2018 00:00:00 +0900</pubDate>
+          <pubDate>Tue, 25 Jun 2019 00:00:00 +0900</pubDate>
           <link>
-          http://localhost:4000/ja/2018/12/20/post1.html</link>
-          <guid isPermaLink="true">http://localhost:4000/ja/2018/12/20/post1.html</guid>
+          http://localhost:4000/ja/2019/06/25/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/06/25/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>ブランクノードの問題を避けつつRDFデータを分割するツールSplit4Blankに関する論文が PLOS ONE 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの山口敦子特任准教授と山本泰智特任准教授による論文 “Split4Blank: Maintaining consistency while improving efficiency of loading RDF data with blank nodes
+” が PLOS ONE 誌に掲載されました。&lt;br /&gt;
+論文はオープンアクセスで、下記URLからご覧いただけます。&lt;br /&gt;
+&lt;a href=&quot;https://doi.org/10.1371/journal.pone.0217852&quot;&gt;https://doi.org/10.1371/journal.pone.0217852&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+巨大なRDFデータをトリプルストアにロードするには並列化が有効ですが、ブランクノードが含まれている場合、単純に複数ファイルに分割すると問題が生じます。この論文では、この問題を回避しつつ効率よくファイルを分割するために、グラフ連結成分のアルゴリズムとスケジューリング問題のアルゴリズムを組み合わせる手法を提案しました。また、本手法を用いればブランクノードに関する問題が生じないことを数学的に示しました。さらにSplit4Blankというツールとして提供しました。ツールはMITライセンスのオープンソースで、&lt;a href=&quot;https://github.com/acopom/split4blank&quot;&gt;こちら&lt;/a&gt;から入手可能です。&lt;/p&gt;
+</description>
+          
+          <pubDate>Thu, 13 Jun 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/06/13/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/06/13/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>国内版バイオハッカソン BH19.7 参加者募集および参加登録開始のご案内</title>
+          
+            <description>&lt;p&gt;2019年7月8日から7月12日にかけて、鹿児島県指宿にて国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会として、第10回 国内版バイオハッカソンBH19.7 を開催いたします。また、前回、前々回に引き続き、質量分析インフォマティクス研究会のハッカソンとの共催となり、7月7日(日)は同研究会のプレミーティングを開催いたします。&lt;a href=&quot;http://wiki.lifesciencedb.jp/mw/BH19.7&quot;&gt;国内版バイオハッカソン BH19.7&lt;/a&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Wed, 15 May 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/05/15/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/05/15/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>CWL ワークフローの要求計算資源量を計測するシステム CWL-metrics の論文が GigaScience 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの大田達郎特任研究員による論文 “Accumulating computational resource usage of genomic data analysis workflow to optimize cloud computing instance selection” が GigaScience 誌に掲載されました。本研究は国立遺伝学研究所DDBJセンターと国立情報学研究所との連携によるものです。&lt;br /&gt;
+論文はオープンアクセスで、下記URLからご覧いただけます。&lt;br /&gt;
+&lt;a href=&quot;https://doi.org/10.1093/gigascience/giz052&quot;&gt;https://doi.org/10.1093/gigascience/giz052&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Docker や Singularity などのコンテナ技術によってソフトウェアのポータビリティが向上し、Common Workflow Language などのワークフロー言語によって解析環境(ワークフロー)の可搬性が向上しました。これらの技術は、データ解析環境が異なる計算機環境で動作することを保証し、データサイエンスにおけるクラウド利用の普及に貢献しています。しかし、クラウドを効率よく利用するためには、データ解析に要する計算量を正確に見積もり、適切な規模の計算機を選択することが必要になります。CWL-metricsは、CWL で記述されたワークフローを実行した場合に、要求資源量、すなわちデータ解析ワークフローが要するCPU、メモリ、ディスク書き込みなどの情報を集積し、分析するツールです。システムは MIT ライセンスのオープンソースソフトウェアとして GitHub 上で公開され、誰でも自由に利用することができます。プロジェクトのウェブサイトは &lt;a href=&quot;https://inutano.github.io/cwl-metrics/&quot;&gt;こちら&lt;/a&gt; です。&lt;/p&gt;
+</description>
+          
+          <pubDate>Tue, 14 May 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/05/14/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/05/14/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>麻酔薬（イソフルラン）のがん細胞への影響を否定した論文が PLOS ONE 誌に掲載されました</title>
+          
+            <description>&lt;p&gt;当センターの坊農 秀雅 特任准教授が参加する、学校法人関西医科大学 附属生命医学研究所 侵襲反応制御部門の &lt;a href=&quot;http://blog.hypoxia.jp/who-i-am/&quot;&gt;廣田 喜一&lt;/a&gt; 学長特命教授を中心とした研究グループによる論文 “Cancerous phenotypes associated with hypoxia-inducible factors are not influenced by the volatile anesthetic isoflurane in renal cell carcinoma” が PLOS ONE 誌に掲載されました。&lt;br /&gt;
+論文はオープンアクセスで、下記URLからご覧いただけます。&lt;br /&gt;
+&lt;a href=&quot;https://doi.org/10.1371/journal.pone.0215072&quot;&gt;https://doi.org/10.1371/journal.pone.0215072&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+全身麻酔で一般的に広く用いられている揮発性吸入麻酔薬「イソフルラン」が、通常の手術で使われる濃度と使用時間ではヒト腎臓がん由来の細胞株の、包括的ながん細胞としての性質には統計学的に有意な影響を与えないことを示しました。この研究成果は、手術麻酔に用いられる吸入麻酔ががん細胞の性質に、直接的には影響を与えないことを、強く示唆しています。
+DBCLSは、RNA-Seq解析において得られたデータの解析とその生物学的な解釈といったドライ解析において貢献しています。
+詳細は関西医科大学のプレス発表をご覧ください。&lt;/p&gt;
+</description>
+          
+          <pubDate>Tue, 16 Apr 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/04/16/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/04/16/post1.html</guid>
+        </item>
+        
+      
+    
+      
+        
+        <item>
+          <title>日本農芸化学会2019年度大会にブースを出展します</title>
+          
+            <description>&lt;p&gt;DBCLSは日本農芸化学会2019年度大会の附設展示会に、NBDCと合同でブースを出展します。&lt;br /&gt;
+学会にご参加の方はぜひお気軽にお立ち寄りください。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;日本農芸化学会2019年度大会 附設展示会
+    &lt;ul&gt;
+      &lt;li&gt;日時：2019年3月25日（月）～27日（水）9:00～17:00（最終日は14:00まで）&lt;/li&gt;
+      &lt;li&gt;会場：東京農業大学 世田谷キャンパス 桜丘アリーナ（体育館2F）&lt;/li&gt;
+      &lt;li&gt;ブース番号：BB06（バイオビジネスアピールエリア）&lt;/li&gt;
+      &lt;li&gt;詳細URL： &lt;a href=&quot;http://www.jsbba.or.jp/2019/&quot;&gt;http://www.jsbba.or.jp/2019/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          
+          <pubDate>Wed, 27 Feb 2019 00:00:00 +0900</pubDate>
+          <link>
+          http://localhost:4000/ja/2019/02/27/post1.html</link>
+          <guid isPermaLink="true">http://localhost:4000/ja/2019/02/27/post1.html</guid>
         </item>
         
       
