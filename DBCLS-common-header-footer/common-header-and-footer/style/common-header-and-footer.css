@@ -44,6 +44,12 @@
       line-height: 24px; }
       #dbcls-common-header nav.gnav .pc_nav li + li {
         margin-left: 1em; }
+      #dbcls-common-header nav.gnav .pc_nav li a.dbcls-logo {
+        display: block;
+        width: 62px;
+        height: 24px;
+        background: url(../img/logo-short-2.svg) no-repeat 7px 1px;
+        background-size: 55px 20px; }
 #dbcls-common-header .sp_nav {
   background-color: #07397d;
   display: none; }
@@ -60,10 +66,6 @@
   color: white;
   font-weight: 500;
   font-size: 12px; }
-#dbcls-common-header nav.gnav .pc_nav li a img.dbcls-logo {
-  height: 20px;
-  padding-top: 2px;
-  padding-left: 5px; }
 #dbcls-common-header .hamburger {
   width: 13px;
   margin-right: 10px;
