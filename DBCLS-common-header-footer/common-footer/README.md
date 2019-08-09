@@ -10,7 +10,7 @@
 ```
   
 ## ライセンス
-上記設定のデフォルトのライセンス表記はCC-BY-4.0になっています。ライセンスのバージョンがそれ以外の場合は以下をお使いください。
+上記設定ではクリエイティブ・コモンズの表記はありません。任意のライセンスのバージョンを表示するには以下をお使いください。
 
 #### CC-BY-2.1-JP
 ``` html
@@ -34,6 +34,17 @@
 ></script>
 ```
 
+#### CC-BY-4.0
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-page-type="4.0"
+></script>
+```
+
 #### ライセンス表記なし
 ``` html
 <script
@@ -43,6 +54,14 @@
 	id="common-header-and-footer__script"
 	data-page-type="none"
 ></script>`
+```
+
+
+## ライセンスの発行・更新年
+上記スクリプトタグに以下のデータ属性を追加することで、発行・更新年を指定できます。デフォルト値は今年となっています。
+
+``` html
+	data-year="2000"
 ```
 
 
