@@ -52,4 +52,4 @@
 ## このディレクトリ内のファイル一覧
   - script
       - common-header.js
-        - ヘッダ・フッタ表示用javascript
+        - ヘッダ表示用javascript
