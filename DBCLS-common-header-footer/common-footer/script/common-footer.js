@@ -19,8 +19,8 @@
       en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
     simple: {
-      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>/<p>@@license@@</p></div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy-en.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>/<p>@@license@@</p></div></div>'
+      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy-en.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>'
     }
   }
   var LICENSE_HTML = {
@@ -31,9 +31,9 @@
       'none': '<p>&copy; @@year@@ DBCLS</p>'
     },
     simple: {
-      '4.0': '&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a>',
-      '2.1': '&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a>',
-      'sa_2.1': '&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a>',
+      '4.0': '/<p>&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
+      '2.1': '/<p>&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
+      'sa_2.1': '/<p>&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
       'none': ''
     }
   }

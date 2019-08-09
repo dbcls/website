@@ -19,8 +19,8 @@
       en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info"><div class="footer__organism"><img src="@@path@@/NBDC-common-header-footer/common-header-and-footer/img/logo_nbdc.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">Japan Science and Technology Agency</p><p class="footer__organism-main">National Bioscience Database Center</p></div></div><div class="footer__address"><div class="footer__address-top"><p>5-3, Science Plaza 7F,</p><p>Yonbancho, Chiyoda-ku,</p><p>Tokyo 102-8666 Japan</p></div><div class="footer__address-bottom"><p>Tel. 03-5214-8491</p><p>Fax. 03-5214-8470</p><p>E-mail : nbdc-kikaku@jst.go.jp</p></div></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
     simple: {
-      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://form.jst.go.jp/enquetes/contact_nbdc">Contact</a></li><li><a href="https://biosciencedbc.jp/sitepolicies/">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>/<p>@@license@@</p></div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://biosciencedbc.jp/en/contact-us">Contact</a></li><li><a href="https://biosciencedbc.jp/en/sitepolicies">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>/<p>@@license@@</p></div></div>'
+      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://form.jst.go.jp/enquetes/contact_nbdc">Contact</a></li><li><a href="https://biosciencedbc.jp/sitepolicies/">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://biosciencedbc.jp/en/contact-us">Contact</a></li><li><a href="https://biosciencedbc.jp/en/sitepolicies">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>@@license@@</div></div>'
     }
   }
   var LICENSE_HTML = {
@@ -31,9 +31,9 @@
       'none': '<p>&copy; @@year@@ NBDC</p>'
     },
     simple: {
-      '4.0': '&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a>',
-      '2.1': '&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a>',
-      'sa_2.1': '&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a>',
+      '4.0': '/<p><a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
+      '2.1': '/<p><a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
+      'sa_2.1': '/<p><a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
       'none': ''
     }
   }
