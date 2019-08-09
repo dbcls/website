@@ -51,16 +51,6 @@
 ```
 
 ## このディレクトリ内のファイル一覧
-  - img/
-    - logo-short-2.svg
-      - ヘッダ用NBDCロゴ画像
-    - logo_nbdc.png
-      - フッタ用NBDCロゴ画像
-    - menu.svg
-      - モバイル用メニューアイコン画像
   - script
-      - common-header-and-footer.js
-        - ヘッダ・フッタ表示用javascript
-  - style
-      - common-header-and-footer.css
-        - ヘッダ・フッタ表示用css
+      - common-header.js
+        - ヘッダ表示用javascript
