@@ -106,7 +106,7 @@
 上記スクリプトタグに以下のデータ属性を追記することで、ヘッダを非表示にできます。
 
 ``` html
-	data-hide-header="none"
+	data-hide-header="ture"
 ```
 
 
@@ -114,7 +114,7 @@
 上記スクリプトタグに以下のデータ属性を追記することで、フッタを非表示にできます。
 
 ``` html
-	data-hide-footer ="none"
+	data-hide-footer ="ture"
 ```
 
 
