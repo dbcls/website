@@ -9,8 +9,7 @@
 	id="common-header__script"
 ></script>
 ```
-
-
+  
 ## ヘッダの横幅
 上記スクリプトタグに以下のデータ属性を追記することで、ヘッダの横幅をコントロールできます。デフォルト値は1024pxとなっています。
 
@@ -53,4 +52,4 @@
 ## このディレクトリ内のファイル一覧
   - script
       - common-header.js
-        - ヘッダ表示用javascript
+        - ヘッダ・フッタ表示用javascript
