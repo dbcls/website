@@ -38,16 +38,6 @@
 - 日本語の場合： `<html lang="ja">`
 - 英語の場合： `<html lang="en">`
 
-## ヘッダのロゴ・メニュー表示位置を左詰めに調整する方法
-上記で追加した`<script>`タグの下に以下のコードを記述する。
-
-``` html
-  <style>
-    #dbcls-common-header nav.gnav {
-      margin: 0;
-    }
-  </style>
-```
 
 ## このディレクトリ内のファイル一覧
   - script
