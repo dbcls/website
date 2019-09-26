@@ -222,7 +222,7 @@ var initialize = {
 		dispLoading("処理中...");
 
 		$.ajax({
-			url: "https://spreadsheets.google.com/feeds/cells/1NQaewJFf3YUGXi4MhKTBuFHhQVSC1RI53jLkvLSoVUc/oo2m6du/public/values?alt=json",
+			url: "./json/paper.json",
 			dataType: "json",
 			async: true,
 			success: function (data) {
@@ -378,11 +378,11 @@ var initialize = {
 
 		function servicesFrontDisplay() {
 			$.ajax({
-				url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
+				url: "../json/services.json",
 				dataType: "json",
 				async: true,
 				success: function (data) {
-					var elementArray = setData(data);
+					var elementArray = data;
 					//column1に"Y"のあるrowをとってくる
 					var symbolYList = elementArray.filter((YList) => {
 						return (YList[0] === "Y");
@@ -568,10 +568,11 @@ var initialize = {
 			var md_data = ''
 			$.ajax({
 				type: 'get',
-				url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
+				url: "../json/services.json",
 				dataType: "json"
 			}).done(function (data) {
-				var services_array = setData(data)
+				var services_array = data
+				console.log('services_array', services_array)
 				var services_array_Y = services_array.filter((services_array) => {
 					return (services_array[0] === "Y");
 				})
@@ -697,12 +698,11 @@ var initialize = {
 		}
 
 		$.ajax({
-			url: "https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json",
+			url: "../json/services.json",
 			dataType: "json",
 			async: true,
 			success: function (data) {
-				var events_array = setData(data)
-
+				var events_array = data
 				function getOrder(target) {
 					var order = 0
 					for (var i = 0; i < events_array.length; i++) {
@@ -777,8 +777,8 @@ var initialize = {
 	},
 	'members': function () {
 		$.when(
-			$.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/2/public/values?alt=json'),
-			$.getJSON('https://spreadsheets.google.com/feeds/cells/1bSnbUztPDl3nhjQFbScjtTXpQtXOkqZE83NMilziHQs/od6/public/values?alt=json')
+			$.getJSON('../json/members.json'),
+			$.getJSON('../json/services.json')
 		).done(function (data, data_services) {
 			var lang = $('html').attr('lang')
 			var element = "";
@@ -788,7 +788,6 @@ var initialize = {
 			var listSubNav_collaborators = ""
 			var listSubNav_collaborators_en = ""
 			data = data[0]
-			data = setData(data)
 			//file名の取得
 			var url = window.location;
 			var path = url.href.split('/');
@@ -954,7 +953,6 @@ var initialize = {
 			//担当サービスの実装
 
 			data_services = data_services[0]
-			data_services = setData(data_services)
 			data_services = data_services.filter(data => {
 				return data[0] === "Y"
 			})
