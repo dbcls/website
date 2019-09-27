@@ -21,9 +21,16 @@
           height: 24px
           background: url(../img/logo-short-2.svg) no-repeat 7px 1px
           background-size: 55px 20px
+    .hamburger
+      width: 13px
+      margin-right: 10px
+      //display: none
+      position: absolute
+      right: 0
+      top: 5px
   .sp_nav
     background-color: #07397d
-    //display: none
+    display: none
     position: absolute
     right: 0
     top: 24px
@@ -41,16 +48,18 @@
     color: white
     font-weight: 500
     font-size: 12px
-  .hamburger
-    width: 13px
-    margin-right: 10px
-    //display: none
-    position: absolute
-    right: 0
-    top: 5px
-#dbcls-common-header.monochrome
-  .sp_nav
-    background-color: #3a3a3a
+  &.popover
+    nav.gnav
+      .pc_nav
+        .pc_menu
+          display: none
+  &.deployed
+    nav.gnav
+      .hamburger
+        display: none
+  &.monochrome
+    .sp_nav
+      background-color: #3a3a3a
 
 @media screen and (max-width: 480px)
   #dbcls-common-header
@@ -59,6 +68,8 @@
       .pc_nav
         .pc_menu
           display: none
+      .hamburger
+        display: block
     .sp_nav
       position: static
       right: inherit
@@ -68,5 +79,8 @@
         text-align: center
         border-bottom: 0.5px solid rgba(254, 254, 254, 0.5)
         line-height: 2.6em
-    .hamburger
-      display: block
+    &.deployed
+      nav.gnav
+        .hamburger
+          display: inline
+      

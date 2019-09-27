@@ -81,8 +81,17 @@
   background-size: 55px 20px;
 }
 
+#dbcls-common-header nav.gnav .hamburger {
+  width: 13px;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
 #dbcls-common-header .sp_nav {
   background-color: #07397d;
+  display: none;
   position: absolute;
   right: 0;
   top: 24px;
@@ -106,12 +115,12 @@
   font-size: 12px;
 }
 
-#dbcls-common-header .hamburger {
-  width: 13px;
-  margin-right: 10px;
-  position: absolute;
-  right: 0;
-  top: 5px;
+#dbcls-common-header.popover nav.gnav .pc_nav .pc_menu {
+  display: none;
+}
+
+#dbcls-common-header.deployed nav.gnav .hamburger {
+  display: none;
 }
 
 #dbcls-common-header.monochrome .sp_nav {
@@ -125,6 +134,9 @@
   #dbcls-common-header nav.gnav .pc_nav .pc_menu {
     display: none;
   }
+  #dbcls-common-header nav.gnav .hamburger {
+    display: block;
+  }
   #dbcls-common-header .sp_nav {
     position: static;
     right: inherit;
@@ -136,8 +148,8 @@
     border-bottom: 0.5px solid rgba(254, 254, 254, 0.5);
     line-height: 2.6em;
   }
-  #dbcls-common-header .hamburger {
-    display: block;
+  #dbcls-common-header.deployed nav.gnav .hamburger {
+    display: inline;
   }
 }
 

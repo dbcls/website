@@ -59,6 +59,8 @@
 
     var header = document.createElement('div')
     var background = dataset.color === 'mono' ? 'linear-gradient(#444, #333)' : 'linear-gradient(#1a54a5, #263167)'
+    var menuType = dataset.headerMenuType === 'deployed' ? 'deployed' : 'popover'
+    console.log('menuType:', menuType)
     $j(header)
       .css({
         'z-index': 10000,
@@ -70,6 +72,7 @@
         'background': background
       })
       .attr('id', 'dbcls-common-header')
+      .addClass(menuType)
       .html('\
         <nav class="gnav">\
           <ul class="pc_nav">\
@@ -128,12 +131,6 @@
     $j(document).on('click', '.hamburger', function() {
       $j('.sp_nav').slideToggle();
     })
-    $j(window).resize(function() {
-      var window_size = $j(window).width()
-      if (window_size < 480) {
-        $j('.sp_nav').css('display', 'none')
-      }
-    })      
   }
 
   function makeCommonFooter() {
@@ -165,11 +162,8 @@
 	setTimeout(function() {
 
     commonHandler()
+    makeCommonHeader()
 
-    if (dataset.hideHeader && dataset.hideHeader === 'true') {
-    } else {
-      makeCommonHeader()
-    }
     if (dataset.hideFooter && dataset.hideFooter === 'true') {
     } else {
       makeCommonFooter()
