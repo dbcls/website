@@ -138,7 +138,8 @@
     $j('body').append('<div id="dbcls-common-footer">')
     var $footer = $j('#dbcls-common-footer')
     var current_lang = $j('html').attr('lang')
-    var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
+    //var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
+    var footerDesign = 'simple'
     var license = dataset.pageType ? dataset.pageType : 'none'
     var year = dataset.year ? dataset.year : new Date().getFullYear()
     current_lang = current_lang ? current_lang : 'ja'
@@ -154,7 +155,7 @@
       .replace(/@@year@@/g, year) // year
     $j('#dbcls-common-footer').html(footerHtml)
 
-    if (dataset.footerDesign === 'simple') {
+    if (footerDesign === 'simple') {
       $footer.addClass('--simple')
     }    
   }
