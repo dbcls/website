@@ -14,7 +14,7 @@
   var DIRECTORY = href.substr(pathEnd, href.indexOf('/', pathEnd) - pathEnd + 1)
 
   var FOOTER_HTML = {
-    full: {
+    full: { // full版はいらなくなったが一応残しておく
       ja: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-ja"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">大学共同利用機関法人 情報・システム研究機構</p><p class="footer__organism-sub">データサイエンス共同利用基盤施設</p><p class="footer__organism-main">ライフサイエンス統合データベースセンター</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>〒277-0871</p><p>千葉県柏市若柴178-4-4</p><p>東京大学柏の葉キャンパス<br>駅前サテライト6階</p><p>TEL. 04-7135-5508（代表）<br> FAX. 04-7135-5534（代表）</p></li><li><p>〒411-8540</p><p>静岡県三島市谷田1111</p><p>国立遺伝学研究所<br>生命情報研究センター W412</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>',
       en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
@@ -164,8 +164,7 @@
     commonHandler()
     makeCommonHeader()
 
-    if (dataset.hideFooter && dataset.hideFooter === 'true') {
-    } else {
+    if (dataset.showFooter && dataset.showFooter === 'true') {
       makeCommonFooter()
     }
 
