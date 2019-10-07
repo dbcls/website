@@ -19,21 +19,21 @@
       en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
     simple: {
-      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy-en.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>'
+      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul class="footer__links"><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul class="footer__links"><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy-en.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>'
     }
   }
   var LICENSE_HTML = {
-    full: {
+    full: { // full版はいらなくなったが一応残しておく
       '4.0': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">Creative Commons Attribution 4.0 International license (CC-BY 4.0)</a></p>',
       '2.1': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 International license (CC-BY 2.1)</a></p>',
       'sa_2.1': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>',
       'none': '<p>&copy; @@year@@ DBCLS</p>'
     },
     simple: {
-      '4.0': '/<p>&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
-      '2.1': '/<p>&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
-      'sa_2.1': '/<p>&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
+      '4.0': '<p class="footer__license">&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
+      '2.1': '<p class="footer__license">&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
+      'sa_2.1': '<p class="footer__license">&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
       'none': ''
     }
   }
@@ -60,7 +60,6 @@
     var header = document.createElement('div')
     var background = dataset.color === 'mono' ? 'linear-gradient(#444, #333)' : 'linear-gradient(#1a54a5, #263167)'
     var menuType = dataset.headerMenuType === 'deployed' ? 'deployed' : 'popover'
-    console.log('menuType:', menuType)
     $j(header)
       .css({
         'z-index': 10000,
@@ -140,6 +139,8 @@
     var current_lang = $j('html').attr('lang')
     //var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
     var footerDesign = 'simple'
+    var showFooterLicense = dataset.showFooterLicense ? dataset.showFooterLicense : 'false'
+    var showFooterLinks = dataset.showFooterLinks ? dataset.showFooterLinks : 'false'
     var license = dataset.pageType ? dataset.pageType : 'none'
     var year = dataset.year ? dataset.year : new Date().getFullYear()
     current_lang = current_lang ? current_lang : 'ja'
@@ -155,9 +156,10 @@
       .replace(/@@year@@/g, year) // year
     $j('#dbcls-common-footer').html(footerHtml)
 
-    if (footerDesign === 'simple') {
-      $footer.addClass('--simple')
-    }    
+    if (footerDesign === 'simple') $footer.addClass('--simple')
+    if (showFooterLicense === 'true') $footer.addClass('--show_licnese')
+    if (showFooterLinks === 'true') $footer.addClass('--show_links')
+    
   }
 
 	setTimeout(function() {
