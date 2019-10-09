@@ -4,36 +4,36 @@
 	
 	$j = window.jQuery.noConflict(true);
   var SCRIPT_ID = 'common-header-and-footer__script'
-
+  
   var script = document.getElementById(SCRIPT_ID)
   var dataset = script.dataset
   //var match = script.src.match(/script\/(common-.*).js/)
   var href = script.src
-  var pathEnd = href.indexOf('NBDC-')
+  var pathEnd = href.indexOf('DBCLS-')
   var PATH = href.substr(0, pathEnd)
   var DIRECTORY = href.substr(pathEnd, href.indexOf('/', pathEnd) - pathEnd + 1)
 
   var FOOTER_HTML = {
-    full: {
-      ja: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info"><div class="footer__organism"><img src="@@path@@/NBDC-common-header-footer/common-header-and-footer/img/logo_nbdc.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">国立研究開発法人科学技術振興機構</p><p class="footer__organism-main">バイオサイエンスデータベースセンター</p></div></div><div class="footer__address"><div class="footer__address-top"><p>〒102-8666</p><p>東京都千代田区四番町5-3　サイエンスプラザ7階（受付は1階にあります）</p><p>国立研究開発法人科学技術振興機構　バイオサイエンスデータベースセンター</p></div><div class="footer__address-bottom"><p>Tel. 03-5214-8491</p><p>Fax. 03-5214-8470</p><p>E-mail : nbdc-kikaku@jst.go.jp</p></div></div></div></div></div><div class="footer__lisence">@@license@@</div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info"><div class="footer__organism"><img src="@@path@@/NBDC-common-header-footer/common-header-and-footer/img/logo_nbdc.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">Japan Science and Technology Agency</p><p class="footer__organism-main">National Bioscience Database Center</p></div></div><div class="footer__address"><div class="footer__address-top"><p>5-3, Science Plaza 7F,</p><p>Yonbancho, Chiyoda-ku,</p><p>Tokyo 102-8666 Japan</p></div><div class="footer__address-bottom"><p>Tel. 03-5214-8491</p><p>Fax. 03-5214-8470</p><p>E-mail : nbdc-kikaku@jst.go.jp</p></div></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
+    full: { // full版はいらなくなったが一応残しておく
+      ja: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-ja"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">大学共同利用機関法人 情報・システム研究機構</p><p class="footer__organism-sub">データサイエンス共同利用基盤施設</p><p class="footer__organism-main">ライフサイエンス統合データベースセンター</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>〒277-0871</p><p>千葉県柏市若柴178-4-4</p><p>東京大学柏の葉キャンパス<br>駅前サテライト6階</p><p>TEL. 04-7135-5508（代表）<br> FAX. 04-7135-5534（代表）</p></li><li><p>〒411-8540</p><p>静岡県三島市谷田1111</p><p>国立遺伝学研究所<br>生命情報研究センター W412</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
     simple: {
-      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://form.jst.go.jp/enquetes/contact_nbdc">Contact</a></li><li><a href="https://biosciencedbc.jp/sitepolicies/">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>@@license@@</div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">National Bioscience Database Center</p><ul><li><a href="https://biosciencedbc.jp/en/contact-us">Contact</a></li><li><a href="https://biosciencedbc.jp/en/sitepolicies">Site policy</a></li></ul><p>&copy; @@year@@ Japan Science and Technology Agency</p>@@license@@</div></div>'
+      ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul class="footer__links"><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul class="footer__links"><li><a href="http://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy-en.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>'
     }
   }
   var LICENSE_HTML = {
-    full: {
-      '4.0': '@@license_svg@@<p> &copy; @@year@@ NBDC, Licensed under&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">Creative Commons Attribution 4.0 International license (CC-BY 4.0)</a></p>',
-      '2.1': '@@license_svg@@<p> &copy; @@year@@ NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 International license (CC-BY 2.1)</a></p>',
-      'sa_2.1': '@@license_svg@@<p> &copy; @@year@@ NBDC, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>',
-      'none': '<p>&copy; @@year@@ NBDC</p>'
+    full: { // full版はいらなくなったが一応残しておく
+      '4.0': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">Creative Commons Attribution 4.0 International license (CC-BY 4.0)</a></p>',
+      '2.1': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">Creative Commons Attribution 2.1 International license (CC-BY 2.1)</a></p>',
+      'sa_2.1': '@@license_svg@@<p> &copy; @@year@@ DBCLS, Licensed under&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">Creative Commons Attribution SA 2.1 International license (CC-BY-SA 2.1)</a></p>',
+      'none': '<p>&copy; @@year@@ DBCLS</p>'
     },
     simple: {
-      '4.0': '/<p><a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
-      '2.1': '/<p><a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
-      'sa_2.1': '/<p><a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
+      '4.0': '<p class="footer__license">&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC-BY 4.0</a></p>',
+      '2.1': '<p class="footer__license">&nbsp;<a href="http://creativecommons.org/licenses/by/2.1/jp/">CC-BY 2.1</a></p>',
+      'sa_2.1': '<p class="footer__license">&nbsp;<a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">CC-BY-SA 2.1</a></p>',
       'none': ''
     }
   }
@@ -59,6 +59,7 @@
 
     var header = document.createElement('div')
     var background = dataset.color === 'mono' ? 'linear-gradient(#444, #333)' : 'linear-gradient(#1a54a5, #263167)'
+    var menuType = dataset.headerMenuType === 'deployed' ? 'deployed' : 'popover'
     $j(header)
       .css({
         'z-index': 10000,
@@ -69,41 +70,41 @@
         'height': '24px',
         'background': background
       })
-      .attr('id', 'nbdc-common-header')
+      .attr('id', 'dbcls-common-header')
+      .addClass(menuType)
       .html('\
         <nav class="gnav">\
           <ul class="pc_nav">\
             <li>\
-              <a href="https://biosciencedbc.jp/" class="nbdc-logo">\
-              </a>\
+              <a href="https://dbcls.rois.ac.jp/index.html" class="dbcls-logo"></a>\
             </li>\
             <li class="pc_menu">\
-              <a href="https://biosciencedbc.jp/tec-dev-prog/funding-program">Research</a>\
+              <a href="https://dbcls.rois.ac.jp/research.html">Research</a>\
             </li>\
             <li class="pc_menu">\
-              <a href="https://biosciencedbc.jp/">Services</a>\
+              <a href="https://dbcls.rois.ac.jp/services.html">Services</a>\
             </li>\
             <li class="pc_menu">\
-              <a href="https://form.jst.go.jp/enquetes/contact_nbdc">Contact</a>\
+              <a href="https://dbcls.rois.ac.jp/contact.html">Contact</a>\
             </li>\
             <li class="pc_menu">\
-              <a href="https://biosciencedbc.jp/about-us/welcome-from-director">About</a>\
+              <a href="https://dbcls.rois.ac.jp/about.html">About</a>\
             </li>\
           </ul>\
           <img src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/img/menu.svg" class="hamburger">\
         </nav>\
         <ul class="sp_nav">\
           <li>\
-            <a href="https://biosciencedbc.jp/tec-dev-prog/funding-program">Research</a>\
+            <a href="https://dbcls.rois.ac.jp/research.html">Research</a>\
           </li>\
           <li>\
-            <a href="https://biosciencedbc.jp/">Services</a>\
+            <a href="https://dbcls.rois.ac.jp/services.html">Services</a>\
           </li>\
           <li>\
-            <a href="https://form.jst.go.jp/enquetes/contact_nbdc">Contact</a>\
+            <a href="https://dbcls.rois.ac.jp/contact.html">Contact</a>\
           </li>\
           <li>\
-            <a href="https://biosciencedbc.jp/about-us/welcome-from-director">About</a>\
+            <a href="https://dbcls.rois.ac.jp/about.html">About</a>\
           </li>\
         </ul>')
     var $gnav = $j('nav.gnav', header)
@@ -129,23 +130,17 @@
     $j(document).on('click', '.hamburger', function() {
       $j('.sp_nav').slideToggle();
     })
-    alert()
-    /*
-    $j(window).resize(function() {
-      var window_size = $j(window).width()
-      if (window_size < 480) {
-        $j('.sp_nav').css('display', 'none')
-      }
-    })
-    */
   }
-  function makeCommonFooter() {
 
+  function makeCommonFooter() {
     // Insert footer HTML
-    $j('body').append('<div id="nbdc-common-footer">')
-    var $footer = $j('#nbdc-common-footer')
+    $j('body').append('<div id="dbcls-common-footer">')
+    var $footer = $j('#dbcls-common-footer')
     var current_lang = $j('html').attr('lang')
-    var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
+    //var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
+    var footerDesign = 'simple'
+    var showFooterLicense = dataset.showFooterLicense ? dataset.showFooterLicense : 'false'
+    var showFooterLinks = dataset.showFooterLinks ? dataset.showFooterLinks : 'false'
     var license = dataset.pageType ? dataset.pageType : 'none'
     var year = dataset.year ? dataset.year : new Date().getFullYear()
     current_lang = current_lang ? current_lang : 'ja'
@@ -159,23 +154,20 @@
         'none': 'CCBY'
       }[license]]) // lisence svg figure
       .replace(/@@year@@/g, year) // year
-    $j('#nbdc-common-footer').html(footerHtml)
+    $j('#dbcls-common-footer').html(footerHtml)
 
-    if (dataset.footerDesign === 'simple') {
-      $footer.addClass('--simple')
-    }
+    if (footerDesign === 'simple') $footer.addClass('--simple')
+    if (showFooterLicense === 'true') $footer.addClass('--show_licnese')
+    if (showFooterLinks === 'true') $footer.addClass('--show_links')
+    
   }
 
 	setTimeout(function() {
 
     commonHandler()
+    makeCommonHeader()
 
-    if (dataset.hideHeader && dataset.hideHeader === 'true') {
-    } else {
-      makeCommonHeader()
-    }
-    if (dataset.hideFooter && dataset.hideFooter === 'true') {
-    } else {
+    if (dataset.showFooter && dataset.showFooter === 'true') {
       makeCommonFooter()
     }
 
