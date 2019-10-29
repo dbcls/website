@@ -111,22 +111,22 @@
 
 #### CC-BY-2.1-JP
 ``` html
-	data-license-type="2.1"
+data-license-type="2.1"
 ```
 
 #### CC-BY-SA-2.1-JP
 ``` html
-	data-license-type="sa_2.1"
+data-license-type="sa_2.1"
 ```
 
 #### CC-BY-4.0
 ``` html
-	data-license-type="4.0"
+data-license-type="4.0"
 ```
 
 #### ライセンス表記なし
 ``` html
-	data-license-type="none"
+data-license-type="none"
 ```
 
 
@@ -134,7 +134,7 @@
 上記スクリプトタグに以下のデータ属性を追加することで、発行・更新年を指定できます。デフォルト値は今年となっています。
 
 ``` html
-	data-year="2000"
+data-year="2000"
 ```
 
 
@@ -143,12 +143,12 @@
 
 #### ウィンドウ幅960pxの場合
 ``` html
-	data-width="960"
+data-width="960"
 ```
 
 #### ウインドウ幅に合わせる場合
 ``` html
-	data-width="auto"
+data-width="auto"
 ```
 
 
@@ -156,7 +156,7 @@
 上記スクリプトタグに以下のデータ属性を追記することで、ヘッダの背景色をモノクロームにできます。デフォルト値は紺色となっています。
 
 ``` html
-	data-color="mono"
+data-color="mono"
 ```
 
 
