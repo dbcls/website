@@ -1,4 +1,4 @@
-# DBCLS用共通ヘッダ+フッタの導入方法
+# 標準的なDBCLS用共通ヘッダの導入方法
 各サービスのhtmlの`<body>`タグの直後に下記コードを記載する。
 
 ``` html
@@ -9,52 +9,124 @@
 	id="common-header-and-footer__script"
 ></script>
 ```
-  
+
+## 以下は共通ヘッダ・フッタの各種バリエーションの導入方法となります
+
+#### ヘッダ（リンク表示）
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-header-menu-type="deployed"
+></script>
+```
+
+#### ヘッダ（リンクメニュー記号）+フッタ
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-show-footer="true"
+></script>
+```
+
+#### ヘッダ（リンクメニュー記号）+フッタ（ライセンス）
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-show-footer="true"
+	data-show-footer-license="true"
+></script>
+```
+
+#### ヘッダ（リンクメニュー記号）+フッタ（ライセンス・リンク）
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-show-footer="true"
+	data-show-footer-license="true"
+	data-show-footer-links="true"
+></script>
+```
+
+#### ヘッダ（リンク表示）+フッタ
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-header-menu-type="deployed"
+	data-show-footer="true"
+></script>
+```
+
+#### ヘッダ（リンク表示）+フッタ（ライセンス）
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-header-menu-type="deployed"
+	data-show-footer="true"
+	data-show-footer-license="true"
+></script>
+```
+
+#### ヘッダ（リンク表示）+フッタ（ライセンス・リンク）
+
+``` html
+<script
+	type="text/javascript"
+	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
+	style="display: block"
+	id="common-header-and-footer__script"
+	data-header-menu-type="deployed"
+	data-show-footer="true"
+	data-show-footer-license="true"
+	data-show-footer-links="true"
+></script>
+```
+
+
 ## ライセンス
 上記設定ではクリエイティブ・コモンズの表記はありません。任意のライセンスのバージョンを表示するには以下をお使いください。
 
 #### CC-BY-2.1-JP
 ``` html
-<script
-	type="text/javascript"
-	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
-	style="display: block"
-	id="common-header-and-footer__script"
-	data-page-type="2.1"
-></script>
+	data-license-type="2.1"
 ```
 
 #### CC-BY-SA-2.1-JP
 ``` html
-<script
-	type="text/javascript"
-	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
-	style="display: block"
-	id="common-header-and-footer__script"
-	data-page-type="sa_2.1"
-></script>
+	data-license-type="sa_2.1"
 ```
 
 #### CC-BY-4.0
 ``` html
-<script
-	type="text/javascript"
-	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
-	style="display: block"
-	id="common-header-and-footer__script"
-	data-page-type="4.0"
-></script>
+	data-license-type="4.0"
 ```
 
 #### ライセンス表記なし
 ``` html
-<script
-	type="text/javascript"
-	src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/script/common-header-and-footer.js"
-	style="display: block"
-	id="common-header-and-footer__script"
-	data-page-type="none"
-></script>`
+	data-license-type="none"
 ```
 
 
@@ -85,30 +157,6 @@
 
 ``` html
 	data-color="mono"
-```
-
-
-## フッタの簡略表示
-上記スクリプトタグに以下のデータ属性を追記することで、フッタを1行の簡略表示にできます。デフォルト値はフル表示となっています。
-
-``` html
-	data-footer-design="simple"
-```
-
-
-## ヘッダ非表示
-上記スクリプトタグに以下のデータ属性を追記することで、ヘッダを非表示にできます。
-
-``` html
-	data-hide-header="true"
-```
-
-
-## フッタ非表示
-上記スクリプトタグに以下のデータ属性を追記することで、フッタを非表示にできます。
-
-``` html
-	data-hide-footer="true"
 ```
 
 
