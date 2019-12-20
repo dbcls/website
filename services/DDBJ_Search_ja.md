@@ -1,4 +1,4 @@
-### DBCLS SRAとは
+### DDBJ Searchとは
 
 公共データベース（SRA [NCBI], ENA [EBI], DRA [DDBJ] ）に登録された「次世代シーケンサ」データについて、さまざまな統計情報から閲覧、比較、データのダウンロードができる目次サイトです。
 
@@ -7,7 +7,7 @@
 ![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_SRA_fig-1_180528.png)
 ![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_SRA_fig-2_180528.png)
 
-#### DBCLS SRAの特徴
+#### DDBJ Search の特徴
 
 * 複数に分かれた登録でも同じプロジェクトの実験ならば一度に表示
 
