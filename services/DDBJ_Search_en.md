@@ -1,6 +1,6 @@
-### About DBCLS SRA
+### About DDBJ Search
 
-DBCLS SRA is a search engine for public NGS data. It provides a project list categorized by study types, sequencing platforms, and sample species.
+DDBJ Search is a search engine for public NGS data. It provides a project list categorized by study types, sequencing platforms, and sample species.
 
 ( http://sra.dbcls.jp/ )
 
