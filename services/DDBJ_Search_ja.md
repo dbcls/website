@@ -5,7 +5,7 @@ DDBJ が管理する公共データベースのうち、 SRA (DRA), BioSample, 
 ( http://sra.dbcls.jp/ )
 
 ![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-1_191224.png)
-
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-2_191224.png)
 
 #### DDBJ Search の特徴
 
