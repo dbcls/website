@@ -1,3 +1,11 @@
+// Content Security Policy
+var meta = document.createElement('META')
+meta.setAttribute('HTTP-EQUIV', 'Content-Security-Policy')
+meta.setAttribute('CONTENT', `default-src 'self'; 
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' code.jquery.com www.googletagmanager.com; 
+        font-src 'self' fonts.googleapis.com fonts.gstatic.com;`)
+document.head.appendChild(meta)
+
 var script = document.createElement('script')
 var script_sticky = document.createElement('script')
 var link_favicon = document.createElement('link')
