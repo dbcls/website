@@ -49,3 +49,8 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+webserver_headers:
+  - - Access-Control-Allow-Origin
+    - "*"
+  - - Access-Control-Allow-Methods
+    - GET, OPTIONS, HEAD

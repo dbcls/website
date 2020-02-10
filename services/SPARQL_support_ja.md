@@ -1,6 +1,6 @@
 # SPARQL support
 ### SPARQL support とは
-ブラウザのテキストエリアでのSPARQLクエリ記述を補助するたのめの[CodeMirror](https://codemirror.net/)アドオンです。(http://sparql-support.dbcls.jp/)
+ブラウザ上で動作する補完機能などの便利な機能を有したSPARQLクエリエディタです。(http://sparql-support.dbcls.jp/)
 
 #### SPARQL supportの特徴
 * インデント、変数名、PREFIXなどを補完できます
@@ -18,6 +18,11 @@ F|              -->   FILTER (|)
 PREFIX obo:|    -->   PREFIX obo: <http://purl.obolibrary.org/obo/>|
 <id>|           -->   <http://identifiers.org/>|
 ```
+
+#### Endpoint browser
+* 視覚的なネットワークグラフを用いて endpoint 内の RDF データを探索できます
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQL_support_fig-2.png)
 
 #### 使い方
 * http://sparql-support.dbcls.jp/ にアクセスするだけで利用できます。
