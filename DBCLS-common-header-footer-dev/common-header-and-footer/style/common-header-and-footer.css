@@ -52,6 +52,7 @@
 #dbcls-common-header nav.gnav {
   width: 1024px;
   margin: 0 auto;
+  display: block !important;
 }
 
 #dbcls-common-header nav.gnav .pc_nav {
