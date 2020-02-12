@@ -73,7 +73,7 @@
       .attr('id', 'dbcls-common-header')
       .addClass(menuType)
       .html('\
-        <nav class="gnav">\
+        <nav class="gnav" style="display: none">\
           <ul class="pc_nav">\
             <li>\
               <a href="https://dbcls.rois.ac.jp/index.html" class="dbcls-logo"></a>\
@@ -93,7 +93,7 @@
           </ul>\
           <img src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/img/menu.svg" class="hamburger">\
         </nav>\
-        <ul class="sp_nav">\
+        <ul class="sp_nav" style="display: none">\
           <li>\
             <a href="https://dbcls.rois.ac.jp/research.html">Research</a>\
           </li>\

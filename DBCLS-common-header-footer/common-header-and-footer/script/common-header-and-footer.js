@@ -141,8 +141,10 @@
     $j('body').append('<div id="dbcls-common-footer">')
     var $footer = $j('#dbcls-common-footer')
     var current_lang = $j('html').attr('lang')
-    var footerDesign = dataset.footerDesign ? dataset.footerDesign : 'full'
-    var license = dataset.pageType ? dataset.pageType : 'none'
+    var footerDesign = 'simple'
+    var showFooterLicense = dataset.showFooterLicense ? dataset.showFooterLicense : 'false'
+    var showFooterLinks = dataset.showFooterLinks ? dataset.showFooterLinks : 'false'
+    var license = dataset.licenseType ? dataset.licenseType : 'none'
     var year = dataset.year ? dataset.year : new Date().getFullYear()
     current_lang = current_lang ? current_lang : 'ja'
     var footerHtml = FOOTER_HTML[footerDesign][current_lang]

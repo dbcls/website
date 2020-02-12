@@ -129,12 +129,15 @@
     $j(document).on('click', '.hamburger', function() {
       $j('.sp_nav').slideToggle();
     })
+    alert()
+    /*
     $j(window).resize(function() {
       var window_size = $j(window).width()
       if (window_size < 480) {
         $j('.sp_nav').css('display', 'none')
       }
     })
+    */
   }
   function makeCommonFooter() {
 
