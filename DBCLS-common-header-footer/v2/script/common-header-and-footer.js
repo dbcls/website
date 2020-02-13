@@ -7,16 +7,13 @@
   
   var script = document.getElementById(SCRIPT_ID)
   var dataset = script.dataset
-  //var match = script.src.match(/script\/(common-.*).js/)
   var href = script.src
-  var pathEnd = href.indexOf('DBCLS-')
-  var PATH = href.substr(0, pathEnd)
-  var DIRECTORY = href.substr(pathEnd, href.indexOf('/', pathEnd) - pathEnd + 1)
+  var ROOT = href.replace('script/common-header-and-footer.js', '');
 
   var FOOTER_HTML = {
     full: { // full版はいらなくなったが一応残しておく
-      ja: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-ja"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">大学共同利用機関法人 情報・システム研究機構</p><p class="footer__organism-sub">データサイエンス共同利用基盤施設</p><p class="footer__organism-main">ライフサイエンス統合データベースセンター</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>〒277-0871</p><p>千葉県柏市若柴178-4-4</p><p>東京大学柏の葉キャンパス<br>駅前サテライト6階</p><p>TEL. 04-7135-5508（代表）<br> FAX. 04-7135-5534（代表）</p></li><li><p>〒411-8540</p><p>静岡県三島市谷田1111</p><p>国立遺伝学研究所<br>生命情報研究センター W412</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>',
-      en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@path@@/DBCLS-common-header-footer/common-header-and-footer/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
+      ja: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-ja"><div class="footer__organism"><img src="@@root@@/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-sub">大学共同利用機関法人 情報・システム研究機構</p><p class="footer__organism-sub">データサイエンス共同利用基盤施設</p><p class="footer__organism-main">ライフサイエンス統合データベースセンター</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>〒277-0871</p><p>千葉県柏市若柴178-4-4</p><p>東京大学柏の葉キャンパス<br>駅前サテライト6階</p><p>TEL. 04-7135-5508（代表）<br> FAX. 04-7135-5534（代表）</p></li><li><p>〒411-8540</p><p>静岡県三島市谷田1111</p><p>国立遺伝学研究所<br>生命情報研究センター W412</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>',
+      en: '<div class="footer__common"><div class="footer__wrapper"><div class="footer__wrapper__contents"><div class="footer__info footer__info-en"><div class="footer__organism"><img src="@@root@@/img/logo_dbcls.svg" alt="" class="footer__logo"><div class="footer__organism-text"><p class="footer__organism-main">Database Center for Life Science</p><p class="footer__organism-sub">Joint Support-Center for Data Science Research</p><p class="footer__organism-sub">Research Organization of Information and Systems</p></div></div><div class="footer__address"><div class="footer-title">Address</div><ul class="address__list"><li><p>Kashiwa-Lab.</p><p>Univ. of Tokyo Kashiwa-no-ha Campus Station Satellite 6F.</p><p>178-4-4 Wakashiba, Kashiwa, Chiba 277-0871, JAPAN</p><p>TEL +81-4-7135-5508<br>FAX +81-4-7135-5534</p></li><li><p>Mishima-Lab.</p><p>Center for Information Biology W412, </p><p>National Institute of Genetics</p><p>Yata 1111, Mishima, Shizuoka 411-8540, JAPAN</p></li></ul></div></div></div></div><div class="footer__lisence">@@license@@</div></div>'
     },
     simple: {
       ja: '<div class="footer__common"><div class="footer__wrapper"><p class="footer__logo">Database Center for Life Science</p><ul class="footer__links"><li><a href="https://dbcls.rois.ac.jp/contact.html">Contact</a></li><li><a href="https://dbcls.rois.ac.jp/policy.html">Site policy</a></li></ul><p>&copy; @@year@@ DBCLS</p>@@license@@</div></div>',
@@ -47,7 +44,8 @@
     var link = document.createElement('link')
     var meta = document.createElement('meta')
     link.setAttribute('rel', 'stylesheet')
-    link.setAttribute('href', PATH + DIRECTORY + 'common-header-and-footer/style/common-header-and-footer.css')
+    //link.setAttribute('href', PATH + DIRECTORY + 'common-header-and-footer/style/common-header-and-footer.css')
+    link.setAttribute('href', ROOT + '/style/common-header-and-footer.css')
     meta.setAttribute('name', 'viewport')
     meta.setAttribute('content', 'width=device-width,initial-scale=1')
     document.head.appendChild(link)
@@ -144,7 +142,7 @@
     var year = dataset.year ? dataset.year : new Date().getFullYear()
     current_lang = current_lang ? current_lang : 'ja'
     var footerHtml = FOOTER_HTML[footerDesign][current_lang]
-      .replace(/@@path@@/g, PATH) // path
+      .replace(/@@root@@/g, ROOT) // path
       .replace(/@@license@@/g, LICENSE_HTML[footerDesign][license]) // lisence statement
       .replace(/@@license_svg@@/g, LICENSE_SVG[{
         '4.0': 'CCBY',
