@@ -1,4 +1,4 @@
-### DDBJ Searchとは
+### DBCLS SRAとは
 
 DDBJ が管理する公共データベースのうち、 SRA (DRA), BioSample, BioProject のそれぞれのデータベースに登録されたデータを高速に検索し、データのダウンロードができる検索サービスです。
 
@@ -7,13 +7,13 @@ DDBJ が管理する公共データベースのうち、 SRA (DRA), BioSample, 
 ![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-1_191224.png)
 ![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-2_191224.png)
 
-#### DDBJ Search の特徴
+#### DBCLS SRA の特徴
 
 * 高速な全文検索<br  />
 次世代シーケンサーのデータが登録される SRA, それらに用いられるサンプル情報を登録する BioSample, プロジェクト情報を登録しサンプルやデータを統括する BioProject, これらのデータベースはデータの増加に伴い非常に大規模なものになっています。そのため、データを互いに交換する協力機関である NCBI, EBI, DDBJ がそれぞれ提供している検索サービスは、検索速度のパフォーマンスが下がっており、大量のデータから必要なものを探し出すことが困難になっていました。DBCLS では、データ構造の見直しと全文検索エンジンの導入により、高速な全文検索を実現しています。これにより、研究者が大量のデータの中から迅速に目的とするデータに辿り着くことをサポートしています。また、プログラムからの利用を想定したAPIも提供します。
 
 * 統計情報、生物分類、関連文献による検索も<br  />
-旧 DBCLS SRA で提供していた各種統計情報や生物分類を用いた検索、関連する文献を用いたデータの検索も、旧サイトを通じて提供しています。これらの機能は順次 DDBJ Search の機能として移植される予定となっています。
+各種統計情報や生物分類を用いた検索、関連する文献を用いたデータの検索も、旧サイトを通じて提供しています。
 
 #### 利用例
 
