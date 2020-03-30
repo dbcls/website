@@ -1,7 +1,7 @@
 # Umaka Viewer
 ### What is Umaka Viewer?
 It visualizes the class structure of an RDF dataset along with the relationships among them based on RDF triples.  
-http://v.umaka.dbcls.jp/
+https://umaka-viewer.dbcls.jp/
 
 ### Feature of Umaka Viewer
 
