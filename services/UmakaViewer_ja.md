@@ -1,7 +1,7 @@
 # Umaka Viewer
 ### Umaka Viewerとは
 RDFデータセットの構造を可視化し、対話的に全体を俯瞰したり、詳細を確認したりできます。  
-http://v.umaka.dbcls.jp/
+https://umaka-viewer.dbcls.jp/
 
 ### Umaka Viewerの特徴
 
