@@ -162,24 +162,6 @@
     ""
   ],
   [
-    "山口 敦子",
-    "YAMAGUCHI, Atsuko, PhD",
-    "atsuko2.jpg",
-    "特任准教授",
-    "Project Associate Professor",
-    "PhD",
-    "セマンティックウェブ技術を利用したデータベースの統合へ向けた基盤技術開発",
-    "Database integration based on the Semantic Web technologies",
-    "atsuko@dbcls.rois.ac.jp",
-    "",
-    "0000-0001-7538-5337",
-    "atsuko",
-    "https://scholar.google.co.jp/citations?user=3Rw8vGgAAAAJ",
-    "acopom",
-    "",
-    ""
-  ],
-  [
     "山本 泰智",
     "YAMAMOTO, Yasunori, PhD",
     "yamamoto.jpg",
@@ -485,25 +467,7 @@
     "",
     ""
   ],
-  [
-    "道菅 紳介",
-    "DOHKAN, Shinsuke",
-    "noimage4.png",
-    "開発支援(サーバ管理)",
-    "System Administrator",
-    "",
-    "開発支援（サーバ管理）",
-    "",
-    "dohkan@dbcls.rois.ac.jp",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
-  [
+ [
     "川越 千晴",
     "KAWAGOE, Chiharu",
     "noimage4.png",
@@ -522,15 +486,15 @@
     ""
   ],
   [
-    "土田 淳美",
-    "TSUCHIDA, Atsumi",
+    "早川 敦夫",
+    "HAYAKAWA, Atsuo",
     "noimage4.png",
     "事務室長",
     "Secretary Head",
     "",
     "事務",
     "",
-    "tsuchida@dbcls.rois.ac.jp",
+    "haya16@dbcls.rois.ac.jp",
     "",
     "",
     "",
@@ -610,6 +574,24 @@
     "bonohu",
     "https://www.researchgate.net/profile/Hidemasa_Bono",
     "https://dbcls.rois.ac.jp/~bono/"
+  ],
+  [
+    "山口 敦子",
+    "YAMAGUCHI, Atsuko, PhD",
+    "atsuko2.jpg",
+    "客員教授",
+    "Guest Professor",
+    "PhD",
+    "セマンティックウェブ技術を利用したデータベースの統合へ向けた基盤技術開発",
+    "Database integration based on the Semantic Web technologies",
+    "atsuko@dbcls.rois.ac.jp",
+    "",
+    "0000-0001-7538-5337",
+    "atsuko",
+    "https://scholar.google.co.jp/citations?user=3Rw8vGgAAAAJ",
+    "acopom",
+    "",
+    ""
   ],
   [
     "河野 信",
