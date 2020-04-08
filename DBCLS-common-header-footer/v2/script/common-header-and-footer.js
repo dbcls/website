@@ -57,7 +57,7 @@
 
     var header = document.createElement('div')
     var background = dataset.color === 'mono' ? 'linear-gradient(#444, #333)' : 'linear-gradient(#1a54a5, #263167)'
-    var menuType = dataset.headerMenuType === 'deployed' ? 'deployed' : 'popover'
+    var menuType = dataset.headerMenuType === 'deployed' ? 'COMMON_HEADER_FOOTER_deployed' : 'COMMON_HEADER_FOOTER_popover'
     $j(header)
       .css({
         'z-index': 10000,
@@ -119,14 +119,14 @@
     }
     // color control
     if (dataset.color === 'mono') {
-      $j(header).addClass('monochrome')
+      $j(header).addClass('COMMON_HEADER_FOOTER_monochrome')
     }
     // generate header
     $j('body').prepend(header)
 
     // menu
     $j(document).on('click', '.hamburger', function() {
-      $j('.sp_nav').slideToggle();
+      $j('.sp_nav').slideToggle(50);
     })
   }
 
