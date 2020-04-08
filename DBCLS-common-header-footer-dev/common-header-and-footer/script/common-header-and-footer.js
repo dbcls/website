@@ -126,7 +126,7 @@
 
     // menu
     $j(document).on('click', '.hamburger', function() {
-      $j('.sp_nav').slideToggle();
+      $j('.sp_nav').slideToggle(50);
     })
   }
 
