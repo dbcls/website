@@ -117,15 +117,15 @@
   font-size: 12px;
 }
 
-#dbcls-common-header.popover nav.gnav .pc_nav .pc_menu {
+#dbcls-common-header.COMMON_HEADER_FOOTER_popover nav.gnav .pc_nav .pc_menu {
   display: none;
 }
 
-#dbcls-common-header.deployed nav.gnav .hamburger {
+#dbcls-common-header.COMMON_HEADER_FOOTER_deployed nav.gnav .hamburger {
   display: none;
 }
 
-#dbcls-common-header.monochrome .sp_nav {
+#dbcls-common-header.COMMON_HEADER_FOOTER_monochrome .sp_nav {
   background-color: #3a3a3a;
 }
 
