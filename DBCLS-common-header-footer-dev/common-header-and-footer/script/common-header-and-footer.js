@@ -64,7 +64,7 @@
         'position': 'fixed',
         'top': 0,
         'left': 0,
-        'width': '100%',
+        'width': '100vw',
         'height': '24px',
         'background': background
       })
@@ -90,21 +90,22 @@
             </li>\
           </ul>\
           <img src="https://dbcls.rois.ac.jp/DBCLS-common-header-footer/common-header-and-footer/img/menu.svg" class="hamburger">\
-        </nav>\
-        <ul class="sp_nav" style="display: none">\
-          <li>\
-            <a href="https://dbcls.rois.ac.jp/research.html">Research</a>\
-          </li>\
-          <li>\
-            <a href="https://dbcls.rois.ac.jp/services.html">Services</a>\
-          </li>\
-          <li>\
-            <a href="https://dbcls.rois.ac.jp/contact.html">Contact</a>\
-          </li>\
-          <li>\
-            <a href="https://dbcls.rois.ac.jp/about.html">About</a>\
-          </li>\
-        </ul>')
+          <ul class="sp_nav" style="display: none">\
+            <li>\
+              <a href="https://dbcls.rois.ac.jp/research.html">Research</a>\
+            </li>\
+            <li>\
+              <a href="https://dbcls.rois.ac.jp/services.html">Services</a>\
+            </li>\
+            <li>\
+              <a href="https://dbcls.rois.ac.jp/contact.html">Contact</a>\
+            </li>\
+            <li>\
+              <a href="https://dbcls.rois.ac.jp/about.html">About</a>\
+            </li>\
+          </ul>\
+        </nav>'
+        )
     var $gnav = $j('nav.gnav', header)
     // width control
     if (dataset.width) {
