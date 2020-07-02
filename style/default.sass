@@ -40,6 +40,7 @@ body
   height: 22px
   margin-left: auto
   text-decoration: none
+  white-space: nowrap
   &:before
     content: ""
     display: block
@@ -47,11 +48,6 @@ body
     height: 9px
     margin-right: 5px
     background-image: url(../img/icon_more.svg)
-  &.more_btn
-    width: 57px
-    cursor: pointer
-  &.access_btn
-    width: 72px
   &.pdf_btn
     width: 51px
     height: 19px
@@ -246,7 +242,7 @@ body
     //top: -9px
     //top: 11px
     li
-      font-size: 14px	
+      font-size: 14px
       display: inline
 .lang-ja,
 .lang-en
@@ -463,11 +459,11 @@ footer
           letter-spacing: -0.5px
     .footer__address
       width: 357px
-      margin-top: 15px 
+      margin-top: 15px
       .address__list
         display: -wekit-box
         display: -ms-flexbox
-        display: flex 
+        display: flex
         -webkit-box-pack: justify
         -ms-flex-pack: justify
         justify-content: space-between
@@ -479,7 +475,7 @@ footer
             line-height: 1.5em
     .footer__links
       padding-top: 15px
-      &.en 
+      &.en
         width: 192px
       ul.links__wrapper
         li.individual_link
@@ -576,7 +572,7 @@ footer
         width: 100vw
         height: 400px
         object-fit: cover
-        display: block		
+        display: block
     .active
       z-index: 10
       opacity: 1.0
@@ -636,7 +632,6 @@ footer
     color: rgba(0, 0, 0, .4)
     margin-right: 9px
 
-
 /* Events & Research article section style */
 #main__contents-public
   .public__description
@@ -646,7 +641,7 @@ footer
   width: 786px
   font-size: 14px
   margin-bottom: 9px
-  line-height: 1.8;
+  line-height: 1.8
   color: $text-color
   margin-top: -6px
 .research__image
@@ -731,7 +726,7 @@ footer
 .outline-list-category__wrapper
   width: 200px
   cursor: pointer
-    padding-bottom: 15px
+  padding-bottom: 15px
   .outline-list-category__title
     color: $gray
     position: relative
@@ -763,7 +758,7 @@ footer
   font-size: 14px
   line-height: 1.8em
   margin-left: -7px
-.section-wrapper__adelement 
+.section-wrapper__adelement
   padding-bottom: 30px
   article.article__section__wrapper
     width: 782px
@@ -788,7 +783,7 @@ footer
       &.funding__price
         margin-top: 6px
     h4
-      font-size: 14px 
+      font-size: 14px
       font-weight: 700
       display: flex
       &.funding__title
@@ -856,7 +851,7 @@ footer
         color: $main-color
         font-weight: 700
       .history_year
-        margin-right: 13px			
+        margin-right: 13px
       .history_month
         margin-left: 13px
       p
@@ -877,7 +872,7 @@ table.matrix
         border-left: dashed 0.5px #ddd
   tbody
     border-top: solid 0.25px #ddd
-    tr 
+    tr
       background-color: rgba(232, 237, 237, 0.8)
       &:nth-of-type(2n+1)
         background-color: white
@@ -897,11 +892,11 @@ table.matrix
         color: $main-color
         font-size: 11px
         border: solid 0.5px $main-color
-        border-radius: 13px	
+        border-radius: 13px
         padding: 4px 6px
         font-weight: 600
         background-color: #fff
-        text-decoration: none;
+        text-decoration: none
         &:before
           content: ""
           background: url(../img/icon_pdf.svg) no-repeat
@@ -1049,7 +1044,7 @@ table.matrix
           height: auto
           max-width: 180px
           max-height: 84px
-      .repos_name 
+      .repos_name
         height: 120px
         padding: 6px 19px
         .btn-box
@@ -1061,7 +1056,7 @@ table.matrix
           left: 50%
           transform: translateX(-50%)
           .access_btn
-            margin-left: 5px		
+            margin-left: 5px
         .name
           padding-bottom: 5px
           font-size: 15px
@@ -1121,7 +1116,7 @@ table.matrix
 .sub-nav-con__member
   line-height: 19px
   li
-    a 
+    a
       color: $text-color !important
       &:hover
         color: $main-color !important
@@ -1256,7 +1251,7 @@ table.matrix
           .publications__column__title-small
             font-family: 'GothamPro-Bold'
             margin-top: 4px
-          a 
+          a
             &:hover
               border-bottom: solid 1px $main-color
         .publications__column__wrapper-small
@@ -1313,7 +1308,7 @@ table.matrix
   justify-content: space-between
 .section-wrapper__access
   padding-bottom: 40px
-  p 
+  p
     font-size: 14px
     line-height: 1.8
     color: $text-color
@@ -1343,7 +1338,7 @@ table.matrix
         margin-top: -5px
         &.padding
           padding-top: 5px
-        a 
+        a
           color: $main-color
           &:hover
             line-height: 1
@@ -1398,7 +1393,7 @@ table.terminal-info
         color: $main-color
         font-size: 11px
         border: solid 0.5px $main-color
-        border-radius: 13px	
+        border-radius: 13px
         padding: 3px 6px
         font-weight: 600
         background-color: #fff
@@ -1436,9 +1431,9 @@ table.terminal-info
 
 /* contact */
 .section-wrapper__contact
-  p 
+  p
     font-size: 14px
-    a 
+    a
       color: $main-color
   .contents__wrapper
     margin-top: 30px
