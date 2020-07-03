@@ -595,7 +595,7 @@ var initialize = {
                     "</div>";
                 }
               }
-              categoryTag += '<div>'
+              categoryTag += "</div>"
               return categoryTag
             }
 
@@ -603,10 +603,11 @@ var initialize = {
             if (lang === 'ja') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_image0" class="repos_image">' +
-                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>' +
+                '<a href="' + symbolYList[i][url_order] + '" target="_blank">' +
+                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services" /></a></div>' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
                 '<p class="name name_ja" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][core_service_name_order] + '</p>' +
-                '<div class="keyword">' + symbolYList[i][keyword_ja_order] + '</div>' +
+                '<div class="keyword"><p>' + symbolYList[i][keyword_ja_order] + '</p></div>' +
                 addTagLine(tagArray, 'ja') +
                 '<div class="btn-box">' +
                 '<a class="page_btn more_btn">' + '詳細' + '</a>' +
@@ -615,10 +616,11 @@ var initialize = {
             } else if (lang === 'en') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
                 '<div id="repos_image0" class="repos_image">' +
-                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services"></div>' +
+                '<a href="' + symbolYList[i][url_order] + '" target="_blank">' +
+                '<img src="./img/service_assets/' + symbolYList[i][image_order] + '" alt="' + symbolYList[i][service_name_order] + '" class="object-fit-img img_services" /></a></div>' +
                 '<div id="repos_name' + i + '" class="repos_name">' +
                 '<p class="name name_en" id="' + symbolYList[i][service_name_order] + '">' + symbolYList[i][service_name_order] + '</p>' +
-                '<div class="keyword">' + symbolYList[i][keyword_en_order] + '</div>' +
+                '<div class="keyword"><p>' + symbolYList[i][keyword_en_order] + '</p></div>' +
                 addTagLine(tagArray, 'en') +
                 '<div class="btn-box">' +
                 '<a class="page_btn more_btn">' + 'more' + '</a>' +
@@ -631,12 +633,17 @@ var initialize = {
           }
           $("#service_list").append(element);
           var containerEl = document.querySelector('.service__wrapper');
-          var mixer = mixitup(containerEl, {
+          mixitup(containerEl, {
             multifilter: {
               enable: true
             },
             debug: {
               enable: true
+            },
+            callbacks: {
+              onMixStart: function (state, futureState) {
+                $('[data-filter=".mix"]').removeClass('active')
+              }
             }
           });
         }

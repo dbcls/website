@@ -38,7 +38,6 @@ body
   border-radius: 12px
   background: white
   height: 22px
-  margin-left: auto
   text-decoration: none
   white-space: nowrap
   &.more_btn
@@ -92,6 +91,8 @@ body
     border: none
     text-align: left
     padding-left: 0
+    &.active
+      opacity: 1
     .category-double-col
       margin-left: 13px
     &:focus
@@ -1029,7 +1030,8 @@ table.matrix
     align-self: self-end
     &.contener-type-box
       position: relative
-      height: 360px
+      min-height: 360px
+      align-self: stretch
       width: 262px
       border: solid 0.25px #cccccc
       .repos_image
@@ -1046,17 +1048,17 @@ table.matrix
           height: auto
           max-width: 180px
           max-height: 84px
+          min-width: 180px
       .repos_name
-        height: 120px
+        // height: 120px
         padding: 6px 19px
         .btn-box
+          width: 100%
+          margin-top: 5px
+          margin-bottom: 5px
           display: flex
           justify-content: center
           align-items: center
-          position: absolute
-          bottom: 7px
-          left: 50%
-          transform: translateX(-50%)
           .access_btn
             margin-left: 5px
         .name
@@ -1066,12 +1068,20 @@ table.matrix
         .keyword
           font-size: 12px
           border-bottom: dashed 0.5px #cccccc
-          height: 88px
+          height: 78px
           margin-bottom: 6px
+          overflow: hidden
+          > p
+            display: -webkit-box
+            -webkit-box-orient: vertical
+            -webkit-line-clamp: 4
+            line-height: 1.5em
         .tag_wrapper
           display: flex
-          flex-wrap: wrap
+          flex-direction: column
           margin-left: -10px
+          min-height: 72px
+          align-items: flex-start
           .service_category
             font-size: 12px
             display: flex
