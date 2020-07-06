@@ -654,8 +654,6 @@ var initialize = {
     $(document).on('click', '.more_btn', function () {
       var service_name = $(this)
         .parent()
-        .parent()
-        .parent()
         .siblings(".name")
         .attr("id");
       service_name = service_name.replace(/ /g, '_')
