@@ -1,6 +1,6 @@
 # SPARQL support
-### What is SPARQL support?
-SPARQL support is a SPARQL client / SPARQL query editor works on web browser. (http://sparql-support.dbcls.jp/)
+### SPARQL support is
+a SPARQL client / SPARQL query editor works on web browser. (http://sparql-support.dbcls.jp/)
 
 #### Features of SPARQL support
 * Complement indents, variable names and prefixes.
