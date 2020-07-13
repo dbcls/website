@@ -6,4 +6,4 @@ a web service to search RDF data in the endpoint using visualised network graph.
 
 #### Usage
 * Abailable in http://sparql-support.dbcls.jp/endpoint-browser.html
-* [Reference](https://sparql-support.dbcls.jp/sparql-support_j.html#endpoint_browser)
+* [Reference](https://sparql-support.dbcls.jp/sparql-support.html#endpoint_browser)
