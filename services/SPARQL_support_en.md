@@ -1,6 +1,6 @@
 # SPARQL support
 ### What is SPARQL support?
-SPARQL support is a SPARQL query editor that works on web browser. (http://sparql-support.dbcls.jp/)
+SPARQL support is a SPARQL client / SPARQL query editor works on web browser. (http://sparql-support.dbcls.jp/)
 
 #### Features of SPARQL support
 * Complement indents, variable names and prefixes.
@@ -18,10 +18,6 @@ F|              -->   FILTER (|)
 PREFIX obo:|    -->   PREFIX obo: <http://purl.obolibrary.org/obo/>|
 <id>|           -->   <http://identifiers.org/>|
 ```
-#### Endpoint browser
-* A web service to search RDF data in the endpoint using visualised network graph.
-
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/SPARQL_support_fig-2.png)
 
 #### Usage
 * Abailable in http://sparql-support.dbcls.jp/
