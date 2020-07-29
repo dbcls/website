@@ -1,6 +1,6 @@
 name: dbcls news
 description: Database Center for Life Science (DBCLS) forms a base for integrating databases in life science field. Positioning itself as a specialized institution to provide biological databases and related services, DBCLS integrates and maintains biological databases mainly within Japan, conducts R&D of information technology and develops new services to enhance usability.
-url: https://dbcls.rois.ac.jp/
+url: https://dbcls.rois.ac.jp
 baseurl: ''
 imageurl: '/img/'
 BASE_PATH : /my-first-prose
