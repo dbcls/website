@@ -4,8 +4,8 @@ DBCLS SRA is a search engine for public NGS data. It provides a project list cat
 
 ( http://sra.dbcls.jp/ )
 
-![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-1_191224.png)　
-![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_DDBJ_Search_fig-2_191224.png)
+![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_SRA_fig-1_200729.png)　
+![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_SRA_fig-2_200729.png)
 
 
 #### References
