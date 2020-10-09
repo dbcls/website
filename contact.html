@@ -23,47 +23,48 @@
     </div>
     <div class="main__contents">
       <div id="main__contents-">
-    		<div class="main__content-title__wrapper">
-    			<h3 class="main__content-title">お問い合わせ</h3>
-  			</div>
-  			<div class="section-wrapper__contact">
-  				<p class="description">DBCLSに関する<a href="/faq.html">よくあるご質問はこちら</a>からどうぞ。</p>
-  				<p class="adelement__description">また、生命科学研究の特に技術的な疑問や質問については、<a href="http://qa.lifesciencedb.jp/" target="_blank">ライフサイエンスQA</a> をご覧いただくと回答が共有されていることがあります。</p>
-  				<div class="contents__wrapper">
-	  				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" ></iframe>
-						<!--form action="https://docs.google.com/forms/d/e/1FAIpQLScRjapXpoqmtkK9Mm4JlKlvMuwWE2Msg8Se_3L5P2stllFD7A/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true"-->
-						<form action="https://docs.google.com/forms/d/e/1FAIpQLSfc-NJM8oSraAV705s9n3OXMEgN8XVJh6JeK8a_4Z7eHueiYQ/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true">
-							<section>
-								<h3>メールアドレス</h3>
-								<input type="email" name="emailAddress" required/>
-							</section>
-							<section>
-								<h3>題名</h3>
-								<!--input type="" name="entry.1817893011" required/-->
-								<input type="" name="entry.328797653" required/>
-							</section>
-							<section>
-								<h3>メッセージ本文</h3>
-								<p class="description">お問い合わせ対象のサービス名やURLを記載してください。スムーズな対応が可能です。</p>
-								<!--textarea name="entry.777481871" required></textarea-->
-								<textarea name="entry.1082931457" required></textarea>
-							</section>
-							<section>
-								<h3>お名前</h3>
-								<!--input type="" name="entry.604032816" required/-->
-								<input type="" name="entry.1419418193" required/>
-							</section>
-							<div class="btn_submit">
-                <button class="g-recaptcha" 
+        <div class="main__content-title__wrapper">
+          <h3 class="main__content-title">お問い合わせ</h3>
+        </div>
+        <div class="section-wrapper__contact">
+          <p class="description">DBCLSに関する<a href="/faq.html">よくあるご質問はこちら</a>からどうぞ。</p>
+          <p class="adelement__description">また、生命科学研究の特に技術的な疑問や質問については、<a href="http://qa.lifesciencedb.jp/" target="_blank">ライフサイエンスQA</a> をご覧いただくと回答が共有されていることがあります。</p>
+          <div class="contents__wrapper">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" ></iframe>
+            <!--form action="https://docs.google.com/forms/d/e/1FAIpQLScRjapXpoqmtkK9Mm4JlKlvMuwWE2Msg8Se_3L5P2stllFD7A/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true"-->
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfc-NJM8oSraAV705s9n3OXMEgN8XVJh6JeK8a_4Z7eHueiYQ/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true">
+              <section>
+                <h3>メールアドレス</h3>
+                <input type="email" name="emailAddress" required/>
+              </section>
+              <section>
+                <h3>題名</h3>
+                <!--input type="" name="entry.1817893011" required/-->
+                <input type="" name="entry.328797653" required/>
+              </section>
+              <section>
+                <h3>メッセージ本文</h3>
+                <p class="description">お問い合わせ対象のサービス名やURLを記載してください。スムーズな対応が可能です。</p>
+                <!--textarea name="entry.777481871" required></textarea-->
+                <textarea name="entry.1082931457" required></textarea>
+              </section>
+              <section>
+                <h3>お名前</h3>
+                <!--input type="" name="entry.604032816" required/-->
+                <input type="" name="entry.1419418193" required/>
+              </section>
+              <div class="btn_submit">
+                <button type="submit" name="button" value="送信する">送信する</button>
+                <!-- <button class="g-recaptcha"
                 data-sitekey="6LfyebgZAAAAAM29lOrMlYD6tpYTgWu7Q330sQG7" 
-                data-callback='onSubmit' 
-                data-action='submit'>送信</button>
-							</div>
-						</form>
-					</div>
-  			</div>
-			</div>
-		</div>
+                data-callback='onSubmit'
+                data-action='submit'>送信</button> -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 {% include footer.html %}
 </body>
@@ -71,6 +72,7 @@
 <script src="script/default-min.js"></script>
 <script>
   function onSubmit(token) {
+    console.log('token', token)
     document.getElementById("demo-form").submit();
     window.location='completion.html'
   }
