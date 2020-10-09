@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800");
-@import url(/Users/hirahara/Desktop/works/DBCLS/website/style/font-awesome.css);
-@import url(/Users/hirahara/Desktop/works/DBCLS/website/style/gotham.css);
+@import url(/Users/hiraharareika/Desktop/works/DBCLS/website/style/font-awesome.css);
+@import url(/Users/hiraharareika/Desktop/works/DBCLS/website/style/gotham.css);
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -85,8 +85,12 @@ body a {
   border-radius: 12px;
   background: white;
   height: 22px;
-  margin-left: auto;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.page_btn.more_btn {
+  width: 57px;
 }
 
 .page_btn:before {
@@ -96,15 +100,6 @@ body a {
   height: 9px;
   margin-right: 5px;
   background-image: url(../img/icon_more.svg);
-}
-
-.page_btn.more_btn {
-  width: 57px;
-  cursor: pointer;
-}
-
-.page_btn.access_btn {
-  width: 72px;
 }
 
 .page_btn.pdf_btn {
@@ -133,6 +128,10 @@ body a {
   height: 12px;
   margin-right: 3px;
   background: url(../img/icon_img.svg) no-repeat;
+}
+
+.page_btn:hover {
+  cursor: pointer;
 }
 
 .btn-box__top {
@@ -164,6 +163,11 @@ body a {
   opacity: 0.3;
   border: none;
   text-align: left;
+  padding-left: 0;
+}
+
+.controls .control.active {
+  opacity: 1;
 }
 
 .controls .control .category-double-col {
@@ -988,7 +992,7 @@ footer a:hover {
 .outline-list-category__wrapper {
   width: 200px;
   cursor: pointer;
-  cursor-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .outline-list-category__wrapper .outline-list-category__title {
@@ -1304,40 +1308,65 @@ table.matrix tbody td a:before {
   border-radius: 10px;
 }
 
-.tag_element.all:before {
-  background-color: #004098;
+.tag_element.user:before {
+  font-family: 'FontAwesome';
+  content: '\f007' !important;
 }
 
-.tag_element.omics:before {
-  background-color: #FFA600;
+.tag_element.database-integration:before {
+  background-color: #FC3F64;
 }
 
-.tag_element.contents:before {
-  background-color: #80B248;
+.tag_element.materials:before {
+  background-color: #FF7208;
 }
 
-.tag_element.text-mining:before {
-  background-color: #a26940;
+.tag_element.genome:before {
+  background-color: #0085BF;
 }
 
-.tag_element.semantic:before {
-  background-color: #48CFBA;
+.tag_element.gene:before {
+  background-color: #3AC1B0;
+}
+
+.tag_element.gene-expression:before {
+  background-color: #42B250;
+}
+
+.tag_element.NGS:before {
+  background-color: #FFC32C;
+}
+
+.tag_element.disease:before {
+  background-color: #CC71B6;
+}
+
+.tag_element.natural-language-processing:before {
+  background-color: #FF859F;
+}
+
+.tag_element.SPARQL:before {
+  background-color: #AF6A58;
+}
+
+.tag_element.RDF-creation:before {
+  background-color: #CCBDB8;
 }
 
 .tag_element.biologist:before {
-  background-color: #0097CF;
+  color: #BA9806;
 }
 
 .tag_element.application:before {
-  background-color: #9791D9;
+  color: #006635;
 }
 
 .tag_element.data-scientist:before {
-  background-color: #B769C2;
+  color: #224372;
 }
 
 .tag_element.provider:before {
-  background-color: #F77786;
+  color: #821255;
 }
 
 .tag_element.term:before {
@@ -1392,7 +1421,8 @@ table.matrix tbody td a:before {
 
 .wrapper-type-box .article__section.contener-type-box {
   position: relative;
-  height: 360px;
+  min-height: 360px;
+  align-self: stretch;
   width: 262px;
   border: solid 0.25px #cccccc;
 }
@@ -1409,27 +1439,24 @@ table.matrix tbody td a:before {
 }
 
 .wrapper-type-box .article__section.contener-type-box .repos_image img {
-  width: 180px;
-  height: 84px;
+  width: auto;
+  height: auto;
+  max-width: 180px;
+  max-height: 84px;
+  min-width: 180px;
 }
 
 .wrapper-type-box .article__section.contener-type-box .repos_name {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 130px;
-  height: 120px;
-  padding: 0 19px;
+  padding: 6px 19px;
 }
 
 .wrapper-type-box .article__section.contener-type-box .repos_name .btn-box {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: -101px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .wrapper-type-box .article__section.contener-type-box .repos_name .btn-box .access_btn {
@@ -1445,17 +1472,33 @@ table.matrix tbody td a:before {
 .wrapper-type-box .article__section.contener-type-box .repos_name .keyword {
   font-size: 12px;
   border-bottom: dashed 0.5px #cccccc;
-  height: 88px;
+  height: 75px;
   margin-bottom: 6px;
+  overflow: hidden;
 }
 
-.wrapper-type-box .article__section.contener-type-box .repos_name .service_category {
+.wrapper-type-box .article__section.contener-type-box .repos_name .keyword > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-height: 1.5em;
+}
+
+.wrapper-type-box .article__section.contener-type-box .repos_name .tag_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  min-height: 72px;
+  align-items: flex-start;
+}
+
+.wrapper-type-box .article__section.contener-type-box .repos_name .tag_wrapper .service_category {
   font-size: 12px;
   display: flex;
   align-items: center;
 }
 
-.wrapper-type-box .article__section.contener-type-box .repos_name .service_category:before {
+.wrapper-type-box .article__section.contener-type-box .repos_name .tag_wrapper .service_category:before {
   content: "";
   display: inline-block;
   width: 10px;
@@ -1468,8 +1511,12 @@ table.matrix tbody td a:before {
   margin-right: 3px;
 }
 
-.wrapper-type-box .article__section.contener-type-box .repos_name .service_category.dna:before {
+.wrapper-type-box .article__section.contener-type-box .repos_name .tag_wrapper .service_category.dna:before {
   background-color: #FFA600;
+}
+
+.wrapper-type-box .article__section.contener-type-box .repos_name .tag_wrapper .service_category.card {
+  margin-left: 10px;
 }
 
 .wrapper-type-box .article__section.contener-type-box .repos_name .service_type {
@@ -1609,6 +1656,15 @@ table.matrix tbody td a:before {
 }
 
 .wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-orcid:before {
+  content: url(../img/icon_id.svg);
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 13px;
+  height: 14px;
+}
+
+.wrapper-type-list .content-wrapper__member .content__member ul li.links .btn-box a.btn-researchmap:before {
   content: url(../img/icon_id.svg);
   position: absolute;
   top: 0px;

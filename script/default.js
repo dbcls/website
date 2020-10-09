@@ -902,6 +902,7 @@ var initialize = {
       var keyword_order = getOrder('keyword')
       var keyword_en_order = getOrder('keyword-en')
       var orcid_order = getOrder('ORCID')
+      var research_map_order = getOrder('Researchmap')
       var googleScholar_order = getOrder('Google Scholar')
       var github_order = getOrder('github')
       var mail_order = getOrder('mail')
@@ -923,7 +924,7 @@ var initialize = {
         }
       }
 
-      function judgeExist(data, className, linkName) {
+      function judgeExist(data, className, linkName, lang) {
         var elements = ''
         if (data) {
           if (linkName === 'Mail') {
@@ -932,6 +933,12 @@ var initialize = {
             data = 'https://github.com/' + data
           } else if (linkName === 'ORCID') {
             data = 'https://orcid.org/' + data
+          } else if (linkName === 'researchmap') {
+            if (lang === "en") {
+              data = ' https://researchmap.jp/' + data + '?lang=en'
+            } else {
+              data = ' https://researchmap.jp/' + data
+            }
           }
           elements = '<a href="' + data + '" class="' + className + '" target="_blank">' + linkName + '</a>'
         } else {
@@ -963,6 +970,7 @@ var initialize = {
           var keyword = data[i][keyword_order]
           //var keyword_en = data[i][]
           var orcid = data[i][orcid_order]
+          var research_map = data[i][research_map_order]
           var googleScholar = data[i][googleScholar_order]
           var github = data[i][github_order]
           var mail = data[i][mail_order]
@@ -971,6 +979,7 @@ var initialize = {
           var link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
             judgeExist(orcid, 'btn-orcid', 'ORCID') +
+            judgeExist(research_map, 'btn-researchmap', 'researchmap') +
             judgeExist(googleScholar, 'btn-gs', 'Google Scholar') +
             judgeExist(website, 'btn-web', 'Website')
           if (non_publish === 'Yes') {
@@ -1011,6 +1020,7 @@ var initialize = {
           var keyword = data[i][keyword_order]
           var keyword_en = data[i][keyword_en_order]
           var orcid = data[i][orcid_order]
+          var research_map = data[i][research_map_order]
           var googleScholar = data[i][googleScholar_order]
           var github = data[i][github_order]
           var mail = data[i][mail_order]
@@ -1020,6 +1030,7 @@ var initialize = {
           link_section = judgeExist(mail, 'btn-mail', 'Mail') +
             judgeExist(github, 'btn-github', 'GitHub') +
             judgeExist(orcid, 'btn-orcid', 'ORCID') +
+            judgeExist(research_map, 'btn-researchmap', 'researchmap', 'en') +
             judgeExist(googleScholar, 'btn-gs', 'Google Scholar') +
             judgeExist(website, 'btn-web', 'Website')
 
