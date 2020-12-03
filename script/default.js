@@ -599,6 +599,12 @@ var initialize = {
               return categoryTag
             }
 
+            var service_name_hash = symbolYList[i][service_name_order]
+            service_name_hash = service_name_hash.replace(/ /g, '_')
+            if(service_name_hash.indexOf('/') !== -1) {
+              service_name_hash = encodeURIComponent(service_name_hash)
+            }
+
             var lang = $('html').attr('lang')
             if (lang === 'ja') {
               element += '<article class="article__section contener-type-box mix ' + tagName + '">' +
@@ -610,7 +616,7 @@ var initialize = {
                 '<div class="keyword"><p>' + symbolYList[i][keyword_ja_order] + '</p></div>' +
                 addTagLine(tagArray, 'ja') +
                 '<div class="btn-box">' +
-                '<a class="page_btn more_btn">' + '詳細' + '</a>' +
+                '<a class="page_btn more_btn" target="_blank" href="#' + service_name_hash + '">' + '詳細' + '</a>' +
                 '<a href="' + symbolYList[i][url_order] + '" class="page_btn access_btn" target="_blank">アクセス</a>' +
                 '</div></div>'
             } else if (lang === 'en') {
@@ -623,7 +629,7 @@ var initialize = {
                 '<div class="keyword"><p>' + symbolYList[i][keyword_en_order] + '</p></div>' +
                 addTagLine(tagArray, 'en') +
                 '<div class="btn-box">' +
-                '<a class="page_btn more_btn">' + 'more' + '</a>' +
+                '<a class="page_btn more_btn" target="_blank" href="#' + service_name_hash + '">' + 'more' + '</a>' +
                 '<a href="' + symbolYList[i][url_order] + '" class="page_btn access_btn" target="_blank">Access</a>' +
                 '</div></div>'
             }
@@ -643,6 +649,11 @@ var initialize = {
             callbacks: {
               onMixStart: function (state, futureState) {
                 $('[data-filter=".mix"]').removeClass('active')
+                window.scrollTo({
+                  top:  0,
+                  left: 0,
+                  behavior: 'smooth'
+                });
               }
             }
           });
@@ -651,17 +662,17 @@ var initialize = {
     }
 
     //詳細ボタンクリックでREADME表示
-    $(document).on('click', '.more_btn', function () {
-      var service_name = $(this)
-        .parent()
-        .siblings(".name")
-        .attr("id");
-      service_name = service_name.replace(/ /g, '_')
-      if(service_name.indexOf('/') !== -1) {
-        service_name = encodeURIComponent(service_name)
-      }
-      location.hash = service_name
-    })
+    // $(document).on('click', '.more_btn', function () {
+    //   var service_name = $(this)
+    //     .parent()
+    //     .siblings(".name")
+    //     .attr("id");
+    //   service_name = service_name.replace(/ /g, '_')
+    //   if(service_name.indexOf('/') !== -1) {
+    //     service_name = encodeURIComponent(service_name)
+    //   }
+    //   location.hash = service_name
+    // })
 
     //リポジトリ個別ページ
     function displayRepos(repos_name) {
