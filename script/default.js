@@ -676,6 +676,8 @@ var initialize = {
 
     //リポジトリ個別ページ
     function displayRepos(repos_name) {
+      $('title').text(`${decodeURIComponent(repos_name.replace(/\_/g, ' '))} | DBCLS`)
+
       $('html,body').scrollTop(0);
       var md_data = ''
       $.ajax({
