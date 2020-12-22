@@ -540,8 +540,6 @@ var initialize = {
               'ja': 'RDF作成',
               'en': 'RDF creation'
             },
-
-
             'biologist': {
               'ja': 'データベース利用者',
               'en': 'Database user'

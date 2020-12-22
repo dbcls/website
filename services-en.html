@@ -34,7 +34,40 @@
               <li class="tag_panel ">
                 <span class="tag_panel-category-title">Category</span>
                 <fieldset data-filter-group class="tag_panel_header controls" style="border: none">
-                  <button type="button" class="tag_element term control" data-filter=".mix">
+                  <button type="button" class="tag_element term control active" data-filter=".mix">
+                    All
+                  </button>
+                  <button type="button" class="tag_element database-integration control" data-toggle=".database-integration">
+                    Database integration
+                  </button>
+                  <button type="button" class="tag_element materials control" data-toggle=".materials">
+                    Materials
+                  </button>
+                  <button type="button" class="tag_element genome control" data-toggle=".genome">
+                    Genome
+                  </button>
+                  <button type="button" class="tag_element gene control" data-toggle=".gene">
+                    Gene
+                  </button>
+                  <button type="button" class="tag_element gene-expression control" data-toggle=".gene-expression">
+                    Gene expression
+                  </button>
+                  <button type="button" class="tag_element NGS control" data-toggle=".NGS">
+                    NGS
+                  </button>
+                  <button type="button" class="tag_element disease control" data-toggle=".disease">
+                    Disease
+                  </button>
+                  <button type="button" class="tag_element natural-language-processing control" data-toggle=".natural-language-processing">
+                    Natural language processing
+                  </button>
+                  <button type="button" class="tag_element SPARQL control" data-toggle=".SPARQL">
+                    SPARQL Search
+                  </button>
+                  <button type="button" class="tag_element RDF-creation control" data-toggle=".RDF-creation">
+                    RDF creation
+                  </button>
+                  <!-- <button type="button" class="tag_element term control" data-filter=".mix">
                     All
                   </button>
                   <button type="button" class="tag_element omics control" data-toggle=".omics">
@@ -48,13 +81,30 @@
                   </button>
                   <button type="button" class="tag_element semantic control" data-toggle=".semantic">
                     Semantic web
-                  </button>
+                  </button> -->
                 </fieldset>
               </li>
               <li class="tag_panel">
                 <span class="tag_panel-category-title">User</span>
                 <fieldset data-filter-group class="tag_panel_header controls" style="border: none">
-                  <button type="button" class="tag_element all control" data-filter=".mix">
+                  <button type="button" class="tag_element user all control active" data-filter=".mix">
+                    All
+                  </button>
+                  <button type="button" class="tag_element user biologist control" data-toggle=".biologist">
+                    Database user
+                  </button>
+                  <button type="button" class="tag_element user application control" data-toggle=".application">
+                    Database
+                    <br>
+                    <span class="category-double-col">application developer</span>
+                  </button>
+                  <button type="button" class="tag_element user data-scientist control" data-toggle=".data-scientist">
+                    Data scientist
+                  </button>
+                  <button type="button" class="tag_element user provider control" data-toggle=".provider">
+                    Data provider
+                  </button>
+                  <!-- <button type="button" class="tag_element all control" data-filter=".mix">
                     All
                   </button>
                   <button type="button" class="tag_element biologist control" data-toggle=".biologist">
@@ -70,7 +120,7 @@
                   </button>
                   <button type="button" class="tag_element provider control" data-toggle=".provider">
                     Data provider
-                  </button>
+                  </button> -->
                 </fieldset>
               </li>
             </ul>
