@@ -585,8 +585,17 @@ var initialize = {
               } else if (lang === 'en') {
                 for (var j = 0; j < array.length; j++) {
                   var category_name = array[j]
+                  let user = ''
+                  if (
+                    category_name === "biologist" ||
+                    category_name === "application" ||
+                    category_name === "data-scientist" ||
+                    category_name === "provider"
+                  ) {
+                    user = 'user'
+                  }
                   categoryTag +=
-                    '<div class="service_category card tag_element ' +
+                    '<div class="service_category card ' + user + ' tag_element ' +
                     array[j] +
                     '">' +
                     tagMapping[category_name].en +
