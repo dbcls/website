@@ -2,7 +2,7 @@
 
 ### PubDictionariesとは
 * **テキストマイニング** のために開発された **辞書** の **公開レポジトリ** です。
-* PubDictionaries上に登録されている辞書を使って **テキストの自動アノテーション** が出来ます。  
+* PubDictionaries上に登録されている辞書を使って **テキストの自動アノテーション** ができます。  
 http://pubdictionaries.org
 
 ### 辞書とは
@@ -14,9 +14,9 @@ http://pubdictionaries.org
 </p>
 
 ### 使い方
-* 誰でも辞書を提供することが出来ます。
+* 誰でも辞書を提供することができます。
 * TSV (tab-separated values)フォーマットの辞書を受け付けることができます。
-* 提供された辞書を使ってすぐテキストをアノテーションするのことが出来ます。
+* 提供された辞書を使ってすぐテキストをアノテーションすることができます。
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubDictionaries_fig-2_180603.png">
