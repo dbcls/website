@@ -238,7 +238,7 @@ var initialize = {
 				const year = update_date.getFullYear()
 				const month = update_date.getMonth()
 				const date = update_date.getDate()
-				$('.update_date').text(`${year}年${month}月${date}日現在`)
+				$('.update_date').text(`${year}年${month + 1}月${date}日現在`)
 				// Lading 画像を消す
 				removeLoading();
 				var web_server_order = 0
