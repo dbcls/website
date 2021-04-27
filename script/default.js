@@ -333,12 +333,14 @@ var initialize = {
             return data[1] !== 'Original'
           })
           var results = "";
-
+          
           for (var i = 0; i < service_array.length; i++) {
+
+            const pubmed = service_array[i][2] === "NA" ? "NA" : `<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=${service_array[i][2]}" target="_blank">${service_array[i][2]}</a>`
             results +=
               '<div class="publications__column__wrapper">' +
               '<h4 class="publications__column__title">' + service_array[i][title_order] + '</h4>' +
-              '<p class="publications__column__pubmed"><span class="publications__column__title-small">Pubmed: </span><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=' + service_array[i][2] + '">https://www.ncbi.nlm.nih.gov/pubmed/?term=' + service_array[i][2] + '</a></p>' +
+              '<p class="publications__column__pubmed"><span class="publications__column__title-small">Pubmed: </span>' + pubmed + '</p>' +
               '<p class="publications__column__DOI"><span class="publications__column__title-small">DOI: </span><a href="' + service_array[i][DOI_order] + '">' + service_array[i][DOI_order] + '</a></p>' +
               '<div class="publications__column__wrapper-small">' +
               '<i class="fa fa-user" aria-hidden="true"></i>' +
