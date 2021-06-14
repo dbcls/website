@@ -10,7 +10,7 @@ TogoID は データベース(DB)のID間のリンク情報を検索および変
     - [https://github.com/dbcls/togoid-config](https://github.com/dbcls/togoid-config)
 
 - API も同時に用意しており、他のアプリケーションからのID変換にも利用することができます。
-    - 例: [hhttps://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
+    - 例: [https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
 
 
 ## スクリーンショット
