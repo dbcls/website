@@ -4,12 +4,11 @@ TogoID は データベース(DB)のID間のリンク情報を検索および変
 
 
 ## TogoID の特徴
-- 利用者の持つIDあるいはIDリスト(数十から数千〜)を入力することで、変換可能なIDが列挙されます。1対1のID変換だけでなく、数珠つなぎのように複数のID間をまたぐ変換も可能です。
-- TogoIDでは、変換されたIDをすぐさま他のサービスで利用できるようクリップボードにコピーされる機能があるほか、IDリストのダウンロードやオリジナルDBへのリンクURLのダウンロード、そして変換経路のすべてのIDを含むデータをCSV形式で取得することができます。
-- ID間リンク情報は、各DBが提供するRDFデータからSPARQL検索で抽出しているほか、API経由、オリジナルファイルからの変換などによって整備しており、2021年7月現在、ヒトに関するIDを対象に、60以上のDB、150以上のIDペアが対象になっています(随時拡張中)。対象DBのIDに関するメタデータやIDペアの更新方法、更新頻度などを整備することで、常に最新のID間リンク情報が得られるようにしています。
+- 利用者の持つIDあるいはIDリスト(数十から数千〜)を入力することで、変換可能なIDが列挙されます。1対1のID変換だけでなく、数珠つなぎのように複数のDB間をまたぐ変換も可能です。
+- TogoIDでは、変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
+- ID間のリンク情報は、各DBのRDFデータ、API、フラットファイルからの抽出によって整備しており、2021年7月現在、60以上のDB、150以上のDBペアが対象になっています(随時拡張中)。対象DBのIDに関するメタデータや、IDペアの更新方法、更新頻度などを管理することで、常に最新のID間リンク情報を得られるようにしています。
     - [https://github.com/dbcls/togoid-config](https://github.com/dbcls/togoid-config)
-
-- API も同時に用意しており、他のアプリケーションからのID変換にも利用することができます。
+- ウェブインターフェイスだけでなく、APIも用意しており、他のアプリケーションからのID変換にも利用することができます。
     - 例: [https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
 
 
