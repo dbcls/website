@@ -9,7 +9,9 @@ TogoID は データベース(DB)のID間のリンク情報を検索および変
 - ID間のリンク情報は、各DBのRDFデータ、API、フラットファイルからの抽出によって整備しており、2021年7月現在、60以上のDB、150以上のDBペアが対象になっています(随時拡張中)。対象DBのIDに関するメタデータや、IDペアの更新方法、更新頻度などを管理することで、常に最新のID間リンク情報を得られるようにしています。
     - [https://github.com/dbcls/togoid-config](https://github.com/dbcls/togoid-config)
 - ウェブインターフェイスだけでなく、APIも用意しており、他のアプリケーションからのID変換にも利用することができます。
-    - 例: [https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
+    - 例1: [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json)
+    - 例2: [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json)
+    - 例3: [https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
 
 
 ## スクリーンショット
