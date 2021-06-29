@@ -17,14 +17,14 @@ TogoID is a web application that allows you to search and convert links between 
 
 ### ID conversion from top page
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-1_20210614.png)
 
 ### Results of ID conversion
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-2_20210614.png)
 
 ### Metadata about the IDs of the listed DBs
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3_20210614.png)
 
 
