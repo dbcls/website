@@ -1,6 +1,6 @@
 # TogoID
 ## About TogoID
-TogoID is a web application that allows you to search and convert links between identifier(ID)s of databases(DBs) in the life sciences. [https://togoid.dbcls.jp/](https://togoid.dbcls.jp/)
+TogoID is a web application that allows you to search and convert links between identifiers(IDs) of databases(DBs) in the life sciences. [https://togoid.dbcls.jp/](https://togoid.dbcls.jp/)
 
 ## Features of TogoID
 - When you enter a list of IDs (up to thousands), DBs of conversion candidates are listed, and then you can convert them to the corresponding IDs. In addition to one-to-one ID conversion, it is also possible to convert including the route to the target DB.
