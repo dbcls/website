@@ -1,6 +1,6 @@
 # TogoID
 ## TogoID とは
-TogoID は データベース(DB)のID間のリンク情報を検索および変換することができるウェブツールです。(https://togoid.dbcls.jp/)
+TogoID は 生命科学分野におけるデータベース(DB)のID間のリンク情報を検索および変換することができるウェブアプリケーションです。(https://togoid.dbcls.jp/)
 
 
 ## TogoID の特徴
