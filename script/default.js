@@ -27,41 +27,6 @@ document.head.appendChild(script)
 document.head.appendChild(script_sticky)
 document.head.appendChild(link_favicon)
 
-var setData = data => {
-  var feedArray = data.feed.entry
-  feedArray = feedArray.map(data => data.gs$cell)
-
-  //行、列の長さ
-  var colLength = feedArray.map(data => data.col)
-  colLength = Math.max.apply(null, colLength)
-  var rowLength = feedArray.map(data => data.row)
-  rowLength = Math.max.apply(null, rowLength)
-  var services_array = []
-
-  //配列にpushするための整形
-  feedArray = feedArray.map(data => {
-    data.row = Number(data.row) - 1
-    data.col = Number(data.col) - 1
-    return data
-  })
-  var child_array = []
-  var temp_array = []
-
-  for (let i = 0; i < rowLength; i++) {
-    temp_array.push([])
-    for (let j = 0; j < colLength; j++) {
-      temp_array[i].push('')
-    }
-  }
-
-  for (let i = 0; i < feedArray.length; i++) {
-    let current_cell = feedArray[i]
-    temp_array[current_cell.row][current_cell.col] = current_cell.$t
-  }
-
-  return temp_array
-}
-
 /* ------------------------------
  Loading イメージ表示関数
  引数： msg 画面に表示する文言
@@ -234,7 +199,7 @@ var initialize = {
       dataType: "json",
       async: true,
       success: function (data) {
-        const update_date = new Date(data.feed.updated.$t)
+        const update_date = new Date(data.updated)
         const year = update_date.getFullYear()
         const month = update_date.getMonth()
         const date = update_date.getDate()
@@ -242,33 +207,14 @@ var initialize = {
         // Lading 画像を消す
         removeLoading();
         var web_server_order = 0
-        var citation_order = 0
-        var PMID_order = 0
-        var DOI_order = 0
-        var title_order = 0
-        var first_author_order = 0
-        var Journal_order = 0
-        var e_pub_date_order = 0
-        var elementArray = setData(data)
-        elementArray[0].forEach((col_title, i) => {
-          if (col_title === "Web server") {
-            web_server_order = i
-          } else if (col_title === "Citation") {
-            citation_order = i
-          } else if (col_title === "PMID") {
-            PMID_order = i
-          } else if (col_title === "DOI") {
-            DOI_order = i
-          } else if (col_title === "Title") {
-            title_order = i
-          } else if (col_title === "First author") {
-            first_author_order = i
-          } else if (col_title === "Journal") {
-            Journal_order = i
-          } else if (col_title === "(e)pub date") {
-            e_pub_date_order = i
-          }
-        })
+        var citation_order = 1
+        var PMID_order = 2
+        var DOI_order = 3
+        var title_order = 4
+        var first_author_order = 5
+        var Journal_order = 6
+        var e_pub_date_order = 7
+        var elementArray = data.data
         var elementArray_service = []
         for (var i = 0; i < elementArray.length; i++) {
           elementArray_service.push(elementArray[i][0])
@@ -282,6 +228,7 @@ var initialize = {
             return list[0] === service_name
           })
         }
+
         var element = "";
         var names = Object.keys(filterList);
         names = names.sort(function (name_1, name_2) {
