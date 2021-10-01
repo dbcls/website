@@ -3,6 +3,16 @@
 		[
 			"Allie",
 			"",
+			34457144,
+			"http://doi.org/undefined",
+			"Auto-mapping Clinical Documents to ICD-10 using SNOMED-CT.",
+			"Isaradech N",
+			"AMIA Annu Symp Proc",
+			"2021-05-16T15:00:00.000Z"
+		],
+		[
+			"Allie",
+			"",
 			32759099,
 			"http://doi.org/10.2196/16948",
 			"Semantic Deep Learning: Prior Knowledge and a Type of Four-Term Embedding Analogy to Acquire Treatments for Well-Known Diseases.",
@@ -2023,6 +2033,16 @@
 		[
 			"BodyParts3D",
 			"",
+			34440523,
+			"http://doi.org/10.3390/life11080779",
+			"Investigation of Reaction Forces in the Thoracolumbar Fascia during Different Activities: A Mechanistic Numerical Study.",
+			"El-Monajjed K",
+			"Life (Basel)",
+			"2021-07-31T15:00:00.000Z"
+		],
+		[
+			"BodyParts3D",
+			"",
 			34273037,
 			"http://doi.org/10.1007/s11517-021-02408-9",
 			"The examination of stress shielding in a finite element lumbar spine inclusive of the thoracolumbar fascia.",
@@ -2363,6 +2383,26 @@
 		[
 			"CRISPRdirect",
 			"",
+			34489571,
+			"http://doi.org/10.1038/s41556-021-00745-3",
+			"Production of functional oocytes requires maternally expressed PIWI genes and piRNAs in golden hamsters.",
+			"Hasuwa H",
+			"Nat Cell Biol",
+			"2021-09-05T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34369554,
+			"http://doi.org/10.1242/bio.058789",
+			"Arf GTPase-activating proteins SMAP1 and AGFG2 regulate the size of Weibel-Palade bodies and exocytosis of von Willebrand factor.",
+			"Watanabe A",
+			"Biol Open",
+			"2021-08-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
 			33976430,
 			"http://doi.org/10.1038/s41590-021-00942-0",
 			"RIG-I triggers a signaling-abortive anti-SARS-CoV-2 defense in human lung cells.",
@@ -2419,16 +2459,6 @@
 			"Men H",
 			"Mamm Genome",
 			"2021-04-10T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33897623,
-			"http://doi.org/10.3389/fendo.2021.665874",
-			"A Testis-Specific Long Noncoding RNA, <i>Start</i>, Is a Regulator of Steroidogenesis in Mouse Leydig Cells.",
-			"Otsuka K",
-			"Front Endocrinol (Lausanne)",
-			"2021-03-31T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -2759,6 +2789,16 @@
 			"Hesami M",
 			"Molecules",
 			"2021-04-02T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33897623,
+			"http://doi.org/10.3389/fendo.2021.665874",
+			"A Testis-Specific Long Noncoding RNA, <i>Start</i>, Is a Regulator of Steroidogenesis in Mouse Leydig Cells.",
+			"Otsuka K",
+			"Front Endocrinol (Lausanne)",
+			"2021-03-31T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -6283,16 +6323,6 @@
 		[
 			"DBCLS SRA",
 			"",
-			32131720,
-			"http://doi.org/10.1186/s12864-020-6619-8",
-			"Whole genome resequencing of the Iranian native dogs and wolves to unravel variome during dog domestication.",
-			"Amiri Ghanatsaman Z",
-			"BMC Genomics",
-			"2020-03-03T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"",
 			32308977,
 			"http://doi.org/10.12688/f1000research.18236.1",
 			"BioHackathon 2015: Semantics of data for life sciences and reproducible research.",
@@ -6309,16 +6339,6 @@
 			"Blanco C",
 			"Phys Chem Chem Phys",
 			"2020-01-21T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"",
-			28970523,
-			"http://doi.org/10.1038/s41598-017-11976-6",
-			"CXCL6 is an important paracrine factor in the pro-angiogenic human cardiac progenitor-like cell secretome.",
-			"Torán",
-			"Sci Rep",
-			"2017-10-01T15:00:00.000Z"
 		],
 		[
 			"DBCLS SRA",
@@ -6382,16 +6402,6 @@
 		],
 		[
 			"DBCLS SRA",
-			"Cited reference",
-			25329319,
-			"http://doi.org/10.1371/journal.pone.0109656",
-			"De novo transcriptome sequencing analysis and comparison of differentially expressed genes (DEGs) in Macrobrachium rosenbergii in China.",
-			"Nguyen Thanh",
-			"PLoS ONE",
-			"2014-10-19T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
 			"Original",
 			24167589,
 			"http://doi.org/10.1371/journal.pone.0077910",
@@ -6409,6 +6419,26 @@
 			"Ohta",
 			"Gigascience",
 			"--"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			34527435,
+			"http://doi.org/10.7717/peerj.11875",
+			"Importance of experimental information (metadata) for archived sequence data: case of specific gene bias due to lag time between sample harvest and RNA protection in RNA sequencing.",
+			"Matsuda T.",
+			"PeerJ",
+			"2021-08-24T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			34438876,
+			"http://doi.org/10.3390/ani11082420",
+			"Identification of Novel lncRNA and Differentially Expressed Genes (DEGs) of Testicular Tissues among Cattle, Yak, and Cattle-Yak Associated with Male Infertility.",
+			"Zhao S",
+			"Animals (Basel)",
+			"2021-08-16T15:00:00.000Z"
 		],
 		[
 			"DBCLS SRA",
@@ -6442,6 +6472,26 @@
 		],
 		[
 			"DBCLS SRA",
+			"",
+			32131720,
+			"http://doi.org/10.1186/s12864-020-6619-8",
+			"Whole genome resequencing of the Iranian native dogs and wolves to unravel variome during dog domestication.",
+			"Amiri Ghanatsaman Z",
+			"BMC Genomics",
+			"2020-03-03T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			28970523,
+			"http://doi.org/10.1038/s41598-017-11976-6",
+			"CXCL6 is an important paracrine factor in the pro-angiogenic human cardiac progenitor-like cell secretome.",
+			"Torán",
+			"Sci Rep",
+			"2017-10-01T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
 			"Cited reference",
 			27867804,
 			"http://doi.org/10.12938/bmfh.16-003",
@@ -6449,6 +6499,16 @@
 			"Tanizawa",
 			"Biosci Microbiota Food Health",
 			"2016-07-13T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
+			25329319,
+			"http://doi.org/10.1371/journal.pone.0109656",
+			"De novo transcriptome sequencing analysis and comparison of differentially expressed genes (DEGs) in Macrobrachium rosenbergii in China.",
+			"Nguyen Thanh",
+			"PLoS ONE",
+			"2014-10-19T15:00:00.000Z"
 		],
 		[
 			"Gendoo",
@@ -6792,6 +6852,16 @@
 		],
 		[
 			"GGRNA",
+			"Mentioned in text",
+			"NA",
+			"http://doi.org/2241/00126564",
+			"ECT2 is a new prognostic marker for early lung adenocarcinoma",
+			"村田佳彦",
+			"筑波大学博士論文",
+			"2014-04-29T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
 			"Cited reference",
 			24789751,
 			"http://doi.org/10.3892/ijmm.2014.1758",
@@ -6809,6 +6879,16 @@
 			"Naito",
 			"Nucleic Acids Res.",
 			"2012-05-27T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"",
+			15273327,
+			"https://doi.org/10.1261/rna.7460104",
+			"Solution structure of an RNA stem-loop derived from the 3' conserved region of eel LINE UnaL2.",
+			"Baba",
+			"RNA",
+			"2004-07-22T15:00:00.000Z"
 		],
 		[
 			"GGRNA",
@@ -6879,26 +6959,6 @@
 			"Furuya",
 			"Toxicol. Appl. Pharmacol.",
 			"2016-09-14T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Mentioned in text",
-			"NA",
-			"http://doi.org/2241/00126564",
-			"ECT2 is a new prognostic marker for early lung adenocarcinoma",
-			"村田佳彦",
-			"筑波大学博士論文",
-			"2014-04-29T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"",
-			15273327,
-			"https://doi.org/10.1261/rna.7460104",
-			"Solution structure of an RNA stem-loop derived from the 3' conserved region of eel LINE UnaL2.",
-			"Baba",
-			"RNA",
-			"2004-07-22T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
@@ -7522,16 +7582,6 @@
 		],
 		[
 			"RefEx",
-			"",
-			33346378,
-			"http://doi.org/10.15252/embj.2020104712",
-			"A microtubule-LUZP1 association around tight junction promotes epithelial cell apical constriction.",
-			"Yano T",
-			"EMBO J",
-			"2020-12-20T15:00:00.000Z"
-		],
-		[
-			"RefEx",
 			"Cited reference",
 			34065451,
 			"https://doi.org/10.3390/biomedicines9050582",
@@ -7589,6 +7639,16 @@
 			"Nishimichi",
 			"J Pathol.",
 			"2021-01-11T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"",
+			33346378,
+			"http://doi.org/10.15252/embj.2020104712",
+			"A microtubule-LUZP1 association around tight junction promotes epithelial cell apical constriction.",
+			"Yano T",
+			"EMBO J",
+			"2020-12-20T15:00:00.000Z"
 		],
 		[
 			"RefEx",
@@ -8019,6 +8079,16 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			34471043,
+			"https://doi.org/10.1248/bpb.b21-00296",
+			"Elucidation of the Physiological Functions of Membrane Proteins as Novel Drug Target Candidate Molecules",
+			"Ichimura",
+			"Biol Pharm Bull.",
+			"2021-08-31T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -8791,5 +8861,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2021-09-03T14:58:02.160Z"
+	"updated": "2021-10-01T06:05:59.892Z"
 }
