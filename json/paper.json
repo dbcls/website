@@ -1043,21 +1043,21 @@
 		[
 			"BH_in_Ack_Fund",
 			"",
-			30624651,
-			"http://doi.org/10.1093/database/bay132",
-			"TogoGenome/TogoStanza: modularized Semantic Web genome database.",
-			"Katayama T",
-			"Database (Oxford)",
-			"2018-12-31T15:00:00.000Z"
-		],
-		[
-			"BH_in_Ack_Fund",
-			"",
 			30295851,
 			"http://doi.org/10.1093/nar/gky899",
 			"The jPOST environment: an integrated proteomics data repository and database.",
 			"Moriya Y",
 			"Nucleic Acids Res",
+			"2018-12-31T15:00:00.000Z"
+		],
+		[
+			"BH_in_Ack_Fund",
+			"",
+			30624651,
+			"http://doi.org/10.1093/database/bay132",
+			"TogoGenome/TogoStanza: modularized Semantic Web genome database.",
+			"Katayama T",
+			"Database (Oxford)",
 			"2018-12-31T15:00:00.000Z"
 		],
 		[
@@ -1183,21 +1183,21 @@
 		[
 			"BH_in_Ack_Fund",
 			"",
-			26673001,
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service.",
-			"Oshita K",
-			"F1000Res",
-			"2014-11-18T15:00:00.000Z"
-		],
-		[
-			"BH_in_Ack_Fund",
-			"",
 			25937881,
 			"http://doi.org/10.1186/2041-1480-5-46",
 			"Automatically exposing OpenLifeData via SADI semantic Web Services.",
 			"González AR",
 			"J Biomed Semantics",
+			"2014-11-18T15:00:00.000Z"
+		],
+		[
+			"BH_in_Ack_Fund",
+			"",
+			26673001,
+			"http://doi.org/10.12688/f1000research.5754.2",
+			"G-Links: a gene-centric link acquisition service.",
+			"Oshita K",
+			"F1000Res",
 			"2014-11-18T15:00:00.000Z"
 		],
 		[
@@ -1329,6 +1329,26 @@
 			"Jensen LJ",
 			"Nucleic Acids Res",
 			"2008-10-20T15:00:00.000Z"
+		],
+		[
+			"BioHackathon",
+			"",
+			29040613,
+			"http://doi.org/10.1093/nar/gkx926",
+			"DNA Data Bank of Japan: 30th anniversary.",
+			"Kodama",
+			"Nucleic Acids Res.",
+			"--"
+		],
+		[
+			"BioHackathon",
+			"Acknowledgement",
+			28449114,
+			"http://doi.org/10.1093/bioinformatics/btx275",
+			"Neuro-symbolic representation learning on biological knowledge graphs.",
+			"Alshahrani",
+			"Bioinformatics",
+			"--"
 		],
 		[
 			"BioHackathon",
@@ -1532,7 +1552,7 @@
 		],
 		[
 			"BioHackathon",
-			"調査中",
+			"Acknowledgement",
 			26978244,
 			"http://doi.org/10.1038/sdata.2016.18",
 			"The FAIR Guiding Principles for scientific data management and stewardship.",
@@ -1542,7 +1562,7 @@
 		],
 		[
 			"BioHackathon",
-			"Acknowledgement",
+			"調査中",
 			26978244,
 			"http://doi.org/10.1038/sdata.2016.18",
 			"The FAIR Guiding Principles for scientific data management and stewardship.",
@@ -1673,21 +1693,21 @@
 		[
 			"BioHackathon",
 			"調査中",
-			26673001,
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service.",
-			"Oshita",
-			"F1000Res",
-			"2014-11-18T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
 			25937881,
 			"http://doi.org/10.1186/2041-1480-5-46",
 			"Automatically exposing OpenLifeData via SADI semantic Web Services.",
 			"González",
 			"J Biomed Semantics",
+			"2014-11-18T15:00:00.000Z"
+		],
+		[
+			"BioHackathon",
+			"調査中",
+			26673001,
+			"http://doi.org/10.12688/f1000research.5754.2",
+			"G-Links: a gene-centric link acquisition service.",
+			"Oshita",
+			"F1000Res",
 			"2014-11-18T15:00:00.000Z"
 		],
 		[
@@ -1962,52 +1982,12 @@
 		],
 		[
 			"BioHackathon",
-			"Acknowledgement",
-			28449114,
-			"http://doi.org/10.1093/bioinformatics/btx275",
-			"Neuro-symbolic representation learning on biological knowledge graphs.",
-			"Alshahrani",
-			"Bioinformatics",
-			"--"
-		],
-		[
-			"BioHackathon",
 			"",
-			29040613,
-			"http://doi.org/10.1093/nar/gkx926",
-			"DNA Data Bank of Japan: 30th anniversary.",
-			"Kodama",
-			"Nucleic Acids Res.",
-			"--"
-		],
-		[
-			"BioHackathon",
+			"PR42887",
 			"",
-			28419324,
-			"http://doi.org/10.1093/bib/bbx039",
-			"Improving data workflow systems with cloud services and use of open data for bioinformatics research.",
-			"Karim",
-			"Brief. Bioinformatics",
-			""
-		],
-		[
-			"BioHackathon",
+			"Polish and German Pharmacological Societies. 1st Joint Symposium. Interaction of biologically active substances in the central nervous system. Białowieza, December 10--11, 1978.",
 			"",
-			29688370,
-			"http://doi.org/10.1093/database/bay022",
-			"YummyData: providing high-quality open life science data.",
-			"Yamamoto",
-			"Database (Oxford)",
-			""
-		],
-		[
-			"BioHackathon",
-			"",
-			"PR40869",
-			"",
-			"[Pathogenetic considerations in multiple sclerosis. I. Two mechanisms of demyelination and their relevance for MS (author's transl)].",
-			"Simon",
-			"Immun. Infekt.",
+			"Pol J Pharmacol Pharm",
 			""
 		],
 		[
@@ -2023,11 +2003,31 @@
 		[
 			"BioHackathon",
 			"",
-			"PR42887",
+			"PR40869",
 			"",
-			"Polish and German Pharmacological Societies. 1st Joint Symposium. Interaction of biologically active substances in the central nervous system. Białowieza, December 10--11, 1978.",
+			"[Pathogenetic considerations in multiple sclerosis. I. Two mechanisms of demyelination and their relevance for MS (author's transl)].",
+			"Simon",
+			"Immun. Infekt.",
+			""
+		],
+		[
+			"BioHackathon",
 			"",
-			"Pol J Pharmacol Pharm",
+			29688370,
+			"http://doi.org/10.1093/database/bay022",
+			"YummyData: providing high-quality open life science data.",
+			"Yamamoto",
+			"Database (Oxford)",
+			""
+		],
+		[
+			"BioHackathon",
+			"",
+			28419324,
+			"http://doi.org/10.1093/bib/bbx039",
+			"Improving data workflow systems with cloud services and use of open data for bioinformatics research.",
+			"Karim",
+			"Brief. Bioinformatics",
 			""
 		],
 		[
@@ -2363,206 +2363,6 @@
 		[
 			"CRISPRdirect",
 			"",
-			28505256,
-			"http://doi.org/10.1093/femsyr/fox030",
-			"CRISPR/Cas system for yeast genome engineering: advances and applications.",
-			"Stovicek",
-			"FEMS Yeast Res.",
-			"NA"
-		],
-		[
-			"CRISPRdirect",
-			"Cited reference",
-			"NA",
-			"http://doi.org/10.23964/expbiol.v1i1.8",
-			"A comprehensive and informative platform package for genome editing using the CRISPR-Cas9 system",
-			"Chia",
-			"Express Biology",
-			"NA"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			34489571,
-			"http://doi.org/10.1038/s41556-021-00745-3",
-			"Production of functional oocytes requires maternally expressed PIWI genes and piRNAs in golden hamsters.",
-			"Hasuwa H",
-			"Nat Cell Biol",
-			"2021-09-05T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			34369554,
-			"http://doi.org/10.1242/bio.058789",
-			"Arf GTPase-activating proteins SMAP1 and AGFG2 regulate the size of Weibel-Palade bodies and exocytosis of von Willebrand factor.",
-			"Watanabe A",
-			"Biol Open",
-			"2021-08-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33976430,
-			"http://doi.org/10.1038/s41590-021-00942-0",
-			"RIG-I triggers a signaling-abortive anti-SARS-CoV-2 defense in human lung cells.",
-			"Yamada T",
-			"Nat Immunol",
-			"2021-05-10T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33950284,
-			"http://doi.org/10.1007/s00122-021-03844-9",
-			"OsCOP1 regulates embryo development and flavonoid biosynthesis in rice (Oryza sativa L.).",
-			"Kim B",
-			"Theor Appl Genet",
-			"2021-05-04T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33890624,
-			"http://doi.org/10.1093/femsyr/foab026",
-			"Identification of novel pentose transporters in Kluyveromyces marxianus using a new screening platform.",
-			"Donzella L",
-			"FEMS Yeast Res",
-			"2021-04-30T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33927741,
-			"http://doi.org/10.3389/fpls.2021.657548",
-			"An Evolutionarily Conserved Coreceptor Gene Is Essential for CLAVATA Signaling in <i>Marchantia polymorpha</i>.",
-			"Takahashi G",
-			"Front Plant Sci",
-			"2021-04-12T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33927731,
-			"http://doi.org/10.3389/fpls.2021.609473",
-			"Global Identification of <i>ANTH</i> Genes Involved in Rice Pollen Germination and Functional Characterization of a Key Member, OsANTH3.",
-			"Lee SK",
-			"Front Plant Sci",
-			"2021-04-12T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33843019,
-			"http://doi.org/10.1007/s00335-021-09868-2",
-			"Mutational analyses of novel rat models with targeted modifications in inflammatory bowel disease susceptibility genes.",
-			"Men H",
-			"Mamm Genome",
-			"2021-04-10T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33617628,
-			"http://doi.org/10.1093/g3journal/jkab051",
-			"Implementation of dCas9-mediated CRISPRi in the fission yeast Schizosaccharomyces pombe.",
-			"Ishikawa K",
-			"G3 (Bethesda)",
-			"2021-03-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Mentioned in text",
-			25827874,
-			"http://doi.org/10.1007/978-1-4939-2474-5_4",
-			"Isolation of specific genomic regions and identification of associated molecules by engineered DNA-binding molecule-mediated chromatin immunoprecipitation (enChIP) using CRISPR.",
-			"Fujita",
-			"Methods Mol. Biol.",
-			"NA"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			28643248,
-			"http://doi.org/10.1007/978-1-4939-7128-2_4",
-			"Computational Prediction of CRISPR/Cas9 Target Sites Reveals Potential Off-Target Risks in Human and Mouse.",
-			"Wang",
-			"Methods Mol. Biol.",
-			"NA"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29162726,
-			"http://doi.org/170139",
-			"Foxj1a is expressed in ependymal precursors, controls central canal position and is activated in new ependymal cells during regeneration in zebrafish.",
-			"Ribeiro",
-			"Open Biol",
-			"NA"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			30755436,
-			"http://doi.org/10.1182/bloodadvances.2018020503",
-			"C/EBPβ is a critical mediator of IFN-α-induced exhaustion of chronic myeloid leukemia stem cells.",
-			"Yokota",
-			"Blood Adv",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			30107443,
-			"http://doi.org/10.1093/hmg/ddy293",
-			"A patient-derived iPSC model revealed oxidative stress increases facioscapulohumeral muscular dystrophy-causative DUX4.",
-			"Sasaki-Honda",
-			"Hum. Mol. Genet.",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29939295,
-			"http://doi.org/10.1093/nar/gky575",
-			"LGP2 virus sensor regulates gene expression network mediated by TRBP-bound microRNAs.",
-			"Takahashi",
-			"Nucleic Acids Res.",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29912475,
-			"http://doi.org/10.1093/nar/gky501",
-			"CRISPR/Cas9-mediated knock-in of an optimized TetO repeat for live cell imaging of endogenous loci.",
-			"Tasan",
-			"Nucleic Acids Res.",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29036337,
-			"http://doi.org/10.1093/pcp/pcx139",
-			"A Collection of Mutants for CLE-Peptide-Encoding Genes in Arabidopsis Generated by CRISPR/Cas9-Mediated Gene Targeting.",
-			"Yamaguchi",
-			"Plant Cell Physiol.",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29385529,
-			"http://doi.org/10.1093/pcp/pcy012",
-			"BES1 and BZR1 Redundantly Promote Phloem and Xylem Differentiation.",
-			"Saito",
-			"Plant Cell Physiol.",
-			"--"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			34175895,
 			"http://doi.org/10.1038/s41437-021-00448-3",
 			"Identification of the causative gene of a transparent phenotype of juvenile red sea bream Pagrus major.",
@@ -2583,32 +2383,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			34326423,
-			"http://doi.org/10.1038/s41598-021-94923-w",
-			"A novel orally active HDAC6 inhibitor T-518 shows a therapeutic potential for Alzheimer's disease and tauopathy in mice.",
-			"Onishi T",
-			"Sci Rep",
-			"2021-07-28T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			34381879,
 			"http://doi.org/10.1016/j.bbrep.2021.101084",
 			"Knock-in of the duck retinoic acid-inducible gene I (<i>RIG-I</i>) into the <i>Mx</i> gene in DF-1 cells enables both stable and immune response-dependent RIG-I expression.",
 			"Ichikawa K",
 			"Biochem Biophys Rep",
 			"2021-07-25T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			34360680,
-			"http://doi.org/10.3390/ijms22157915",
-			"Arabidopsis <i>OSMOTIN 34</i> Functions in the ABA Signaling Pathway and Is Regulated by Proteolysis.",
-			"Park EJ",
-			"Int J Mol Sci",
-			"2021-07-23T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -2623,32 +2403,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			34217355,
-			"http://doi.org/10.1186/s13007-021-00774-x",
-			"A highly efficient regeneration, genetic transformation system and induction of targeted mutations using CRISPR/Cas9 in Lycium ruthenicum.",
-			"Wang W",
-			"Plant Methods",
-			"2021-07-02T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			34236584,
 			"http://doi.org/10.1007/s11427-021-1973-0",
 			"MS1 is essential for male fertility by regulating the microsporocyte cell plate expansion in soybean.",
 			"Fang X",
 			"Sci China Life Sci",
 			"2021-07-01T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			34181717,
-			"http://doi.org/10.1093/nar/gkab559",
-			"Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay.",
-			"Park SH",
-			"Nucleic Acids Res",
-			"2021-06-30T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -2663,32 +2423,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			33713445,
-			"http://doi.org/10.1111/nph.17338",
-			"Functional understanding of secondary cell wall cellulose synthases in Populus trichocarpa via the Cas9/gRNA-induced gene knockouts.",
-			"Xu W",
-			"New Phytol",
-			"2021-06-09T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			34074765,
 			"http://doi.org/10.1073/pnas.2024067118",
 			"Sexual fate of murine external genitalia development: Conserved transcriptional competency for male-biased genes in both sexes.",
 			"Kajioka D",
 			"Proc Natl Acad Sci U S A",
 			"2021-05-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			34072601,
-			"http://doi.org/10.3390/ijms22115852",
-			"Genetic Predisposition to the Mortality in Septic Shock Patients: From GWAS to the Identification of a Regulatory Variant Modulating the Activity of a <i>CISH</i> Enhancer.",
-			"Rosier F",
-			"Int J Mol Sci",
-			"2021-05-28T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -2703,32 +2443,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			34113363,
-			"http://doi.org/10.3389/fpls.2021.661352",
-			"Interaction of OsRopGEF3 Protein With OsRac3 to Regulate Root Hair Elongation and Reactive Oxygen Species Formation in Rice (<i>Oryza sativa</i>).",
-			"Kim EJ",
-			"Front Plant Sci",
-			"2021-05-24T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			34031557,
 			"http://doi.org/10.1038/s41551-021-00716-x",
 			"Shear-stress sensing by PIEZO1 regulates tendon stiffness in rodents and influences jumping performance in humans.",
 			"Passini FS",
 			"Nat Biomed Eng",
 			"2021-05-23T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33990641,
-			"http://doi.org/10.1038/s41598-021-89506-8",
-			"trans-Fatty acids promote p53-dependent apoptosis triggered by cisplatin-induced DNA interstrand crosslinks via the Nox-RIP1-ASK1-MAPK pathway.",
-			"Hirata Y",
-			"Sci Rep",
-			"2021-05-13T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -2763,21 +2483,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			33845872,
-			"http://doi.org/10.1186/s13041-021-00778-7",
-			"Two novel mouse models mimicking minor deletions in 22q11.2 deletion syndrome revealed the contribution of each deleted region to psychiatric disorders.",
-			"Saito R",
-			"Mol Brain",
-			"2021-04-11T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			33846596,
 			"http://doi.org/10.1038/s41477-021-00898-x",
 			"Dissecting cis-regulatory control of quantitative trait variation in a plant stem cell circuit.",
 			"Wang X",
 			"Nat Plants",
+			"2021-04-11T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33845872,
+			"http://doi.org/10.1186/s13041-021-00778-7",
+			"Two novel mouse models mimicking minor deletions in 22q11.2 deletion syndrome revealed the contribution of each deleted region to psychiatric disorders.",
+			"Saito R",
+			"Mol Brain",
 			"2021-04-11T15:00:00.000Z"
 		],
 		[
@@ -2833,21 +2553,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			33631117,
-			"http://doi.org/10.1016/j.stem.2021.02.003",
-			"Dissecting the impact of regional identity and the oncogenic role of human-specific NOTCH2NL in an hESC model of H3.3G34R-mutant glioma.",
-			"Funato K",
-			"Cell Stem Cell",
-			"2021-02-23T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			33668187,
 			"http://doi.org/10.3390/ijms22052249",
 			"One-Step Generation of Multiple Gene-Edited Pigs by Electroporation of the CRISPR/Cas9 System into Zygotes to Reduce Xenoantigen Biosynthesis.",
 			"Tanihara F",
 			"Int J Mol Sci",
+			"2021-02-23T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33631117,
+			"http://doi.org/10.1016/j.stem.2021.02.003",
+			"Dissecting the impact of regional identity and the oncogenic role of human-specific NOTCH2NL in an hESC model of H3.3G34R-mutant glioma.",
+			"Funato K",
+			"Cell Stem Cell",
 			"2021-02-23T15:00:00.000Z"
 		],
 		[
@@ -2933,21 +2653,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			33386579,
-			"http://doi.org/10.1007/s12033-020-00289-1",
-			"Will CRISPR-Cas9 Have Cards to Play Against Cancer? An Update on its Applications.",
-			"Daisy PS",
-			"Mol Biotechnol",
-			"2020-12-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			33398345,
-			"http://doi.org/10.1093/nar/gkaa1241",
-			"Catalytically inactive Cas9 impairs DNA replication fork progression to induce focal genomic instability.",
-			"Doi G",
-			"Nucleic Acids Res",
+			33847979,
+			"http://doi.org/10.1007/978-1-0716-1414-3_1",
+			"Genome Engineering of Yarrowia lipolytica with the PiggyBac Transposon System.",
+			"Wagner JM",
+			"Methods Mol Biol",
 			"2020-12-31T15:00:00.000Z"
 		],
 		[
@@ -2963,11 +2673,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			33847979,
-			"http://doi.org/10.1007/978-1-0716-1414-3_1",
-			"Genome Engineering of Yarrowia lipolytica with the PiggyBac Transposon System.",
-			"Wagner JM",
-			"Methods Mol Biol",
+			33398345,
+			"http://doi.org/10.1093/nar/gkaa1241",
+			"Catalytically inactive Cas9 impairs DNA replication fork progression to induce focal genomic instability.",
+			"Doi G",
+			"Nucleic Acids Res",
+			"2020-12-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33386579,
+			"http://doi.org/10.1007/s12033-020-00289-1",
+			"Will CRISPR-Cas9 Have Cards to Play Against Cancer? An Update on its Applications.",
+			"Daisy PS",
+			"Mol Biotechnol",
 			"2020-12-31T15:00:00.000Z"
 		],
 		[
@@ -3093,30 +2813,10 @@
 		[
 			"CRISPRdirect",
 			"",
-			32588889,
-			"http://doi.org/10.1093/biolre/ioaa082",
-			"Knockout of family with sequence similarity 170 member A (Fam170a) causes male subfertility, while Fam170b is dispensable in mice†.",
-			"Devlin DJ",
-			"Biol Reprod",
-			"2020-07-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			32588039,
-			"http://doi.org/10.1093/biolre/ioaa083",
-			"CRISPR/Cas9-based genome editing in mice uncovers 13 testis- or epididymis-enriched genes individually dispensable for male reproduction†.",
-			"Sun J",
-			"Biol Reprod",
-			"2020-07-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			32561905,
-			"http://doi.org/10.1093/biolre/ioaa084",
-			"CRISPR/Cas9-mediated genome-edited mice reveal 10 testis-enriched genes are dispensable for male fecundity.",
-			"Park S",
+			32430498,
+			"http://doi.org/10.1093/biolre/ioaa059",
+			"CIB4 is essential for the haploid phase of spermatogenesis in mice†.",
+			"Xu Z",
 			"Biol Reprod",
 			"2020-07-31T15:00:00.000Z"
 		],
@@ -3133,10 +2833,30 @@
 		[
 			"CRISPRdirect",
 			"",
-			32430498,
-			"http://doi.org/10.1093/biolre/ioaa059",
-			"CIB4 is essential for the haploid phase of spermatogenesis in mice†.",
-			"Xu Z",
+			32561905,
+			"http://doi.org/10.1093/biolre/ioaa084",
+			"CRISPR/Cas9-mediated genome-edited mice reveal 10 testis-enriched genes are dispensable for male fecundity.",
+			"Park S",
+			"Biol Reprod",
+			"2020-07-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			32588039,
+			"http://doi.org/10.1093/biolre/ioaa083",
+			"CRISPR/Cas9-based genome editing in mice uncovers 13 testis- or epididymis-enriched genes individually dispensable for male reproduction†.",
+			"Sun J",
+			"Biol Reprod",
+			"2020-07-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			32588889,
+			"http://doi.org/10.1093/biolre/ioaa082",
+			"Knockout of family with sequence similarity 170 member A (Fam170a) causes male subfertility, while Fam170b is dispensable in mice†.",
+			"Devlin DJ",
 			"Biol Reprod",
 			"2020-07-31T15:00:00.000Z"
 		],
@@ -3443,21 +3163,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			32051236,
-			"http://doi.org/10.1128/msphere.00086-20",
-			"A Universal, Genomewide GuideFinder for CRISPR/Cas9 Targeting in Microbial Genomes.",
-			"Spoto M",
-			"mSphere",
-			"2020-02-11T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			32123556,
 			"http://doi.org/10.1016/j.csbj.2020.01.013",
 			"C-RNNCrispr: Prediction of CRISPR/Cas9 sgRNA activity using convolutional and recurrent neural networks.",
 			"Zhang G",
 			"Comput Struct Biotechnol J",
+			"2020-02-11T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			32051236,
+			"http://doi.org/10.1128/msphere.00086-20",
+			"A Universal, Genomewide GuideFinder for CRISPR/Cas9 Targeting in Microbial Genomes.",
+			"Spoto M",
+			"mSphere",
 			"2020-02-11T15:00:00.000Z"
 		],
 		[
@@ -3503,21 +3223,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			31974430,
-			"http://doi.org/10.1038/s41598-020-57996-7",
-			"Production of genetically engineered mice with higher efficiency, lower mosaicism, and multiplexing capability using maternally expressed Cas9.",
-			"Sakurai T",
-			"Sci Rep",
-			"2020-01-22T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			32158279,
 			"http://doi.org/10.2147/jep.s235233",
 			"TGF-β-Induced TMEPAI Attenuates the Response of Triple-Negative Breast Cancer Cells to Doxorubicin and Paclitaxel.",
 			"Wardhani BW",
 			"J Exp Pharmacol",
+			"2020-01-22T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31974430,
+			"http://doi.org/10.1038/s41598-020-57996-7",
+			"Production of genetically engineered mice with higher efficiency, lower mosaicism, and multiplexing capability using maternally expressed Cas9.",
+			"Sakurai T",
+			"Sci Rep",
 			"2020-01-22T15:00:00.000Z"
 		],
 		[
@@ -3603,21 +3323,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			31684863,
-			"http://doi.org/10.1186/s12870-019-2071-9",
-			"Clarification of the dispensability of PDX1.2 for Arabidopsis viability using CRISPR/Cas9.",
-			"Dell'Aglio E",
-			"BMC Plant Biol",
-			"2019-11-03T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			31689989,
 			"http://doi.org/10.3390/cells8111386",
 			"Genome Editing in Plants: Exploration of Technological Advancements and Challenges.",
 			"Vats S",
 			"Cells",
+			"2019-11-03T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31684863,
+			"http://doi.org/10.1186/s12870-019-2071-9",
+			"Clarification of the dispensability of PDX1.2 for Arabidopsis viability using CRISPR/Cas9.",
+			"Dell'Aglio E",
+			"BMC Plant Biol",
 			"2019-11-03T15:00:00.000Z"
 		],
 		[
@@ -3683,21 +3403,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			31454364,
-			"http://doi.org/10.1371/journal.pone.0221164",
-			"A versatile toolbox for knock-in gene targeting based on the Multisite Gateway technology.",
-			"Yoshimatsu",
-			"PLoS ONE",
-			"2019-08-26T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			31455729,
 			"http://doi.org/10.1073/pnas.1908736116",
 			"Identification of multiple male reproductive tract-specific proteins that regulate sperm migration through the oviduct in mice.",
 			"Fujihara",
 			"Proc. Natl. Acad. Sci. U.S.A.",
+			"2019-08-26T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31454364,
+			"http://doi.org/10.1371/journal.pone.0221164",
+			"A versatile toolbox for knock-in gene targeting based on the Multisite Gateway technology.",
+			"Yoshimatsu",
+			"PLoS ONE",
 			"2019-08-26T15:00:00.000Z"
 		],
 		[
@@ -3713,11 +3433,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			31430876,
-			"http://doi.org/E254",
-			"CRISPR Disruption of  Resulted in the Failure of Emergence and Affected the Wing and Gonad Development in the Silkworm .",
-			"Bi",
-			"Insects",
+			31430902,
+			"http://doi.org/E4045",
+			"Modern Trends in Plant Genome Editing: An Inclusive Review of the CRISPR/Cas9 Toolbox.",
+			"Razzaq",
+			"Int J Mol Sci",
 			"2019-08-18T15:00:00.000Z"
 		],
 		[
@@ -3733,22 +3453,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			31430902,
-			"http://doi.org/E4045",
-			"Modern Trends in Plant Genome Editing: An Inclusive Review of the CRISPR/Cas9 Toolbox.",
-			"Razzaq",
-			"Int J Mol Sci",
+			31430876,
+			"http://doi.org/E254",
+			"CRISPR Disruption of  Resulted in the Failure of Emergence and Affected the Wing and Gonad Development in the Silkworm .",
+			"Bi",
+			"Insects",
 			"2019-08-18T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			31396563,
-			"http://doi.org/10.1038/s42003-019-0539-7",
-			"Nested retrotransposition in the East Asian mouse genome causes the classical  mutation.",
-			"Tanave",
-			"Commun Biol",
-			"2019-08-01T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -3757,6 +3467,16 @@
 			"http://doi.org/10.1038/s42003-019-0539-7",
 			"Nested retrotransposition in the East Asian mouse genome causes the classical <i>nonagouti</i> mutation.",
 			"Tanave A",
+			"Commun Biol",
+			"2019-08-01T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31396563,
+			"http://doi.org/10.1038/s42003-019-0539-7",
+			"Nested retrotransposition in the East Asian mouse genome causes the classical  mutation.",
+			"Tanave",
 			"Commun Biol",
 			"2019-08-01T15:00:00.000Z"
 		],
@@ -3823,11 +3543,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			30992277,
-			"http://doi.org/dev169367",
-			"Activation of butterfly eyespots by Distal-less is consistent with a reaction-diffusion process.",
-			"Connahs",
-			"Development",
+			31072826,
+			"http://doi.org/10.1083/jcb.201810134",
+			"Comprehensive knockout analysis of the Rab family GTPases in epithelial cells.",
+			"Homma Y",
+			"J Cell Biol",
 			"2019-05-08T15:00:00.000Z"
 		],
 		[
@@ -3843,11 +3563,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			31072826,
-			"http://doi.org/10.1083/jcb.201810134",
-			"Comprehensive knockout analysis of the Rab family GTPases in epithelial cells.",
-			"Homma Y",
-			"J Cell Biol",
+			30992277,
+			"http://doi.org/dev169367",
+			"Activation of butterfly eyespots by Distal-less is consistent with a reaction-diffusion process.",
+			"Connahs",
+			"Development",
 			"2019-05-08T15:00:00.000Z"
 		],
 		[
@@ -3873,11 +3593,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			30886319,
-			"http://doi.org/10.1038/s41598-019-41247-5",
-			"A critical regulator of Bcl2 revealed by systematic transcript discovery of lncRNAs associated with T-cell differentiation.",
-			"Saadi",
-			"Sci Rep",
+			30886126,
+			"http://doi.org/10.1105/tpc.18.00894",
+			"Arabinosyl Deacetylase Modulates the Arabinoxylan Acetylation Profile and Secondary Wall Formation.",
+			"Zhang L",
+			"Plant Cell",
 			"2019-03-17T15:00:00.000Z"
 		],
 		[
@@ -3893,11 +3613,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			30886126,
-			"http://doi.org/10.1105/tpc.18.00894",
-			"Arabinosyl Deacetylase Modulates the Arabinoxylan Acetylation Profile and Secondary Wall Formation.",
-			"Zhang L",
-			"Plant Cell",
+			30886319,
+			"http://doi.org/10.1038/s41598-019-41247-5",
+			"A critical regulator of Bcl2 revealed by systematic transcript discovery of lncRNAs associated with T-cell differentiation.",
+			"Saadi",
+			"Sci Rep",
 			"2019-03-17T15:00:00.000Z"
 		],
 		[
@@ -3993,16 +3713,6 @@
 		[
 			"CRISPRdirect",
 			"",
-			32038690,
-			"http://doi.org/10.3389/fpls.2019.01726",
-			"Loss of Function of Rice Plastidic Glycolate/Glycerate Translocator 1 Impairs Photorespiration and Plant Growth.",
-			"Shim SH",
-			"Front Plant Sci",
-			"2018-12-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			30353533,
 			"http://doi.org/10.1007/978-1-4939-8831-0_29",
 			"Functional Studies of Transcriptional Cofactors via Microinjection-Mediated Gene Editing in Xenopus.",
@@ -4013,12 +3723,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			30546061,
-			"http://doi.org/10.1038/s41419-018-1245-y",
-			"Nuclear-accumulated SQSTM1/p62-based ALIS act as microdomains sensing cellular stresses and triggering oxidative stress-induced parthanatos.",
-			"Noguchi",
-			"Cell Death Dis",
-			"2018-12-12T15:00:00.000Z"
+			32038690,
+			"http://doi.org/10.3389/fpls.2019.01726",
+			"Loss of Function of Rice Plastidic Glycolate/Glycerate Translocator 1 Impairs Photorespiration and Plant Growth.",
+			"Shim SH",
+			"Front Plant Sci",
+			"2018-12-31T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -4033,12 +3743,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			30518723,
-			"http://doi.org/10.1262/jrd.2018-128",
-			"Off- and on-target effects of genome editing in mouse embryos.",
-			"Ayabe",
-			"J. Reprod. Dev.",
-			"2018-12-05T15:00:00.000Z"
+			30546061,
+			"http://doi.org/10.1038/s41419-018-1245-y",
+			"Nuclear-accumulated SQSTM1/p62-based ALIS act as microdomains sensing cellular stresses and triggering oxidative stress-induced parthanatos.",
+			"Noguchi",
+			"Cell Death Dis",
+			"2018-12-12T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -4048,6 +3758,16 @@
 			"CD4+ T cells induce rejection of urothelial tumors after immune checkpoint blockade.",
 			"Sato",
 			"JCI Insight",
+			"2018-12-05T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30518723,
+			"http://doi.org/10.1262/jrd.2018-128",
+			"Off- and on-target effects of genome editing in mouse embryos.",
+			"Ayabe",
+			"J. Reprod. Dev.",
 			"2018-12-05T15:00:00.000Z"
 		],
 		[
@@ -4103,21 +3823,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			30311729,
-			"http://doi.org/10.1002/bmb.21175",
-			"CRISPR Gene Editing in Yeast: An Experimental Protocol for an Upper-Division Undergraduate Laboratory Course.",
-			"Sehgal",
-			"Biochem Mol Biol Educ",
-			"2018-10-11T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			30312361,
 			"http://doi.org/10.1371/journal.ppat.1007367",
 			"SETD2-dependent H3K36me3 plays a critical role in epigenetic regulation of the HPV31 life cycle.",
 			"Gautam",
 			"PLoS Pathog.",
+			"2018-10-11T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30311729,
+			"http://doi.org/10.1002/bmb.21175",
+			"CRISPR Gene Editing in Yeast: An Experimental Protocol for an Upper-Division Undergraduate Laboratory Course.",
+			"Sehgal",
+			"Biochem Mol Biol Educ",
 			"2018-10-11T15:00:00.000Z"
 		],
 		[
@@ -4143,11 +3863,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			"",
+			30276556,
 			"http://doi.org/10.1007/s11274-018-2518-4",
-			"Improved bioethanol production using CRISPR/Cas9 to disrupt the ADH2 gene in Saccharomyces cerevisiae",
-			"Xue T",
-			"World J Microbiol Biotechnol",
+			"Improved bioethanol production using CRISPR/Cas9 to disrupt the ADH2 gene in Saccharomyces cerevisiae.",
+			"Xue",
+			"World J. Microbiol. Biotechnol.",
 			"2018-09-30T15:00:00.000Z"
 		],
 		[
@@ -4163,11 +3883,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			30276556,
+			"",
 			"http://doi.org/10.1007/s11274-018-2518-4",
-			"Improved bioethanol production using CRISPR/Cas9 to disrupt the ADH2 gene in Saccharomyces cerevisiae.",
-			"Xue",
-			"World J. Microbiol. Biotechnol.",
+			"Improved bioethanol production using CRISPR/Cas9 to disrupt the ADH2 gene in Saccharomyces cerevisiae",
+			"Xue T",
+			"World J Microbiol Biotechnol",
 			"2018-09-30T15:00:00.000Z"
 		],
 		[
@@ -4223,21 +3943,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			30151606,
-			"http://doi.org/10.1007/s00253-018-9295-8",
-			"Establishment of a baculovirus-inducible CRISPR/Cas9 system for antiviral research in transgenic silkworms.",
-			"Dong",
-			"Appl. Microbiol. Biotechnol.",
-			"2018-08-27T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			30154457,
 			"http://doi.org/10.1038/s41467-018-05924-9",
 			"TBC1d24-ephrinB2 interaction regulates contact inhibition of locomotion in neural crest cell migration.",
 			"Yoon",
 			"Nat Commun",
+			"2018-08-27T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30151606,
+			"http://doi.org/10.1007/s00253-018-9295-8",
+			"Establishment of a baculovirus-inducible CRISPR/Cas9 system for antiviral research in transgenic silkworms.",
+			"Dong",
+			"Appl. Microbiol. Biotechnol.",
 			"2018-08-27T15:00:00.000Z"
 		],
 		[
@@ -4265,16 +3985,6 @@
 			"",
 			30123320,
 			"http://doi.org/10.1186/s13036-018-0101-z",
-			"Anti-CRISPR-based biosensors in the yeast",
-			"Li",
-			"J Biol Eng",
-			"2018-07-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			30123320,
-			"http://doi.org/10.1186/s13036-018-0101-z",
 			"Anti-CRISPR-based biosensors in the yeast S. cerevisiae.",
 			"Li J",
 			"J Biol Eng",
@@ -4283,11 +3993,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			30065296,
-			"http://doi.org/10.1038/s41598-018-28618-0",
-			"Fibroblast growth factor 12 is expressed in spiral and vestibular ganglia and necessary for auditory and equilibrium function.",
-			"Hanada",
-			"Sci Rep",
+			30123320,
+			"http://doi.org/10.1186/s13036-018-0101-z",
+			"Anti-CRISPR-based biosensors in the yeast",
+			"Li",
+			"J Biol Eng",
+			"2018-07-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29880556,
+			"http://doi.org/10.1534/g3.118.200278",
+			"Auxin-Mediated Sterility Induction System for Longevity and Mating Studies in <i>Caenorhabditis elegans</i>.",
+			"Kasimatis KR",
+			"G3 (Bethesda)",
 			"2018-07-30T15:00:00.000Z"
 		],
 		[
@@ -4303,11 +4023,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			29880556,
-			"http://doi.org/10.1534/g3.118.200278",
-			"Auxin-Mediated Sterility Induction System for Longevity and Mating Studies in <i>Caenorhabditis elegans</i>.",
-			"Kasimatis KR",
-			"G3 (Bethesda)",
+			30065296,
+			"http://doi.org/10.1038/s41598-018-28618-0",
+			"Fibroblast growth factor 12 is expressed in spiral and vestibular ganglia and necessary for auditory and equilibrium function.",
+			"Hanada",
+			"Sci Rep",
 			"2018-07-30T15:00:00.000Z"
 		],
 		[
@@ -4345,9 +4065,9 @@
 			"",
 			29991671,
 			"http://doi.org/10.14348/molcells.2018.0148",
-			"<i>Histone Deacetylase 701 (HDT701)</i> Induces Flowering in Rice by Modulating Expression of <i>OsIDS1</i>.",
-			"Cho LH",
-			"Mol Cells",
+			"Histone Deacetylase 701 (HDT701)",
+			"Cho",
+			"Mol. Cells",
 			"2018-07-09T15:00:00.000Z"
 		],
 		[
@@ -4355,9 +4075,9 @@
 			"",
 			29991671,
 			"http://doi.org/10.14348/molcells.2018.0148",
-			"Histone Deacetylase 701 (HDT701)",
-			"Cho",
-			"Mol. Cells",
+			"<i>Histone Deacetylase 701 (HDT701)</i> Induces Flowering in Rice by Modulating Expression of <i>OsIDS1</i>.",
+			"Cho LH",
+			"Mol Cells",
 			"2018-07-09T15:00:00.000Z"
 		],
 		[
@@ -4404,9 +4124,9 @@
 			"CRISPRdirect",
 			"",
 			31164559,
-			"http://doi.org/E16",
-			"CRISPR-Cas9 Mediated Genome Editing in  Butterflies.",
-			"Banerjee",
+			"http://doi.org/10.3390/mps1020016",
+			"CRISPR-Cas9 Mediated Genome Editing in <i>Bicyclus anynana</i> Butterflies.",
+			"Banerjee TD",
 			"Methods Protoc",
 			"2018-05-14T15:00:00.000Z"
 		],
@@ -4414,9 +4134,9 @@
 			"CRISPRdirect",
 			"",
 			31164559,
-			"http://doi.org/10.3390/mps1020016",
-			"CRISPR-Cas9 Mediated Genome Editing in <i>Bicyclus anynana</i> Butterflies.",
-			"Banerjee TD",
+			"http://doi.org/E16",
+			"CRISPR-Cas9 Mediated Genome Editing in  Butterflies.",
+			"Banerjee",
 			"Methods Protoc",
 			"2018-05-14T15:00:00.000Z"
 		],
@@ -4473,21 +4193,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			29436783,
-			"http://doi.org/10.1002/biot.201700601",
-			"Advancing Metabolic Engineering of Saccharomyces cerevisiae Using the CRISPR/Cas System.",
-			"Lian",
-			"Biotechnol J",
-			"2018-04-17T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			29667281,
 			"http://doi.org/10.1111/gtc.12587",
 			"Estimated number of off-target candidate sites for antisense oligonucleotides in human mRNA sequences.",
 			"Yoshida",
 			"Genes Cells",
+			"2018-04-17T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29436783,
+			"http://doi.org/10.1002/biot.201700601",
+			"Advancing Metabolic Engineering of Saccharomyces cerevisiae Using the CRISPR/Cas System.",
+			"Lian",
+			"Biotechnol J",
 			"2018-04-17T15:00:00.000Z"
 		],
 		[
@@ -4503,16 +4223,6 @@
 		[
 			"CRISPRdirect",
 			"",
-			29651054,
-			"http://doi.org/10.1038/nprot.2018.005",
-			"Integrated design, execution, and analysis of arrayed and pooled CRISPR genome-editing experiments.",
-			"Canver",
-			"Nat Protoc",
-			"2018-04-11T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			29649291,
 			"http://doi.org/10.1371/journal.pone.0195977",
 			"Expanding the genetic toolkit of Tribolium castaneum.",
@@ -4523,11 +4233,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			30258941,
-			"http://doi.org/10.1016/j.gendis.2018.03.004",
-			"In silico sgRNA tool design for CRISPR control of quorum sensing in",
-			"Karlapudi",
-			"Genes Dis",
+			29651054,
+			"http://doi.org/10.1038/nprot.2018.005",
+			"Integrated design, execution, and analysis of arrayed and pooled CRISPR genome-editing experiments.",
+			"Canver",
+			"Nat Protoc",
+			"2018-04-11T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29644494,
+			"http://doi.org/10.1007/s12539-018-0298-z",
+			"Review of CRISPR/Cas9 sgRNA Design Tools.",
+			"Cui",
+			"Interdiscip Sci",
 			"2018-04-10T15:00:00.000Z"
 		],
 		[
@@ -4543,11 +4263,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			29644494,
-			"http://doi.org/10.1007/s12539-018-0298-z",
-			"Review of CRISPR/Cas9 sgRNA Design Tools.",
-			"Cui",
-			"Interdiscip Sci",
+			30258941,
+			"http://doi.org/10.1016/j.gendis.2018.03.004",
+			"In silico sgRNA tool design for CRISPR control of quorum sensing in",
+			"Karlapudi",
+			"Genes Dis",
 			"2018-04-10T15:00:00.000Z"
 		],
 		[
@@ -4573,21 +4293,21 @@
 		[
 			"CRISPRdirect",
 			"",
-			29610341,
-			"http://doi.org/10.1073/pnas.1722333115",
-			"Multiple nuclear-replicating viruses require the stress-induced protein ZC3H11A for efficient growth.",
-			"Younis",
-			"Proc. Natl. Acad. Sci. U.S.A.",
-			"2018-04-01T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
 			29609617,
 			"http://doi.org/10.1186/s13072-018-0183-3",
 			"Genome-wide analysis of gene regulation mechanisms during Drosophila spermatogenesis.",
 			"Laktionov",
 			"Epigenetics Chromatin",
+			"2018-04-01T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29610341,
+			"http://doi.org/10.1073/pnas.1722333115",
+			"Multiple nuclear-replicating viruses require the stress-induced protein ZC3H11A for efficient growth.",
+			"Younis",
+			"Proc. Natl. Acad. Sci. U.S.A.",
 			"2018-04-01T15:00:00.000Z"
 		],
 		[
@@ -4723,10 +4443,20 @@
 		[
 			"CRISPRdirect",
 			"",
+			29357927,
+			"http://doi.org/10.1186/s13287-017-0754-4",
+			"Targeted reversion of induced pluripotent stem cells from patients with human cleidocranial dysplasia improves bone regeneration in a rat calvarial bone defect model.",
+			"Saito",
+			"Stem Cell Res Ther",
+			"2018-01-21T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
 			29358165,
-			"http://doi.org/bio030338",
-			"Functional analysis of thyroid hormone receptor beta in",
-			"Sakane",
+			"http://doi.org/10.1242/bio.030338",
+			"Functional analysis of thyroid hormone receptor beta in <i>Xenopus tropicalis</i> founders using CRISPR-Cas.",
+			"Sakane Y",
 			"Biol Open",
 			"2018-01-21T15:00:00.000Z"
 		],
@@ -4744,20 +4474,10 @@
 			"CRISPRdirect",
 			"",
 			29358165,
-			"http://doi.org/10.1242/bio.030338",
-			"Functional analysis of thyroid hormone receptor beta in <i>Xenopus tropicalis</i> founders using CRISPR-Cas.",
-			"Sakane Y",
+			"http://doi.org/bio030338",
+			"Functional analysis of thyroid hormone receptor beta in",
+			"Sakane",
 			"Biol Open",
-			"2018-01-21T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			29357927,
-			"http://doi.org/10.1186/s13287-017-0754-4",
-			"Targeted reversion of induced pluripotent stem cells from patients with human cleidocranial dysplasia improves bone regeneration in a rat calvarial bone defect model.",
-			"Saito",
-			"Stem Cell Res Ther",
 			"2018-01-21T15:00:00.000Z"
 		],
 		[
@@ -4774,9 +4494,9 @@
 			"CRISPRdirect",
 			"",
 			29333255,
-			"https://doi.org/10.12688/f1000research.11243.1",
-			"In vivo genome editing in animals using AAV-CRISPR system: applications to translational research of human disease",
-			"Lau",
+			"http://doi.org/10.12688/f1000research.11243.1",
+			"<i>In vivo</i> genome editing in animals using AAV-CRISPR system: applications to translational research of human disease.",
+			"Lau CH",
 			"F1000Res",
 			"2017-12-19T15:00:00.000Z"
 		],
@@ -4784,9 +4504,9 @@
 			"CRISPRdirect",
 			"",
 			29333255,
-			"http://doi.org/10.12688/f1000research.11243.1",
-			"<i>In vivo</i> genome editing in animals using AAV-CRISPR system: applications to translational research of human disease.",
-			"Lau CH",
+			"https://doi.org/10.12688/f1000research.11243.1",
+			"In vivo genome editing in animals using AAV-CRISPR system: applications to translational research of human disease",
+			"Lau",
 			"F1000Res",
 			"2017-12-19T15:00:00.000Z"
 		],
@@ -4913,11 +4633,11 @@
 		[
 			"CRISPRdirect",
 			"",
-			28939698,
-			"http://doi.org/10.1261/rna.062158.117",
-			"The 5′ region of Xist RNA has the potential to associate with chromatin through the A-repeat",
-			"Chigi",
-			"RNA",
+			28970844,
+			"http://doi.org/10.3389/fpls.2017.01635",
+			"CRISPR/Cas9 Mediated Genome Engineering for Improvement of Horticultural Crops.",
+			"Karkute",
+			"Front Plant Sci",
 			"2017-09-21T15:00:00.000Z"
 		],
 		[
@@ -4933,22 +4653,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			28970844,
-			"http://doi.org/10.3389/fpls.2017.01635",
-			"CRISPR/Cas9 Mediated Genome Engineering for Improvement of Horticultural Crops.",
-			"Karkute",
-			"Front Plant Sci",
+			28939698,
+			"http://doi.org/10.1261/rna.062158.117",
+			"The 5′ region of Xist RNA has the potential to associate with chromatin through the A-repeat",
+			"Chigi",
+			"RNA",
 			"2017-09-21T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"",
-			28837251,
-			"http://doi.org/10.1111/cas.13385",
-			"Elevated expression of JAM-A promotes neoplastic properties of lung adenocarcinoma.",
-			"Magara",
-			"Cancer Sci.",
-			"2017-09-17T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -4958,6 +4668,16 @@
 			"Body Shape and Coloration of Silkworm Larvae Are Influenced by a Novel Cuticular Protein.",
 			"Xiong",
 			"Genetics",
+			"2017-09-17T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			28837251,
+			"http://doi.org/10.1111/cas.13385",
+			"Elevated expression of JAM-A promotes neoplastic properties of lung adenocarcinoma.",
+			"Magara",
+			"Cancer Sci.",
 			"2017-09-17T15:00:00.000Z"
 		],
 		[
@@ -5055,8 +4775,8 @@
 			"",
 			28694259,
 			"http://doi.org/10.1242/dev.152967",
-			"High-efficiency non-mosaic CRISPR-mediated knock-in and indel mutation in F0",
-			"Aslan",
+			"High-efficiency non-mosaic CRISPR-mediated knock-in and indel mutation in F0 <i>Xenopus</i>.",
+			"Aslan Y",
 			"Development",
 			"2017-07-09T15:00:00.000Z"
 		],
@@ -5065,8 +4785,8 @@
 			"",
 			28694259,
 			"http://doi.org/10.1242/dev.152967",
-			"High-efficiency non-mosaic CRISPR-mediated knock-in and indel mutation in F0 <i>Xenopus</i>.",
-			"Aslan Y",
+			"High-efficiency non-mosaic CRISPR-mediated knock-in and indel mutation in F0",
+			"Aslan",
 			"Development",
 			"2017-07-09T15:00:00.000Z"
 		],
@@ -5122,16 +4842,6 @@
 		],
 		[
 			"CRISPRdirect",
-			"",
-			28390800,
-			"http://doi.org/10.1016/j.ydbio.2017.03.031",
-			"Ca<sup>2+</sup> release via two-pore channel type 2 (TPC2) is required for slow muscle cell myofibrillogenesis and myotomal patterning in intact zebrafish embryos.",
-			"Kelu JJ",
-			"Dev Biol",
-			"2017-04-05T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
 			"Cited reference",
 			28390800,
 			"http://doi.org/S0012-1606(16)30821-1",
@@ -5143,10 +4853,20 @@
 		[
 			"CRISPRdirect",
 			"",
+			28390800,
+			"http://doi.org/10.1016/j.ydbio.2017.03.031",
+			"Ca<sup>2+</sup> release via two-pore channel type 2 (TPC2) is required for slow muscle cell myofibrillogenesis and myotomal patterning in intact zebrafish embryos.",
+			"Kelu JJ",
+			"Dev Biol",
+			"2017-04-05T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
 			28473859,
 			"http://doi.org/10.1155/2017/9210494",
-			"Myogenic Differentiation from",
-			"Higashioka",
+			"Myogenic Differentiation from <i>MYOGENIN</i>-Mutated Human iPS Cells by CRISPR/Cas9.",
+			"Higashioka K",
 			"Stem Cells Int",
 			"2017-04-03T15:00:00.000Z"
 		],
@@ -5165,19 +4885,19 @@
 			"",
 			28473859,
 			"http://doi.org/10.1155/2017/9210494",
-			"Myogenic Differentiation from <i>MYOGENIN</i>-Mutated Human iPS Cells by CRISPR/Cas9.",
-			"Higashioka K",
+			"Myogenic Differentiation from",
+			"Higashioka",
 			"Stem Cells Int",
 			"2017-04-03T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
-			"",
-			28360100,
-			"http://doi.org/10.1074/jbc.m116.771519",
-			"<i>trans</i>-Fatty acids promote proinflammatory signaling and cell death by stimulating the apoptosis signal-regulating kinase 1 (ASK1)-p38 pathway.",
-			"Hirata Y",
-			"J Biol Chem",
+			"Cited reference",
+			28122981,
+			"http://doi.org/10.1128/JVI.02465-16",
+			"Transgenic Clustered Regularly Interspaced Short Palindromic Repeat/Cas9-Mediated Viral Gene Targeting for Antiviral Therapy of Bombyx mori Nucleopolyhedrovirus.",
+			"Chen",
+			"J. Virol.",
 			"2017-03-28T15:00:00.000Z"
 		],
 		[
@@ -5192,12 +4912,12 @@
 		],
 		[
 			"CRISPRdirect",
-			"Cited reference",
-			28122981,
-			"http://doi.org/10.1128/JVI.02465-16",
-			"Transgenic Clustered Regularly Interspaced Short Palindromic Repeat/Cas9-Mediated Viral Gene Targeting for Antiviral Therapy of Bombyx mori Nucleopolyhedrovirus.",
-			"Chen",
-			"J. Virol.",
+			"",
+			28360100,
+			"http://doi.org/10.1074/jbc.m116.771519",
+			"<i>trans</i>-Fatty acids promote proinflammatory signaling and cell death by stimulating the apoptosis signal-regulating kinase 1 (ASK1)-p38 pathway.",
+			"Hirata Y",
+			"J Biol Chem",
 			"2017-03-28T15:00:00.000Z"
 		],
 		[
@@ -5243,21 +4963,21 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			28263886,
-			"http://doi.org/S1046-2023(16)30469-8",
-			"Gene editing in mouse zygotes using the CRISPR/Cas9 system.",
-			"Wefers",
-			"Methods",
-			"2017-03-01T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Cited reference",
 			28253259,
 			"http://doi.org/10.1371/journal.pcbi.1005341",
 			"Scalable Design of Paired CRISPR Guide RNAs for Genomic Deletion.",
 			"Pulido-Quetglas",
 			"PLoS Comput. Biol.",
+			"2017-03-01T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Cited reference",
+			28263886,
+			"http://doi.org/S1046-2023(16)30469-8",
+			"Gene editing in mouse zygotes using the CRISPR/Cas9 system.",
+			"Wefers",
+			"Methods",
 			"2017-03-01T15:00:00.000Z"
 		],
 		[
@@ -5323,16 +5043,6 @@
 		[
 			"CRISPRdirect",
 			"Mentioned in text",
-			28344889,
-			"http://doi.org/10.1080/2162402X.2016.1274476",
-			"Loss of tapasin in human lung and colon cancer cells and escape from tumor-associated antigen-specific CTL recognition.",
-			"Shionoya",
-			"Oncoimmunology",
-			"2017-01-02T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Mentioned in text",
 			28046067,
 			"http://doi.org/10.1371/journal.pone.0169562",
 			"C-Type Lectin Receptor Dectin-2 Binds to an Endogenous Protein β-Glucuronidase on Dendritic Cells.",
@@ -5343,12 +5053,12 @@
 		[
 			"CRISPRdirect",
 			"Mentioned in text",
-			28002403,
-			"http://doi.org/10.1038/nature20790",
-			"XRCC1 mutation is associated with PARP1 hyperactivation and cerebellar ataxia.",
-			"Hoch",
-			"Nature",
-			"2016-12-20T15:00:00.000Z"
+			28344889,
+			"http://doi.org/10.1080/2162402X.2016.1274476",
+			"Loss of tapasin in human lung and colon cancer cells and escape from tumor-associated antigen-specific CTL recognition.",
+			"Shionoya",
+			"Oncoimmunology",
+			"2017-01-02T15:00:00.000Z"
 		],
 		[
 			"CRISPRdirect",
@@ -5358,6 +5068,16 @@
 			"Illegitimate translation causes unexpected gene expression from on-target out-of-frame alleles created by CRISPR-Cas9.",
 			"Makino",
 			"Sci Rep",
+			"2016-12-20T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Mentioned in text",
+			28002403,
+			"http://doi.org/10.1038/nature20790",
+			"XRCC1 mutation is associated with PARP1 hyperactivation and cerebellar ataxia.",
+			"Hoch",
+			"Nature",
 			"2016-12-20T15:00:00.000Z"
 		],
 		[
@@ -5383,11 +5103,11 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			27910002,
-			"http://doi.org/10.1186/s12284-016-0134-1",
-			"The Rice Pentatricopeptide Repeat Gene TCD10 is Needed for Chloroplast Development under Cold Stress.",
-			"Wu",
-			"Rice (N Y)",
+			27905217,
+			"http://doi.org/10.2217/rme-2016-0107",
+			"To CRISPR and beyond: the evolution of genome editing in stem cells.",
+			"Chen",
+			"Regen Med",
 			"2016-11-30T15:00:00.000Z"
 		],
 		[
@@ -5403,11 +5123,11 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			27905217,
-			"http://doi.org/10.2217/rme-2016-0107",
-			"To CRISPR and beyond: the evolution of genome editing in stem cells.",
-			"Chen",
-			"Regen Med",
+			27910002,
+			"http://doi.org/10.1186/s12284-016-0134-1",
+			"The Rice Pentatricopeptide Repeat Gene TCD10 is Needed for Chloroplast Development under Cold Stress.",
+			"Wu",
+			"Rice (N Y)",
 			"2016-11-30T15:00:00.000Z"
 		],
 		[
@@ -5563,21 +5283,21 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			27581337,
-			"http://doi.org/10.1038/srep30870",
-			"ge-CRISPR - An integrated pipeline for the prediction and analysis of sgRNAs genome editing efficiency for CRISPR/Cas system.",
-			"Kaur",
-			"Sci Rep",
-			"2016-08-31T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Cited reference",
 			27588462,
 			"http://doi.org/10.1093/jxb/erw324",
 			"Plastidic phosphoglucomutase and ADP-glucose pyrophosphorylase mutants impair starch synthesis in rice pollen grains and cause male sterility.",
 			"Lee",
 			"J. Exp. Bot.",
+			"2016-08-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Cited reference",
+			27581337,
+			"http://doi.org/10.1038/srep30870",
+			"ge-CRISPR - An integrated pipeline for the prediction and analysis of sgRNAs genome editing efficiency for CRISPR/Cas system.",
+			"Kaur",
+			"Sci Rep",
 			"2016-08-31T15:00:00.000Z"
 		],
 		[
@@ -5702,22 +5422,22 @@
 		],
 		[
 			"CRISPRdirect",
-			"",
-			27358322,
-			"http://doi.org/10.1681/ASN.2016020146.",
-			"Gene Editing: Powerful New Tools for Nephrology Research and Therapy.",
-			"Miyagi",
-			"J. Am. Soc. Nephrol.",
-			"2016-06-28T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
 			"Cited reference",
 			27357688,
 			"http://doi.org/10.1073/pnas.1608458113",
 			"Genome engineering uncovers 54 evolutionarily conserved and testis-enriched genes that are not required for male fertility in mice.",
 			"Miyata",
 			"Proc. Natl. Acad. Sci. U.S.A.",
+			"2016-06-28T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			27358322,
+			"http://doi.org/10.1681/ASN.2016020146.",
+			"Gene Editing: Powerful New Tools for Nephrology Research and Therapy.",
+			"Miyagi",
+			"J. Am. Soc. Nephrol.",
 			"2016-06-28T15:00:00.000Z"
 		],
 		[
@@ -5792,22 +5512,22 @@
 		],
 		[
 			"CRISPRdirect",
-			"Mentioned in text",
-			27252719,
-			"http://doi.org/10.3389/fpls.2016.00703",
-			"Recent Advances in Genome Editing Using CRISPR/Cas9.",
-			"Ding",
-			"Front Plant Sci",
-			"2016-05-23T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
 			"Cited reference",
 			27219625,
 			"http://doi.org/10.1111/gtc.12379",
 			"Rapid and efficient analysis of gene function using CRISPR-Cas9 in Xenopus tropicalis founders.",
 			"Shigeta",
 			"Genes Cells",
+			"2016-05-23T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Mentioned in text",
+			27252719,
+			"http://doi.org/10.3389/fpls.2016.00703",
+			"Recent Advances in Genome Editing Using CRISPR/Cas9.",
+			"Ding",
+			"Front Plant Sci",
 			"2016-05-23T15:00:00.000Z"
 		],
 		[
@@ -5852,22 +5572,22 @@
 		],
 		[
 			"CRISPRdirect",
-			"Mentioned in text",
-			27079451,
-			"http://doi.org/10.1016/j.dci.2016.04.009",
-			"Establishing targeted carp TLR22 gene disruption via homologous recombination using CRISPR/Cas9.",
-			"Chakrapani",
-			"Dev. Comp. Immunol.",
-			"2016-04-10T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
 			"Cited reference",
 			"NA",
 			"http://doi.org/10.13802/j.cnki.zwbhxb.2015.05.001",
 			"The coming of RNA-based pest controls",
 			"Linghua",
 			"J Plant Protection",
+			"2016-04-10T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Mentioned in text",
+			27079451,
+			"http://doi.org/10.1016/j.dci.2016.04.009",
+			"Establishing targeted carp TLR22 gene disruption via homologous recombination using CRISPR/Cas9.",
+			"Chakrapani",
+			"Dev. Comp. Immunol.",
 			"2016-04-10T15:00:00.000Z"
 		],
 		[
@@ -6013,21 +5733,21 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			26535798,
-			"http://doi.org/10.1111/febs.13586",
-			"Potential pitfalls of CRISPR/Cas9-mediated genome editing.",
-			"Peng",
-			"FEBS J.",
-			"2015-11-26T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Cited reference",
 			26612492,
 			"http://doi.org/10.1186/s13059-015-0823-x",
 			"Resources for the design of CRISPR gene editing experiments.",
 			"Graham",
 			"Genome Biol.",
+			"2015-11-26T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Cited reference",
+			26535798,
+			"http://doi.org/10.1111/febs.13586",
+			"Potential pitfalls of CRISPR/Cas9-mediated genome editing.",
+			"Peng",
+			"FEBS J.",
 			"2015-11-26T15:00:00.000Z"
 		],
 		[
@@ -6043,21 +5763,21 @@
 		[
 			"CRISPRdirect",
 			"Cited reference",
-			26521937,
-			"http://doi.org/10.1186/s13059-015-0784-0",
-			"WU-CRISPR: characteristics of functional guide RNAs for the CRISPR/Cas9 system.",
-			"Wong",
-			"Genome Biol.",
-			"2015-11-01T15:00:00.000Z"
-		],
-		[
-			"CRISPRdirect",
-			"Cited reference",
 			26522720,
 			"http://doi.org/10.1038/onc.2015.399",
 			"The NF-κB subunit c-Rel regulates Bach2 tumour suppressor expression in B-cell lymphoma.",
 			"Hunter",
 			"Oncogene",
+			"2015-11-01T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Cited reference",
+			26521937,
+			"http://doi.org/10.1186/s13059-015-0784-0",
+			"WU-CRISPR: characteristics of functional guide RNAs for the CRISPR/Cas9 system.",
+			"Wong",
+			"Genome Biol.",
 			"2015-11-01T15:00:00.000Z"
 		],
 		[
@@ -6103,11 +5823,11 @@
 		[
 			"CRISPRdirect",
 			"Mentioned in text",
-			26365339,
-			"http://doi.org/10.1016/j.ajhg.2015.08.009",
-			"Genetic Defects in TAPT1 Disrupt Ciliogenesis and Cause a Complex Lethal Osteochondrodysplasia.",
-			"Symoens",
-			"Am. J. Hum. Genet.",
+			26360504,
+			"http://doi.org/10.1210/en.2015-1408",
+			"NLRP3 Deficiency Improves Angiotensin II-Induced Hypertension But Not Fetal Growth Restriction During Pregnancy.",
+			"Shirasuna",
+			"Endocrinology",
 			"2015-09-09T15:00:00.000Z"
 		],
 		[
@@ -6123,11 +5843,11 @@
 		[
 			"CRISPRdirect",
 			"Mentioned in text",
-			26360504,
-			"http://doi.org/10.1210/en.2015-1408",
-			"NLRP3 Deficiency Improves Angiotensin II-Induced Hypertension But Not Fetal Growth Restriction During Pregnancy.",
-			"Shirasuna",
-			"Endocrinology",
+			26365339,
+			"http://doi.org/10.1016/j.ajhg.2015.08.009",
+			"Genetic Defects in TAPT1 Disrupt Ciliogenesis and Cause a Complex Lethal Osteochondrodysplasia.",
+			"Symoens",
+			"Am. J. Hum. Genet.",
 			"2015-09-09T15:00:00.000Z"
 		],
 		[
@@ -6243,10 +5963,330 @@
 		[
 			"CRISPRdirect",
 			"",
-			30649181,
-			"http://doi.org/10.1093/bioinformatics/btz019",
-			"Crisflash: open-source software to generate CRISPR guide RNAs against genomes annotated with individual variation.",
-			"Jacquin",
+			29162726,
+			"http://doi.org/170139",
+			"Foxj1a is expressed in ependymal precursors, controls central canal position and is activated in new ependymal cells during regeneration in zebrafish.",
+			"Ribeiro",
+			"Open Biol",
+			"NA"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			28643248,
+			"http://doi.org/10.1007/978-1-4939-7128-2_4",
+			"Computational Prediction of CRISPR/Cas9 Target Sites Reveals Potential Off-Target Risks in Human and Mouse.",
+			"Wang",
+			"Methods Mol. Biol.",
+			"NA"
+		],
+		[
+			"CRISPRdirect",
+			"Mentioned in text",
+			25827874,
+			"http://doi.org/10.1007/978-1-4939-2474-5_4",
+			"Isolation of specific genomic regions and identification of associated molecules by engineered DNA-binding molecule-mediated chromatin immunoprecipitation (enChIP) using CRISPR.",
+			"Fujita",
+			"Methods Mol. Biol.",
+			"NA"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29385529,
+			"http://doi.org/10.1093/pcp/pcy012",
+			"BES1 and BZR1 Redundantly Promote Phloem and Xylem Differentiation.",
+			"Saito",
+			"Plant Cell Physiol.",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29036337,
+			"http://doi.org/10.1093/pcp/pcx139",
+			"A Collection of Mutants for CLE-Peptide-Encoding Genes in Arabidopsis Generated by CRISPR/Cas9-Mediated Gene Targeting.",
+			"Yamaguchi",
+			"Plant Cell Physiol.",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29912475,
+			"http://doi.org/10.1093/nar/gky501",
+			"CRISPR/Cas9-mediated knock-in of an optimized TetO repeat for live cell imaging of endogenous loci.",
+			"Tasan",
+			"Nucleic Acids Res.",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			29939295,
+			"http://doi.org/10.1093/nar/gky575",
+			"LGP2 virus sensor regulates gene expression network mediated by TRBP-bound microRNAs.",
+			"Takahashi",
+			"Nucleic Acids Res.",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30107443,
+			"http://doi.org/10.1093/hmg/ddy293",
+			"A patient-derived iPSC model revealed oxidative stress increases facioscapulohumeral muscular dystrophy-causative DUX4.",
+			"Sasaki-Honda",
+			"Hum. Mol. Genet.",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30755436,
+			"http://doi.org/10.1182/bloodadvances.2018020503",
+			"C/EBPβ is a critical mediator of IFN-α-induced exhaustion of chronic myeloid leukemia stem cells.",
+			"Yokota",
+			"Blood Adv",
+			"--"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34489571,
+			"http://doi.org/10.1038/s41556-021-00745-3",
+			"Production of functional oocytes requires maternally expressed PIWI genes and piRNAs in golden hamsters.",
+			"Hasuwa H",
+			"Nat Cell Biol",
+			"2021-09-05T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34369554,
+			"http://doi.org/10.1242/bio.058789",
+			"Arf GTPase-activating proteins SMAP1 and AGFG2 regulate the size of Weibel-Palade bodies and exocytosis of von Willebrand factor.",
+			"Watanabe A",
+			"Biol Open",
+			"2021-08-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34326423,
+			"http://doi.org/10.1038/s41598-021-94923-w",
+			"A novel orally active HDAC6 inhibitor T-518 shows a therapeutic potential for Alzheimer's disease and tauopathy in mice.",
+			"Onishi T",
+			"Sci Rep",
+			"2021-07-28T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34360680,
+			"http://doi.org/10.3390/ijms22157915",
+			"Arabidopsis <i>OSMOTIN 34</i> Functions in the ABA Signaling Pathway and Is Regulated by Proteolysis.",
+			"Park EJ",
+			"Int J Mol Sci",
+			"2021-07-23T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34217355,
+			"http://doi.org/10.1186/s13007-021-00774-x",
+			"A highly efficient regeneration, genetic transformation system and induction of targeted mutations using CRISPR/Cas9 in Lycium ruthenicum.",
+			"Wang W",
+			"Plant Methods",
+			"2021-07-02T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34181717,
+			"http://doi.org/10.1093/nar/gkab559",
+			"Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay.",
+			"Park SH",
+			"Nucleic Acids Res",
+			"2021-06-30T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33713445,
+			"http://doi.org/10.1111/nph.17338",
+			"Functional understanding of secondary cell wall cellulose synthases in Populus trichocarpa via the Cas9/gRNA-induced gene knockouts.",
+			"Xu W",
+			"New Phytol",
+			"2021-06-09T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34072601,
+			"http://doi.org/10.3390/ijms22115852",
+			"Genetic Predisposition to the Mortality in Septic Shock Patients: From GWAS to the Identification of a Regulatory Variant Modulating the Activity of a <i>CISH</i> Enhancer.",
+			"Rosier F",
+			"Int J Mol Sci",
+			"2021-05-28T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			34113363,
+			"http://doi.org/10.3389/fpls.2021.661352",
+			"Interaction of OsRopGEF3 Protein With OsRac3 to Regulate Root Hair Elongation and Reactive Oxygen Species Formation in Rice (<i>Oryza sativa</i>).",
+			"Kim EJ",
+			"Front Plant Sci",
+			"2021-05-24T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33990641,
+			"http://doi.org/10.1038/s41598-021-89506-8",
+			"trans-Fatty acids promote p53-dependent apoptosis triggered by cisplatin-induced DNA interstrand crosslinks via the Nox-RIP1-ASK1-MAPK pathway.",
+			"Hirata Y",
+			"Sci Rep",
+			"2021-05-13T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33976430,
+			"http://doi.org/10.1038/s41590-021-00942-0",
+			"RIG-I triggers a signaling-abortive anti-SARS-CoV-2 defense in human lung cells.",
+			"Yamada T",
+			"Nat Immunol",
+			"2021-05-10T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33950284,
+			"http://doi.org/10.1007/s00122-021-03844-9",
+			"OsCOP1 regulates embryo development and flavonoid biosynthesis in rice (Oryza sativa L.).",
+			"Kim B",
+			"Theor Appl Genet",
+			"2021-05-04T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33890624,
+			"http://doi.org/10.1093/femsyr/foab026",
+			"Identification of novel pentose transporters in Kluyveromyces marxianus using a new screening platform.",
+			"Donzella L",
+			"FEMS Yeast Res",
+			"2021-04-30T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33927731,
+			"http://doi.org/10.3389/fpls.2021.609473",
+			"Global Identification of <i>ANTH</i> Genes Involved in Rice Pollen Germination and Functional Characterization of a Key Member, OsANTH3.",
+			"Lee SK",
+			"Front Plant Sci",
+			"2021-04-12T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33927741,
+			"http://doi.org/10.3389/fpls.2021.657548",
+			"An Evolutionarily Conserved Coreceptor Gene Is Essential for CLAVATA Signaling in <i>Marchantia polymorpha</i>.",
+			"Takahashi G",
+			"Front Plant Sci",
+			"2021-04-12T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33843019,
+			"http://doi.org/10.1007/s00335-021-09868-2",
+			"Mutational analyses of novel rat models with targeted modifications in inflammatory bowel disease susceptibility genes.",
+			"Men H",
+			"Mamm Genome",
+			"2021-04-10T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			33617628,
+			"http://doi.org/10.1093/g3journal/jkab051",
+			"Implementation of dCas9-mediated CRISPRi in the fission yeast Schizosaccharomyces pombe.",
+			"Ishikawa K",
+			"G3 (Bethesda)",
+			"2021-03-31T15:00:00.000Z"
+		],
+		[
+			"CRISPRdirect",
+			"Cited reference",
+			"NA",
+			"http://doi.org/10.23964/expbiol.v1i1.8",
+			"A comprehensive and informative platform package for genome editing using the CRISPR-Cas9 system",
+			"Chia",
+			"Express Biology",
+			"NA"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			28505256,
+			"http://doi.org/10.1093/femsyr/fox030",
+			"CRISPR/Cas system for yeast genome engineering: advances and applications.",
+			"Stovicek",
+			"FEMS Yeast Res.",
+			"NA"
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31555520,
+			"http://doi.org/10.21037/tlcr.2019.07.10",
+			"MUC16 in non-small cell lung cancer patients affected by familial lung cancer and indoor air pollution: clinical characteristics and cell behaviors.",
+			"Chen",
+			"Transl Lung Cancer Res",
+			""
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30656625,
+			"http://doi.org/10.1007/978-1-4939-9007-8_9",
+			"Generating Neural Stem Cells from iPSCs with Dopaminergic Neurons Reporter Gene.",
+			"Hong",
+			"Methods Mol. Biol.",
+			""
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30825376,
+			"http://doi.org/10.1093/jxb/erz095",
+			"Rice transcription factor OsMYB102 delays leaf senescence by down-regulating abscisic acid accumulation and signaling.",
+			"Piao",
+			"J. Exp. Bot.",
+			""
+		],
+		[
+			"CRISPRdirect",
+			"",
+			31201419,
+			"http://doi.org/10.1093/biolre/ioz103",
+			"CRISPR/Cas9-mediated genome editing reveals 30 testis-enriched genes dispensable for male fertility in mice†.",
+			"Lu",
+			"Biol. Reprod.",
+			""
+		],
+		[
+			"CRISPRdirect",
+			"",
+			30169558,
+			"http://doi.org/10.1093/bioinformatics/bty748",
+			"Synergizing CRISPR/Cas9 off-target predictions for ensemble insights and practical applications.",
+			"Zhang",
 			"Bioinformatics",
 			""
 		],
@@ -6263,162 +6303,12 @@
 		[
 			"CRISPRdirect",
 			"",
-			30169558,
-			"http://doi.org/10.1093/bioinformatics/bty748",
-			"Synergizing CRISPR/Cas9 off-target predictions for ensemble insights and practical applications.",
-			"Zhang",
+			30649181,
+			"http://doi.org/10.1093/bioinformatics/btz019",
+			"Crisflash: open-source software to generate CRISPR guide RNAs against genomes annotated with individual variation.",
+			"Jacquin",
 			"Bioinformatics",
 			""
-		],
-		[
-			"CRISPRdirect",
-			"",
-			31201419,
-			"http://doi.org/10.1093/biolre/ioz103",
-			"CRISPR/Cas9-mediated genome editing reveals 30 testis-enriched genes dispensable for male fertility in mice†.",
-			"Lu",
-			"Biol. Reprod.",
-			""
-		],
-		[
-			"CRISPRdirect",
-			"",
-			30825376,
-			"http://doi.org/10.1093/jxb/erz095",
-			"Rice transcription factor OsMYB102 delays leaf senescence by down-regulating abscisic acid accumulation and signaling.",
-			"Piao",
-			"J. Exp. Bot.",
-			""
-		],
-		[
-			"CRISPRdirect",
-			"",
-			30656625,
-			"http://doi.org/10.1007/978-1-4939-9007-8_9",
-			"Generating Neural Stem Cells from iPSCs with Dopaminergic Neurons Reporter Gene.",
-			"Hong",
-			"Methods Mol. Biol.",
-			""
-		],
-		[
-			"CRISPRdirect",
-			"",
-			31555520,
-			"http://doi.org/10.21037/tlcr.2019.07.10",
-			"MUC16 in non-small cell lung cancer patients affected by familial lung cancer and indoor air pollution: clinical characteristics and cell behaviors.",
-			"Chen",
-			"Transl Lung Cancer Res",
-			""
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			28630587,
-			"http://doi.org/10.6001/actamedica.v24i1.3457",
-			"The most common technologies and tools for functional genome analysis.",
-			"Gasperskaja",
-			"Acta Med Litu",
-			"--"
-		],
-		[
-			"DBCLS SRA",
-			"",
-			32308977,
-			"http://doi.org/10.12688/f1000research.18236.1",
-			"BioHackathon 2015: Semantics of data for life sciences and reproducible research.",
-			"Vos RA",
-			"F1000Res",
-			"2020-02-23T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"",
-			31967131,
-			"http://doi.org/10.1039/c9cp05912a",
-			"High throughput sequencing of in vitro selections of mRNA-displayed peptides: data analysis and applications.",
-			"Blanco C",
-			"Phys Chem Chem Phys",
-			"2020-01-21T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"",
-			28262809,
-			"http://doi.org/10.1038/srep43368",
-			"Data integration aids understanding of butterfly-host plant networks.",
-			"Muto-Fujita",
-			"Sci Rep",
-			"2017-03-05T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			28234924,
-			"http://doi.org/10.1371/journal.pone.0172269",
-			"DNApod: DNA polymorphism annotation database from next-generation sequence read archives.",
-			"Mochizuki",
-			"PLoS ONE",
-			"2017-02-23T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			27837516,
-			"http://doi.org/10.1007/978-1-4939-6515-1_21",
-			"The Molecular Blueprint of a Fungus by Next-Generation Sequencing (NGS).",
-			"Grumaz",
-			"Methods Mol. Biol.",
-			"2016-11-11T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			26602181,
-			"http://doi.org/10.1111/odi.12403",
-			"Advances, practice, and clinical perspectives in high-throughput sequencing.",
-			"Park",
-			"Oral Dis",
-			"2016-01-10T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			25960871,
-			"http://doi.org/10.1186/s13742-015-0064-7",
-			"Investigation into the annotation of protocol sequencing steps in the sequence read archive.",
-			"Alnasir",
-			"Gigascience",
-			"2015-05-08T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"",
-			25960871,
-			"http://doi.org/10.1186/s13742-015-0064-7",
-			"Investigation into the annotation of protocol sequencing steps in the sequence read archive.",
-			"Alnasir J",
-			"Gigascience",
-			"2015-05-08T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Original",
-			24167589,
-			"http://doi.org/10.1371/journal.pone.0077910",
-			"Experimental design-based functional mining and characterization of high-throughput sequencing data in the sequence read archive.",
-			"Nakazato",
-			"PLoS ONE",
-			"2013-10-21T15:00:00.000Z"
-		],
-		[
-			"DBCLS SRA",
-			"Cited reference",
-			28449062,
-			"http://doi.org/10.1093/gigascience/gix029",
-			"Calculating the quality of public high-throughput sequencing data to obtain a suitable subset for reanalysis from the Sequence Read Archive.",
-			"Ohta",
-			"Gigascience",
-			"--"
 		],
 		[
 			"DBCLS SRA",
@@ -6482,6 +6372,36 @@
 		],
 		[
 			"DBCLS SRA",
+			"Cited reference",
+			28449062,
+			"http://doi.org/10.1093/gigascience/gix029",
+			"Calculating the quality of public high-throughput sequencing data to obtain a suitable subset for reanalysis from the Sequence Read Archive.",
+			"Ohta",
+			"Gigascience",
+			"--"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			32308977,
+			"http://doi.org/10.12688/f1000research.18236.1",
+			"BioHackathon 2015: Semantics of data for life sciences and reproducible research.",
+			"Vos RA",
+			"F1000Res",
+			"2020-02-23T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			31967131,
+			"http://doi.org/10.1039/c9cp05912a",
+			"High throughput sequencing of in vitro selections of mRNA-displayed peptides: data analysis and applications.",
+			"Blanco C",
+			"Phys Chem Chem Phys",
+			"2020-01-21T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
 			"",
 			28970523,
 			"http://doi.org/10.1038/s41598-017-11976-6",
@@ -6489,6 +6409,36 @@
 			"Torán",
 			"Sci Rep",
 			"2017-10-01T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			28262809,
+			"http://doi.org/10.1038/srep43368",
+			"Data integration aids understanding of butterfly-host plant networks.",
+			"Muto-Fujita",
+			"Sci Rep",
+			"2017-03-05T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
+			28234924,
+			"http://doi.org/10.1371/journal.pone.0172269",
+			"DNApod: DNA polymorphism annotation database from next-generation sequence read archives.",
+			"Mochizuki",
+			"PLoS ONE",
+			"2017-02-23T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
+			27837516,
+			"http://doi.org/10.1007/978-1-4939-6515-1_21",
+			"The Molecular Blueprint of a Fungus by Next-Generation Sequencing (NGS).",
+			"Grumaz",
+			"Methods Mol. Biol.",
+			"2016-11-11T15:00:00.000Z"
 		],
 		[
 			"DBCLS SRA",
@@ -6503,12 +6453,62 @@
 		[
 			"DBCLS SRA",
 			"Cited reference",
+			26602181,
+			"http://doi.org/10.1111/odi.12403",
+			"Advances, practice, and clinical perspectives in high-throughput sequencing.",
+			"Park",
+			"Oral Dis",
+			"2016-01-10T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"",
+			25960871,
+			"http://doi.org/10.1186/s13742-015-0064-7",
+			"Investigation into the annotation of protocol sequencing steps in the sequence read archive.",
+			"Alnasir J",
+			"Gigascience",
+			"2015-05-08T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
+			25960871,
+			"http://doi.org/10.1186/s13742-015-0064-7",
+			"Investigation into the annotation of protocol sequencing steps in the sequence read archive.",
+			"Alnasir",
+			"Gigascience",
+			"2015-05-08T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
 			25329319,
 			"http://doi.org/10.1371/journal.pone.0109656",
 			"De novo transcriptome sequencing analysis and comparison of differentially expressed genes (DEGs) in Macrobrachium rosenbergii in China.",
 			"Nguyen Thanh",
 			"PLoS ONE",
 			"2014-10-19T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Original",
+			24167589,
+			"http://doi.org/10.1371/journal.pone.0077910",
+			"Experimental design-based functional mining and characterization of high-throughput sequencing data in the sequence read archive.",
+			"Nakazato",
+			"PLoS ONE",
+			"2013-10-21T15:00:00.000Z"
+		],
+		[
+			"DBCLS SRA",
+			"Cited reference",
+			28630587,
+			"http://doi.org/10.6001/actamedica.v24i1.3457",
+			"The most common technologies and tools for functional genome analysis.",
+			"Gasperskaja",
+			"Acta Med Litu",
+			"--"
 		],
 		[
 			"Gendoo",
@@ -6812,6 +6812,76 @@
 		],
 		[
 			"GGRNA",
+			"",
+			30517762,
+			"http://doi.org/10.1093/toxsci/kfy292",
+			"Histopathological and Molecular Signatures of a Mouse Model of Acute-on-Chronic Alcoholic Liver Injury Demonstrate Concordance With Human Alcoholic Hepatitis.",
+			"Furuya S",
+			"Toxicol Sci",
+			"2019-07-31T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"Cited reference",
+			29768479,
+			"http://doi.org/10.1371/journal.pone.0197373",
+			"Construction of a tri-chromatic reporter cell line for the rapid and simple screening of splice-switching oligonucleotides targeting DMD exon 51 using high content screening.",
+			"Shimo",
+			"PLoS ONE",
+			"2018-05-15T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"Cited reference",
+			29110405,
+			"http://doi.org/10.1002/cbic.201700458",
+			"Nested PUF Proteins: Extending Target RNA Elements for Gene Regulation.",
+			"Shinoda",
+			"Chembiochem",
+			"2017-12-17T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"Cited reference",
+			27641628,
+			"http://doi.org/10.1016/j.taap.2016.09.011",
+			"A mouse model of alcoholic liver fibrosis-associated acute kidney injury identifies key molecular pathways.",
+			"Furuya",
+			"Toxicol. Appl. Pharmacol.",
+			"2016-09-14T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"Cited reference",
+			"NA",
+			"http://doi.org/10.11477/mf.1542200937",
+			"医療・健康分野で求められるデータベース構築と効率的検索システム",
+			"桜井雅史",
+			"臨床検査",
+			"2016-09-14T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"",
+			2557543,
+			"https://doi.org/10.1128/mcb.9.11.4896-4902.1989",
+			"Detection and characterization of the fibroblast growth factor-related oncoprotein INT-2.",
+			"Dixon",
+			"Mol. Cell. Biol.",
+			"--"
+		],
+		[
+			"GGRNA",
+			"",
+			1680878,
+			"https://doi.org/10.1172/jci115424",
+			"Adherence of neutrophils to canine cardiac myocytes in vitro is dependent on intercellular adhesion molecule-1.",
+			"Smith",
+			"J. Clin. Invest.",
+			"--"
+		],
+		[
+			"GGRNA",
 			"Cited reference",
 			26941783,
 			"http://doi.org/10.1186/s13637-016-0039-8",
@@ -6833,21 +6903,21 @@
 		[
 			"GGRNA",
 			"Cited reference",
-			24815390,
-			"http://doi.org/10.5582/bst.8.126",
-			"Substrate specificity of human granzyme 3: analyses of the P3-P2-P1 triplet using fluorescence resonance energy transfer substrate libraries.",
-			"Hirata",
-			"Biosci Trends",
-			"2014-05-10T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Cited reference",
 			"NA",
 			"http://doi.org/10.5582/bst.8.126",
 			"Substrate specificity of human granzyme 3: Analyses of the P3-P2-P1 triplet using fluorescence resonance energy transfer substrate libraries",
 			"Hirata",
 			"BioScience Trends",
+			"2014-05-10T15:00:00.000Z"
+		],
+		[
+			"GGRNA",
+			"Cited reference",
+			24815390,
+			"http://doi.org/10.5582/bst.8.126",
+			"Substrate specificity of human granzyme 3: analyses of the P3-P2-P1 triplet using fluorescence resonance energy transfer substrate libraries.",
+			"Hirata",
+			"Biosci Trends",
 			"2014-05-10T15:00:00.000Z"
 		],
 		[
@@ -6889,76 +6959,6 @@
 			"Baba",
 			"RNA",
 			"2004-07-22T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"",
-			1680878,
-			"https://doi.org/10.1172/jci115424",
-			"Adherence of neutrophils to canine cardiac myocytes in vitro is dependent on intercellular adhesion molecule-1.",
-			"Smith",
-			"J. Clin. Invest.",
-			"--"
-		],
-		[
-			"GGRNA",
-			"",
-			2557543,
-			"https://doi.org/10.1128/mcb.9.11.4896-4902.1989",
-			"Detection and characterization of the fibroblast growth factor-related oncoprotein INT-2.",
-			"Dixon",
-			"Mol. Cell. Biol.",
-			"--"
-		],
-		[
-			"GGRNA",
-			"",
-			30517762,
-			"http://doi.org/10.1093/toxsci/kfy292",
-			"Histopathological and Molecular Signatures of a Mouse Model of Acute-on-Chronic Alcoholic Liver Injury Demonstrate Concordance With Human Alcoholic Hepatitis.",
-			"Furuya S",
-			"Toxicol Sci",
-			"2019-07-31T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Cited reference",
-			29768479,
-			"http://doi.org/10.1371/journal.pone.0197373",
-			"Construction of a tri-chromatic reporter cell line for the rapid and simple screening of splice-switching oligonucleotides targeting DMD exon 51 using high content screening.",
-			"Shimo",
-			"PLoS ONE",
-			"2018-05-15T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Cited reference",
-			29110405,
-			"http://doi.org/10.1002/cbic.201700458",
-			"Nested PUF Proteins: Extending Target RNA Elements for Gene Regulation.",
-			"Shinoda",
-			"Chembiochem",
-			"2017-12-17T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Cited reference",
-			"NA",
-			"http://doi.org/10.11477/mf.1542200937",
-			"医療・健康分野で求められるデータベース構築と効率的検索システム",
-			"桜井雅史",
-			"臨床検査",
-			"2016-09-14T15:00:00.000Z"
-		],
-		[
-			"GGRNA",
-			"Cited reference",
-			27641628,
-			"http://doi.org/10.1016/j.taap.2016.09.011",
-			"A mouse model of alcoholic liver fibrosis-associated acute kidney injury identifies key molecular pathways.",
-			"Furuya",
-			"Toxicol. Appl. Pharmacol.",
-			"2016-09-14T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
@@ -7004,9 +7004,9 @@
 			"PubAnnotation",
 			"Cited reference",
 			"NA",
-			"http://dx.doi.org/10.18653/v1/2020.nlpcovid19-2.28",
-			"AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature",
-			"Suderman K",
+			"http://dx.doi.org/10.18653/v1/2020.nlpcovid19-2.27",
+			"Annotating the pandemic: Named entity recognition and normalisation in COVID-19 literature",
+			"Colic N",
 			"Proceedings of the 1st Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020",
 			"2020-11-19T15:00:00.000Z"
 		],
@@ -7014,9 +7014,9 @@
 			"PubAnnotation",
 			"Cited reference",
 			"NA",
-			"http://dx.doi.org/10.18653/v1/2020.nlpcovid19-2.27",
-			"Annotating the pandemic: Named entity recognition and normalisation in COVID-19 literature",
-			"Colic N",
+			"http://dx.doi.org/10.18653/v1/2020.nlpcovid19-2.28",
+			"AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature",
+			"Suderman K",
 			"Proceedings of the 1st Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020",
 			"2020-11-19T15:00:00.000Z"
 		],
@@ -7043,16 +7043,6 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			32634868,
-			"https://doi.org/10.5808/GI.2020.18.2.e14",
-			"WTO, an ontology for wheat traits and phenotypes in scientific publications",
-			"Nédellec C",
-			"Genomics & Informatics",
-			"2020-06-15T15:00:00.000Z"
-		],
-		[
-			"PubAnnotation",
-			"Cited reference",
 			32634867,
 			"https://doi.org/10.5808/GI.2020.18.2.e13",
 			"Using the PubAnnotation ecosystem to perform agile text mining on Genomics & Informatics: a tutorial review",
@@ -7063,30 +7053,20 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			32634870,
-			"https://doi.org/10.5808/GI.2020.18.2.e16",
-			"Social Media Mining Toolkit (SMMT)",
-			"Tekumalla R",
+			32634868,
+			"https://doi.org/10.5808/GI.2020.18.2.e14",
+			"WTO, an ontology for wheat traits and phenotypes in scientific publications",
+			"Nédellec C",
 			"Genomics & Informatics",
-			"2020-06-14T15:00:00.000Z"
+			"2020-06-15T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
 			"Cited reference",
-			32634874,
-			"https://doi.org/10.5808/GI.2020.18.2.e20",
-			"Improving accessibility and distinction between negative results in biomedical relation extraction",
-			"Sousa D",
-			"Genomics & Informatics",
-			"2020-06-14T15:00:00.000Z"
-		],
-		[
-			"PubAnnotation",
-			"Cited reference",
-			32634872,
-			"https://doi.org/10.5808/GI.2020.18.2.e18",
-			"Integration of the PubAnnotation ecosystem in the development of a web-based search tool for alternative methods",
-			"Mariana; N",
+			32634873,
+			"https://doi.org/10.5808/gi.2020.18.2.e19",
+			"Enabling a fast annotation process with the Table2Annotation tool",
+			"Larmande P",
 			"Genomics & Informatics",
 			"2020-06-14T15:00:00.000Z"
 		],
@@ -7103,22 +7083,32 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			32634873,
-			"https://doi.org/10.5808/gi.2020.18.2.e19",
-			"Enabling a fast annotation process with the Table2Annotation tool",
-			"Larmande P",
+			32634872,
+			"https://doi.org/10.5808/GI.2020.18.2.e18",
+			"Integration of the PubAnnotation ecosystem in the development of a web-based search tool for alternative methods",
+			"Mariana; N",
 			"Genomics & Informatics",
 			"2020-06-14T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
 			"Cited reference",
-			"NA",
-			"NA",
-			"Interchange Formats for Visualization: LIF and MMIF",
-			"Rim K",
-			"Proceedings of the 12th Language Resources and Evaluation Conference",
-			"2020-05-15T15:00:00.000Z"
+			32634874,
+			"https://doi.org/10.5808/GI.2020.18.2.e20",
+			"Improving accessibility and distinction between negative results in biomedical relation extraction",
+			"Sousa D",
+			"Genomics & Informatics",
+			"2020-06-14T15:00:00.000Z"
+		],
+		[
+			"PubAnnotation",
+			"Cited reference",
+			32634870,
+			"https://doi.org/10.5808/GI.2020.18.2.e16",
+			"Social Media Mining Toolkit (SMMT)",
+			"Tekumalla R",
+			"Genomics & Informatics",
+			"2020-06-14T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
@@ -7128,6 +7118,16 @@
 			"Towards Standardization of Web Service Protocols for NLPaaS",
 			"Kim JD",
 			"Proceedings of the 1st International Workshop on Language Technology Platforms",
+			"2020-05-15T15:00:00.000Z"
+		],
+		[
+			"PubAnnotation",
+			"Cited reference",
+			"NA",
+			"NA",
+			"Interchange Formats for Visualization: LIF and MMIF",
+			"Rim K",
+			"Proceedings of the 12th Language Resources and Evaluation Conference",
 			"2020-05-15T15:00:00.000Z"
 		],
 		[
@@ -7183,20 +7183,20 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			"NA",
-			"http://dx.doi.org/10.18653/v1/D19-5710",
-			"An overview of the active gene annotation corpus and the bionlp ost 2019 agac track tasks",
-			"Wang Y",
+			"",
+			"http://dx.doi.org/10.18653/v1/D19-5701",
+			"Pharmaconer: Pharmacological substances, compounds and proteins named entity recognition track",
+			"Gonzalez-Agirre A",
 			"Proceedings of The 5th Workshop on BioNLP Open Shared Tasks",
 			"2019-11-03T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
 			"Cited reference",
-			"",
-			"http://dx.doi.org/10.18653/v1/D19-5701",
-			"Pharmaconer: Pharmacological substances, compounds and proteins named entity recognition track",
-			"Gonzalez-Agirre A",
+			"NA",
+			"http://dx.doi.org/10.18653/v1/D19-5710",
+			"An overview of the active gene annotation corpus and the bionlp ost 2019 agac track tasks",
+			"Wang Y",
 			"Proceedings of The 5th Workshop on BioNLP Open Shared Tasks",
 			"2019-11-03T15:00:00.000Z"
 		],
@@ -7233,16 +7233,6 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			31307133,
-			"https://doi.org/10.5808/GI.2019.17.2.e18",
-			"A review of drug knowledge discovery using BioNLP and tensor or matrix decomposition",
-			"Gachloo M",
-			"Genomics & Informatics",
-			"2019-06-26T15:00:00.000Z"
-		],
-		[
-			"PubAnnotation",
-			"Cited reference",
 			31307135,
 			"https://dx.doi.org/10.5808%2FGI.2019.17.2.e20",
 			"Improving the CONTES method for normalizing biomedical text entities with concepts from an ontology with (almost) no training data",
@@ -7253,12 +7243,12 @@
 		[
 			"PubAnnotation",
 			"Cited reference",
-			31307132,
-			"https://doi.org/10.5808/GI.2019.17.2.e17",
-			"OryzaGP: rice gene and protein dataset for named-entity recognition",
-			"Larmande P",
+			31307133,
+			"https://doi.org/10.5808/GI.2019.17.2.e18",
+			"A review of drug knowledge discovery using BioNLP and tensor or matrix decomposition",
+			"Gachloo M",
 			"Genomics & Informatics",
-			"2019-06-25T15:00:00.000Z"
+			"2019-06-26T15:00:00.000Z"
 		],
 		[
 			"PubAnnotation",
@@ -7267,6 +7257,16 @@
 			"https://doi.org/10.5808/GI.2019.17.2.e19",
 			"Towards cross-platform interoperability for machine-assisted text annotation",
 			"Castilho RE",
+			"Genomics & Informatics",
+			"2019-06-25T15:00:00.000Z"
+		],
+		[
+			"PubAnnotation",
+			"Cited reference",
+			31307132,
+			"https://doi.org/10.5808/GI.2019.17.2.e17",
+			"OryzaGP: rice gene and protein dataset for named-entity recognition",
+			"Larmande P",
 			"Genomics & Informatics",
 			"2019-06-25T15:00:00.000Z"
 		],
@@ -7344,9 +7344,9 @@
 			"PubAnnotation",
 			"Cited reference",
 			"NA",
-			"https://doi.org/10.1017/S1351324918000347",
+			"http://dx.doi.org/10.1017/S1351324918000347",
 			"Models to represent linguistic linked data",
-			"BOSQUE-GIL J",
+			"Bosque-Gil J",
 			"Natural Language Engineering",
 			"2018-10-03T15:00:00.000Z"
 		],
@@ -7354,9 +7354,9 @@
 			"PubAnnotation",
 			"Cited reference",
 			"NA",
-			"http://dx.doi.org/10.1017/S1351324918000347",
+			"https://doi.org/10.1017/S1351324918000347",
 			"Models to represent linguistic linked data",
-			"Bosque-Gil J",
+			"BOSQUE-GIL J",
 			"Natural Language Engineering",
 			"2018-10-03T15:00:00.000Z"
 		],
@@ -7492,22 +7492,22 @@
 		],
 		[
 			"PubAnnotation",
-			"Cited reference",
-			"NA",
-			"https://dx.doi.org/10.1186%2F1753-6561-9-S5-A2",
-			"Interoperability of text corpus annotations with the semantic web",
-			"Verspoor K",
-			"BMC proceedings",
-			"2015-08-05T15:00:00.000Z"
-		],
-		[
-			"PubAnnotation",
 			"Original",
 			"NA",
 			"https://doi.org/10.1186/1753-6561-9-S5-A3",
 			"PubAnnotation-query: a search tool for corpora with multi-layers of annotation",
 			"Kim JD",
 			"BMC Proceedings",
+			"2015-08-05T15:00:00.000Z"
+		],
+		[
+			"PubAnnotation",
+			"Cited reference",
+			"NA",
+			"https://dx.doi.org/10.1186%2F1753-6561-9-S5-A2",
+			"Interoperability of text corpus annotations with the semantic web",
+			"Verspoor K",
+			"BMC proceedings",
 			"2015-08-05T15:00:00.000Z"
 		],
 		[
@@ -7583,6 +7583,16 @@
 		[
 			"RefEx",
 			"Cited reference",
+			34655407,
+			"https://doi.org/10.1007/s11033-021-06756-5",
+			"rs6426881 in the 3'-UTR of PBX1 is involved in breast and gastric cancers via altering the binding potential of miR-522-3p",
+			"Mohammadi",
+			"Mol Biol Rep. ",
+			"2021-10-15T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
 			34065451,
 			"https://doi.org/10.3390/biomedicines9050582",
 			"Multi-Omic Meta-Analysis of Transcriptomes and the Bibliome Uncovers Novel Hypoxia-Inducible Genes",
@@ -7642,21 +7652,11 @@
 		],
 		[
 			"RefEx",
-			"",
+			"Cited reference",
 			33346378,
 			"http://doi.org/10.15252/embj.2020104712",
 			"A microtubule-LUZP1 association around tight junction promotes epithelial cell apical constriction.",
 			"Yano T",
-			"EMBO J",
-			"2020-12-20T15:00:00.000Z"
-		],
-		[
-			"RefEx",
-			"Cited reference",
-			33346378,
-			"http://doi.org/10.15252/embj.2020104712",
-			"A microtubule‐LUZP1 association around tight junction promotes epithelial cell apical constriction.",
-			"Yano",
 			"EMBO J",
 			"2020-12-20T15:00:00.000Z"
 		],
@@ -7882,21 +7882,21 @@
 		],
 		[
 			"RefEx",
-			"Original",
-			28850115,
-			"http://doi.org/10.1038/sdata.2017.105",
-			"RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes.",
-			"Ono",
-			"Sci Data",
-			"2017-08-28T15:00:00.000Z"
-		],
-		[
-			"RefEx",
 			"Mentioned in text",
 			28850107,
 			"http://doi.org/10.1038/sdata.2017.113",
 			"The FANTOM5 collection, a data series underpinning mammalian transcriptome atlases in diverse cell types.",
 			"Kawaji",
+			"Sci Data",
+			"2017-08-28T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Original",
+			28850115,
+			"http://doi.org/10.1038/sdata.2017.105",
+			"RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes.",
+			"Ono",
 			"Sci Data",
 			"2017-08-28T15:00:00.000Z"
 		],
@@ -8083,6 +8083,16 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
+			34572924,
+			"https://doi.org/10.3390/cancers13184697",
+			"Cathepsin S Evokes PAR2-Dependent Pain in Oral Squamous Cell Carcinoma Patients and Preclinical Mouse Models",
+			"Tu",
+			"Cancers (Basel)",
+			"2021-09-18T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
 			34471043,
 			"https://doi.org/10.1248/bpb.b21-00296",
 			"Elucidation of the Physiological Functions of Membrane Proteins as Novel Drug Target Candidate Molecules",
@@ -8233,21 +8243,21 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			"NA",
-			"https://doi.org/10.12965/jer.2040672.336",
-			"Free gait in a shallow pool accelerates recovery after exercise in model mice with fibromyalgia",
-			"Nakata",
-			"J Exerc Rehabil.",
-			"2020-09-29T15:00:00.000Z"
-		],
-		[
-			"TogoTV",
-			"Use of published illustrations",
 			32997682,
 			"https://doi.org/10.1371/journal.pone.0239473",
 			"Excessive exercise induces cardiac arrhythmia in a young fibromyalgia mouse model",
 			"Nakata",
 			"PLoS One",
+			"2020-09-29T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.12965/jer.2040672.336",
+			"Free gait in a shallow pool accelerates recovery after exercise in model mice with fibromyalgia",
+			"Nakata",
+			"J Exerc Rehabil.",
 			"2020-09-29T15:00:00.000Z"
 		],
 		[
@@ -8513,21 +8523,21 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			29949764,
-			"https://doi.org/10.1016/j.celrep.2018.04.099",
-			"A De Novo Mouse Model of C11orf95-RELA Fusion-Driven Ependymoma Identifies Driver Functions in Addition to NF-κB.",
-			"Ozawa",
-			"Cell Rep.",
-			"2018-06-25T15:00:00.000Z"
-		],
-		[
-			"TogoTV",
-			"Use of published illustrations",
 			29966840,
 			"https://doi.org/10.1016/j.envpol.2018.06.071",
 			"Alterations in urinary metabolomic profiles due to lead exposure from a lead–acid battery recycling site",
 			"Eguchi",
 			"Environmental Pollution",
+			"2018-06-25T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			29949764,
+			"https://doi.org/10.1016/j.celrep.2018.04.099",
+			"A De Novo Mouse Model of C11orf95-RELA Fusion-Driven Ependymoma Identifies Driver Functions in Addition to NF-κB.",
+			"Ozawa",
+			"Cell Rep.",
 			"2018-06-25T15:00:00.000Z"
 		],
 		[
@@ -8792,21 +8802,21 @@
 		],
 		[
 			"TogoWS",
-			"Cited reference",
-			20727200,
-			"http://doi.org/10.1186/2041-1480-1-8",
-			"The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows.",
-			"Katayama",
-			"J Biomed Semantics",
-			"2010-08-20T15:00:00.000Z"
-		],
-		[
-			"TogoWS",
 			"",
 			20727200,
 			"http://doi.org/10.1186/2041-1480-1-8",
 			"The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows. The DBCLS BioHackathon Consortium*.",
 			"Katayama T",
+			"J Biomed Semantics",
+			"2010-08-20T15:00:00.000Z"
+		],
+		[
+			"TogoWS",
+			"Cited reference",
+			20727200,
+			"http://doi.org/10.1186/2041-1480-1-8",
+			"The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows.",
+			"Katayama",
 			"J Biomed Semantics",
 			"2010-08-20T15:00:00.000Z"
 		],
@@ -8861,5 +8871,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2021-10-01T06:05:59.892Z"
+	"updated": "2021-11-01T07:01:20.293Z"
 }
