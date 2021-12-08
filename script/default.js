@@ -284,6 +284,8 @@ var initialize = {
           for (var i = 0; i < service_array.length; i++) {
 
             const pubmed = service_array[i][2] === "NA" ? "NA" : `<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=${service_array[i][2]}" target="_blank">${service_array[i][2]}</a>`
+            let pub_date = new Date(service_array[i][e_pub_date_order]);
+            pub_date = `${pub_date.getFullYear()}-${pub_date.getMonth() + 1}-${pub_date.getDate()}`
             results +=
               '<div class="publications__column__wrapper">' +
               '<h4 class="publications__column__title">' + service_array[i][title_order] + '</h4>' +
@@ -293,7 +295,7 @@ var initialize = {
               '<i class="fa fa-user" aria-hidden="true"></i>' +
               '<p>' + service_array[i][first_author_order] + '</p>' +
               '<i class="fa fa-clock-o" aria-hidden="true"></i>' +
-              '<p>' + service_array[i][e_pub_date_order] + '</p>' +
+              '<p>' + pub_date + '</p>' +
               '<i class="fa fa-book" aria-hidden="true"></i>' +
               '<p>' + service_array[i][Journal_order] + '</p>' +
               '<i class="fa fa-quote-right" aria-hidden="true"></i>' +
