@@ -284,8 +284,13 @@ var initialize = {
           for (var i = 0; i < service_array.length; i++) {
 
             const pubmed = service_array[i][2] === "NA" ? "NA" : `<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=${service_array[i][2]}" target="_blank">${service_array[i][2]}</a>`
-            let pub_date = new Date(service_array[i][e_pub_date_order]);
-            pub_date = `${pub_date.getFullYear()}-${pub_date.getMonth() + 1}-${pub_date.getDate()}`
+            let pub_date = service_array[i][e_pub_date_order]
+            if (pub_date && pub_date !== 'NA') {
+              pub_date =  new Date(pub_date)
+              pub_date = `${pub_date.getFullYear()}-${pub_date.getMonth() + 1}-${pub_date.getDate()}`
+            } else {
+              pub_date = 'NA'
+            }
             results +=
               '<div class="publications__column__wrapper">' +
               '<h4 class="publications__column__title">' + service_array[i][title_order] + '</h4>' +
