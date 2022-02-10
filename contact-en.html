@@ -23,14 +23,14 @@
     </div>
     <div class="main__contents">
       <div id="main__contents-">
-    		<div class="main__content-title__wrapper">
-    			<h3 class="main__content-title">Contact DBCLS</h3>
-  			</div>
-  			<div class="section-wrapper__contact">
-  				<p class="description"><a href="/faq-en.html">DBCLS FAQ</a></p>
-  				<p class="adelement__description"></p>
-  				<div class="contents__wrapper">
-	  				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='completion-en.html'}"></iframe>
+				<div class="main__content-title__wrapper">
+					<h3 class="main__content-title">Contact DBCLS</h3>
+				</div>
+				<div class="section-wrapper__contact">
+					<p class="description"><a href="/faq-en.html">DBCLS FAQ</a></p>
+					<p class="adelement__description"></p>
+					<div class="contents__wrapper">
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none; "></iframe>
 						<form action="https://docs.google.com/forms/d/e/1FAIpQLSfw_MakkYw4seAFK0s4dchsIz617Px_npafFAcFuvAVr1NSqw/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true">
 							<section>
 								<h3>Email address</h3>
@@ -48,16 +48,32 @@
 								<h3>Your name</h3>
 								<input type="" name="entry.1419418193" required/>
 							</section>
+							<section>
+                <h3>Please enter the text of the logo below (for anti-spam) </h3>
+                <img src="img/logotypes/logo_c.svg" alt="" width="100">
+                <br><br>
+                <input type="" name="entry.1342302338" required/>
+              </section>
 							<div class="btn_submit">
-								<button type="submit" name="" value="send">Submit</button>
-							</div>
+                <button class="g-recaptcha"
+                data-sitekey="6LfyebgZAAAAAM29lOrMlYD6tpYTgWu7Q330sQG7"
+                data-callback='onSubmit'
+                data-action='submit'>Submit</button>
+              </div>
 						</form>
 					</div>
-  			</div>
+				</div>
 			</div>
 		</div>
 </div>
 {% include footer_en.html %}
 </body>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="script/default-min.js"></script>
+<script>
+  function onSubmit(token) {
+    document.getElementById("ss-form").submit();
+    window.location='completion-en.html'
+  }
+</script>
 </html>
