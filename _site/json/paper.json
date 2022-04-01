@@ -7993,6 +7993,16 @@
 		[
 			"RefEx",
 			"Cited reference",
+			35322078,
+			"https://doi.org/10.1038/s41598-022-08904-8",
+			"Loss of KAP3 decreases intercellular adhesion and impairs intracellular transport of laminin in signet ring cell carcinoma of the stomach",
+			"Soda",
+			"Sci Rep.",
+			"2022-03-22T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
 			34999820,
 			"https://doi.org/10.1093/molbev/msab371",
 			"Placental Mammals Acquired Functional Sequences in NRK for Regulating the CK2-PTEN-AKT Pathway and Placental Cell Proliferation",
@@ -9391,5 +9401,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2022-03-01T08:11:16.199Z"
+	"updated": "2022-04-01T08:28:51.543Z"
 }
