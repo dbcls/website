@@ -18,16 +18,7 @@ TogoDX/Human は TogoDXのフレームワークを用いて、国内外のデー
 
 ## スクリーンショット
 
-### トップページからID変換
+### TogoDX/human トップ画面（一部省略）
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-1_20210707.png)
-
-### ID変換の結果
-
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-2_20210707.png)
-
-### 収載DBのIDに関する情報
-
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3_20210707.png)
-
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDXhuman_top.png)
 
