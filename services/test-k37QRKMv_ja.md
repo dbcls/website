@@ -3,7 +3,7 @@
 TogoDX (Togo Data eXplorer)は、知識グラフ(Knowledge graph)を用いて統合された、生命科学分野における様々なデータベースを統合的に探索するためのフレームワークです。TogoDXでは、データセットごとに持つ多様な属性(attribute)によって絞り込みを行い、データサイエンスに有用なデータを柔軟に抽出する新しい仕組みの提供を目指しています。
 ### TogoDX概念図
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDX_concept.png)
+<img src="https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDX_concept.png" width="720">
 
 ## TogoDX/Human について
 TogoDX/Human は TogoDXのフレームワークを用いて、国内外のデータベースから収集・統合した、ヒトに関する遺伝子、タンパク質、化合物、疾患などの情報をワンストップで探索するためのインターフェイスを提供します。現在、約20個のデータベースに由来する50個以上の 属性(attribute) が利用可能です。
