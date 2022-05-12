@@ -4,7 +4,7 @@ TogoVar (NBDC's integrated database of Japanese genomic variation) is a database
 
 TogoVar provides variant frequencies in the Japanese population that have been aggregated across research projects. Two available datasets, JGA-NGS and JGA-SNP, are obtained by aggregating individual genomic data that have been registered in the NBDC Human Database / Japanese Genotype-phenotype Archive (JGA). In addition, TogoVar integrates information related to genotypes or phenotypes that has been compiled independently in a variety of different databases and provides information for interpreting variants in a one-stop, easy-to-understand manner.
 
-TogoVar has been developed as a joint research project of National Bioscience Database Center (NBDC), Japan Science and Technology Agency (JST) and Database Center for Life Science (DBCLS), Joint Support-Center for Data Science Research, Research Organization of Information and Systems (ROIS) .
+TogoVar has been developed as a joint research project of Department of NBDC Program, Japan Science and Technology Agency (JST) and DBCLS.
 
 ## URL
 
