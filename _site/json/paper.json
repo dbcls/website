@@ -2,7 +2,7 @@
 	"data": [
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			34457144,
 			"http://doi.org/undefined",
 			"Auto-mapping Clinical Documents to ICD-10 using SNOMED-CT.",
@@ -12,7 +12,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			32759099,
 			"http://doi.org/10.2196/16948",
 			"Semantic Deep Learning: Prior Knowledge and a Type of Four-Term Embedding Analogy to Acquire Treatments for Well-Known Diseases.",
@@ -22,7 +22,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			31163073,
 			"http://doi.org/10.1371/journal.pone.0217852",
 			"Split4Blank: Maintaining consistency while improving efficiency of loading RDF data with blank nodes.",
@@ -32,7 +32,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			30624653,
 			"http://doi.org/10.1093/database/bay137",
 			"PubTerm: a web tool for organizing, annotating and curating genes, diseases, molecules and other concepts from PubMed records.",
@@ -42,7 +42,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			30173820,
 			"http://doi.org/S0002-9297(18)30269-6",
 			"PubCaseFinder: A Case-Report-Based, Phenotype-Driven Differential-Diagnosis System for Rare Diseases.",
@@ -52,7 +52,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			25822509,
 			"http://doi.org/10.1371/journal.pone.0117955",
 			"Properties of protein drug target classes.",
@@ -62,7 +62,7 @@
 		],
 		[
 			"Allie",
-			"",
+			"Cited reference",
 			25474213,
 			"http://doi.org/10.1371/journal.pcbi.1003951",
 			"The HIV mutation browser: a resource for human immunodeficiency virus mutagenesis and polymorphism data.",
@@ -253,16 +253,6 @@
 		[
 			"BH2010",
 			"",
-			"",
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service",
-			"Oshita K",
-			"",
-			"2015-11-17T15:00:00.000Z"
-		],
-		[
-			"BH2010",
-			"",
 			25834725,
 			"http://doi.org/10.1186/s13336-015-0019-3",
 			"Clinical decision support systems for improving diagnostic accuracy and achieving precision medicine.",
@@ -413,16 +403,6 @@
 		[
 			"BH2011",
 			"",
-			"",
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service",
-			"Oshita K",
-			"",
-			"2015-11-17T15:00:00.000Z"
-		],
-		[
-			"BH2011",
-			"",
 			25472764,
 			"http://doi.org/10.1186/1471-2105-15-s14-s7",
 			"Community-driven development for computational biology at Sprints, Hackathons and Codefests.",
@@ -549,16 +529,6 @@
 			"Hofmann-Apitius M",
 			"Int J Mol Sci",
 			"2015-12-06T15:00:00.000Z"
-		],
-		[
-			"BH2013",
-			"",
-			"",
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service",
-			"Oshita K",
-			"",
-			"2015-11-17T15:00:00.000Z"
 		],
 		[
 			"BH2013",
@@ -833,16 +803,6 @@
 		[
 			"BH2014",
 			"",
-			"",
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service",
-			"Oshita K",
-			"",
-			"2015-11-17T15:00:00.000Z"
-		],
-		[
-			"BH2014",
-			"",
 			26578571,
 			"http://doi.org/10.1093/nar/gkv1105",
 			"DNA data bank of Japan (DDBJ) progress report.",
@@ -1013,32 +973,12 @@
 		[
 			"BH2015",
 			"",
-			"",
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service",
-			"Oshita K",
-			"",
-			"2015-11-17T15:00:00.000Z"
-		],
-		[
-			"BH2015",
-			"",
 			26578571,
 			"http://doi.org/10.1093/nar/gkv1105",
 			"DNA data bank of Japan (DDBJ) progress report.",
 			"Mashima J",
 			"Nucleic Acids Res",
 			"2015-11-16T15:00:00.000Z"
-		],
-		[
-			"BH2015",
-			"",
-			26673001,
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service.",
-			"Oshita K",
-			"F1000Res",
-			"2014-11-18T15:00:00.000Z"
 		],
 		[
 			"BH_in_Ack_Fund",
@@ -1442,46 +1382,6 @@
 		],
 		[
 			"BioHackathon",
-			"",
-			29040613,
-			"http://doi.org/10.1093/nar/gkx926",
-			"DNA Data Bank of Japan: 30th anniversary.",
-			"Kodama",
-			"Nucleic Acids Res.",
-			"--"
-		],
-		[
-			"BioHackathon",
-			"Acknowledgement",
-			28449114,
-			"http://doi.org/10.1093/bioinformatics/btx275",
-			"Neuro-symbolic representation learning on biological knowledge graphs.",
-			"Alshahrani",
-			"Bioinformatics",
-			"--"
-		],
-		[
-			"BioHackathon",
-			"",
-			31236786,
-			"http://doi.org/10.1186/s13321-019-0363-6",
-			"Next generation community assessment of biomedical entity recognition web servers: metrics, performance, interoperability aspects of BeCalm.",
-			"Pérez-Pérez",
-			"J Cheminform",
-			"2019-06-23T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			30624651,
-			"http://doi.org/10.1093/database/bay132",
-			"TogoGenome/TogoStanza: modularized Semantic Web genome database.",
-			"Katayama",
-			"Database (Oxford)",
-			"2018-12-31T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
 			"Cited reference",
 			"NA",
 			"https://doi.org/10.1145/3274442",
@@ -1489,26 +1389,6 @@
 			"Thomer",
 			"Proceedings of the ACM on Human-Computer Interaction - CSCW",
 			"2018-10-31T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Acknowledgement",
-			29944145,
-			"https://doi.org/10.1038/sdata.2018.118",
-			"A design framework and exemplar metrics for FAIRness",
-			"Wilkinson",
-			"Sci Data",
-			"2018-06-25T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			29853438,
-			"http://doi.org/10.2196/medinform.7799",
-			"Development and Validation of a Functional Behavioural Assessment Ontology to Support Behavioural Health Interventions.",
-			"Merlo",
-			"JMIR Med Inform",
-			"2018-05-30T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -1523,162 +1403,12 @@
 		[
 			"BioHackathon",
 			"",
-			28265499,
-			"http://doi.org/10.7717/peerj.2990\n",
-			"Exploring biomedical ontology mappings with graph theory methods.",
-			"Kocbek",
-			"PeerJ",
-			"2017-03-01T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			28178937,
-			"http://doi.org/10.1186/s12859-017-1531-1\n",
-			"SPANG: a SPARQL client supporting generation and reuse of queries for distributed RDF databases.",
-			"Chiba",
-			"BMC Bioinformatics",
-			"2017-02-07T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			28012137,
-			"http://doi.org/10.1007/s10969-016-9211-3\n",
-			"VaProS: a database-integration approach for protein/genome information retrieval.",
-			"Gojobori",
-			"J. Struct. Funct. Genomics",
-			"2016-12-22T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27842607,
-			"#N/A",
-			"The flora phenotype ontology (FLOPO): tool for integrating morphological traits and phenotypes of vascular plants.",
-			"Hoehndorf",
-			"J Biomed Semantics",
-			"2016-11-13T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27789697,
-			"http://doi.org/10.1093/nar/gkw962",
-			"Protein Data Bank Japan (PDBj): updated user interfaces, resource description framework, analysis tools for large structures.",
-			"Kinjo",
-			"Nucleic Acids Res.",
-			"2016-10-25T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27924010,
-			"#N/A",
-			"DNA Data Bank of Japan.",
-			"Mashima",
-			"#N/A",
-			"2016-10-23T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27602295,
-			"http://doi.org/10.7717/peerj.2331",
-			"The health care and life sciences community profile for dataset descriptions.",
-			"Dumontier",
-			"PeerJ",
-			"2016-08-15T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
 			27464907,
 			"http://doi.org/10.1002/minf.201600073\n",
 			"BIGCHEM: Challenges and Opportunities for Big Data Analysis in Chemistry.",
 			"Tetko",
 			"Mol Inform",
 			"2016-07-27T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27412095,
-			"#N/A",
-			"SSBD: a database of quantitative data of spatiotemporal dynamics of biological phenomena.",
-			"Tohsato",
-			"Bioinformatics",
-			"2016-07-12T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27392431,
-			"http://doi.org/10.1186/s13326-016-0079-8\n",
-			"NeuroRDF: semantic integration of highly curated data to prioritize biomarker candidates in Alzheimer's disease.",
-			"Iyappan",
-			"#N/A",
-			"2016-07-07T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27296299,
-			"http://doi.org/10.1186/s13326-016-0067-z\n",
-			"FALDO: a semantic standard for describing the location of nucleotide and protein feature annotation.",
-			"Bolleman",
-			"J Biomed Semantics",
-			"2016-06-12T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			27259657,
-			"http://doi.org/10.1186/s13326-016-0077-x",
-			"The Orthology Ontology: development and applications.",
-			"Fernández-Breis",
-			"J Biomed Semantics",
-			"2016-06-03T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			27433158,
-			"http://doi.org/10.3389/fpls.2016.00641",
-			"Publishing FAIR Data: An Exemplar Methodology Utilizing PHI-Base.",
-			"Rodríguez-Iglesias",
-			"Front Plant Sci",
-			"2016-05-11T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			27050304,
-			"http://doi.org/10.2196/medinform.5275",
-			"A Querying Method over RDF-ized Health Level Seven v2.5 Messages Using Life Science Knowledge Resources.",
-			"Kawazoe",
-			"JMIR Med Inform",
-			"2016-04-04T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Acknowledgement",
-			26978244,
-			"http://doi.org/10.1038/sdata.2016.18",
-			"The FAIR Guiding Principles for scientific data management and stewardship.",
-			"Wilkinson",
-			"Sci Data",
-			"2016-03-14T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			26978244,
-			"http://doi.org/10.1038/sdata.2016.18",
-			"The FAIR Guiding Principles for scientific data management and stewardship.",
-			"Wilkinson",
-			"Sci Data",
-			"2016-03-14T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -1693,82 +1423,12 @@
 		[
 			"BioHackathon",
 			"調査中",
-			26690135,
-			"http://doi.org/10.3390/ijms161226148",
-			"Bioinformatics Mining and Modeling Methods for the Identification of Disease Mechanisms in Neurodegenerative Disorders.",
-			"Hofmann-Apitius",
-			"Int J Mol Sci",
-			"2015-12-06T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			26578571,
-			"http://doi.org/10.1093/nar/gkv1105",
-			"DNA data bank of Japan (DDBJ) progress report.",
-			"Mashima",
-			"Nucleic Acids Res.",
-			"2015-11-16T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			26545824,
-			"http://doi.org/10.1093/bioinformatics/btv593",
-			"Automatic generation of bioinformatics tools for predicting protein-ligand binding sites.",
-			"Komiyama",
-			"Bioinformatics",
-			"2015-11-04T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
 			27295638,
 			"http://doi.org/10.1109/TCBB.2015.2462370",
 			"A Novel Method to Detect Functional microRNA Regulatory Modules by Bicliques Merging.",
 			"Liang",
 			"IEEE/ACM Trans Comput Biol Bioinform",
 			"2015-07-30T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			26019997,
-			"http://doi.org/10.7717/peerj.933",
-			"GFVO: the Genomic Feature and Variation Ontology.",
-			"Baran",
-			"PeerJ",
-			"2015-05-04T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			26194585,
-			"http://doi.org/10.1016/j.ddtec.2015.03.004\n",
-			"Reporting biological assay screening results for maximum impact.",
-			"Bolton",
-			"Drug Discov Today Technol",
-			"2015-05-01T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25875762,
-			"http://doi.org/10.1371/journal.pone.0122802",
-			"Construction of an ortholog database using the semantic web technology for integrative analysis of genomic data.",
-			"Chiba",
-			"PLoS ONE",
-			"2015-04-12T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25834725,
-			"http://doi.org/10.1186/s13336-015-0019-3",
-			"Clinical decision support systems for improving diagnostic accuracy and achieving precision medicine.",
-			"Castaneda",
-			"J Clin Bioinforma",
-			"2015-03-25T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -1783,72 +1443,12 @@
 		[
 			"BioHackathon",
 			"調査中",
-			25477381,
-			"http://doi.org/10.1093/nar/gku1120",
-			"The DDBJ Japanese Genotype-phenotype Archive for genetic and phenotypic human data.",
-			"Kodama",
-			"Nucleic Acids Res.",
-			"2014-12-02T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25472764,
-			"http://doi.org/10.1186/1471-2105-15-S14-S7",
-			"Community-driven development for computational biology at Sprints, Hackathons and Codefests.",
-			"Möller",
-			"BMC Bioinformatics",
-			"2014-11-26T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
 			25937881,
 			"http://doi.org/10.1186/2041-1480-5-46",
 			"Automatically exposing OpenLifeData via SADI semantic Web Services.",
 			"González",
 			"J Biomed Semantics",
 			"2014-11-18T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			26673001,
-			"http://doi.org/10.12688/f1000research.5754.2",
-			"G-Links: a gene-centric link acquisition service.",
-			"Oshita",
-			"F1000Res",
-			"2014-11-18T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25388145,
-			"http://doi.org/10.1093/bioinformatics/btu732",
-			"GlycoRDF: an ontology to standardize glycomics data in RDF.",
-			"Ranzinger",
-			"Bioinformatics",
-			"2014-11-10T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25385078,
-			"http://doi.org/10.1142/S0219720014420013",
-			"PIERO ontology for analysis of biochemical transformations: effective implementation of reaction information in the IUBMB enzyme list.",
-			"Kotera",
-			"J Bioinform Comput Biol",
-			"2014-11-09T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			25408696,
-			"http://doi.org/10.3389/fpls.2014.00598\n",
-			"Integrated network analysis and effective tools in plant systems biology.",
-			"#N/A",
-			"Front Plant Sci",
-			"2014-11-03T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -1863,192 +1463,12 @@
 		[
 			"BioHackathon",
 			"調査中",
-			25177485,
-			"http://doi.org/10.12688/f1000research.4524.1",
-			"KEGGscape: a Cytoscape app for pathway data integration.",
-			"Nishida",
-			"F1000Res",
-			"2014-06-30T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25057255,
-			"http://doi.org/10.3897/BDJ.2.e1125",
-			"Enriched biodiversity data as a resource and service.",
-			"Vos",
-			"Biodivers Data J",
-			"2014-06-15T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			24829452,
-			"http://doi.org/10.1093/nar/gku403",
-			"TogoTable: cross-database annotation system using the Resource Description Framework (RDF) data model.",
-			"Kawano",
-			"Nucleic Acids Res.",
-			"2014-05-13T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			25077808,
-			"http://doi.org/10.1186/1471-2164-15-S3-S3",
-			"A digital repository with an extensible data model for biobanking and genomic analysis management.",
-			"Izzo",
-			"BMC Genomics",
-			"2014-05-05T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			24495517,
-			"http://doi.org/10.1186/2041-1480-5-5",
-			"BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains.",
-			"Katayama",
-			"J Biomed Semantics",
-			"2014-02-04T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			24413672,
-			"http://doi.org/10.1093/bioinformatics/btt765",
-			"The EBI RDF platform: linked open data for the life sciences.",
-			"Jupp",
-			"Bioinformatics",
-			"2014-01-10T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			24564482,
-			"http://doi.org/10.1186/1471-2105-15-S1-S9",
-			"Toolboxes for a standardised and systematic study of glycans.",
-			"Campbell",
-			"BMC Bioinformatics",
-			"2014-01-09T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			24275496,
-			"http://doi.org/10.1093/nar/gkt1145",
-			"CyanoBase and RhizoBase: databases of manually curated annotations for cyanobacterial and rhizobial genomes.",
-			"Fujisawa",
-			"Nucleic Acids Res.",
-			"2013-11-24T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			24194602,
-			"http://doi.org/10.1093/nar/gkt1066",
-			"DDBJ progress report: a new submission system for leading to a correct annotation.",
-			"Kosuge",
-			"Nucleic Acids Res.",
-			"2013-11-03T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
-			23632294,
-			"http://doi.org/10.1093/bib/bbt026",
-			"Web scraping technologies in an API world.",
-			"Glez-Peña",
-			"Brief. Bioinformatics",
-			"2013-04-29T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			23479348,
-			"http://doi.org/10.1093/bioinformatics/btt113",
-			"EDAM: an ontology of bioinformatics operations, types of data and identifiers, topics and formats.",
-			"Ison",
-			"Bioinformatics",
-			"2013-03-10T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Original",
-			23398680,
-			"http://doi.org/10.1186/2041-1480-4-6",
-			"The 3rd DBCLS BioHackathon: improving life science data integration with Semantic Web technologies.",
-			"Katayama",
-			"J Biomed Semantics",
-			"2013-02-10T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			23015842,
-			"https://doi.org/10.3762/bjoc.8.104",
-			"The use of glycoinformatics in glycochemistry.",
-			"Lütteke",
-			"Beilstein J Org Chem",
-			"2012-06-20T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			22711793,
-			"http://doi.org/10.1093/bioinformatics/bts350",
-			"Identifying aberrant pathways through integrated analysis of knowledge in pharmacogenomics.",
-			"Hoehndorf",
-			"Bioinformatics",
-			"2012-06-16T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			22380786,
-			"http://doi.org/10.1111/j.1749-6632.2012.06469.x",
-			"Integrated approach toward the discovery of glyco-biomarkers of inflammation-related diseases.",
-			"Angata",
-			"Ann. N. Y. Acad. Sci.",
-			"2012-02-29T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"",
-			21976737,
-			"http://doi.org/10.1093/nar/gkr811",
-			"Protein Data Bank Japan (PDBj): maintaining a structural data archive and resource description framework format.",
-			"Kinjo",
-			"Nucleic Acids Res.",
-			"2011-10-04T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Original",
-			21806842,
-			"http://doi.org/10.1186/2041-1480-2-4",
-			"The 2nd DBCLS BioHackathon: interoperable bioinformatics Web services for integrated applications.",
-			"Katayama",
-			"J Biomed Semantics",
-			"2011-08-01T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"調査中",
 			20823319,
 			"http://doi.org/10.1093/bioinformatics/btq391",
 			"BioXSD: the common data-exchange format for everyday bioinformatics web services.",
 			"Kalas",
 			"Bioinformatics",
 			"2010-09-03T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Original",
-			20727200,
-			"http://doi.org/10.1186/2041-1480-1-8",
-			"The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows. The DBCLS BioHackathon Consortium*.",
-			"Katayama",
-			"J Biomed Semantics",
-			"2010-08-20T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -2062,16 +1482,6 @@
 		],
 		[
 			"BioHackathon",
-			"",
-			20439313,
-			"http://doi.org/10.1093/nar/gkq315",
-			"G-language genome analysis environment with REST and SOAP web service interfaces.",
-			"Arakawa",
-			"Nucleic Acids Res.",
-			"2010-05-02T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
 			"調査中",
 			19304878,
 			"http://doi.org/10.1093/bioinformatics/btp163",
@@ -2079,16 +1489,6 @@
 			"Cock",
 			"Bioinformatics",
 			"2009-03-19T15:00:00.000Z"
-		],
-		[
-			"BioHackathon",
-			"Acknowledgement",
-			18940858,
-			"http://doi.org/10.1093/nar/gkn760",
-			"STRING 8--a global view on proteins and their functional interactions in 630 organisms.",
-			"Jensen",
-			"Nucleic Acids Res.",
-			"2008-10-20T15:00:00.000Z"
 		],
 		[
 			"BioHackathon",
@@ -2121,23 +1521,13 @@
 			""
 		],
 		[
-			"BioHackathon",
+			"BH2014",
 			"",
 			29688370,
 			"http://doi.org/10.1093/database/bay022",
 			"YummyData: providing high-quality open life science data.",
 			"Yamamoto",
 			"Database (Oxford)",
-			""
-		],
-		[
-			"BioHackathon",
-			"",
-			28419324,
-			"http://doi.org/10.1093/bib/bbx039",
-			"Improving data workflow systems with cloud services and use of open data for bioinformatics research.",
-			"Karim",
-			"Brief. Bioinformatics",
 			""
 		],
 		[
@@ -8162,7 +7552,7 @@
 		],
 		[
 			"RefEx",
-			"",
+			"Cited reference",
 			34918130,
 			"http://doi.org/10.1093/pcp/pcab173",
 			"Development of RIKEN Plant Metabolome MetaDatabase.",
@@ -8739,6 +8129,36 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			35654199,
+			"https://doi.org/10.1016/j.scitotenv.2022.156391",
+			"Nano-sized polystyrene plastic particles affect many cancer-related biological processes even in the next generations; zebrafish modeling",
+			"Sulukan",
+			"Sci Total Environ.",
+			"2022-05-29T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			35527247,
+			"https://doi.org/10.1186/s12934-022-01806-4",
+			"Hot isopropanol quenching procedure for automated microtiter plate scale 13C-labeling experiments",
+			"Nießer",
+			"Microb Cell Fact.",
+			"2022-05-08T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.18960/hozen.2128",
+			"国内希少野生動植物種における保全遺伝学研究の基盤としての遺伝情報",
+			"中濵 直之",
+			"保全生態学研究",
+			"2022-04-27T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -9591,5 +9011,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2022-04-15T13:01:05.677Z"
+	"updated": "2022-07-01T05:24:28.029Z"
 }
