@@ -141,7 +141,7 @@
     var showFooterLinks = dataset.showFooterLinks ? dataset.showFooterLinks : 'false'
     var license = dataset.licenseType ? dataset.licenseType : 'none'
     var year = dataset.year ? dataset.year : new Date().getFullYear()
-    current_lang = current_lang ? current_lang : 'ja'
+    current_lang = current_lang === 'ja' ? 'ja' : 'en'
     var footerHtml = FOOTER_HTML[footerDesign][current_lang]
       .replace(/@@root@@/g, ROOT) // path
       .replace(/@@license@@/g, LICENSE_HTML[footerDesign][license]) // lisence statement
