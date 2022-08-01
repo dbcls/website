@@ -7553,6 +7553,36 @@
 		[
 			"RefEx",
 			"Cited reference",
+			"NA",
+			"https://doi.org/10.3390/pharmaceutics14081539",
+			"New Drug Development and Clinical Trial Design by Applying Genomic Information Management",
+			"",
+			"Pharmaceutics",
+			"2022-07-23T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			35798960,
+			"https://doi.org/10.1038/s41587-022-01368-1",
+			"Enhancing untargeted metabolomics using metadata-based source annotation",
+			"Gauglitz",
+			"Nature Biotechnology",
+			"2022-07-06T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			35798848,
+			"https://doi.org/10.1038/s41598-022-15957-2",
+			"Smooth muscle protein 22α-Cre recombination in resting cardiac fibroblasts and hematopoietic precursors",
+			"Ikeda",
+			"Scientific Reports",
+			"2022-07-06T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
 			34918130,
 			"http://doi.org/10.1093/pcp/pcab173",
 			"Development of RIKEN Plant Metabolome MetaDatabase.",
@@ -7563,7 +7593,7 @@
 		[
 			"RefEx",
 			"Cited reference",
-			"NA",
+			35495624,
 			"https://doi.org/10.3389/fmolb.2022.866196",
 			"Sulfation Pathways During Neurodevelopment",
 			"Clarke",
@@ -8129,6 +8159,36 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			35794479,
+			"https://doi.org/10.1038/s41586-022-04912-w",
+			"Molecular landscapes of human hippocampal immature neurons across lifespan",
+			"Zhou",
+			"Nature",
+			"2022-07-05T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1016/j.exppara.2022.108315",
+			"Histological and neuronal changes in the duodenum of hamsters infected with Leishmania (Leishmania) infantum",
+			"Cavallone",
+			"Experimental Parasitology",
+			"2022-06-30T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			35668068,
+			"https://doi.org/10.1038/s41439-022-00195-9",
+			"Online tools for efficient paper writing",
+			"Yamamoto",
+			"Hum Genome Var",
+			"2022-06-05T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -9011,5 +9071,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2022-07-01T05:24:28.029Z"
+	"updated": "2022-08-01T08:24:52.812Z"
 }
