@@ -16,17 +16,22 @@ TogoID は 生命科学分野におけるデータベース(DB)のID間の対応
 
 ## スクリーンショット
 
-### トップページからID変換
+### トップページから探索的にID変換(EXPLOREモード)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-1_20210707.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig1_20220520.jpg)
+
+### トップページから最終的に変換したいIDを決めてID変換(NAVIGATEモード)
+
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig2_20220520.jpg)
+
 
 ### ID変換の結果
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-2_20210707.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig4_20220520.jpg)
 
 ### 収載DBのIDに関する情報
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3_20210707.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig3_20220520.jpg)
 
 
 ### 参考文献
