@@ -29,3 +29,15 @@ TogoID は 生命科学分野におけるデータベース(DB)のID間の対応
 ![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3_20210707.png)
 
 
+### 参考文献
+
+* Shuya Ikeda, Hiromasa Ono, Tazro Ohta, Hirokazu Chiba, Yuki Naito, Yuki Moriya, Shuichi Kawashima, Yasunori Yamamoto, Shinobu Okamoto, Susumu Goto, Toshiaki Katayama
+    **TogoID: an exploratory ID converter to bridge biological datasets.**
+    Bioinformatics, 2022, btac491.
+    [DOI: 10.1093/bioinformatics/btac491](https://doi.org/10.1093/bioinformatics/btac491)
+* 池田　秀也, 小野 浩雅
+    **TogoID：生命科学系データベースのさまざまなIDを探索的に変換できるウェブアプリケーション**
+    実験医学2022年5月号　クローズアップ実験法
+    [DOI: 10.18958/7013-00005-0000134-00](https://doi.org/10.18958/7013-00005-0000134-00)
+
+<!--:-->
