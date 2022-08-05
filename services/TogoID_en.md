@@ -15,16 +15,30 @@ TogoID is a web application that allows you to search and convert links between 
 
 ## Screenshots
 
-### ID conversion from top page
+### Exploratory ID conversion from top page (EXPLORE mode)
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-1_20210707.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig1_20220520.jpg)
 
-### Results of ID conversion
+### NAVIGATE mode which allows the user to specify the conversion target
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-2_20210707.png)
-
-### Metadata about the IDs of the listed DBs
-
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_fig-3_20210707.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig2_20220520.jpg)
 
 
+### Results window for ID conversion
+
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig4_20220520.jpg)
+
+### DATASETS tab to view a list of datasets
+
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig3_20220520.jpg)
+
+
+### References
+
+* Shuya Ikeda, Hiromasa Ono, Tazro Ohta, Hirokazu Chiba, Yuki Naito, Yuki Moriya, Shuichi Kawashima, Yasunori Yamamoto, Shinobu Okamoto, Susumu Goto, Toshiaki Katayama
+    **TogoID: an exploratory ID converter to bridge biological datasets.**
+    Bioinformatics, 2022, btac491.
+    [DOI: 10.1093/bioinformatics/btac491](https://doi.org/10.1093/bioinformatics/btac491)
+
+
+<!--:-->
