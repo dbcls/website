@@ -24,6 +24,13 @@ TogoDX/Human は TogoDXのフレームワークを用いて、国内外のデー
 ## スクリーンショット
 
 ### TogoDX/Human トップ画面（一部省略）
-
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDXhuman_top.png)
 
+### Attributeの詳細
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDX_attribute_20211004.png)
+
+### 絞り込みの結果得られた表とその分布
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDX_results_20211004.png)
+
+### 絞り込みの結果得られた表から閲覧できるIDに関連する情報
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoDX_resultsstanza_20211004.png)
