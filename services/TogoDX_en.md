@@ -1,6 +1,6 @@
 # TogoDX/Human
 ## What is TogoDX?
-TogoDX (Togo Data eXplorer) is a framework for integrated exploration of various databases in the life sciences, using a Knowledge Graph. TogoDX aims to provide a new mechanism for flexibly extracting useful data for data science by filtering with various attributes of each dataset.
+TogoDX (Togo Data eXplorer) is a framework for integrated exploration of various databases in the life sciences, using a knowledge graph. TogoDX aims to provide a new mechanism for flexibly extracting useful data for data science by filtering with various attributes of each dataset.
 
 ### Conceptual diagram of TogoDX
 
