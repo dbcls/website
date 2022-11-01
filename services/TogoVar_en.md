@@ -8,7 +8,7 @@ TogoVar has been developed as a joint research project of Department of NBDC Pro
 
 ## URL
 
-https://togovar.biosciencedbc.jp/
+https://togovar.org/
 
 ## Screenshots
 
