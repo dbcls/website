@@ -8,7 +8,7 @@ TogoVarは、国立研究開発法人科学技術振興機構NBDC事業推進部
 
 ## URL
 
-https://togovar.biosciencedbc.jp/
+https://togovar.org/
 
 ## スクリーンショット
 
