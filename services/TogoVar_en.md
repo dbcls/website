@@ -14,12 +14,12 @@ https://togovar.org/
 
 ### Home
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-1_20221101.png)
 
 ### Faceted search
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-2_20221101.png)
 
 ### Variant report
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_TogoVar_fig-3_20221101.png)
