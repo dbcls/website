@@ -7564,6 +7564,16 @@
 			"RefEx",
 			"Cited reference",
 			"NA",
+			"https://doi.org/10.1267/ahc.22-00043",
+			"Optimized Mouse-on-mouse Immunohistochemical Detection of Mouse ESR2 Proteins with PPZ0506 Monoclonal Antibody",
+			"Ozawa",
+			"ACTA HISTOCHEMICA ET CYTOCHEMICA",
+			"2022-10-24T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			"NA",
 			"http://dx.doi.org/10.3390/cancers14194732",
 			"Oncogenic Role of ADAM32 in Hepatoblastoma: A Potential Molecular Target for Therapy",
 			"Fukazawa",
@@ -8189,6 +8199,36 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			36216983,
+			"https://doi.org/10.1038/s41684-022-01053-5",
+			"Optimized protocols for sperm cryopreservation and in vitro fertilization in the rat",
+			"Takeo",
+			"Lab Anim",
+			"2022-10-09T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/medicina58101369",
+			"Is the Numbness after Knee Replacement a More Critical Complication Than Thought? A Detailed Analysis of Neuropathic Pain and Functional Outcomes",
+			"Gurler",
+			"Medicina",
+			"2022-09-28T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1016/j.aca.2022.340469",
+			"Metabology: Analysis of metabolomics data using community ecology tools",
+			"Mansoldo",
+			"Analytica Chimica Acta",
+			"2022-09-30T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -9151,5 +9191,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2022-10-03T02:57:49.086Z"
+	"updated": "2022-11-04T02:16:27.288Z"
 }
