@@ -8203,6 +8203,56 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
+			36539398,
+			"https://doi.org/10.1038/s41439-022-00225-6",
+			"The NBDC-DDBJ imputation server facilitates the use of controlled access reference panel datasets in Japan",
+			"Hachiya",
+			"Hum Genome Var ",
+			"2022-12-19T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.11234/jsbibr.2022.primer3",
+			"生物多様性と文化へと繋がるバイオインフォマティクス",
+			"松前 ひろみ",
+			"JSBi Bioinformatics Review",
+			"2022-12-20T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1007/978-3-031-21820-0_4",
+			"Risk of Misuse Assessment: Part I",
+			"Paris",
+			"Genome Editing and Biological Weapons.",
+			"2022-12-15T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			36522456,
+			"https://doi.org/10.1038/s41375-022-01772-1",
+			"Tumor-promoting function and regulatory landscape of PD-L2 in B-cell lymphoma",
+			"Shingaki",
+			"Leukemia",
+			"2022-12-14T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			36371160,
+			"https://doi.org/10.1186/s12864-022-08982-y",
+			"Nutritional and metabolic process of the dung beetle Phelotrupes auratus depends on the plant ingredients that the herbivores eat",
+			"Sakamoto",
+			"BMC genomics",
+			"2022-11-11T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
 			36216983,
 			"https://doi.org/10.1038/s41684-022-01053-5",
 			"Optimized protocols for sperm cryopreservation and in vitro fertilization in the rat",
@@ -8343,7 +8393,7 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			"",
+			35151865,
 			"https://doi.org/10.1016/j.bmcl.2022.128614",
 			"A dual aurora and lim kinase inhibitor reduces glioblastoma proliferation and invasion",
 			"Rybin",
@@ -9191,5 +9241,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2022-11-04T02:16:27.288Z"
+	"updated": "2023-01-06T00:59:24.830Z"
 }
