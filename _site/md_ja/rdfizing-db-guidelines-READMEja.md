@@ -1,1 +1,0 @@
-# DBCLS RDFizing DB guidelines
