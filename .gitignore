@@ -121,3 +121,5 @@ typings/
 .next
 
 config.codekit3
+
+_site/
