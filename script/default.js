@@ -8,6 +8,7 @@
 
 var script = document.createElement('script')
 var script_sticky = document.createElement('script')
+var script_splide = document.createElement('script')
 var link_favicon = document.createElement('link')
 
 var tags = {
@@ -20,11 +21,13 @@ var tags = {
 
 script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js')
 script_sticky.setAttribute('src', '/script/stickyfill.min.js')
+script_splide.setAttribute('src', '/script/splide.min.js');
 link_favicon.setAttribute('rel', 'icon')
 link_favicon.setAttribute('type', 'image/png')
 link_favicon.setAttribute('href', '/img/favicon.png')
 document.head.appendChild(script)
 document.head.appendChild(script_sticky)
+document.head.appendChild(script_splide);
 document.head.appendChild(link_favicon)
 
 /* ------------------------------
