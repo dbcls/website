@@ -3,16 +3,18 @@
 <!DOCTYPE html>
 <!-- saved from url=(0031)http://dbcls.rois.ac.jp/contact -->
 <html lang="ja" data-page-type="contact"><!--<![endif]-->
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width">
-<title>お問い合わせ ｜ DBCLS</title>
-<link rel="stylesheet" href="style/default-min.css">
-<script type="text/javascript">var submitted=false;</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>お問い合わせ ｜ DBCLS</title>
+  <link rel="stylesheet" href="style/default-min.css">
+  <script type="text/javascript">var submitted = false;</script>
 </head>
+
 <body>
-{% include header.html %}
-<div class="content__wrapper">
+  {% include header.html %}
+  <div class="content__wrapper">
     <div id="subWrap">
       <div class="sub__navigation sticky">
         <h2 class="page-title">Contact</h2>
@@ -28,16 +30,18 @@
         </div>
         <div class="section-wrapper__contact">
           <p class="description">DBCLSに関する<a href="/faq.html">よくあるご質問はこちら</a>からどうぞ。</p>
-            <div class="contents__wrapper">
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" ></iframe>
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfc-NJM8oSraAV705s9n3OXMEgN8XVJh6JeK8a_4Z7eHueiYQ/formResponse" method="POST" id="demo-form" target="hidden_iframe" onsubmit="submitted=true">
+          <div class="contents__wrapper">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfc-NJM8oSraAV705s9n3OXMEgN8XVJh6JeK8a_4Z7eHueiYQ/formResponse"
+              method="POST" id="demo-form" target="hidden_iframe" onsubmit="submitted=true">
               <section>
                 <h3>メールアドレス</h3>
-                <input type="email" name="emailAddress" required/>
+                <input type="email" name="emailAddress" required />
               </section>
               <section>
                 <h3>題名</h3>
-                <input type="" name="entry.328797653" required/>
+                <input type="" name="entry.328797653" required />
               </section>
               <section>
                 <h3>メッセージ本文</h3>
@@ -46,34 +50,33 @@
               </section>
               <section>
                 <h3>お名前</h3>
-                <input type="" name="entry.1419418193" required/>
+                <input type="" name="entry.1419418193" required />
               </section>
               <section>
                 <h3>スパム対策のため下記ロゴの文字を入力してください。</h3>
                 <img src="img/logotypes/logo_c.svg" alt="" width="100">
                 <br><br>
-                <input type="" name="entry.866209174" required/>
+                <input type="" name="entry.866209174" required />
               </section>
               <div class="btn_submit">
-                <button class="g-recaptcha"
-                data-sitekey="6LfyebgZAAAAAM29lOrMlYD6tpYTgWu7Q330sQG7"
-                data-callback='onSubmit'
-                data-action='submit'>送信</button>
+                <button class="g-recaptcha" data-sitekey="6LfyebgZAAAAAM29lOrMlYD6tpYTgWu7Q330sQG7"
+                  data-callback='onSubmit' data-action='submit'>送信</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-</div>
-{% include footer.html %}
+  </div>
+  {% include footer.html %}
 </body>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script src="script/default-min.js"></script>
+<script src="script/default.js"></script>
 <script>
   function onSubmit(token) {
     document.getElementById("demo-form").submit();
-    window.location='completion.html'
+    window.location = 'completion.html'
   }
 </script>
+
 </html>

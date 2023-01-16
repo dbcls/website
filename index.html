@@ -2,9 +2,10 @@
 ---
 <!DOCTYPE html>
 <html lang="ja" data-page-type="index">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
           script-src 'self' 'unsafe-inline' 'unsafe-eval' code.jquery.com www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com www.google-analytics.com; 
           style-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com;
           font-src 'self' fonts.googleapis.com fonts.gstatic.com;">
@@ -12,57 +13,59 @@
 	<link rel="stylesheet" href="style/default-min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+
 <body>
-{% include header.html %}
-<div class="main-image__wrapper">
-	<div class="main-image__contents">
-		<div class="active">
-			<img src="img/top_assets/main0.jpg" alt="">
-		</div>
-		<div>
-			<img src="img/top_assets/main1.jpg" alt="">
-		</div>
-		<div>
+	{% include header.html %}
+	<div class="main-image__wrapper">
+		<div class="main-image__contents">
+			<div class="active">
+				<img src="img/top_assets/main0.jpg" alt="">
+			</div>
+			<div>
+				<img src="img/top_assets/main1.jpg" alt="">
+			</div>
+			<div>
 				<img src="img/top_assets/main2.jpg" alt="">
-		</div>
-		<div>
+			</div>
+			<div>
 				<img src="img/top_assets/main4.jpg" alt="">
-		</div>
-		<div>
+			</div>
+			<div>
 				<img src="img/top_assets/main5.jpg" alt="">
-		</div>		
+			</div>
+		</div>
 	</div>
-</div>
-<div class="top__news-section">
-	<div class="main__contents-top-news">
-		<h2 class="page-title">News</h2>
-		<ul class="news__individual-wrapper">
-			{% for post in site.categories.ja limit:5 %}
+	<div class="top__news-section">
+		<div class="main__contents-top-news">
+			<h2 class="page-title">News</h2>
+			<ul class="news__individual-wrapper">
+				{% for post in site.categories.ja limit:5 %}
 				<li class='post__individual'>
 					<div class="post__date">
 						{{post.date | date: '%Y. %m. %d'}}
 					</div>
 					<div class="post__main post__main-top">
 						<a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
-						{% assign beginning =  post.content | slice: 0, 300 | strip_html%}
+						{% assign beginning = post.content | slice: 0, 300 | strip_html%}
 						<p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
 						<div class="post__sub-info">
-						  <div class="post-tags">
+							<div class="post-tags">
 								{% include post_meta.html %}
 							</div>
 						</div>
 					</div>
 				</li>
-			{% endfor %}
-		</ul>
-		<div class="btn-box__top">
-			<a href="news.html" class="more_btn page_btn">more</a>
+				{% endfor %}
+			</ul>
+			<div class="btn-box__top">
+				<a href="news.html" class="more_btn page_btn">more</a>
+			</div>
 		</div>
 	</div>
-</div>
-{% include footer.html %}
+	{% include footer.html %}
 
 
-<script src="script/default-min.js"></script>
+	<script src="script/default.js"></script>
 </body>
+
 </html>
