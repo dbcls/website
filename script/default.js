@@ -335,6 +335,26 @@ var initialize = {
     var url = window.location;
     var path = url.href.split('/');
     var file_name = path.pop();
+    // URL parameter を応じてユーザボタンを押す
+    window.onload = () => {
+      var myKeysValues = window.location.search;
+      var urlParams = new URLSearchParams(myKeysValues);
+      var userType = urlParams.get('user');
+      function pressUserButton(userType) {
+        var allUserTypes = [
+          'biologist',
+          'application',
+          'data-scientist',
+          'provider',
+        ];
+        if (allUserTypes.includes(userType)) {
+          var selector = 'button.tag_element.user.' + userType;
+          var targetButton = document.querySelector(selector);
+          targetButton.click();
+        }
+      }
+      pressUserButton(userType);
+    };
     if (file_name.match(/#[\w_]/)) {
       file_name = file_name.replace('services.html#', '')
       file_name = file_name.replace('services-en.html#', '')
