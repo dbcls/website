@@ -784,6 +784,9 @@ footer a:hover {
   width: 786px;
   height: auto;
 }
+.research__image area {
+  cursor: pointer;
+}
 
 .section-wrapper {
   display: flex;
