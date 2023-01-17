@@ -14,7 +14,7 @@
 
 <body>
   {% include header.html %}
-  <div id="overlay"></div>
+  <div id="overlay" onclick="hideModal()"></div>
   <div class="content__wrapper">
     <div id="subWrap">
       <div class="sub__navigation sticky">
@@ -38,6 +38,10 @@
           <area shape="circle" coords="292,62,25" alt="application" href="/services.html?user=application">
           <area shape="circle" coords="492,62,25" alt="data-scientist" href="/services.html?user=data-scientist">
           <area shape="circle" coords="692,62,25" alt="provider" href="/services.html?user=provider">
+          <area shape="rect" coords="0,115,185,315" onclick="showModal()">
+          <area shape="rect" coords="200,115,385,315" onclick="showModal()">
+          <area shape="rect" coords="400,115,585,315" onclick="showModal()">
+          <area shape="rect" coords="600,115,785,315" onclick="showModal()">
         </map>
       </div>
       <div class="section-wrapper research_explanation">
@@ -248,6 +252,7 @@
   </div>
   {% include footer.html %}
   <script src="script/default.js"></script>
+
 </body>
 
 </html>
