@@ -6,30 +6,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>DBCLS ｜ Database Center for Life Science</title>
-	<link rel="stylesheet" href="style/default-min.css">
+	<link rel="stylesheet" href="style/default.css">
+	<link rel="stylesheet" href="style/splide.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="script/splide.min.js"></script>
 </head>
 
 <body>
 	{% include header_en.html %}
-	<div class="main-image__wrapper">
-		<div class="main-image__contents">
-			<div class="active">
-				<img src="img/top_assets/main0.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main1.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main2.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main4.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main5.jpg" alt="">
+	<section class="splide">
+		<div class="splide__slider">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<img src="img/top_assets/main0.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main1.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main2.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main4.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main5.jpg" alt="">
+					</li>
+				</ul>
 			</div>
 		</div>
+		<div class="splide__progress">
+			<div class="splide__progress__bar">
+			</div>
+		</div>
+		<button class="splide__toggle" type="button">
+			<span class="splide__toggle__play">Play</span>
+			<span class="splide__toggle__pause">Pause</span>
+		</button>
+	</section>
 
 	</div>
 	<div class="top__news-section">
