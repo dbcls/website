@@ -196,7 +196,20 @@ var initialize = {
   'faq': function () {},
   'policy': function () {},
   'logotype': function () {},
-  'research': function () {},
+  'research': function () {
+    const triggers = document.getElementsByClassName("trigger");
+    const triggerArray = Array.from(triggers).entries();
+    const modals = document.getElementsByClassName("modal");
+    const closeButtons = document.getElementsByClassName("btn-close");
+
+    for (let [index, trigger] of triggerArray) {
+      function toggleModal() {
+        modals[index].classList.toggle("show-modal");
+      };
+      trigger.addEventListener("click", toggleModal);
+      modals[index].addEventListener('click', toggleModal);
+    }
+  },
   'publications': function () {},
   'references': function () {
     // 処理前に Loading 画像を表示

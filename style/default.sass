@@ -120,18 +120,41 @@ body
     min-width: 1070px
 
 //下層ページカラム設定
-#overlay 
+.modal
   position: fixed
-  display: none
+  left: 0
+  top: 0
   width: 100%
   height: 100%
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  background-color: rgba(0,0,0,0.5)
-  z-index: 2
+  background-color: rgba(0, 0, 0, 0.5)
+  opacity: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  visibility: hidden
+  transform: scale(1.1)
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s
+  &-content
+    align-self: center
+    background-color: white
+    padding: 1rem 1.5rem
+    width: 24rem
+    border-radius: 0.5rem
+
+.btn-close
+  float: right
+  width: 1.5rem
+  line-height: 1.5rem
+  text-align: center
   cursor: pointer
+  border-radius: 0.25rem
+  background-color: lightgray
+
+.show-modal
+  opacity: 1
+  visibility: visible
+  transform: scale(1.0)
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s
 
 .content__wrapper
   width: 1024px
