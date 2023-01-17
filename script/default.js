@@ -44,6 +44,14 @@ function removeLoading() {
   $("#loading").remove();
 }
 
+function showModal() {
+  document.getElementById('overlay').style.display = 'block';
+}
+
+function hideModal() {
+  document.getElementById('overlay').style.display = 'none';
+}
+
 var initialize = {
   'index': function () {
     var lang = $('html').attr('lang')
