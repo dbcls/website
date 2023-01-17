@@ -10,31 +10,45 @@
           style-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com;
           font-src 'self' fonts.googleapis.com fonts.gstatic.com;">
 	<title>DBCLS ｜ ライフサイエンス統合データベースセンター</title>
-	<link rel="stylesheet" href="style/default-min.css">
+	<link rel="stylesheet" href="style/default.css">
+	<link rel="stylesheet" href="style/splide.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="script/splide.min.js"></script>
 </head>
 
 <body>
 	{% include header.html %}
-	<div class="main-image__wrapper">
-		<div class="main-image__contents">
-			<div class="active">
-				<img src="img/top_assets/main0.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main1.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main2.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main4.jpg" alt="">
-			</div>
-			<div>
-				<img src="img/top_assets/main5.jpg" alt="">
+	<section class="splide">
+		<div class="splide__slider">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<img src="img/top_assets/main0.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main1.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main2.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main4.jpg" alt="">
+					</li>
+					<li class="splide__slide">
+						<img src="img/top_assets/main5.jpg" alt="">
+					</li>
+				</ul>
 			</div>
 		</div>
-	</div>
+		<div class="splide__progress">
+			<div class="splide__progress__bar">
+			</div>
+		</div>
+		<button class="splide__toggle" type="button">
+			<span class="splide__toggle__play">Play</span>
+			<span class="splide__toggle__pause">Pause</span>
+		</button>
+	</section>
 	<div class="top__news-section">
 		<div class="main__contents-top-news">
 			<h2 class="page-title">News</h2>
@@ -64,8 +78,17 @@
 	</div>
 	{% include footer.html %}
 
-
 	<script src="script/default.js"></script>
+	<script>
+		var splide = new Splide('.splide', {
+				type: 'fade',
+				autoplay: true,
+				rewind: true,
+				interval: 5000,
+				speed: 2000,
+			});
+		splide.mount();
+	</script>
 </body>
 
 </html>
