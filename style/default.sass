@@ -128,17 +128,11 @@ body
   height: 100%
   background-color: rgba(0, 0, 0, 0.5)
   opacity: 0
-  display: flex
+  display: none
   justify-content: center
   align-items: center
   visibility: hidden
-  transform: scale(1.1)
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s
-  .modal__content
-    align-self: center
-    padding: 1rem 1.5rem
-    width: 24rem
-    border-radius: 0.5rem
 
 .btn-close
   float: right
@@ -150,10 +144,10 @@ body
   background-color: lightgray
 
 .show-modal
+  display: flex
   opacity: 1
   visibility: visible
-  transform: scale(1.0)
-  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s
+  transition: display 0s linear 0s, opacity 0.25s 0s, transform 0.25s
 
 .content__wrapper
   width: 1024px

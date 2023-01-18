@@ -197,18 +197,18 @@ var initialize = {
   'policy': function () {},
   'logotype': function () {},
   'research': function () {
-    const triggers = $('.trigger');
-    const triggerArray = Array.from(triggers).entries();
-    const modals = $('.modal');
-    $('.modal__content').click( e => e.stopPropagation());
-    const closeButtons = $('btn-close');
+    const triggers = $('.trigger')
+    const triggerArray = Array.from(triggers).entries()
+    const modals = $('.modal')
+    $('.modal__content').click( e => e.stopPropagation())
+    const closeButtons = $('.btn-close')
 
     for (let [index, trigger] of triggerArray) {
-      function toggleModal(e) {
-        modals[index].classList.toggle('show-modal');
-      };
-      trigger.addEventListener('click', toggleModal);
-      modals[index].addEventListener('click', e => toggleModal(e));
+      function toggleModal() {
+        modals[index].classList.toggle('show-modal')
+      }
+      const toggleModalElements = [trigger, modals[index],  closeButtons[index]]
+      toggleModalElements.forEach( el =>{ el.addEventListener('click', toggleModal)})
     }
   },
   'publications': function () {},
