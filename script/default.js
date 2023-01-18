@@ -197,6 +197,7 @@ var initialize = {
   'policy': function () {},
   'logotype': function () {},
   'research': function () {
+    // Modal ViewのON/OFF toggle
     const triggers = $('.trigger')
     const triggerArray = Array.from(triggers).entries()
     const modals = $('.modal')
