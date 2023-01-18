@@ -210,7 +210,6 @@ body a {
 }
 .modal .modal__content {
   align-self: center;
-  background-color: white;
   padding: 1rem 1.5rem;
   width: 24rem;
   border-radius: 0.5rem;
@@ -835,7 +834,6 @@ footer a:hover {
 .section-wrapper .article__section {
   width: 385.5px;
   background-color: #E8EDED;
-  margin: 6px 0;
   color: #333333;
 }
 .section-wrapper .article__section h4 {

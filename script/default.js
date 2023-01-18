@@ -197,17 +197,18 @@ var initialize = {
   'policy': function () {},
   'logotype': function () {},
   'research': function () {
-    const triggers = document.getElementsByClassName("trigger");
+    const triggers = $('.trigger');
     const triggerArray = Array.from(triggers).entries();
-    const modals = document.getElementsByClassName("modal");
-    const closeButtons = document.getElementsByClassName("btn-close");
+    const modals = $('.modal');
+    $('.modal__content').click( e => e.stopPropagation());
+    const closeButtons = $('btn-close');
 
     for (let [index, trigger] of triggerArray) {
-      function toggleModal() {
-        modals[index].classList.toggle("show-modal");
+      function toggleModal(e) {
+        modals[index].classList.toggle('show-modal');
       };
-      trigger.addEventListener("click", toggleModal);
-      modals[index].addEventListener('click', toggleModal);
+      trigger.addEventListener('click', toggleModal);
+      modals[index].addEventListener('click', e => toggleModal(e));
     }
   },
   'publications': function () {},
