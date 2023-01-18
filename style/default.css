@@ -677,6 +677,32 @@ footer a:hover {
   display: block;
 }
 
+.splide__controls {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  background: #4b5659;
+}
+.splide__controls .splide__toggle {
+  align-items: center;
+  background: #95a5a6;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 1.8rem;
+  justify-content: center;
+  margin-right: 0.5rem;
+  transition: background-color 0.2s ease;
+  width: 1.8rem;
+}
+.splide__controls .splide__pagination {
+  bottom: auto;
+  left: auto;
+  position: relative;
+  transform: none;
+  width: auto;
+}
+
 @media screen and (min-width: 0px) and (max-device-width: 640px) {
   .main-image__wrapper .main-image__contents div img {
     width: auto;
