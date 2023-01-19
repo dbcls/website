@@ -8,6 +8,7 @@ paginate: 5
 future: true
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
 prose:
   siteurl: 'https://USERNAME.github.io/my-first-prose/'
   media: 'media'
