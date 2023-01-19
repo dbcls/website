@@ -645,32 +645,13 @@ var initialize = {
               }
             }
           });
-          // URL parameter を応じてユーザボタンを押す
-          var myKeysValues = window.location.search;
-          var urlParams = new URLSearchParams(myKeysValues);
-          var userType = urlParams.get('user');
-          function clickUserButton(userType) {
-            var allUserTypes = [
-              'biologist',
-              'application',
-              'data-scientist',
-              'provider',
-            ];
-            if (allUserTypes.includes(userType)) {
-              var selector = 'button.tag_element.user.' + userType;
-              $(selector).click();
-            }
-          }
-          clickUserButton(userType);
           var userButton = $('button.tag_element.user');
-          // console.log(userButton)
 
-          $(userButton).on('click', (e)=>{
+          $(userButton).on('click', (e) => {
             const buttonUserType = e.target
               .getAttribute('data-toggle')
-              .replace('.', '')
+              .replace('.', '');
             var currentUrl = new URL(window.location.href);
-            // console.log(currentUrl)
             var searchParams = new URLSearchParams(currentUrl.search);
             var currentUserTypes = searchParams.get('user');
             if (currentUserTypes === null) {
@@ -679,43 +660,39 @@ var initialize = {
               var newUrl = currentUrl + ',' + buttonUserType;
             } else {
               if (currentUserTypes.split(',').length === 1) {
-                searchParams.delete('user')
-                currentUrl.search = searchParams.toString()
-                var newUrl = currentUrl.href;
+                if (e.target.classList.contains('mixitup-control-active')){
+                  searchParams.delete('user');
+                  currentUrl.search = searchParams.toString();
+                  var newUrl = currentUrl.href;
+                }
               } else if (currentUserTypes.split(',').length >= 1) {
                 const arr = currentUserTypes.split(',');
-                console.log(arr.indexOf(buttonUserType));
-                console.log(arr.splice(arr.indexOf(buttonUserType), 1));
-                console.log(arr.toString());
-                currentUrl.search =
-                  '?user=' + arr.toString();
+                currentUrl.search = '?user=' + arr.toString();
                 var newUrl = currentUrl.href;
               }
             }
-            // function addUrlParameter() {
-            //   var currentUrl = window.location.href;
-            //   var currentUserTypes = new URLSearchParams(window.location.search).get('user');
-            //   if (currentUserTypes === null) {
-            //     var newUrl = currentUrl + '?user=' + userType;
-            //   } else if (!currentUserTypes.split(',').includes(userType)) {
-            //     var newUrl = currentUrl + ',' + userType;
-            //   } else {
-            //     var arr = currentUserTypes.split(',')
-            //     arr.splice(arr.indexOf(userType), 1);
-            //     console.log(arr)
-            //     console.log(arr.toString())
-            //   }
-              
-              // if (currentUserTypes.includes(userType)){
-              //   const arr = currentUserTypes.split(',');
-              //   console.log(arr)
-              // } else {
-              //   var newUrl = currentUrl + ',' + userType;
-              // }
-              window.history.pushState({}, '', newUrl);
-            // }
-            // addUrlParameter();
-          })
+            window.history.pushState({}, '', newUrl);
+          });
+          // URL parameter を応じてユーザボタンを押す
+          var myKeysValues = window.location.search;
+          var urlParams = new URLSearchParams(myKeysValues);
+          var userTypes = urlParams.get('user');
+          function clickUserButton(userTypes) {
+            const userTypesArray = userTypes.split(',');
+            var allUserTypes = [
+              'biologist',
+              'application',
+              'data-scientist',
+              'provider',
+            ];
+            for (let userType of userTypesArray){
+              if (allUserTypes.includes(userType)) {
+                var selector = 'button.tag_element.user.' + userType;
+                $(selector).click();
+              }
+            }
+          }
+          clickUserButton(userTypes);
         }
       })
     }
