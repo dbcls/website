@@ -666,7 +666,7 @@ var initialize = {
           // console.log(userButton)
 
           $(userButton).on('click', (e)=>{
-            const userType = e.target
+            const buttonUserType = e.target
               .getAttribute('data-toggle')
               .replace('.', '')
             var currentUrl = new URL(window.location.href);
@@ -674,9 +674,9 @@ var initialize = {
             var searchParams = new URLSearchParams(currentUrl.search);
             var currentUserTypes = searchParams.get('user');
             if (currentUserTypes === null) {
-              var newUrl = currentUrl + '?user=' + userType;
-            } else if (!currentUserTypes.split(',').includes(userType)) {
-              var newUrl = currentUrl + ',' + userType;
+              var newUrl = currentUrl + '?user=' + buttonUserType;
+            } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
+              var newUrl = currentUrl + ',' + buttonUserType;
             } else {
               if (currentUserTypes.split(',').length === 1) {
                 searchParams.delete('user')
@@ -684,8 +684,8 @@ var initialize = {
                 var newUrl = currentUrl.href;
               } else if (currentUserTypes.split(',').length >= 1) {
                 const arr = currentUserTypes.split(',');
-                console.log(arr.indexOf(userType));
-                console.log(arr.splice(arr.indexOf(userType), 1));
+                console.log(arr.indexOf(buttonUserType));
+                console.log(arr.splice(arr.indexOf(buttonUserType), 1));
                 console.log(arr.toString());
                 currentUrl.search =
                   '?user=' + arr.toString();
