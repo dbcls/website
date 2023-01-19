@@ -649,7 +649,6 @@ var initialize = {
           var myKeysValues = window.location.search;
           var urlParams = new URLSearchParams(myKeysValues);
           var userType = urlParams.get('user');
-          console.log(userType);
           function clickUserButton(userType) {
             var allUserTypes = [
               'biologist',
