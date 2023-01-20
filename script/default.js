@@ -647,13 +647,52 @@ var initialize = {
                 const e = originalEvent;
                 const isCategoryButton = e.target.classList.contains('category');
                 const isUserButton = e.target.classList.contains('user');
-                console.log(isCategoryButton, isUserButton);
                 const isAllButton = e.target.classList.contains('all');
                 const isActive = e.target.classList.contains(
                   'mixitup-control-active'
                 );
                 var currentUrl = new URL(window.location.href);
                 var searchParams = new URLSearchParams(currentUrl.search);
+                
+                
+                if (isCategoryButton) {
+                  var currentUserTypes = searchParams.get('category');
+                  if (isAllButton) {
+                    searchParams.delete('category');
+                    currentUrl.search = searchParams.toString();
+                    var newUrl = currentUrl.href;
+                  } else {
+                    const buttonUserType = e.target
+                      .getAttribute('data-toggle')
+                      .replace('.', '');
+                    if (currentUserTypes === null) {
+                      searchParams.append('category', buttonUserType);
+                      currentUrl.search = searchParams.toString();
+                      var newUrl = currentUrl.href;
+                    } else if (
+                      !currentUserTypes.split(',').includes(buttonUserType)
+                    ) {
+                      var newUrl = currentUrl + ',' + buttonUserType;
+                    } else {
+                      if (currentUserTypes.split(',').length === 1) {
+                        if (isActive) {
+                          searchParams.delete('category');
+                          currentUrl.search = searchParams.toString();
+                          var newUrl = currentUrl.href;
+                        }
+                      } else if (
+                        currentUserTypes.split(',').length >= 1 &&
+                        isActive
+                      ) {
+                        const arr = currentUserTypes.split(',');
+                        const targetButtonIndex = arr.indexOf(buttonUserType);
+                        arr.splice(targetButtonIndex, 1);
+                        currentUrl.search = '?category=' + arr.toString();
+                        var newUrl = currentUrl.href;
+                      }
+                    }
+                  }
+                } else{
                 var currentUserTypes = searchParams.get('user');
                 if (isAllButton) {
                   searchParams.delete('user');
@@ -664,7 +703,9 @@ var initialize = {
                     .getAttribute('data-toggle')
                     .replace('.', '');
                   if (currentUserTypes === null) {
-                    var newUrl = currentUrl + '?user=' + buttonUserType;
+                    searchParams.append('user', buttonUserType);
+                    currentUrl.search = searchParams.toString();
+                    var newUrl = currentUrl.href;
                   } else if (
                     !currentUserTypes.split(',').includes(buttonUserType)
                   ) {
@@ -675,11 +716,6 @@ var initialize = {
                         searchParams.delete('user');
                         currentUrl.search = searchParams.toString();
                         var newUrl = currentUrl.href;
-                        console.log(
-                          'should click ALL',
-                          $('button.tag_element.user.all')
-                        );
-                        // document.querySelector('button.tag_element.user.all').classList.add('active');
                       }
                     } else if (
                       currentUserTypes.split(',').length >= 1 &&
@@ -692,7 +728,7 @@ var initialize = {
                       var newUrl = currentUrl.href;
                     }
                   }
-                }
+                }}
                 window.history.pushState({}, '', newUrl);
               },
               onMixEnd: function (state) {
