@@ -643,16 +643,19 @@ var initialize = {
                   behavior: 'smooth'
                 });
               },
-              onMixClick: function(state, originalEvent) {
+              onMixClick: function (state, originalEvent) {
                 const e = originalEvent;
-                const isAllUsersButton = e.target.classList.contains('all');
+                const isCategoryButton = e.target.classList.contains('category');
+                const isUserButton = e.target.classList.contains('user');
+                console.log(isCategoryButton, isUserButton);
+                const isAllButton = e.target.classList.contains('all');
                 const isActive = e.target.classList.contains(
                   'mixitup-control-active'
                 );
                 var currentUrl = new URL(window.location.href);
                 var searchParams = new URLSearchParams(currentUrl.search);
                 var currentUserTypes = searchParams.get('user');
-                if (isAllUsersButton) {
+                if (isAllButton) {
                   searchParams.delete('user');
                   currentUrl.search = searchParams.toString();
                   var newUrl = currentUrl.href;
@@ -672,6 +675,11 @@ var initialize = {
                         searchParams.delete('user');
                         currentUrl.search = searchParams.toString();
                         var newUrl = currentUrl.href;
+                        console.log(
+                          'should click ALL',
+                          $('button.tag_element.user.all')
+                        );
+                        // document.querySelector('button.tag_element.user.all').classList.add('active');
                       }
                     } else if (
                       currentUserTypes.split(',').length >= 1 &&
@@ -686,8 +694,16 @@ var initialize = {
                   }
                 }
                 window.history.pushState({}, '', newUrl);
-              }
-            }
+              },
+              onMixEnd: function (state) {
+                var myKeysValues = window.location.search;
+                var urlParams = new URLSearchParams(myKeysValues);
+                var userTypes = urlParams.get('user');
+                if (userTypes === null) {
+                  $('[data-filter=".mix"]').addClass('active');
+                }
+              },
+            },
           });
           // var userButtons = $('button.tag_element.user');
 
@@ -707,18 +723,28 @@ var initialize = {
           //     const buttonUserType = e.target
           //       .getAttribute('data-toggle')
           //       .replace('.', '');
-          //       if (currentUserTypes === null) {
+          //     if (currentUserTypes === null) {
           //       var newUrl = currentUrl + '?user=' + buttonUserType;
-          //     } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
+          //     } else if (
+          //       !currentUserTypes.split(',').includes(buttonUserType)
+          //     ) {
           //       var newUrl = currentUrl + ',' + buttonUserType;
           //     } else {
           //       if (currentUserTypes.split(',').length === 1) {
-          //         if (isActive){
+          //         if (isActive) {
           //           searchParams.delete('user');
           //           currentUrl.search = searchParams.toString();
           //           var newUrl = currentUrl.href;
+          //           console.log(
+          //             'should click ALL',
+          //             $('button.tag_element.user.all')
+          //           );
+          //           // document.querySelector('button.tag_element.user.all').classList.add('active');
           //         }
-          //       } else if (currentUserTypes.split(',').length >= 1 && isActive) {
+          //       } else if (
+          //         currentUserTypes.split(',').length >= 1 &&
+          //         isActive
+          //       ) {
           //         const arr = currentUserTypes.split(',');
           //         const targetButtonIndex = arr.indexOf(buttonUserType);
           //         arr.splice(targetButtonIndex, 1);
