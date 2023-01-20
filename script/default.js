@@ -652,27 +652,35 @@ var initialize = {
             const isActive = e.target.classList.contains(
               'mixitup-control-active'
             );
-            const buttonUserType = e.target
-              .getAttribute('data-toggle')
-              .replace('.', '');
             var currentUrl = new URL(window.location.href);
             var searchParams = new URLSearchParams(currentUrl.search);
             var currentUserTypes = searchParams.get('user');
-            if (currentUserTypes === null) {
-              var newUrl = currentUrl + '?user=' + buttonUserType;
-            } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
-              var newUrl = currentUrl + ',' + buttonUserType;
+            if (isAllUsersButton) {
+              searchParams.delete('user');
+              currentUrl.search = searchParams.toString();
+              var newUrl = currentUrl.href;
             } else {
-              if (currentUserTypes.split(',').length === 1) {
-                if (e.target.classList.contains('mixitup-control-active')){
-                  searchParams.delete('user');
-                  currentUrl.search = searchParams.toString();
+              const buttonUserType = e.target
+                .getAttribute('data-toggle')
+                .replace('.', '');
+                if (currentUserTypes === null) {
+                var newUrl = currentUrl + '?user=' + buttonUserType;
+              } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
+                var newUrl = currentUrl + ',' + buttonUserType;
+              } else {
+                if (currentUserTypes.split(',').length === 1) {
+                  if (e.target.classList.contains('mixitup-control-active')){
+                    searchParams.delete('user');
+                    currentUrl.search = searchParams.toString();
+                    var newUrl = currentUrl.href;
+                  }
+                } else if (currentUserTypes.split(',').length >= 1) {
+                  const arr = currentUserTypes.split(',');
+                  const targetButtonIndex = arr.indexOf(buttonUserType);
+                  arr.splice(targetButtonIndex, 1);
+                  currentUrl.search = '?user=' + arr.toString();
                   var newUrl = currentUrl.href;
                 }
-              } else if (currentUserTypes.split(',').length >= 1) {
-                const arr = currentUserTypes.split(',');
-                currentUrl.search = '?user=' + arr.toString();
-                var newUrl = currentUrl.href;
               }
             }
             window.history.pushState({}, '', newUrl);
