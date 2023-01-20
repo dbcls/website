@@ -642,49 +642,93 @@ var initialize = {
                   left: 0,
                   behavior: 'smooth'
                 });
-              }
-            }
-          });
-          var userButtons = $('button.tag_element.user');
-
-          $(userButtons).on('click', (e) => {
-            const isAllUsersButton = e.target.classList.contains('all');
-            const isActive = e.target.classList.contains(
-              'mixitup-control-active'
-            );
-            var currentUrl = new URL(window.location.href);
-            var searchParams = new URLSearchParams(currentUrl.search);
-            var currentUserTypes = searchParams.get('user');
-            if (isAllUsersButton) {
-              searchParams.delete('user');
-              currentUrl.search = searchParams.toString();
-              var newUrl = currentUrl.href;
-            } else {
-              const buttonUserType = e.target
-                .getAttribute('data-toggle')
-                .replace('.', '');
-                if (currentUserTypes === null) {
-                var newUrl = currentUrl + '?user=' + buttonUserType;
-              } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
-                var newUrl = currentUrl + ',' + buttonUserType;
-              } else {
-                if (currentUserTypes.split(',').length === 1) {
-                  if (isActive){
-                    searchParams.delete('user');
-                    currentUrl.search = searchParams.toString();
-                    var newUrl = currentUrl.href;
-                  }
-                } else if (currentUserTypes.split(',').length >= 1 && isActive) {
-                  const arr = currentUserTypes.split(',');
-                  const targetButtonIndex = arr.indexOf(buttonUserType);
-                  arr.splice(targetButtonIndex, 1);
-                  currentUrl.search = '?user=' + arr.toString();
+              },
+              onMixClick: function(state, originalEvent) {
+                const e = originalEvent;
+                const isAllUsersButton = e.target.classList.contains('all');
+                const isActive = e.target.classList.contains(
+                  'mixitup-control-active'
+                );
+                var currentUrl = new URL(window.location.href);
+                var searchParams = new URLSearchParams(currentUrl.search);
+                var currentUserTypes = searchParams.get('user');
+                if (isAllUsersButton) {
+                  searchParams.delete('user');
+                  currentUrl.search = searchParams.toString();
                   var newUrl = currentUrl.href;
+                } else {
+                  const buttonUserType = e.target
+                    .getAttribute('data-toggle')
+                    .replace('.', '');
+                  if (currentUserTypes === null) {
+                    var newUrl = currentUrl + '?user=' + buttonUserType;
+                  } else if (
+                    !currentUserTypes.split(',').includes(buttonUserType)
+                  ) {
+                    var newUrl = currentUrl + ',' + buttonUserType;
+                  } else {
+                    if (currentUserTypes.split(',').length === 1) {
+                      if (isActive) {
+                        searchParams.delete('user');
+                        currentUrl.search = searchParams.toString();
+                        var newUrl = currentUrl.href;
+                      }
+                    } else if (
+                      currentUserTypes.split(',').length >= 1 &&
+                      isActive
+                    ) {
+                      const arr = currentUserTypes.split(',');
+                      const targetButtonIndex = arr.indexOf(buttonUserType);
+                      arr.splice(targetButtonIndex, 1);
+                      currentUrl.search = '?user=' + arr.toString();
+                      var newUrl = currentUrl.href;
+                    }
+                  }
                 }
+                window.history.pushState({}, '', newUrl);
               }
             }
-            window.history.pushState({}, '', newUrl);
           });
+          // var userButtons = $('button.tag_element.user');
+
+          // $(userButtons).on('click', (e) => {
+          //   const isAllUsersButton = e.target.classList.contains('all');
+          //   const isActive = e.target.classList.contains(
+          //     'mixitup-control-active'
+          //   );
+          //   var currentUrl = new URL(window.location.href);
+          //   var searchParams = new URLSearchParams(currentUrl.search);
+          //   var currentUserTypes = searchParams.get('user');
+          //   if (isAllUsersButton) {
+          //     searchParams.delete('user');
+          //     currentUrl.search = searchParams.toString();
+          //     var newUrl = currentUrl.href;
+          //   } else {
+          //     const buttonUserType = e.target
+          //       .getAttribute('data-toggle')
+          //       .replace('.', '');
+          //       if (currentUserTypes === null) {
+          //       var newUrl = currentUrl + '?user=' + buttonUserType;
+          //     } else if (!currentUserTypes.split(',').includes(buttonUserType)) {
+          //       var newUrl = currentUrl + ',' + buttonUserType;
+          //     } else {
+          //       if (currentUserTypes.split(',').length === 1) {
+          //         if (isActive){
+          //           searchParams.delete('user');
+          //           currentUrl.search = searchParams.toString();
+          //           var newUrl = currentUrl.href;
+          //         }
+          //       } else if (currentUserTypes.split(',').length >= 1 && isActive) {
+          //         const arr = currentUserTypes.split(',');
+          //         const targetButtonIndex = arr.indexOf(buttonUserType);
+          //         arr.splice(targetButtonIndex, 1);
+          //         currentUrl.search = '?user=' + arr.toString();
+          //         var newUrl = currentUrl.href;
+          //       }
+          //     }
+          //   }
+          //   window.history.pushState({}, '', newUrl);
+          // });
           // URL parameter を応じてユーザボタンを押す
           var myKeysValues = window.location.search;
           var urlParams = new URLSearchParams(myKeysValues);
