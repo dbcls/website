@@ -648,6 +648,10 @@ var initialize = {
           var userButton = $('button.tag_element.user');
 
           $(userButton).on('click', (e) => {
+            const isAllUsersButton = e.target.classList.contains('all');
+            const isActive = e.target.classList.contains(
+              'mixitup-control-active'
+            );
             const buttonUserType = e.target
               .getAttribute('data-toggle')
               .replace('.', '');
