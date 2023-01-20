@@ -674,7 +674,7 @@ var initialize = {
                     currentUrl.search = searchParams.toString();
                     var newUrl = currentUrl.href;
                   }
-                } else if (currentUserTypes.split(',').length >= 1) {
+                } else if (currentUserTypes.split(',').length >= 1 && isActive) {
                   const arr = currentUserTypes.split(',');
                   const targetButtonIndex = arr.indexOf(buttonUserType);
                   arr.splice(targetButtonIndex, 1);
