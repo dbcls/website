@@ -645,9 +645,9 @@ var initialize = {
               }
             }
           });
-          var userButton = $('button.tag_element.user');
+          var userButtons = $('button.tag_element.user');
 
-          $(userButton).on('click', (e) => {
+          $(userButtons).on('click', (e) => {
             const isAllUsersButton = e.target.classList.contains('all');
             const isActive = e.target.classList.contains(
               'mixitup-control-active'
@@ -669,7 +669,7 @@ var initialize = {
                 var newUrl = currentUrl + ',' + buttonUserType;
               } else {
                 if (currentUserTypes.split(',').length === 1) {
-                  if (e.target.classList.contains('mixitup-control-active')){
+                  if (isActive){
                     searchParams.delete('user');
                     currentUrl.search = searchParams.toString();
                     var newUrl = currentUrl.href;
