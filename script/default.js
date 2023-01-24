@@ -22,7 +22,7 @@ script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js')
 script_sticky.setAttribute('src', '/script/stickyfill.min.js')
 link_favicon.setAttribute('rel', 'icon')
 link_favicon.setAttribute('type', 'image/png')
-link_favicon.setAttribute('href', '/img/favicon.png')
+link_favicon.setAttribute('href', '/img/favicon.ico')
 document.head.appendChild(script)
 document.head.appendChild(script_sticky)
 document.head.appendChild(link_favicon)
@@ -42,6 +42,14 @@ function dispLoading(msg) {
  ------------------------------ */
 function removeLoading() {
   $("#loading").remove();
+}
+
+function showModal() {
+  document.getElementById('overlay').style.display = 'block';
+}
+
+function hideModal() {
+  document.getElementById('overlay').style.display = 'none';
 }
 
 var initialize = {
@@ -198,7 +206,22 @@ var initialize = {
   'faq': function () {},
   'policy': function () {},
   'logotype': function () {},
-  'research': function () {},
+  'research': function () {
+    // Modal ViewのON/OFF toggle
+    const triggers = $('.trigger')
+    const triggerArray = Array.from(triggers).entries()
+    const modals = $('.modal')
+    $('.modal__content').click( e => e.stopPropagation())
+    const closeButtons = $('.btn-close')
+
+    for (let [index, trigger] of triggerArray) {
+      function toggleModal() {
+        modals[index].classList.toggle('show-modal')
+      }
+      const toggleModalElements = [trigger, modals[index],  closeButtons[index]]
+      toggleModalElements.forEach( el =>{ el.addEventListener('click', toggleModal)})
+    }
+  },
   'publications': function () {},
   'references': function () {
     // 処理前に Loading 画像を表示
@@ -353,7 +376,6 @@ var initialize = {
     } else {
       servicesFrontDisplay();
     }
-
     function servicesFrontDisplay() {
       $.ajax({
         url: "../json/services.json",
@@ -630,9 +652,175 @@ var initialize = {
                   left: 0,
                   behavior: 'smooth'
                 });
+              },
+              onMixClick: function (state, originalEvent) {
+                const e = originalEvent;
+                const isCategoryButton = e.target.classList.contains('category');
+                const isUserButton = e.target.classList.contains('user');
+                const isAllButton = e.target.classList.contains('all');
+                const isActive = e.target.classList.contains(
+                  'mixitup-control-active'
+                );
+                var currentUrl = new URL(window.location.href);
+                var searchParams = new URLSearchParams(currentUrl.search);
+                
+                
+                if (isCategoryButton) {
+                  var currentUserTypes = searchParams.get('category');
+                  if (isAllButton) {
+                    searchParams.delete('category');
+                    currentUrl.search = searchParams.toString();
+                    var newUrl = currentUrl.href;
+                  } else {
+                    const buttonUserType = e.target
+                      .getAttribute('data-toggle')
+                      .replace('.', '');
+                    if (currentUserTypes === null) {
+                      searchParams.append('category', buttonUserType);
+                      currentUrl.search = searchParams.toString();
+                      var newUrl = currentUrl.href;
+                    } else if (
+                      !currentUserTypes.split(',').includes(buttonUserType)
+                    ) {
+                      var newUrl = currentUrl + ',' + buttonUserType;
+                    } else {
+                      if (currentUserTypes.split(',').length === 1) {
+                        if (isActive) {
+                          searchParams.delete('category');
+                          currentUrl.search = searchParams.toString();
+                          var newUrl = currentUrl.href;
+                        }
+                      } else if (
+                        currentUserTypes.split(',').length >= 1 &&
+                        isActive
+                      ) {
+                        const arr = currentUserTypes.split(',');
+                        const targetButtonIndex = arr.indexOf(buttonUserType);
+                        arr.splice(targetButtonIndex, 1);
+                        currentUrl.search = '?category=' + arr.toString();
+                        var newUrl = currentUrl.href;
+                      }
+                    }
+                  }
+                } else{
+                var currentUserTypes = searchParams.get('user');
+                if (isAllButton) {
+                  searchParams.delete('user');
+                  currentUrl.search = searchParams.toString();
+                  var newUrl = currentUrl.href;
+                } else {
+                  const buttonUserType = e.target
+                    .getAttribute('data-toggle')
+                    .replace('.', '');
+                  if (currentUserTypes === null) {
+                    searchParams.append('user', buttonUserType);
+                    currentUrl.search = searchParams.toString();
+                    var newUrl = currentUrl.href;
+                  } else if (
+                    !currentUserTypes.split(',').includes(buttonUserType)
+                  ) {
+                    var newUrl = currentUrl + ',' + buttonUserType;
+                  } else {
+                    if (currentUserTypes.split(',').length === 1) {
+                      if (isActive) {
+                        searchParams.delete('user');
+                        currentUrl.search = searchParams.toString();
+                        var newUrl = currentUrl.href;
+                      }
+                    } else if (
+                      currentUserTypes.split(',').length >= 1 &&
+                      isActive
+                    ) {
+                      const arr = currentUserTypes.split(',');
+                      const targetButtonIndex = arr.indexOf(buttonUserType);
+                      arr.splice(targetButtonIndex, 1);
+                      currentUrl.search = '?user=' + arr.toString();
+                      var newUrl = currentUrl.href;
+                    }
+                  }
+                }}
+                window.history.pushState({}, '', newUrl);
+              },
+              onMixEnd: function (state) {
+                var myKeysValues = window.location.search;
+                var urlParams = new URLSearchParams(myKeysValues);
+                var userTypes = urlParams.get('user');
+                if (userTypes === null) {
+                  $('[data-filter=".mix"]').addClass('active');
+                }
+              },
+            },
+          });
+          // var userButtons = $('button.tag_element.user');
+
+          // $(userButtons).on('click', (e) => {
+          //   const isAllUsersButton = e.target.classList.contains('all');
+          //   const isActive = e.target.classList.contains(
+          //     'mixitup-control-active'
+          //   );
+          //   var currentUrl = new URL(window.location.href);
+          //   var searchParams = new URLSearchParams(currentUrl.search);
+          //   var currentUserTypes = searchParams.get('user');
+          //   if (isAllUsersButton) {
+          //     searchParams.delete('user');
+          //     currentUrl.search = searchParams.toString();
+          //     var newUrl = currentUrl.href;
+          //   } else {
+          //     const buttonUserType = e.target
+          //       .getAttribute('data-toggle')
+          //       .replace('.', '');
+          //     if (currentUserTypes === null) {
+          //       var newUrl = currentUrl + '?user=' + buttonUserType;
+          //     } else if (
+          //       !currentUserTypes.split(',').includes(buttonUserType)
+          //     ) {
+          //       var newUrl = currentUrl + ',' + buttonUserType;
+          //     } else {
+          //       if (currentUserTypes.split(',').length === 1) {
+          //         if (isActive) {
+          //           searchParams.delete('user');
+          //           currentUrl.search = searchParams.toString();
+          //           var newUrl = currentUrl.href;
+          //           console.log(
+          //             'should click ALL',
+          //             $('button.tag_element.user.all')
+          //           );
+          //           // document.querySelector('button.tag_element.user.all').classList.add('active');
+          //         }
+          //       } else if (
+          //         currentUserTypes.split(',').length >= 1 &&
+          //         isActive
+          //       ) {
+          //         const arr = currentUserTypes.split(',');
+          //         const targetButtonIndex = arr.indexOf(buttonUserType);
+          //         arr.splice(targetButtonIndex, 1);
+          //         currentUrl.search = '?user=' + arr.toString();
+          //         var newUrl = currentUrl.href;
+          //       }
+          //     }
+          //   }
+          //   window.history.pushState({}, '', newUrl);
+          // });
+          // URL parameter を応じてユーザボタンを押す
+          var myKeysValues = window.location.search;
+          var urlParams = new URLSearchParams(myKeysValues);
+          var userTypes = urlParams.get('user');
+          function clickUserButton(userTypes) {
+            const userTypesArray = userTypes.split(',');
+            var allUserTypes = [
+              'biologist',
+              'application',
+              'data-scientist',
+              'provider',
+            ];
+            for (let userType of userTypesArray){
+              if (allUserTypes.includes(userType)) {
+                var selector = 'button.tag_element.user.' + userType;
+                $(selector).click();
               }
             }
-          });
+          }
+          clickUserButton(userTypes);
         }
       })
     }

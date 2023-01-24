@@ -120,6 +120,35 @@ body
     min-width: 1070px
 
 //下層ページカラム設定
+.modal
+  position: fixed
+  inset: 0
+  margin: auto
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: none
+  justify-content: center
+  align-items: center
+  // opacity: 0
+  // visibility: hidden
+  // transform: scale(1.1)
+  // transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s 
+.btn-close
+  float: right
+  width: 1.5rem
+  line-height: 1.5rem
+  text-align: center
+  cursor: pointer
+  border-radius: 0.25rem
+  background-color: lightgray
+.show-modal
+  display: flex
+  // opacity: 1
+  // visibility: visible
+  // transform: scale(1.0)
+  // transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s
+
 .content__wrapper
   width: 1024px
   margin: 0 auto
@@ -665,6 +694,8 @@ footer
 .research__image
   width: 786px
   height: auto
+  area
+    cursor: pointer
 .section-wrapper
   display: flex
   flex-wrap: wrap
@@ -682,7 +713,6 @@ footer
   .article__section
     width: 385.5px
     background-color: $section-bg
-    margin: 6px 0
     color: $text-color
     h4
       font-size: 14px

@@ -193,6 +193,32 @@ body a {
     min-width: 1070px;
   }
 }
+.modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+
+.show-modal {
+  display: flex;
+}
+
 .content__wrapper {
   width: 1024px;
   margin: 0 auto;
@@ -779,6 +805,9 @@ footer a:hover {
   width: 786px;
   height: auto;
 }
+.research__image area {
+  cursor: pointer;
+}
 
 .section-wrapper {
   display: flex;
@@ -801,7 +830,6 @@ footer a:hover {
 .section-wrapper .article__section {
   width: 385.5px;
   background-color: #E8EDED;
-  margin: 6px 0;
   color: #333333;
 }
 .section-wrapper .article__section h4 {
