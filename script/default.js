@@ -655,40 +655,42 @@ var initialize = {
               },
               onMixClick: function (state, originalEvent) {
                 const e = originalEvent;
-                const isCategoryButton = e.target.classList.contains('category');
-                const isUserButton = e.target.classList.contains('user');
-                const isAllButton = e.target.classList.contains('all');
+                const isCategory = e.target.classList.contains('category');
+                const isUser = e.target.classList.contains('user');
+                const isAll = e.target.classList.contains('all');
                 const isActive = e.target.classList.contains(
                   'mixitup-control-active'
                 );
-                var currentUrl = new URL(window.location.href);
-                var searchParams = new URLSearchParams(currentUrl.search);
-                
-                
-                if (isCategoryButton) {
-                  var currentUserTypes = searchParams.get('category');
-                  if (isAllButton) {
-                    searchParams.delete('category');
+                const currentUrl = new URL(window.location.href);
+                const searchParams = new URLSearchParams(currentUrl.search);
+                function userType(buttonType) {
+                  return buttonType ? 'category' : 'user';
+                }
+                let newUrl;
+                const urlParamsHandler = (buttonType) => {
+                  const currentUserTypes = searchParams.get(buttonType);
+                  if (isAll) {
+                    searchParams.delete(buttonType);
                     currentUrl.search = searchParams.toString();
-                    var newUrl = currentUrl.href;
+                    newUrl = currentUrl.href;
                   } else {
                     const buttonUserType = e.target
                       .getAttribute('data-toggle')
                       .replace('.', '');
                     if (currentUserTypes === null) {
-                      searchParams.append('category', buttonUserType);
+                      searchParams.append(buttonType, buttonUserType);
                       currentUrl.search = searchParams.toString();
-                      var newUrl = currentUrl.href;
+                      newUrl = currentUrl.href;
                     } else if (
                       !currentUserTypes.split(',').includes(buttonUserType)
                     ) {
-                      var newUrl = currentUrl + ',' + buttonUserType;
+                      newUrl = currentUrl + ',' + buttonUserType;
                     } else {
                       if (currentUserTypes.split(',').length === 1) {
                         if (isActive) {
-                          searchParams.delete('category');
+                          searchParams.delete(buttonType);
                           currentUrl.search = searchParams.toString();
-                          var newUrl = currentUrl.href;
+                          newUrl = currentUrl.href;
                         }
                       } else if (
                         currentUserTypes.split(',').length >= 1 &&
@@ -697,49 +699,15 @@ var initialize = {
                         const arr = currentUserTypes.split(',');
                         const targetButtonIndex = arr.indexOf(buttonUserType);
                         arr.splice(targetButtonIndex, 1);
-                        currentUrl.search = '?category=' + arr.toString();
-                        var newUrl = currentUrl.href;
+                        currentUrl.search = '?user=' + arr.toString();
+                        newUrl = currentUrl.href;
                       }
                     }
                   }
-                } else{
-                var currentUserTypes = searchParams.get('user');
-                if (isAllButton) {
-                  searchParams.delete('user');
-                  currentUrl.search = searchParams.toString();
-                  var newUrl = currentUrl.href;
-                } else {
-                  const buttonUserType = e.target
-                    .getAttribute('data-toggle')
-                    .replace('.', '');
-                  if (currentUserTypes === null) {
-                    searchParams.append('user', buttonUserType);
-                    currentUrl.search = searchParams.toString();
-                    var newUrl = currentUrl.href;
-                  } else if (
-                    !currentUserTypes.split(',').includes(buttonUserType)
-                  ) {
-                    var newUrl = currentUrl + ',' + buttonUserType;
-                  } else {
-                    if (currentUserTypes.split(',').length === 1) {
-                      if (isActive) {
-                        searchParams.delete('user');
-                        currentUrl.search = searchParams.toString();
-                        var newUrl = currentUrl.href;
-                      }
-                    } else if (
-                      currentUserTypes.split(',').length >= 1 &&
-                      isActive
-                    ) {
-                      const arr = currentUserTypes.split(',');
-                      const targetButtonIndex = arr.indexOf(buttonUserType);
-                      arr.splice(targetButtonIndex, 1);
-                      currentUrl.search = '?user=' + arr.toString();
-                      var newUrl = currentUrl.href;
-                    }
-                  }
-                }}
-                window.history.pushState({}, '', newUrl);
+                  window.history.pushState({}, '', newUrl);
+                }
+                urlParamsHandler(userType(isCategory));
+              // }
               },
               onMixEnd: function (state) {
                 var myKeysValues = window.location.search;
