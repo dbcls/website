@@ -789,9 +789,7 @@ var initialize = {
                     currentUrl.search = searchParams.toString();
                     newUrl = currentUrl.href;
                   } else {
-                    const buttonUserType = e.target
-                      .getAttribute('data-toggle')
-                      .replace('.', '');
+                    const buttonUserType = e.target.dataset.toggle.substr(1);
                     if (currentUserTypes === null) {
                       searchParams.append(buttonType, buttonUserType);
                       currentUrl.search = searchParams.toString();
@@ -801,16 +799,18 @@ var initialize = {
                     ) {
                       newUrl = currentUrl + ',' + buttonUserType;
                     } else {
-                      if (currentUserTypes.split(',').length === 1) {
-                        if (isActive) {
-                          searchParams.delete(buttonType);
-                          currentUrl.search = searchParams.toString();
-                          newUrl = currentUrl.href;
-                        }
+                      if (
+                        currentUserTypes.split(',').length === 1 &&
+                        isActive
+                      ) {
+                        searchParams.delete(buttonType);
+                        currentUrl.search = searchParams.toString();
+                        newUrl = currentUrl.href;
                       } else if (
                         currentUserTypes.split(',').length >= 1 &&
                         isActive
                       ) {
+                        console.log('hi');
                         const arr = currentUserTypes.split(',');
                         const targetButtonIndex = arr.indexOf(buttonUserType);
                         arr.splice(targetButtonIndex, 1);
