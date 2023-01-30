@@ -784,30 +784,29 @@ var initialize = {
                   const paramValueArray = () => {
                     return paramValue !== null ? paramValue.split(',') : [];
                   };
+                  const addParamValue = () => {
+                    let newParamValue = paramValue + ',' + buttonName;
+                    searchParams.set(paramKey, newParamValue);
+                  };
+                  const deleteParamValue = () => {
+                    const copy = [...paramValueArray()];
+                    const targetIndex = copy.indexOf(buttonName);
+                    copy.splice(targetIndex, 1);
+                    searchParams.set(paramKey, copy.toString());
+                  };
                   if (isAllButton) {
                     searchParams.delete(paramKey);
                   } else {
-                    const addParamValue = () => {
-                      let newParamValue = paramValue + ',' + buttonName;
-                      searchParams.set(paramKey, newParamValue);
-                    };
-                    const deleteParamValue = () => {
-                      const copy = [...paramValueArray()];
-                      const targetIndex = copy.indexOf(buttonName);
-                      copy.splice(targetIndex, 1);
-                      searchParams.set(paramKey, copy.toString());
-                    };
                     if (paramValueArray().length === 0) {
                       searchParams.append(paramKey, buttonName);
                     } else {
-                      if (paramValueArray().includes(buttonName)) {
-                        if (isActiveButton) {
-                          if (paramValueArray().length === 1) {
-                            searchParams.delete(paramKey);
-                          } else {
-                            deleteParamValue();
-                          }
-                        }
+                      if (
+                        paramValueArray().includes(buttonName) &&
+                        isActiveButton
+                      ) {
+                        paramValueArray().length === 1
+                          ? searchParams.delete(paramKey)
+                          : deleteParamValue();
                       } else {
                         addParamValue();
                       }
@@ -818,7 +817,6 @@ var initialize = {
                   window.history.pushState({}, '', newUrl);
                 };
                 urlParamsHandler(buttonType());
-                // }
               },
               onMixEnd: function (state) {
                 var myKeysValues = window.location.search;
@@ -830,56 +828,6 @@ var initialize = {
               },
             },
           });
-          // var userButtons = $('button.tag_element.user');
-
-          // $(userButtons).on('click', (e) => {
-          //   const isAllUsersButton = e.target.classList.contains('all');
-          //   const isActive = e.target.classList.contains(
-          //     'mixitup-control-active'
-          //   );
-          //   var currentUrl = new URL(window.location.href);
-          //   var searchParams = new URLSearchParams(currentUrl.search);
-          //   var currentUserTypes = searchParams.get('user');
-          //   if (isAllUsersButton) {
-          //     searchParams.delete('user');
-          //     currentUrl.search = searchParams.toString();
-          //     var newUrl = currentUrl.href;
-          //   } else {
-          //     const buttonName = e.target
-          //       .getAttribute('data-toggle')
-          //       .replace('.', '');
-          //     if (currentUserTypes === null) {
-          //       var newUrl = currentUrl + '?user=' + buttonName;
-          //     } else if (
-          //       !currentUserTypes.split(',').includes(buttonName)
-          //     ) {
-          //       var newUrl = currentUrl + ',' + buttonName;
-          //     } else {
-          //       if (currentUserTypes.split(',').length === 1) {
-          //         if (isActive) {
-          //           searchParams.delete('user');
-          //           currentUrl.search = searchParams.toString();
-          //           var newUrl = currentUrl.href;
-          //           console.log(
-          //             'should click ALL',
-          //             $('button.tag_element.user.all')
-          //           );
-          //           // document.querySelector('button.tag_element.user.all').classList.add('active');
-          //         }
-          //       } else if (
-          //         currentUserTypes.split(',').length >= 1 &&
-          //         isActive
-          //       ) {
-          //         const arr = currentUserTypes.split(',');
-          //         const targetButtonIndex = arr.indexOf(buttonName);
-          //         arr.splice(targetButtonIndex, 1);
-          //         currentUrl.search = '?user=' + arr.toString();
-          //         var newUrl = currentUrl.href;
-          //       }
-          //     }
-          //   }
-          //   window.history.pushState({}, '', newUrl);
-          // });
           // URL parameter を応じてユーザボタンを押す
           var myKeysValues = window.location.search;
           var urlParams = new URLSearchParams(myKeysValues);
