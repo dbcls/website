@@ -778,68 +778,44 @@ var initialize = {
                 );
                 const currentUrl = new URL(window.location.href);
                 const searchParams = new URLSearchParams(currentUrl.search);
-                let newUrl;
-                const paramValue = searchParams.get(paramKey);
-                const paramValueArray = () =>
-                  paramValue === null ? [] : paramValue.split(',');
+                const buttonName = e.target.dataset.toggle.substr(1);
                 const urlParamsHandler = (paramKey) => {
+                  const paramValue = searchParams.get(paramKey);
+                  const paramValueArray = () => {
+                    return paramValue !== null ? paramValue.split(',') : [];
+                  };
                   if (isAllButton) {
                     searchParams.delete(paramKey);
-                    currentUrl.search = searchParams.toString();
-                    newUrl = currentUrl.href;
                   } else {
-                    const buttonName = e.target.dataset.toggle.substr(1);
+                    const addParamValue = () => {
+                      let newParamValue = paramValue + ',' + buttonName;
+                      searchParams.set(paramKey, newParamValue);
+                    };
+                    const deleteParamValue = () => {
+                      const copy = [...paramValueArray()];
+                      const targetIndex = copy.indexOf(buttonName);
+                      copy.splice(targetIndex, 1);
+                      searchParams.set(paramKey, copy.toString());
+                    };
                     if (paramValueArray().length === 0) {
                       searchParams.append(paramKey, buttonName);
-                      currentUrl.search = searchParams.toString();
-                      newUrl = currentUrl.href;
                     } else {
                       if (paramValueArray().includes(buttonName)) {
                         if (isActiveButton) {
                           if (paramValueArray().length === 1) {
                             searchParams.delete(paramKey);
-                            currentUrl.search = searchParams.toString();
-                            newUrl = currentUrl.href;
                           } else {
-                            const arr = [...paramValueArray()];
-                            const targetButtonIndex = arr.indexOf(buttonName);
-                            arr.splice(targetButtonIndex, 1);
-                            searchParams.set(paramKey, arr.toString());
-                            currentUrl.search = searchParams.toString();
-                            newUrl = currentUrl.href;
+                            deleteParamValue();
                           }
                         }
                       } else {
-                        let temp = paramValue;
-                        temp += ',' + buttonName;
-                        searchParams.set(paramKey, temp);
-                        currentUrl.search = searchParams.toString();
-                        newUrl = currentUrl.href;
+                        addParamValue();
                       }
-                      // if (!paramValue.split(',').includes(buttonName)) {
-                      //   newUrl = currentUrl + ',' + buttonName;
-                      // } else {
-                      //   if (paramValue.split(',').length === 1 && isActiveButton) {
-                      //     searchParams.delete(paramKey);
-                      //     currentUrl.search = searchParams.toString();
-                      //     newUrl = currentUrl.href;
-                      //   } else if (
-                      //     paramValue.split(',').length >= 1 &&
-                      //     isActiveButton
-                      //   ) {
-                      //     const arr = paramValue.split(',');
-                      //     const targetButtonIndex = arr.indexOf(buttonName);
-                      //     arr.splice(targetButtonIndex, 1);
-                      //     currentUrl.search = '?user=' + arr.toString();
-                      //     newUrl = currentUrl.href;
-                      //   }
-                      // }
                     }
                   }
+                  currentUrl.search = searchParams.toString();
+                  let newUrl = currentUrl.href;
                   window.history.pushState({}, '', newUrl);
-                  console.log('paramValue: ', typeof paramValue);
-                  console.log('currentUrl: ', currentUrl);
-                  console.log('searchParams: ', searchParams);
                 };
                 urlParamsHandler(buttonType());
                 // }
