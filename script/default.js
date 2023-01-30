@@ -228,24 +228,7 @@ var initialize = {
   faq: function () {},
   policy: function () {},
   logotype: function () {},
-  research: function () {
-    // Modal ViewのON/OFF toggle
-    const triggers = $('.trigger');
-    const triggerArray = Array.from(triggers).entries();
-    const modals = $('.modal');
-    $('.modal__content').click((e) => e.stopPropagation());
-    const closeButtons = $('.btn-close');
-
-    for (let [index, trigger] of triggerArray) {
-      function toggleModal() {
-        modals[index].classList.toggle('show-modal');
-      }
-      const toggleModalElements = [trigger, modals[index], closeButtons[index]];
-      toggleModalElements.forEach((el) => {
-        el.addEventListener('click', toggleModal);
-      });
-    }
-  },
+  research: function () {},
   publications: function () {},
   references: function () {
     // 処理前に Loading 画像を表示
