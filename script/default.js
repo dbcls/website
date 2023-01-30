@@ -417,6 +417,7 @@ var initialize = {
       },
     });
   },
+  services: function () {},
   events: function () {
     $('.news__individual-wrapper').css('display', 'block');
     var url = window.location;
