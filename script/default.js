@@ -793,13 +793,12 @@ var initialize = {
                     if (paramValueArray().length === 0) {
                       searchParams.append(paramKey, buttonName);
                     } else {
-                      if (
-                        paramValueArray().includes(buttonName) &&
-                        isActiveButton
-                      ) {
-                        paramValueArray().length === 1
-                          ? searchParams.delete(paramKey)
-                          : deleteParamValue();
+                      if (paramValueArray().includes(buttonName)) {
+                        if (isActiveButton) {
+                          paramValueArray().length === 1
+                            ? searchParams.delete(paramKey)
+                            : deleteParamValue();
+                        }
                       } else {
                         addParamValue();
                       }
@@ -832,15 +831,12 @@ var initialize = {
                   $('button.user.all').addClass('active');
                 }
               },
-              onMixEnd: function (state) {
-                console.log('end');
-              },
             },
           });
           // URL parameter を応じてユーザボタンを押す
-          var myKeysValues = window.location.search;
-          var urlParams = new URLSearchParams(myKeysValues);
-          var userTypes = urlParams.get('user');
+          const currentUrl = new URL(window.location.href);
+          const searchParams = new URLSearchParams(currentUrl.search);
+          const userTypes = searchParams.get('user');
           function clickUserButton(userTypes) {
             const userTypesArray = userTypes.split(',');
             var allUserTypes = [
