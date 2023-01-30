@@ -760,15 +760,8 @@ var initialize = {
               enable: true,
             },
             callbacks: {
-              onMixStart: function (state, futureState) {
-                $('[data-filter=".mix"]').removeClass('active');
-                window.scrollTo({
-                  top: 0,
-                  left: 0,
-                  behavior: 'smooth',
-                });
-              },
               onMixClick: function (state, originalEvent) {
+                console.log('click');
                 const e = originalEvent;
                 const isCategory = e.target.classList.contains('category');
                 const buttonType = () => (isCategory ? 'category' : 'user');
@@ -818,13 +811,29 @@ var initialize = {
                 };
                 urlParamsHandler(buttonType());
               },
-              onMixEnd: function (state) {
-                var myKeysValues = window.location.search;
-                var urlParams = new URLSearchParams(myKeysValues);
-                var userTypes = urlParams.get('user');
-                if (userTypes === null) {
-                  $('[data-filter=".mix"]').addClass('active');
+              onMixStart: function (state, futureState) {
+                console.log('start');
+                window.scrollTo({
+                  top: 0,
+                  left: 0,
+                  behavior: 'smooth',
+                });
+                const currentUrl = new URL(window.location.href);
+                const searchParams = new URLSearchParams(currentUrl.search);
+                const hasCategory = searchParams.has('category');
+                const hasUser = searchParams.has('user');
+                const allAllButtons = '[data-filter=".mix"]';
+                $(allAllButtons).removeClass('active');
+                if (currentUrl.search === '') {
+                  $(allAllButtons).addClass('active');
+                } else if (!hasCategory && hasUser) {
+                  $('button.category.all').addClass('active');
+                } else if (hasCategory && !hasUser) {
+                  $('button.user.all').addClass('active');
                 }
+              },
+              onMixEnd: function (state) {
+                console.log('end');
               },
             },
           });
