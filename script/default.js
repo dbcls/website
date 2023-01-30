@@ -771,57 +771,77 @@ var initialize = {
               onMixClick: function (state, originalEvent) {
                 const e = originalEvent;
                 const isCategory = e.target.classList.contains('category');
-                const isUser = e.target.classList.contains('user');
-                const isAll = e.target.classList.contains('all');
-                const isActive = e.target.classList.contains(
+                const buttonType = () => (isCategory ? 'category' : 'user');
+                const isAllButton = e.target.classList.contains('all');
+                const isActiveButton = e.target.classList.contains(
                   'mixitup-control-active'
                 );
                 const currentUrl = new URL(window.location.href);
                 const searchParams = new URLSearchParams(currentUrl.search);
-                function userType(buttonType) {
-                  return buttonType ? 'category' : 'user';
-                }
                 let newUrl;
-                const urlParamsHandler = (buttonType) => {
-                  const currentUserTypes = searchParams.get(buttonType);
-                  if (isAll) {
-                    searchParams.delete(buttonType);
+                const paramValue = searchParams.get(paramKey);
+                const paramValueArray = () =>
+                  paramValue === null ? [] : paramValue.split(',');
+                const urlParamsHandler = (paramKey) => {
+                  if (isAllButton) {
+                    searchParams.delete(paramKey);
                     currentUrl.search = searchParams.toString();
                     newUrl = currentUrl.href;
                   } else {
-                    const buttonUserType = e.target.dataset.toggle.substr(1);
-                    if (currentUserTypes === null) {
-                      searchParams.append(buttonType, buttonUserType);
+                    const buttonName = e.target.dataset.toggle.substr(1);
+                    if (paramValueArray().length === 0) {
+                      searchParams.append(paramKey, buttonName);
                       currentUrl.search = searchParams.toString();
                       newUrl = currentUrl.href;
-                    } else if (
-                      !currentUserTypes.split(',').includes(buttonUserType)
-                    ) {
-                      newUrl = currentUrl + ',' + buttonUserType;
                     } else {
-                      if (
-                        currentUserTypes.split(',').length === 1 &&
-                        isActive
-                      ) {
-                        searchParams.delete(buttonType);
+                      if (paramValueArray().includes(buttonName)) {
+                        if (isActiveButton) {
+                          if (paramValueArray().length === 1) {
+                            searchParams.delete(paramKey);
+                            currentUrl.search = searchParams.toString();
+                            newUrl = currentUrl.href;
+                          } else {
+                            const arr = [...paramValueArray()];
+                            const targetButtonIndex = arr.indexOf(buttonName);
+                            arr.splice(targetButtonIndex, 1);
+                            searchParams.set(paramKey, arr.toString());
+                            currentUrl.search = searchParams.toString();
+                            newUrl = currentUrl.href;
+                          }
+                        }
+                      } else {
+                        let temp = paramValue;
+                        temp += ',' + buttonName;
+                        searchParams.set(paramKey, temp);
                         currentUrl.search = searchParams.toString();
                         newUrl = currentUrl.href;
-                      } else if (
-                        currentUserTypes.split(',').length >= 1 &&
-                        isActive
-                      ) {
-                        console.log('hi');
-                        const arr = currentUserTypes.split(',');
-                        const targetButtonIndex = arr.indexOf(buttonUserType);
-                        arr.splice(targetButtonIndex, 1);
-                        currentUrl.search = '?user=' + arr.toString();
-                        newUrl = currentUrl.href;
                       }
+                      // if (!paramValue.split(',').includes(buttonName)) {
+                      //   newUrl = currentUrl + ',' + buttonName;
+                      // } else {
+                      //   if (paramValue.split(',').length === 1 && isActiveButton) {
+                      //     searchParams.delete(paramKey);
+                      //     currentUrl.search = searchParams.toString();
+                      //     newUrl = currentUrl.href;
+                      //   } else if (
+                      //     paramValue.split(',').length >= 1 &&
+                      //     isActiveButton
+                      //   ) {
+                      //     const arr = paramValue.split(',');
+                      //     const targetButtonIndex = arr.indexOf(buttonName);
+                      //     arr.splice(targetButtonIndex, 1);
+                      //     currentUrl.search = '?user=' + arr.toString();
+                      //     newUrl = currentUrl.href;
+                      //   }
+                      // }
                     }
                   }
                   window.history.pushState({}, '', newUrl);
+                  console.log('paramValue: ', typeof paramValue);
+                  console.log('currentUrl: ', currentUrl);
+                  console.log('searchParams: ', searchParams);
                 };
-                urlParamsHandler(userType(isCategory));
+                urlParamsHandler(buttonType());
                 // }
               },
               onMixEnd: function (state) {
@@ -849,15 +869,15 @@ var initialize = {
           //     currentUrl.search = searchParams.toString();
           //     var newUrl = currentUrl.href;
           //   } else {
-          //     const buttonUserType = e.target
+          //     const buttonName = e.target
           //       .getAttribute('data-toggle')
           //       .replace('.', '');
           //     if (currentUserTypes === null) {
-          //       var newUrl = currentUrl + '?user=' + buttonUserType;
+          //       var newUrl = currentUrl + '?user=' + buttonName;
           //     } else if (
-          //       !currentUserTypes.split(',').includes(buttonUserType)
+          //       !currentUserTypes.split(',').includes(buttonName)
           //     ) {
-          //       var newUrl = currentUrl + ',' + buttonUserType;
+          //       var newUrl = currentUrl + ',' + buttonName;
           //     } else {
           //       if (currentUserTypes.split(',').length === 1) {
           //         if (isActive) {
@@ -875,7 +895,7 @@ var initialize = {
           //         isActive
           //       ) {
           //         const arr = currentUserTypes.split(',');
-          //         const targetButtonIndex = arr.indexOf(buttonUserType);
+          //         const targetButtonIndex = arr.indexOf(buttonName);
           //         arr.splice(targetButtonIndex, 1);
           //         currentUrl.search = '?user=' + arr.toString();
           //         var newUrl = currentUrl.href;
