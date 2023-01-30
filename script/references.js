@@ -5,6 +5,17 @@ document.head.appendChild(script);
 
 script.addEventListener('load', function () {
   // 処理前に Loading 画像を表示
+
+  /* ------------------------------
+  Loading イメージ表示関数
+  引数： msg 画面に表示する文言
+  ------------------------------ */
+  function dispLoading(msg) {
+    // 引数なし（メッセージなし）を許容
+    $('.main__contents').append(
+      "<div id='loading'><img src='/img/loading.gif' /></div>"
+    );
+  }
   dispLoading('処理中...');
 
   $.ajax({
