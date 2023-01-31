@@ -27,7 +27,7 @@ const tags = {
   other: 'その他',
 };
 
-const addColorTags = (tags) => {
+const addColorTags = () => {
   var url = window.location;
   var path = url.href.split('/');
   var file_name = path.pop();
@@ -87,13 +87,13 @@ const leftSidebarAutoScroll = (idName) => {
 
 var initialize = {
   index: function () {
-    addColorTags(tags);
+    addColorTags();
   },
   news: function () {
-    addColorTags(tags);
+    addColorTags();
   },
   post: function () {
-    addColorTags(tags);
+    addColorTags();
   },
   about: function () {},
   history: function () {},
@@ -106,7 +106,7 @@ var initialize = {
   references: function () {},
   services: function () {},
   events: function () {
-    addColorTags(tags);
+    addColorTags();
     leftSidebarAutoScroll('main__contents-event');
   },
   members: function () {},
