@@ -351,19 +351,22 @@ script.addEventListener('load', function () {
               );
               const currentUrl = new URL(window.location.href);
               const searchParams = new URLSearchParams(currentUrl.search);
-              const buttonName = e.target.dataset.toggle.substr(1);
+              const buttonName = () =>
+                e.target.dataset.toggle
+                  ? e.target.dataset.toggle.substr(1)
+                  : undefined;
               const urlParamsHandler = (paramKey) => {
                 const paramValue = searchParams.get(paramKey);
                 const paramValueArray = () => {
                   return paramValue !== null ? paramValue.split(',') : [];
                 };
                 const addParamValue = () => {
-                  let newParamValue = paramValue + ',' + buttonName;
+                  let newParamValue = paramValue + ',' + buttonName();
                   searchParams.set(paramKey, newParamValue);
                 };
                 const deleteParamValue = () => {
                   const copy = [...paramValueArray()];
-                  const targetIndex = copy.indexOf(buttonName);
+                  const targetIndex = copy.indexOf(buttonName());
                   copy.splice(targetIndex, 1);
                   searchParams.set(paramKey, copy.toString());
                 };
@@ -371,9 +374,9 @@ script.addEventListener('load', function () {
                   searchParams.delete(paramKey);
                 } else {
                   if (paramValueArray().length === 0) {
-                    searchParams.append(paramKey, buttonName);
+                    searchParams.append(paramKey, buttonName());
                   } else {
-                    if (paramValueArray().includes(buttonName)) {
+                    if (paramValueArray().includes(buttonName())) {
                       if (isActiveButton) {
                         paramValueArray().length === 1
                           ? searchParams.delete(paramKey)
