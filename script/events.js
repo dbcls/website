@@ -4,36 +4,8 @@ script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js');
 document.head.appendChild(script);
 
 script.addEventListener('load', function () {
-  var tags = {
-    public_relations: '広報',
-    services: 'サービス',
-    events: 'イベント',
-    registration: '募集',
-    other: 'その他',
-  };
   $('.news__individual-wrapper').css('display', 'block');
-  var url = window.location;
-  var path = url.href.split('/');
-  var file_name = path.pop();
-  var tags_key = Object.keys(tags);
-  tags_key.map(function (data) {
-    $('a[tag="' + data + '"]').before(
-      '<img src="/img/icon_tag_' +
-        data +
-        '.svg" class="news__tag-icon" alt="" >'
-    );
-  });
-  //タグ名を日本語に変換
-  var lang = $('html').attr('lang');
-  if (lang === 'ja') {
-    $('.tag_name').each(function () {
-      var tag_en = $(this).text();
-      tag_en = $.trim(tag_en);
-      var tag_ja = tags[tag_en];
-      $(this).text(tag_ja);
-    });
-  }
-
+  
   $.ajax({
     url: '../json/services.json',
     dataType: 'json',

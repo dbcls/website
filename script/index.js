@@ -4,33 +4,10 @@ script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js');
 document.head.appendChild(script);
 
 script.addEventListener('load', function () {
-  var lang = $('html').attr('lang');
   $('.news__individual-wrapper').css('display', 'block');
-  var url = window.location;
-  var path = url.href.split('/');
-  var file_name = path.pop();
-  var tags_key = Object.keys(tags);
-  tags_key.map(function (data) {
-    $('a[tag="' + data + '"]').before(
-      '<img src="/img/icon_tag_' +
-        data +
-        '.svg" class="news__tag-icon" alt="" >'
-    );
-  });
-
-  //タグ名を日本語に変換
-  if (lang === 'ja') {
-    $('.tag_name').each(function () {
-      var tag_en = $(this).text();
-      tag_en = $.trim(tag_en);
-      var tag_ja = tags[tag_en];
-      $(this).text(tag_ja);
-    });
-  }
-
   function slideSwitch() {
-    var $active = $('.main-image__contents DIV.active');
 
+    var $active = $('.main-image__contents DIV.active');
     if ($active.length == 0) $active = $('.main-image__contents DIV:last');
 
     // use this to pull the divs in the order they appear in the markup

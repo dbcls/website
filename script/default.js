@@ -19,12 +19,52 @@ document.head.appendChild(script);
 document.head.appendChild(script_sticky);
 document.head.appendChild(link_favicon);
 
+const tags = {
+  public_relations: '広報',
+  services: 'サービス',
+  events: 'イベント',
+  registration: '募集',
+  other: 'その他',
+};
 
+const addColorTags = (window, tags) => {
+  var url = window.location;
+  var path = url.href.split('/');
+  var file_name = path.pop();
+  var tags_key = Object.keys(tags);
+  tags_key.map(function (data) {
+    $('a[tag="' + data + '"]').before(
+      '<img src="/img/icon_tag_' +
+        data +
+        '.svg" class="news__tag-icon" alt="" >'
+    );
+  });
+  const setTagNamesToJp = () => {
+    $('.tag_name').each(function () {
+      var tag_en = $(this).text();
+      tag_en = $.trim(tag_en);
+      var tag_ja = tags[tag_en];
+      $(this).text(tag_ja);
+    });
+  };
+  //ページのタグ名を日本語に変換
+  var lang = $('html').attr('lang');
+  if (lang === 'ja' || file_name === 'news.html' || path.indexOf('ja') >= 0) {
+    setTagNamesToJp();
+  }
+};
 
 var initialize = {
-  index: function () {},
-  news: function () {},
-  post: function () {},
+  index: function () {
+    addColorTags(window, tags);
+  },
+  news: function () {
+    addColorTags(window, tags);
+  },
+  post: function () {
+    addColorTags(window, tags);
+    marked($('.markdown-body').html());
+  },
   about: function () {},
   history: function () {},
   funding: function () {},
@@ -35,7 +75,9 @@ var initialize = {
   publications: function () {},
   references: function () {},
   services: function () {},
-  events: function () {},
+  events: function () {
+    addColorTags(window, tags);
+  },
   members: function () {},
   access: function () {},
   contact: function () {},
