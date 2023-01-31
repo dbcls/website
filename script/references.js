@@ -16,6 +16,14 @@ script.addEventListener('load', function () {
       "<div id='loading'><img src='/img/loading.gif' /></div>"
     );
   }
+
+  /* ------------------------------
+  Loading イメージ削除関数
+  ------------------------------ */
+  function removeLoading() {
+    $('#loading').remove();
+  }
+
   dispLoading('処理中...');
 
   $.ajax({
