@@ -27,7 +27,7 @@ const tags = {
   other: 'その他',
 };
 
-const addColorTags = (window, tags) => {
+const addColorTags = (tags) => {
   var url = window.location;
   var path = url.href.split('/');
   var file_name = path.pop();
@@ -56,13 +56,13 @@ const addColorTags = (window, tags) => {
 
 var initialize = {
   index: function () {
-    addColorTags(window, tags);
+    addColorTags(tags);
   },
   news: function () {
-    addColorTags(window, tags);
+    addColorTags(tags);
   },
   post: function () {
-    addColorTags(window, tags);
+    addColorTags(tags);
     marked($('.markdown-body').html());
   },
   about: function () {},
@@ -76,7 +76,7 @@ var initialize = {
   references: function () {},
   services: function () {},
   events: function () {
-    addColorTags(window, tags);
+    addColorTags(tags);
   },
   members: function () {},
   access: function () {},
