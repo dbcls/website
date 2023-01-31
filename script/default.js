@@ -94,7 +94,6 @@ var initialize = {
   },
   post: function () {
     addColorTags(tags);
-    marked($('.markdown-body').html());
   },
   about: function () {},
   history: function () {},
