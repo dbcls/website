@@ -692,10 +692,39 @@ footer
   color: $text-color
   margin-top: -6px
 .research__image
+  position: relative
   width: 786px
   height: auto
   area
     cursor: pointer
+
+@mixin button-with-play($font-size: 10px)
+  color: $main-color
+  font-size: $font-size
+  padding-right: $font-size
+  height: calc($font-size*2.8)
+  border: 2px solid $main-color
+  font-family: "ヒラギノ角ゴ ProN", sans-serif
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
+  position: absolute
+  top: 476px
+  left: 63px
+  text-align: center
+  border-radius: calc($font-size*1.4)
+  background-color: rgba(256,256,256,0.7)
+  transition: transform 0.3s, opacity 0.3s
+  &:hover
+    background-color: white
+    transform: scale(1.1)
+  .material-icons
+    font-size: calc($font-size*1.4)
+.research__details-button
+  +button-with-play
+
+
 .section-wrapper
   display: flex
   flex-wrap: wrap

@@ -802,11 +802,39 @@ footer a:hover {
 }
 
 .research__image {
+  position: relative;
   width: 786px;
   height: auto;
 }
 .research__image area {
   cursor: pointer;
+}
+
+.research__details-button {
+  color: #004098;
+  font-size: 10px;
+  padding-right: 10px;
+  height: 28px;
+  border: 2px solid #004098;
+  font-family: "ヒラギノ角ゴ ProN", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 476px;
+  left: 63px;
+  text-align: center;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s, opacity 0.3s;
+}
+.research__details-button:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+.research__details-button .material-icons {
+  font-size: 14px;
 }
 
 .section-wrapper {
