@@ -19,13 +19,12 @@ script.addEventListener('load', function () {
   const toggleArray = Array.from(toggles).entries();
   const modals = $('.modal');
   $('.modal__content').click((e) => e.stopPropagation());
-  const closeButtons = $('.btn-close');
 
   for (let [index, toggle] of toggleArray) {
     function toggleModal() {
       modals[index].classList.toggle('show-modal');
     }
-    const toggleModalElements = [toggle, modals[index], closeButtons[index]];
+    const toggleModalElements = [toggle, modals[index]];
     toggleModalElements.forEach((el) => {
       el.addEventListener('click', toggleModal);
     });
