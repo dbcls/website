@@ -697,6 +697,30 @@ footer
   height: auto
   area
     cursor: pointer
+  &.japanese
+    .research__image-description
+      h3
+        font-size: 16px
+      p
+        font-size: 12px
+    .research__image-services
+      h3
+        font-size: 14px
+    .research__image-others
+      h3
+        font-size: 14px
+  &.english
+    .research__image-description
+      h3
+        font-size: 16px
+      p
+        font-size: 10px
+    .research__image-services
+      h3
+        font-size: 14px
+    .research__image-others
+      h3
+        font-size: 10px
 
 @mixin button-with-play($font-size: 10px)
   text-decoration: none
@@ -741,10 +765,8 @@ footer
     flex-direction: column
     width: 196.5px
   h3
-    font-size: 16px
     font-weight: 500
   p
-    font-size: 10px
     line-height: 1.5em
     font-weight: 300
 
@@ -777,7 +799,7 @@ footer
   +image-text-container
   h3
     color: white
-    font-size: 12px !important
+    // font-size: 12px !important
     line-height: 1.5em
   .public-relations
   .education

@@ -809,6 +809,30 @@ footer a:hover {
 .research__image area {
   cursor: pointer;
 }
+.research__image.japanese .research__image-description h3 {
+  font-size: 16px;
+}
+.research__image.japanese .research__image-description p {
+  font-size: 12px;
+}
+.research__image.japanese .research__image-services h3 {
+  font-size: 14px;
+}
+.research__image.japanese .research__image-others h3 {
+  font-size: 14px;
+}
+.research__image.english .research__image-description h3 {
+  font-size: 16px;
+}
+.research__image.english .research__image-description p {
+  font-size: 10px;
+}
+.research__image.english .research__image-services h3 {
+  font-size: 14px;
+}
+.research__image.english .research__image-others h3 {
+  font-size: 10px;
+}
 
 .research__details-button, .research__services-button {
   text-decoration: none;
@@ -859,11 +883,9 @@ footer a:hover {
   width: 196.5px;
 }
 .research__image-description h3 {
-  font-size: 16px;
   font-weight: 500;
 }
 .research__image-description p {
-  font-size: 10px;
   line-height: 1.5em;
   font-weight: 300;
 }
@@ -887,11 +909,9 @@ footer a:hover {
   width: 196.5px;
 }
 .research__image-services h3 {
-  font-size: 16px;
   font-weight: 500;
 }
 .research__image-services p {
-  font-size: 10px;
   line-height: 1.5em;
   font-weight: 300;
 }
@@ -919,17 +939,14 @@ footer a:hover {
   width: 196.5px;
 }
 .research__image-others h3 {
-  font-size: 16px;
   font-weight: 500;
 }
 .research__image-others p {
-  font-size: 10px;
   line-height: 1.5em;
   font-weight: 300;
 }
 .research__image-others h3 {
   color: white;
-  font-size: 12px !important;
   line-height: 1.5em;
 }
 .research__image-others .education {

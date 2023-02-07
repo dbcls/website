@@ -31,17 +31,110 @@
       <p class="research__description">DBCLS
         では、国内外のデータベースの統合化をはじめ、データベース利用者の利便性向上を目的としたアプリケーションや基盤技術の研究開発を行っています。また、各種データや既存のデータベースの統合化支援や、そのためのデータ標準化の整備を進めています。これらの研究開発および諸活動は、国内外の多くの関連する研究機関と連携して進めるとともに、得られた成果はウェブなどで公開しています。
       </p>
-      <div class="research__image"><img usemap="#direction_map" src="./img/direction_map.png">
-        <map name="direction_map">
-          <area shape="circle" coords="92,62,25" alt="biologist" href="/services.html?user=biologist">
-          <area shape="circle" coords="292,62,25" alt="application" href="/services.html?user=application">
-          <area shape="circle" coords="492,62,25" alt="data-scientist" href="/services.html?user=data-scientist">
-          <area shape="circle" coords="692,62,25" alt="provider" href="/services.html?user=provider">
-          <area class="trigger" shape="rect" coords="0,115,185,315" alt="application">
-          <area class="trigger" shape="rect" coords="200,115,385,315" alt="middleware">
-          <area class="trigger" shape="rect" coords="400,115,585,315" alt="intergration">
-          <area class="trigger" shape="rect" coords="600,115,785,315" alt="support">
-        </map>
+      <div class="research__image japanese"><img usemap="#direction_map" src="./img/direction_map_new.png" draggable="false">
+        <div class="research__image-description">
+          <div class="application">
+            <h3>アプリケーション開発</h3>
+            <p>データベース<br>
+              統合利用環境の構築</p>
+            <button class="research__details-button">
+              <span class="material-icons">play_circle</span>
+              詳細</button>
+          </div>
+          <div class="middleware">
+            <h3>ミドルウェア開発</h3>
+            <p>データベースの<br>
+            効率的な運用と拡張</p>
+            <button class="research__details-button">
+              <span class="material-icons">play_circle</span>
+              詳細</button>
+          </div>
+          <div class="integration">
+            <h3>データベース統合</h3>
+            <p>データベース統合化のための<br>
+            基盤技術開発</p>
+            <button class="research__details-button">
+              <span class="material-icons">play_circle</span>
+              詳細</button>
+          </div>
+          <div class="support">
+            <h3>データベース統合化支援</h3>
+            <p>データベース統合化のための<br>
+            国際標準整備</p>
+            <button class="research__details-button">
+              <span class="material-icons">play_circle</span>
+              詳細</button>
+          </div>
+        </div>
+        <div class="research__image-services">
+          <div class="researcher">
+            <h3>データベース利用者</h3>
+            <a class="research__services-button" href="/services.html?user=biologist">
+              <span class="material-icons">play_circle</span>
+              サービス一覧</a>
+          </div>
+          <div class="developer">
+            <h3>アプリケーション開発</h3>
+            <a class="research__services-button" href="/services.html?user=application">
+              <span class="material-icons">play_circle</span>
+              サービス一覧</a>
+          </div>
+          <div class="data-analyst">
+            <h3>大規模データ解析者</h3>
+            <a class="research__services-button" href="/services.html?user=data-scientist">
+              <span class="material-icons">play_circle</span>
+              サービス一覧</a>
+          </div>
+          <div class="provider">
+            <h3>データ所有者</h3>
+            <a class="research__services-button" href="/services.html?user=provider">
+              <span class="material-icons">play_circle</span>
+              サービス一覧</a>
+          </div>
+        </div>
+        <div class="research__image-others">
+          <div class="public-relations">
+            <h3>広報</h3>
+          </div>
+          <div class="education">
+            <h3>教育活動</h3>
+          </div>
+          <div class="copperation">
+            <h3>国内・国際連携</h3>
+          </div>
+        </div>
+        <!-- <button class="research__details-button middleware"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;Details</button>
+            				<button class="research__details-button integration"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;Details</button>
+            				<button class="research__details-button support"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;Details</button>
+            				<button class="research__services-button application"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;List of Services</button>
+            				<button class="research__services-button middleware"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;List of Services</button>
+            				<button class="research__services-button integration"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;List of Services</button>
+            				<button class="research__services-button support"><span class="material-icons">
+            						play_circle
+            					</span>&nbsp;List of Services</button> -->
+
+        <!-- <map name="direction_map">
+            					<area shape="circle" coords="92,62,25" alt="biologist" href="/services.html?user=biologist">
+            					<area shape="circle" coords="292,62,25" alt="application" href="/services.html?user=application">
+            					<area shape="circle" coords="492,62,25" alt="data-scientist" href="/services.html?user=data-scientist">
+            					<area shape="circle" coords="692,62,25" alt="provider" href="/services.html?user=provider">
+            					<area class="trigger" shape="rect" coords="0,115,185,315" alt="application">
+            					<area class="trigger" shape="rect" coords="200,115,385,315" alt="middleware">
+            					<area class="trigger" shape="rect" coords="400,115,585,315" alt="integration">
+            					<area class="trigger" shape="rect" coords="600,115,785,315" alt="support">
+            				</map> -->
       </div>
       <div class="section-wrapper research_explanation">
         <div class="modal">
@@ -118,7 +211,8 @@
                       <a target="_blank" href="http://togotv.dbcls.jp/">統合TV</a>
                     </li>
                     <li>
-                      <a target="_blank" href="http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/">BodyParts3D</a>
+                      <a target="_blank"
+                        href="http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/">BodyParts3D</a>
                     </li>
                     <li>
                       <a target="_blank" href="http://qa.lifesciencedb.jp/">ライフサイエンスQA</a>
@@ -246,7 +340,8 @@
             <article class="article__section research__section-ja padding15">
               <h4>統合化支援と統合化のための国際標準整備</h4>
               <p>個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF
-                技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
+                技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS
+                はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
               </p>
               <ul class="research__list">
                 <li>
@@ -256,7 +351,8 @@
                     <li><a target="_blank"
                         href="https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md"
                         title="">RDF化ガイドライン</a></li>
-                    <li><a target="_blank" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon" title="">SPARQLthon</a></li>
+                    <li><a target="_blank" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon" title="">SPARQLthon</a>
+                    </li>
                     <li><a target="_blank" href="https://integbio.jp/rdf/" title="">NBDC RDF ポータル</a></li>
                     <li><a target="_blank" href="http://lsd.dbcls.jp/portal/" title="">LSD RDF Data Portal</a></li>
                     <li><a target="_blank" href="http://biohackathon.org/" title="">ハッカソン（広報・教育）</a></li>
