@@ -810,38 +810,48 @@ footer a:hover {
   cursor: pointer;
 }
 
-.research__details-button {
+.research__details-button, .research__services-button {
+  text-decoration: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
+  position: relative;
   color: #004098;
-  font-size: 10px;
-  padding-right: 10px;
-  height: 28px;
-  border: 2px solid #004098;
+  font-size: 11px;
+  height: 22px;
+  padding: 3px 8px 3px 18px;
+  border: 1px solid #004098;
   font-family: "ヒラギノ角ゴ ProN", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   align-self: center;
-  text-align: center;
   border-radius: 14px;
-  background-color: rgba(255, 255, 255, 0.7);
-  transition: transform 0.3s, opacity 0.3s;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease-in-out;
 }
-.research__details-button:hover {
+.research__details-button:hover, .research__services-button:hover {
   background-color: white;
-  transform: scale(1.1);
 }
-.research__details-button .material-icons {
-  font-size: 14px;
+.research__details-button .material-icons, .research__services-button .material-icons {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 10px;
+}
+.research__details-button > span, .research__services-button > span {
+  margin-right: 4px;
 }
 
 .research__image-description {
+  top: 416px;
   display: flex;
   font-family: A-OTF UD Shin Go Pr6N, sans-serif;
   color: #444444;
   text-align: center;
   position: absolute;
-  top: 416px;
 }
 .research__image-description > div {
   display: flex;
@@ -850,17 +860,80 @@ footer a:hover {
 }
 .research__image-description h3 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
 }
 .research__image-description p {
-  font-size: 8px;
-  line-height: 8px;
+  font-size: 10px;
+  line-height: 1.5em;
+  font-weight: 300;
 }
 .research__image-description button {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .research__image-description .middleware, .research__image-description .integration {
-  margin-top: 40px;
+  margin-top: 35px;
+}
+.research__image-services {
+  top: 605px;
+  display: flex;
+  font-family: A-OTF UD Shin Go Pr6N, sans-serif;
+  color: #444444;
+  text-align: center;
+  position: absolute;
+}
+.research__image-services > div {
+  display: flex;
+  flex-direction: column;
+  width: 196.5px;
+}
+.research__image-services h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.research__image-services p {
+  font-size: 10px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+.research__image-services h3 {
+  color: white;
+}
+.research__image-services button {
+  margin-top: 2px;
+}
+.research__image-services .developer, .research__image-services .data-analyst {
+  margin-top: 44px;
+}
+.research__image-others {
+  top: 780px;
+  left: 100px;
+  display: flex;
+  font-family: A-OTF UD Shin Go Pr6N, sans-serif;
+  color: #444444;
+  text-align: center;
+  position: absolute;
+}
+.research__image-others > div {
+  display: flex;
+  flex-direction: column;
+  width: 196.5px;
+}
+.research__image-others h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.research__image-others p {
+  font-size: 10px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+.research__image-others h3 {
+  color: white;
+  font-size: 12px !important;
+  line-height: 1.5em;
+}
+.research__image-others .education {
+  margin-top: 30px;
 }
 .section-wrapper {
   display: flex;
