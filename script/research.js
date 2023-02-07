@@ -29,4 +29,8 @@ script.addEventListener('load', function () {
       el.addEventListener('click', toggleModal);
     });
   }
+
+  //Pageコード直後には animation 無効化
+  let node = document.querySelector('.preload-transitions');
+  node.classList.remove('preload-transitions');
 });

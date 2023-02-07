@@ -193,30 +193,40 @@ body a {
     min-width: 1070px;
   }
 }
+.preload-transitions * {
+  transition: none !important;
+}
+
 .modal {
+  visibility: hidden;
   position: fixed;
   inset: 0;
   margin: auto;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
+  display: flex;
   justify-content: center;
+  transform: scale(1.1);
   align-items: center;
-}
-
-.btn-close {
-  float: right;
-  width: 1.5rem;
-  line-height: 1.5rem;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0.25rem;
-  background-color: lightgray;
+  opacity: 0;
+  transition: opacity 0.25s, transform 0.25s, ease-out 0.25s;
 }
 
 .show-modal {
-  display: flex;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.modal__content {
+  max-height: calc(100vh - 200px);
+  max-width: 900px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow-y: scroll;
+}
+.modal__content h4 {
+  font-size: 30px;
 }
 
 .content__wrapper {
