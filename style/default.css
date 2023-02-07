@@ -802,7 +802,7 @@ footer a:hover {
 }
 
 .research__image {
-  font-family: "A-OTF UD新ゴ Pr6N", "Futura", san-serif;
+  font-family: "A-OTF UD新ゴ Pr6N", "Muli", san-serif;
   position: relative;
   width: 786px;
   height: auto;
@@ -862,7 +862,7 @@ footer a:hover {
   font-size: 20px;
 }
 .research__image.english .research__image-services p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5em;
 }
 .research__image.english .research__image-users h3 {
@@ -943,7 +943,7 @@ footer a:hover {
   height: 22px;
   padding: 3px 8px 3px 18px;
   border: 1px solid #004098;
-  font-family: "Futura", sans-serif;
+  font-family: "Muli", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
