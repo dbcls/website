@@ -802,36 +802,133 @@ footer a:hover {
 }
 
 .research__image {
+  font-family: "A-OTF UD新ゴ Pr6N", "Futura", san-serif;
   position: relative;
   width: 786px;
   height: auto;
 }
-.research__image area {
-  cursor: pointer;
+.research__image.japanese {
+  letter-spacing: -0.05em;
 }
-.research__image.japanese .research__image-description h3 {
-  font-size: 16px;
+.research__image.japanese .research__image-top.item {
+  top: 95px;
+  left: 135px;
+  gap: 140px 170px;
 }
-.research__image.japanese .research__image-description p {
-  font-size: 12px;
+.research__image.japanese .research__image-top.item .forth {
+  margin-left: -70px;
+}
+.research__image.japanese .research__image-top.description {
+  top: 35px;
+  gap: 255px 180px;
+}
+.research__image.japanese .research__image-top.description .second {
+  margin-left: 10px;
+}
+.research__image.japanese .research__image-top.description .forth {
+  text-align: right;
 }
 .research__image.japanese .research__image-services h3 {
+  font-size: 18px;
+}
+.research__image.japanese .research__image-services p {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.research__image.japanese .research__image-users h3 {
   font-size: 14px;
 }
 .research__image.japanese .research__image-others h3 {
   font-size: 14px;
 }
-.research__image.english .research__image-description h3 {
-  font-size: 16px;
+.research__image.english .research__image-top.item {
+  top: 100px;
+  left: 105px;
+  gap: 140px 70px;
 }
-.research__image.english .research__image-description p {
-  font-size: 10px;
+.research__image.english .research__image-top.item .second {
+  margin-right: -50px;
+}
+.research__image.english .research__image-top.description {
+  top: 35px;
+  gap: 260px 140px;
+  font-size: 14px;
+}
+.research__image.english .research__image-top.description .forth {
+  margin-left: -20px;
+  text-align: right;
 }
 .research__image.english .research__image-services h3 {
+  font-size: 20px;
+}
+.research__image.english .research__image-services p {
+  font-size: 10px;
+  line-height: 1.5em;
+}
+.research__image.english .research__image-users h3 {
   font-size: 14px;
 }
 .research__image.english .research__image-others h3 {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.research__image-top.item {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  color: #444;
+  position: absolute;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "first second" "third forth";
+}
+.research__image-top.item > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research__image-top.item .first {
+  grid-area: first;
+}
+.research__image-top.item .second {
+  grid-area: second;
+}
+.research__image-top.item .third {
+  grid-area: third;
+}
+.research__image-top.item .forth {
+  grid-area: forth;
+}
+
+.research__image-top.description {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  color: #004098;
+  position: absolute;
+  width: 786px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "forth first second" "forth third second";
+}
+.research__image-top.description > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research__image-top.description .first {
+  grid-area: first;
+}
+.research__image-top.description .second {
+  grid-area: second;
+}
+.research__image-top.description .third {
+  grid-area: third;
+}
+.research__image-top.description .forth {
+  grid-area: forth;
 }
 
 .research__details-button, .research__services-button {
@@ -846,7 +943,7 @@ footer a:hover {
   height: 22px;
   padding: 3px 8px 3px 18px;
   border: 1px solid #004098;
-  font-family: "ヒラギノ角ゴ ProN", sans-serif;
+  font-family: "Futura", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -869,37 +966,10 @@ footer a:hover {
   margin-right: 4px;
 }
 
-.research__image-description {
+.research__image-services {
   top: 416px;
   display: flex;
-  font-family: A-OTF UD Shin Go Pr6N, sans-serif;
-  color: #444444;
-  text-align: center;
-  position: absolute;
-}
-.research__image-description > div {
-  display: flex;
-  flex-direction: column;
-  width: 196.5px;
-}
-.research__image-description h3 {
-  font-weight: 500;
-}
-.research__image-description p {
-  line-height: 1.5em;
-  font-weight: 300;
-}
-.research__image-description button {
-  margin-top: 5px;
-}
-.research__image-description .middleware, .research__image-description .integration {
-  margin-top: 35px;
-}
-.research__image-services {
-  top: 605px;
-  display: flex;
-  font-family: A-OTF UD Shin Go Pr6N, sans-serif;
-  color: #444444;
+  color: #444;
   text-align: center;
   position: absolute;
 }
@@ -909,27 +979,49 @@ footer a:hover {
   width: 196.5px;
 }
 .research__image-services h3 {
-  font-weight: 500;
+  font-weight: bold;
 }
 .research__image-services p {
-  line-height: 1.5em;
-  font-weight: 300;
-}
-.research__image-services h3 {
-  color: white;
+  font-weight: lighter;
 }
 .research__image-services button {
-  margin-top: 2px;
+  margin-top: 5px;
 }
-.research__image-services .developer, .research__image-services .data-analyst {
+.research__image-services .middleware, .research__image-services .integration {
+  margin-top: 35px;
+}
+.research__image-users {
+  top: 605px;
+  display: flex;
+  color: #444;
+  text-align: center;
+  position: absolute;
+}
+.research__image-users > div {
+  display: flex;
+  flex-direction: column;
+  width: 196.5px;
+}
+.research__image-users h3 {
+  font-weight: bold;
+}
+.research__image-users p {
+  font-weight: lighter;
+}
+.research__image-users h3 {
+  color: white;
+}
+.research__image-users a {
+  margin-top: 5px;
+}
+.research__image-users .developer, .research__image-users .data-analyst {
   margin-top: 44px;
 }
 .research__image-others {
   top: 780px;
   left: 100px;
   display: flex;
-  font-family: A-OTF UD Shin Go Pr6N, sans-serif;
-  color: #444444;
+  color: #444;
   text-align: center;
   position: absolute;
 }
@@ -939,11 +1031,10 @@ footer a:hover {
   width: 196.5px;
 }
 .research__image-others h3 {
-  font-weight: 500;
+  font-weight: bold;
 }
 .research__image-others p {
-  line-height: 1.5em;
-  font-weight: 300;
+  font-weight: lighter;
 }
 .research__image-others h3 {
   color: white;

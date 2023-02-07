@@ -6,6 +6,7 @@
 /* default */
 $main-color: #004098
 $text-color: #333333
+$image-text-color: #444//#14274B
 $footer-text-color: #444//#14274B
 $header-color: #004098
 $section-bg: #E8EDED
@@ -692,35 +693,98 @@ footer
   color: $text-color
   margin-top: -6px
 .research__image
+  font-family: "A-OTF UD新ゴ Pr6N", "Futura" , san-serif
   position: relative
   width: 786px
   height: auto
-  area
-    cursor: pointer
   &.japanese
-    .research__image-description
-      h3
-        font-size: 16px
-      p
-        font-size: 12px
+    letter-spacing: -0.05em
+    .research__image-top.item
+      top: 95px
+      left: 135px
+      gap: 140px 170px
+      .forth
+        margin-left: -70px
+    .research__image-top.description
+      top: 35px
+      gap: 255px 180px
+      .second
+        margin-left: 10px
+      .forth
+        text-align: right
     .research__image-services
+      h3
+        font-size: 18px
+      p
+        font-size: 14px
+        line-height: 1.5em
+    .research__image-users
       h3
         font-size: 14px
     .research__image-others
       h3
         font-size: 14px
   &.english
-    .research__image-description
+    .research__image-top.item
+      top: 100px
+      left: 105px
+      gap: 140px 70px
+      .second
+        margin-right: -50px
+    .research__image-top.description
+      top: 35px
+      gap: 260px 140px
+      font-size: 14px
+      .forth
+        margin-left: -20px
+        text-align: right
+    .research__image-services
       h3
-        font-size: 16px
+        font-size: 20px
       p
         font-size: 10px
-    .research__image-services
+        line-height: 1.5em
+    .research__image-users
       h3
         font-size: 14px
     .research__image-others
       h3
-        font-size: 10px
+        font-size: 12px
+
+@mixin image-top
+  display: grid
+  grid-auto-columns: 1fr 
+  grid-auto-rows: 1fr 
+  grid-auto-flow: row
+  > div
+    display: flex
+    justify-content: center
+    align-items: center
+  .first
+    grid-area: first
+  .second
+    grid-area: second
+  .third
+    grid-area: third
+  .forth
+    grid-area: forth
+
+.research__image-top.item
+  +image-top
+  color: $image-text-color
+  position: absolute
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 1fr 1fr 
+  grid-template-areas: "first second" "third forth"
+
+.research__image-top.description
+  +image-top
+  color: $main-color
+  position: absolute
+  width: 786px
+  grid-template-columns: 1fr 1fr 1fr 
+  grid-template-rows: 1fr 1fr 
+  grid-template-areas: "forth first second" "forth third second"
 
 @mixin button-with-play($font-size: 10px)
   text-decoration: none
@@ -733,7 +797,7 @@ footer
   height: 22px
   padding: 3px 8px 3px 18px
   border: 1px solid $main-color
-  font-family: "ヒラギノ角ゴ ProN", sans-serif
+  font-family: "Futura", sans-serif
   display: flex
   align-items: center
   justify-content: center
@@ -756,8 +820,7 @@ footer
 
 @mixin image-text-container
   display: flex
-  font-family: A-OTF UD Shin Go Pr6N, sans-serif
-  color: #444444
+  color: $image-text-color
   text-align: center
   position: absolute
   > div
@@ -765,12 +828,11 @@ footer
     flex-direction: column
     width: 196.5px
   h3
-    font-weight: 500
+    font-weight: bold
   p
-    line-height: 1.5em
-    font-weight: 300
+    font-weight: lighter
 
-.research__image-description
+.research__image-services
   top: 416px
   +image-text-container
   button
@@ -781,13 +843,13 @@ footer
     margin-top: 35px
   &.support
 
-.research__image-services
+.research__image-users
   top: 605px
   +image-text-container
   h3
     color: white
-  button
-    margin-top: 2px
+  a
+    margin-top: 5px
   &.researcher
 
   .developer , .data-analyst
