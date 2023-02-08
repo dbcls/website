@@ -33,17 +33,17 @@ script.addEventListener('load', function () {
             ja: 'データベース統合',
             en: 'Database integration',
           },
-          materials: {
+          'materials': {
             id: 'Category_2',
             ja: '教材・資料',
             en: 'Materials',
           },
-          genome: {
+          'genome': {
             id: 'Category_3',
             ja: 'ゲノム',
             en: 'Genome',
           },
-          gene: {
+          'gene': {
             id: 'Category_4',
             ja: '遺伝子',
             en: 'Gene',
@@ -53,12 +53,12 @@ script.addEventListener('load', function () {
             ja: '遺伝子発現',
             en: 'Gene expression',
           },
-          NGS: {
+          'NGS': {
             id: 'Category_6',
             ja: 'NGS',
             en: 'NGS',
           },
-          disease: {
+          'disease': {
             id: 'Category_7',
             ja: '疾患',
             en: 'Disease',
@@ -68,7 +68,7 @@ script.addEventListener('load', function () {
             ja: '自然言語処理',
             en: 'Natural language processing',
           },
-          SPARQL: {
+          'SPARQL': {
             id: 'Category_9',
             ja: 'SPARQL検索',
             en: 'SPARQL Search',
@@ -78,12 +78,12 @@ script.addEventListener('load', function () {
             ja: 'RDF作成',
             en: 'RDF creation',
           },
-          biologist: {
+          'biologist': {
             id: 'User_1',
             ja: 'データベース利用者',
             en: 'Database user',
           },
-          application: {
+          'application': {
             id: 'User_2',
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
@@ -93,7 +93,7 @@ script.addEventListener('load', function () {
             ja: '大規模データ解析者',
             en: 'Data scientist',
           },
-          provider: {
+          'provider': {
             id: 'User_4',
             ja: ' データ所有者',
             en: 'Data provider',
