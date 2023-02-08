@@ -123,11 +123,11 @@ script.addEventListener('load', function () {
                 let user = '';
                 if (
                   [
-                    'biologist',
-                    'application',
-                    'data-scientist',
-                    'provider',
-                  ].includes(category_name)
+                    'User_1',
+                    'User_2',
+                    'User_3',
+                    'User_4',
+                  ].includes(tagMapping[category_name]['id'])
                 ) {
                   user = 'user';
                 }
