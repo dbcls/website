@@ -116,10 +116,10 @@ script.addEventListener('load', function () {
           var tagName = tagArray.join(' ');
 
           function addTagLine(array, lang) {
-            var categoryTag = '<div class="tag_wrapper">';
+            let temp = ''
             const addCategory = (lang) => {
               for (const j in array) {
-                var category_name = array[j];
+                let category_name = array[j];
                 let user = '';
                 if (
                   [
@@ -131,19 +131,12 @@ script.addEventListener('load', function () {
                 ) {
                   user = 'user';
                 }
-                categoryTag +=
-                  '<div class="service_category card ' +
-                  user +
-                  ' tag_element ' +
-                  array[j] +
-                  '">' +
-                  tagMapping[category_name][lang] +
-                  '</div>';
+                temp +=
+                  `<div class="service_category card ${user} tag_element ${array[j]}">${tagMapping[category_name][lang]}</div>`;
               }
             };
             lang === 'ja' ? addCategory('ja') : addCategory('en');
-            categoryTag += '</div>';
-            console.log(typeof categoryTag, {categoryTag})
+            const categoryTag = `<div class="tag_wrapper">${temp}</div>`;
             return categoryTag;
           }
 
