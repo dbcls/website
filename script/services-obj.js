@@ -33,17 +33,17 @@ script.addEventListener('load', function () {
             ja: 'データベース統合',
             en: 'Database integration',
           },
-          'materials': {
+          materials: {
             id: 'Category_2',
             ja: '教材・資料',
             en: 'Materials',
           },
-          'genome': {
+          genome: {
             id: 'Category_3',
             ja: 'ゲノム',
             en: 'Genome',
           },
-          'gene': {
+          gene: {
             id: 'Category_4',
             ja: '遺伝子',
             en: 'Gene',
@@ -53,12 +53,12 @@ script.addEventListener('load', function () {
             ja: '遺伝子発現',
             en: 'Gene expression',
           },
-          'NGS': {
+          NGS: {
             id: 'Category_6',
             ja: 'NGS',
             en: 'NGS',
           },
-          'disease': {
+          disease: {
             id: 'Category_7',
             ja: '疾患',
             en: 'Disease',
@@ -68,7 +68,7 @@ script.addEventListener('load', function () {
             ja: '自然言語処理',
             en: 'Natural language processing',
           },
-          'SPARQL': {
+          SPARQL: {
             id: 'Category_9',
             ja: 'SPARQL検索',
             en: 'SPARQL Search',
@@ -78,12 +78,12 @@ script.addEventListener('load', function () {
             ja: 'RDF作成',
             en: 'RDF creation',
           },
-          'biologist': {
+          biologist: {
             id: 'User_1',
             ja: 'データベース利用者',
             en: 'Database user',
           },
-          'application': {
+          application: {
             id: 'User_2',
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
@@ -93,7 +93,7 @@ script.addEventListener('load', function () {
             ja: '大規模データ解析者',
             en: 'Data scientist',
           },
-          'provider': {
+          provider: {
             id: 'User_4',
             ja: 'データ所有者',
             en: 'Data provider',
@@ -116,7 +116,7 @@ script.addEventListener('load', function () {
           var tagName = tagArray.join(' ');
 
           function addTagLine(array, lang) {
-            let temp = ''
+            let temp = '';
             const addCategory = (lang) => {
               for (const j in array) {
                 let category_name = array[j];
@@ -131,8 +131,7 @@ script.addEventListener('load', function () {
                 ) {
                   user = 'user';
                 }
-                temp +=
-                  `<div class="service_category card ${user} tag_element ${array[j]}">${tagMapping[category_name][lang]}</div>`;
+                temp += `<div class="service_category card ${user} tag_element ${array[j]}">${tagMapping[category_name][lang]}</div>`;
               }
             };
             lang === 'ja' ? addCategory('ja') : addCategory('en');
@@ -151,21 +150,13 @@ script.addEventListener('load', function () {
             const detailText = lang === 'ja' ? '詳細' : 'more';
             const accessText = lang === 'ja' ? 'アクセス' : 'Access';
             return (
-              '<article class="article__section contener-type-box mix ' +
-              tagName +
-              '">' +
-              '<div id="repos_image0" class="repos_image">' +
-              '<a href="' +
-              symbolYList[i]['URL'] +
-              '" target="_blank">' +
-              '<img src="./img/service_assets/' +
-              symbolYList[i]['画像'] +
-              '" alt="' +
-              symbolYList[i]['services_name_en'] +
-              '" class="object-fit-img img_services" /></a></div>' +
-              '<div id="repos_name' +
-              i +
-              '" class="repos_name">' +
+              `<article class="article__section contener-type-box mix ${tagName}">
+              <div id="repos_image0" class="repos_image">
+              <a href="${symbolYList[i]['URL']}" target="_blank">
+              <img src="./img/service_assets/${symbolYList[i]['画像']}" alt="${symbolYList[i]['services_name_en']}" class="object-fit-img img_services" />
+              </a>
+              </div>
+              <div id="repos_name${i}" class="repos_name">` +
               `<p class="name name_${lang}" id="` +
               symbolYList[i][`services_name_${lang}`] +
               '">' +
@@ -175,16 +166,10 @@ script.addEventListener('load', function () {
               symbolYList[i][`explanation_${lang}`] +
               '</p></div>' +
               addTagLine(tagArray, lang) +
-              '<div class="btn-box">' +
-              '<a class="page_btn more_btn" target="_blank" href="#' +
-              service_name_hash +
-              '">' +
-              detailText +
-              '</a>' +
+              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${detailText}</a>` +
               '<a href="' +
               symbolYList[i]['URL'] +
-              `" class="page_btn access_btn" target="_blank">${accessText}</a>` +
-              '</div></div>'
+              `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div>`
             );
           };
           element +=
