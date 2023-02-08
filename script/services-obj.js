@@ -24,52 +24,52 @@ script.addEventListener('load', function () {
         var elementArray = data;
         //column1に"Y"のあるrowをとってくる
         var symbolYList = elementArray.filter((YList) => {
-          return YList['掲載'] === 'Y';
+          return YList['掲載'] === true;
         });
         var element = '';
 
         function getClassName(num) {
           var tagName = [];
-          if (symbolYList[num]['Category_1'] === 'Y') {
+          if (symbolYList[num]['Category_1'] === true) {
             tagName.push('database-integration');
           }
-          if (symbolYList[num]['Category_2'] === 'Y') {
+          if (symbolYList[num]['Category_2'] === true) {
             tagName.push('materials');
           }
-          if (symbolYList[num]['Category_3'] === 'Y') {
+          if (symbolYList[num]['Category_3'] === true) {
             tagName.push('genome');
           }
-          if (symbolYList[num]['Category_4'] === 'Y') {
+          if (symbolYList[num]['Category_4'] === true) {
             tagName.push('gene');
           }
-          if (symbolYList[num]['Category_5'] === 'Y') {
+          if (symbolYList[num]['Category_5'] === true) {
             tagName.push('gene-expression');
           }
-          if (symbolYList[num]['Category_6'] === 'Y') {
+          if (symbolYList[num]['Category_6'] === true) {
             tagName.push('NGS');
           }
-          if (symbolYList[num]['Category_7'] === 'Y') {
+          if (symbolYList[num]['Category_7'] === true) {
             tagName.push('disease');
           }
-          if (symbolYList[num]['Category_8'] === 'Y') {
+          if (symbolYList[num]['Category_8'] === true) {
             tagName.push('natural-language-processing');
           }
-          if (symbolYList[num]['Category_9'] === 'Y') {
+          if (symbolYList[num]['Category_9'] === true) {
             tagName.push('SPARQL');
           }
-          if (symbolYList[num]['Category_10'] === 'Y') {
+          if (symbolYList[num]['Category_10'] === true) {
             tagName.push('RDF-creation');
           }
-          if (symbolYList[num]['User_1'] === 'Y') {
+          if (symbolYList[num]['User_1'] === true) {
             tagName.push('biologist');
           }
-          if (symbolYList[num]['User_2'] === 'Y') {
+          if (symbolYList[num]['User_2'] === true) {
             tagName.push('application');
           }
-          if (symbolYList[num]['User_3'] === 'Y') {
+          if (symbolYList[num]['User_3'] === true) {
             tagName.push('data-scientist');
           }
-          if (symbolYList[num]['User_4'] === 'Y') {
+          if (symbolYList[num]['User_4'] === true) {
             tagName.push('provider');
           }
           return tagName;
@@ -195,80 +195,48 @@ script.addEventListener('load', function () {
           }
 
           var lang = $('html').attr('lang');
-          if (lang === 'ja') {
-            element +=
+          const addHTMLElements = (lang) => {
+            const detailText = lang === 'ja' ? '詳細' : 'more';
+            const accessText = lang === 'ja' ? 'アクセス' : 'Access';
+            return (
               '<article class="article__section contener-type-box mix ' +
               tagName +
               '">' +
               '<div id="repos_image0" class="repos_image">' +
               '<a href="' +
-              symbolYList[i][URL] +
+              symbolYList[i]['URL'] +
               '" target="_blank">' +
               '<img src="./img/service_assets/' +
-              symbolYList[i]["画像"] +
+              symbolYList[i]['画像'] +
               '" alt="' +
               symbolYList[i]['services_name_en'] +
               '" class="object-fit-img img_services" /></a></div>' +
               '<div id="repos_name' +
               i +
               '" class="repos_name">' +
-              '<p class="name name_ja" id="' +
-              symbolYList[i]['services_name_en'] +
+              `<p class="name name_${lang}" id="` +
+              symbolYList[i][`services_name_${lang}`] +
               '">' +
-              symbolYList[i]['services_name_ja'] +
+              symbolYList[i][`services_name_${lang}`] +
               '</p>' +
               '<div class="keyword"><p>' +
-              symbolYList[i]['explanation_ja'] +
+              symbolYList[i][`explanation_${lang}`] +
               '</p></div>' +
-              addTagLine(tagArray, 'ja') +
+              addTagLine(tagArray, lang) +
               '<div class="btn-box">' +
               '<a class="page_btn more_btn" target="_blank" href="#' +
               service_name_hash +
               '">' +
-              '詳細' +
+              detailText +
               '</a>' +
               '<a href="' +
-              symbolYList[i][URL] +
-              '" class="page_btn access_btn" target="_blank">アクセス</a>' +
-              '</div></div>';
-          } else if (lang === 'en') {
-            element +=
-              '<article class="article__section contener-type-box mix ' +
-              tagName +
-              '">' +
-              '<div id="repos_image0" class="repos_image">' +
-              '<a href="' +
-              symbolYList[i][URL] +
-              '" target="_blank">' +
-              '<img src="./img/service_assets/' +
-              symbolYList[i]["画像"] +
-              '" alt="' +
-              symbolYList[i]['services_name_en'] +
-              '" class="object-fit-img img_services" /></a></div>' +
-              '<div id="repos_name' +
-              i +
-              '" class="repos_name">' +
-              '<p class="name name_en" id="' +
-              symbolYList[i]['services_name_en'] +
-              '">' +
-              symbolYList[i]['services_name_en'] +
-              '</p>' +
-              '<div class="keyword"><p>' +
-              symbolYList[i]['explanation_en'] +
-              '</p></div>' +
-              addTagLine(tagArray, 'en') +
-              '<div class="btn-box">' +
-              '<a class="page_btn more_btn" target="_blank" href="#' +
-              service_name_hash +
-              '">' +
-              'more' +
-              '</a>' +
-              '<a href="' +
-              symbolYList[i][URL] +
-              '" class="page_btn access_btn" target="_blank">Access</a>' +
-              '</div></div>';
-          }
-
+              symbolYList[i]['URL'] +
+              `" class="page_btn access_btn" target="_blank">${accessText}</a>` +
+              '</div></div>'
+            );
+          };
+          element +=
+            lang === 'ja' ? addHTMLElements('ja') : addHTMLElements('en');
           element += '</article>';
         }
         $('#service_list').append(element);
@@ -396,7 +364,7 @@ script.addEventListener('load', function () {
     }).done(function (data) {
       var services_array = data;
       var services_array_Y = services_array.filter((services_array) => {
-        return services_array['掲載'] === 'Y';
+        return services_array['掲載'] === true;
       });
 
       function checkCore(name) {
