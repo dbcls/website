@@ -172,7 +172,11 @@ body
           height: 3px
           top: 30px
           left: 0
-          background-color: $yellow
+      $background-colors: ("application": $yellow,"middleware": $green,"integration": $blue,"support": $red)
+      @each $key, $value in $background-colors
+        &.#{$key} 
+          h4::after 
+            background-color: $value
       h5
         margin-bottom: 5px
       p
@@ -181,6 +185,9 @@ body
       border-top: $border-color 1px solid
       > li
         padding: $box-padding
+        > div
+          display: block
+          margin-bottom: 10px
     .sublist
       display: flex
       gap: 20px 0

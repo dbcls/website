@@ -238,7 +238,18 @@ body a {
   height: 3px;
   top: 30px;
   left: 0;
+}
+.modal .modal__content .introduction.application h4::after {
   background-color: #E3C042;
+}
+.modal .modal__content .introduction.middleware h4::after {
+  background-color: #6FB865;
+}
+.modal .modal__content .introduction.integration h4::after {
+  background-color: #699BC2;
+}
+.modal .modal__content .introduction.support h4::after {
+  background-color: #C97795;
 }
 .modal .modal__content .introduction h5 {
   margin-bottom: 5px;
@@ -251,6 +262,10 @@ body a {
 }
 .modal .modal__content .research__list > li {
   padding: 30px;
+}
+.modal .modal__content .research__list > li > div {
+  display: block;
+  margin-bottom: 10px;
 }
 .modal .modal__content .sublist {
   display: flex;
