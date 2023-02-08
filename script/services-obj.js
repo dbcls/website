@@ -95,7 +95,7 @@ script.addEventListener('load', function () {
           },
           'provider': {
             id: 'User_4',
-            ja: ' データ所有者',
+            ja: 'データ所有者',
             en: 'Data provider',
           },
         };
@@ -143,6 +143,7 @@ script.addEventListener('load', function () {
             };
             lang === 'ja' ? addCategory('ja') : addCategory('en');
             categoryTag += '</div>';
+            console.log(typeof categoryTag, {categoryTag})
             return categoryTag;
           }
 
