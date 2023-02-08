@@ -22,134 +22,112 @@ script.addEventListener('load', function () {
       async: true,
       success: function (data) {
         var elementArray = data;
-        //column1に"Y"のあるrowをとってくる
         var symbolYList = elementArray.filter((YList) => {
           return YList['掲載'] === true;
         });
         var element = '';
 
-        function getClassName(num) {
-          var tagName = [];
-          if (symbolYList[num]['Category_1'] === true) {
-            tagName.push('database-integration');
-          }
-          if (symbolYList[num]['Category_2'] === true) {
-            tagName.push('materials');
-          }
-          if (symbolYList[num]['Category_3'] === true) {
-            tagName.push('genome');
-          }
-          if (symbolYList[num]['Category_4'] === true) {
-            tagName.push('gene');
-          }
-          if (symbolYList[num]['Category_5'] === true) {
-            tagName.push('gene-expression');
-          }
-          if (symbolYList[num]['Category_6'] === true) {
-            tagName.push('NGS');
-          }
-          if (symbolYList[num]['Category_7'] === true) {
-            tagName.push('disease');
-          }
-          if (symbolYList[num]['Category_8'] === true) {
-            tagName.push('natural-language-processing');
-          }
-          if (symbolYList[num]['Category_9'] === true) {
-            tagName.push('SPARQL');
-          }
-          if (symbolYList[num]['Category_10'] === true) {
-            tagName.push('RDF-creation');
-          }
-          if (symbolYList[num]['User_1'] === true) {
-            tagName.push('biologist');
-          }
-          if (symbolYList[num]['User_2'] === true) {
-            tagName.push('application');
-          }
-          if (symbolYList[num]['User_3'] === true) {
-            tagName.push('data-scientist');
-          }
-          if (symbolYList[num]['User_4'] === true) {
-            tagName.push('provider');
-          }
-          return tagName;
-        }
-
-        var tagMapping = {
+        const tagMapping = {
           'database-integration': {
+            id: 'Category_1',
             ja: 'データベース統合',
             en: 'Database integration',
           },
           materials: {
+            id: 'Category_2',
             ja: '教材・資料',
             en: 'Materials',
           },
           genome: {
+            id: 'Category_3',
             ja: 'ゲノム',
             en: 'Genome',
           },
           gene: {
+            id: 'Category_4',
             ja: '遺伝子',
             en: 'Gene',
           },
           'gene-expression': {
+            id: 'Category_5',
             ja: '遺伝子発現',
             en: 'Gene expression',
           },
           NGS: {
+            id: 'Category_6',
             ja: 'NGS',
             en: 'NGS',
           },
           disease: {
+            id: 'Category_7',
             ja: '疾患',
             en: 'Disease',
           },
           'natural-language-processing': {
+            id: 'Category_8',
             ja: '自然言語処理',
             en: 'Natural language processing',
           },
           SPARQL: {
+            id: 'Category_9',
             ja: 'SPARQL検索',
             en: 'SPARQL Search',
           },
           'RDF-creation': {
+            id: 'Category_10',
             ja: 'RDF作成',
             en: 'RDF creation',
           },
           biologist: {
+            id: 'User_1',
             ja: 'データベース利用者',
             en: 'Database user',
           },
           application: {
+            id: 'User_2',
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
           },
           'data-scientist': {
+            id: 'User_3',
             ja: '大規模データ解析者',
             en: 'Data scientist',
           },
           provider: {
+            id: 'User_4',
             ja: ' データ所有者',
             en: 'Data provider',
           },
         };
 
+        function getClassName(num) {
+          var tagName = [];
+          for (const [key, value] of Object.entries(tagMapping)) {
+            if (symbolYList[num][value.id]) {
+              tagName.push(key);
+            }
+          }
+          return tagName;
+        }
+
         //file名の取得
-        for (var i = 0; i < symbolYList.length; i++) {
+        for (const i in symbolYList) {
           var tagArray = getClassName(i);
           var tagName = tagArray.join(' ');
 
           function addTagLine(array, lang) {
             var categoryTag = '<div class="tag_wrapper">';
-            if (lang === 'ja') {
-              for (var j = 0; j < array.length; j++) {
+            const addCategory = (lang) => {
+              for (const j in array) {
                 var category_name = array[j];
                 let user = '';
                 if (
-                  category_name === 'biologist' ||
-                  category_name === 'application' ||
-                  category_name === 'data-scientist' ||
-                  category_name === 'provider'
+                  [
+                    'biologist',
+                    'application',
+                    'data-scientist',
+                    'provider',
+                  ].includes(category_name)
                 ) {
                   user = 'user';
                 }
@@ -159,31 +137,11 @@ script.addEventListener('load', function () {
                   ' tag_element ' +
                   array[j] +
                   '">' +
-                  tagMapping[category_name].ja +
+                  tagMapping[category_name][lang] +
                   '</div>';
               }
-            } else if (lang === 'en') {
-              for (var j = 0; j < array.length; j++) {
-                var category_name = array[j];
-                let user = '';
-                if (
-                  category_name === 'biologist' ||
-                  category_name === 'application' ||
-                  category_name === 'data-scientist' ||
-                  category_name === 'provider'
-                ) {
-                  user = 'user';
-                }
-                categoryTag +=
-                  '<div class="service_category card ' +
-                  user +
-                  ' tag_element ' +
-                  array[j] +
-                  '">' +
-                  tagMapping[category_name].en +
-                  '</div>';
-              }
-            }
+            };
+            lang === 'ja' ? addCategory('ja') : addCategory('en');
             categoryTag += '</div>';
             return categoryTag;
           }
