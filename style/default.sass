@@ -7,10 +7,15 @@
 $main-color: #004098
 $text-color: #333333
 $image-text-color: #444//#14274B
+$border-color: rgba(68, 68, 68, 0.2)//#14274B
 $footer-text-color: #444//#14274B
 $header-color: #004098
 $section-bg: #E8EDED
 $gray: #9E9E9E
+$yellow: #E3C042
+$green: #6FB865
+$blue: #699BC2
+$red: #C97795
 $table-bg: #E8EDED
 
 .margin-top10
@@ -130,6 +135,7 @@ body
   transition: $null-transition
 
 .modal
+  color: $image-text-color
   visibility: hidden
   position: fixed
   inset: 0
@@ -142,18 +148,59 @@ body
   align-items: center
   opacity: 0
   transition: opacity 0.25s, transform 0.25s, ease-out 0.25s
-.show-modal
-  opacity: 1
-  visibility: visible
-  transform: scale(1)
-.modal__content
-  max-height: calc(100vh - 200px)
-  max-width: 900px 
-  background: white
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
-  overflow-y: scroll 
-  h4
-    font-size: 30px
+  &.show-modal
+    opacity: 1
+    visibility: visible
+    transform: scale(1)
+  .modal__content
+    $box-padding: 30px
+    max-height: calc(100vh - 200px)
+    max-width: 900px 
+    background: rgba(255, 255, 255, 0.95)
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 3px 30px
+    overflow-y: scroll
+    .introduction
+      padding: $box-padding
+      h4
+        font-size: 18px
+        margin-bottom: 30px
+        position: relative
+        &::after
+          content: ''
+          position: absolute
+          width: 30px
+          height: 3px
+          top: 30px
+          left: 0
+          background-color: $yellow
+      h5
+        margin-bottom: 5px
+      p
+        font-size: 14px
+    .research__list
+      border-top: $border-color 1px solid
+      > li
+        padding: $box-padding
+    .sublist
+      display: flex
+      gap: 20px 0
+      flex-wrap: wrap
+      li
+        padding: 0 15px
+        min-height: 80px
+        width: 20%
+        display: flex
+        align-items: center
+        justify-content: center
+        a
+          text-decoration: none
+          color: $image-text-color
+          display: flex
+          justify-content: end
+          align-items: center
+          flex-direction: column
+          img
+            width: 100%
 
 .content__wrapper
   width: 1024px

@@ -169,7 +169,6 @@ body a {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -198,6 +197,7 @@ body a {
 }
 
 .modal {
+  color: #444;
   visibility: hidden;
   position: fixed;
   inset: 0;
@@ -211,22 +211,70 @@ body a {
   opacity: 0;
   transition: opacity 0.25s, transform 0.25s, ease-out 0.25s;
 }
-
-.show-modal {
+.modal.show-modal {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
 }
-
-.modal__content {
+.modal .modal__content {
   max-height: calc(100vh - 200px);
   max-width: 900px;
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 30px;
   overflow-y: scroll;
 }
-.modal__content h4 {
-  font-size: 30px;
+.modal .modal__content .introduction {
+  padding: 30px;
+}
+.modal .modal__content .introduction h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.modal .modal__content .introduction h4::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: 30px;
+  left: 0;
+  background-color: #E3C042;
+}
+.modal .modal__content .introduction h5 {
+  margin-bottom: 5px;
+}
+.modal .modal__content .introduction p {
+  font-size: 14px;
+}
+.modal .modal__content .research__list {
+  border-top: rgba(68, 68, 68, 0.2) 1px solid;
+}
+.modal .modal__content .research__list > li {
+  padding: 30px;
+}
+.modal .modal__content .sublist {
+  display: flex;
+  gap: 20px 0;
+  flex-wrap: wrap;
+}
+.modal .modal__content .sublist li {
+  padding: 0 15px;
+  min-height: 80px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal .modal__content .sublist li a {
+  text-decoration: none;
+  color: #444;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+.modal .modal__content .sublist li a img {
+  width: 100%;
 }
 
 .content__wrapper {
@@ -944,7 +992,6 @@ footer a:hover {
 .research__details-button, .research__services-button {
   text-decoration: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
   -moz-user-select: none;
        user-select: none;
   position: relative;
