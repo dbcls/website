@@ -11,49 +11,129 @@
           font-src 'self' fonts.googleapis.com fonts.gstatic.com;">
 	<title>DBCLS ｜ ライフサイエンス統合データベースセンター</title>
 	<link rel="stylesheet" href="style/default.css">
-	<link rel="stylesheet" href="style/splide.min.css">
+	<link rel="stylesheet" href="style/swiper-bundle.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="script/splide.min.js"></script>
+	<style>
+		html,
+		body {
+			position: relative;
+			height: 100%;
+		}
+
+		body {
+			background: #eee;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* 
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		} */
+
+		.swiper {
+			width: 100%;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.swiper-slide {
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mySwiper2 {
+			margin-top: 40px;
+			width: 100%;
+		}
+
+		.mySwiper {
+			position: absolute;
+			top: 0;
+			right: 150px;
+			width: 160px;
+			box-sizing: border-box;
+			padding: 10px 0;
+		}
+
+		.mySwiper .swiper-slide {
+			/* width: 25%; */
+			height: 100%;
+			opacity: 0.4;
+		}
+
+		.mySwiper .swiper-slide-thumb-active {
+			opacity: 1;
+		}
+
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.frame {
+			height: 640px;
+		}
+
+		.swiper-button-prev {
+			position: absolute;
+			top: 10px;
+			left: 50%;
+			transform: rotate(90deg);
+		}
+
+		.swiper-button-next {
+			position: absolute;
+			top: 95%;
+			left: 50%;
+			transform: rotate(90deg);
+		}
+	</style>
 </head>
 
 <body>
 	{% include header.html %}
-	<section class="splide">
-		<div class="splide__track">
-			<ul class="splide__list">
-				<li class="splide__slide">
-					<img src="img/top_assets/main0.jpg" alt="">
-				</li>
-				<li class="splide__slide">
-					<img src="img/top_assets/main1.jpg" alt="">
-				</li>
-				<li class="splide__slide">
-					<img src="img/top_assets/main2.jpg" alt="">
-				</li>
-				<li class="splide__slide">
-					<img src="img/top_assets/main4.jpg" alt="">
-				</li>
-				<li class="splide__slide">
-					<img src="img/top_assets/main5.jpg" alt="">
-				</li>
-			</ul>
-		</div>
-		<div class="splide__progress">
-			<div class="splide__progress__bar">
+	<div class="frame">
+		<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/top_assets/main0.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/top_assets/main1.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/top_assets/main2.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/top_assets/main3.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/top_assets/main4.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/top_assets/main5.jpg" alt=""></div>
+			</div>
+			<div thumbsSlider="" class="swiper mySwiper">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/top_assets/main0.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/top_assets/main1.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/top_assets/main2.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/top_assets/main3.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/top_assets/main4.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/top_assets/main5.jpg" alt=""></div>
+				</div>
+				<div class="swiper-button-next"></div>
 			</div>
 		</div>
-		<div class="splide__controls">
-			<button class="splide__toggle" type="button">
-				<svg class="splide__toggle__play" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<path d="m22 12-20 11v-22l10 5.5z" />
-				</svg>
-				<svg class="splide__toggle__pause" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<path d="m2 1v22h7v-22zm13 0v22h7v-22z" />
-				</svg>
-			</button>
-			<ul class="splide__pagination"></ul>
-		</div>
-	</section>
+	</div>
 	<div class="top__news-section">
 		<div class="main__contents-top-news">
 			<h2 class="page-title">News</h2>
@@ -83,7 +163,9 @@
 	</div>
 	{% include footer.html %}
 
+
 	<script src="script/default.js"></script>
+	<script src="script/swiper-bundle.min.js"></script>
 	<script src="script/index.js"></script>
 </body>
 
