@@ -111,7 +111,7 @@ script.addEventListener('load', function () {
         }
 
         //file名の取得
-        for (const i in symbolYList) {
+        for (const [i, symbol] of symbolYList.entries()) {
           var tagArray = getClassName(i);
           var tagName = tagArray.join(' ');
 
@@ -136,7 +136,7 @@ script.addEventListener('load', function () {
             return categoryTag;
           }
 
-          var service_name_hash = symbolYList[i]['services_name_en'];
+          var service_name_hash = symbol['services_name_en'];
           service_name_hash = service_name_hash.replace(/ /g, '_');
           if (service_name_hash.indexOf('/') !== -1) {
             service_name_hash = encodeURIComponent(service_name_hash);
@@ -144,28 +144,28 @@ script.addEventListener('load', function () {
 
           var lang = $('html').attr('lang');
           const addHTMLElements = (lang) => {
-            const detailText = lang === 'ja' ? '詳細' : 'more';
+            const moreText = lang === 'ja' ? '詳細' : 'more';
             const accessText = lang === 'ja' ? 'アクセス' : 'Access';
             return (
               `<article class="article__section contener-type-box mix ${tagName}">
               <div id="repos_image0" class="repos_image">
-              <a href="${symbolYList[i]['URL']}" target="_blank">
-              <img src="./img/service_assets/${symbolYList[i]['画像']}" alt="${symbolYList[i]['services_name_en']}" class="object-fit-img img_services" />
+              <a href="${symbol['URL']}" target="_blank">
+              <img src="./img/service_assets/${symbol['画像']}" alt="${symbol['services_name_en']}" class="object-fit-img img_services" />
               </a>
               </div>
               <div id="repos_name${i}" class="repos_name">` +
               `<p class="name name_${lang}" id="` +
-              symbolYList[i][`services_name_en`] +
+              symbol[`services_name_en`] +
               '">' +
-              symbolYList[i][`services_name_${lang}`] +
+              symbol[`services_name_${lang}`] +
               '</p>' +
               '<div class="keyword"><p>' +
-              symbolYList[i][`explanation_${lang}`] +
+              symbol[`explanation_${lang}`] +
               '</p></div>' +
               addTagLine(tagArray, lang) +
-              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${detailText}</a>` +
+              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${moreText}</a>` +
               '<a href="' +
-              symbolYList[i]['URL'] +
+              symbol['URL'] +
               `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div>`
             );
           };
