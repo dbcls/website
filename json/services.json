@@ -101,7 +101,7 @@
     "",
     26
   ],
-    [
+  [
     41,
     "Y",
     "dbcls.jp",
@@ -1092,7 +1092,7 @@
     "Y",
     "dbcls.jp",
     "Endpoint browser",
-    "Endpoint brower",
+    "Endpoint browser",
     "https://sparql-support.dbcls.jp/endpoint-browser.html",
     "視覚的なネットワークグラフを用いてSPARQLエンドポイント内のRDFデータを探索するwebサービスです。",
     "A web service to search RDF data in the SPARQL endpoint using visualised network graph.",
