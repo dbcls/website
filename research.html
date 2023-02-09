@@ -131,28 +131,28 @@
               <li>
                 <div class="reference-ja">ゲノム・発現統合検索</div>
                 <ul class="sublist">
-                  <li>
+                  <li class="tooltip" id="TogoGenome">
                     <a target="_blank" href="http://togogenome.org/"><img src="img/service_assets/TogoGenome.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="DBCLS SRA">
                     <a target="_blank" href="http://sra.dbcls.jp/"><img src="img/service_assets/DBCLS_SRA.png">
                       <div>DBCLS SRA</div>
                     </a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="RefEx">
                     <a target="_blank" href="http://refex.dbcls.jp/"><img src="img/service_assets/RefEx.png"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="AOE">
                     <a target="_blank" href="http://aoe.dbcls.jp/"><img src="img/service_assets/AOE.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="GGRNA">
                     <a target="_blank" href="https://GGRNA.dbcls.jp/"><img src="img/service_assets/GGRNA_new.png"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="GGGenome">
                     <a target="_blank" href="https://GGGenome.dbcls.jp/"><img
                         src="img/service_assets/GGGenome_en2021.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="Gendoo">
                     <a target="_blank" href="http://gendoo.dbcls.jp/"><img src="img/service_assets/gendoo.png"></a>
                   </li>
                 </ul>
@@ -162,7 +162,7 @@
               <li>
                 <div class="reference-ja">自然言語による統合検索</div>
                 <ul class="sublist">
-                  <li>
+                  <li class="tooltip" id="LODQA">
                     <a target="_blank" href="https://www.lodqa.org/"><img src="img/service_assets/LODQA.svg"></a>
                   </li>
                 </ul>
@@ -172,11 +172,11 @@
               <li>
                 <div class="reference-ja">応用ツール</div>
                 <ul class="sublist">
-                  <li>
+                  <li class="tooltip" id="PubCaseFinder">
                     <a target="_blank" href="https://pubcasefinder.dbcls.jp/"><img
                         src="img/service_assets/PubCaseFinder.png"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="CRISPRdirect">
                     <a target="_blank" href="https://crispr.dbcls.jp/"><img
                         src="img/service_assets/CRISPRdirect.svg"></a>
                   </li>
@@ -187,22 +187,22 @@
               <li>
                 <div class="reference-ja">コンテンツ</div>
                 <ul class="sublist">
-                  <li>
+                  <li class="tooltip" id="FirstAuthors">
                     <a target="_blank" href="http://first.lifesciencedb.jp/"><img
                         src="img/service_assets/201904_FA.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="LeadingAuthors">
                     <a target="_blank" href="http://first.lifesciencedb.jp/"><img
                         src="img/service_assets/201904_LA.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="TogoTV">
                     <a target="_blank" href="http://togotv.dbcls.jp/"><img src="img/service_assets/TogoTV2020.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="BodyParts3D/Anatomography">
                     <a target="_blank" href="http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/"><img
                         src="img/service_assets/BodyParts3D_Anatomography.svg"></a>
                   </li>
-                  <li>
+                  <li class="tooltip" id="LifescienceQA">
                     <a target="_blank" href="http://qa.lifesciencedb.jp/"><img
                         src="img/service_assets/lifescience-qa.png"></a>
                   </li>
@@ -532,6 +532,8 @@
   {% include footer.html %}
   <script src="script/default.js"></script>
   <script src="script/research.js"></script>
+  <script src="script/popper.min.js"></script>
+  <script src="script/tippy-bundle.umd.min.js"></script>
 </body>
 
 </html>
