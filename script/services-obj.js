@@ -122,19 +122,16 @@ script.addEventListener('load', function () {
                 let category_name = array[j];
                 let user = '';
                 if (
-                  [
-                    'User_1',
-                    'User_2',
-                    'User_3',
-                    'User_4',
-                  ].includes(tagMapping[category_name]['id'])
+                  ['User_1', 'User_2', 'User_3', 'User_4'].includes(
+                    tagMapping[category_name]['id']
+                  )
                 ) {
                   user = 'user';
                 }
                 temp += `<div class="service_category card ${user} tag_element ${array[j]}">${tagMapping[category_name][lang]}</div>`;
               }
             };
-            lang === 'ja' ? addCategory('ja') : addCategory('en');
+            addCategory(lang);
             const categoryTag = `<div class="tag_wrapper">${temp}</div>`;
             return categoryTag;
           }
@@ -158,7 +155,7 @@ script.addEventListener('load', function () {
               </div>
               <div id="repos_name${i}" class="repos_name">` +
               `<p class="name name_${lang}" id="` +
-              symbolYList[i][`services_name_${lang}`] +
+              symbolYList[i][`services_name_en`] +
               '">' +
               symbolYList[i][`services_name_${lang}`] +
               '</p>' +
@@ -172,8 +169,7 @@ script.addEventListener('load', function () {
               `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div>`
             );
           };
-          element +=
-            lang === 'ja' ? addHTMLElements('ja') : addHTMLElements('en');
+          element += addHTMLElements(lang);
           element += '</article>';
         }
         $('#service_list').append(element);
@@ -296,7 +292,7 @@ script.addEventListener('load', function () {
     var md_data = '';
     $.ajax({
       type: 'get',
-      url: '../json/services.json',
+      url: '../json/services-object.json',
       dataType: 'json',
     }).done(function (data) {
       var services_array = data;
