@@ -22,177 +22,166 @@ script.addEventListener('load', function () {
       async: true,
       success: function (data) {
         var elementArray = data;
-        //column1に"Y"のあるrowをとってくる
-        var publication_order = getOrder('other', '掲載');
-        var symbolYList = elementArray.filter((YList) => {
-          return YList[publication_order] === 'Y';
-        });
         var element = '';
 
-        function getOrder(type, target) {
-          var order = 0;
-          if (type === 'category') {
-            for (var i = 0; i < elementArray.length; i++) {
-              if (elementArray[1][i] === target) {
-                order = i;
-              }
-            }
-          } else if (type === 'other') {
-            for (var i = 0; i < elementArray.length; i++) {
-              if (elementArray[0][i] === target) {
-                order = i;
-              }
-            }
+        const orderMapping = {
+          other: [
+            '掲載',
+            'services_name_en',
+            'services_name_ja',
+            'explanation_ja',
+            'explanation_en',
+            'URL',
+            '画像',
+          ],
+          category: [
+            'Database integration/データベース統合',
+            'Materials/教材・資料',
+            'Genome/ゲノム',
+            'Gene/遺伝子',
+            'Gene expression/遺伝子発現',
+            'NGS',
+            'Disease/疾患',
+            'Natural language processing/自然言語処理',
+            'SPARQL Search/SPARQL検索',
+            'RDF creation/RDF作成',
+            'Database user/データベース利用者',
+            'Database application developer (REST API, SPARQL)/アプリケーション開発者 (REST API, SPARQL)',
+            'Data scientist/大規模データ解析者 (一括DL)',
+            'Data provider/データ所有者',
+          ],
+        };
+
+        function getOrder(target) {
+          const isOther = orderMapping.other.includes(target);
+          const isCategory = orderMapping.category.includes(target);
+          let order = 0;
+          if (isOther) {
+            order = elementArray[0].indexOf(target);
+          } else if (isCategory) {
+            order = elementArray[1].indexOf(target);
           }
           return order;
         }
+        //column1に"Y"のあるrowをとってくる
+        var publication_order = getOrder('掲載');
+        var symbolYList = elementArray.filter((YList) => {
+          return YList[publication_order] === 'Y';
+        });
 
-        var service_name_order = getOrder('other', 'services_name_en');
-        var core_service_name_order = getOrder('other', 'services_name_ja');
-        var keyword_ja_order = getOrder('other', 'explanation_ja');
-        var keyword_en_order = getOrder('other', 'explanation_en');
-        var url_order = getOrder('other', 'URL');
+        var service_name_order = getOrder('services_name_en');
+        var core_service_name_order = getOrder('services_name_ja');
+        var keyword_ja_order = getOrder('explanation_ja');
+        var keyword_en_order = getOrder('explanation_en');
+        var url_order = getOrder('URL');
 
         var database_integration_order = getOrder(
-          'category',
           'Database integration/データベース統合'
         );
-        var materials_order = getOrder('category', 'Materials/教材・資料');
-        var genome_order = getOrder('category', 'Genome/ゲノム');
-        var gene_order = getOrder('category', 'Gene/遺伝子');
-        var gene_expression_order = getOrder(
-          'category',
-          'Gene expression/遺伝子発現'
-        );
-        var NGS_order = getOrder('category', 'NGS');
-        var disease_order = getOrder('category', 'Disease/疾患');
+        var materials_order = getOrder('Materials/教材・資料');
+        var genome_order = getOrder('Genome/ゲノム');
+        var gene_order = getOrder('Gene/遺伝子');
+        var gene_expression_order = getOrder('Gene expression/遺伝子発現');
+        var NGS_order = getOrder('NGS');
+        var disease_order = getOrder('Disease/疾患');
         var natural_language_processing_order = getOrder(
-          'category',
           'Natural language processing/自然言語処理'
         );
-        var SPARQL_order = getOrder('category', 'SPARQL Search/SPARQL検索');
-        var RDF_creation_order = getOrder('category', 'RDF creation/RDF作成');
+        var SPARQL_order = getOrder('SPARQL Search/SPARQL検索');
+        var RDF_creation_order = getOrder('RDF creation/RDF作成');
 
-        var biologist_order = getOrder(
-          'category',
-          'Database user/データベース利用者'
-        );
+        var biologist_order = getOrder('Database user/データベース利用者');
         var application_order = getOrder(
-          'category',
           'Database application developer (REST API, SPARQL)/アプリケーション開発者 (REST API, SPARQL)'
         );
         var data_scientist_order = getOrder(
-          'category',
           'Data scientist/大規模データ解析者 (一括DL)'
         );
-        var provider_order = getOrder('category', 'Data provider/データ所有者');
-        var image_order = getOrder('other', '画像');
-
-        function getClassName(num) {
-          var tagName = [];
-          if (symbolYList[num][database_integration_order] === 'Y') {
-            tagName.push('database-integration');
-          }
-          if (symbolYList[num][materials_order] === 'Y') {
-            tagName.push('materials');
-          }
-          if (symbolYList[num][genome_order] === 'Y') {
-            tagName.push('genome');
-          }
-          if (symbolYList[num][gene_order] === 'Y') {
-            tagName.push('gene');
-          }
-          if (symbolYList[num][gene_expression_order] === 'Y') {
-            tagName.push('gene-expression');
-          }
-          if (symbolYList[num][NGS_order] === 'Y') {
-            tagName.push('NGS');
-          }
-          if (symbolYList[num][disease_order] === 'Y') {
-            tagName.push('disease');
-          }
-          if (symbolYList[num][natural_language_processing_order] === 'Y') {
-            tagName.push('natural-language-processing');
-          }
-          if (symbolYList[num][SPARQL_order] === 'Y') {
-            tagName.push('SPARQL');
-          }
-          if (symbolYList[num][RDF_creation_order] === 'Y') {
-            tagName.push('RDF-creation');
-          }
-          if (symbolYList[num][biologist_order] === 'Y') {
-            tagName.push('biologist');
-          }
-          if (symbolYList[num][application_order] === 'Y') {
-            tagName.push('application');
-          }
-          if (symbolYList[num][data_scientist_order] === 'Y') {
-            tagName.push('data-scientist');
-          }
-          if (symbolYList[num][provider_order] === 'Y') {
-            tagName.push('provider');
-          }
-          return tagName;
-        }
+        var provider_order = getOrder('Data provider/データ所有者');
+        var image_order = getOrder('画像');
 
         var tagMapping = {
           'database-integration': {
+            order: database_integration_order,
             ja: 'データベース統合',
             en: 'Database integration',
           },
           materials: {
+            order: materials_order,
             ja: '教材・資料',
             en: 'Materials',
           },
           genome: {
+            order: genome_order,
             ja: 'ゲノム',
             en: 'Genome',
           },
           gene: {
+            order: gene_order,
             ja: '遺伝子',
             en: 'Gene',
           },
           'gene-expression': {
+            order: gene_expression_order,
             ja: '遺伝子発現',
             en: 'Gene expression',
           },
           NGS: {
+            order: NGS_order,
             ja: 'NGS',
             en: 'NGS',
           },
           disease: {
+            order: disease_order,
             ja: '疾患',
             en: 'Disease',
           },
           'natural-language-processing': {
+            order: natural_language_processing_order,
             ja: '自然言語処理',
             en: 'Natural language processing',
           },
           SPARQL: {
+            order: SPARQL_order,
             ja: 'SPARQL検索',
             en: 'SPARQL Search',
           },
           'RDF-creation': {
+            order: RDF_creation_order,
             ja: 'RDF作成',
             en: 'RDF creation',
           },
           biologist: {
+            order: biologist_order,
             ja: 'データベース利用者',
             en: 'Database user',
           },
           application: {
+            order: application_order,
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
           },
           'data-scientist': {
+            order: data_scientist_order,
             ja: '大規模データ解析者',
             en: 'Data scientist',
           },
           provider: {
+            order: provider_order,
             ja: ' データ所有者',
             en: 'Data provider',
           },
         };
+
+        function getClassName(num) {
+          var tagName = [];
+          for (const [key, item] of Object.entries(tagMapping)) {
+            if (symbolYList[num][item.order] === 'Y') {
+              tagName.push(key);
+            }
+          }
+          return tagName;
+        }
 
         //file名の取得
         for (var i = 0; i < symbolYList.length; i++) {
@@ -206,10 +195,12 @@ script.addEventListener('load', function () {
                 var category_name = array[j];
                 let user = '';
                 if (
-                  category_name === 'biologist' ||
-                  category_name === 'application' ||
-                  category_name === 'data-scientist' ||
-                  category_name === 'provider'
+                  [
+                    'biologist',
+                    'application',
+                    'data-scientist',
+                    'provider',
+                  ].includes(category_name)
                 ) {
                   user = 'user';
                 }
@@ -227,10 +218,12 @@ script.addEventListener('load', function () {
                 var category_name = array[j];
                 let user = '';
                 if (
-                  category_name === 'biologist' ||
-                  category_name === 'application' ||
-                  category_name === 'data-scientist' ||
-                  category_name === 'provider'
+                  [
+                    'biologist',
+                    'application',
+                    'data-scientist',
+                    'provider',
+                  ].includes(category_name)
                 ) {
                   user = 'user';
                 }
