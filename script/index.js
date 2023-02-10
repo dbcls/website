@@ -8,9 +8,9 @@ script.addEventListener('load', function () {
 
   // Swiper Library https://swiperjs.com/
   var swiper = new Swiper('.mySwiper', {
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 1000,
+    // },
     spaceBetween: 10,
     slidesPerView: 6,
     freeMode: true,
@@ -20,10 +20,14 @@ script.addEventListener('load', function () {
   });
   var swiper2 = new Swiper('.mySwiper2', {
     autoplay: {
-      delay: 2000,
+      delay: 1000,
       stopOnLastSlide: true,
     },
-    // spaceBetween: 10,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+
     // loopedSlides: 1,
     navigation: {
       nextEl: '.swiper-button-next',
