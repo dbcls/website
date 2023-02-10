@@ -255,81 +255,37 @@ script.addEventListener('load', function () {
           }
 
           var lang = $('html').attr('lang');
-          if (lang === 'ja') {
-            element +=
-              '<article class="article__section contener-type-box mix ' +
-              tagName +
-              '">' +
-              '<div id="repos_image0" class="repos_image">' +
-              '<a href="' +
-              symbolYList[i][url_order] +
-              '" target="_blank">' +
-              '<img src="./img/service_assets/' +
-              symbolYList[i][image_order] +
-              '" alt="' +
-              symbolYList[i][service_name_order] +
-              '" class="object-fit-img img_services" /></a></div>' +
-              '<div id="repos_name' +
-              i +
-              '" class="repos_name">' +
-              '<p class="name name_ja" id="' +
+          const addServiceItem = (lang) => {
+            const moreText = lang === 'ja' ? '詳細' : 'more';
+            const accessText = lang === 'ja' ? 'アクセス' : 'Access';
+            const serviceNameOrder =
+              lang === 'ja' ? core_service_name_order : service_name_order;
+            const keywordOrder =
+              lang === 'ja' ? keyword_ja_order : keyword_en_order;
+            return (
+              `<article class="article__section contener-type-box mix ${tagName}">
+              <div id="repos_image0" class="repos_image">
+              <a href="${symbolYList[i][url_order]}" target="_blank">
+              <img src="./img/service_assets/${symbolYList[i][image_order]}" alt="${symbolYList[i][service_name_order]}" class="object-fit-img img_services" />
+              </a>
+              </div>
+              <div id="repos_name${i}" class="repos_name">` +
+              `<p class="name name_${lang}" id="` +
               symbolYList[i][service_name_order] +
               '">' +
-              symbolYList[i][core_service_name_order] +
+              symbolYList[i][serviceNameOrder] +
               '</p>' +
               '<div class="keyword"><p>' +
-              symbolYList[i][keyword_ja_order] +
+              symbolYList[i][keywordOrder] +
               '</p></div>' +
-              addTagLine(tagArray, 'ja') +
-              '<div class="btn-box">' +
-              '<a class="page_btn more_btn" target="_blank" href="#' +
-              service_name_hash +
-              '">' +
-              '詳細' +
-              '</a>' +
+              addTagLine(tagArray, lang) +
+              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${moreText}</a>` +
               '<a href="' +
               symbolYList[i][url_order] +
-              '" class="page_btn access_btn" target="_blank">アクセス</a>' +
-              '</div></div>';
-          } else if (lang === 'en') {
-            element +=
-              '<article class="article__section contener-type-box mix ' +
-              tagName +
-              '">' +
-              '<div id="repos_image0" class="repos_image">' +
-              '<a href="' +
-              symbolYList[i][url_order] +
-              '" target="_blank">' +
-              '<img src="./img/service_assets/' +
-              symbolYList[i][image_order] +
-              '" alt="' +
-              symbolYList[i][service_name_order] +
-              '" class="object-fit-img img_services" /></a></div>' +
-              '<div id="repos_name' +
-              i +
-              '" class="repos_name">' +
-              '<p class="name name_en" id="' +
-              symbolYList[i][service_name_order] +
-              '">' +
-              symbolYList[i][service_name_order] +
-              '</p>' +
-              '<div class="keyword"><p>' +
-              symbolYList[i][keyword_en_order] +
-              '</p></div>' +
-              addTagLine(tagArray, 'en') +
-              '<div class="btn-box">' +
-              '<a class="page_btn more_btn" target="_blank" href="#' +
-              service_name_hash +
-              '">' +
-              'more' +
-              '</a>' +
-              '<a href="' +
-              symbolYList[i][url_order] +
-              '" class="page_btn access_btn" target="_blank">Access</a>' +
-              '</div></div>';
-          }
-
-          element += '</article>';
+              `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div></article>`
+            );
+          };
+          element += addServiceItem(lang);
         }
         $('#service_list').append(element);
         var containerEl = document.querySelector('.service__wrapper');
