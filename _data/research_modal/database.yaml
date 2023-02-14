@@ -6,7 +6,7 @@
       description:
     - id: TogoDB
       url: http://togodb.org/
-      image_source: img/service_assets/TogoDB_2020.png
+      image_source: img/service_assets/TogoDB.svg
       description:
 - subtitle: 知識の抽出および RDF 化支援ツール
   sub_list:
