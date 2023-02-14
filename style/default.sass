@@ -665,6 +665,8 @@ footer
     height: 400px
     margin: 0 auto
     margin-top: 40px !important
+    img
+      user-select: none
     .swiper-slide
       position: relative
       display: flex
@@ -679,7 +681,7 @@ footer
       .swiper-slide
         background: #E8EDED
         position: relative
-        > img
+        .top-image, .reflection
           display: block
           width: 420px
           height: 240px
@@ -697,7 +699,7 @@ footer
           left: 50%
           text-align: left
           width: 320px
-          & > img
+          .details-logo
             max-height: 80px
           h2
             margin: 20px 0

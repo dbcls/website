@@ -775,6 +775,11 @@ footer a:hover {
   margin: 0 auto;
   margin-top: 40px !important;
 }
+.main-image__wrapper .main-image__contents img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
 .main-image__wrapper .main-image__contents .swiper-slide {
   position: relative;
   display: flex;
@@ -793,7 +798,7 @@ footer a:hover {
   background: #E8EDED;
   position: relative;
 }
-.main-image__wrapper .main-image__contents .main-carousel .swiper-slide > img {
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .top-image, .main-image__wrapper .main-image__contents .main-carousel .swiper-slide .reflection {
   display: block;
   width: 420px;
   height: 240px;
@@ -815,7 +820,7 @@ footer a:hover {
   text-align: left;
   width: 320px;
 }
-.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details > img {
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details .details-logo {
   max-height: 80px;
 }
 .main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details h2 {

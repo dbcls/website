@@ -6,6 +6,7 @@
 # logo：文字上のロゴです。img/top_assets中の <ファイル名> を入れてください。
 # title_jp：題名は日本語１６文字以下だと一行になります。
 # title_en：英語の題名
+# url：
 # description_jp：内容は日本語だと最大２００文字映るが、１００文字以内はバランスよく見えます。
 # description_en：英語内容
 
@@ -14,6 +15,7 @@
   logo: TogoDX.svg
   title_jp: TogoDX：Togo Data eXplorer
   title_en: TogoDX：Togo Data eXplorer
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 統合データベースを探索
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -22,6 +24,7 @@
   logo: TogoID.svg
   title_jp: TogoID
   title_en: TogoID
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 生命科学データベースのID間の対応関係を検索・変換
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -30,6 +33,7 @@
   logo: biohackathon.svg
   title_jp: ※題名は日本語１６文字以下です。
   title_en: English Title
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -38,6 +42,7 @@
   logo: TogoDX.svg
   title_jp: ※題名は日本語１６文字以下です。
   title_en: English Title
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -46,6 +51,7 @@
   logo: TogoDX.svg
   title_jp: ※題名は日本語１６文字以下です。
   title_en: English Title
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -54,6 +60,7 @@
   logo: TogoDX.svg
   title_jp: ※題名は日本語１６文字以下です。
   title_en: English Title
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
   description_en: English description English description English description English description English description English description English description English description English description English description
 
@@ -62,5 +69,6 @@
   logo: TogoDX.svg
   title_jp: ※題名は日本語１６文字以下です。
   title_en: English Title
+  url: https://dbcls.rois.ac.jp/index.html
   description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
   description_en: English description English description English description English description English description English description English description English description English description English description

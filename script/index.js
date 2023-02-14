@@ -8,17 +8,13 @@ script.addEventListener('load', function () {
 
   // Swiper Library https://swiperjs.com/
   const swiper = new Swiper('.thumbnail-carousel', {
-    // autoplay: {
-    //   delay: 1000,
-    // },
     spaceBetween: 10,
     slidesPerView: 6,
     direction: 'vertical',
-    // loopedSlides: 1,
   });
   const swiper2 = new Swiper('.main-carousel', {
     autoplay: {
-      delay: 200000,
+      delay: 3000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
@@ -27,7 +23,6 @@ script.addEventListener('load', function () {
       crossFade: true,
     },
     allowTouchMove: false,
-    // loopedSlides: 1,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

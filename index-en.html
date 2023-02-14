@@ -19,10 +19,13 @@
 			<div class="swiper main-carousel">
 				<div class="swiper-wrapper main">
 					{% for item in site.data.carousel limit:6 %}
-
-					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_en}}"><img class="reflection"
-							src="img/top_assets/{{item.image}}" alt="{{item.title_en}}">
-						<div class="details"><img src="img/top_assets/{{item.logo}}" alt="{{item.title_en}}">
+					<div class="swiper-slide">
+						<a href="{{item.url}}" target="_blank"><img draggable="false" class="top-image"
+								src="img/top_assets/{{item.image}}" alt="{{item.title_en}}"></a>
+						<img draggable="false" class="reflection" src="img/top_assets/{{item.image}}" alt="{{item.title_en}}">
+						<div class="details">
+							<a href="{{item.url}}" target="_blank"><img draggable="false" class="details-logo"
+									src="img/top_assets/{{item.logo}}" alt="{{item.title_en}}"></a>
 							<h2>{{item.title_en}}</h2>
 							<p>{{item.description_en}}
 							</p>
@@ -35,7 +38,8 @@
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-wrapper">
 					{% for item in site.data.carousel limit:6 %}
-					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_en}}"></div>
+					<div class="swiper-slide"><img draggable="false" src="img/top_assets/{{item.image}}" alt="{{item.title_en}}">
+					</div>
 					{% endfor %}
 				</div>
 				<div class="swiper-button-next"></div>

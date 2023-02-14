@@ -23,9 +23,13 @@
 				<div class="swiper-wrapper main">
 					{% for item in site.data.carousel limit:6 %}
 
-					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"><img class="reflection"
-							src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
-						<div class="details"><img src="img/top_assets/{{item.logo}}" alt="{{item.title_jp}}">
+					<div class="swiper-slide">
+						<a href="{{item.url}}" target="_blank"><img draggable="false" class="top-image"
+								src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"></a>
+						<img draggable="false" class="reflection" src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
+						<div class="details">
+							<a href="{{item.url}}" target="_blank"><img draggable="false" class="details-logo"
+									src="img/top_assets/{{item.logo}}" alt="{{item.title_jp}}"></a>
 							<h2>{{item.title_jp}}</h2>
 							<p>{{item.description_jp}}
 							</p>
@@ -38,7 +42,8 @@
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-wrapper">
 					{% for item in site.data.carousel limit:6 %}
-					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"></div>
+					<div class="swiper-slide"><img draggable="false" src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
+					</div>
 					{% endfor %}
 				</div>
 				<div class="swiper-button-next"></div>
