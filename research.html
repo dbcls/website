@@ -127,98 +127,24 @@
                 統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
               </p>
             </div>
+            {% for section in site.data.research_modal.application %}
             <ul class="research__list">
               <li>
-                <div class="reference-ja">ゲノム・発現統合検索</div>
+                <div class="reference-ja">{{section.subtitle}}</div>
                 <ul class="sublist">
-                  <li class="tooltip" id="TogoGenome">
-                    <a target="_blank" href="http://togogenome.org/"><img src="img/service_assets/TogoGenome.svg"></a>
-                  </li>
-                  <li class="tooltip" id="DBCLS SRA">
-                    <a target="_blank" href="http://sra.dbcls.jp/"><img src="img/service_assets/DBCLS_SRA.png">
-                      <div>DBCLS SRA</div>
+                  {% for sublist in section.sub_list %}
+                  <li class="tooltip" id="{{sublist.id}}">
+                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                      {% if sublist.description != nil %}
+                      <div>{{sublist.description}}</div>
+                      {% endif %}
                     </a>
                   </li>
-                  <li class="tooltip" id="RefEx">
-                    <a target="_blank" href="http://refex.dbcls.jp/"><img src="img/service_assets/RefEx.png"></a>
-                  </li>
-                  <li class="tooltip" id="AOE">
-                    <a target="_blank" href="http://aoe.dbcls.jp/"><img src="img/service_assets/AOE.svg"></a>
-                  </li>
-                  <li class="tooltip" id="GGRNA">
-                    <a target="_blank" href="https://GGRNA.dbcls.jp/"><img src="img/service_assets/GGRNA_new.png"></a>
-                  </li>
-                  <li class="tooltip" id="GGGenome">
-                    <a target="_blank" href="https://GGGenome.dbcls.jp/"><img
-                        src="img/service_assets/GGGenome_en2021.svg"></a>
-                  </li>
-                  <li class="tooltip" id="Gendoo">
-                    <a target="_blank" href="http://gendoo.dbcls.jp/"><img src="img/service_assets/gendoo.png"></a>
-                  </li>
+                  {% endfor %}
                 </ul>
               </li>
             </ul>
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">自然言語による統合検索</div>
-                <ul class="sublist">
-                  <li class="tooltip" id="LODQA">
-                    <a target="_blank" href="https://www.lodqa.org/"><img src="img/service_assets/LODQA.svg"></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">応用ツール</div>
-                <ul class="sublist">
-                  <li class="tooltip" id="PubCaseFinder">
-                    <a target="_blank" href="https://pubcasefinder.dbcls.jp/"><img
-                        src="img/service_assets/PubCaseFinder.png"></a>
-                  </li>
-                  <li class="tooltip" id="CRISPRdirect">
-                    <a target="_blank" href="https://crispr.dbcls.jp/"><img
-                        src="img/service_assets/CRISPRdirect.svg"></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">コンテンツ</div>
-                <ul class="sublist">
-                  <li class="tooltip" id="FirstAuthors">
-                    <a target="_blank" href="http://first.lifesciencedb.jp/"><img
-                        src="img/service_assets/201904_FA.svg"></a>
-                  </li>
-                  <li class="tooltip" id="LeadingAuthors">
-                    <a target="_blank" href="http://first.lifesciencedb.jp/"><img
-                        src="img/service_assets/201904_LA.svg"></a>
-                  </li>
-                  <li class="tooltip" id="TogoTV">
-                    <a target="_blank" href="http://togotv.dbcls.jp/"><img src="img/service_assets/TogoTV2020.svg"></a>
-                  </li>
-                  <li class="tooltip" id="BodyParts3D/Anatomography">
-                    <a target="_blank" href="http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/"><img
-                        src="img/service_assets/BodyParts3D_Anatomography.svg"></a>
-                  </li>
-                  <li class="tooltip" id="LifescienceQA">
-                    <a target="_blank" href="http://qa.lifesciencedb.jp/"><img
-                        src="img/service_assets/lifescience-qa.png"></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">戦略的イノベーション創造プログラム (SIP)</div>
-                <ul class="sublist">
-                  <li class="tooltip" id="SIPDatabase">
-                    <a target="_blank" href="https://sip-db.dbcls.jp/">スマートバイオ産業・農業基盤技術関連データ</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            {% endfor %}
           </article>
         </div>
         <div class="modal">
@@ -231,49 +157,24 @@
                 RDF 化されたデータを効率よく扱うための技術を開発しています。
               </p>
             </div>
+            {% for section in site.data.research_modal.middleware %}
             <ul class="research__list">
               <li>
-                <div class="reference-ja">RDF 検索支援ツール</div>
+                <div class="reference-ja">{{section.subtitle}}</div>
                 <ul class="sublist">
-                  <li class="tooltip" id="Umaka-Yummy/Data">
-                    <a target="_blank" href="http://d.umaka.dbcls.jp/"><img
-                        src="img/service_assets/Umaka_Yummy_Data.png"></a>
+                  {% for sublist in section.sub_list %}
+                  <li class="tooltip" id="{{sublist.id}}">
+                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                      {% if sublist.description != nil %}
+                      <div>{{sublist.description}}</div>
+                      {% endif %}
+                    </a>
                   </li>
-                  <li class="tooltip" id="SPARQLBuilder">
-                    <a target="_blank" href="http://www.sparqlbuilder.org/"><img
-                        src="img/service_assets/SPARQL_Builder.png"></a>
-                  </li>
-                  <li class="tooltip" id="Endpoint browser">
-                    <a target="_blank" href="http://sparql-support.dbcls.jp/"><img
-                        src="img/service_assets/endpoint-browser.png"></a>
-                  </li>
-                  <li class="tooltip" id="SPARQList">
-                    <a target="_blank" href="https://github.com/dbcls/sparqlist"><img
-                        src="img/service_assets/SPARQList.png"></a>
-                  </li>
-                  <li class="tooltip" id="SPANG">
-                    <a target="_blank" href="http://spang.dbcls.jp/"><img src="img/service_assets/spang.png"></a>
-                  </li>
-                  <li class="tooltip" id="SPARQL-proxy">
-                    <a target="_blank" href="https://github.com/dbcls/sparql-proxy"><img
-                        src="img/service_assets/SPARQL_proxy.png"></a>
-                  </li>
-                  <li class="tooltip" id="TogoStanza">
-                    <a target="_blank" href="http://togostanza.org/"><img src="img/service_assets/TogoStanza.png"></a>
-                  </li>
-                  <li class="tooltip" id="d3sparql.js">
-                    <a target="_blank" href="http://biohackathon.org/d3sparql/"><img
-                        src="img/service_assets/d3sparql.js.png"></a>
-                  </li>
-                  <li class="tooltip" id="TogoTable">
-                    <a target="_blank" href="http://togotable.dbcls.jp"><img src="img/service_assets/TogoTable.png"></a>
-                  </li>
-                  <li class="tooltip" id="TogoWS">
-                    <a target="_blank" href="http://togows.org/"><img src="img/service_assets/TogoWS.png"></a>
-                  </li>
+                  {% endfor %}
                 </ul>
               </li>
             </ul>
+            {% endfor %}
           </article>
         </div>
         <div class="modal">
@@ -285,50 +186,24 @@
                 統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
               </p>
             </div>
+            {% for section in site.data.research_modal.database %}
             <ul class="research__list">
               <li>
-                <span class="reference-ja">データベース RDF 化支援ツール</span>
+                <div class="reference-ja">{{section.subtitle}}</div>
                 <ul class="sublist">
-                  <li class="tooltip" id="D2RQ">
-                    <a target="_blank" href="http://d2rq.dbcls.jp/"><img src="img/service_assets/D2RQ_Mapper.png"></a>
+                  {% for sublist in section.sub_list %}
+                  <li class="tooltip" id="{{sublist.id}}">
+                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                      {% if sublist.description != nil %}
+                      <div>{{sublist.description}}</div>
+                      {% endif %}
+                    </a>
                   </li>
-                  <li class="tooltip" id="TogoDB">
-                    <a target="_blank" href="http://togodb.org/"><img src="img/service_assets/TogoDB_2020.png"></a>
-                  </li>
+                  {% endfor %}
                 </ul>
               </li>
             </ul>
-            <ul class="research__list">
-              <li>
-                <span class="reference-ja">知識の抽出および RDF 化支援ツール</span>
-                <ul class="sublist">
-                  <li class="tooltip" id="PubAnnotation">
-                    <a target="_blank" href="http://pubannotation.org/"><img
-                        src="img/service_assets/PubAnnotation.png"></a>
-                  </li class="tooltip" id="TextAE">
-                  <li><a target="_blank" href="http://textae.pubannotation.org/"><img
-                        src="img/service_assets/TextAE.png">TextAE</a>
-                  </li>
-                  <li class="tooltip" id="PubDictionaries">
-                    <a target="_blank" href="http://pubdictionaries.org"><img
-                        src="img/service_assets/PubDictionaries.png"></a>
-                  </li>
-                  <li class="tooltip" id="Allie">
-                    <a target="_blank" href="http://allie.dbcls.jp/"><img src="img/service_assets/Allie.png"></a>
-                  </li>
-                  <li class="tooltip" id="Colil">
-                    <a target="_blank" href="http://colil.dbcls.jp/"><img src="img/service_assets/Colil.png"></a>
-                  </li>
-                  <li class="tooltip" id="inMeXes">
-                    <a target="_blank" href="https://docman.dbcls.jp/im/"><img src="img/service_assets/inMeXes.png"></a>
-                  </li>
-                  <li class="tooltip" id="OntoFinder">
-                    <a target="_blank" href="http://ontofinder.dbcls.jp/"><img
-                        src="img/service_assets/ontofinder.png"></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            {% endfor %}
           </article>
         </div>
         <div class="modal">
@@ -342,26 +217,24 @@
                 はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
               </p>
             </div>
+            {% for section in site.data.research_modal.support %}
             <ul class="research__list">
               <li>
-                <span class="reference-ja">関連リンク</span>
+                <div class="reference-ja">{{section.subtitle}}</div>
                 <ul class="sublist">
-                  <li><a target="_blank"
-                      href="https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md"
-                      title="">RDF化ガイドライン</a></li>
-                  <li class="tooltip" id="SPARQLthon"><a target="_blank"
-                      href="http://wiki.lifesciencedb.jp/mw/SPARQLthon" title=""><img
-                        src="img/service_assets/SPARQLthon.png"></a>
+                  {% for sublist in section.sub_list %}
+                  <li class="tooltip" id="{{sublist.id}}">
+                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                      {% if sublist.description != nil %}
+                      <div>{{sublist.description}}</div>
+                      {% endif %}
+                    </a>
                   </li>
-                  <li class="tooltip" id="NBDC RDF Portal"><a target="_blank" href="https://integbio.jp/rdf/"
-                      title=""><img src="img/service_assets/NBDC_RDF_Portal.png"></a></li>
-                  <li class="tooltip" id="LSD RDF Data Portal"><a target="_blank" href="http://lsd.dbcls.jp/portal/"
-                      title=""><img src="img/service_assets/LSD_RDF_Data_Portal.png"></a></li>
-                  <li class="tooltip" id="d3sparql.js"><a target="_blank" href="http://biohackathon.org/" title=""><img
-                        src="img/service_assets/d3sparql.js.png"></a></li>
+                  {% endfor %}
                 </ul>
               </li>
             </ul>
+            {% endfor %}
           </article>
         </div>
       </div>

@@ -1,0 +1,22 @@
+- subtitle: 関連リンク
+  sub_list:
+    - id: DB Guidelines
+      url: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
+      image_source: 
+      description: RDF化ガイドライン
+    - id: SPARQLthon
+      url: http://wiki.lifesciencedb.jp/mw/SPARQLthon
+      image_source: img/service_assets/SPARQLthon.png
+      description:
+    - id: NBDC RDF Portal
+      url: https://integbio.jp/rdf/
+      image_source: img/service_assets/NBDC_RDF_Portal.png
+      description:
+    - id: LSD RDF Data Portal
+      url: http://lsd.dbcls.jp/portal/
+      image_source: img/service_assets/LSD_RDF_Data_Portal.png
+      description:
+    - id: BioHackathon
+      url: http://biohackathon.org/
+      image_source: img/service_assets/BioHackathon.png
+      description: 

@@ -42,16 +42,18 @@ script.addEventListener('load', function () {
     success: (data) => {
       tippy('.tooltip', {
         content: (el) => {
-          const span = document.createElement('span');
+          const div = document.createElement('div');
+          // const h5 = document.createElement('h5');
+          // const span = document.createElement('span');
           for (const [i, item] of data.entries()) {
             if (item.services_name_en !== el.getAttribute('id')) {
               continue;
             }
             const title = item[`services_name_${lang}`];
             const introduction = item[`explanation_${lang}`];
-            span.innerHTML = `${title}<br>${introduction}`;
+            div.innerHTML = `<h5><u>${title}</u></h5><p>${introduction}</p>`;
           }
-          return span;
+          return div;
         },
         arrow: false,
         maxWidth: 220,
