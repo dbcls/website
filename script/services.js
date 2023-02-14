@@ -76,6 +76,7 @@ script.addEventListener('load', function () {
         var url_order = getOrder('URL');
 
         var database_integration_order = getOrder(
+          
           'Database integration/データベース統合'
         );
         var materials_order = getOrder('Materials/教材・資料');

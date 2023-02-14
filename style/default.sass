@@ -656,35 +656,94 @@ footer
       font-weight: 800
     .main__forcused-page__text
       padding: 12px
-.splide
-  margin-top: 40px
-  img
-    width: 100vw
-    height: 400px
-    object-fit: cover
-    display: block
-.splide__controls
-  align-items: center
-  display: flex
-  justify-content: center
-  margin-top: 1rem
-  background: #4b5659
-  .splide__toggle
-    align-items: center
-    background: #95a5a6
-    border-radius: 50%
-    display: inline-flex
-    height: 1.8rem
-    justify-content: center
-    margin-right: .5rem
-    transition: background-color .2s ease
-    width: 1.8rem
-  .splide__pagination
-    bottom: auto
-    left: auto
+
+.main-image__wrapper 
+  background: #E8EDED
+  .main-image__contents 
     position: relative
-    transform: none
-    width: auto
+    width: 1024px
+    height: 400px
+    margin: 0 auto
+    margin-top: 40px !important
+    .swiper-slide
+      position: relative
+      display: flex
+      justify-content: start
+      align-items: center
+    .swiper 
+      height: 100%
+      margin-left: auto
+      margin-right: auto
+    .main-carousel
+      width: 100%
+      .swiper-slide
+        background: #E8EDED
+        position: relative
+        > img
+          display: block
+          width: 420px
+          height: 240px
+          object-fit: cover
+          margin-left: 50px
+          transform: perspective(1000px) rotateX(5deg) rotateY(20deg)
+        .reflection
+          position: absolute
+          bottom: -180px
+          transform: rotateX(180deg) translateX(-1.5px) translateY(15px) perspective(1000px) rotateX(5deg) rotateY(20deg) rotateZ(1.3deg) skew(2deg, 0deg)
+          mask-image: linear-gradient(transparent 50%, white 120%)
+          -webkit-mask-image: linear-gradient(transparent 70%, white 120%)
+        .details
+          position: absolute
+          left: 50%
+          text-align: left
+          width: 320px
+          & > img
+            max-height: 80px
+          h2
+            margin: 20px 0
+            font-size: 20px
+    .thumbnail-carousel
+      display: flex
+      flex-direction: column
+      position: absolute
+      top: 0
+      right: 50px
+      width: 90px
+      box-sizing: border-box
+      padding: 20px 0
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: cover
+      .swiper-slide
+        height: 100%
+        opacity: 0.4
+        cursor: pointer
+      .swiper-slide-thumb-active
+        opacity: 1
+    .swiper-button-next,.swiper-button-prev 
+      width: 100%
+      height: 20px
+      margin-top: -10px
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      left: 0
+    .swiper-button-prev
+      top: 10px
+    .swiper-button-next
+      bottom: 0px
+    .swiper-button-next::after, .swiper-button-prev::after
+      font-size: 12px
+      color: $main-color
+      transform: rotate(90deg)
+
+
+
+
 //@media about.html図
 @media screen and (min-width: 0px) and (max-device-width: 640px)
   .main-image__wrapper
@@ -692,11 +751,11 @@ footer
       div
         img
           width: auto
-@media screen and (min-width: 641px) and (max-device-width: 768px)
-  .main-image__wrapper
-    .main-image__contents
-      div
-        img
+// @media screen and (min-width: 641px) and (max-device-width: 768px)
+//   .main-image__wrapper
+//     .main-image__contents
+//       div
+//         img
 @media screen and (min-width: 769px) and (max-device-width: 1024px)
   .main-image__wrapper
     .main-image__contents
@@ -896,12 +955,8 @@ footer
   +image-text-container
   button
     margin-top: 5px
-  &.application
-
   .middleware , .integration
     margin-top: 35px
-  &.support
-
 .research__image-users
   top: 605px
   +image-text-container
@@ -909,11 +964,8 @@ footer
     color: white
   a
     margin-top: 5px
-  &.researcher
-
   .developer , .data-analyst
     margin-top: 44px
-  &.provider
 .research__image-others
   top: 780px
   left: 100px
@@ -922,10 +974,8 @@ footer
     color: white
     // font-size: 12px !important
     line-height: 1.5em
-  .public-relations
   .education
     margin-top: 30px
-  .copperation
 
 .section-wrapper
   display: flex
@@ -1115,7 +1165,6 @@ footer
       height: 10px
       border-left: 2px dotted $main-color
   .table-history
-    tbody
     tr:nth-of-type(1)
       td
         padding-top: 0

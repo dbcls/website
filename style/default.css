@@ -765,41 +765,109 @@ footer a:hover {
   padding: 12px;
 }
 
-.splide {
-  margin-top: 40px;
+.main-image__wrapper {
+  background: #E8EDED;
 }
-.splide img {
-  width: 100vw;
+.main-image__wrapper .main-image__contents {
+  position: relative;
+  width: 1024px;
   height: 400px;
+  margin: 0 auto;
+  margin-top: 40px !important;
+}
+.main-image__wrapper .main-image__contents .swiper-slide {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-image__wrapper .main-image__contents .swiper {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-image__wrapper .main-image__contents .main-carousel {
+  width: 100%;
+}
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide {
+  background: #E8EDED;
+  position: relative;
+}
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide > img {
+  display: block;
+  width: 420px;
+  height: 240px;
   -o-object-fit: cover;
      object-fit: cover;
-  display: block;
+  margin-left: 50px;
+  transform: perspective(1000px) rotateX(5deg) rotateY(20deg);
 }
-
-.splide__controls {
-  align-items: center;
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .reflection {
+  position: absolute;
+  bottom: -180px;
+  transform: rotateX(180deg) translateX(-1.5px) translateY(15px) perspective(1000px) rotateX(5deg) rotateY(20deg) rotateZ(1.3deg) skew(2deg, 0deg);
+  mask-image: linear-gradient(transparent 50%, white 120%);
+  -webkit-mask-image: linear-gradient(transparent 70%, white 120%);
+}
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details {
+  position: absolute;
+  left: 50%;
+  text-align: left;
+  width: 320px;
+}
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details > img {
+  max-height: 80px;
+}
+.main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details h2 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.main-image__wrapper .main-image__contents .thumbnail-carousel {
   display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  background: #4b5659;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 90px;
+  box-sizing: border-box;
+  padding: 20px 0;
 }
-.splide__controls .splide__toggle {
+.main-image__wrapper .main-image__contents .thumbnail-carousel img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-image__wrapper .main-image__contents .thumbnail-carousel .swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.main-image__wrapper .main-image__contents .thumbnail-carousel .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.main-image__wrapper .main-image__contents .swiper-button-next, .main-image__wrapper .main-image__contents .swiper-button-prev {
+  width: 100%;
+  height: 20px;
+  margin-top: -10px;
+  cursor: pointer;
+  display: flex;
   align-items: center;
-  background: #95a5a6;
-  border-radius: 50%;
-  display: inline-flex;
-  height: 1.8rem;
   justify-content: center;
-  margin-right: 0.5rem;
-  transition: background-color 0.2s ease;
-  width: 1.8rem;
+  position: absolute;
+  left: 0;
 }
-.splide__controls .splide__pagination {
-  bottom: auto;
-  left: auto;
-  position: relative;
-  transform: none;
-  width: auto;
+.main-image__wrapper .main-image__contents .swiper-button-prev {
+  top: 10px;
+}
+.main-image__wrapper .main-image__contents .swiper-button-next {
+  bottom: 0px;
+}
+.main-image__wrapper .main-image__contents .swiper-button-next::after, .main-image__wrapper .main-image__contents .swiper-button-prev::after {
+  font-size: 12px;
+  color: #004098;
+  transform: rotate(90deg);
 }
 
 @media screen and (min-width: 0px) and (max-device-width: 640px) {
@@ -1062,6 +1130,7 @@ footer a:hover {
 .research__image-services .middleware, .research__image-services .integration {
   margin-top: 35px;
 }
+
 .research__image-users {
   top: 605px;
   display: flex;
@@ -1089,6 +1158,7 @@ footer a:hover {
 .research__image-users .developer, .research__image-users .data-analyst {
   margin-top: 44px;
 }
+
 .research__image-others {
   top: 780px;
   left: 100px;
@@ -1115,6 +1185,7 @@ footer a:hover {
 .research__image-others .education {
   margin-top: 30px;
 }
+
 .section-wrapper {
   display: flex;
   flex-wrap: wrap;

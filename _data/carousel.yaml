@@ -1,0 +1,66 @@
+# 画像は img/top_assets に格納してください
+# できれば、トップとサムネイル画像は縦横比1.75:1で用意してください
+
+# カルーセル各変数名の説明
+# image：サムネイル画像（縦に並んでる方）とトップ画像
+# logo：文字上のロゴです。img/top_assets中の <ファイル名> を入れてください。
+# title_jp：題名は日本語１６文字以下だと一行になります。
+# title_en：英語の題名
+# description_jp：内容は日本語だと最大２００文字映るが、１００文字以内はバランスよく見えます。
+# description_en：英語内容
+
+# ↓１個目の画像
+- image: TogoDX_screen.png
+  logo: TogoDX.svg
+  title_jp: TogoDX：Togo Data eXplorer
+  title_en: TogoDX：Togo Data eXplorer
+  description_jp: 統合データベースを探索
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# ↓２個目の画像
+- image: TogoID_screen.png
+  logo: TogoID.svg
+  title_jp: TogoID
+  title_en: TogoID
+  description_jp: 生命科学データベースのID間の対応関係を検索・変換
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# ↓３個目の画像
+- image: main2.jpg
+  logo: biohackathon.svg
+  title_jp: ※題名は日本語１６文字以下です。
+  title_en: English Title
+  description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# ↓４個目の画像
+- image: main3.jpg
+  logo: TogoDX.svg
+  title_jp: ※題名は日本語１６文字以下です。
+  title_en: English Title
+  description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# ↓５個目の画像
+- image: main2.jpg
+  logo: TogoDX.svg
+  title_jp: ※題名は日本語１６文字以下です。
+  title_en: English Title
+  description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# ↓６個目の画像
+- image: main3.jpg
+  logo: TogoDX.svg
+  title_jp: ※題名は日本語１６文字以下です。
+  title_en: English Title
+  description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
+  description_en: English description English description English description English description English description English description English description English description English description English description
+
+# 下以降は表示されませんので、必要ときに上と交換することができます。
+- image: main4.jpg
+  logo: TogoDX.svg
+  title_jp: ※題名は日本語１６文字以下です。
+  title_en: English Title
+  description_jp: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
+  description_en: English description English description English description English description English description English description English description English description English description English description

@@ -10,150 +10,39 @@
           style-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com;
           font-src 'self' fonts.googleapis.com fonts.gstatic.com;">
 	<title>DBCLS ｜ ライフサイエンス統合データベースセンター</title>
-	<link rel="stylesheet" href="style/default.css">
 	<link rel="stylesheet" href="style/swiper-bundle.min.css">
+	<link rel="stylesheet" href="style/default.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<style>
-		.swiper-slide {
-			text-align: center;
-			font-size: 18px;
-			background: #fff;
-			display: flex;
-			justify-content: start;
-			align-items: center;
-			/* margin-left: 150px; */
-		}
-
-		.swiper {
-			width: 100%;
-			height: 100%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.swiper-slide {
-			background-size: cover;
-			background-position: center;
-		}
-
-		.mySwiper2 {
-			width: 100%;
-		}
-
-		.mySwiper2 .swiper-slide {
-			background: #E8EDED;
-			position: relative
-		}
-
-		.mySwiper {
-			position: absolute;
-			top: 0;
-			right: 70px;
-			width: 80px;
-			box-sizing: border-box;
-			padding: 10px 0;
-		}
-
-		.mySwiper .swiper-slide {
-			/* width: 25%; */
-			height: 100%;
-			opacity: 0.4;
-		}
-
-		.mySwiper .swiper-slide-thumb-active {
-			opacity: 1;
-		}
-
-		.mySwiper2 img {
-			display: block;
-			width: 60%;
-			height: 60%;
-			object-fit: cover;
-		}
-
-		.mySwiper img {
-			display: block;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
-		.frame {
-			position: relative;
-			width: 1024px;
-			height: 400px;
-			background: #E8EDED;
-			margin: 0 auto;
-			margin-top: 40px !important;
-		}
-
-		.swiper-button-prev {
-			position: absolute;
-			top: 6px;
-			left: 35%;
-			transform: rotate(90deg);
-		}
-
-		.swiper-button-next {
-			position: absolute;
-			top: 99%;
-			left: 35%;
-			transform: rotate(90deg);
-		}
-		.swiper-button-next::after,.swiper-button-prev::after {
-			font-size: 10px;
-			color: #004098;
-		}
-
-		.ml40 {
-			margin-left: 40px;
-		}
-
-		.main>.swiper-slide>img:not(.reflection) {
-			transform: perspective(2200px) rotateX(1deg) rotateY(50deg) rotateZ(1deg);
-		}
-
-		.reflection {
-			position: absolute;
-			top: 340px;
-			transform: rotateX(180deg) translateY(15px) perspective(2200px) rotateX(1deg) rotateY(50deg) rotateZ(2.3deg);
-			mask-image: linear-gradient(transparent 50%, white 120%);
-			-webkit-mask-image: linear-gradient(transparent 70%, white 150%);
-			left: 2px;
-		}
-	</style>
 </head>
 
 <body>
 	{% include header.html %}
-	<div class="frame">
-		<div style="--swiper-pagination-color: #004098" class="swiper mySwiper2">
-			<div class="swiper-wrapper main">
-				<div class="swiper-slide ml40"><img src="img/top_assets/main0.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main0.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main1.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main1.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main2.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main2.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main3.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main3.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main4.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main4.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main5.jpg" alt=""><img class="reflection"
-						src="img/top_assets/main5.jpg" alt=""></div>
+	<div class="main-image__wrapper">
+		<div class="main-image__contents">
+			<div class="swiper main-carousel">
+				<div class="swiper-wrapper main">
+					{% for item in site.data.carousel limit:6 %}
+
+					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"><img class="reflection"
+							src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
+						<div class="details"><img src="img/top_assets/{{item.logo}}" alt="{{item.title_jp}}">
+							<h2>{{item.title_jp}}</h2>
+							<p>{{item.description_jp}}
+							</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
 			</div>
-		</div>
-		<div thumbsSlider="" class="swiper mySwiper">
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-wrapper">
-				<div class="swiper-slide"><img src="img/top_assets/main0.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main1.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main2.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main3.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main4.jpg" alt=""></div>
-				<div class="swiper-slide"><img src="img/top_assets/main5.jpg" alt=""></div>
+			<div thumbsSlider="" class="swiper thumbnail-carousel">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-wrapper">
+					{% for item in site.data.carousel limit:6 %}
+					<div class="swiper-slide"><img src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"></div>
+					{% endfor %}
+				</div>
+				<div class="swiper-button-next"></div>
 			</div>
-			<div class="swiper-button-next"></div>
 		</div>
 	</div>
 	<div class="top__news-section">

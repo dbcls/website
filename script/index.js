@@ -7,27 +7,26 @@ script.addEventListener('load', function () {
   $('.news__individual-wrapper').css('display', 'block');
 
   // Swiper Library https://swiperjs.com/
-  var swiper = new Swiper('.mySwiper', {
+  const swiper = new Swiper('.thumbnail-carousel', {
     // autoplay: {
     //   delay: 1000,
     // },
     spaceBetween: 10,
     slidesPerView: 6,
-    freeMode: true,
-    watchSlidesProgress: true,
     direction: 'vertical',
     // loopedSlides: 1,
   });
-  var swiper2 = new Swiper('.mySwiper2', {
+  const swiper2 = new Swiper('.main-carousel', {
     autoplay: {
-      delay: 1000,
-      stopOnLastSlide: true,
+      delay: 200000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
     effect: 'fade',
     fadeEffect: {
       crossFade: true,
     },
-
+    allowTouchMove: false,
     // loopedSlides: 1,
     navigation: {
       nextEl: '.swiper-button-next',
