@@ -76,7 +76,6 @@ script.addEventListener('load', function () {
         var url_order = getOrder('URL');
 
         var database_integration_order = getOrder(
-          
           'Database integration/データベース統合'
         );
         var materials_order = getOrder('Materials/教材・資料');
@@ -91,8 +90,8 @@ script.addEventListener('load', function () {
         var SPARQL_order = getOrder('SPARQL Search/SPARQL検索');
         var RDF_creation_order = getOrder('RDF creation/RDF作成');
 
-        var biologist_order = getOrder('Database user/データベース利用者');
-        var application_order = getOrder(
+        var dbuser_order = getOrder('Database user/データベース利用者');
+        var app_dev_order = getOrder(
           'Database application developer (REST API, SPARQL)/アプリケーション開発者 (REST API, SPARQL)'
         );
         var data_scientist_order = getOrder(
@@ -152,13 +151,13 @@ script.addEventListener('load', function () {
             ja: 'RDF作成',
             en: 'RDF creation',
           },
-          biologist: {
-            order: biologist_order,
+          dbuser: {
+            order: dbuser_order,
             ja: 'データベース利用者',
             en: 'Database user',
           },
-          application: {
-            order: application_order,
+          'app-dev': {
+            order: app_dev_order,
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
           },
@@ -196,12 +195,9 @@ script.addEventListener('load', function () {
                 var category_name = array[j];
                 let user = '';
                 if (
-                  [
-                    'biologist',
-                    'application',
-                    'data-scientist',
-                    'provider',
-                  ].includes(category_name)
+                  ['dbuser', 'app-dev', 'data-scientist', 'provider'].includes(
+                    category_name
+                  )
                 ) {
                   user = 'user';
                 }
@@ -219,12 +215,9 @@ script.addEventListener('load', function () {
                 var category_name = array[j];
                 let user = '';
                 if (
-                  [
-                    'biologist',
-                    'application',
-                    'data-scientist',
-                    'provider',
-                  ].includes(category_name)
+                  ['dbuser', 'app-dev', 'data-scientist', 'provider'].includes(
+                    category_name
+                  )
                 ) {
                   user = 'user';
                 }

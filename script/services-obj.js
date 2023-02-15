@@ -78,12 +78,12 @@ script.addEventListener('load', function () {
             ja: 'RDF作成',
             en: 'RDF creation',
           },
-          biologist: {
+          dbuser: {
             id: 'User_1',
             ja: 'データベース利用者',
             en: 'Database user',
           },
-          application: {
+          'app-dev': {
             id: 'User_2',
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
