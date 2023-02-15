@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="style/default.css">
 </head>
 
-<body>
+<body class="preload-transitions">
 	{% include header_en.html %}
 	<div class="content__wrapper">
 		<div id="subWrap">
@@ -56,7 +56,7 @@
 						<h3>Application</h3>
 						<p>User Interface Development<br>
 							for the Integrated Database</p>
-						<button class="research__details-button">
+						<button class="research__details-button modal-toggle">
 							<span class="material-icons">play_circle</span>
 							Details</button>
 					</div>
@@ -64,7 +64,7 @@
 						<h3>Middleware</h3>
 						<p>Efficient Access and Maintenance<br>
 							for the Integrated Database</p>
-						<button class="research__details-button">
+						<button class="research__details-button modal-toggle">
 							<span class="material-icons">play_circle</span>
 							Details</button>
 					</div>
@@ -72,7 +72,7 @@
 						<h3>Integration</h3>
 						<p>Basic Technology Development<br>
 							for Database Integration</p>
-						<button class="research__details-button">
+						<button class="research__details-button modal-toggle">
 							<span class="material-icons">play_circle</span>
 							Details</button>
 					</div>
@@ -80,19 +80,19 @@
 						<h3>Support</h3>
 						<p>Standardization<br>
 							for Database Integration</p>
-						<button class="research__details-button">
+						<button class="research__details-button modal-toggle">
 							<span class="material-icons">play_circle</span>
 							Details</button>
 					</div>
 				</div>
 				<div class="research__image-users">
-					<div class="researcher">
+					<div class="dbuser">
 						<h3>Researcher</h3>
 						<a class="research__services-button" href="/services-en.html?user=biologist">
 							<span class="material-icons">play_circle</span>
 							List of Services</a>
 					</div>
-					<div class="developer">
+					<div class="app-dev">
 						<h3>Developer</h3>
 						<a class="research__services-button" href="/services-en.html?user=application">
 							<span class="material-icons">play_circle</span>
@@ -123,239 +123,143 @@
 							Cooperation</h3>
 					</div>
 				</div>
-				<!-- <button class="research__details-button middleware"><span class="material-icons">
-						play_circle
-					</span>&nbsp;Details</button>
-				<button class="research__details-button integration"><span class="material-icons">
-						play_circle
-					</span>&nbsp;Details</button>
-				<button class="research__details-button support"><span class="material-icons">
-						play_circle
-					</span>&nbsp;Details</button>
-				<button class="research__services-button application"><span class="material-icons">
-						play_circle
-					</span>&nbsp;List of Services</button>
-				<button class="research__services-button middleware"><span class="material-icons">
-						play_circle
-					</span>&nbsp;List of Services</button>
-				<button class="research__services-button integration"><span class="material-icons">
-						play_circle
-					</span>&nbsp;List of Services</button>
-				<button class="research__services-button support"><span class="material-icons">
-						play_circle
-					</span>&nbsp;List of Services</button> -->
-
-				<!-- <map name="direction_map">
-					<area shape="circle" coords="92,62,25" alt="biologist" href="/services.html?user=biologist">
-					<area shape="circle" coords="292,62,25" alt="application" href="/services.html?user=application">
-					<area shape="circle" coords="492,62,25" alt="data-scientist" href="/services.html?user=data-scientist">
-					<area shape="circle" coords="692,62,25" alt="provider" href="/services.html?user=provider">
-					<area class="trigger" shape="rect" coords="0,115,185,315" alt="application">
-					<area class="trigger" shape="rect" coords="200,115,385,315" alt="middleware">
-					<area class="trigger" shape="rect" coords="400,115,585,315" alt="integration">
-					<area class="trigger" shape="rect" coords="600,115,785,315" alt="support">
-				</map> -->
 			</div>
-			<div class="section-wrapper research_explanation">
-				<article class="article__section research__section-en padding15">
-					<h4>User Interface Development for the Integrated Database</h4>
-					<p>We are developing web services and contents to deliver the value of the integrated database so that the
-						researchers can utilize it effectively. The services include integrated search interface for genome and
-						expression data and query interface by natural languages. We are also develop tools for applying the
-						services to applications such as medical research and genome editing.</p>
+			<div class="modal">
+				<article class="modal__content">
+					<div class="introduction application">
+						<h4>Application</h4>
+						<h5>User Interface Development for the Integrated Database</h5>
+						<p>
+							We are developing web services and contents to deliver the value of the integrated database so that the
+							researchers can
+							utilize it effectively. The services include integrated search interface for genome and expression data
+							and query
+							interface by natural languages. We are also develop tools for applying the services to applications such
+							as medical
+							research and genome editing.
+						</p>
+					</div>
+					{% for section in site.data.research_modal.application %}
 					<ul class="research__list">
 						<li>
-							<span class="reference-ja">[Integrated search for genome and expression data]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://togogenome.org/">TogoGenome</a>
+							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<ul class="sublist">
+								{% for sublist in section.sub_list %}
+								<li class="tooltip" id="{{sublist.id}}">
+									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+										{% if sublist.description_en != nil %}
+										<div>{{sublist.description_en}}</div>
+										{% endif %}
+									</a>
 								</li>
-								<li>
-									<a target="_blank" href="http://sra.dbcls.jp/">DBCLS SRA</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://refex.dbcls.jp/">RefEx</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://aoe.dbcls.jp/">AOE</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://GGRNA.dbcls.jp/en/">GGRNA</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://GGGenome.dbcls.jp/en/">GGGenome</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://gendoo.dbcls.jp/">Gendoo</a>
-								</li>
+								{% endfor %}
 							</ul>
 						</li>
 					</ul>
-					<ul class="research__list">
-						<li>
-							<span class="reference-ja">[Integrated search by NLP(natural language processing)]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://lodqa.org">LODQA</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					</ul>
-					<ul class="research__list">
-						<li>
-							<span class="reference-ja">[Application]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="https://pubcasefinder.dbcls.jp/">PubCaseFinder</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://crispr.dbcls.jp/">CRISPRdirect</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<ul class="research__list">
-						<li>
-							<span class="reference-ja">[Contents]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://lifesciencedb.jp/bp3d/ag_annotation.cgi">BodyParts3D</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://togotv.dbcls.jp/en/">TogoTV</a>
-								</li>
-								<!--li>
-			                  <a target="_blank" href="http://first.lifesciencedb.jp/">First authors / Leading authors</a>
-			                </li>
-			                <li>
-			                  <a target="_blank" href="http://qa.lifesciencedb.jp/">Lif Science QA</a>
-			                </li-->
-							</ul>
-						</li>
-					</ul>
+					{% endfor %}
 				</article>
-				<article class="article__section research__section-en padding15">
-					<h4>Efficient Access and Maintenance for the Integrated Database</h4>
-					<p>We are conducting research and development for database integration based on semantic web technology and
-						for the difficulty in database integration caused by dispersed databases. We are also developing new methods
-						to handle RDFized data efficiently as well as utilizing currently available up-to-date technologies, and
-						supporting users for stable operation of databases from the database integration project.</p>
+			</div>
+			<div class="modal">
+				<article class="modal__content">
+					<div class="introduction middleware">
+						<h4>Middleware</h4>
+						<h5>Efficient Access and Maintenance for the Integrated Database</h5>
+						<p>We are conducting research and development for database integration based on semantic web technology and
+							for the
+							difficulty in database integration caused by dispersed databases. We are also developing new methods to
+							handle RDFized
+							data efficiently as well as utilizing currently available up-to-date technologies, and supporting users
+							for stable
+							operation of databases from the database integration project.</p>
+					</div>
+					{% for section in site.data.research_modal.middleware %}
 					<ul class="research__list">
 						<li>
-							<span class="reference-ja">[Support tools for RDF search]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://d.umaka.dbcls.jp/">Umaka-Yummy</a> / <a target="_blank"
-										href="http://www.sparqlbuilder.org/">SPARQL Builder</a>
+							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<ul class="sublist">
+								{% for sublist in section.sub_list %}
+								<li class="tooltip" id="{{sublist.id}}">
+									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+										{% if sublist.description_en != nil %}
+										<div>{{sublist.description_en}}</div>
+										{% endif %}
+									</a>
 								</li>
-								<li>
-									<a target="_blank" href="http://sparql-support.dbcls.jp/">SPARQL support</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://github.com/dbcls/sparqlist">SPARQList</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://spang.dbcls.jp/">SPANG</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://github.com/dbcls/sparql-proxy">SPARQL-proxy</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://togostanza.org/">TogoStanza</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://biohackathon.org/d3sparql/">d3sparql.jp</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://togotable.dbcls.jp">TogoTable</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://togows.org/">TogoWS</a>
-								</li>
+								{% endfor %}
 							</ul>
 						</li>
 					</ul>
+					{% endfor %}
 				</article>
-				<article class="article__section research__section-en padding15">
-					<h4>Basic Technology Development for Database Integration</h4>
-					<p>We promote database integration using semantic web technology. Applying the Resource Description Framework
-						(RDF), which is a framework for describing resources on the semantic web, extends the usefulness of
-						information in individual data. Annotation for the relationship between data by experts and knowledge from
-						literature is important for database integration focusing on semantics. We support RDFization of various
-						data/information and develop basic technologies for database integration.</p>
+			</div>
+			<div class="modal">
+				<article class="modal__content">
+					<div class="introduction integration">
+						<h4>Integration</h4>
+						<h5>Basic Technology Development for Database Integration</h5>
+						<p>We promote database integration using semantic web technology. Applying the Resource Description
+							Framework (RDF), which
+							is a framework for describing resources on the semantic web, extends the usefulness of information in
+							individual data.
+							Annotation for the relationship between data by experts and knowledge from literature is important for
+							database
+							integration focusing on semantics. We support RDFization of various data/information and develop basic
+							technologies for
+							database integration.</p>
+					</div>
+					{% for section in site.data.research_modal.database %}
 					<ul class="research__list">
 						<li>
-							<span class="reference-ja">[Support tools for RDFization of databases]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://d2rq.dbcls.jp/">D2RQ Mapper</a>
+							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<ul class="sublist">
+								{% for sublist in section.sub_list %}
+								<li class="tooltip" id="{{sublist.id}}">
+									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+										{% if sublist.description_en != nil %}
+										<div>{{sublist.description_en}}</div>
+										{% endif %}
+									</a>
 								</li>
-								<li>
-									<a target="_blank" href="http://togodb.org/">TogoDB</a>
-								</li>
+								{% endfor %}
 							</ul>
 						</li>
 					</ul>
-					<ul class="research__list">
-						<li>
-							<span class="reference-ja">[Suport tools for knowledge extraction and RDFization]</span>
-							<br>
-							<ul>
-								<li>
-									<a target="_blank" href="http://pubannotation.org/">PubAnnotation</a> / <a target="_blank"
-										href="http://textae.pubannotation.org/">TextAE</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://pubdictionaries.org">PubDictionaries</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://allie.dbcls.jp/en/">Allie</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://colil.dbcls.jp/">Colil</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://docman.dbcls.jp/im/index.html.en">inMeXes</a>
-								</li>
-								<li>
-									<a target="_blank" href="http://ontofinder.dbcls.jp/">OntoFinder</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-
+					{% endfor %}
 				</article>
-				<article class="article__section research__section-en padding15">
-					<h4>Standardization for Database Integration</h4>
-					<p>By connecting databases with linkages in various aspects the value of each database can be enriched. To
-						realize such a connection, we support database integration based on the RDFization technology developed by
-						us. We also work together with intra- and international research organizations who are operating various
-						databases, thus we contribute in developing international guidelines and principles for database integration
-						using semantic web technology.</p>
+			</div>
+			<div class="modal">
+				<article class="modal__content">
+					<div class="introduction support">
+						<h4>Support</h4>
+						<h5>Standardization for Database Integration
+						</h5>
+						<p>By connecting databases with linkages in various aspects the value of each database can be enriched. To
+							realize such a
+							connection, we support database integration based on the RDFization technology developed by us. We also
+							work together
+							with intra- and international research organizations who are operating various databases, thus we
+							contribute in
+							developing international guidelines and principles for database integration using semantic web technology.
+						</p>
+					</div>
+					{% for section in site.data.research_modal.support %}
 					<ul class="research__list">
 						<li>
-							<span class="reference-ja">[Related links]</span>
-							<br>
-							<ul>
-								<li><a target="_blank"
-										href="https://github.com/dbcls/rdfizing-db-guidelines/blob/master/RDF-portal-guidelines-en.md"
-										title="">RDFization Guideline</a></li>
-								<li><a target="_blank" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon" title="">SPARQLthon</a></li>
-								<li><a target="_blank" href="https://integbio.jp/rdf/" title="">NBDC RDF Portal</a></li>
-								<li><a target="_blank" href="http://lsd.dbcls.jp/portal/index_en.html" title="">LSD RDF Data Portal</a>
+							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<ul class="sublist">
+								{% for sublist in section.sub_list %}
+								<li class="tooltip" id="{{sublist.id}}">
+									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+										{% if sublist.description_en != nil %}
+										<div>{{sublist.description_en}}</div>
+										{% endif %}
+									</a>
 								</li>
-								<li><a target="_blank" href="http://biohackathon.org/" title="">BioHackathon</a></li>
+								{% endfor %}
 							</ul>
 						</li>
 					</ul>
-
+					{% endfor %}
 				</article>
 			</div>
 		</div>
@@ -364,6 +268,8 @@
 
 	<script src="script/default.js"></script>
 	<script src="script/research.js"></script>
+	<script src="script/popper.min.js"></script>
+	<script src="script/tippy-bundle.umd.min.js"></script>
 </body>
 
 </html>

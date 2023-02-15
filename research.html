@@ -80,13 +80,13 @@
           </div>
         </div>
         <div class="research__image-users">
-          <div class="researcher">
+          <div class="dbuser">
             <h3>データベース利用者</h3>
             <a class="research__services-button" href="/services.html?user=biologist">
               <span class="material-icons">play_circle</span>
               サービス一覧</a>
           </div>
-          <div class="developer">
+          <div class="app-dev">
             <h3>アプリケーション開発</h3>
             <a class="research__services-button" href="/services.html?user=application">
               <span class="material-icons">play_circle</span>
@@ -117,130 +117,129 @@
           </div>
         </div>
       </div>
-      <div class="section-wrapper research_explanation">
-        <div class="modal">
-          <article class="modal__content">
-            <div class="introduction application">
-              <h4>アプリケーション開発</h4>
-              <h5>データベース統合利用のための環境構築</h5>
-              <p>
-                統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
-              </p>
-            </div>
-            {% for section in site.data.research_modal.application %}
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">{{section.subtitle}}</div>
-                <ul class="sublist">
-                  {% for sublist in section.sub_list %}
-                  <li class="tooltip" id="{{sublist.id}}">
-                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                      {% if sublist.description != nil %}
-                      <div>{{sublist.description}}</div>
-                      {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
-            {% endfor %}
-          </article>
-        </div>
-        <div class="modal">
-          <article class="modal__content">
-            <div class="introduction middleware">
-              <h4>ミドルウェア開発</h4>
-              <h5>データベースの効率的な運用と拡張</h5>
-              <p>
-                データベースや各種のサービスを運用するにあたり、セマンティック・ウェブ技術に基づいた運用や、分散環境への対応についての調査・研究開発を行っています。研究開発の成果として公開されたデータベースを安定的に運用するため、新規技術の導入や既存のデータベース利用者への対応なども継続して行うとともに、
-                RDF 化されたデータを効率よく扱うための技術を開発しています。
-              </p>
-            </div>
-            {% for section in site.data.research_modal.middleware %}
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">{{section.subtitle}}</div>
-                <ul class="sublist">
-                  {% for sublist in section.sub_list %}
-                  <li class="tooltip" id="{{sublist.id}}">
-                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                      {% if sublist.description != nil %}
-                      <div>{{sublist.description}}</div>
-                      {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
-            {% endfor %}
-          </article>
-        </div>
-        <div class="modal">
-          <article class="modal__content">
-            <div class="introduction integration">
-              <h4>データベース統合</h4>
-              <h5>データベース統合化のための基盤技術開発</h5>
-              <p>
-                統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
-              </p>
-            </div>
-            {% for section in site.data.research_modal.database %}
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">{{section.subtitle}}</div>
-                <ul class="sublist">
-                  {% for sublist in section.sub_list %}
-                  <li class="tooltip" id="{{sublist.id}}">
-                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                      {% if sublist.description != nil %}
-                      <div>{{sublist.description}}</div>
-                      {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
-            {% endfor %}
-          </article>
-        </div>
-        <div class="modal">
-          <article class="modal__content">
-            <div class="introduction support">
-              <h4>データベース統合化支援</h4>
-              <h5>統合化支援と統合化のための国際標準整備</h5>
-              <p>
-                個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF
-                技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS
-                はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
-              </p>
-            </div>
-            {% for section in site.data.research_modal.support %}
-            <ul class="research__list">
-              <li>
-                <div class="reference-ja">{{section.subtitle}}</div>
-                <ul class="sublist">
-                  {% for sublist in section.sub_list %}
-                  <li class="tooltip" id="{{sublist.id}}">
-                    <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                      {% if sublist.description != nil %}
-                      <div>{{sublist.description}}</div>
-                      {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
-            {% endfor %}
-          </article>
-        </div>
+      <div class="modal">
+        <article class="modal__content">
+          <div class="introduction application">
+            <h4>アプリケーション開発</h4>
+            <h5>データベース統合利用のための環境構築</h5>
+            <p>
+              統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
+            </p>
+          </div>
+          {% for section in site.data.research_modal.application %}
+          <ul class="research__list">
+            <li>
+              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <ul class="sublist">
+                {% for sublist in section.sub_list %}
+                <li class="tooltip" id="{{sublist.id}}">
+                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                    {% if sublist.description_jp != nil %}
+                    <div>{{sublist.description_jp}}</div>
+                    {% endif %}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          {% endfor %}
+        </article>
+      </div>
+      <div class="modal">
+        <article class="modal__content">
+          <div class="introduction middleware">
+            <h4>ミドルウェア開発</h4>
+            <h5>データベースの効率的な運用と拡張</h5>
+            <p>
+              データベースや各種のサービスを運用するにあたり、セマンティック・ウェブ技術に基づいた運用や、分散環境への対応についての調査・研究開発を行っています。研究開発の成果として公開されたデータベースを安定的に運用するため、新規技術の導入や既存のデータベース利用者への対応なども継続して行うとともに、
+              RDF 化されたデータを効率よく扱うための技術を開発しています。
+            </p>
+          </div>
+          {% for section in site.data.research_modal.middleware %}
+          <ul class="research__list">
+            <li>
+              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <ul class="sublist">
+                {% for sublist in section.sub_list %}
+                <li class="tooltip" id="{{sublist.id}}">
+                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                    {% if sublist.description_jp != nil %}
+                    <div>{{sublist.description_jp}}</div>
+                    {% endif %}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          {% endfor %}
+        </article>
+      </div>
+      <div class="modal">
+        <article class="modal__content">
+          <div class="introduction integration">
+            <h4>データベース統合</h4>
+            <h5>データベース統合化のための基盤技術開発</h5>
+            <p>
+              統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
+            </p>
+          </div>
+          {% for section in site.data.research_modal.database %}
+          <ul class="research__list">
+            <li>
+              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <ul class="sublist">
+                {% for sublist in section.sub_list %}
+                <li class="tooltip" id="{{sublist.id}}">
+                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                    {% if sublist.description_jp != nil %}
+                    <div>{{sublist.description_jp}}</div>
+                    {% endif %}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          {% endfor %}
+        </article>
+      </div>
+      <div class="modal">
+        <article class="modal__content">
+          <div class="introduction support">
+            <h4>データベース統合化支援</h4>
+            <h5>統合化支援と統合化のための国際標準整備</h5>
+            <p>
+              個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF
+              技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS
+              はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
+            </p>
+          </div>
+          {% for section in site.data.research_modal.support %}
+          <ul class="research__list">
+            <li>
+              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <ul class="sublist">
+                {% for sublist in section.sub_list %}
+                <li class="tooltip" id="{{sublist.id}}">
+                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
+                    {% if sublist.description_jp != nil %}
+                    <div>{{sublist.description_jp}}</div>
+                    {% endif %}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          {% endfor %}
+        </article>
       </div>
     </div>
   </div>
   {% include footer.html %}
+
   <script src="script/default.js"></script>
   <script src="script/research.js"></script>
   <script src="script/popper.min.js"></script>

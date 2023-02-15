@@ -1,42 +1,53 @@
-- subtitle: RDF 検索支援ツール
+- subtitle_jp: RDF 検索支援ツール
+  subtitle_en: Support tools for RDF search
   sub_list:
     - id: Umaka-Yummy/Data
       url: http://d.umaka.dbcls.jp/
       image_source: img/service_assets/Umaka_Yummy_Data.png
-      description:
+      description_jp:
+      description_en:
     - id: SPARQLBuilder
       url: http://www.sparqlbuilder.org/
       image_source: img/service_assets/SPARQL_Builder.png
-      description:
+      description_jp:
+      description_en:
     - id: Endpoint browser
       url: http://sparql-support.dbcls.jp/
       image_source: img/service_assets/endpoint-browser.png
-      description:
+      description_jp:
+      description_en:
     - id: SPARQList
       url: https://github.com/dbcls/sparqlist
       image_source: img/service_assets/SPARQList.png
-      description:
+      description_jp:
+      description_en:
     - id: SPANG
       url: http://spang.dbcls.jp/
       image_source: img/service_assets/spang.png
-      description:
+      description_jp:
+      description_en:
     - id: SPARQL-proxy
       url: https://github.com/dbcls/sparql-proxy
       image_source: img/service_assets/SPARQL_proxy.png
-      description:
+      description_jp:
+      description_en:
     - id: TogoStanza
       url: http://togostanza.org/
       image_source: img/service_assets/TogoStanza.png
-      description:
+      description_jp:
+      description_en:
     - id: d3sparql.js
       url: http://biohackathon.org/d3sparql/
       image_source: img/service_assets/d3sparql.js.png
-      description:
+      description_jp:
+      description_en:
     - id: TogoTable
       url: http://togotable.dbcls.jp
       image_source: img/service_assets/TogoTable.png
-      description:
+      description_jp:
+      description_en:
     - id: TogoWS
       url: http://togows.org/
       image_source: img/service_assets/TogoWS.png
-      description:
+      description_jp:
+      description_en:

@@ -1,74 +1,95 @@
-- subtitle: ゲノム・発現統合検索
+- subtitle_jp: ゲノム・発現統合検索
+  subtitle_en: Integrated search for genome and expression data
   sub_list:
     - id: TogoGenome
       url: http://togogenome.org/
       image_source: img/service_assets/TogoGenome.svg
-      description:
+      description_jp:
+      description_en:
     - id: DBCLS SRA
       url: http://sra.dbcls.jp/
       image_source: img/service_assets/DBCLS_SRA.png
-      description: DBCLS SRA
+      description_jp: DBCLS SRA
+      description_en: DBCLS SRA
     - id: RefEx
       url: http://refex.dbcls.jp/
       image_source: img/service_assets/RefEx.png
-      description:
+      description_jp:
+      description_en:
     - id: AOE
       url: http://aoe.dbcls.jp/
       image_source: img/service_assets/AOE.svg
-      description:
+      description_jp:
+      description_en:
     - id: GGRNA
       url: https://GGRNA.dbcls.jp/
       image_source: img/service_assets/GGRNA_new.png
-      description:
+      description_jp:
+      description_en:
     - id: GGGenome
       url: https://GGGenome.dbcls.jp/
       image_source: img/service_assets/GGGenome_en2021.svg
-      description:
+      description_jp:
+      description_en:
     - id: Gendoo
       url: http://gendoo.dbcls.jp/
       image_source: img/service_assets/gendoo.png
-      description:
-- subtitle: 自然言語による統合検索
+      description_jp:
+      description_en:
+- subtitle_jp: 自然言語による統合検索
+  subtitle_en: Integrated search by NLP(natural language processing)
   sub_list:
     - id: LODQA
       url: https://www.lodqa.org/
       image_source: img/service_assets/LODQA.svg
-      description:
-- subtitle: 応用ツール
+      description_jp:
+      description_en:
+- subtitle_jp: 応用ツール
+  subtitle_en: Application
   sub_list:
     - id: PubCaseFinder
       url: https://pubcasefinder.dbcls.jp/
       image_source: img/service_assets/PubCaseFinder.png
-      description:
+      description_jp:
+      description_en:
     - id: CRISPRdirect
       url: https://crispr.dbcls.jp/
       image_source: img/service_assets/CRISPRdirect.svg
-      description:
-- subtitle: コンテンツ
+      description_jp:
+      description_en:
+- subtitle_jp: コンテンツ
+  subtitle_en: Contents
   sub_list:
     - id: FirstAuthors
       url: http://first.lifesciencedb.jp/
       image_source: img/service_assets/201904_FA.svg
-      description:
+      description_jp:
+      description_en:
     - id: LeadingAuthors SRA
       url: https://leading.lifesciencedb.jp/
       image_source: img/service_assets/201904_LA.svg
-      description:
+      description_jp:
+      description_en:
     - id: TogoTV
       url: http://togotv.dbcls.jp/
       image_source: img/service_assets/TogoTV2020.svg
-      description:
+      description_jp:
+      description_en:
     - id: BodyParts3D/Anatomography
       url: http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/
       image_source: img/service_assets/BodyParts3D_Anatomography.svg
-      description:
+      description_jp:
+      description_en:
     - id: LifescienceQA
       url: http://qa.lifesciencedb.jp/
       image_source: img/service_assets/lifescience-qa.png
-      description:
-- subtitle: 戦略的イノベーション創造プログラム (SIP)
+      description_jp:
+      description_en:
+- subtitle_jp: 戦略的イノベーション創造プログラム (SIP)
+  subtitle_en: Cross-ministerial Strategic Innovation Promotion Program
   sub_list:
     - id: SIPDatabase
       url: https://sip-db.dbcls.jp/
       image_source:
-      description: スマートバイオ産業・農業基盤技術関連データ
+      description_jp: スマートバイオ産業・農業基盤技術関連データ
+      description_en: Technologies for Smart Bio-Industry and Agriculture
