@@ -142,13 +142,13 @@
 					{% for section in site.data.research_modal.application %}
 					<ul class="research__list">
 						<li>
-							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<div>{{section.subtitle.en}}</div>
 							<ul class="sublist">
-								{% for sublist in section.sub_list %}
-								<li class="tooltip" id="{{sublist.id}}">
-									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-										{% if sublist.description_en != nil %}
-										<div>{{sublist.description_en}}</div>
+								{% for item in section.items %}
+								<li class="tooltip" id="{{item.id}}">
+									<a target="_blank" href="{{item.url.en}}"><img src="{{item.image}}">
+										{% if item.description.en != nil %}
+										<div>{{item.description.en}}</div>
 										{% endif %}
 									</a>
 								</li>
@@ -175,13 +175,13 @@
 					{% for section in site.data.research_modal.middleware %}
 					<ul class="research__list">
 						<li>
-							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<div>{{section.subtitle.en}}</div>
 							<ul class="sublist">
-								{% for sublist in section.sub_list %}
-								<li class="tooltip" id="{{sublist.id}}">
-									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-										{% if sublist.description_en != nil %}
-										<div>{{sublist.description_en}}</div>
+								{% for item in section.items %}
+								<li class="tooltip" id="{{item.id}}">
+									<a target="_blank" href="{{item.url.en}}"><img src="{{item.image}}">
+										{% if item.description.en != nil %}
+										<div>{{item.description.en}}</div>
 										{% endif %}
 									</a>
 								</li>
@@ -210,13 +210,13 @@
 					{% for section in site.data.research_modal.database %}
 					<ul class="research__list">
 						<li>
-							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<div>{{section.subtitle.en}}</div>
 							<ul class="sublist">
-								{% for sublist in section.sub_list %}
-								<li class="tooltip" id="{{sublist.id}}">
-									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-										{% if sublist.description_en != nil %}
-										<div>{{sublist.description_en}}</div>
+								{% for item in section.items %}
+								<li class="tooltip" id="{{item.id}}">
+									<a target="_blank" href="{{item.url.en}}"><img src="{{item.image}}">
+										{% if item.description.en != nil %}
+										<div>{{item.description.en}}</div>
 										{% endif %}
 									</a>
 								</li>
@@ -245,13 +245,13 @@
 					{% for section in site.data.research_modal.support %}
 					<ul class="research__list">
 						<li>
-							<div class="reference-ja">{{section.subtitle_en}}</div>
+							<div>{{section.subtitle.en}}</div>
 							<ul class="sublist">
-								{% for sublist in section.sub_list %}
-								<li class="tooltip" id="{{sublist.id}}">
-									<a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-										{% if sublist.description_en != nil %}
-										<div>{{sublist.description_en}}</div>
+								{% for item in section.items %}
+								<li class="tooltip" id="{{item.id}}">
+									<a target="_blank" href="{{item.url.en}}"><img src="{{item.image}}">
+										{% if item.description.en != nil %}
+										<div>{{item.description.en}}</div>
 										{% endif %}
 									</a>
 								</li>

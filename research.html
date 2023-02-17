@@ -129,13 +129,13 @@
           {% for section in site.data.research_modal.application %}
           <ul class="research__list">
             <li>
-              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <div>{{section.subtitle.ja}}</div>
               <ul class="sublist">
-                {% for sublist in section.sub_list %}
-                <li class="tooltip" id="{{sublist.id}}">
-                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                    {% if sublist.description_jp != nil %}
-                    <div>{{sublist.description_jp}}</div>
+                {% for item in section.items %}
+                <li class="tooltip" id="{{item.id}}">
+                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
+                    {% if item.description.ja != nil %}
+                    <div>{{item.description.ja}}</div>
                     {% endif %}
                   </a>
                 </li>
@@ -159,13 +159,13 @@
           {% for section in site.data.research_modal.middleware %}
           <ul class="research__list">
             <li>
-              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <div>{{section.subtitle.ja}}</div>
               <ul class="sublist">
-                {% for sublist in section.sub_list %}
-                <li class="tooltip" id="{{sublist.id}}">
-                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                    {% if sublist.description_jp != nil %}
-                    <div>{{sublist.description_jp}}</div>
+                {% for item in section.items %}
+                <li class="tooltip" id="{{item.id}}">
+                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
+                    {% if item.description.ja != nil %}
+                    <div>{{item.description.ja}}</div>
                     {% endif %}
                   </a>
                 </li>
@@ -188,13 +188,13 @@
           {% for section in site.data.research_modal.database %}
           <ul class="research__list">
             <li>
-              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <div>{{section.subtitle.ja}}</div>
               <ul class="sublist">
-                {% for sublist in section.sub_list %}
-                <li class="tooltip" id="{{sublist.id}}">
-                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                    {% if sublist.description_jp != nil %}
-                    <div>{{sublist.description_jp}}</div>
+                {% for item in section.items %}
+                <li class="tooltip" id="{{item.id}}">
+                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
+                    {% if item.description.ja != nil %}
+                    <div>{{item.description.ja}}</div>
                     {% endif %}
                   </a>
                 </li>
@@ -219,13 +219,13 @@
           {% for section in site.data.research_modal.support %}
           <ul class="research__list">
             <li>
-              <div class="reference-ja">{{section.subtitle_jp}}</div>
+              <div>{{section.subtitle.ja}}</div>
               <ul class="sublist">
-                {% for sublist in section.sub_list %}
-                <li class="tooltip" id="{{sublist.id}}">
-                  <a target="_blank" href="{{sublist.url}}"><img src="{{sublist.image_source}}">
-                    {% if sublist.description_jp != nil %}
-                    <div>{{sublist.description_jp}}</div>
+                {% for item in section.items %}
+                <li class="tooltip" id="{{item.id}}">
+                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
+                    {% if item.description.ja != nil %}
+                    <div>{{item.description.ja}}</div>
                     {% endif %}
                   </a>
                 </li>

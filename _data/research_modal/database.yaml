@@ -1,51 +1,80 @@
-- subtitle_jp: データベース RDF 化支援ツール
-  subtitle_en: Support tools for RDFization of databases
-  sub_list:
+- subtitle:
+    ja: データベース RDF 化支援ツール
+    en: Support tools for RDFization of databases
+  items:
     - id: D2RQ
-      url: http://d2rq.dbcls.jp/
-      image_source: img/service_assets/D2RQ_Mapper.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://d2rq.dbcls.jp/
+        en: http://d2rq.dbcls.jp/
+      image: img/service_assets/D2RQ_Mapper.png
+      description:
+        ja:
+        en:
     - id: TogoDB
-      url: http://togodb.org/
-      image_source: img/service_assets/TogoDB.svg
-      description_jp:
-      description_en:
-- subtitle_jp: 知識の抽出および RDF 化支援ツール
-  subtitle_en: Suport tools for knowledge extraction and RDFization
-  sub_list:
+      url:
+        ja: http://togodb.org/
+        en: http://togodb.org/
+      image: img/service_assets/TogoDB.svg
+      description:
+        ja:
+        en:
+- subtitle:
+    ja: 知識の抽出および RDF 化支援ツール
+    en: Suport tools for knowledge extraction and RDFization
+  items:
     - id: PubAnnotation
-      url: http://pubannotation.org/
-      image_source: img/service_assets/PubAnnotation.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://pubannotation.org/
+        en: http://pubannotation.org/
+      image: img/service_assets/PubAnnotation.png
+      description:
+        ja:
+        en:
     - id: TextAE
-      url: http://textae.pubannotation.org/
-      image_source: img/service_assets/TextAE.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://textae.pubannotation.org/
+        en: http://textae.pubannotation.org/
+      image: img/service_assets/TextAE.png
+      description:
+        ja:
+        en:
     - id: PubDictionaries
-      url: http://pubdictionaries.org
-      image_source: img/service_assets/PubDictionaries.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://pubdictionaries.org
+        en: http://pubdictionaries.org
+      image: img/service_assets/PubDictionaries.png
+      description:
+        ja:
+        en:
     - id: Allie
-      url: http://allie.dbcls.jp/
-      image_source: img/service_assets/Allie.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://allie.dbcls.jp/
+        en: http://allie.dbcls.jp/
+      image: img/service_assets/Allie.png
+      description:
+        ja:
+        en:
     - id: Colil
-      url: http://colil.dbcls.jp/
-      image_source: img/service_assets/Colil.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://colil.dbcls.jp/
+        en: http://colil.dbcls.jp/
+      image: img/service_assets/Colil.png
+      description:
+        ja:
+        en:
     - id: inMeXes
-      url: https://docman.dbcls.jp/im/
-      image_source: img/service_assets/inMeXes.png
-      description_jp:
-      description_en:
+      url:
+        ja: https://docman.dbcls.jp/im/
+        en: https://docman.dbcls.jp/im/
+      image: img/service_assets/inMeXes.png
+      description:
+        ja:
+        en:
     - id: OntoFinder
-      url: http://ontofinder.dbcls.jp/
-      image_source: img/service_assets/ontofinder.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://ontofinder.dbcls.jp/
+        en: http://ontofinder.dbcls.jp/
+      image: img/service_assets/ontofinder.png
+      description:
+        ja:
+        en:

@@ -1,28 +1,44 @@
-- subtitle_jp: 関連リンク
-  subtitle_en: Related links
-  sub_list:
+- subtitle:
+    ja: 関連リンク
+    en: Related links
+  items:
     - id: DB Guidelines
-      url: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
-      image_source:
-      description_jp: RDF化ガイドライン
-      description_en: RDFizing Database Guideline
+      url:
+        ja: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
+        en: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
+      image:
+      description:
+        ja: RDF化ガイドライン
+        en: RDFizing Database Guideline
     - id: SPARQLthon
-      url: http://wiki.lifesciencedb.jp/mw/SPARQLthon
-      image_source: img/service_assets/SPARQLthon.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://wiki.lifesciencedb.jp/mw/SPARQLthon
+        en: http://wiki.lifesciencedb.jp/mw/SPARQLthon
+      image: img/service_assets/SPARQLthon.png
+      description:
+        ja:
+        en:
     - id: NBDC RDF Portal
-      url: https://integbio.jp/rdf/
-      image_source: img/service_assets/NBDC_RDF_Portal.png
-      description_jp:
-      description_en:
+      url:
+        ja: https://integbio.jp/rdf/
+        en: https://integbio.jp/rdf/
+      image: img/service_assets/NBDC_RDF_Portal.png
+      description:
+        ja:
+        en:
     - id: LSD RDF Data Portal
-      url: http://lsd.dbcls.jp/portal/
-      image_source: img/service_assets/LSD_RDF_Data_Portal.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://lsd.dbcls.jp/portal/
+        en: http://lsd.dbcls.jp/portal/
+      image: img/service_assets/LSD_RDF_Data_Portal.png
+      description:
+        ja:
+        en:
     - id: BioHackathon
-      url: http://biohackathon.org/
-      image_source: img/service_assets/BioHackathon.png
-      description_jp:
-      description_en:
+      url:
+        ja: http://biohackathon.org/
+        en: http://biohackathon.org/
+      image: img/service_assets/BioHackathon.png
+      description:
+        ja:
+        en:
