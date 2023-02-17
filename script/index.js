@@ -8,7 +8,7 @@ script.addEventListener('load', function () {
 
   // Swiper Library https://swiperjs.com/
   const swiper = new Swiper('.thumbnail-carousel', {
-    spaceBetween: 10,
+    spaceBetween: 5,
     slidesPerView: 6,
     direction: 'vertical',
   });
