@@ -9,14 +9,12 @@ script.addEventListener('load', function () {
   // Swiper Library https://swiperjs.com/
   const swiper = new Swiper('.thumbnail-carousel', {
     spaceBetween: 5,
-    slidesPerView: 6,
+    slidesPerView: 4,
     direction: 'vertical',
   });
   const swiper2 = new Swiper('.main-carousel', {
     autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: true,
+      delay: 100,
     },
     effect: 'fade',
     fadeEffect: {
@@ -31,4 +29,12 @@ script.addEventListener('load', function () {
       swiper: swiper,
     },
   });
+  window.__swiper2 = swiper2;
+  $('.main-image__wrapper')
+    .on('mouseenter', (e) => {
+      swiper2.autoplay.stop();
+    })
+    .on('mouseleave', (e) => {
+      swiper2.autoplay.start();
+    });
 });
