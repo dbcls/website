@@ -18,20 +18,20 @@
 <body>
 	{% include header.html %}
 	<div class="main-image__wrapper">
-		<div class="main-image__contents">
+		<div class="main-image__contents" data-slides-per-view="{{site.data.carousel.slides_per_view}}"
+			data-duration="{{site.data.carousel.duration}}">
 			<div class="swiper main-carousel">
 				<div class="swiper-wrapper main">
-					{% for item in site.data.carousel limit:6 %}
-
-					<div class="swiper-slide">
-						<a href="{{item.url}}" target="_blank"><img draggable="false" class="top-image"
-								src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}"></a>
-						<img draggable="false" class="reflection" src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
+					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
+					<div class=" swiper-slide">
+						<a href="{{item.url.ja}}" target="_blank"><img draggable="false" class="top-image" src="{{item.image}}"
+								alt="{{item.title.ja}}"></a>
+						<img draggable="false" class="reflection" src="{{item.image}}" alt="{{item.title.ja}}">
 						<div class="details">
-							<a href="{{item.url}}" target="_blank"><img draggable="false" class="details-logo"
-									src="img/top_assets/{{item.logo}}" alt="{{item.title_jp}}"></a>
-							<h2>{{item.title_jp}}</h2>
-							<p>{{item.description_jp}}
+							<a href="{{item.url.ja}}" target="_blank"><img draggable="false" class="details-logo"
+									src="{{item.logo}}" alt="{{item.title.ja}}"></a>
+							<h2>{{item.title.ja}}</h2>
+							<p>{{item.description.ja}}
 							</p>
 						</div>
 					</div>
@@ -41,8 +41,8 @@
 			<div thumbsSlider="" class="swiper thumbnail-carousel">
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-wrapper">
-					{% for item in site.data.carousel limit:6 %}
-					<div class="swiper-slide"><img draggable="false" src="img/top_assets/{{item.image}}" alt="{{item.title_jp}}">
+					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
+					<div class="swiper-slide"><img draggable="false" src="{{item.image}}" alt="{{item.title.ja}}">
 					</div>
 					{% endfor %}
 				</div>

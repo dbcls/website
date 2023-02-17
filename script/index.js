@@ -5,16 +5,18 @@ document.head.appendChild(script);
 
 script.addEventListener('load', function () {
   $('.news__individual-wrapper').css('display', 'block');
+  const slidesPerView = $('.main-image__contents').data().slidesPerView;
+  const duration = $('.main-image__contents').data().duration;
 
   // Swiper Library https://swiperjs.com/
   const swiper = new Swiper('.thumbnail-carousel', {
     spaceBetween: 5,
-    slidesPerView: 4,
+    slidesPerView: slidesPerView,
     direction: 'vertical',
   });
   const swiper2 = new Swiper('.main-carousel', {
     autoplay: {
-      delay: 100,
+      delay: duration,
     },
     effect: 'fade',
     fadeEffect: {
@@ -30,6 +32,7 @@ script.addEventListener('load', function () {
     },
   });
   window.__swiper2 = swiper2;
+  
   $('.main-image__wrapper')
     .on('mouseenter', (e) => {
       swiper2.autoplay.stop();
