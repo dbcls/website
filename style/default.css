@@ -1272,24 +1272,6 @@ footer a:hover {
 .section-wrapper .article__section .biohackason__list .biohackason__list li:nth-of-type(6) {
   margin-left: 10px;
 }
-.section-wrapper .article__section .research__list {
-  margin-top: 15px;
-}
-.section-wrapper .article__section .research__list li {
-  font-size: 12px;
-}
-.section-wrapper .article__section .research__list li .reference-ja {
-  margin-left: -8px;
-  margin-bottom: 3px;
-  display: inline-block;
-}
-.section-wrapper .article__section .research__list ul li {
-  line-height: 1.5em;
-}
-.section-wrapper .article__section .research__list ul a {
-  text-decoration: underline;
-  color: #004098;
-}
 .section-wrapper .research__section-ja:nth-of-type(5) {
   margin-left: 397px;
 }
@@ -1597,16 +1579,16 @@ table.matrix tbody td a:before {
   background-color: #CCBDB8;
 }
 .tag_element.dbuser:before {
-  color: #BA9806;
+  color: #E3C042;
 }
 .tag_element.app-dev:before {
-  color: #006635;
+  color: #6FB865;
 }
 .tag_element.data-scientist:before {
-  color: #224372;
+  color: #699BC2;
 }
 .tag_element.provider:before {
-  color: #821255;
+  color: #C97795;
 }
 .tag_element.term:before {
   background-color: #004098;
