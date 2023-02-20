@@ -1,3 +1,8 @@
+var script = document.createElement('script');
+
+script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js');
+document.head.appendChild(script);
+
 script.addEventListener('load', function () {
   var url = window.location;
   var path = url.href.split('/');
@@ -17,161 +22,88 @@ script.addEventListener('load', function () {
       async: true,
       success: function (data) {
         var elementArray = data;
+        var symbolYList = elementArray.filter((YList) => {
+          return YList['掲載'] === true;
+        });
         var element = '';
 
-        const orderMapping = {
-          other: [
-            '掲載',
-            'services_name_en',
-            'services_name_ja',
-            'explanation_ja',
-            'explanation_en',
-            'URL',
-            '画像',
-          ],
-          category: [
-            'Database integration/データベース統合',
-            'Materials/教材・資料',
-            'Genome/ゲノム',
-            'Gene/遺伝子',
-            'Gene expression/遺伝子発現',
-            'NGS',
-            'Disease/疾患',
-            'Natural language processing/自然言語処理',
-            'SPARQL Search/SPARQL検索',
-            'RDF creation/RDF作成',
-            'Database user/データベース利用者',
-            'Database application developer (REST API, SPARQL)/アプリケーション開発者 (REST API, SPARQL)',
-            'Data scientist/大規模データ解析者 (一括DL)',
-            'Data provider/データ所有者',
-          ],
-        };
-
-        function getOrder(target) {
-          const isOther = orderMapping.other.includes(target);
-          const isCategory = orderMapping.category.includes(target);
-          let order = 0;
-          if (isOther) {
-            order = elementArray[0].indexOf(target);
-          } else if (isCategory) {
-            order = elementArray[1].indexOf(target);
-          }
-          return order;
-        }
-        //column1に"Y"のあるrowをとってくる
-        var publication_order = getOrder('掲載');
-        var symbolYList = elementArray.filter((YList) => {
-          return YList[publication_order] === 'Y';
-        });
-
-        var service_name_order = getOrder('services_name_en');
-        var core_service_name_order = getOrder('services_name_ja');
-        var keyword_ja_order = getOrder('explanation_ja');
-        var keyword_en_order = getOrder('explanation_en');
-        var url_order = getOrder('URL');
-
-        var database_integration_order = getOrder(
-          'Database integration/データベース統合'
-        );
-        var materials_order = getOrder('Materials/教材・資料');
-        var genome_order = getOrder('Genome/ゲノム');
-        var gene_order = getOrder('Gene/遺伝子');
-        var gene_expression_order = getOrder('Gene expression/遺伝子発現');
-        var NGS_order = getOrder('NGS');
-        var disease_order = getOrder('Disease/疾患');
-        var natural_language_processing_order = getOrder(
-          'Natural language processing/自然言語処理'
-        );
-        var SPARQL_order = getOrder('SPARQL Search/SPARQL検索');
-        var RDF_creation_order = getOrder('RDF creation/RDF作成');
-
-        var dbuser_order = getOrder('Database user/データベース利用者');
-        var app_dev_order = getOrder(
-          'Database application developer (REST API, SPARQL)/アプリケーション開発者 (REST API, SPARQL)'
-        );
-        var data_scientist_order = getOrder(
-          'Data scientist/大規模データ解析者 (一括DL)'
-        );
-        var provider_order = getOrder('Data provider/データ所有者');
-        var image_order = getOrder('画像');
-
-        var tagMapping = {
+        const tagMapping = {
           'database-integration': {
-            order: database_integration_order,
+            id: 'Category_1',
             ja: 'データベース統合',
             en: 'Database integration',
           },
           materials: {
-            order: materials_order,
+            id: 'Category_2',
             ja: '教材・資料',
             en: 'Materials',
           },
           genome: {
-            order: genome_order,
+            id: 'Category_3',
             ja: 'ゲノム',
             en: 'Genome',
           },
           gene: {
-            order: gene_order,
+            id: 'Category_4',
             ja: '遺伝子',
             en: 'Gene',
           },
           'gene-expression': {
-            order: gene_expression_order,
+            id: 'Category_5',
             ja: '遺伝子発現',
             en: 'Gene expression',
           },
           NGS: {
-            order: NGS_order,
+            id: 'Category_6',
             ja: 'NGS',
             en: 'NGS',
           },
           disease: {
-            order: disease_order,
+            id: 'Category_7',
             ja: '疾患',
             en: 'Disease',
           },
           'natural-language-processing': {
-            order: natural_language_processing_order,
+            id: 'Category_8',
             ja: '自然言語処理',
             en: 'Natural language processing',
           },
           SPARQL: {
-            order: SPARQL_order,
+            id: 'Category_9',
             ja: 'SPARQL検索',
             en: 'SPARQL Search',
           },
           'RDF-creation': {
-            order: RDF_creation_order,
+            id: 'Category_10',
             ja: 'RDF作成',
             en: 'RDF creation',
           },
           dbuser: {
-            order: dbuser_order,
+            id: 'User_1',
             ja: 'データベース利用者',
             en: 'Database user',
           },
           'app-dev': {
-            order: app_dev_order,
+            id: 'User_2',
             ja: 'アプリケーション開発者',
             en: 'Database application developer',
           },
           'data-scientist': {
-            order: data_scientist_order,
+            id: 'User_3',
             ja: '大規模データ解析者',
             en: 'Data scientist',
           },
           provider: {
-            order: provider_order,
-            ja: ' データ所有者',
+            id: 'User_4',
+            ja: 'データ所有者',
             en: 'Data provider',
           },
         };
 
         function getClassName(num) {
           var tagName = [];
-          for (const [key, item] of Object.entries(tagMapping)) {
-            if (symbolYList[num][item.order] === 'Y') {
+          for (const [key, value] of Object.entries(tagMapping)) {
+            if (symbolYList[num][value.id]) {
               tagName.push(key);
             }
           }
@@ -179,95 +111,66 @@ script.addEventListener('load', function () {
         }
 
         //file名の取得
-        for (var i = 0; i < symbolYList.length; i++) {
+        for (const [i, symbol] of symbolYList.entries()) {
           var tagArray = getClassName(i);
           var tagName = tagArray.join(' ');
 
-          function addTagLine(array, lang) {
-            var categoryTag = '<div class="tag_wrapper">';
-            if (lang === 'ja') {
-              for (var j = 0; j < array.length; j++) {
-                var category_name = array[j];
+          function addTagLine(tagArray, lang) {
+            let temp = '';
+            const addCategory = (lang) => {
+              for (const j in tagArray) {
+                let category_name = tagArray[j];
                 let user = '';
                 if (
-                  ['dbuser', 'app-dev', 'data-scientist', 'provider'].includes(
-                    category_name
+                  ['User_1', 'User_2', 'User_3', 'User_4'].includes(
+                    tagMapping[category_name]['id']
                   )
                 ) {
                   user = 'user';
                 }
-                categoryTag +=
-                  '<div class="service_category card ' +
-                  user +
-                  ' tag_element ' +
-                  array[j] +
-                  '">' +
-                  tagMapping[category_name].ja +
-                  '</div>';
+                temp += `<div class="service_category card ${user} tag_element ${tagArray[j]}">${tagMapping[category_name][lang]}</div>`;
               }
-            } else if (lang === 'en') {
-              for (var j = 0; j < array.length; j++) {
-                var category_name = array[j];
-                let user = '';
-                if (
-                  ['dbuser', 'app-dev', 'data-scientist', 'provider'].includes(
-                    category_name
-                  )
-                ) {
-                  user = 'user';
-                }
-                categoryTag +=
-                  '<div class="service_category card ' +
-                  user +
-                  ' tag_element ' +
-                  array[j] +
-                  '">' +
-                  tagMapping[category_name].en +
-                  '</div>';
-              }
-            }
-            categoryTag += '</div>';
+            };
+            addCategory(lang);
+            const categoryTag = `<div class="tag_wrapper">${temp}</div>`;
             return categoryTag;
           }
 
-          var service_name_hash = symbolYList[i][service_name_order];
+          var service_name_hash = symbol['services_name_en'];
           service_name_hash = service_name_hash.replace(/ /g, '_');
           if (service_name_hash.indexOf('/') !== -1) {
             service_name_hash = encodeURIComponent(service_name_hash);
           }
 
           var lang = $('html').attr('lang');
-          const addServiceItem = (lang) => {
+          const addHTMLElements = (lang) => {
             const moreText = lang === 'ja' ? '詳細' : 'more';
             const accessText = lang === 'ja' ? 'アクセス' : 'Access';
-            const serviceNameOrder =
-              lang === 'ja' ? core_service_name_order : service_name_order;
-            const keywordOrder =
-              lang === 'ja' ? keyword_ja_order : keyword_en_order;
             return (
               `<article class="article__section contener-type-box mix ${tagName}">
               <div id="repos_image0" class="repos_image">
-              <a href="${symbolYList[i][url_order]}" target="_blank">
-              <img src="./img/service_assets/${symbolYList[i][image_order]}" alt="${symbolYList[i][service_name_order]}" class="object-fit-img img_services" />
+              <a href="${symbol['URL']}" target="_blank">
+              <img src="./img/service_assets/${symbol['画像']}" alt="${symbol['services_name_en']}" class="object-fit-img img_services" />
               </a>
               </div>
               <div id="repos_name${i}" class="repos_name">` +
               `<p class="name name_${lang}" id="` +
-              symbolYList[i][service_name_order] +
+              symbol[`services_name_en`] +
               '">' +
-              symbolYList[i][serviceNameOrder] +
+              symbol[`services_name_${lang}`] +
               '</p>' +
               '<div class="keyword"><p>' +
-              symbolYList[i][keywordOrder] +
+              symbol[`explanation_${lang}`] +
               '</p></div>' +
               addTagLine(tagArray, lang) +
               `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${moreText}</a>` +
               '<a href="' +
-              symbolYList[i][url_order] +
-              `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div></article>`
+              symbol['URL'] +
+              `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div>`
             );
           };
-          element += addServiceItem(lang);
+          element += addHTMLElements(lang);
+          element += '</article>';
         }
         $('#service_list').append(element);
         var containerEl = document.querySelector('.service__wrapper');
@@ -279,9 +182,10 @@ script.addEventListener('load', function () {
             enable: true,
           },
           callbacks: {
-            onMixClick: function (state, e) {
+            onMixClick: function (state, originalEvent) {
+              const e = originalEvent;
               const isCategory = e.target.classList.contains('category');
-              const buttonType = () => (isCategory ? 'category' : 'user');
+              const buttonType = isCategory ? 'category' : 'user';
               const isAllButton = e.target.classList.contains('all');
               const isActiveButton = e.target.classList.contains(
                 'mixitup-control-active'
@@ -289,31 +193,31 @@ script.addEventListener('load', function () {
               const currentUrl = new URL(window.location.href);
               const searchParams = new URLSearchParams(currentUrl.search);
               const buttonName = e.target.dataset.toggle?.substr(1);
-              const urlParamsHandler = (paramKey) => {
-                const paramValue = searchParams.get(paramKey);
+              const urlParamsHandler = () => {
+                const paramValue = searchParams.get(buttonType);
                 const paramValueArray = () => {
                   return paramValue !== null ? paramValue.split(',') : [];
                 };
                 const addParamValue = () => {
                   let newParamValue = paramValue + ',' + buttonName;
-                  searchParams.set(paramKey, newParamValue);
+                  searchParams.set(buttonType, newParamValue);
                 };
                 const deleteParamValue = () => {
                   const copy = [...paramValueArray()];
                   const targetIndex = copy.indexOf(buttonName);
                   copy.splice(targetIndex, 1);
-                  searchParams.set(paramKey, copy.toString());
+                  searchParams.set(buttonType, copy.toString());
                 };
                 if (isAllButton) {
-                  searchParams.delete(paramKey);
+                  searchParams.delete(buttonType);
                 } else {
                   if (paramValueArray().length === 0) {
-                    searchParams.append(paramKey, buttonName);
+                    searchParams.append(buttonType, buttonName);
                   } else {
                     if (paramValueArray().includes(buttonName)) {
                       if (isActiveButton) {
                         paramValueArray().length === 1
-                          ? searchParams.delete(paramKey)
+                          ? searchParams.delete(buttonType)
                           : deleteParamValue();
                       }
                     } else {
@@ -325,7 +229,7 @@ script.addEventListener('load', function () {
                 let newUrl = currentUrl.href;
                 window.history.pushState({}, '', newUrl);
               };
-              urlParamsHandler(buttonType());
+              urlParamsHandler(buttonType);
             },
             onMixStart: function (state, futureState) {
               window.scrollTo({
@@ -392,39 +296,26 @@ script.addEventListener('load', function () {
       dataType: 'json',
     }).done(function (data) {
       var services_array = data;
-      var publication_order = getOrder('掲載');
       var services_array_Y = services_array.filter((services_array) => {
-        return services_array[publication_order] === 'Y';
+        return services_array['掲載'] === true;
       });
-
-      function getOrder(target) {
-        var order = 0;
-        for (var i = 0; i < services_array.length; i++) {
-          if (services_array[0][i] === target) {
-            order = i;
-          }
-        }
-        return order;
-      }
-      var service_name_order = getOrder('services_name_en');
-      var core_service_name_order = getOrder('services_name_ja');
 
       function checkCore(name) {
         var coreName = '';
         var sameTypeServices = [];
         for (var i = 0; i < services_array_Y.length; i++) {
-          var service = services_array_Y[i][service_name_order];
-          var core_service = services_array_Y[i][core_service_name_order];
+          var service = services_array_Y[i]['services_name_en'];
+          var core_service = services_array_Y[i]['services_name_ja'];
           name = name.replace(/_/g, ' ');
           if (service === name) {
-            coreName = services_array_Y[i][core_service_name_order];
+            coreName = services_array_Y[i]['services_name_ja'];
           }
         }
         for (var i = 0; i < services_array_Y.length; i++) {
-          var service = services_array_Y[i][service_name_order];
-          var core_service = services_array_Y[i][core_service_name_order];
+          var service = services_array_Y[i]['services_name_en'];
+          var core_service = services_array_Y[i]['services_name_ja'];
           if (core_service === coreName) {
-            sameTypeServices.push(services_array_Y[i][service_name_order]);
+            sameTypeServices.push(services_array_Y[i]['services_name_en']);
           }
         }
         return sameTypeServices;
