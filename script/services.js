@@ -26,79 +26,59 @@ script.addEventListener('load', function () {
           return YList['掲載'] === true;
         });
         var element = '';
-
         const tagMapping = {
           'database-integration': {
             id: 'Category_1',
-            ja: 'データベース統合',
-            en: 'Database integration',
           },
           materials: {
             id: 'Category_2',
-            ja: '教材・資料',
-            en: 'Materials',
           },
           genome: {
             id: 'Category_3',
-            ja: 'ゲノム',
-            en: 'Genome',
           },
           gene: {
             id: 'Category_4',
-            ja: '遺伝子',
-            en: 'Gene',
           },
           'gene-expression': {
             id: 'Category_5',
-            ja: '遺伝子発現',
-            en: 'Gene expression',
           },
           NGS: {
             id: 'Category_6',
-            ja: 'NGS',
-            en: 'NGS',
           },
           disease: {
             id: 'Category_7',
-            ja: '疾患',
-            en: 'Disease',
           },
           'natural-language-processing': {
             id: 'Category_8',
-            ja: '自然言語処理',
-            en: 'Natural language processing',
           },
           SPARQL: {
             id: 'Category_9',
-            ja: 'SPARQL検索',
-            en: 'SPARQL Search',
           },
           'RDF-creation': {
             id: 'Category_10',
-            ja: 'RDF作成',
-            en: 'RDF creation',
           },
           dbuser: {
             id: 'User_1',
-            ja: 'データベース利用者',
-            en: 'Database user',
           },
           'app-dev': {
             id: 'User_2',
-            ja: 'アプリケーション開発者',
-            en: 'Database application developer',
           },
           'data-scientist': {
             id: 'User_3',
-            ja: '大規模データ解析者',
-            en: 'Data scientist',
           },
           provider: {
             id: 'User_4',
-            ja: 'データ所有者',
-            en: 'Data provider',
           },
         };
+        function addTypeName() {
+          for (const value of Object.values(tagMapping)) {
+            const typeName = data[0][value.id];
+            const slashIndex = typeName.indexOf('/');
+            value.en = typeName.slice(0, slashIndex);
+            value.ja = typeName.slice(slashIndex + 1);
+          }
+        }
+        addTypeName();
 
         function getClassName(num) {
           var tagName = [];
