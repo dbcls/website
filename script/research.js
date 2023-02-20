@@ -37,17 +37,20 @@ script.addEventListener('load', function () {
     success: (data) => {
       tippy('.tooltip', {
         content: (el) => {
+          const filteredArray = data.filter(
+            (item) => item.services_name_en === el.getAttribute('id')
+          );
           const div = document.createElement('div');
-          // const h5 = document.createElement('h5');
-          // const span = document.createElement('span');
-          for (const [i, item] of data.entries()) {
-            if (item.services_name_en !== el.getAttribute('id')) {
-              continue;
-            }
-            const title = item[`services_name_${lang}`];
-            const introduction = item[`explanation_${lang}`];
+          const target = filteredArray[0];
+          if (target !== undefined) {
+            const title = target[`services_name_${lang}`];
+            const introduction = target[`explanation_${lang}`];
             div.innerHTML = `<h5><u>${title}</u></h5><p>${introduction}</p>`;
+
+            return div;
           }
+          const title = el.getAttribute('id');
+          div.innerHTML = `<h5><u>${title}</u></h5>`;
           return div;
         },
         arrow: false,

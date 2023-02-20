@@ -2,7 +2,7 @@
     ja: データベース RDF 化支援ツール
     en: Support tools for RDFization of databases
   items:
-    - id: D2RQ
+    - id: D2RQ Mapper
       url:
         ja: http://d2rq.dbcls.jp/
         en: http://d2rq.dbcls.jp/

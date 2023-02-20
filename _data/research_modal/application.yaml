@@ -102,7 +102,7 @@
       description:
         ja:
         en:
-    - id: LeadingAuthors SRA
+    - id: LeadingAuthors
       url:
         ja: https://leading.lifesciencedb.jp/
         en: https://leading.lifesciencedb.jp/
