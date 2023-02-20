@@ -31,7 +31,7 @@ script.addEventListener('load', function () {
   node.classList.remove('preload-transitions');
 
   $.ajax({
-    url: '../json/services-object.json',
+    url: '../json/services.json',
     dataType: 'json',
     async: true,
     success: (data) => {
