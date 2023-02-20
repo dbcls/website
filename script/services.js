@@ -1,8 +1,3 @@
-var script = document.createElement('script');
-
-script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js');
-document.head.appendChild(script);
-
 script.addEventListener('load', function () {
   var url = window.location;
   var path = url.href.split('/');
@@ -284,8 +279,7 @@ script.addEventListener('load', function () {
             enable: true,
           },
           callbacks: {
-            onMixClick: function (state, originalEvent) {
-              const e = originalEvent;
+            onMixClick: function (state, e) {
               const isCategory = e.target.classList.contains('category');
               const buttonType = () => (isCategory ? 'category' : 'user');
               const isAllButton = e.target.classList.contains('all');

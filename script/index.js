@@ -30,9 +30,7 @@ script.addEventListener('load', function () {
     thumbs: {
       swiper: swiper,
     },
-  });
-  window.__swiper2 = swiper2;
-  
+  });  
   $('.main-image__wrapper')
     .on('mouseenter', (e) => {
       swiper2.autoplay.stop();
