@@ -21,9 +21,9 @@
 				<div class="swiper-wrapper main">
 					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
 					<div class=" swiper-slide">
-						<a href="{{item.url.en}}" target="_blank"><img draggable="false" class="top-image" src="{{item.image}}"
+						<a href="{{item.url.en}}" target="_blank"><img draggable="false" class="top-image" src="{{item.image.en}}"
 								alt="{{item.title.en}}"></a>
-						<img draggable="false" class="reflection" src="{{item.image}}" alt="{{item.title.en}}">
+						<img draggable="false" class="reflection" src="{{item.image.en}}" alt="{{item.title.en}}">
 						<div class="details">
 							{% if item.logo != nil %}
 							<a href="{{item.url.en}}" target="_blank"><img draggable="false" class="details-logo" src="{{item.logo}}"
@@ -42,7 +42,7 @@
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-wrapper">
 					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
-					<div class="swiper-slide"><img draggable="false" src="{{item.image}}" alt="{{item.title.en}}">
+					<div class="swiper-slide"><img draggable="false" src="{{item.image.en}}" alt="{{item.title.en}}">
 					</div>
 					{% endfor %}
 				</div>

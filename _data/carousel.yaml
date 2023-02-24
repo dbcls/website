@@ -10,7 +10,9 @@ slides_per_view: 6 #サムネイル画像の表示数（4-6を設定してくだ
 duration: 4000 #自動再生の切り替わる秒数、値は 1000 ＝ 1秒
 items:
   # ↓１個目の画像
-  - image: img/top_assets/TogoDX_screen.png
+  - image:
+      ja: img/top_assets/TogoDX_screen.png
+      en: img/top_assets/TogoDX_screen.png
     logo: img/top_assets/TogoDX.svg
     title:
       ja: TogoDX：Togo Data eXplorer
@@ -23,7 +25,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # ↓２個目の画像
-  - image: img/top_assets/TogoID_screen.png
+  - image:
+      ja: img/top_assets/TogoID_screen.png
+      en: img/top_assets/TogoID_screen.png
     logo: img/top_assets/TogoID.svg
     title:
       ja: TogoID
@@ -36,7 +40,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # ↓３個目の画像
-  - image: img/top_assets/main2.jpg
+  - image:
+      ja: img/top_assets/main2.jpg
+      en: img/top_assets/main2.jpg
     logo: img/top_assets/biohackathon.svg
     title:
       ja: ※題名は日本語１６文字以下です。
@@ -49,7 +55,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # ↓４個目の画像
-  - image: img/top_assets/main3.jpg
+  - image:
+      ja: img/top_assets/main3.jpg
+      en: img/top_assets/main3.jpg
     logo: img/top_assets/TogoDX.svg
     title:
       ja: ※題名は日本語１６文字以下です。
@@ -62,7 +70,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # ↓５個目の画像
-  - image: img/top_assets/main2.jpg
+  - image:
+      ja: img/top_assets/main2.jpg
+      en: img/top_assets/main2.jpg
     logo: img/top_assets/TogoDX.svg
     title:
       ja: ※題名は日本語１６文字以下です。
@@ -75,7 +85,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # ↓６個目の画像
-  - image: img/top_assets/main3.jpg
+  - image:
+      ja: img/top_assets/main3.jpg
+      en: img/top_assets/main3.jpg
     logo: img/top_assets/TogoDX.svg
     title:
       ja: ※題名は日本語１６文字以下です。
@@ -88,7 +100,9 @@ items:
       en: English description English description English description English description English description English description English description English description English description English description
 
   # 下以降は表示されませんので、予備として保存しても構わないです。
-  - image: img/top_assets/main4.jpg
+  - image:
+      ja: img/top_assets/main4.jpg
+      en: img/top_assets/main4.jpg
     logo: img/top_assets/TogoDX.svg
     title:
       ja: ※題名は日本語１６文字以下です。
