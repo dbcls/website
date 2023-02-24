@@ -2,83 +2,83 @@
     ja: RDF 検索支援ツール
     en: Support tools for RDF search
   items:
-    - id: Umaka-Yummy/Data
+    - services_name_en: Umaka-Yummy/Data
       url:
         ja: http://d.umaka.dbcls.jp/
         en: http://d.umaka.dbcls.jp/
       image: img/service_assets/Umaka_Yummy_Data.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: SPARQLBuilder
+    - services_name_en: SPARQLBuilder
       url:
         ja: http://www.sparqlbuilder.org/
         en: http://www.sparqlbuilder.org/
       image: img/service_assets/SPARQL_Builder.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: Endpoint browser
+    - services_name_en: Endpoint browser
       url:
         ja: http://sparql-support.dbcls.jp/
         en: http://sparql-support.dbcls.jp/
       image: img/service_assets/endpoint-browser.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: SPARQList
+    - services_name_en: SPARQList
       url:
         ja: https://github.com/dbcls/sparqlist
         en: https://github.com/dbcls/sparqlist
       image: img/service_assets/SPARQList.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: SPANG
+    - services_name_en: SPANG
       url:
         ja: http://spang.dbcls.jp/
         en: http://spang.dbcls.jp/
       image: img/service_assets/spang.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: SPARQL-proxy
+    - services_name_en: SPARQL-proxy
       url:
         ja: https://github.com/dbcls/sparql-proxy
         en: https://github.com/dbcls/sparql-proxy
       image: img/service_assets/SPARQL_proxy.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: TogoStanza
+    - services_name_en: TogoStanza
       url:
         ja: http://togostanza.org/
         en: http://togostanza.org/
       image: img/service_assets/TogoStanza.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: d3sparql.js
+    - services_name_en: d3sparql.js
       url:
         ja: http://biohackathon.org/d3sparql/
         en: http://biohackathon.org/d3sparql/
       image: img/service_assets/d3sparql.js.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: TogoTable
+    - services_name_en: TogoTable
       url:
         ja: http://togotable.dbcls.jp
         en: http://togotable.dbcls.jp
       image: img/service_assets/TogoTable.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: TogoWS
+    - services_name_en: TogoWS
       url:
         ja: http://togows.org/
         en: http://togows.org/
       image: img/service_assets/TogoWS.png
-      description:
+      alt_title:
         ja:
         en:

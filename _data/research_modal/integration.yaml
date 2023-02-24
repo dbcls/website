@@ -2,79 +2,79 @@
     ja: データベース RDF 化支援ツール
     en: Support tools for RDFization of databases
   items:
-    - id: D2RQ Mapper
+    - services_name_en: D2RQ Mapper
       url:
         ja: http://d2rq.dbcls.jp/
         en: http://d2rq.dbcls.jp/
       image: img/service_assets/D2RQ_Mapper.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: TogoDB
+    - services_name_en: TogoDB
       url:
         ja: http://togodb.org/
         en: http://togodb.org/
       image: img/service_assets/TogoDB.svg
-      description:
+      alt_title:
         ja:
         en:
 - subtitle:
     ja: 知識の抽出および RDF 化支援ツール
     en: Suport tools for knowledge extraction and RDFization
   items:
-    - id: PubAnnotation
+    - services_name_en: PubAnnotation
       url:
         ja: http://pubannotation.org/
         en: http://pubannotation.org/
       image: img/service_assets/PubAnnotation.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: TextAE
+    - services_name_en: TextAE
       url:
         ja: http://textae.pubannotation.org/
         en: http://textae.pubannotation.org/
       image: img/service_assets/TextAE.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: PubDictionaries
+    - services_name_en: PubDictionaries
       url:
         ja: http://pubdictionaries.org
         en: http://pubdictionaries.org
       image: img/service_assets/PubDictionaries.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: Allie
+    - services_name_en: Allie
       url:
         ja: http://allie.dbcls.jp/
         en: http://allie.dbcls.jp/
       image: img/service_assets/Allie.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: Colil
+    - services_name_en: Colil
       url:
         ja: http://colil.dbcls.jp/
         en: http://colil.dbcls.jp/
       image: img/service_assets/Colil.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: inMeXes
+    - services_name_en: inMeXes
       url:
         ja: https://docman.dbcls.jp/im/
         en: https://docman.dbcls.jp/im/
       image: img/service_assets/inMeXes.png
-      description:
+      alt_title:
         ja:
         en:
-    - id: OntoFinder
+    - services_name_en: OntoFinder
       url:
         ja: http://ontofinder.dbcls.jp/
         en: http://ontofinder.dbcls.jp/
       image: img/service_assets/ontofinder.png
-      description:
+      alt_title:
         ja:
         en:
