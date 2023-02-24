@@ -11,105 +11,106 @@ duration: 4000 #自動再生の切り替わる秒数、値は 1000 ＝ 1秒
 items:
   # ↓１個目の画像
   - image:
-      ja: img/top_assets/TogoDX_screen.png
-      en: img/top_assets/TogoDX_screen.png
+      ja: img/top_assets/TogoDX_screenshot.jpeg
+      en: img/top_assets/TogoDX_screenshot.jpeg
     logo: img/top_assets/TogoDX.svg
     title:
-      ja: TogoDX：Togo Data eXplorer
-      en: TogoDX：Togo Data eXplorer
+      ja: TogoDX/human
+      en: TogoDX/human
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://togodx.dbcls.jp/human/
+      en: https://togodx.dbcls.jp/human/
     description:
-      ja: 統合データベースを探索
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
+      en: A web application for integrated exploration of human-related data.
 
   # ↓２個目の画像
   - image:
-      ja: img/top_assets/TogoID_screen.png
-      en: img/top_assets/TogoID_screen.png
+      ja: img/top_assets/TogoID_screenshot.jpeg
+      en: img/top_assets/TogoID_screenshot.jpeg
     logo: img/top_assets/TogoID.svg
     title:
       ja: TogoID
       en: TogoID
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://togoid.dbcls.jp/
+      en: https://togoid.dbcls.jp/
     description:
-      ja: 生命科学データベースのID間の対応関係を検索・変換
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: 生命科学系データベースのさまざまなIDのつながりを探索的に確認しながらID変換をすることができるウェブツール
+      en: A web application that allows you to search and convert links between IDs of databases in the life sciences.
 
   # ↓３個目の画像
   - image:
-      ja: img/top_assets/main2.jpg
-      en: img/top_assets/main2.jpg
-    logo: img/top_assets/biohackathon.svg
+      ja: img/top_assets/BioHackathon_meeting.jpeg
+      en: img/top_assets/BioHackathon_meeting.jpeg
+    logo: img/top_assets/BioHackathon.svg
     title:
-      ja: ※題名は日本語１６文字以下です。
-      en: English Title
+      ja: BioHackathon
+      en: BioHackathon
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: http://www.biohackathon.org/
+      en: http://www.biohackathon.org/
     description:
-      ja: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: データベース統合の国際標準化
+      en: Standardization for Database Integration
 
   # ↓４個目の画像
   - image:
-      ja: img/top_assets/main3.jpg
-      en: img/top_assets/main3.jpg
-    logo: img/top_assets/TogoDX.svg
+      ja: img/top_assets/TogoTV_screenshot.jpeg
+      en: img/top_assets/TogoTV_screenshot.jpeg
+    logo: img/service_assets/TogoTV2020.svg
     title:
-      ja: ※題名は日本語１６文字以下です。
-      en: English Title
+      ja: 統合TV
+      en: TogoTV
+
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://togotv.dbcls.jp/
+      en: https://togotv.dbcls.jp/en/
     description:
-      ja: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイト
+      en: A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.
 
   # ↓５個目の画像
   - image:
-      ja: img/top_assets/main2.jpg
-      en: img/top_assets/main2.jpg
-    logo: img/top_assets/TogoDX.svg
+      ja: img/top_assets/about_ja_screenshot.jpeg
+      en: img/top_assets/about_en_screenshot.jpeg
+    logo: 
     title:
-      ja: ※題名は日本語１６文字以下です。
-      en: English Title
+      ja: 関連機関との連携
+      en: Collaborations
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://dbcls.rois.ac.jp/about.html
+      en: https://dbcls.rois.ac.jp/about-en.html
     description:
-      ja: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: DBCLSはNBDC事業推進部およびDDBJと協力・連携しています
+      en: DBCLS collaborates with DDBJ and NBDC, JST
 
   # ↓６個目の画像
   - image:
-      ja: img/top_assets/main3.jpg
-      en: img/top_assets/main3.jpg
-    logo: img/top_assets/TogoDX.svg
+      ja: img/top_assets/research_page_screenshot.jpeg
+      en: img/top_assets/research_page_screenshot.jpeg
+    logo: 
     title:
-      ja: ※題名は日本語１６文字以下です。
-      en: English Title
+      ja: DBCLSの研究開発
+      en: Research and development in DBCLS
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://dbcls.rois.ac.jp/research.html
+      en: https://dbcls.rois.ac.jp/research-en.html
     description:
-      ja: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: 生命科学のデータサイエンス化に資するデータベース統合のための技術開発
+      en: Development of technologies for database integration contributing to the data-driven life sciences.
 
   # 下以降は表示されませんので、予備として保存しても構わないです。
   - image:
-      ja: img/top_assets/main4.jpg
-      en: img/top_assets/main4.jpg
-    logo: img/top_assets/TogoDX.svg
+      ja: img/top_assets/TogoDX_screen.png
+      en: img/top_assets/TogoDX_screen.png
+    logo: 
     title:
-      ja: ※題名は日本語１６文字以下です。
-      en: English Title
+      ja: TogoDX/human
+      en: TogoDX/human
     url:
-      ja: https://dbcls.rois.ac.jp/index.html
-      en: https://dbcls.rois.ac.jp/index.html
+      ja: https://togodx.dbcls.jp/human/
+      en: https://togodx.dbcls.jp/human/
     description:
-      ja: 内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。内容１００文字まで。
-      en: English description English description English description English description English description English description English description English description English description English description
+      ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
+      en: A web application for integrated exploration of human-related data.
