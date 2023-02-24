@@ -25,8 +25,11 @@
 								alt="{{item.title.en}}"></a>
 						<img draggable="false" class="reflection" src="{{item.image}}" alt="{{item.title.en}}">
 						<div class="details">
+							{% if item.logo != nil %}
 							<a href="{{item.url.en}}" target="_blank"><img draggable="false" class="details-logo" src="{{item.logo}}"
-									alt="{{item.title.en}}"></a>
+									alt="{{item.title.en}}">
+							</a>
+							{% endif %}
 							<h2>{{item.title.en}}</h2>
 							<p>{{item.description.en}}
 							</p>
