@@ -8203,6 +8203,26 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
+			36669104,
+			"https://doi.org/10.1073/pnas.2217543120",
+			"Inhibition of HSD17B13 protects against liver fibrosis by inhibition of pyrimidine catabolism in nonalcoholic steatohepatitis",
+			"Luukkonen",
+			"Proc Natl Acad Sci U S A.",
+			"2023-01-19T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"https://doi.org/10.3390/fermentation9020090",
+			"https://doi.org/10.3390/fermentation9020090",
+			"Probiotics in the Sourdough Bread Fermentation: Current Status",
+			"Akamine",
+			"Fermentation",
+			"2023-01-19T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
 			36539398,
 			"https://doi.org/10.1038/s41439-022-00225-6",
 			"The NBDC-DDBJ imputation server facilitates the use of controlled access reference panel datasets in Japan",
@@ -8213,7 +8233,7 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			"NA",
+			"https://doi.org/10.3390/fermentation9020090",
 			"https://doi.org/10.11234/jsbibr.2022.primer3",
 			"生物多様性と文化へと繋がるバイオインフォマティクス",
 			"松前 ひろみ",
@@ -9241,5 +9261,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2023-01-06T00:59:24.830Z"
+	"updated": "2023-02-01T07:53:45.913Z"
 }
