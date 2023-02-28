@@ -37,4 +37,12 @@ script.addEventListener('load', function () {
     tag_className = tag_className.replace(/"/g, '');
     $(this).addClass(tag_className);
   });
+  let latestYear = new Date().getFullYear();
+  const oldestYear = 2016;
+  let buttonElements = '';
+  while (latestYear >= oldestYear) {
+    buttonElements += `<button type="button" class="tag_element term control" data-toggle=".category_year-${latestYear}"> ${latestYear}</button>`;
+    latestYear--;
+  }
+  $('.tag_panel_header.year.controls').append(buttonElements);
 });
