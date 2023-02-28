@@ -821,6 +821,7 @@ footer a:hover {
   width: 320px;
 }
 .main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details .details-logo {
+  max-height: 100px;
   max-width: 200px;
 }
 .main-image__wrapper .main-image__contents .main-carousel .swiper-slide .details h2 {
