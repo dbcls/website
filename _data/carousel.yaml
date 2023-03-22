@@ -51,8 +51,8 @@ items:
       ja: http://www.biohackathon.org/
       en: http://www.biohackathon.org/
     description:
-      ja: データベース統合の国際標準化
-      en: Standardization for Database Integration
+      ja: 生命科学分野のデータベース統合の技術基盤の確立を目的として、年1回日本各地で開催している国際開発者会議
+      en: This annual international developer meeting is held in different locations across Japan to establish the technical foundation for integrating databases in the life sciences.
 
   # ↓４個目の画像
   - image:
@@ -82,7 +82,7 @@ items:
       ja: https://dbcls.rois.ac.jp/about.html
       en: https://dbcls.rois.ac.jp/about-en.html
     description:
-      ja: DBCLSはNBDC事業推進部およびDDBJと協力・連携しています
+      ja: DBCLSは、NBDC事業推進部およびDDBJと協力・連携しています
       en: DBCLS collaborates with DDBJ and NBDC, JST
 
   # ↓６個目の画像
@@ -97,7 +97,7 @@ items:
       ja: https://dbcls.rois.ac.jp/research.html
       en: https://dbcls.rois.ac.jp/research-en.html
     description:
-      ja: 生命科学のデータサイエンス化に資するデータベース統合のための技術開発
+      ja: 生命科学のデータサイエンス化に資するデータベース統合のための技術開発を行っています
       en: Development of technologies for database integration contributing to the data-driven life sciences.
 
   # 下以降は表示されませんので、予備として保存しても構わないです。
