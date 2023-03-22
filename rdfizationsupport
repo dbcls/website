@@ -1,0 +1,39 @@
+---
+---
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://dbcls.rois.ac.jp/research -->
+<html lang="ja" data-page-type="publications"><!--<![endif]-->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>知識グラフ化支援 ｜ DBCLS</title>
+	<link rel="stylesheet" href="style/default.css">
+</head>
+
+<body>
+	{% include header.html %}
+	<div class="content__wrapper">
+		<div id="subWrap">
+			<div class="sub__navigation sticky">
+				<h2 class="page-title">Research</h2>
+				<ul class="sub__navigation-wrapper outline-list-category__wrapper">
+					<li class="sub__navigation-title outline-list-category__title"><a href="/research.html">研究開発</a></li>
+					<li class="sub__navigation-title outline-list-category__title active"><a href="/publications.html">知識グラフ化支援</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main__contents">
+			<div class="main__content-title__wrapper">
+				<h3 class="main__content-title">知識グラフ化支援</h3>
+			</div>
+			<p>DBCLSでは、個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF 技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。</p>
+		</div>
+	</div>
+	{% include footer.html %}
+	<script src="script/underscore-min.js" type="text/javascript"></script>
+	<script src="script/default.js"></script>
+</body>
+
+</html>
