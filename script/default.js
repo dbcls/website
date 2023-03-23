@@ -103,6 +103,7 @@ var initialize = {
   logotype: function () {},
   research: function () {},
   publications: function () {},
+  rdfizationsupport: function () {},
   references: function () {},
   services: function () {},
   events: function () {
@@ -132,6 +133,7 @@ script.addEventListener('load', function () {
       logotype: 'about',
       research: 'research',
       publications: 'research',
+      rdfizationsupport: 'research',
       services: 'services',
       references: 'services',
       events: 'events',
