@@ -6,6 +6,7 @@ document.head.appendChild(script);
 script.addEventListener('load', function () {
   $.when(
     $.getJSON('../json/members.json'),
+    // TODO: services.json is not used in the script but deleting it will affect the obj returned, change it when the data model of members.json needs to be changed to key and value pairs.
     $.getJSON('../json/services.json')
   ).done(function (data, data_services) {
     var lang = $('html').attr('lang');
