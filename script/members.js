@@ -6,8 +6,10 @@ document.head.appendChild(script);
 script.addEventListener('load', function () {
   $.when(
     $.getJSON('../json/members.json'),
+    // TODO: services.json is not used in the script but deleting it will affect the obj returned, change it when the data model of members.json needs to be changed to key and value pairs.
     $.getJSON('../json/services.json')
   ).done(function (data, data_services) {
+    console.log(`🤖\x1B[40;93;1mdata: \x1B[m` ,data)
     var lang = $('html').attr('lang');
     var element = '';
     var element_collaborators = '';
