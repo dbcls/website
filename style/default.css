@@ -1274,6 +1274,24 @@ footer a:hover {
 .section-wrapper .article__section .biohackason__list .biohackason__list li:nth-of-type(6) {
   margin-left: 10px;
 }
+.section-wrapper .article__section .research__list {
+  margin-top: 15px;
+}
+.section-wrapper .article__section .research__list li {
+  font-size: 12px;
+}
+.section-wrapper .article__section .research__list li .reference-ja {
+  margin-left: -8px;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+.section-wrapper .article__section .research__list ul li {
+  line-height: 1.5em;
+}
+.section-wrapper .article__section .research__list ul a {
+  text-decoration: underline;
+  color: #004098;
+}
 .section-wrapper .research__section-ja:nth-of-type(5) {
   margin-left: 397px;
 }
