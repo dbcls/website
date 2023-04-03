@@ -1537,6 +1537,10 @@ table.matrix tbody td a:before {
   color: #333333;
 }
 
+.main__contents-knowledgegraph .sub__content-title {
+  margin: 20px 0 10px 0;
+}
+
 /*** Services & Member & News */
 .tag_panel {
   color: #004098;
