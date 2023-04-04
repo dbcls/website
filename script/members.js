@@ -289,7 +289,7 @@ script.addEventListener('load', function () {
 
     data_services = data_services[0];
     data_services = data_services.filter((data) => {
-      return data[1] === 'Y';
+      return data['掲載'] === true;
     });
 
     $('.btn-mail').each(function () {
@@ -297,10 +297,11 @@ script.addEventListener('load', function () {
       let charged_services = data_services
         .filter((service) => {
           return (
-            service[8] === mail || service[9] === mail || service[10] === mail
+            service['担当者1'] === mail || service['担当者2'] === mail || service['担当者3'] === mail
           );
         })
-        .map((service) => service[4]);
+        .map((service) => service['services_name_en']);
+      console.log(`🤖\x1B[40;93;1mcharged_services: \x1B[m` ,charged_services)
       if (charged_services.length > 0) {
         var charge_tag = $(this)
           .parent()
