@@ -301,7 +301,6 @@ script.addEventListener('load', function () {
           );
         })
         .map((service) => service['services_name_en']);
-      console.log(`🤖\x1B[40;93;1mcharged_services: \x1B[m` ,charged_services)
       if (charged_services.length > 0) {
         var charge_tag = $(this)
           .parent()
