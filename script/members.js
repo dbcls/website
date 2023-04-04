@@ -296,9 +296,7 @@ script.addEventListener('load', function () {
       const mail = $(this).attr('href').replace('mailto:', '');
       let charged_services = data_services
         .filter((service) => {
-          return (
-            service['担当者1'] === mail || service['担当者2'] === mail || service['担当者3'] === mail
-          );
+            return service['担当者'].includes(mail)
         })
         .map((service) => service['services_name_en']);
       if (charged_services.length > 0) {
