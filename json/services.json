@@ -8,9 +8,7 @@
     "URL": "",
     "explanation_ja": "サービス説明簡易版\n※全角88文字以内",
     "explanation_en": "サービス説明簡易版\n※半角176文字以内",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "リーフレットPDF置き場",
     "README_ja.md": "",
     "README_en.md": "",
@@ -42,9 +40,7 @@
     "URL": "https://togodx.dbcls.jp/human",
     "explanation_ja": "ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーションです。",
     "explanation_en": "A web application for integrated exploration of human-related data.",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoDX_human_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoDX_human_en.md",
@@ -76,9 +72,11 @@
     "URL": "https://togoid.dbcls.jp/",
     "explanation_ja": "生命科学系データベースのさまざまなIDのつながりを探索的に確認しながらID変換をすることができるウェブツールです。",
     "explanation_en": "A web application that allows you to search and convert links between identifiers(IDs) of databases(DBs) in the life sciences.",
-    "担当者1": "sikeda@dbcls.rois.ac.jp",
-    "担当者2": "hono@dbcls.rois.ac.jp",
-    "担当者3": "ktym@dbcls.jp",
+    "担当者": [
+      "sikeda@dbcls.rois.ac.jp",
+      "hono@dbcls.rois.ac.jp",
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoID_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoID_en.md",
@@ -110,9 +108,9 @@
     "URL": "http://togows.org/",
     "explanation_ja": "国内外の主要拠点データベースに対し、統一的なウェブサービスのインターフェイスを提供するサービスです。",
     "explanation_en": "An uniform interface to access to the popular databases.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1FhDlNrgY3fhkbPf5tyUymeJjYbnCG7wR",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoWS_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoWS_en.md",
@@ -144,9 +142,9 @@
     "URL": "http://togodb.org/",
     "explanation_ja": "表形式のデータをCSV/TSV形式でインポートすることで、データベースの公開・管理を誰でも手軽に行えるシステムです。",
     "explanation_en": "A simple and quality database service.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1m7MQuQJ2u4YvuXsGL2lc0aKjGdh-UOfH",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoDB_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoDB_en.md",
@@ -178,9 +176,9 @@
     "URL": "http://lifesciencedb.jp/bp3d/?lng=en",
     "explanation_ja": "誰でもウェブ上でカスタム解剖図を作成し交換できるサービスです。作成した図は、論文に用いるなど自由に公開することが可能です。",
     "explanation_en": "An anatomical dictionary where terms are defined by 3D morphology of referents.",
-    "担当者1": "kokubo@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "kokubo@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=11wdJbuwbfq5tLlUiHMoPgCKFOmjcf7ro",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/BodyParts3D_Anatomography_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/BodyParts3D_Anatomography_en.md",
@@ -212,9 +210,9 @@
     "URL": "https://first.lifesciencedb.jp/",
     "explanation_ja": "日本人を著者とする生命科学分野の論文について、論文の著者自身の執筆による日本語のレビューを公開するサービスです。",
     "explanation_en": "Open access and online review articles written by Japanese authors who published their research outcomes in some top journals such as Science and Nature.",
-    "担当者1": "-",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "-"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1rhm5Cv3vqdC7N3Col9AsarAjI16sDDEn",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/FirstAuthors_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/FirstAuthors_en.md",
@@ -246,9 +244,9 @@
     "URL": "https://leading.lifesciencedb.jp/",
     "explanation_ja": "生命科学分野における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを公開するサービスです。",
     "explanation_en": "Open access and online review articles written by Japanese authors who lead several biological research areas.",
-    "担当者1": "-",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "-"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1c9qwuwhw3yhH8j0cRE1Q-YUepruTEQyB",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/LeadingAuthors_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/LeadingAuthors_en.md",
@@ -280,9 +278,10 @@
     "URL": "https://togotv.dbcls.jp/",
     "explanation_ja": "バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイトです。",
     "explanation_en": "A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.",
-    "担当者1": "hono@dbcls.rois.ac.jp",
-    "担当者2": "bono@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "hono@dbcls.rois.ac.jp",
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1dQsMxSCC4nh9OApup7Y-E31tvzKZNXt2",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoTV_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoTV_en.md",
@@ -314,9 +313,11 @@
     "URL": "http://togogenome.org/",
     "explanation_ja": "生物種とゲノムに関連する多種多様な情報を集約し、ゲノム情報の統合的で新しい検索を実現したシステムです。",
     "explanation_en": "A integrative genome viewer based on the Semantic Web technologies.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "so@dbcls.rois.ac.jp",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp",
+      "so@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1R452i7_puIltg0IVXTUS45GorjuwJsLG",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoGenome_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoGenome_en.md",
@@ -348,9 +349,10 @@
     "URL": "https://GGGenome.dbcls.jp/",
     "explanation_ja": "ゲノムや転写産物から塩基配列を高速に検索するツールです。",
     "explanation_en": "An ultrafast search engine for DNA sequences.",
-    "担当者1": "y-naito@dbcls.rois.ac.jp",
-    "担当者2": "bono@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "y-naito@dbcls.rois.ac.jp",
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1tZjbb_Y3Hi_4XU0Snf7362MN9aZ5gkJm",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/GGGenome_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/GGGenome_en.md",
@@ -382,9 +384,10 @@
     "URL": "https://crispr.dbcls.jp/",
     "explanation_ja": "入力した塩基配列に対してCRISPR-Cas9システムのガイドRNAを設計することができるツールです。",
     "explanation_en": "A web server for designing CRISPR-Cas9 guide RNA with reduced off-target sites.",
-    "担当者1": "y-naito@dbcls.rois.ac.jp",
-    "担当者2": "bono@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "y-naito@dbcls.rois.ac.jp",
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1Jhu18eSRVva0f7RLYOnkmQuha60DNuQH",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/CRISPRdirect_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/CRISPRdirect_en.md",
@@ -416,9 +419,10 @@
     "URL": "https://GGRNA.dbcls.jp/",
     "explanation_ja": "様々なキーワードや塩基配列、アミノ酸配列などから高速に遺伝子を検索することができる遺伝子検索エンジンです。",
     "explanation_en": "A Google-like search engine for genes and transcripts archived in NCBI RefSeq.",
-    "担当者1": "y-naito@dbcls.rois.ac.jp",
-    "担当者2": "bono@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "y-naito@dbcls.rois.ac.jp",
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1uvXUeGMufekTMJnorb4QASKllJpkNlI0",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/GGRNA_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/GGRNA_en.md",
@@ -450,9 +454,9 @@
     "URL": "http://gendoo.dbcls.jp/",
     "explanation_ja": "遺伝子、疾患について、関連する疾患、薬剤、臓器、生命現象などの特徴をキーワードでリスト表示するツールです。",
     "explanation_en": "A tools for functional profiling of gene and disease features using MeSH vocabulary.",
-    "担当者1": "nakazato@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "nakazato@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1rLk-JARcOZhOy0IB-o-PcnTOG94yGuPY",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/Gendoo_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/Gendoo_en.md",
@@ -484,9 +488,10 @@
     "URL": "https://refex.dbcls.jp/",
     "explanation_ja": "遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。",
     "explanation_en": "A viewer for reference for gene expression data of normal tissues and cells.",
-    "担当者1": "hono@dbcls.rois.ac.jp",
-    "担当者2": "bono@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "hono@dbcls.rois.ac.jp",
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1uof9lzqI_1aEWMib2Wpl74uOFP4Y-727",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/RefEx_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/RefEx_en.md",
@@ -518,9 +523,9 @@
     "URL": "https://aoe.dbcls.jp/",
     "explanation_ja": "公共データベースに登録された遺伝子発現データについて、各種統計情報から検索・閲覧・比較することができる目次サイトです。",
     "explanation_en": "An index of public gene expression database.",
-    "担当者1": "bono@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "bono@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1cNRPLO1r4JOsiPLDgAVssFmaIgcu2TQL",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/AOE_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/AOE_en.md",
@@ -552,9 +557,10 @@
     "URL": "http://sra.dbcls.jp/",
     "explanation_ja": "公共データベースに登録されたNGSデータについて、さまざまな統計情報から閲覧、比較、データ取得ができる目次サイトです。",
     "explanation_en": "A index service for NGS data registered in public databases.",
-    "担当者1": "nakazato@dbcls.rois.ac.jp",
-    "担当者2": "t.ohta@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "nakazato@dbcls.rois.ac.jp",
+      "t.ohta@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1pJubCWl9EIDQ0Kp7HgPutL3VV-eymiD7",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/DBCLS_SRA_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/DBCLS_SRA_en.md",
@@ -586,9 +592,9 @@
     "URL": "https://pubcasefinder.dbcls.jp/",
     "explanation_ja": "患者の症状を入力するだけで、関連する希少・難治性疾患の候補を可能性が高い順に自動的にリストアップしてくれる医療者向け検索システムです。",
     "explanation_en": "A new phenotype-driven differential diagnosis system using the one million of case reports. ",
-    "担当者1": "fujiwara@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1T3JdrUnOrQpYSKWLBTnEM3LeJM_mEwHQ",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/PubCaseFinder_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/PubCaseFinder_en.md",
@@ -620,9 +626,10 @@
     "URL": "http://pubannotation.org/",
     "explanation_ja": "文献アノテーションのレポジトリ。特にPubMedに対してのアノテーションを統合している。",
     "explanation_en": "A repository of text annotation. Particularly, it collects and integrates annotations to PubMed articles.",
-    "担当者1": "jdkim@dbcls.rois.ac.jp",
-    "担当者2": "wang@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "jdkim@dbcls.rois.ac.jp",
+      "wang@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1_OtU4ENz9ZpHSyqYsggG8hKBy9Z3nHdo",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/PubAnnotation_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/PubAnnotation_en.md",
@@ -654,9 +661,9 @@
     "URL": "http://pubdictionaries.org",
     "explanation_ja": "テキストマイニング用辞書のレポジトリ。だれでも辞書のアップロードができて、辞書を使ってテキストアノテーションもできます。",
     "explanation_en": "A repository of dictionaries for text mining. Anyone can upload dictionaries, which then can be immediately used for text annotation.",
-    "担当者1": "jdkim@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "jdkim@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/PubDictionaries_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/PubDictionaries_en.md",
@@ -688,9 +695,9 @@
     "URL": "https://docman.dbcls.jp/im/",
     "explanation_ja": "生命科学系の文献に頻出する英語表現を、1文字の入力ごとに高速に再検索します。",
     "explanation_en": "An incremental PubMed/MEDLINE expression search.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1wsolas-oemGX4ROqQcYYXIurN26TTE17",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/inMeXes_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/inMeXes_en.md",
@@ -722,9 +729,10 @@
     "URL": "http://allie.dbcls.jp/",
     "explanation_ja": "文献中に登場する略語とその正式名称の組およびその付随情報を検索します。",
     "explanation_en": "A search service for abbreviations and long forms utilized in Lifesciences.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "fujiwara@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1d34IvUMe0imAcnGCe5Vl7JA0-0xgzWZz",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/Allie_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/Allie_en.md",
@@ -756,9 +764,10 @@
     "URL": "http://colil.dbcls.jp/",
     "explanation_ja": "ある論文が他の論文から引用されているとき、本文中ではどのような文脈で引用されているかについて、効率良く検索します。",
     "explanation_en": "An incremental PubMed/MEDLINE expression search.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "fujiwara@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1h7fPxQV2Zrfm2LblAnWnrKITj6MbdSkk",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/Colil_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/Colil_en.md",
@@ -790,9 +799,10 @@
     "URL": "http://lsd.dbcls.jp/",
     "explanation_ja": "ライフサイエンス辞書にSPARQLでアクセスできるサービスです。",
     "explanation_en": "A Web-API to access RDFized Life Science Dictionary using SPARQL.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "fujiwara@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/file/d/1qeKyDO7FCo5kji57hCzjV9MTBN2JNdr4/view?usp=sharing",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/LSD_RDF_Data_Portal_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/LSD_RDF_Data_Portal_en.md",
@@ -824,9 +834,10 @@
     "URL": "https://yummydata.org/",
     "explanation_ja": "SPARQLエンドポイントの機械的な評価を定期的に行います",
     "explanation_en": "Umaka-Yummy Data monitors SPARQL endpoints in the Life Scinece domain and publishes the obtained data to facilitate knowledge sharing between database consumers and providers.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "atsuko@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "atsuko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1ueVxGSRVrF_5GmtlYLSehsdWUvmusvnu_fo23cd8SEc",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/UmakaYummy_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/UmakaYummy_en.md",
@@ -858,9 +869,10 @@
     "URL": "https://umaka-viewer.dbcls.jp/",
     "explanation_ja": "RDFデータの構造を可視化するサービスです。",
     "explanation_en": "It visualizes the class structure of an RDF dataset along with the relationships among them based on RDF triples. ",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "atsuko@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "atsuko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/file/d/1U0dlPtNdSkeoMcDzmjsraoJ8Cvuk2mth/view?usp=sharing",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/UmakaViewer_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/UmakaViewer_en.md",
@@ -892,9 +904,9 @@
     "URL": "http://togotable.dbcls.jp",
     "explanation_ja": "生物種とゲノムに関連する多種多様な情報を集約し、ゲノム情報の統合的で新しい検索を実現したシステムです。",
     "explanation_en": "A web tool to add user-specified annotations from several biological databases.",
-    "担当者1": "kawano@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "kawano@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=18OdAEc5-aEmsA9bzMOKaVYIO-_-2X32D",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoTable_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoTable_en.md",
@@ -926,9 +938,11 @@
     "URL": "http://togostanza.org/",
     "explanation_ja": "SPARQLの結果を可視化し任意のウェブページに埋め込めるスタンザを提供するアプリケーションです。",
     "explanation_en": "Web application for visualizing a SPARQL result as a embeddable WebComponents widget.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "so@dbcls.rois.ac.jp",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp",
+      "so@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoStanza_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoStanza_en.md",
@@ -960,9 +974,9 @@
     "URL": "http://biohackathon.org/d3sparql/",
     "explanation_ja": "SPARQLの検索結果をD3.jsを用いて簡単に可視化するためのJavaScriptライブラリです。",
     "explanation_en": "A JavaScript library for visualizing SPARQL results with the D3.js",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/d3sparql.js_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/d3sparql.js_en.md",
@@ -994,9 +1008,10 @@
     "URL": "https://github.com/dbcls/sparqlist",
     "explanation_ja": "SPARQLクエリをMarkdownによる簡単な記述によりREST API化するためのアプリケーションです。",
     "explanation_en": "A REST API server for hosting re-usable SPARQL queries configured in Markdown documents.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/SPARQList_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/SPARQList_en.md",
@@ -1028,9 +1043,9 @@
     "URL": "http://spang.dbcls.jp/",
     "explanation_ja": "コマンドライン環境で利用可能なSPARQLクライアントです。",
     "explanation_en": "A command-line SPARQL client supporting query generation for distributed RDF databases.",
-    "担当者1": "chiba@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "chiba@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1JcL6OjcDeWLWHQKBzP84CWcik9PAsHFVj1gQTB7Kv4Q",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/SPANG_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/SPANG_en.md",
@@ -1062,9 +1077,9 @@
     "URL": "https://sparql-support.dbcls.jp/endpoint-browser.html",
     "explanation_ja": "視覚的なネットワークグラフを用いてSPARQLエンドポイント内のRDFデータを探索するwebサービスです。",
     "explanation_en": "A web service to search RDF data in the SPARQL endpoint using visualised network graph.",
-    "担当者1": "moriya@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "moriya@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1X4nIM_eXgHfUg77lmVYrOWD89O4N49Aj7qjMoJLDp9Q",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/Endpoint_browser_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/Endpoint_browser_en.md",
@@ -1096,9 +1111,9 @@
     "URL": "http://www.sparqlbuilder.org/",
     "explanation_ja": "直観的GUIとマウス操作で生命科学系データベースに対するSPARQLクエリ記述を補助するシステムです．",
     "explanation_en": "A support system in writing a SPARQL query for life-science databases with GUI.",
-    "担当者1": "atsuko@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "atsuko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/SPARQLBuilder_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/SPARQLBuilder_en.md",
@@ -1130,9 +1145,9 @@
     "URL": "https://sparql-support.dbcls.jp/",
     "explanation_ja": "ウェブブラウザ上で動作する、補完機能などの便利な機能を持ったSPARQLクライアント・SPARQLクエリエディタです。",
     "explanation_en": "A SPARQL client / SPARQL query editor works on web browser.",
-    "担当者1": "moriya@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "moriya@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1X4nIM_eXgHfUg77lmVYrOWD89O4N49Aj7qjMoJLDp9Q",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/SPARQL_support_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/SPARQL_support_en.md",
@@ -1164,9 +1179,7 @@
     "URL": "https://github.com/dbcls/grasp",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1198,9 +1211,9 @@
     "URL": "http://lodqa.org",
     "explanation_ja": "自然言語でSPARQLエンドポイントを検索するためのインタフェースです。",
     "explanation_en": "A natural language question answering interface to enable search over SPARQL endpoints.",
-    "担当者1": "jdkim@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "jdkim@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/LODQA_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/LODQA_en.md",
@@ -1232,9 +1245,10 @@
     "URL": "https://github.com/dbcls/sparql-proxy",
     "explanation_ja": "SPARQLエンドポイントにジョブ管理やキャッシュ機能を持たせて安全に公開するためのアプリケーションです。",
     "explanation_en": "A proxy server providing query validation, job scheduling and cache mechanism for any SPARQL endpoint.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/SPARQL-proxy_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/SPARQL-proxy_en.md",
@@ -1266,9 +1280,7 @@
     "URL": "https://github.com/ktym/rdf-config",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1300,9 +1312,10 @@
     "URL": "http://d2rq.dbcls.jp/",
     "explanation_ja": "関係データベース(RDB)を簡単にセマンティックウェブに対応させられるウェブアプリケーションです。",
     "explanation_en": "A middleware to enable RDF based accesses to RDBs.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "ktym@dbcls.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1FgQxJQxInNz5XJYSenPl5jvyC3qaXwQM",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/D2RQ_Mapper_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/D2RQ_Mapper_en.md",
@@ -1334,9 +1347,9 @@
     "URL": "https://json2ld.mapper.tokyo/",
     "explanation_ja": "JSONデータを効率よくJSON-LDに変換するウェブアプリ",
     "explanation_en": "A JSON to JSON-LD converter on the Web",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/JSON2LD_Mapper_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/JSON2LD_Mapper_en.md",
@@ -1368,9 +1381,9 @@
     "URL": "https://integbio.jp/rdf/",
     "explanation_ja": "日本の研究グループによって開発された生命科学データのRDFを集約しています。",
     "explanation_en": "A collection of life science RDF datasets developed by Japanese research groups",
-    "担当者1": "kwsm@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "kwsm@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/NBDC_RDF_Portal_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/NBDC_RDF_Portal_en.md",
@@ -1402,9 +1415,11 @@
     "URL": "https://togovar.org/",
     "explanation_ja": "TogoVarは、日本人ゲノム配列の個人による違い（バリアント）とそれに関係する疾患情報などを収集・整理したデータベースです。",
     "explanation_en": "TogoVar is a database that has collected and organized genome sequence differences between individuals in the Japanese population and disease information associated with them.",
-    "担当者1": "kwsm@dbcls.rois.ac.jp",
-    "担当者2": "ktym@dbcls.jp",
-    "担当者3": "mitsuhashi@dbcls.rois.ac.jp",
+    "担当者": [
+      "kwsm@dbcls.rois.ac.jp",
+      "ktym@dbcls.jp",
+      "mitsuhashi@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoVar_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/TogoVar_en.md",
@@ -1436,9 +1451,7 @@
     "URL": "http://data.allie.dbcls.jp/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1470,9 +1483,7 @@
     "URL": "http://colil.dbcls.jp/portal/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1504,9 +1515,10 @@
     "URL": "http://d.umaka.dbcls.jp/",
     "explanation_ja": "yummydata.orgと同じですので削除してください。",
     "explanation_en": "",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "atsuko@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "atsuko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1538,9 +1550,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1572,9 +1582,9 @@
     "URL": "http://ontofinder.dbcls.jp/",
     "explanation_ja": "「既存のオントロジーに基づくマイオントロジーの作成」を支援するためのウェブサービスです。",
     "explanation_en": "A tools for supporting ontology production based on existing resources.",
-    "担当者1": "jdkim@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "jdkim@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=18KMrI9enZy4UYUIqQR1EGpN3EutbR4M2",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1606,9 +1616,9 @@
     "URL": "http://togoannotator.dbcls.jp/",
     "explanation_ja": "特定の生物種を対象とし、より受け入れやすい遺伝子産物アノテーションを提案します",
     "explanation_en": "",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "（正式公開後）",
     "README_ja.md": "（正式公開後）",
     "README_en.md": "（正式公開後）",
@@ -1640,9 +1650,9 @@
     "URL": "https://docman.dbcls.jp/pubmed_recom",
     "explanation_ja": "生命科学分野の書誌情報と論文(PDFファイル)を検索・管理するためのサービス及びアプリケーションです。",
     "explanation_en": "Literature Management and Recommendation Services for Life Scientists.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1k4TvnkguPzwX-dbDMPSfp9oethjISnNR",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1674,9 +1684,9 @@
     "URL": "https://openid.dbcls.jp/",
     "explanation_ja": "DBCLSのサービス用の OpenID シングルサインオンシステムです．",
     "explanation_en": "A single sign-on system based on OpenID for DBCLS services.",
-    "担当者1": "atsuko@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "atsuko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1708,9 +1718,10 @@
     "URL": "http://lod4ml.org/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "kwsm@dbcls.rois.ac.jp",
-    "担当者2": "ktym@dbcls.jp",
-    "担当者3": "",
+    "担当者": [
+      "kwsm@dbcls.rois.ac.jp",
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1742,9 +1753,10 @@
     "URL": "http://data.allie.dbcls.jp/",
     "explanation_ja": "AllieのデータにSPARQLを用いてアクセスするためのサービスです。",
     "explanation_en": "A Web-API to access Allie RDF data using SPARQL.",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "fujiwara@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp",
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "https://drive.google.com/open?id=1d34IvUMe0imAcnGCe5Vl7JA0-0xgzWZz",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/Allie_ja.md",
     "README_en.md": "https://github.com/dbcls/website/blob/master/services/Allie_en.md",
@@ -1776,9 +1788,9 @@
     "URL": "http://chip-atlas.org/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "t.ohta@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "t.ohta@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1810,9 +1822,9 @@
     "URL": "http://wpgsa.org/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "t.ohta@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "t.ohta@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1844,9 +1856,9 @@
     "URL": "http://probe.dbcls.jp",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "y-naito@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "y-naito@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1878,9 +1890,9 @@
     "URL": "http://navi.first.lifesciencedb.jp/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "yy@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1912,9 +1924,10 @@
     "URL": "http://med2rdf.org/",
     "explanation_ja": "主要な公共医科学データベースを再利用可能なRDFリソースとして提供するためのプロジェクトです。",
     "explanation_en": "A project to provide major biomedical databases as reusable RDF datasets with ontologies.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1946,9 +1959,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -1980,9 +1991,9 @@
     "URL": "http://lifesciencedb.jp/gcsearch/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "shoko@dbcls.rois.ac.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "shoko@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2014,9 +2025,9 @@
     "URL": "http://biohackathon.org/",
     "explanation_ja": "DBCLSとNBDCが主催するライフサイエンス分野におけるデータベース統合のための技術開発を行う国際開発者会議です。",
     "explanation_en": "Annual international hackathon for standardization and interoperability of database integration in life sciences organized by DBCLS and NBDC.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2048,9 +2059,9 @@
     "URL": "http://wiki.lifesciencedb.jp/mw/SPARQLthon",
     "explanation_ja": "SPARQLthonはライフサイエンス分野におけるセマンティック・ウェブの技術情報交流・共同研究開発を目的として毎月開催されています",
     "explanation_en": "SPARQLthon is a monthly hackathon for domestic developers/researchers interested in semantic web technologies in life sciences. (Held in Japanese)",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2082,9 +2093,9 @@
     "URL": "https://github.com/dbcls/rdfsummit",
     "explanation_ja": "ゲノム表現の標準化など特定の目的にフォーカスした小規模かつ重点的なハッカソンです",
     "explanation_en": "Small intensive hackathon for a focused topic such as standardization of genome representation.",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2116,9 +2127,10 @@
     "URL": "http://wiki.lifesciencedb.jp/mw/RDF-Tutorial",
     "explanation_ja": "統合データベースを支えるセマンティック・ウェブ技術の講習会です。",
     "explanation_en": "Annual tutorial on the Semantic Web technologies including RDF and SPARQL. (Held in Japanese)",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2150,9 +2162,9 @@
     "URL": "http://genomegraph.jp/",
     "explanation_ja": "多数のゲノムをグラフとして束ねて統一的に扱うゲノムグラフ技術に関する研究会です。",
     "explanation_en": "A workshop to learn, research and promote the genome graph techonology. (Held in Japanese)",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2184,9 +2196,9 @@
     "URL": "http://open-bio.jp/",
     "explanation_ja": "オープンソースで開発されるバイオインフォマティクスのソフトウェアに関する研究会です。",
     "explanation_en": "A workshop for open source bioinformatics software in Japan. (Held in Japanese)",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2218,9 +2230,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2252,9 +2262,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2286,9 +2294,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2320,9 +2326,7 @@
     "URL": "",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2354,9 +2358,9 @@
     "URL": "https://github.com/dbcls/rdfsummit2",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2388,9 +2392,9 @@
     "URL": "https://github.com/dbcls/rdfsummit3",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2422,9 +2426,9 @@
     "URL": "http://bioruby.org/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [
+      "ktym@dbcls.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2456,9 +2460,11 @@
     "URL": "http://sparqlbook.jp/",
     "explanation_ja": "",
     "explanation_en": "",
-    "担当者1": "ktym@dbcls.jp",
-    "担当者2": "kwsm@dbcls.rois.ac.jp",
-    "担当者3": "yy@dbcls.rois.ac.jp",
+    "担当者": [
+      "ktym@dbcls.jp",
+      "kwsm@dbcls.rois.ac.jp",
+      "yy@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2490,9 +2496,7 @@
     "URL": "http://qa.lifesciencedb.jp/",
     "explanation_ja": "ライフサイエンス研究にまつわる疑問や質問、それらへの回答を共有するウェブサイトです。",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
@@ -2524,9 +2528,7 @@
     "URL": "https://sip-db.dbcls.jp/",
     "explanation_ja": "微生物情報を反応、分子、特許情報などと関連付けて検索できます",
     "explanation_en": "",
-    "担当者1": "",
-    "担当者2": "",
-    "担当者3": "",
+    "担当者": [],
     "A4チラシPDF": "",
     "README_ja.md": "",
     "README_en.md": "",
