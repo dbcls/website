@@ -8203,6 +8203,16 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
+			36787304,
+			"https://doi.org/10.1371/journal.pone.0268816",
+			"Brain-derived neurotrophic factor in diabetes mellitus: A systematic review and meta-analysis",
+			"Moosaie",
+			"PLoS One",
+			"2023-02-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
 			36669104,
 			"https://doi.org/10.1073/pnas.2217543120",
 			"Inhibition of HSD17B13 protects against liver fibrosis by inhibition of pyrimidine catabolism in nonalcoholic steatohepatitis",
@@ -9261,5 +9271,5 @@
 			"2019-09-19T15:00:00.000Z"
 		]
 	],
-	"updated": "2023-02-01T07:53:45.913Z"
+	"updated": "2023-03-01T13:16:45.933Z"
 }
