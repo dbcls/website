@@ -4,51 +4,54 @@ title: イベント一覧
 ---
 <!DOCTYPE html>
 <html lang="ja" data-page-type="index">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Event News｜ ライフサイエンス統合データベースセンター</title>
-	<link rel="stylesheet" href="style/default-min.css">
+	<link rel="stylesheet" href="style/default.css">
 </head>
+
 <body>
-{% include header.html %}
-<nav>
-	<ul>
-		<li>日本語</li>
-		<li>
-			<a href="news-en.html">English</a>
-		</li>
-	</ul>
-</nav>
-<div class="content__wrapper">
-	<div id="subWrap">
-		<div class="sub__navigation sticky">
-			<h2 class="page-title">Event News</h2>
+	{% include header.html %}
+	<nav>
+		<ul>
+			<li>日本語</li>
+			<li>
+				<a href="news-en.html">English</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="content__wrapper">
+		<div id="subWrap">
+			<div class="sub__navigation sticky">
+				<h2 class="page-title">Event News</h2>
+			</div>
 		</div>
-	</div>
-	<div class="top__news-section">
-		<ul class="news__individual-wrapper">
-			{% for post in site.categories.ja %}
-			<li class='news__individual'>
-				<div class="post__sub-info">
-					<div class="post__date">
-						{{post.date | date_to_string}}
+		<div class="top__news-section">
+			<ul class="news__individual-wrapper">
+				{% for post in site.categories.ja %}
+				<li class='news__individual'>
+					<div class="post__sub-info">
+						<div class="post__date">
+							{{post.date | date_to_string}}
+						</div>
+						<div class="post-tags">
+							{% include post_meta.html %}
+						</div>
 					</div>
-				  	<div class="post-tags">
-						{% include post_meta.html %}
-					</div>
-				</div>
-				<a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
-				{% assign beginning =  post.content | slice: 0, 150 | strip_html%}
-				<p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
-	
-				
-				<!--p>{{post.date | date_to_string}}</p>
+					<a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
+					{% assign beginning = post.content | slice: 0, 150 | strip_html%}
+					<p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
+
+
+					<!--p>{{post.date | date_to_string}}</p>
 				<a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
 				<p class='news__desc-beginning'>{{post.content | slice: 0, 50 | strip_html}}…</p-->
-			</li>
-			{% endfor %}
-		</ul>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
-</div>
 </body>
+
 </html>

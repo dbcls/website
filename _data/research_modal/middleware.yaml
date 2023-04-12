@@ -1,0 +1,84 @@
+- subtitle:
+    ja: RDF 検索支援ツール
+    en: Support tools for RDF search
+  items:
+    - services_name_en: Umaka-Yummy/Data
+      url:
+        ja: http://d.umaka.dbcls.jp/
+        en: http://d.umaka.dbcls.jp/
+      image: img/service_assets/Umaka_Yummy_Data.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: SPARQLBuilder
+      url:
+        ja: http://www.sparqlbuilder.org/
+        en: http://www.sparqlbuilder.org/
+      image: img/service_assets/SPARQL_Builder.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: Endpoint browser
+      url:
+        ja: http://sparql-support.dbcls.jp/
+        en: http://sparql-support.dbcls.jp/
+      image: img/service_assets/endpoint-browser.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: SPARQList
+      url:
+        ja: https://github.com/dbcls/sparqlist
+        en: https://github.com/dbcls/sparqlist
+      image: img/service_assets/SPARQList.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: SPANG
+      url:
+        ja: http://spang.dbcls.jp/
+        en: http://spang.dbcls.jp/
+      image: img/service_assets/spang.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: SPARQL-proxy
+      url:
+        ja: https://github.com/dbcls/sparql-proxy
+        en: https://github.com/dbcls/sparql-proxy
+      image: img/service_assets/SPARQL_proxy.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: TogoStanza
+      url:
+        ja: http://togostanza.org/
+        en: http://togostanza.org/
+      image: img/service_assets/TogoStanza.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: d3sparql.js
+      url:
+        ja: http://biohackathon.org/d3sparql/
+        en: http://biohackathon.org/d3sparql/
+      image: img/service_assets/d3sparql.js.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: TogoTable
+      url:
+        ja: http://togotable.dbcls.jp
+        en: http://togotable.dbcls.jp
+      image: img/service_assets/TogoTable.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: TogoWS
+      url:
+        ja: http://togows.org/
+        en: http://togows.org/
+      image: img/service_assets/TogoWS.png
+      alt_title:
+        ja:
+        en:

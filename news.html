@@ -13,18 +13,9 @@ data-type: news
           <li class="sub__navigation-title outline-list-category__title active"><a href="/news.html">ニュース一覧</a></li>
           <li class="tag_panel">
             <span class="tag_panel-category-title">年</span>
-            <fieldset data-filter-group class="tag_panel_header controls" style="border: none">
+            <fieldset data-filter-group class="tag_panel_header year controls" style="border: none">
               <button type="button" class="tag_element term control" data-filter=".mix">
                 全期間
-              </button>
-              <button type="button" class="tag_element term control" data-toggle=".category_year-2018">
-                2018
-              </button>
-              <button type="button" class="tag_element term control" data-toggle=".category_year-2017">
-                2017
-              </button>
-              <button type="button" class="tag_element term control" data-toggle=".category_year-2016">
-                2016
               </button>
             </fieldset>
           </li>
@@ -66,7 +57,8 @@ data-type: news
           {{post.date | date: '%Y. %m. %d'}}
         </div>
         <div class="post__main post__main-news">
-          <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign beginning = post.content | slice: 0, 300 | strip_html%}
+          <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign beginning =
+          post.content | slice: 0, 300 | strip_html%}
           <p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
           <div class="post__sub-info">
             <div class="post-tags">
@@ -79,13 +71,7 @@ data-type: news
     </ul>
   </div>
 </div>
-<script>
-var containerEl = document.querySelector('.news__individual-wrapper');
-
-var mixer = mixitup(containerEl, {
-  multifilter: {
-    enable: true
-  }
-});
-</script>
 {% include footer.html %}
+<script src="script/mixitup.min.js"></script>
+<script src="script/mixitup-multifilter.min.js"></script>
+<script src="script/news.js"></script>

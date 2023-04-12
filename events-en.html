@@ -9,13 +9,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Event ｜ DBCLS</title>
-  <link rel="stylesheet" href="style/default-min.css">
+  <link rel="stylesheet" href="style/default.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <style type="text/css">
-  .pc-side-nav-fixed {
-    width: 18%;
-    position: fixed;
-  }
+    .pc-side-nav-fixed {
+      width: 18%;
+      position: fixed;
+    }
   </style>
 </head>
 
@@ -44,7 +44,8 @@
                   {{post.date | date: '%Y. %m. %d'}}
                 </div>
                 <div class="post__main post__main-top">
-                  <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign beginning = post.content | slice: 0, 300 | strip_html%}
+                  <a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a> {% assign
+                  beginning = post.content | slice: 0, 300 | strip_html%}
                   <p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
                   <div class="post__sub-info">
                     <div class="post-tags">
@@ -66,6 +67,8 @@
     </main>
   </div>
   {% include footer_en.html %}
-  <script src="script/default-min.js"></script>
+  <script src="script/default.js"></script>
+  <script src="script/events.js"></script>
 </body>
+
 </html>

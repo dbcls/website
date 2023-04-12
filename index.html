@@ -2,67 +2,89 @@
 ---
 <!DOCTYPE html>
 <html lang="ja" data-page-type="index">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
           script-src 'self' 'unsafe-inline' 'unsafe-eval' code.jquery.com www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com www.google-analytics.com; 
           style-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com;
           font-src 'self' fonts.googleapis.com fonts.gstatic.com;">
 	<title>DBCLS ｜ ライフサイエンス統合データベースセンター</title>
-	<link rel="stylesheet" href="style/default-min.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="style/swiper-bundle.min.css">
+	<link rel="stylesheet" href="style/default.css">
 </head>
+
 <body>
-{% include header.html %}
-<div class="main-image__wrapper">
-	<div class="main-image__contents">
-		<div class="active">
-			<img src="img/top_assets/main0.jpg" alt="">
+	{% include header.html %}
+	<div class="main-image__wrapper">
+		<div class="main-image__contents" data-slides-per-view="{{site.data.carousel.slides_per_view}}"
+			data-duration="{{site.data.carousel.duration}}">
+			<div class="swiper main-carousel">
+				<div class="swiper-wrapper main">
+					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
+					<div class=" swiper-slide">
+						<a href="{{item.url.ja}}" target="_blank"><img draggable="false" class="top-image" src="{{item.image.ja}}"
+								alt="{{item.title.ja}}"></a>
+						<img draggable="false" class="reflection" src="{{item.image.ja}}" alt="{{item.title.ja}}">
+						<div class="details">
+							{% if item.logo != nil %}
+							<a href="{{item.url.ja}}" target="_blank">
+								<img draggable="false" class="details-logo" src="{{item.logo}}" alt="{{item.title.ja}}">
+							</a>
+							{% endif %}
+							<h2>{{item.title.ja}}</h2>
+							<p>{{item.description.ja}}
+							</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div thumbsSlider="" class="swiper thumbnail-carousel">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-wrapper">
+					{% for item in site.data.carousel.items limit:site.data.carousel.slides_per_view %}
+					<div class="swiper-slide"><img draggable="false" src="{{item.image.ja}}" alt="{{item.title.ja}}">
+					</div>
+					{% endfor %}
+				</div>
+				<div class="swiper-button-next"></div>
+			</div>
 		</div>
-		<div>
-			<img src="img/top_assets/main1.jpg" alt="">
-		</div>
-		<div>
-				<img src="img/top_assets/main2.jpg" alt="">
-		</div>
-		<div>
-				<img src="img/top_assets/main4.jpg" alt="">
-		</div>
-		<div>
-				<img src="img/top_assets/main5.jpg" alt="">
-		</div>		
 	</div>
-</div>
-<div class="top__news-section">
-	<div class="main__contents-top-news">
-		<h2 class="page-title">News</h2>
-		<ul class="news__individual-wrapper">
-			{% for post in site.categories.ja limit:5 %}
+	<div class="top__news-section">
+		<div class="main__contents-top-news">
+			<h2 class="page-title">News</h2>
+			<ul class="news__individual-wrapper">
+				{% for post in site.categories.ja limit:5 %}
 				<li class='post__individual'>
 					<div class="post__date">
 						{{post.date | date: '%Y. %m. %d'}}
 					</div>
 					<div class="post__main post__main-top">
 						<a href="{{post.url | prepend: site.baseurl}}" class="post__title">{{post.title}}</a>
-						{% assign beginning =  post.content | slice: 0, 300 | strip_html%}
+						{% assign beginning = post.content | slice: 0, 300 | strip_html%}
 						<p class='post__desc-beginning'>{{beginning | slice: 0, 50}}…</p>
 						<div class="post__sub-info">
-						  <div class="post-tags">
+							<div class="post-tags">
 								{% include post_meta.html %}
 							</div>
 						</div>
 					</div>
 				</li>
-			{% endfor %}
-		</ul>
-		<div class="btn-box__top">
-			<a href="news.html" class="more_btn page_btn">more</a>
+				{% endfor %}
+			</ul>
+			<div class="btn-box__top">
+				<a href="news.html" class="more_btn page_btn">more</a>
+			</div>
 		</div>
 	</div>
-</div>
-{% include footer.html %}
+	{% include footer.html %}
 
 
-<script src="script/default-min.js"></script>
+	<script src="script/swiper-bundle.min.js"></script>
+	<script src="script/default.js"></script>
+	<script src="script/index.js"></script>
 </body>
+
 </html>
