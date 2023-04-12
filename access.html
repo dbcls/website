@@ -4,325 +4,355 @@
 <!DOCTYPE html>
 <!-- saved from url=(0030)http://dbcls.rois.ac.jp/member -->
 <html lang="ja" data-page-type="access">
-<!--<![endif]-->
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>アクセス ｜ DBCLS</title>
+    <link rel="stylesheet" href="style/default-min.css" />
+    <script
+      src="http://maps.google.com/maps/api/js?v=3&sensor=false"
+      　type="text/javascript"
+      charset="UTF-8"
+    ></script>
+    <style type="text/css">
+      .ggmap {
+        position: relative;
+        width: 100%;
+        height: 264px;
+        overflow: hidden;
+        margin-bottom: 16px;
+      }
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>アクセス ｜ DBCLS</title>
-  <link rel="stylesheet" href="style/default.css" />
-  <script src="http://maps.google.com/maps/api/js?v=3&sensor=false" 　type="text/javascript" charset="UTF-8"></script>
-  <style type="text/css">
-    .ggmap {
-      position: relative;
-      width: 100%;
-      height: 264px;
-      overflow: hidden;
-      margin-bottom: 16px;
-    }
+      .ggmap iframe,
+      .ggmap object,
+      .ggmap embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 264px;
+        width: 784px;
+      }
+    </style>
+  </head>
 
-    .ggmap iframe,
-    .ggmap object,
-    .ggmap embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 264px;
-      width: 784px;
-    }
-  </style>
-</head>
+  <body>
+    {% include header.html %}
+    <div class="content__wrapper">
+      <div id="subWrap">
+        <div class="sub__navigation sticky">
+          <h2 class="page-title">Access</h2>
+          <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+            <li
+              class="sub__navigation-title outline-list-category__title sub_1 active"
+            >
+              柏ラボ
+            </li>
+            <li
+              class="sub__navigation-title outline-list-category__title sub_2"
+            >
+              三島ラボ
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main__contents main__contents__accsess" id="main__contents">
+        <div id="main__contents-kashiwa">
+          <div class="main__content-title__wrapper main__content-title__access">
+            <h3 class="main__content-title">柏ラボ</h3>
+            <a
+              href="http://www.fc.u-tokyo.ac.jp/accessmap/"
+              class="page_btn more_btn"
+              >詳細</a
+            >
+          </div>
+          <div class="section-wrapper__access display">
+            <h3 class="sub__content-title">周辺地図</h3>
+            <div class="ggmap">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.1349264363744!2d139.95036445164817!3d35.894710980047584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189c16b6e2cf75%3A0x38932f06387b30b7!2z5p2x5Lqs5aSn5a2m5p-P44Gu6JGJ44Kt44Oj44Oz44OR44K56aeF5YmN44K144OG44Op44Kk44OI!5e0!3m2!1sja!2sjp!4v1521772509560"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>
+              〒277-0871<br />千葉県柏市若柴178-4-4 東京大学
+              柏の葉キャンパス駅前 サテライト 6階<br />TEL
+              04-7135-5508（代表）<br />FAX 04-7135-5534（代表）
+            </p>
+          </div>
+          <section class="section-wrapper__access display">
+            <h3 class="sub__content-title">電車をご利用の場合</h3>
+            <div class="accessmap"><img src="./img/accessmap_ja.svg" /></div>
+            <table class="terminal-info train">
+              <thead>
+                <tr>
+                  <th>出発駅</th>
+                  <th class="left-border">所有時間</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>つくばエクスプレス秋葉原駅</td>
+                  <td class="left-border">約30分</td>
+                </tr>
+                <tr>
+                  <td>つくばエクスプレスつくば駅</td>
+                  <td class="left-border">約20分</td>
+                </tr>
+                <tr>
+                  <td>つくばエクスプレス北千住駅</td>
+                  <td class="left-border">約20分</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="section-wrapper__access display">
+            <h3 class="sub__content-title">バスをご利用の場合</h3>
+            <table class="terminal-info bas">
+              <thead>
+                <tr>
+                  <th>乗り場</th>
+                  <th class="left-border">系統番号</th>
+                  <th class="left-border">行先</th>
+                  <th class="left-border">所要時間</th>
+                  <th class="left-border">時刻表</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>柏駅西口</td>
+                  <td class="left-border">柏09</td>
+                  <td class="left-border">柏の葉キャンパス駅東口</td>
+                  <td class="left-border">約23分</td>
+                  <td class="left-border">
+                    <a href="" class="btn pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>柏駅西口</td>
+                  <td class="left-border">西柏02</td>
+                  <td class="left-border">柏の葉キャンパス駅西口</td>
+                  <td class="left-border">約23分</td>
+                  <td class="left-border">
+                    <a href="" class="btn pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>流山おおたかの森駅東口</td>
+                  <td class="left-border">西柏03</td>
+                  <td class="left-border">柏の葉キャンパス駅西口</td>
+                  <td class="left-border">約36分</td>
+                  <td class="left-border">
+                    <a href="" class="btn pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>江戸川台駅東口</td>
+                  <td class="left-border">
+                    <p>西柏04</p>
+                    <p>西柏10</p>
+                  </td>
+                  <td class="left-border">柏の葉キャンパス駅東口</td>
+                  <td class="left-border">約25分</td>
+                  <td class="left-border">
+                    <a href="" class="btn pdf">pdf</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="section-wrapper__access display">
+            <h3 class="sub__content-title">飛行機をご利用の場合</h3>
 
-<body>
-  {% include header.html %}
-  <div class="content__wrapper">
-    <div id="subWrap">
-      <div class="sub__navigation sticky">
-        <h2 class="page-title">Access</h2>
-        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
-          <li class="sub__navigation-title outline-list-category__title sub_1 active">
-            柏ラボ
-          </li>
-          <li class="sub__navigation-title outline-list-category__title sub_2">
-            三島ラボ
-          </li>
-        </ul>
+            <!-- 羽田 -->
+            <div class="access_haneda">
+              <p class="access_plane_title">羽田空港をご利用の方</p>
+              <p class="access-subnav__info">
+                羽田空港&nbsp;→&nbsp;柏の葉キャンパス
+              </p>
+              <table class="terminal-info fly">
+                <thead>
+                  <tr>
+                    <th>乗り場</th>
+                    <th class="left-border" colspan="13">出発時刻</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>国際線ターミナル&#9317;乗り場</td>
+                    <td class="left-border">8:25</td>
+                    <td class="left-border">10:45</td>
+                    <td class="left-border">11:50</td>
+                    <td class="left-border">14:15</td>
+                    <td class="left-border">15:15</td>
+                    <td class="left-border">16:15</td>
+                    <td class="left-border">17:15</td>
+                    <td class="left-border">18:15</td>
+                    <td class="left-border">19:15</td>
+                    <td class="left-border">19:55</td>
+                    <td class="left-border">20:30</td>
+                    <td class="left-border">21:15</td>
+                    <td class="left-border">22:15</td>
+                  </tr>
+                  <tr>
+                    <td>第2ターミナル&#9324;乗り場</td>
+                    <td class="left-border">8:35</td>
+                    <td class="left-border">10:55</td>
+                    <td class="left-border">12:00</td>
+                    <td class="left-border">14:25</td>
+                    <td class="left-border">15:25</td>
+                    <td class="left-border">16:25</td>
+                    <td class="left-border">17:25</td>
+                    <td class="left-border">18:25</td>
+                    <td class="left-border">19:25</td>
+                    <td class="left-border">20:05</td>
+                    <td class="left-border">20:40</td>
+                    <td class="left-border">21:25</td>
+                    <td class="left-border">22:25</td>
+                  </tr>
+                  <tr>
+                    <td>第1ターミナル&#9324;乗り場</td>
+                    <td class="left-border">8:40</td>
+                    <td class="left-border">11:00</td>
+                    <td class="left-border">12:05</td>
+                    <td class="left-border">14:30</td>
+                    <td class="left-border">15:30</td>
+                    <td class="left-border">16:30</td>
+                    <td class="left-border">17:30</td>
+                    <td class="left-border">18:30</td>
+                    <td class="left-border">19:30</td>
+                    <td class="left-border">20:10</td>
+                    <td class="left-border">20:45</td>
+                    <td class="left-border">21:30</td>
+                    <td class="left-border">22:30</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="access-subnav__info">
+                柏の葉キャンパス&nbsp;→&nbsp;羽田空港
+              </p>
+              <table class="terminal-info fly">
+                <thead>
+                  <tr>
+                    <th>乗り場</th>
+                    <th class="left-border" colspan="9">出発時刻</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>柏の葉キャンパス駅西口②乗り場</td>
+                    <td class="left-border">5:07</td>
+                    <td class="left-border">5:57</td>
+                    <td class="left-border">6:57</td>
+                    <td class="left-border">8:04</td>
+                    <td class="left-border">9:04</td>
+                    <td class="left-border">10:54</td>
+                    <td class="left-border">12:01</td>
+                    <td class="left-border">15:01</td>
+                    <td class="left-border">16:01</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="access-subnav__transition">
+                詳細は<a href="http://www.tobu-bus.com/pc/kousoku/05.html"
+                  >こちら</a
+                >をご覧ください
+              </p>
+            </div>
+
+            <!-- 成田 -->
+            <div class="access_narita">
+              <p class="access_plane_title">成田空港をご利用の方</p>
+              <p class="access-subnav__info">
+                成田空港&nbsp;→&nbsp;柏の葉キャンパス
+              </p>
+              <table class="terminal-info fly">
+                <thead>
+                  <tr>
+                    <th>乗り場</th>
+                    <th class="left-border" colspan="13">出発時刻</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>成田空港第３ターミナル</td>
+                    <td class="left-border">11:05</td>
+                    <td class="left-border last">19:15</td>
+                  </tr>
+                  <tr>
+                    <td>成田空港第２ターミナル</td>
+                    <td class="left-border">11:10</td>
+                    <td class="left-border last">19:20</td>
+                  </tr>
+                  <tr>
+                    <td>成田空港第１ターミナル</td>
+                    <td class="left-border">11:15</td>
+                    <td class="left-border last">19:25</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="access-subnav__info">
+                柏の葉キャンパス&nbsp;→&nbsp;成田空港
+              </p>
+              <table class="terminal-info fly">
+                <thead>
+                  <tr>
+                    <th>乗り場</th>
+                    <th class="left-border" colspan="9">出発時刻</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>柏の葉キャンパス駅（西口）</td>
+                    <td class="left-border">&nbsp;6:30</td>
+                    <td class="left-border last">13:30</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="access-subnav__transition">
+                詳細は<a href="http://www.nariku.co.jp/kousoku/matsudo.htm"
+                  >こちら</a
+                >をご覧ください
+              </p>
+            </div>
+          </section>
+        </div>
+        <div id="main__contents-mishima">
+          <div class="main__content-title__wrapper main__content-title__access">
+            <h3 class="main__content-title">三島ラボ</h3>
+            <a
+              href="http://www.fc.u-tokyo.ac.jp/accessmap/"
+              class="page_btn more_btn"
+              >詳細</a
+            >
+          </div>
+          <div class="section-wrapper__access display">
+            <h3 class="sub__content-title">周辺地図</h3>
+            <div class="ggmap">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.778677370095!2d138.93585892616522!3d35.117762395058264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601990965cc48a1f%3A0xd2afca52ece7d445!2z5Zu956uL6YG65Lyd5a2m56CU56m25omA!5e0!3m2!1sja!2sjp!4v1521772915047"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>〒411-8540<br />静岡県三島市谷田1111 国立遺伝学研究所内</p>
+            <p>
+              詳細は<a href="https://www.nig.ac.jp/nig/ja/about-nig/access_ja"
+                >国立遺伝学研究所アクセスページ</a
+              >をご覧ください
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="main__contents main__contents__accsess" id="main__contents">
-      <div id="main__contents-kashiwa">
-        <div class="main__content-title__wrapper main__content-title__access">
-          <h3 class="main__content-title">柏ラボ</h3>
-          <a href="http://www.fc.u-tokyo.ac.jp/accessmap/" class="page_btn more_btn">詳細</a>
-        </div>
-        <div class="section-wrapper__access display">
-          <h3 class="sub__content-title">周辺地図</h3>
-          <div class="ggmap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.1349264363744!2d139.95036445164817!3d35.894710980047584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189c16b6e2cf75%3A0x38932f06387b30b7!2z5p2x5Lqs5aSn5a2m5p-P44Gu6JGJ44Kt44Oj44Oz44OR44K56aeF5YmN44K144OG44Op44Kk44OI!5e0!3m2!1sja!2sjp!4v1521772509560"
-              width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <p>
-            〒277-0871<br />千葉県柏市若柴178-4-4 東京大学
-            柏の葉キャンパス駅前 サテライト 6階<br />TEL
-            04-7135-5508（代表）<br />FAX 04-7135-5534（代表）
-          </p>
-        </div>
-        <section class="section-wrapper__access display">
-          <h3 class="sub__content-title">電車をご利用の場合</h3>
-          <div class="accessmap"><img src="./img/accessmap_ja.svg" /></div>
-          <table class="terminal-info train">
-            <thead>
-              <tr>
-                <th>出発駅</th>
-                <th class="left-border">所有時間</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>つくばエクスプレス秋葉原駅</td>
-                <td class="left-border">約30分</td>
-              </tr>
-              <tr>
-                <td>つくばエクスプレスつくば駅</td>
-                <td class="left-border">約20分</td>
-              </tr>
-              <tr>
-                <td>つくばエクスプレス北千住駅</td>
-                <td class="left-border">約20分</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <section class="section-wrapper__access display">
-          <h3 class="sub__content-title">バスをご利用の場合</h3>
-          <table class="terminal-info bas">
-            <thead>
-              <tr>
-                <th>乗り場</th>
-                <th class="left-border">系統番号</th>
-                <th class="left-border">行先</th>
-                <th class="left-border">所要時間</th>
-                <th class="left-border">時刻表</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>柏駅西口</td>
-                <td class="left-border">柏09</td>
-                <td class="left-border">柏の葉キャンパス駅東口</td>
-                <td class="left-border">約23分</td>
-                <td class="left-border">
-                  <a href="" class="btn pdf">pdf</a>
-                </td>
-              </tr>
-              <tr>
-                <td>柏駅西口</td>
-                <td class="left-border">西柏02</td>
-                <td class="left-border">柏の葉キャンパス駅西口</td>
-                <td class="left-border">約23分</td>
-                <td class="left-border">
-                  <a href="" class="btn pdf">pdf</a>
-                </td>
-              </tr>
-              <tr>
-                <td>流山おおたかの森駅東口</td>
-                <td class="left-border">西柏03</td>
-                <td class="left-border">柏の葉キャンパス駅西口</td>
-                <td class="left-border">約36分</td>
-                <td class="left-border">
-                  <a href="" class="btn pdf">pdf</a>
-                </td>
-              </tr>
-              <tr>
-                <td>江戸川台駅東口</td>
-                <td class="left-border">
-                  <p>西柏04</p>
-                  <p>西柏10</p>
-                </td>
-                <td class="left-border">柏の葉キャンパス駅東口</td>
-                <td class="left-border">約25分</td>
-                <td class="left-border">
-                  <a href="" class="btn pdf">pdf</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <section class="section-wrapper__access display">
-          <h3 class="sub__content-title">飛行機をご利用の場合</h3>
-
-          <!-- 羽田 -->
-          <div class="access_haneda">
-            <p class="access_plane_title">羽田空港をご利用の方</p>
-            <p class="access-subnav__info">
-              羽田空港&nbsp;→&nbsp;柏の葉キャンパス
-            </p>
-            <table class="terminal-info fly">
-              <thead>
-                <tr>
-                  <th>乗り場</th>
-                  <th class="left-border" colspan="13">出発時刻</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>国際線ターミナル&#9317;乗り場</td>
-                  <td class="left-border">8:25</td>
-                  <td class="left-border">10:45</td>
-                  <td class="left-border">11:50</td>
-                  <td class="left-border">14:15</td>
-                  <td class="left-border">15:15</td>
-                  <td class="left-border">16:15</td>
-                  <td class="left-border">17:15</td>
-                  <td class="left-border">18:15</td>
-                  <td class="left-border">19:15</td>
-                  <td class="left-border">19:55</td>
-                  <td class="left-border">20:30</td>
-                  <td class="left-border">21:15</td>
-                  <td class="left-border">22:15</td>
-                </tr>
-                <tr>
-                  <td>第2ターミナル&#9324;乗り場</td>
-                  <td class="left-border">8:35</td>
-                  <td class="left-border">10:55</td>
-                  <td class="left-border">12:00</td>
-                  <td class="left-border">14:25</td>
-                  <td class="left-border">15:25</td>
-                  <td class="left-border">16:25</td>
-                  <td class="left-border">17:25</td>
-                  <td class="left-border">18:25</td>
-                  <td class="left-border">19:25</td>
-                  <td class="left-border">20:05</td>
-                  <td class="left-border">20:40</td>
-                  <td class="left-border">21:25</td>
-                  <td class="left-border">22:25</td>
-                </tr>
-                <tr>
-                  <td>第1ターミナル&#9324;乗り場</td>
-                  <td class="left-border">8:40</td>
-                  <td class="left-border">11:00</td>
-                  <td class="left-border">12:05</td>
-                  <td class="left-border">14:30</td>
-                  <td class="left-border">15:30</td>
-                  <td class="left-border">16:30</td>
-                  <td class="left-border">17:30</td>
-                  <td class="left-border">18:30</td>
-                  <td class="left-border">19:30</td>
-                  <td class="left-border">20:10</td>
-                  <td class="left-border">20:45</td>
-                  <td class="left-border">21:30</td>
-                  <td class="left-border">22:30</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="access-subnav__info">
-              柏の葉キャンパス&nbsp;→&nbsp;羽田空港
-            </p>
-            <table class="terminal-info fly">
-              <thead>
-                <tr>
-                  <th>乗り場</th>
-                  <th class="left-border" colspan="9">出発時刻</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>柏の葉キャンパス駅西口②乗り場</td>
-                  <td class="left-border">5:07</td>
-                  <td class="left-border">5:57</td>
-                  <td class="left-border">6:57</td>
-                  <td class="left-border">8:04</td>
-                  <td class="left-border">9:04</td>
-                  <td class="left-border">10:54</td>
-                  <td class="left-border">12:01</td>
-                  <td class="left-border">15:01</td>
-                  <td class="left-border">16:01</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="access-subnav__transition">
-              詳細は<a href="http://www.tobu-bus.com/pc/kousoku/05.html">こちら</a>をご覧ください
-            </p>
-          </div>
-
-          <!-- 成田 -->
-          <div class="access_narita">
-            <p class="access_plane_title">成田空港をご利用の方</p>
-            <p class="access-subnav__info">
-              成田空港&nbsp;→&nbsp;柏の葉キャンパス
-            </p>
-            <table class="terminal-info fly">
-              <thead>
-                <tr>
-                  <th>乗り場</th>
-                  <th class="left-border" colspan="13">出発時刻</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>成田空港第３ターミナル</td>
-                  <td class="left-border">11:05</td>
-                  <td class="left-border last">19:15</td>
-                </tr>
-                <tr>
-                  <td>成田空港第２ターミナル</td>
-                  <td class="left-border">11:10</td>
-                  <td class="left-border last">19:20</td>
-                </tr>
-                <tr>
-                  <td>成田空港第１ターミナル</td>
-                  <td class="left-border">11:15</td>
-                  <td class="left-border last">19:25</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="access-subnav__info">
-              柏の葉キャンパス&nbsp;→&nbsp;成田空港
-            </p>
-            <table class="terminal-info fly">
-              <thead>
-                <tr>
-                  <th>乗り場</th>
-                  <th class="left-border" colspan="9">出発時刻</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>柏の葉キャンパス駅（西口）</td>
-                  <td class="left-border">&nbsp;6:30</td>
-                  <td class="left-border last">13:30</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="access-subnav__transition">
-              詳細は<a href="http://www.nariku.co.jp/kousoku/matsudo.htm">こちら</a>をご覧ください
-            </p>
-          </div>
-        </section>
-      </div>
-      <div id="main__contents-mishima">
-        <div class="main__content-title__wrapper main__content-title__access">
-          <h3 class="main__content-title">三島ラボ</h3>
-          <a href="http://www.fc.u-tokyo.ac.jp/accessmap/" class="page_btn more_btn">詳細</a>
-        </div>
-        <div class="section-wrapper__access display">
-          <h3 class="sub__content-title">周辺地図</h3>
-          <div class="ggmap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.778677370095!2d138.93585892616522!3d35.117762395058264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601990965cc48a1f%3A0xd2afca52ece7d445!2z5Zu956uL6YG65Lyd5a2m56CU56m25omA!5e0!3m2!1sja!2sjp!4v1521772915047"
-              width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <p>〒411-8540<br />静岡県三島市谷田1111 国立遺伝学研究所内</p>
-          <p>
-            詳細は<a href="https://www.nig.ac.jp/nig/ja/about-nig/access_ja">国立遺伝学研究所アクセスページ</a>をご覧ください
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% include footer.html %}
-  <script src="script/default.js"></script>
-</body>
-
+    {% include footer.html %}
+    <script src="script/default-min.js"></script>
+  </body>
 </html>

@@ -6,16 +6,10 @@
 /* default */
 $main-color: #004098
 $text-color: #333333
-$image-text-color: #444//#14274B
-$border-color: rgba(68, 68, 68, 0.2)//#14274B
 $footer-text-color: #444//#14274B
 $header-color: #004098
 $section-bg: #E8EDED
 $gray: #9E9E9E
-$yellow: #E3C042
-$green: #6FB865
-$blue: #699BC2
-$red: #C97795
 $table-bg: #E8EDED
 
 .margin-top10
@@ -126,89 +120,6 @@ body
     min-width: 1070px
 
 //下層ページカラム設定
-.preload-transitions *
-  $null-transition: none !important
-  -webkit-transition: $null-transition
-  -moz-transition: $null-transition
-  -ms-transition: $null-transition
-  -o-transition: $null-transition
-  transition: $null-transition
-
-.modal
-  color: $image-text-color
-  visibility: hidden
-  position: fixed
-  inset: 0
-  margin: auto
-  width: 100%
-  height: 100%
-  display: flex
-  justify-content: center
-  transform: scale(1.1)
-  align-items: center
-  opacity: 0
-  transition: opacity 0.25s, transform 0.25s, ease-out 0.25s
-  &.show-modal
-    opacity: 1
-    visibility: visible
-    transform: scale(1)
-  .modal__content
-    $box-padding: 30px
-    max-height: calc(100vh - 200px)
-    max-width: 900px 
-    background: rgba(255, 255, 255, 0.95)
-    box-shadow: rgba(0, 0, 0, 0.30) 0px 3px 30px
-    overflow-y: scroll
-    .introduction
-      padding: $box-padding
-      h4
-        font-size: 18px
-        margin-bottom: 30px
-        position: relative
-        &::after
-          content: ''
-          position: absolute
-          width: 30px
-          height: 3px
-          top: 30px
-          left: 0
-      $background-colors: ("application": $yellow,"middleware": $green,"integration": $blue,"support": $red)
-      @each $key, $value in $background-colors
-        &.#{$key} 
-          h4::after 
-            background-color: $value
-      h5
-        margin-bottom: 5px
-      p
-        font-size: 14px
-    .research__list
-      border-top: $border-color 1px solid
-      > li
-        padding: $box-padding
-        > div
-          display: block
-          margin-bottom: 10px
-    .sublist
-      display: flex
-      gap: 20px 0
-      flex-wrap: wrap
-      li
-        padding: 0 15px
-        min-height: 80px
-        width: 20%
-        display: flex
-        align-items: center
-        justify-content: center
-        a
-          text-decoration: none
-          color: $image-text-color
-          display: flex
-          justify-content: end
-          align-items: center
-          flex-direction: column
-          img
-            width: 100%
-
 .content__wrapper
   width: 1024px
   margin: 0 auto
@@ -656,97 +567,27 @@ footer
       font-weight: 800
     .main__forcused-page__text
       padding: 12px
-
-.main-image__wrapper 
-  background: #E8EDED
-  .main-image__contents 
+.main-image__wrapper
+  //margin-top: 67px
+  margin-top: 40px
+  .main-image__contents
     position: relative
-    width: 1024px
     height: 400px
-    margin: 0 auto
-    margin-top: 40px !important
-    img
-      user-select: none
-    .swiper-slide
-      position: relative
-      display: flex
-      justify-content: start
-      align-items: center
-    .swiper 
-      height: 100%
-      margin-left: auto
-      margin-right: auto
-    .main-carousel
-      width: 100%
-      .swiper-slide
-        background: #E8EDED
-        position: relative
-        .top-image, .reflection
-          display: block
-          width: 420px
-          height: 240px
-          object-fit: cover
-          margin-left: 50px
-          transform: perspective(1000px) rotateX(5deg) rotateY(20deg)
-        .reflection
-          position: absolute
-          bottom: -180px
-          transform: rotateX(180deg) translateX(-1.5px) translateY(15px) perspective(1000px) rotateX(5deg) rotateY(20deg) rotateZ(1.3deg) skew(2deg, 0deg)
-          mask-image: linear-gradient(transparent 50%, white 120%)
-          -webkit-mask-image: linear-gradient(transparent 70%, white 120%)
-        .details
-          position: absolute
-          left: 50%
-          text-align: left
-          width: 320px
-          .details-logo
-            max-height: 100px
-            max-width: 200px
-          h2
-            margin: 20px 0
-            font-size: 20px
-    .thumbnail-carousel
-      display: flex
-      flex-direction: column
+    div
       position: absolute
       top: 0
-      right: 50px
-      width: 90px
-      box-sizing: border-box
-      padding: 20px 0
-      img
-        display: block
-        width: 100%
-        height: 100%
-        object-fit: cover
-      .swiper-slide
-        height: 100%
-        opacity: 0.4
-        cursor: pointer
-      .swiper-slide-thumb-active
-        opacity: 1
-    .swiper-button-next,.swiper-button-prev 
-      width: 100%
-      height: 20px
-      margin-top: -10px
-      cursor: pointer
-      display: flex
-      align-items: center
-      justify-content: center
-      position: absolute
       left: 0
-    .swiper-button-prev
-      top: 10px
-    .swiper-button-next
-      bottom: 0px
-    .swiper-button-next::after, .swiper-button-prev::after
-      font-size: 12px
-      color: $main-color
-      transform: rotate(90deg)
-
-
-
-
+      z-index: 8
+      img
+        width: 100vw
+        height: 400px
+        object-fit: cover
+        display: block
+    .active
+      z-index: 10
+      opacity: 1.0
+    .last-active
+      z-index: 9
 //@media about.html図
 @media screen and (min-width: 0px) and (max-device-width: 640px)
   .main-image__wrapper
@@ -754,11 +595,11 @@ footer
       div
         img
           width: auto
-// @media screen and (min-width: 641px) and (max-device-width: 768px)
-//   .main-image__wrapper
-//     .main-image__contents
-//       div
-//         img
+@media screen and (min-width: 641px) and (max-device-width: 768px)
+  .main-image__wrapper
+    .main-image__contents
+      div
+        img
 @media screen and (min-width: 769px) and (max-device-width: 1024px)
   .main-image__wrapper
     .main-image__contents
@@ -814,179 +655,8 @@ footer
   color: $text-color
   margin-top: -6px
 .research__image
-  font-family: "A-OTF UD新ゴ Pr6N", "Muli" , san-serif
-  position: relative
   width: 786px
   height: auto
-  &.japanese
-    letter-spacing: -0.05em
-    .research__image-top.item
-      top: 95px
-      left: 135px
-      gap: 140px 170px
-      .forth
-        margin-left: -70px
-    .research__image-top.description
-      top: 35px
-      gap: 255px 180px
-      .second
-        margin-left: 10px
-      .forth
-        text-align: right
-    .research__image-services
-      h3
-        font-size: 18px
-      p
-        font-size: 14px
-        line-height: 1.5em
-    .research__image-users
-      h3
-        font-size: 14px
-    .research__image-others
-      h3
-        font-size: 14px
-  &.english
-    .research__image-top.item
-      top: 100px
-      left: 105px
-      gap: 140px 70px
-      .second
-        margin-right: -50px
-    .research__image-top.description
-      top: 35px
-      gap: 260px 140px
-      font-size: 14px
-      .forth
-        margin-left: -20px
-        text-align: right
-    .research__image-services
-      h3
-        font-size: 20px
-      p
-        font-size: 12px
-        line-height: 1.5em
-    .research__image-users
-      h3
-        font-size: 14px
-    .research__image-others
-      h3
-        font-size: 12px
-
-@mixin image-top
-  display: grid
-  grid-auto-columns: 1fr 
-  grid-auto-rows: 1fr 
-  grid-auto-flow: row
-  > div
-    display: flex
-    justify-content: center
-    align-items: center
-  .first
-    grid-area: first
-  .second
-    grid-area: second
-  .third
-    grid-area: third
-  .forth
-    grid-area: forth
-
-.research__image-top.item
-  +image-top
-  color: $image-text-color
-  position: absolute
-  grid-template-columns: 1fr 1fr
-  grid-template-rows: 1fr 1fr 
-  grid-template-areas: "first second" "third forth"
-
-.research__image-top.description
-  +image-top
-  color: $main-color
-  position: absolute
-  width: 786px
-  grid-template-columns: 1fr 1fr 1fr 
-  grid-template-rows: 1fr 1fr 
-  grid-template-areas: "forth first second" "forth third second"
-
-@mixin button-with-play($font-size: 10px)
-  text-decoration: none
-  -webkit-user-select: none
-  -ms-user-select: none
-  user-select: none
-  position: relative
-  color: $main-color
-  font-size: 11px
-  height: 22px
-  padding: 3px 8px 3px 18px
-  border: 1px solid $main-color
-  font-family: "Muli", sans-serif
-  display: flex
-  align-items: center
-  justify-content: center
-  cursor: pointer
-  align-self: center
-  border-radius: calc($font-size*1.4)
-  background-color: rgba(256,256,256,0.5)
-  transition: background-color 0.3s ease-in-out
-  &:hover
-    background-color: white
-  .material-icons
-    position: absolute
-    top: 5px
-    left: 5px
-    font-size: $font-size
-  > span
-    margin-right: 4px
-.research__details-button, .research__services-button
-  +button-with-play
-
-@mixin image-text-container
-  display: flex
-  color: $image-text-color
-  text-align: center
-  position: absolute
-  > div
-    display: flex
-    flex-direction: column
-    width: 196.5px
-  h3
-    font-weight: bold
-  p
-    font-weight: lighter
-
-.research__image-services
-  top: 416px
-  +image-text-container
-  button
-    margin-top: 5px
-  .middleware , .integration
-    margin-top: 35px
-.research__image-users
-  top: 605px
-  +image-text-container
-  h3
-    color: white
-  a
-    margin-top: 5px
-  .app-dev , .data-analyst
-    margin-top: 44px
-.research__image-others
-  top: 780px
-  left: 100px
-  +image-text-container
-  h3
-    color: white
-    // font-size: 12px !important
-    line-height: 1.5em
-  .education
-    margin-top: 30px
-.tippy-content
-  h5
-    font-weight: bold
-    text-decoration: underline
-    margin-bottom: 5px
-  p
-    font-size: 12px
-
 .section-wrapper
   display: flex
   flex-wrap: wrap
@@ -1176,6 +846,7 @@ footer
       height: 10px
       border-left: 2px dotted $main-color
   .table-history
+    tbody
     tr:nth-of-type(1)
       td
         padding-top: 0
@@ -1316,18 +987,18 @@ table.matrix
     &:before
       background-color: #CCBDB8
 
-  &.dbuser
+  &.biologist
     &:before
-      color: $yellow
-  &.app-dev
+      color: #BA9806
+  &.application
     &:before
-      color: $green
+      color: #006635
   &.data-scientist
     &:before
-      color: $blue
+      color: #224372
   &.provider
     &:before
-      color: $red
+      color: #821255
 
   &.term
     &:before

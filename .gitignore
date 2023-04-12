@@ -8,6 +8,7 @@
 # Icon must end with two \r
 Icon
 
+
 # Thumbnails
 ._*
 
@@ -26,6 +27,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
 
 ### https://raw.github.com/github/gitignore/81c6bec5eb506e4fbfe267bcbda53799ea40d13d/Global/Windows.gitignore
 
@@ -52,6 +54,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
 
 ### https://raw.github.com/github/gitignore/81c6bec5eb506e4fbfe267bcbda53799ea40d13d/Node.gitignore
 
@@ -118,6 +121,3 @@ typings/
 .next
 
 config.codekit3
-
-_site/
-.vscode/*

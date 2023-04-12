@@ -9,10 +9,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>研究開発 ｜ DBCLS</title>
-  <link rel="stylesheet" href="style/default.css">
+  <link rel="stylesheet" href="style/default-min.css">
 </head>
 
-<body class="preload-transitions">
+<body>
   {% include header.html %}
   <div class="content__wrapper">
     <div id="subWrap">
@@ -20,9 +20,7 @@
         <h2 class="page-title">Research</h2>
         <ul class="sub__navigation-wrapper outline-list-category__wrapper">
           <li class="sub__navigation-title outline-list-category__title active"><a href="/research.html">研究開発</a></li>
-          <li class="sub__navigation-title outline-list-category__title"><a href="/publications.html">発表論文等一覧</a></li>
-          <li class="sub__navigation-title outline-list-category__title"><a href="/knowledgegraph.html">知識グラフ化への取り組み<a>
-          </li>
+          <li class="sub__navigation-title outline-list-category__title"><a href="publications.html">発表論文等一覧</a></li>
         </ul>
       </div>
     </div>
@@ -30,222 +28,193 @@
       <div class="main__content-title__wrapper">
         <h3 class="main__content-title">研究開発</h3>
       </div>
-      <p class="research__description">DBCLS
-        では、国内外のデータベースの統合化をはじめ、データベース利用者の利便性向上を目的としたアプリケーションや基盤技術の研究開発を行っています。また、各種データや既存のデータベースの統合化支援や、そのためのデータ標準化の整備を進めています。これらの研究開発および諸活動は、国内外の多くの関連する研究機関と連携して進めるとともに、得られた成果はウェブなどで公開しています。
-      </p>
-      <div class="research__image japanese"><img usemap="#direction_map" src="./img/direction_map_new.png"
-          draggable="false">
-        <div class="research__image-top description">
-          <div class="first">探索</div>
-          <div class="second">解析＆知識発見</div>
-          <div class="third">標準化＆統合化</div>
-          <div class="forth">属性による<br>分類＆可視化</div>
-        </div>
-        <div class="research__image-top item">
-          <div class="first">Togo Data eXplorer</div>
-          <div class="second">俯瞰＆データ抽出</div>
-          <div class="third">統合されたRDF知識グラフ</div>
-          <div class="forth">データソース</div>
-        </div>
-        <div class="research__image-services">
-          <div class="application">
-            <h3>アプリケーション開発</h3>
-            <p>データベース<br>
-              統合利用環境の構築</p>
-            <button class="research__details-button modal-toggle">
-              <span class="material-icons">play_circle</span>
-              詳細</button>
-          </div>
-          <div class="middleware">
-            <h3>ミドルウェア開発</h3>
-            <p>データベースの<br>
-              効率的な運用と拡張</p>
-            <button class="research__details-button modal-toggle">
-              <span class="material-icons">play_circle</span>
-              詳細</button>
-          </div>
-          <div class="integration">
-            <h3>データベース統合</h3>
-            <p>データベース統合化のための<br>
-              基盤技術開発</p>
-            <button class="research__details-button modal-toggle">
-              <span class="material-icons">play_circle</span>
-              詳細</button>
-          </div>
-          <div class="support">
-            <h3>データベース統合化支援</h3>
-            <p>統合化支援と統合化のための<br>
-              国際標準整備</p>
-            <button class="research__details-button modal-toggle">
-              <span class="material-icons">play_circle</span>
-              詳細</button>
-          </div>
-        </div>
-        <div class="research__image-users">
-          <div class="dbuser">
-            <h3>データベース利用者</h3>
-            <a class="research__services-button" href="/services.html?user=dbuser">
-              <span class="material-icons">play_circle</span>
-              サービス一覧</a>
-          </div>
-          <div class="app-dev">
-            <h3>アプリケーション開発者</h3>
-            <a class="research__services-button" href="/services.html?user=app-dev">
-              <span class="material-icons">play_circle</span>
-              サービス一覧</a>
-          </div>
-          <div class="data-analyst">
-            <h3>大規模データ解析者</h3>
-            <a class="research__services-button" href="/services.html?user=data-scientist">
-              <span class="material-icons">play_circle</span>
-              サービス一覧</a>
-          </div>
-          <div class="provider">
-            <h3>データ所有者</h3>
-            <a class="research__services-button" href="/services.html?user=provider">
-              <span class="material-icons">play_circle</span>
-              サービス一覧</a>
-          </div>
-        </div>
-        <div class="research__image-others">
-          <div class="public-relations">
-            <h3>広報</h3>
-          </div>
-          <div class="education">
-            <h3>教育活動</h3>
-          </div>
-          <div class="copperation">
-            <h3>国内・国際連携</h3>
-          </div>
-        </div>
-      </div>
-      <div class="modal">
-        <article class="modal__content">
-          <div class="introduction application">
-            <h4>アプリケーション開発</h4>
-            <h5>データベース統合利用のための環境構築</h5>
-            <p>
-              統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
-            </p>
-          </div>
-          {% for section in site.data.research_modal.application %}
+      <p class="research__description">DBCLS では、国内外のデータベースの統合化をはじめ、データベース利用者の利便性向上を目的としたアプリケーションや基盤技術の研究開発を行っています。また、各種データや既存のデータベースの統合化支援や、そのためのデータ標準化の整備を進めています。これらの研究開発および諸活動は、国内外の多くの関連する研究機関と連携して進めるとともに、得られた成果はウェブなどで公開しています。</p>
+      <div class="research__image"><img src="./img/direction_map.png"></div>
+      <div class="section-wrapper research_explanation">
+        <article class="article__section research__section-ja padding15">
+          <h4>データベース統合利用のための環境構築</h4>
+          <p>統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。</p>
           <ul class="research__list">
             <li>
-              <div>{{section.subtitle.ja}}</div>
-              <ul class="sublist">
-                {% for item in section.items %}
-                <li class="tooltip" id="{{item.services_name_en}}">
-                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
-                    {% if item.alt_title.ja != nil %}
-                    <div>{{item.alt_title.ja}}</div>
-                    {% endif %}
-                  </a>
+              <span class="reference-ja">【ゲノム・発現統合検索】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://togogenome.org/">TogoGenome</a>
                 </li>
-                {% endfor %}
+                <li>
+                  <a target="_blank" href="http://sra.dbcls.jp/">DBCLS SRA</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://refex.dbcls.jp/">RefEx</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://aoe.dbcls.jp/">AOE</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://GGRNA.dbcls.jp/">GGRNA</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://GGGenome.dbcls.jp/">GGGenome</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://gendoo.dbcls.jp/">Gendoo</a>
+                </li>
               </ul>
             </li>
           </ul>
-          {% endfor %}
+          <ul class="research__list">
+            <li>
+              <span class="reference-ja">【自然言語による統合検索】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://lodqa.org">LODQA</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          </ul>
+          <ul class="research__list">
+            <li>
+              <span class="reference-ja">【応用ツール】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="https://pubcasefinder.dbcls.jp/">PubCaseFinder</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://crispr.dbcls.jp/">CRISPRdirect</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="research__list">
+            <li>
+              <span class="reference-ja">【コンテンツ】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://first.lifesciencedb.jp/">ライフサイエンス新着論文レビュー・領域融合レビュー</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://togotv.dbcls.jp/">統合TV</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/">BodyParts3D</a>
+                  </li>
+                <li>
+                  <a target="_blank" href="http://qa.lifesciencedb.jp/">ライフサイエンスQA</a>
+                </li>
+              </ul>
+               <ul class="research__list">
+            <li>
+              <span class="reference-ja">【戦略的イノベーション創造プログラム (SIP)】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="https://sip-db.dbcls.jp/">スマートバイオ産業・農業基盤技術関連データ</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </article>
-      </div>
-      <div class="modal">
-        <article class="modal__content">
-          <div class="introduction middleware">
-            <h4>ミドルウェア開発</h4>
-            <h5>データベースの効率的な運用と拡張</h5>
-            <p>
-              データベースや各種のサービスを運用するにあたり、セマンティック・ウェブ技術に基づいた運用や、分散環境への対応についての調査・研究開発を行っています。研究開発の成果として公開されたデータベースを安定的に運用するため、新規技術の導入や既存のデータベース利用者への対応なども継続して行うとともに、
-              RDF 化されたデータを効率よく扱うための技術を開発しています。
-            </p>
-          </div>
-          {% for section in site.data.research_modal.middleware %}
+        <article class="article__section research__section-ja padding15">
+          <h4>データベースの効率的な運用と拡張</h4>
+          <p>データベースや各種のサービスを運用するにあたり、セマンティック・ウェブ技術に基づいた運用や、分散環境への対応についての調査・研究開発を行っています。研究開発の成果として公開されたデータベースを安定的に運用するため、新規技術の導入や既存のデータベース利用者への対応なども継続して行うとともに、 RDF 化されたデータを効率よく扱うための技術を開発しています。</p>
           <ul class="research__list">
             <li>
-              <div>{{section.subtitle.ja}}</div>
-              <ul class="sublist">
-                {% for item in section.items %}
-                <li class="tooltip" id="{{item.services_name_en}}">
-                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
-                    {% if item.alt_title.ja != nil %}
-                    <div>{{item.alt_title.ja}}</div>
-                    {% endif %}
-                  </a>
-                </li>
-                {% endfor %}
+              <span class="reference-ja">【RDF 検索支援ツール】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://d.umaka.dbcls.jp/">Umaka-Yummy</a> / <a target="_blank" href="http://www.sparqlbuilder.org/">SPARQL Builder</a></li>
+                <li>
+                  <a target="_blank" href="http://sparql-support.dbcls.jp/">SPARQL support</a></li>
+                <li>
+                  <a target="_blank" href="https://github.com/dbcls/sparqlist">SPARQList</a></li>
+                <li>
+                  <a target="_blank" href="http://spang.dbcls.jp/">SPANG</a></li>
+                <li>
+                  <a target="_blank" href="https://github.com/dbcls/sparql-proxy">SPARQL-proxy</a></li>
+                <li>
+                  <a target="_blank" href="http://togostanza.org/">TogoStanza</a></li>
+                <li>
+                  <a target="_blank" href="http://biohackathon.org/d3sparql/">d3sparql.jp</a></li>
+                <li>
+                  <a target="_blank" href="http://togotable.dbcls.jp">TogoTable</a></li>
+                <li>
+                  <a target="_blank" href="http://togows.org/">TogoWS</a></li>
               </ul>
             </li>
           </ul>
-          {% endfor %}
         </article>
-      </div>
-      <div class="modal">
-        <article class="modal__content">
-          <div class="introduction integration">
-            <h4>データベース統合</h4>
-            <h5>データベース統合化のための基盤技術開発</h5>
-            <p>
-              統合データベースの価値を研究者に届け、日々の研究で有効に利用できるように、ウェブサービスやコンテンツの充実を図っています。特に、ゲノム情報や遺伝子発現情報を統合的に検索するためのインタフェースや自然言語で検索するためのインタフェースを持つウェブサービスを開発しています。それらを医療やゲノム編集などに応用するためのツールも開発しています。
-            </p>
-          </div>
-          {% for section in site.data.research_modal.integration %}
+        <article class="article__section research__section-ja padding15">
+          <h4>データベース統合化のための基盤技術開発</h4>
+          <p>DBCLS ではセマンティック・ウェブ技術を用いたデータベース統合を推進しています。セマンティック・ウェブにおけるリソースを記述するためのフレームワークである Resource Description Framework (RDF) をデータベースに用いることにより、個々のデータに含まれる情報をより高い利便性で扱えるようになります。また、そのようなセマンティックを重視したデータベースの統合には、専門家や文献からの知識によるデータ間の関連の意味付けが重要となります。これらの RDF 化を支援し、データベース統合のための基盤技術を開発しています。</p>
           <ul class="research__list">
             <li>
-              <div>{{section.subtitle.ja}}</div>
-              <ul class="sublist">
-                {% for item in section.items %}
-                <li class="tooltip" id="{{item.services_name_en}}">
-                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
-                    {% if item.alt_title.ja != nil %}
-                    <div>{{item.alt_title.ja}}</div>
-                    {% endif %}
-                  </a>
+              <span class="reference-ja">【データベース RDF 化支援ツール】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://d2rq.dbcls.jp/">D2RQ Mapper</a>
                 </li>
-                {% endfor %}
+                <li>
+                  <a target="_blank" href="http://togodb.org/">TogoDB</a>
+                </li>
               </ul>
             </li>
           </ul>
-          {% endfor %}
+          <ul class="research__list">
+            <li>
+              <span class="reference-ja">【知識の抽出および RDF 化支援ツール】</span>
+              <br>
+              <ul>
+                <li>
+                  <a target="_blank" href="http://pubannotation.org/">PubAnnotation</a> / <a target="_blank" href="http://textae.pubannotation.org/">TextAE</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://pubdictionaries.org">PubDictionaries</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://allie.dbcls.jp/">Allie</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://colil.dbcls.jp/">Colil</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://docman.dbcls.jp/im/">inMeXes</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://ontofinder.dbcls.jp/">OntoFinder</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </article>
-      </div>
-      <div class="modal">
-        <article class="modal__content">
-          <div class="introduction support">
-            <h4>データベース統合化支援</h4>
-            <h5>統合化支援と統合化のための国際標準整備</h5>
-            <p>
-              個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF
-              技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS
-              はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。
-            </p>
-          </div>
-          {% for section in site.data.research_modal.support %}
+        <article class="article__section research__section-ja padding15">
+          <h4>統合化支援と統合化のための国際標準整備</h4>
+          <p>個別のデータベースを有機的に繋ぐことにより、それぞれのデータベースの価値をさらに高めることを目的として、国内外で構築されるデータベースに対し、DBCLS で開発している RDF 技術を元にデータベース統合の支援を行っています。そのために必要な国内外のデータベースを構築する研究機関と連携を図っており、DBCLS はセマンティック・ウェブによるデータベース統合の国際標準の整備に貢献しています。</p>
           <ul class="research__list">
             <li>
-              <div>{{section.subtitle.ja}}</div>
-              <ul class="sublist">
-                {% for item in section.items %}
-                <li class="tooltip" id="{{item.services_name_en}}">
-                  <a target="_blank" href="{{item.url.ja}}"><img src="{{item.image}}">
-                    {% if item.alt_title.ja != nil %}
-                    <div>{{item.alt_title.ja}}</div>
-                    {% endif %}
-                  </a>
-                </li>
-                {% endfor %}
+              <span class="reference-ja">【関連リンク】</span>
+              <br>
+              <ul>
+                <li><a target="_blank" href="https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md" title="">RDF化ガイドライン</a></li>
+                <li><a target="_blank" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon" title="">SPARQLthon</a></li>
+                <li><a target="_blank" href="https://integbio.jp/rdf/" title="">NBDC RDF ポータル</a></li>
+                <li><a target="_blank" href="http://lsd.dbcls.jp/portal/" title="">LSD RDF Data Portal</a></li>
+                <li><a target="_blank" href="http://biohackathon.org/" title="">ハッカソン（広報・教育）</a></li>
               </ul>
             </li>
           </ul>
-          {% endfor %}
         </article>
       </div>
     </div>
   </div>
   {% include footer.html %}
-
-  <script src="script/default.js"></script>
-  <script src="script/research.js"></script>
-  <script src="script/popper.min.js"></script>
-  <script src="script/tippy-bundle.umd.min.js"></script>
+  <script src="script/default-min.js"></script>
 </body>
 
 </html>
