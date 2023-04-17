@@ -1,0 +1,116 @@
+# itemの各変数名の説明
+# image：サムネイル画像（縦に並んでる方）とトップ画像
+#   ※ アスペクト比 1.75:1 一番綺麗に映る
+# logo：文字上のロゴ
+# title：題名 (日本語だと一行は16文字まで）
+# url：リンクの飛び先
+# description：内容（日本語だと100文字まではバランスよく見える）
+
+slides_per_view: 6 #サムネイル画像の表示数（4-6を設定してください）
+duration: 4000 #自動再生の切り替わる秒数、値は 1000 ＝ 1秒
+items:
+  # ↓１個目の画像
+  - image:
+      ja: img/top_assets/TogoDX_screenshot.jpeg
+      en: img/top_assets/TogoDX_screenshot.jpeg
+    logo: img/top_assets/TogoDX.svg
+    title:
+      ja: TogoDX/human
+      en: TogoDX/human
+    url:
+      ja: https://togodx.dbcls.jp/human/
+      en: https://togodx.dbcls.jp/human/
+    description:
+      ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
+      en: A web application for integrated exploration of human-related data.
+
+  # ↓２個目の画像
+  - image:
+      ja: img/top_assets/TogoID_screenshot.jpeg
+      en: img/top_assets/TogoID_screenshot.jpeg
+    logo: img/top_assets/TogoID.svg
+    title:
+      ja: TogoID
+      en: TogoID
+    url:
+      ja: https://togoid.dbcls.jp/
+      en: https://togoid.dbcls.jp/
+    description:
+      ja: 生命科学系データベースのさまざまなIDのつながりを探索的に確認しながらID変換をすることができるウェブツール
+      en: A web application that allows you to search and convert links between IDs of databases in the life sciences.
+
+  # ↓３個目の画像
+  - image:
+      ja: img/top_assets/BioHackathon_meeting.jpeg
+      en: img/top_assets/BioHackathon_meeting.jpeg
+    logo: img/top_assets/BioHackathon.svg
+    title:
+      ja: BioHackathon
+      en: BioHackathon
+    url:
+      ja: http://www.biohackathon.org/
+      en: http://www.biohackathon.org/
+    description:
+      ja: 生命科学分野のデータベース統合の技術基盤の確立を目的として、年1回日本各地で開催している国際開発者会議
+      en: This annual international developer meeting is held in different locations across Japan to establish the technical foundation for integrating databases in the life sciences.
+
+  # ↓４個目の画像
+  - image:
+      ja: img/top_assets/TogoTV_screenshot.jpeg
+      en: img/top_assets/TogoTV_screenshot.jpeg
+    logo: img/service_assets/TogoTV2020.svg
+    title:
+      ja: 統合TV
+      en: TogoTV
+
+    url:
+      ja: https://togotv.dbcls.jp/
+      en: https://togotv.dbcls.jp/en/
+    description:
+      ja: バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイト
+      en: A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.
+
+  # ↓５個目の画像
+  - image:
+      ja: img/top_assets/about_ja_screenshot.jpeg
+      en: img/top_assets/about_en_screenshot.jpeg
+    logo: 
+    title:
+      ja: 関連機関との連携
+      en: Collaborations
+    url:
+      ja: https://dbcls.rois.ac.jp/about.html
+      en: https://dbcls.rois.ac.jp/about-en.html
+    description:
+      ja: DBCLSは、NBDC事業推進部およびDDBJと協力・連携しています
+      en: DBCLS collaborates with DDBJ and NBDC, JST
+
+  # ↓６個目の画像
+  - image:
+      ja: img/top_assets/research_page_screenshot.jpeg
+      en: img/top_assets/research_page_screenshot.jpeg
+    logo: 
+    title:
+      ja: DBCLSの研究開発
+      en: Research and development in DBCLS
+    url:
+      ja: https://dbcls.rois.ac.jp/research.html
+      en: https://dbcls.rois.ac.jp/research-en.html
+    description:
+      ja: 生命科学のデータサイエンス化に資するデータベース統合のための技術開発を行っています
+      en: Development of technologies for database integration contributing to the data-driven life sciences.
+
+  # 下以降は表示されませんので、予備として保存しても構わないです。
+  - image:
+      ja: img/top_assets/TogoDX_screen.png
+      en: img/top_assets/TogoDX_screen.png
+    logo: 
+    title:
+      ja: TogoDX/human
+      en: TogoDX/human
+    url:
+      ja: https://togodx.dbcls.jp/human/
+      en: https://togodx.dbcls.jp/human/
+    description:
+      ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
+      en: A web application for integrated exploration of human-related data.

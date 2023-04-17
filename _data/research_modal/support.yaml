@@ -1,0 +1,44 @@
+- subtitle:
+    ja: 関連リンク
+    en: Related links
+  items:
+    - services_name_en: DB Guidelines
+      url:
+        ja: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
+        en: https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md
+      image:
+      alt_title:
+        ja: RDF化ガイドライン
+        en: RDFizing Database Guideline
+    - services_name_en: SPARQLthon
+      url:
+        ja: http://wiki.lifesciencedb.jp/mw/SPARQLthon
+        en: http://wiki.lifesciencedb.jp/mw/SPARQLthon
+      image: img/service_assets/SPARQLthon.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: NBDC RDF Portal
+      url:
+        ja: https://integbio.jp/rdf/
+        en: https://integbio.jp/rdf/
+      image: img/service_assets/NBDC_RDF_Portal.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: LSD RDF Data Portal
+      url:
+        ja: http://lsd.dbcls.jp/portal/
+        en: http://lsd.dbcls.jp/portal/
+      image: img/service_assets/LSD_RDF_Data_Portal.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: BioHackathon
+      url:
+        ja: http://biohackathon.org/
+        en: http://biohackathon.org/
+      image: img/service_assets/BioHackathon.png
+      alt_title:
+        ja:
+        en:

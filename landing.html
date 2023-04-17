@@ -1,0 +1,126 @@
+---
+---
+<!DOCTYPE html>
+<html lang="ja" data-page-type="services">
+
+<head>
+  <title>サービス ｜ DBCLS</title>
+  <meta charset="UTF-8">
+  <link href="style/default.css" rel="stylesheet">
+  <link href="style/github-markdown.css" rel="stylesheet">
+  <script src="script/marked.min.js">
+  </script>
+  <script src="script/ofi.min.js">
+  </script>
+  <style>
+    .papers_citing_table td a {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  {% include header.html %}
+  <div class="content__wrapper">
+    <div id="subWrap">
+      <div class="sub__navigation sticky service__side-bar">
+        <h2 class="page-title">Services</h2>
+        <ul class="sub__navigation-wrapper outline-list-category__wrapper">
+          <li class="sub__navigation-title outline-list-category__title active">
+            <a href="">サービス一覧</a>
+            <ul class="facet_section">
+              <li class="tag_panel ">
+                <span class="tag_panel-category-title">カテゴリ</span>
+                <fieldset data-filter-group="category" class="tag_panel_header controls" style="border: none">
+                  <button type="button" class="tag_element term control active" data-filter=".mix">
+                    すべて
+                  </button>
+                  <button type="button" class="tag_element database-integration control"
+                    data-toggle=".database-integration">
+                    データベース統合
+                  </button>
+                  <button type="button" class="tag_element materials control" data-toggle=".materials">
+                    教材・資料
+                  </button>
+                  <button type="button" class="tag_element genome control" data-toggle=".genome">
+                    ゲノム
+                  </button>
+                  <button type="button" class="tag_element gene control" data-toggle=".gene">
+                    遺伝子
+                  </button>
+                  <button type="button" class="tag_element gene-expression control" data-toggle=".gene-expression">
+                    遺伝子発現
+                  </button>
+                  <button type="button" class="tag_element NGS control" data-toggle=".NGS">
+                    NGS
+                  </button>
+                  <button type="button" class="tag_element disease control" data-toggle=".disease">
+                    疾患
+                  </button>
+                  <button type="button" class="tag_element natural-language-processing control"
+                    data-toggle=".natural-language-processing">
+                    自然言語処理
+                  </button>
+                  <button type="button" class="tag_element SPARQL control" data-toggle=".SPARQL">
+                    SPARQL検索
+                  </button>
+                  <button type="button" class="tag_element RDF-creation control" data-toggle=".RDF-creation">
+                    RDF作成
+                  </button>
+                </fieldset>
+              </li>
+              <li class="tag_panel">
+                <span class="tag_panel-category-title">ユーザ</span>
+                <fieldset data-filter-group="user" class="tag_panel_header controls" style="border: none">
+                  <button type="button" class="tag_element user all control active" data-filter=".mix">
+                    すべて
+                  </button>
+                  <button type="button" class="tag_element user dbuser control" data-toggle=".dbuser">
+                    データベース利用者
+                  </button>
+                  <button type="button" class="tag_element user app-dev control" data-toggle=".app-dev">
+                    アプリケーション開発者
+                  </button>
+                  <button type="button" class="tag_element user data-scientist control" data-toggle=".data-scientist">
+                    大規模データ解析者
+                  </button>
+                  <button type="button" class="tag_element user provider control" data-toggle=".provider">
+                    データ所有者
+                  </button>
+                </fieldset>
+              </li>
+            </ul>
+          </li>
+          <li class="sub__navigation-title outline-list-category__title">
+            <a href="/references.html">引用文献一覧</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main__contents main__contents__services">
+      <div class="main__content-title__wrapper">
+        <h3 class="main__content-title">サービス一覧</h3>
+      </div>
+      <div class="main__contents-servece">
+        <!--h3 class="main__content-title content-title__services">コンテンツ</h3-->
+        <div class="section-wrapper">
+          <div class="service__wrapper wrapper-type-box" id="service_list"></div>
+          <div id="loader-bg">
+            <div id="loader">
+              <p>Now Loading...</p>
+            </div>
+          </div>
+          <table class="papers_citing_table" id="table">
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>{% include footer.html %}
+  <script src="script/underscore-min.js" type="text/javascript"></script>
+  <script src="script/mixitup.min.js"></script>
+  <script src="script/mixitup-multifilter.min.js"></script>
+  <script src="script/default.js"></script>
+</body>
+
+</html>

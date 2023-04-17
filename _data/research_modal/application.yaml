@@ -1,0 +1,148 @@
+- subtitle:
+    ja: ゲノム・発現統合検索
+    en: Integrated search for genome and expression data
+  items:
+    - services_name_en: TogoGenome
+      url:
+        ja: http://togogenome.org/
+        en: http://togogenome.org/
+      image: img/service_assets/TogoGenome.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: DBCLS SRA
+      url:
+        ja: http://sra.dbcls.jp/
+        en: http://sra.dbcls.jp/
+      image: img/service_assets/DBCLS_SRA.png
+      alt_title:
+        ja: DBCLS SRA
+        en: DBCLS SRA
+    - services_name_en: RefEx
+      url:
+        ja: http://refex.dbcls.jp/
+        en: http://refex.dbcls.jp/
+      image: img/service_assets/RefEx.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: AOE
+      url:
+        ja: http://aoe.dbcls.jp/
+        en: http://aoe.dbcls.jp/
+      image: img/service_assets/AOE.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: GGRNA
+      url:
+        ja: https://GGRNA.dbcls.jp/
+        en: https://GGRNA.dbcls.jp/
+      image: img/service_assets/GGRNA_new.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: GGGenome
+      url:
+        ja: https://GGGenome.dbcls.jp/
+        en: https://GGGenome.dbcls.jp/
+      image: img/service_assets/GGGenome_en2021.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: Gendoo
+      url:
+        ja: http://gendoo.dbcls.jp/
+        en: http://gendoo.dbcls.jp/
+      image: img/service_assets/gendoo.png
+      alt_title:
+        ja:
+        en:
+- subtitle:
+    ja: 自然言語による統合検索
+    en: Integrated search by NLP(natural language processing)
+  items:
+    - services_name_en: LODQA
+      url:
+        ja: https://www.lodqa.org/
+        en: https://www.lodqa.org/
+      image: img/service_assets/LODQA.svg
+      alt_title:
+        ja:
+        en:
+- subtitle:
+    ja: 応用ツール
+    en: Application
+  items:
+    - services_name_en: PubCaseFinder
+      url:
+        ja: https://pubcasefinder.dbcls.jp/
+        en: https://pubcasefinder.dbcls.jp/
+      image: img/service_assets/PubCaseFinder.png
+      alt_title:
+        ja:
+        en:
+    - services_name_en: CRISPRdirect
+      url:
+        ja: https://crispr.dbcls.jp/
+        en: https://crispr.dbcls.jp/
+      image: img/service_assets/CRISPRdirect.svg
+      alt_title:
+        ja:
+        en:
+- subtitle:
+    ja: コンテンツ
+    en: Contents
+  items:
+    - services_name_en: FirstAuthors
+      url:
+        ja: http://first.lifesciencedb.jp/
+        en: http://first.lifesciencedb.jp/
+      image: img/service_assets/201904_FA.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: LeadingAuthors
+      url:
+        ja: https://leading.lifesciencedb.jp/
+        en: https://leading.lifesciencedb.jp/
+      image: img/service_assets/201904_LA.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: TogoTV
+      url:
+        ja: http://togotv.dbcls.jp/
+        en: http://togotv.dbcls.jp/
+      image: img/service_assets/TogoTV2020.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: BodyParts3D/Anatomography
+      url:
+        ja: http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/
+        en: http://lifesciencedb.jp/bp3d/?lng=enhttp://qa.lifesciencedb.jp/
+      image: img/service_assets/BodyParts3D_Anatomography.svg
+      alt_title:
+        ja:
+        en:
+    - services_name_en: LifescienceQA
+      url:
+        ja: http://qa.lifesciencedb.jp/
+        en: http://qa.lifesciencedb.jp/
+      image: img/service_assets/lifescience-qa.png
+      alt_title:
+        ja:
+        en:
+- subtitle:
+    ja: 戦略的イノベーション創造プログラム (SIP)
+    en: Cross-ministerial Strategic Innovation Promotion Program
+  items:
+    - services_name_en: SIPDatabase
+      url:
+        ja: https://sip-db.dbcls.jp/
+        en: https://sip-db.dbcls.jp/
+      image:
+      alt_title:
+        ja: スマートバイオ産業・農業基盤技術関連データ
+        en: Technologies for Smart Bio-Industry and Agriculture

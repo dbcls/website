@@ -8,7 +8,6 @@ $.ajax({
     var symbolList = elementArray.filter((List) => {
       return (List[0] === "Y");
     })
-    console.log(symbolList);
     var element = "";
     element += '<div class="f-bg"><div class="f-services__contents" id="f-services__contents">';
     for (var i = 0; i < symbolList.length; i++) {
