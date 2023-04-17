@@ -8,7 +8,7 @@ material_icons.setAttribute(
 );
 document.head.appendChild(material_icons);
 
-script.addEventListener('load', function () {
+window.addEventListener('load', function () {
   const lang = $('html').attr('lang');
   // Modal ViewのON/OFF toggle
   const toggles = $('.modal-toggle');
