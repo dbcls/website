@@ -1,19 +1,19 @@
-var script = document.createElement('script');
+var script = document.createElement('script')
 
-script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js');
-document.head.appendChild(script);
+script.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.min.js')
+document.head.appendChild(script)
 
-script.addEventListener('load', function () {
-  $('.news__individual-wrapper').css('display', 'block');
-  const slidesPerView = $('.main-image__contents').data().slidesPerView;
-  const duration = $('.main-image__contents').data().duration;
+window.addEventListener('load', function () {
+  $('.news__individual-wrapper').css('display', 'block')
+  const slidesPerView = $('.main-image__contents').data().slidesPerView
+  const duration = $('.main-image__contents').data().duration
 
   // Swiper Library https://swiperjs.com/
   const swiper = new Swiper('.thumbnail-carousel', {
     spaceBetween: 5,
     slidesPerView: slidesPerView,
     direction: 'vertical',
-  });
+  })
   const swiper2 = new Swiper('.main-carousel', {
     autoplay: {
       delay: duration,
@@ -30,12 +30,12 @@ script.addEventListener('load', function () {
     thumbs: {
       swiper: swiper,
     },
-  });  
+  })
   $('.main-image__wrapper')
     .on('mouseenter', (e) => {
-      swiper2.autoplay.stop();
+      swiper2.autoplay.stop()
     })
     .on('mouseleave', (e) => {
-      swiper2.autoplay.start();
-    });
-});
+      swiper2.autoplay.start()
+    })
+})
