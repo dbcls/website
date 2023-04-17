@@ -954,6 +954,9 @@ footer a:hover {
   width: 786px;
   height: auto;
 }
+.research__image #direction_map {
+  width: 786px;
+}
 .research__image.japanese {
   letter-spacing: -0.05em;
 }
@@ -1535,10 +1538,6 @@ table.matrix tbody td a:before {
 }
 .main__contents-public .public__description {
   color: #333333;
-}
-
-.main__contents-knowledgegraph .sub__content-title {
-  margin: 20px 0 10px 0;
 }
 
 /*** Services & Member & News */
