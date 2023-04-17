@@ -335,6 +335,7 @@ body a {
 }
 .content__wrapper .main__contents {
   padding-top: 160px;
+  height: 1180px;
   width: 786px;
 }
 .content__wrapper .main__contents .main__content-title__wrapper {
