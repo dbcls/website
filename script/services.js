@@ -143,7 +143,9 @@ window.addEventListener('load', function () {
               symbol[`explanation_${lang}`] +
               '</p></div>' +
               addTagLine(tagArray, lang) +
-              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="#${service_name_hash}">${moreText}</a>` +
+              `<div class="btn-box"><a class="page_btn more_btn" target="_blank" href="/services${
+                lang === 'ja' ? '' : '-en'
+              }.html#${service_name_hash}">${moreText}</a>` +
               '<a href="' +
               symbol['URL'] +
               `" class="page_btn access_btn" target="_blank">${accessText}</a></div></div>`
