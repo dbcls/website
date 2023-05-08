@@ -763,7 +763,7 @@
     "services_name_en": "Colil",
     "URL": "http://colil.dbcls.jp/",
     "explanation_ja": "ある論文が他の論文から引用されているとき、本文中ではどのような文脈で引用されているかについて、効率良く検索します。",
-    "explanation_en": "A search service for efficiently finding the context in which a paper is cited when referenced in another paper.",
+    "explanation_en": "A search service for efficiently finding the context in which a paper is cited when referenced in another paper. In addition, it provides papers co-cited with a target paper.",
     "担当者": [
       "yy@dbcls.rois.ac.jp",
       "fujiwara@dbcls.rois.ac.jp"
