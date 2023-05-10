@@ -8203,6 +8203,46 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/ijms24087079",
+			"Fish Models for Exploring Mitochondrial Dysfunction Affecting Neurodegenerative Disorders",
+			"Otsuka",
+			"Int. J. Mol. Sci.",
+			"2023-04-10T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			36922572,
+			"https://doi.org/10.1038/s41598-023-31388-z",
+			"Inoculation with black soldier fly larvae alters the microbiome and volatile organic compound profile of decomposing food waste",
+			"Michishita",
+			"Sci Rep.",
+			"2023-03-14T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1016/j.dib.2023.109036",
+			"Updating “Data on changes in lipid profiles during the differentiation and maturation of human subcutaneous white adipocytes analyzed using chromatographic and bioinformatic tools” with data on the changes in protein profiles",
+			"Kitamoto",
+			"Data Brief.",
+			"2023-03-06T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/bios13030332",
+			"Microfluidics as a Ray of Hope for Microplastic Pollution",
+			"Ece",
+			"Biosensors",
+			"2023-02-27T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
 			36787304,
 			"https://doi.org/10.1371/journal.pone.0268816",
 			"Brain-derived neurotrophic factor in diabetes mellitus: A systematic review and meta-analysis",
@@ -8223,7 +8263,7 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			"https://doi.org/10.3390/fermentation9020090",
+			"NA",
 			"https://doi.org/10.3390/fermentation9020090",
 			"Probiotics in the Sourdough Bread Fermentation: Current Status",
 			"Akamine",
@@ -8243,7 +8283,7 @@
 		[
 			"TogoTV",
 			"Use of published illustrations",
-			"https://doi.org/10.3390/fermentation9020090",
+			"NA",
 			"https://doi.org/10.11234/jsbibr.2022.primer3",
 			"生物多様性と文化へと繋がるバイオインフォマティクス",
 			"松前 ひろみ",
@@ -9269,7 +9309,67 @@
 			"Garcia L",
 			"Sci Data",
 			"2019-09-19T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Cited reference",
+			36916735,
+			"https://doi.org/10.1093/bioinformatics/btad130",
+			"Prediction and Curation of Missing Biomedical Identifier Mappings with Biomappings",
+			"Hoyt",
+			"Bioinformatics",
+			"2023-03-13T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Original",
+			35801937,
+			"https://doi.org/10.1093/bioinformatics/btac491",
+			"TogoID: an exploratory ID converter to bridge biological datasets",
+			"Ikeda",
+			"Bioinformatics",
+			"2022-07-07T15:00:00.000Z"
+		],
+		[
+			"TogoGenome",
+			"Cited reference",
+			31690272,
+			"http://doi.org/10.1186/s12859-019-3145-2",
+			"MoMI-G: modular multi-scale integrated genome graph browser.",
+			"Yokoyama",
+			"BMC Bioinformatics",
+			"2019-11-04T15:00:00.000Z"
+		],
+		[
+			"TogoGenome",
+			"Cited reference",
+			36509753,
+			"http://doi.org/10.1038/s41439-022-00222-9",
+			"TogoVar: A comprehensive Japanese genetic variation database",
+			"Mitsuhashi",
+			"Human Genome Variation",
+			"2022-12-11T15:00:00.000Z"
+		],
+		[
+			"TogoGenome",
+			"Original",
+			30624651,
+			"https://doi.org/10.1093/database/bay132",
+			"TogoGenome/TogoStanza: modularized Semantic Web genome database",
+			"Katayama",
+			"Database",
+			"2019-01-07T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Original",
+			36509753,
+			"http://doi.org/10.1038/s41439-022-00222-9",
+			"TogoVar: A comprehensive Japanese genetic variation database",
+			"Mitsuhashi",
+			"Human Genome Variation",
+			"2022-12-11T15:00:00.000Z"
 		]
 	],
-	"updated": "2023-03-01T13:16:45.933Z"
+	"updated": "2023-05-10T05:49:48.248Z"
 }
