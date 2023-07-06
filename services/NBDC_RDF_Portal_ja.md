@@ -13,16 +13,16 @@ https://rdfportal.org/
 
 ### ホーム
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_NBDCRDFportal_en_fig-1.png)
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RDFportal_ja_fig-1.png)
 
 ### データセットビュー
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_NBDCRDFportal_en_fig-2.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RDFportal_ja_fig-2.png)
 
 ### 統計ビュー
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_NBDCRDFportal_en_fig-3.png)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RDFportal_ja_fig-3.png)
 
 ### ネットワークビュー
 
-![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_NBDCRDFportal_en_fig-4.png)
+![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RDFportal_en_fig-4.png)
