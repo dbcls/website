@@ -1376,9 +1376,9 @@
     "sorting order": 39,
     "掲載": true,
     "DBCLSドメイン有・無": "integbio.jp",
-    "services_name_ja": "NBDC RDF Portal",
-    "services_name_en": "NBDC RDF Portal",
-    "URL": "https://integbio.jp/rdf/",
+    "services_name_ja": "RDF Portal",
+    "services_name_en": "RDF Portal",
+    "URL": "https://rdfportal.org/",
     "explanation_ja": "日本の研究グループによって開発された生命科学データのRDFを集約しています。",
     "explanation_en": "A collection of life science RDF datasets developed by Japanese research groups",
     "担当者": [
@@ -1402,7 +1402,7 @@
     "User_3": true,
     "User_4": true,
     "Event掲載": "",
-    "画像": "NBDC_RDF_Portal.png",
+    "画像": "RDFportal_2023.png",
     "備考": "",
     "旧sorting order": 35
   },
