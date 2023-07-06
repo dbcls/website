@@ -1375,7 +1375,7 @@
   {
     "sorting order": 39,
     "掲載": true,
-    "DBCLSドメイン有・無": "integbio.jp",
+    "DBCLSドメイン有・無": "org",
     "services_name_ja": "RDF Portal",
     "services_name_en": "RDF Portal",
     "URL": "https://rdfportal.org/",
@@ -1385,8 +1385,8 @@
       "kwsm@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "",
-    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/NBDC_RDF_Portal_ja.md",
-    "README_en.md": "https://github.com/dbcls/website/blob/master/services/NBDC_RDF_Portal_en.md",
+    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/RDF_Portal_ja.md",
+    "README_en.md": "https://github.com/dbcls/website/blob/master/services/RDF_Portal_en.md",
     "Category_1": true,
     "Category_2": false,
     "Category_3": false,
