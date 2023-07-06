@@ -5,7 +5,7 @@
 
 ## URL
 
-https://integbio.jp/rdf/
+https://rdfportal.org/
 
 ## スクリーンショット
 
