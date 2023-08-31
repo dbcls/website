@@ -12,7 +12,6 @@ TogoMediumは、微生物の培養培地に関する情報を集約したデー�
 ### すべての情報がRDFで記述されているため、他のデータベースと統合利用が可能
 TogoMediumに含まれる、培地、成分、微生物、表現型などすべての情報は、RDF（Resource Description Framework）形式で記述されている、セマンティック・ウェブの情報資源です。したがって、TogoMediumの提供するエンドポイントからSPARQL言語を用いて、ウェブのインターフェースでは提供していない検索も行えます。また、関連する外部のRDFデータベース（UniProt, DDBJ, PubChem, ChEBIなど）とも統合して利用することができます。
 
-
 ### スクリーンショット
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_TogoMedium_fig-1_20230831.png)
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_TogoMedium_fig-2_20230831.png)
