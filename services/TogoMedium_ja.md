@@ -2,7 +2,7 @@
 
 TogoMediumは、微生物の培養培地に関する情報を集約したデータベースです。バイオリソースセンターから公開されている培地や論文などから培地情報を収集し培地成分について独自に正規化したうえで、様々な微生物情報と統合しています。
 ## URL
-[https://togovar.org/](http://togomedium.org/)
+[http://togomedium.org/](http://togomedium.org/)
 
 ## TogoMedium の特徴
 ### 微生物培養培地の情報を生物リソースセンターや論文等から広く収集し整理して統合
