@@ -3,8 +3,8 @@
 
 PubCaseFinderは、希少・遺伝性疾患の診療・研究に役立つ、以下の3つのWebサービスの総称です（図1）。
 
-* DiseaseSearch　（[https://pubcasefinder.dbcls.jp](https://pubcasefinder.dbcls.jp)）
-* CaseSharing　([https://pubcasefinder.dbcls.jp/cases](https://pubcasefinder.dbcls.jp/cases))
+* DiseaseSearch ([https://pubcasefinder.dbcls.jp](https://pubcasefinder.dbcls.jp)）
+* CaseSharing ([https://pubcasefinder.dbcls.jp/cases](https://pubcasefinder.dbcls.jp/cases))
 * PanelSearch ([https://pubcasefinder.dbcls.jp/panelsearch](https://pubcasefinder.dbcls.jp/panelsearch))
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/PubCaseFinder_fig-3_20230728.png) 
