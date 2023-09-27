@@ -46,7 +46,7 @@ PanelSearch is a publicly-available database that allows users to search and uti
 ![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/PubCaseFinder_fig-1_20230728.png)
 Figure 4. Results of searching gene panel data by disease name
 
-### Future of PubCaseFinder
+### Future of PubCaseFinder 
 PubCaseFinder aims to provide indispensable Web services for the promotion of medical care and research of rare genetic diseases by centrally collecting information on rare genetic diseases from all perspectives (Figure 5).
 
 ![Fig-5](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-5_20230927.png)
