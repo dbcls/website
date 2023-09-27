@@ -1,39 +1,57 @@
 # PubCaseFinder
 ### PubCaseFinderとは
 
-PubCaseFinderは希少疾患の診断を支援するために作成された検索サービスです。患者の症状と関連性の高い希少疾患や症例報告を効率よく検索できます。(https://pubcasefinder.dbcls.jp)  
+PubCaseFinderは、希少・遺伝性疾患の診療・研究に役立つ、以下の3つのWebサービスの総称です（図1）。
 
-### 利用例
+* DiseaseSearch　（[https://pubcasefinder.dbcls.jp](https://pubcasefinder.dbcls.jp)）
+* CaseSharing　([https://pubcasefinder.dbcls.jp/cases](https://pubcasefinder.dbcls.jp/cases))
+* PanelSearch ([https://pubcasefinder.dbcls.jp/panelsearch](https://pubcasefinder.dbcls.jp/panelsearch))
 
-* 遺伝学的検索の結果から、疾患候補を数十から数百に絞り込んだ後に、その中から患者の症状と関連性の高い疾患を検索する。
-* 未診断患者と症状が類似し、変異が共通する症例報告を検索し、新しい疾患原因変異の同定に役立てる。
-* 教科書などでは報告されてない症状が希少疾患患者で見つかった場合に、症例報告で同様の症状が報告されてないかを検索し、診断の参考にする。
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/PubCaseFinder_fig-3_20230728.png) 
+図1.　PubCaseFinderが提供する3つのWebサービス
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-1_180530.png)  
+### DiseaseSearchについて
 
-### PubCaseFinderの特徴
+DiseaseSearchでは、患者の兆候・症状と関連性の高い希少・遺伝性疾患や遺伝子を、効率良く検索することができます（図2）。他にも、DiseaseSearchには以下のような特長があります。
 
-##### 患者の症状と関連性の高い希少疾患を素早く検索
+* 患者の兆候・症状と関連性の高い希少・遺伝性疾患や遺伝子を検索するために、精度の高い類似度検索アルゴリズムを開発し実装しています。詳しくは以下の論文を参照してください。
+  * Fujiwara, Toyofumi, Jae‐Moon Shin, and Atsuko Yamaguchi. "Advances in the development of PubCaseFinder, including the new application programming interface and matching algorithm." Human Mutation 43.6 (2022): 734-742. DOI: [https://doi.org/10.1002/humu.24341](https://doi.org/10.1002/humu.24341)
+* PubMed収載の英語症例報告、およびJ-STAGE収載の日本語症例報告を疾患ごとに検索できます。
+* 兆候・症状の入力を補助するために、英語・日本語診療録から兆候・症状を自動抽出する機能や、ヒト3Dモデルを利用した兆候・症状入力機能など、多数の機能を提供しています。
+* 国内外での利用を想定し、日本語だけでなく、英語、韓国語にも対応しています。
 
-* 希少疾患はおよそ6,000から7,000存在すると言われ、診断率の向上および早期の診断が課題になっています。例えば、希少疾患患者の半数は生涯診断がつかないことが報告されています。そこで近年では、エキソーム解析などの次世代シーケンサーを用いた遺伝学的検査が実施され、診断率が向上していますが、検査結果の解釈は容易ではありません。特に、疾患候補を数十から数百に絞り込んだ後に、それら疾患において患者と同様の症状が報告されているかを、OMIMやOrphanetなどのデータベース、または文献を元に調べる必要があり、多くの手間を必要とします。そこで我々は、PubMedに収録されている100万件以上の症例報告から希少疾患に関連する症状を集め、希少疾患と症状の関係をデータベース化しました。PubCaseFinderを利用すれば、数十から数百に絞り込まれた疾患候補の中で、患者の症状と関連性の高い疾患を素早く検索することができます。
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-2_180530.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-2_20230927.png)
+図2.　5つの兆候・症状で遺伝性疾患を検索した結果
 
-##### 症例報告を効率よく検索
+### CaseSharingについて
+CaseSharingは、希少・遺伝性疾患の症例情報の管理支援を目的としたWebサービスです（図3）。症例情報は、診断・治療・創薬などの研究に欠かせないリソースですが、症例数が少ないがゆえに症例報告の記述方法やフォーマットもばらつきがちで、このことが研究の妨げとなることがあります。本Webサービスを用いることで、施設、報告者、時代によるばらつきを抑制して共通フォーマットで記録でき、研究の効率化を助けることにつながります。なお、データはユーザー自身の端末にのみ保存されます。他にも、CaseSharingには以下のような特長があります。
+* ユーザ登録なしで利用することができます。
+* 症例情報はクラウドに保存されるのではなく、ユーザ自身の端末に保存されます。
+* 国際的な症例情報共有形式であるPhenopacketsやOMOPに対応する予定です。
+* 英語、日本語、韓国語、中国語（簡体字、繁体字）に対応しており、世界各地のユーザとの情報共有もスムーズになります。
 
-* 希少疾患の中で、疾患の原因となる変異が明らかになっているのはおよそ半数です。原因となる変異が明らかではない疾患は、遺伝学的検査を実施しても診断が難しいため、診断率の向上には疾患原因となる変異の同定が非常に重要です。新規の疾患原因変異を同定するためには、同じ変異があり、かつ症状が類似する複数の症例を集める必要がありますが、希少疾患は患者数が少なく、類似する症例を集めるのは困難を伴います。そこで我々は100万件以上の症例報告の中から、希少疾患に関連する症例報告を約30万件抽出し、PubCaseFinderの検索対象としました。各症例報告に含まれる症状、遺伝子名、変異情報などを利用して、患者の症状や変異と関連例の高い症例報告を効率よく検索することができます。また、本機能はREST APIとしても提供されていますが、同APIは症例交換のための世界的ネットワークであるMatchmaker Exchangeに採用され、症例交換プラットフォームであるPhenomeCentralおよびPatient Archiveで利用されています。
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/PubCaseFinder_fig-2_20230728.png)
+図3.　CaseSharing全体像
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-3_180530.png)
 
-##### 希少疾患と症状の関係をわかりやすく
+### PanelSearchについて
 
-* 症例報告は、稀な症状や薬の副作用を素早く報告するのに有効な手段です。特に希少疾患において、教科書にはまとめられてない新規の症状を見つけるのに有効です。しかし、大量の文献の中から、各希少疾患と関連性の高い新規の症状を見つけるのは容易ではありません。そこでPubCaseFinderでは、症例報告や他のリソースを元に関連付けた各希少疾患に対する症状の一覧を表示し、また関連付けられた希少疾患と症状を含むセンテンスの一覧を表示する機能を提供しています。
+PanelSearchでは、ヒトの9,998の希少・遺伝性疾患に関連する遺伝子パネルデータを検索できます（図4）。遺伝子パネルデータに含まれる疾患原因遺伝子の一覧を閲覧したり、逆に遺伝子から関連遺伝子パネルデータを探すことができます。他にも、PanelSearchには以下のような特長があります。
+* ゲノム配列の効率的な臨床的解釈に役立てることができます。詳細については以下の文献をご参照ください。
+  * Shin, J. M., Fujiwara, T., & Yamaguchi, A. (2023). Ontology‐based expansion of virtual gene panels to improve diagnostic efficiency for rare genetic diseases. [https://ceur-ws.org/Vol-3415/paper-10.pdf](https://ceur-ws.org/Vol-3415/paper-10.pdf)
+* 個々の遺伝子パネルデータをダウンロードできます。また、9,998件の全遺伝子パネルデータもダウンロードできます。
+* PanelSearchは、希少・遺伝性疾患名の語彙集であるMonarch Disease Ontology（Mondo）をベースに、それぞれの疾患に対する疾患原因遺伝子を、国際的に主要な公共データベースであるMedGen、Opharnet、GenCCから自動取得しています。Mondoの疾患階層情報を利用することで、例えば「Mendelian disease」などの疾患グループの遺伝子パネルデータも自動で構築しています。
+* 今後、難病の遺伝子パネルデータを構築し公開する予定です。
 
-![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-4_180530.png)
+![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/PubCaseFinder_fig-1_20230728.png)
+図4.　疾患名で遺伝子パネルを検索した結果
 
-### 今後の開発予定
+### 今後のPubCaseFinderについて
+PubCaseFinderは今後、希少・遺伝性疾患に関わる情報をあらゆる観点から一元的に集積し、希少・遺伝性疾患の診療・研究推進に欠かすことのできないWebサービスの提供を目指します（図5）。
 
-* 日本語で症状を入力出来るように検索サービスの日本語対応を行います。
-* 利用者のフィードバックなどを参考にしながら機能拡張、新規機能の追加を検討します。
+![Fig-5](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_PubCaseFinder_jp_fig-5_20230927.png)
+図5.　PubCaseFinderの将来像
+
 
 <!--:-->
