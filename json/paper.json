@@ -7564,6 +7564,26 @@
 			"RefEx",
 			"Cited reference",
 			"NA",
+			"https://doi.org/10.1016/j.heliyon.2023.e18188",
+			"A bioinformatic investigation of proteasome and autophagy expression in the central nervous system",
+			"Watanabe",
+			"Heliyon",
+			"2023-07-16T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			37137298,
+			"https://doi.org/10.1093/jb/mvad038",
+			"Clomipramine inhibits dynamin GTPase activity by L-α-phosphatidyl-L-serine stimulation",
+			"Miyoshi",
+			"J Biochem.",
+			"2023-05-02T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			"NA",
 			"https://doi.org/10.1267/ahc.22-00043",
 			"Optimized Mouse-on-mouse Immunohistochemical Detection of Mouse ESR2 Proteins with PPZ0506 Monoclonal Antibody",
 			"Ozawa",
@@ -8199,6 +8219,166 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37776523,
+			"https://doi.org/10.1093/plphys/kiad517",
+			"Auto-activation of mycorrhizal symbiosis signaling through gibberellin deactivation in orchid seed germination",
+			"Miura",
+			"Plant Physiol",
+			"2023-09-29T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37738965,
+			"https://doi.org/10.1016/j.molcel.2023.08.022",
+			"Elucidation of E3 ubiquitin ligase specificity through proteome-wide internal degron mapping",
+			"Zhiqian",
+			"Mol Cell.",
+			"2023-09-20T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37702262,
+			"https://doi.org/10.1111/febs.16957",
+			"GR-KLF15 pathway controls hepatic lipogenesis during fasting",
+			"Takeuchi",
+			"FEBS J. ",
+			"2023-09-12T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37697422,
+			"https://doi.org/10.1186/s13148-023-01565-y",
+			"Degradation of methylation signals in cryopreserved DNA",
+			"Lee",
+			"Clin Epigenet",
+			"2023-09-10T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37697079,
+			"https://doi.org/10.1038/s41431-023-01456-z",
+			"The molecular genetics of nELAVL in brain development and disease",
+			"Mulligan",
+			"Eur J Hum Genet ",
+			"2023-08-29T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37679413,
+			"https://doi.org/10.1038/s41598-023-40433-w",
+			"The sonication-assisted whisker method enables CRISPR-Cas9 ribonucleoprotein delivery to induce genome editing in rice. ",
+			"Nakamura",
+			"Sci Rep",
+			"2023-09-06T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37652977,
+			"https://doi.org/10.1038/s42003-023-05264-5",
+			"Rapid and biased evolution of canalization during adaptive divergence revealed by dominance in gene expression variability during Arctic charr early development",
+			"Horta-Lacueva",
+			"Commun Biol. ",
+			"2023-08-30T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37620307,
+			"https://doi.org/10.1038/s41467-023-40371-1",
+			"Citrullinated fibrinogen-SAAs complex causes vascular metastagenesis",
+			"Han",
+			"Nat Commun.",
+			"2023-08-23T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/fermentation9080703",
+			"Hydrolase Activities of Sourdough Microorganisms",
+			"Akamine",
+			"Fermentation",
+			"2023-07-25T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37461096,
+			"https://doi.org/10.1186/s40246-023-00510-7",
+			"Landscape of germline pathogenic variants in patients with dual primary breast and lung cancer",
+			"Lee",
+			"Human Genomics",
+			"2023-07-16T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37405915,
+			"https://doi.org/10.1016/j.celrep.2023.112736",
+			"Inter- and intra-tumor heterogeneity of genetic and immune profiles in inherited renal cell carcinoma",
+			"Tabata",
+			"Cell Rep.",
+			"2023-07-03T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37352107,
+			"https://doi.org/10.1016/j.xpro.2023.102378",
+			"Fluorescence-microscopy-based assay assessing regulatory mechanisms of global genome nucleotide excision repair in cultured cells",
+			"kusakabe",
+			"STAR Protoc.",
+			"2023-06-21T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.11234/jsbibr.2023.primer1",
+			"ChIP-Atlas 〜転写制御ランドスケープの歩き方〜",
+			"鄒 兆南",
+			"JSBi Bioinformatics Review",
+			"2023-06-02T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1007/978-981-99-1079-3_1",
+			"Understanding the Molecular Mechanisms of Orchid Mycorrhizal Symbiosis from Genetic Information",
+			"Advances in Orchid Biology, Biotechnology and Omics ",
+			"Miura",
+			"2023-06-02T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37202215,
+			"https://doi.org/10.1093/ndt/gfad098\n        \n        ",
+			"Sacubitril/valsartan ameliorates renal tubulointerstitial injury through increasing renal plasma flow in a mouse model of type 2 diabetes with aldosterone excess",
+			"Nishio",
+			"Nephrology Dialysis Transplantation",
+			"2023-05-17T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/biomedicines11051395",
+			"Time-Updated Phenotypic Guidance of Corticosteroids and Antibiotics in COPD: Rationale, Perspective and a Proposed Method",
+			"Jordan ",
+			"Biomedicines",
+			"2023-05-07T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -9313,6 +9493,26 @@
 		[
 			"TogoID",
 			"Cited reference",
+			37221178,
+			"https://doi.org/10.1038/s41467-023-38791-0",
+			"Advancing reuse of genetic parts: progress and remaining challenges",
+			"Mante",
+			"Nat Commun.",
+			"2023-05-22T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Cited reference",
+			37159241,
+			"https://doi.org/10.1093/database/baad028",
+			"MantaID: a machine learning–based tool to automate the identification of biological database IDs",
+			"Zeng",
+			"Database",
+			"2023-05-08T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Cited reference",
 			36916735,
 			"https://doi.org/10.1093/bioinformatics/btad130",
 			"Prediction and Curation of Missing Biomedical Identifier Mappings with Biomappings",
@@ -9369,7 +9569,97 @@
 			"Mitsuhashi",
 			"Human Genome Variation",
 			"2022-12-11T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Cited reference",
+			36896423,
+			"https://doi.org/10.3389/fbinf.2023.1127341",
+			"Protein domains provide a new layer of information for classifying human variations in rare diseases",
+			"Corcuff M",
+			"Front Bioinform",
+			"2023-02-20T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Cited reference",
+			36864285,
+			"https://doi.org/10.1038/s10038-023-01142-4",
+			"Characteristic genetic spectrum of primary ciliary dyskinesia in Japanese patients and global ethnic heterogeneity: population-based genomic variation database analysis",
+			"Xu Y",
+			"J Hum Genet",
+			"2023-03-01T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			2681117,
+			"https://doi.org/10.1038/s10038-020-0805-z",
+			"Protein domains provide a new layer of information for classifying human variations in rare diseases",
+			"Ohno S",
+			"J Hum Genet",
+			"2020-06-16T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			"NA",
+			"https://doi.org/10.2491/jjsth.32.635",
+			"公開データベースと発現実験を用いたアンチトロンビン，プロテインCおよびプロテインS遺伝子の病的バリアントの頻度推定",
+			"Maruyama K",
+			"日本血栓止血学会誌",
+			"2021-10-21T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			36347939,
+			"https://doi.org/10.1038/s41598-022-23512-2",
+			"Increased CaV1.2 late current by a CACNA1C p.R412M variant causes an atypical Timothy syndrome without syndactyly",
+			"Ozawa J",
+			"Sci Rep",
+			"2022-11-07T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			"NA",
+			"https://doi.org/10.1093/ehjci/ehaa946.0333",
+			"Splice site mutation of LMNA causes severe dilated cardiomyopathy via strong dominant reduction of total lamin expression",
+			"Kato K",
+			"European Heart Journal",
+			"2020-11-24T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			32727394,
+			"https://doi.org/10.1186/s12876-020-01387-9",
+			"Clinical and genomic characteristics of mucosal signet-ring cell carcinoma in Helicobacter pylori-uninfected stomach",
+			"Kiso M",
+			"BMC Gastroenterol",
+			"2020-07-28T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			34782917,
+			"https://doi.org/10.1007/s00335-021-09933-w",
+			"MoG+: a database of genomic variations across three mouse subspecies for biomedical research",
+			"Takada T",
+			"Mamm Genome",
+			"2021-11-14T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Mentioned in text",
+			32615940,
+			"https://doi.org/10.1186/s12872-020-01601-2",
+			"Postoperative supraventricular tachycardia and polymorphic ventricular tachycardia due to a novel SCN5A variant: a case report of a rare comorbidity that is difficult to diagnose",
+			"Kato K",
+			"BMC Cardiovasc Disord",
+			"2020-07-01T15:00:00.000Z"
 		]
 	],
-	"updated": "2023-05-10T05:49:48.248Z"
+	"updated": "2023-10-04T05:30:10.835Z"
 }
