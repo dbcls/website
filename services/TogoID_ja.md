@@ -4,10 +4,12 @@ TogoID は 生命科学分野におけるデータベース(DB)のID間の対応
 
 
 ## TogoID の特徴
-- 利用者の持つIDあるいはIDリスト(数十から数千〜)を入力することで、変換可能なDBが列挙され、対応するIDに変換することができます。1対1のID変換だけでなく、数珠つなぎのように複数のDB間をまたぐ変換も可能です。
-- TogoIDでは、変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
-- ID間の対応関係は、各DBのRDFデータ、API、フラットファイルからの抽出によって整備しており、2021年7月現在、60以上のDB、150以上のIDペアが対象になっています(随時拡張中)。対象DBのIDに関するメタデータや、IDペアの更新方法、更新頻度などを管理することで、常に最新のID間の対応関係を得られるようにしています。
-    - [https://github.com/dbcls/togoid-config](https://github.com/dbcls/togoid-config)
+- IDリストを入力することで、直接変換可能なDBが列挙され、対応するIDに変換することができます。1対1のID変換だけでなく、あるDBを経由してさらに他のDBのIDに変換することも可能です。
+- 等価なものに対するID間の変換だけでなく、「 バリアントが位置する遺伝子」のように、何らかの生物学的意味で関係する別概念のIDに変換することも可能です。関係の意味はオントロジーで整理しており、ウェブUI上ではDB間をつなぐ矢印上に意味が表示されます。
+- 変換結果は、CSVやTSVの形式でダウンロードしたりクリップボードにコピーしたりできます。
+- ID間の対応関係は、各DBのRDFデータ、API、フラットファイルからの抽出によって整備しており、2023年11月現在、70以上のDBが対象になっています。
+- データは毎週定期更新を行っており、常に最新に近いデータを参照して変換できます。
+- 対象DBのIDに関するメタデータや、IDペアの取得方法は、GitHub レポジトリ TogoID-config ([https://github.com/togoid/togoid-config](https://github.com/togoid/togoid-config)) で管理しています。また、誰でも新規のIDペアの取得方法を追加して、プルリクエストを送ることができます。
 - ウェブインターフェイスだけでなく、APIも用意しており、他のアプリケーションからのID変換にも利用することができます。
     - 例1: [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json)
     - 例2: [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json)
