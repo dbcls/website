@@ -2058,8 +2058,8 @@
     "services_name_ja": "BioHackathon",
     "services_name_en": "BioHackathon",
     "URL": "http://biohackathon.org/",
-    "explanation_ja": "DBCLSとNBDCが主催するライフサイエンス分野におけるデータベース統合のための技術開発を行う国際開発者会議です。",
-    "explanation_en": "Annual international hackathon for standardization and interoperability of database integration in life sciences organized by DBCLS and NBDC.",
+    "explanation_ja": "DBCLSが主催するライフサイエンス分野におけるデータベース統合のための技術開発を行う国際開発者会議です。",
+    "explanation_en": "Annual international hackathon for standardization and interoperability of database integration in life sciences organized by DBCLS.",
     "担当者": [
       "ktym@dbcls.jp"
     ],
@@ -2089,11 +2089,11 @@
     "sorting order": "",
     "掲載": false,
     "DBCLSドメイン有・無": "公開予定",
-    "services_name_ja": "SPARQLthon",
-    "services_name_en": "SPARQLthon",
-    "URL": "http://wiki.lifesciencedb.jp/mw/SPARQLthon",
-    "explanation_ja": "SPARQLthonはライフサイエンス分野におけるセマンティック・ウェブの技術情報交流・共同研究開発を目的として毎月開催されています",
-    "explanation_en": "SPARQLthon is a monthly hackathon for domestic developers/researchers interested in semantic web technologies in life sciences. (Held in Japanese)",
+    "services_name_ja": "Togothon",
+    "services_name_en": "Togothon",
+    "URL": "https://dbcls.github.io/Togothon/",
+    "explanation_ja": "Togothonはライフサイエンス分野におけるセマンティック・ウェブの技術情報交流・共同研究開発を目的として毎月開催されています",
+    "explanation_en": "Togothon is a monthly hackathon for domestic developers/researchers interested in semantic web technologies in life sciences. (Held in Japanese)",
     "担当者": [
       "ktym@dbcls.jp"
     ],
