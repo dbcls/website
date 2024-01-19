@@ -11,8 +11,8 @@ title: 'Temporary service suspension (Jan 28, 2024, 12:00 PM to TBD (UTC+9))'
 Due to scheduled system maintenance, the following services will be temporarily unavailable.
 Due to system trouble, the following services are temporarily unavailable.
 
-Due to scheduled system maintenance, [all services](https://dbcls.rois.ac.jp/services.html) will be temporarily unavailable. 
-Due to system trouble, [all services](https://dbcls.rois.ac.jp/services.html) are temporarily unavailable. 
+Due to scheduled system maintenance, [all services](https://dbcls.rois.ac.jp/services-en.html) will be temporarily unavailable. 
+Due to system trouble, [all services](https://dbcls.rois.ac.jp/services-en.html) are temporarily unavailable. 
 
 We are sorry for the inconvenience and appreciate your understanding.
 
