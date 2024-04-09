@@ -584,7 +584,7 @@
   },
   {
     "sorting order": 15,
-    "掲載": true,
+    "掲載": false,
     "DBCLSドメイン有・無": "dbcls.jp",
     "services_name_ja": "DBCLS SRA",
     "services_name_en": "DBCLS SRA",
