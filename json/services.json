@@ -481,7 +481,7 @@
   },
   {
     "sorting order": 12,
-    "掲載": true,
+    "掲載": false,
     "DBCLSドメイン有・無": "dbcls.jp",
     "services_name_ja": "Gendoo",
     "services_name_en": "Gendoo",
