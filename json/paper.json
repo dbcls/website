@@ -7563,6 +7563,36 @@
 		[
 			"RefEx",
 			"Cited reference",
+			38472233,
+			"https://doi.org/10.1038/s41467-024-46386-6",
+			"Inhibition of 7-dehydrocholesterol reductase prevents hepatic ferroptosis under an active state of sterol synthesis",
+			"Yamada",
+			"Nat Commun. ",
+			"2024-03-11T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			38071599,
+			"https://doi.org/10.1002/dvdy.680",
+			"Nonmuscular Troponin-I is required for gastrulation in sea urchin embryos",
+			"Kamata",
+			"Dev Dyn.",
+			"2023-12-09T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
+			37936079,
+			"https://doi.org/10.1186/s12859-023-05490-y",
+			"Sctensor detects many-to-many cell–cell interactions from single cell RNA-sequencing data",
+			"Tsuyuzaki",
+			"BMC Bioinformatics",
+			"2023-11-06T15:00:00.000Z"
+		],
+		[
+			"RefEx",
+			"Cited reference",
 			"NA",
 			"https://doi.org/10.1016/j.heliyon.2023.e18188",
 			"A bioinformatic investigation of proteasome and autophagy expression in the central nervous system",
@@ -8151,6 +8181,16 @@
 			"2012-08-27T15:00:00.000Z"
 		],
 		[
+			"RefEx",
+			"Cited reference",
+			38452746,
+			"https://doi.org/10.1159/000537923",
+			"Upregulated Genes in Atrial Fibrillation Blood and the Left Atrium",
+			"Kamihara T",
+			"Cardiology",
+			"2024-03-06T15:00:00.000Z"
+		],
+		[
 			"SPANG",
 			"",
 			33677548,
@@ -8219,6 +8259,236 @@
 			"Kawano",
 			"Nucleic Acids Res.",
 			"2014-05-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38522067,
+			"https://doi.org/10.1016/j.gim.2024.101124",
+			"Alleviating misclassified germline variants in underrepresented populations: a strategy\nusing popmax",
+			"Lee",
+			"Genet Med.",
+			"2024-03-20T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/app14052177",
+			"Antioxidant and Anti-Inflammatory Phytochemicals for the Treatment of Inflammatory Bowel Disease: A Systematic Review",
+			"Pantalos",
+			"Appl. Sci.",
+			"2024-03-04T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38427753,
+			"https://doi.org/10.1182/blood.2023022540",
+			"ctDNA improves prognostic prediction in relapsed/refractory MM receiving ixazomib, lenalidomide, and dexamethasone",
+			"Kogure",
+			"Blood.",
+			"2024-02-29T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38300851,
+			"https://doi.org/10.1021/acs.jcim.3c01834",
+			"Insights into Drug Cardiotoxicity from Biological and Chemical Data: The First Public Classifiers for FDA Drug-Induced Cardiotoxicity Rank",
+			"Seal",
+			"J Chem Inf Model. ",
+			"2024-02-25T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38412472,
+			"https://doi.org/10.1139/gen-2023-0135",
+			"Variant functional assessment in Drosophila by overexpression: what can we learn?",
+			"Her",
+			"Genome.",
+			"2024-02-26T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38402612,
+			"https://doi.org/10.1016/j.molcel.2024.01.027",
+			"Discovery of cytosine deaminases enables base-resolution methylome mapping using a single enzyme",
+			"Vaisvila ",
+			"Mol Cell. ",
+			"2024-02-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38382595,
+			"https://doi.org/10.1016/j.jtho.2024.02.006",
+			"Passive smoking-induced mutagenesis as a promoter of lung carcinogenesis",
+			"Mochizuki",
+			"J Thorac Oncol. ",
+			"2024-02-18T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38300851,
+			"https://doi.org/10.1021/acs.jcim.3c01834",
+			"Insights into Drug Cardiotoxicity from Biological and Chemical Data: The First Public Classifiers for FDA Drug-Induced Cardiotoxicity Rank",
+			"Seal",
+			"J Chem Inf Model.",
+			"2024-01-31T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38300895,
+			"https://doi.org/10.1371/journal.pcbi.1011789",
+			"Ten simple rules for designing graphical abstracts",
+			"Jambor",
+			"PLoS Comput Biol.",
+			"2024-01-31T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38270934,
+			"https://doi.org/10.2217/nnm-2023-0304",
+			"Biocompatibility and proteomic profiling of DMSA-coated iron nanocubes in a human glioblastoma cell line",
+			"Ulanova",
+			"Nanomedicine (Lond).",
+			"2024-01-24T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38261517,
+			"https://doi.org/10.1016/j.xpro.2023.102810",
+			"Protocol for the analysis of hematopoietic lineages in the whole kidney marrow of adult zebrafish",
+			"Mahony",
+			"STAR Protoc.",
+			"2024-01-21T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Cited reference",
+			38238559,
+			"https://doi.org/10.1038/s41592-023-02148-8",
+			"Deep generative design of RNA family sequences",
+			"Sumi",
+			"Nat Methods.",
+			"2024-01-17T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1016/j.carpta.2024.100431",
+			"Neem-hypericum-bacterial cellulose wound care paste characterized in vitro and in Galleria mellonella in vivo model",
+			"Villani",
+			"Carbohydr Polym. ",
+			"2024-01-12T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38178152,
+			"https://doi.org/10.1186/s12974-023-03005-3",
+			"Impaired cerebral microvascular endothelial cells integrity due to elevated dopamine in myasthenic model",
+			"Hao",
+			"J Neuroinflammation",
+			"2024-01-03T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			38180443,
+			"https://doi.org/10.1084/jem.20230923",
+			"Notch2 with retinoic acid license IL-23 expression by intestinal EpCAM+ DCIR2+ cDC2s in mice",
+			"Ohara",
+			"J Exp Med",
+			"2023-12-06T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1016/j.jclepro.2023.140005",
+			"Progress on production of succinic acid by Actinobacillus succinogenes – New opportunities for cheap biomass and waste gas utilization",
+			"Yang",
+			"Journal of Cleaner Production",
+			"2023-12-02T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.1186/s13765-023-00838-7",
+			"Pleiotropic properties of GOLDEN2-LIKE transcription factors for crop improvement",
+			"Kim",
+			"Applied Biological Chemistry ",
+			"2023-11-22T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37702262,
+			"https://doi.org/10.1111/febs.16957",
+			"GR-KLF15 pathway controls hepatic lipogenesis during fasting",
+			"Takeuchi",
+			"FEBS J.",
+			"2023-09-12T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.3390/pathogens12111350",
+			"Pathogen-Mediated Alterations of Insect Chemical Communication: From Pheromones to Behavior",
+			"Moyano",
+			"Pathogens",
+			"2023-11-13T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37941138,
+			"https://doi.org/10.1093/nar/gkad960",
+			"WikiPathways 2024: next generation pathway database",
+			"Agrawal",
+			"Nucleic Acids Research",
+			"2023-11-05T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			"NA",
+			"https://doi.org/10.11234/jsbibr.2023.2",
+			"ゲノム医療と日本における取り組みについて",
+			"Kamada",
+			"JSBi Bioinformatics Review",
+			"2023-09-03T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37803016,
+			"https://doi.org/10.1038/s41467-023-41952-w",
+			"Decreased liver B vitamin-related enzymes as a metabolic hallmark of cancer cachexia",
+			"Kojima",
+			"Nat Commun.",
+			"2023-10-05T15:00:00.000Z"
+		],
+		[
+			"TogoTV",
+			"Use of published illustrations",
+			37783685,
+			"https://doi.org/10.1038/s41467-023-41857-8",
+			"Multifaceted analysis of cross-tissue transcriptomes reveals phenotype–endotype associations in atopic dermatitis",
+			"Sekita",
+			"Nat Commun.",
+			"2023-10-01T15:00:00.000Z"
 		],
 		[
 			"TogoTV",
@@ -8364,7 +8634,7 @@
 			"TogoTV",
 			"Use of published illustrations",
 			37202215,
-			"https://doi.org/10.1093/ndt/gfad098\n        \n        ",
+			"https://doi.org/10.1093/ndt/gfad098",
 			"Sacubitril/valsartan ameliorates renal tubulointerstitial injury through increasing renal plasma flow in a mouse model of type 2 diabetes with aldosterone excess",
 			"Nishio",
 			"Nephrology Dialysis Transplantation",
@@ -9493,6 +9763,26 @@
 		[
 			"TogoID",
 			"Cited reference",
+			38280851,
+			"https://doi.org/10.1038/s41540-024-00334-8",
+			"An architecture for collaboration in systems biology at the age of the Metaverse",
+			"Jacopin",
+			"NPJ Syst Biol Appl. ",
+			"2024-01-26T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Cited reference",
+			38097955,
+			"http://dx.doi.org/10.1186/s12859-023-05588-3",
+			"PhyloSophos: a high-throughput scientific name mapping algorithm augmented with explicit consideration of taxonomic science, and its application on natural product (NP) occurrence database processing",
+			"Cho",
+			"BMC Bioinformatics",
+			"2023-12-13T15:00:00.000Z"
+		],
+		[
+			"TogoID",
+			"Cited reference",
 			37221178,
 			"https://doi.org/10.1038/s41467-023-38791-0",
 			"Advancing reuse of genetic parts: progress and remaining challenges",
@@ -9659,7 +9949,17 @@
 			"Kato K",
 			"BMC Cardiovasc Disord",
 			"2020-07-01T15:00:00.000Z"
+		],
+		[
+			"TogoVar",
+			"Cited reference",
+			"NA",
+			"https://doi.org/10.1093/nar/gkae235",
+			"PubTator 3.0: an AI-powered literature resource for unlocking biomedical knowledge ",
+			"Wei C",
+			"Nucleic Acids Res.",
+			"2024-04-03T15:00:00.000Z"
 		]
 	],
-	"updated": "2023-10-04T05:30:10.835Z"
+	"updated": "2024-04-02T05:02:28.826Z"
 }
