@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 tags:
   - サービス
 category:
@@ -11,8 +11,8 @@ title: 'サービス一時停止（2024年1月28日(日) 12:00 ～ 未定）'
 システムメンテナンスのため、以下のサービスが一時的にご利用いただけません。
 システムトラブルのため、以下のサービスが一時的にご利用いただけません。
 
-システムトラブルのため、[全てのサービス](https://dbcls.rois.ac.jp/services.html)が一時的にご利用いただけません。
 システムメンテナンスのため、[全てのサービス](https://dbcls.rois.ac.jp/services.html)が一時的にご利用いただけません。
+システムトラブルのため、[全てのサービス](https://dbcls.rois.ac.jp/services.html)が一時的にご利用いただけません。
 
 ご不便をおかけしますが、ご理解の程どうぞよろしくお願いいたします。
 
