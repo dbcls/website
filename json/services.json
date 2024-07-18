@@ -550,7 +550,7 @@
   },
   {
     "sorting order": 14,
-    "掲載": true,
+    "掲載": false,
     "DBCLSドメイン有・無": "dbcls.jp",
     "services_name_ja": "AOE",
     "services_name_en": "AOE",
