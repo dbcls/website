@@ -660,7 +660,9 @@
     "URL": "",
     "explanation_ja": "NANDOは、難病の疾患分類を体系化した難病語彙集です。NanbyoDataは、NANDOを活用することで体系的に集約された国内外の難病関連情報を閲覧できる統合サイトです。",
     "explanation_en": "",
-    "担当者": [“fujiwara@dbcls.rois.ac.jp”],
+   "担当者": [
+      "fujiwara@dbcls.rois.ac.jp"
+    ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/NanbyoData_NANDO_ja.md",
     "README_en.md": "",
