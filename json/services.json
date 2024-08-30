@@ -654,18 +654,18 @@
  {
     "sorting order": 16,
     "掲載": true,
-    "DBCLSドメイン有・無": "dbcls.jp",
-    "services_name_ja": "PubCaseFinder",
-    "services_name_en": "PubCaseFinder",
-    "URL": "https://pubcasefinder.dbcls.jp/",
-    "explanation_ja": "患者の症状を入力するだけで、関連する希少・難治性疾患の候補を可能性が高い順に自動的にリストアップしてくれる医療者向け検索システムです。",
-    "explanation_en": "A new phenotype-driven differential diagnosis system using the one million of case reports. ",
-    "担当者": [
+    "DBCLSドメイン有・無": "jp",
+    "services_name_ja": "NanbyoData/NANDO",
+    "services_name_en": "NanbyoData/NANDO",
+    "URL": "https://nanbyodata.jp",
+    "explanation_ja": "NANDOは、難病の疾患分類を体系化した難病語彙集です。NanbyoDataは、NANDOを活用することで体系的に集約された国内外の難病関連情報を閲覧できる統合サイトです。",
+    "explanation_en": "",
+      "担当者": [
       "fujiwara@dbcls.rois.ac.jp"
     ],
-    "A4チラシPDF": "https://drive.google.com/open?id=1T3JdrUnOrQpYSKWLBTnEM3LeJM_mEwHQ",
-    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/PubCaseFinder_ja.md",
-    "README_en.md": "https://github.com/dbcls/website/blob/master/services/PubCaseFinder_en.md",
+    "A4チラシPDF": "",
+    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/NanbyoData_NANDO_ja.md",
+    "README_en.md": "",
     "Category_1": false,
     "Category_2": false,
     "Category_3": false,
@@ -681,10 +681,10 @@
     "User_3": false,
     "User_4": false,
     "Event掲載": "",
-    "画像": "PubCaseFinder.png",
+    "画像": "NanbyoData.png",
     "備考": "",
-    "旧sorting order": 9
-  },
+      },
+
   {
     "sorting order": 17,
     "掲載": true,
