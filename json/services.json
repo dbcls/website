@@ -657,7 +657,7 @@
     "DBCLSドメイン有・無": "dbcls.jp",
     "services_name_ja": "NanbyoData/NANDO",
     "services_name_en": "NanbyoData/NANDO",
-    "URL": "https://nanbyodata.jp",
+    "URL": "https:/nanbyodata.jp",
     "explanation_ja": "NANDOは、難病の疾患分類を体系化した難病語彙集です。NanbyoDataは、NANDOを活用することで体系的に集約された国内外の難病関連情報を閲覧できる統合サイトです。",
     "explanation_en": "NanbyoData is an integrated website allowing users to access information related to intractable diseases in Japan and abroad, aggregated through the use of NANDO.",
     "担当者": [
