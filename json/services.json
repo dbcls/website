@@ -31,45 +31,6 @@
     "備考": "",
     "旧sorting order": 0
   },
-   {
-    "sorting order": 42,
-    "掲載": true,
-    "DBCLSドメイン有・無": "dbcls.jp",
-    "services_name_ja": "NBDCヒトデータベース",
-    "services_name_en": "NBDC Human Database",
-    "URL": "https://humandbs.dbcls.jp/",
-    "explanation_ja": "個人レベルのさまざまな研究データを共有可能な国内初のデータベースです。国立遺伝学研究所 生命情報・DDBJセンターと協力して運営しています。",
-    "explanation_en": "The first database in Japan to share various research data at the individual level. Operated in cooperation with Bioinformation and DDBJ Center at NIG, ROIS.",
-    "担当者": [
-      "minaex@dbcls.rois.ac.jp"
-      "hideki@dbcls.rois.ac.jp"
-      "yokoyama@dbcls.rois.ac.jp"
-      "hatakeyama@dbcls.rois.ac.jp"
-      "ozawa@dbcls.rois.ac.jp"
-      "minowa@dbcls.rois.ac.jp"
-    ],
-    "A4チラシPDF": "",
-    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/HumanDatabase_ja.md",
-    "README_en.md": "https://github.com/dbcls/website/blob/master/services/HumanDatabase_en.md",
-    "Category_1": false,
-    "Category_2": false,
-    "Category_3": true,
-    "Category_4": true,
-    "Category_5": false,
-    "Category_6": true,
-    "Category_7": true,
-    "Category_8": false,
-    "Category_9": false,
-    "Category_10": false,
-    "User_1": true,
-    "User_2": false,
-    "User_3": false,
-    "User_4": true,
-    "Event掲載": "",
-    "画像": "HumanDB.png",
-    "備考": "",
-    "旧sorting order": 0
-  },
   {
     "sorting order": 41,
     "掲載": true,
@@ -1478,6 +1439,45 @@
     "画像": "JSON2LD.png",
     "備考": "",
     "旧sorting order": 43
+  },  
+   {
+    "sorting order": 40,
+    "掲載": true,
+    "DBCLSドメイン有・無": "dbcls.jp",
+    "services_name_ja": "NBDCヒトデータベース",
+    "services_name_en": "NBDC Human Database",
+    "URL": "https://humandbs.dbcls.jp/",
+    "explanation_ja": "個人レベルのさまざまな研究データを共有可能な国内初のデータベースです。国立遺伝学研究所 生命情報・DDBJセンターと協力して運営しています。",
+    "explanation_en": "The first database in Japan to share various research data at the individual level. Operated in cooperation with Bioinformation and DDBJ Center at NIG, ROIS.",
+    "担当者": [
+      "minaex@dbcls.rois.ac.jp"
+      "hideki@dbcls.rois.ac.jp"
+      "yokoyama@dbcls.rois.ac.jp"
+      "hatakeyama@dbcls.rois.ac.jp"
+      "ozawa@dbcls.rois.ac.jp"
+      "minowa@dbcls.rois.ac.jp"
+    ],
+    "A4チラシPDF": "",
+    "README_ja.md": "https://github.com/dbcls/website/blob/master/services/HumanDatabase_ja.md",
+    "README_en.md": "https://github.com/dbcls/website/blob/master/services/HumanDatabase_en.md",
+    "Category_1": false,
+    "Category_2": false,
+    "Category_3": true,
+    "Category_4": true,
+    "Category_5": false,
+    "Category_6": true,
+    "Category_7": true,
+    "Category_8": false,
+    "Category_9": false,
+    "Category_10": false,
+    "User_1": true,
+    "User_2": false,
+    "User_3": false,
+    "User_4": true,
+    "Event掲載": "",
+    "画像": "HumanDB.png",
+    "備考": "",
+    "旧sorting order": 0
   },
   {
     "sorting order": 40,
