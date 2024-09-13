@@ -42,3 +42,11 @@
       alt_title:
         ja:
         en:
+    - services_name_en: NBDC Human Database
+      url:
+        ja: https://humandbs.dbcls.jp/
+        en: https://humandbs.dbcls.jp/en/
+      image: img/service_assets/HumanDB.png
+      alt_title:
+        ja: NBDC ヒトデータベース
+        en: NBDC Human Database
