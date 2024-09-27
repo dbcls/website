@@ -50,3 +50,11 @@
       alt_title:
         ja: NBDC ヒトデータベース
         en: NBDC Human Database
+    - services_name_en: TogoImputation
+      url:
+        ja: https://sc.ddbj.nig.ac.jp/advanced_guides/imputation_server/
+        en: https://sc.ddbj.nig.ac.jp/advanced_guides/imputation_server/
+      image: img/service_assets/HumanDB.png
+      alt_title:
+        ja: TogoImputation
+        en: TogoImputation
