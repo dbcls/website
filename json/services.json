@@ -41,7 +41,7 @@
     "explanation_ja": "SNPアレイデータのインピュテーション解析を実施することができるサービスです。国立遺伝学研究所 生命情報・DDBJセンターと協力して運営しています。",
     "explanation_en": "The service to perform imputation analysis of SNP array data. Operated in cooperation with Bioinformation and DDBJ Center at NIG, ROIS.",
     "担当者": [
-      "minaex@dbcls.rois.ac.jp",
+      "minaex@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/TogoImputation_ja.md",
