@@ -13,7 +13,7 @@ The service to perform imputation analysis of SNP array data.
 The inputs to the Imputation workflow are the following two data sets.
 
 * Target genotype dataset: <br />
-　Genotype data from SNP arrays. It is intended to be uploaded to the server by yourself. The VCF file format is supported. (PLINK format is currently not supported)
+　Genotype data from SNP arrays. Users upload data to the server themselves. The VCF file format is supported. (PLINK format is currently not supported)
 
 * Reference panel dataset: <br />
 　Dataset contains the result of haplotype phasing. Eight ready-to-use reference panels are available.
