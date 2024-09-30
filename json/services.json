@@ -976,7 +976,7 @@
     "services_name_en": "UmakaYummy",
     "URL": "https://yummydata.org/",
     "explanation_ja": "SPARQLエンドポイントの機械的な評価を定期的に行います",
-    "explanation_en": "Umaka-Yummy Data monitors SPARQL endpoints in the Life Scinece domain and publishes the obtained data to facilitate knowledge sharing between database consumers and providers.",
+    "explanation_en": "Umaka-Yummy Data monitors SPARQL endpoints in the Life Science domain and publishes the obtained data to facilitate knowledge sharing between database consumers and providers.",
     "担当者": [
       "yy@dbcls.rois.ac.jp",
       "atsuko@dbcls.rois.ac.jp"
