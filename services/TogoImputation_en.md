@@ -2,7 +2,8 @@
  
 
 ### What is TogoImputation?
-The service to perform imputation analysis of SNP array data.
+The service to perform imputation analysis of SNP array data.<br />
+Operated in cooperation with Bioinformation and DDBJ Center at the National Institute of Genetics (NIG), ROIS.
 
 ### System Overview
 
