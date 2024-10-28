@@ -1,36 +1,41 @@
 # TogoID
 ## About TogoID
-TogoID is a web application that allows you to search and convert links between identifiers(IDs) of databases(DBs) in the life sciences. [https://togoid.dbcls.jp/](https://togoid.dbcls.jp/)
+TogoID is a web application that allows you to convert identifiers (IDs) across diverse databases (DBs) in the life sciences. [https://togoid.dbcls.jp/](https://togoid.dbcls.jp/)
 
 ## Features of TogoID
-- When you enter a list of IDs (up to thousands), DBs of conversion candidates are listed, and then you can convert them to the corresponding IDs. In addition to one-to-one ID conversion, it is also possible to convert including the route to the target DB.
-- TogoID provides the ability to retrieve converted IDs in various formats: 1. copy it to the clipboard for immediate use in other services, 2. get a list of converted IDs in text format, 3. get a list of converted IDs in a format that includes a link URL to the original DB, 4. get a list of converted IDs in CSV format that includes all of the conversion routes.
-- Links between databases is maintained by the [togoid-config](https://github.com/dbcls/togoid-config) which extracts a pair of identifiers from a SPARQL query for RDF data, database specific APIs, and the flat files of original data sources. See the "DATABASES" tab on the TogoID website for a list of supported databases.
-- As of July 2021, TogoID contains more than 150 ID pairs from more than 60 DBs(constantly expanding). By maintaining the metadata about the IDs in the target DB, the update method of ID pairs, and the update frequency, TogoID provides the latest information on the links between IDs.
+- When you enter or upload a list of IDs, the candidate DBs are listed, and then you can convert the IDs to IDs of other databases. The converted IDs can be subsequently converted to other IDs.
+- TogoID covers a wide range of categories of DBs such as gene, protein, variant, disease, pathway, chemical compound, structure, biological sample, cell line, publication, etc.
+- Users can not only convert between IDs within the same category, but also between IDs of different categories that are related in different biological meanings, such as "genes in which a variant is located" or "pathways in which a protein participates". The semantics of the relationship is organized in an ontology, and the meaning is displayed on the arrows connecting the DBs in the web UI.
+- The conversion results can be downloaded in CSV or TSV format or copied to the clipboard.
+- The ID pairs stored in the TogoID system are maintained by programs to collect the ID relations from original DBs. As of October 2024, more than 70 DBs are included.
+- The data is updated weekly, allowing users to refer to the most recent data for conversion.
+- Users can obtain the labels, such as gene symbols, for conversion result IDs. For some DBs, users can also convert labels to IDs.
+- The programs are managed in the GitHub repository TogoID-config (https://github.com/togoid/togoid-config). Anyone can send a pull request to add a method to obtain new ID pairs.
 - TogoID is also available as an API, which allows other applications to use it for ID conversion.
-    - Examples:
-        1. [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene&format=json)
-        2. [https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,ensembl_gene,uniprot&format=json)
-        3. [https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649](https://api.togoid.dbcls.jp/convert?format=json&include=pair&route=pubchem_compound,chebi,reactome_reaction,uniprot,ncbigene&ids=649)
+    - Example: [Convert NCBI Gene IDs to PDB IDs via UniProt IDs and obtain the result as JSON](https://api.togoid.dbcls.jp/convert?ids=5460,6657,9314,4609&route=ncbigene,uniprot,pdb&format=json&report=full)
 
 ## Screenshots
 
-### Exploratory ID conversion from top page (EXPLORE mode)
+### Exploratory ID conversion (EXPLORE mode)
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig1_20220520.jpg)
 
-### NAVIGATE mode which allows the user to specify the conversion target
+### Finds paths to connect the input to a target (NAVIGATE mode)
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig2_20220520.jpg)
 
 
 ### Results window for ID conversion
 
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig4_20220520.jpg)
+![Fig-4](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig4_20241025.jpg)
+
+### Convert labels to IDs (LABEL2ID)
+
+![Fig-5](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig5_20241025.jpg)
 
 ### DATASETS tab to view a list of datasets
 
-![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig3_20220520.jpg)
+![Fig-3](https://raw.githubusercontent.com/dbcls/website/master/services/images/TogoID_Fig3_20241025.jpg)
 
 
 ### References
