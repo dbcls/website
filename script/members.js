@@ -311,6 +311,13 @@ window.addEventListener('load', function () {
         $(charge_tag).remove()
       }
     })
+
+    $('.PIC').each(function () {
+      if ($(this).find('.member-list__services').text() === '') {
+        $(this).remove()
+      }
+    })
+
   })
 
   $(document).on('click', '#memberList li a', function () {
