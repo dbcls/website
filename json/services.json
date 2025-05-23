@@ -1247,7 +1247,7 @@
   },
   {
     "sorting order": 31,
-    "掲載": true,
+    "掲載": false,
     "DBCLSドメイン有・無": "org",
     "services_name_ja": "SPARQL Builder",
     "services_name_en": "SPARQLBuilder",
