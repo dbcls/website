@@ -1040,7 +1040,7 @@
   },
   {
     "sorting order": 25,
-    "掲載": true,
+    "掲載": false,
     "DBCLSドメイン有・無": "dbcls.jp",
     "services_name_ja": "TogoTable",
     "services_name_en": "TogoTable",
