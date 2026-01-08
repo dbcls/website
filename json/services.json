@@ -150,7 +150,6 @@
     "explanation_en": "A web application that allows you to search and convert links between identifiers(IDs) of databases(DBs) in the life sciences.",
     "担当者": [
       "sikeda@dbcls.rois.ac.jp",
-      "hono@dbcls.rois.ac.jp",
       "ktym@dbcls.jp"
     ],
     "A4チラシPDF": "",
@@ -389,7 +388,7 @@
     "explanation_ja": "バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイトです。",
     "explanation_en": "A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.",
     "担当者": [
-      "hono@dbcls.rois.ac.jp",
+      "mmorioka@dbcls.rois.ac.jp",
       "bono@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "https://drive.google.com/open?id=1dQsMxSCC4nh9OApup7Y-E31tvzKZNXt2",
@@ -703,7 +702,8 @@
     "explanation_ja": "患者の症状を入力するだけで、関連する希少・難治性疾患の候補を可能性が高い順に自動的にリストアップしてくれる医療者向け検索システムです。",
     "explanation_en": "A new phenotype-driven differential diagnosis system using the one million of case reports. ",
     "担当者": [
-      "fujiwara@dbcls.rois.ac.jp"
+      "fujiwara@dbcls.rois.ac.jp",
+      "shin@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "https://drive.google.com/open?id=1T3JdrUnOrQpYSKWLBTnEM3LeJM_mEwHQ",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/PubCaseFinder_ja.md",
@@ -737,7 +737,10 @@
     "explanation_ja": "NANDOは、難病の疾患分類を体系化した難病語彙集です。NanbyoDataは、NANDOを活用することで体系的に集約された国内外の難病関連情報を閲覧できる統合サイトです。",
     "explanation_en": "NanbyoData is an integrated website allowing users to access information related to intractable diseases in Japan and abroad, aggregated through the use of NANDO.",
     "担当者": [
-      "fujiwara@dbcls.rois.ac.jp"
+      "fujiwara@dbcls.rois.ac.jp",
+      "hosoda@dbcls.rois.ac.jp",
+      "shin@dbcls.rois.ac.jp",
+      "takatter@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "",
     "README_ja.md": "https://github.com/dbcls/website/blob/master/services/NanbyoData_NANDO_ja.md",
@@ -1529,6 +1532,7 @@
       "kwsm@dbcls.rois.ac.jp",
       "ktym@dbcls.jp",
       "minaex@dbcls.rois.ac.jp",
+      "moriya@dbcls.rois.ac.jp",
       "mitsuhashi@dbcls.rois.ac.jp"
     ],
     "A4チラシPDF": "",
