@@ -34,8 +34,7 @@ window.addEventListener('load', function () {
 
     for (var j = 1; j < data.length; j++) {
       if (
-        data[j][position_ja_order].match(/客員/) ||
-        data[j][position_ja_order].match(/外来/)
+        data[j][position_ja_order].match(/客員|外来|特命/)
       ) {
         listSubNav_collaborators +=
           '<li><a href="#' +
@@ -54,8 +53,7 @@ window.addEventListener('load', function () {
     }
     for (var j = 1; j < data.length; j++) {
       if (
-        data[j][position_ja_order].match(/客員/) ||
-        data[j][position_ja_order].match(/外来/)
+        data[j][position_ja_order].match(/客員|外来|特命/)
       ) {
         listSubNav_collaborators_en +=
           '<li><a href="#' +
@@ -142,7 +140,7 @@ window.addEventListener('load', function () {
         if (non_publish === 'Yes') {
           link_section = judgeExist(mail, 'btn-mail', 'Mail')
         }
-        if (position.match(/客員/) || position.match(/外来/)) {
+        if (position.match(/客員|外来|特命/)) {
           element_collaborators +=
             '<div class="content__member" id="' +
             name_ja +
