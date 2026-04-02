@@ -225,7 +225,7 @@ window.addEventListener('load', function () {
         if (non_publish === 'Yes') {
           link_section = judgeExist(mail, 'btn-mail', 'Mail')
         }
-        if (position.match(/Guest/) || position.match(/Visiting/)) {
+        if (position.match(/Guest|Visiting|Specially Appointed/)) {
           element_collaborators +=
             '<div class="content__member" id="' +
             name_en +
