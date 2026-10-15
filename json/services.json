@@ -2238,9 +2238,9 @@
     "掲載": false,
     "DBCLSドメイン有・無": "GitHub",
     "services_name_ja": "",
-    "services_name_en": "RDF summit",
-    "URL": "https://github.com/dbcls/rdfsummit",
-    "explanation_ja": "ゲノム表現の標準化など特定の目的にフォーカスした小規模かつ重点的なハッカソンです",
+    "services_name_en": "Graph Summit",
+    "URL": "https://github.com/dbcls/graphsummit",
+    "explanation_ja": "ゲノム表現の標準化など特定の目的にフォーカスした小規模かつ重点的なハッカソンです (旧名称  <a href=\"https://github.com/dbcls/graphsummit/wiki\">RDF summit</a>)",
     "explanation_en": "Small intensive hackathon for a focused topic such as standardization of genome representation.",
     "担当者": [
       "ktym@dbcls.jp"
@@ -2331,7 +2331,7 @@
     "User_2": false,
     "User_3": false,
     "User_4": false,
-    "Event掲載": true,
+    "Event掲載": false,
     "画像": "",
     "備考": "研究開発・イベントへ移す",
     "旧sorting order": ""
