@@ -70,21 +70,6 @@ items:
       ja: バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイト
       en: A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.
 
-  # ↓５個目の画像
-  - image:
-      ja: img/top_assets/about_ja_screenshot.jpeg
-      en: img/top_assets/about_en_screenshot.jpeg
-    logo: 
-    title:
-      ja: 関連機関との連携
-      en: Collaborations
-    url:
-      ja: https://dbcls.rois.ac.jp/about.html
-      en: https://dbcls.rois.ac.jp/about-en.html
-    description:
-      ja: DBCLSは、NBDC事業推進部およびDDBJと協力・連携しています
-      en: DBCLS collaborates with DDBJ and NBDC, JST
-
   # ↓６個目の画像
   - image:
       ja: img/top_assets/research_page_screenshot.jpeg
@@ -114,3 +99,18 @@ items:
     description:
       ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
       en: A web application for integrated exploration of human-related data.
+
+　# ↓５個目の画像
+  - image:
+      ja: img/top_assets/about_ja_screenshot.jpeg
+      en: img/top_assets/about_en_screenshot.jpeg
+    logo: 
+    title:
+      ja: 関連機関との連携
+      en: Collaborations
+    url:
+      ja: https://dbcls.rois.ac.jp/about.html
+      en: https://dbcls.rois.ac.jp/about-en.html
+    description:
+      ja: DBCLSは、NBDC事業推進部およびDDBJと協力・連携しています
+      en: DBCLS collaborates with DDBJ and NBDC, JST
