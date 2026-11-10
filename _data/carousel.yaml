@@ -100,7 +100,7 @@ items:
       ja: ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
       en: A web application for integrated exploration of human-related data.
 
-　# ↓５個目の画像
+　# 下以降は表示されませんので、予備として保存しても構わないです（元5個目）。
   - image:
       ja: img/top_assets/about_ja_screenshot.jpeg
       en: img/top_assets/about_en_screenshot.jpeg
