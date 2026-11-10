@@ -69,19 +69,6 @@ items:
     description:
       ja: バイオインフォマティクスツールとデータベースの動画教材・資料および生命科学イラストのためのポータルサイト
       en: A web portal offering an array of video-based learning resources on bioinformatics tools, databases, and life science illustrations.
-      
-  # ↓５個目の画像
-  - image:
-      ja: img/top_assets/about_ja_screenshot.jpeg
-      en: img/top_assets/about_en_screenshot.jpeg
-    logo: 
-    title:
-      ja: 関連機関との連携
-      en: Collaborations
-    url:
-      ja: https://dbcls.rois.ac.jp/about.html
-      en: https://dbcls.rois.ac.jp/about-en.html
-    description:
 
   # ↓６個目の画像
   - image:
