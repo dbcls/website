@@ -82,9 +82,8 @@ items:
       ja: https://dbcls.rois.ac.jp/about.html
       en: https://dbcls.rois.ac.jp/about-en.html
     description:
-      ja: DBCLSは、NBDC事業推進部およびDDBJと協力・連携しています
-      en: DBCLS collaborates with DDBJ and NBDC, JST
-
+      ja: DBCLSはDDBJとともに国立遺伝研内のBSIに移行し、NBDC事業推進室と協力・連携しています
+      en: DBCLS has relocated to the BSI in NIG along with DDBJ and is collaborating and coordinating with Office of NBDC Program, JST.
   # ↓６個目の画像
   - image:
       ja: img/top_assets/research_page_screenshot.jpeg
